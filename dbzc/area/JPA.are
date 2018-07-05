@@ -1,0 +1,1674 @@
+#AREA   Junction Point Alpha~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+1 65 1 65
+$
+
+#SPELLLIMIT 0
+#FLAGS
+1
+
+#CONTINENT continent1~
+
+#ECONOMY 0 138905798
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#250
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#252
+A Trainer~
+A Trainer~
+A trainer stands here with his arms crossed.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+say Hello, $n.
+say Ready for your lessons?
+endif
+~
+|
+#253
+Test Mob~
+a newly created Test Mob~
+Some god abandoned a newly created Test Mob here.
+~
+~
+1073741825 0 C
+1 0 0 0d0+0 0d0+0
+0 50000
+112 112 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 253
+~
+|
+#254
+A shopkeeper~
+A shopkeeper~
+A shopkeeper stands here with his arms crossed.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#295
+Kami~
+Kami~
+Kami, the protector of the Earth, is here teaching Chikara to all those who lost it.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> speech_prog p chikara1~
+if pl($n) >= 250000001
+mppractice $n 'chikara 1' 100
+endif
+~
+> speech_prog p chikara2~
+if pl($n) >= 55000000
+mppractice $n 'chikara 2' 100
+endif
+~
+> speech_prog p chikara3~
+if pl($n) >= 75000000
+mppractice $n 'chikara 3' 100
+endif
+~
+> speech_prog p chikara4~
+if pl($n) >= 77000000
+mppractice $n 'chikara 4' 100
+endif
+save
+~
+> speech_prog p chikara5~
+if pl($n) >= 125000000
+mppractice $n 'chikara 5' 100
+endif
+~
+|
+#296
+Porunga~
+&GPorunga&w~
+&GPorunga, Namek's Dragon is here awaiting your wishes.
+~
+~
+67108867 -1000 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p I wish for the Power of the Gods~
+mpgivepl $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Wealth of the Gods~
+mpgivegold $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Rage of the Gods~
+mpgiverage $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Biomass of the Gods~
+mpgivebio $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Armor of the Gods~
+mpgivearmor $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Weapon of the Gods~
+mpgiveweapon $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+|
+#297
+Evil Shenlong~
+&REvil Shenlong&w~
+&RShenlong, is here awaiting your wishes.
+~
+~
+67108867 -1000 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p I wish for the Power of the Gods~
+mpgivepl $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Wealth of the Gods~
+mpgivegold $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Rage of the Gods~
+mpgiverage $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Biomass of the Gods~
+mpgivebio $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Armor of the Gods~
+mpgivearmor $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Weapon of the Gods~
+mpgiveweapon $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Blessing of the Gods~
+mpgivebless $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+|
+#298
+Good Shenlong~
+Shenlong~
+Shenlong, is here awaiting for your wish.
+~
+~
+67108867 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> speech_prog p I wish for the Power of the Gods~
+mpgivepl $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Wealth of the Gods~
+mpgivegold $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Rage of the Gods~
+mpgiverage $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Biomass of the Gods~
+mpgivebio $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Armor of the Gods~
+mpgivearmor $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+> speech_prog p I wish for the Weapon of the Gods~
+mpgiveweapon $n
+say Your wish has been granted.
+mpecho _yel The dragon flashes before your eyes as he dissappears in a blinding light.
+mpecho _whi The dragonballs become once again useless stones and are scattered across the Earth.
+mpgoto 69
+say I am ready to go.
+~
+|
+#299
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#250
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+> custom_prog kirestore~
+mprestore nemesis 10000
+~
+|
+#252
+A Body Armor~
+A Body Armor~
+A Body Armor has been left here.~
+~
+9 0 528745
+25 25 0 0
+1 1 0
+#253
+One Star Dragonball~
+&COne &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with one &Rred&C star is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#254
+Two Star Dragonball~
+&CTwo &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with two &Rred&C stars is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#255
+Three Star Dragonball~
+&CThree &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with three &Rred&C stars is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#256
+Four Star Dragonball~
+&CFour &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with four &Rred&C stars is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#257
+Five Star Dragonball~
+&CFive &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with five &Rred&C stars is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#258
+Six Star Dragonball~
+&CSix &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with six &Rred&C stars is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#259
+Seven Star Dragonball~
+&CSeven &RStar&C Dragonball&w~
+&CA large &Oorange&C sphere with seven &Rred&C stars is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#260
+One Star Dragonball~
+&OOne Star Dragonball&w~
+A small orange sphere with one red star is here.~
+~
+68 0 1
+0 0 0 0
+1 0 0
+#261
+Two Star Dragonball~
+&OTwo Star Dragonball&w~
+A small orange sphere with two red stars is here.~
+~
+68 0&20 1
+0 0 0 0
+1 0 0
+#262
+Three Star Dragonball~
+&OThree Star Dragonball&w~
+A small orange sphere with three red stars is here.~
+~
+68 0&20 1
+0 0 0 0
+1 0 0
+#263
+Four Star Dragonball~
+&OFour Star Dragonball&w~
+A small orange sphere with four red stars is here.~
+~
+68 0&20 1
+0 0 0 0
+1 0 0
+#264
+Five Star Dragonball~
+&OFive Star Dragonball&w~
+A small orange sphere with five red stars is here.~
+~
+68 0&20 1
+0 0 0 0
+1 0 0
+#265
+Six Star Dragonball~
+&OSix Star Dragonball&w~
+A small orange sphere with six red stars is here.~
+~
+68 0&20 1
+0 0 0 0
+1 0 0
+#266
+Seven Star Dragonball~
+&OSeven Star Dragonball&w~
+A small orange sphere with seven red stars is here.~
+~
+68 0&20 1
+0 0 0 0
+1 0 0
+#270
+One Star Black-Dragonball~
+&zOne Star Black-Dragonball&w~
+&zA &Oorange&z sphere with one &Rred&z star has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#271
+Two Star Black-Dragonball~
+&zTwo Star Black-Dragonball&w~
+&zA &Oorange&z sphere with two &Rred&z stars has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#272
+Three Star Black-Dragonball~
+&zThree Star Black-Dragonball&w~
+&zA &Oorange&z sphere with three &Rred&z stars has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#273
+Four Star Black-Dragonball~
+&zFour Star Black-Dragonball&w~
+&zA &Oorange&z sphere with four &Rred&z stars has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#274
+Five Star Black-Dragonball~
+&zFive Star Black-Dragonball&w~
+&zA &Oorange&z sphere with five &Rred&z stars has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#275
+Six Star Black-Dragonball~
+&zSix Star Black-Dragonball&w~
+&zA &Oorange&z sphere with six &Rred&z stars has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#276
+Seven Star Black-Dragonball~
+&zSeven Star Black-Dragonball&w~
+&zA &Oorange&z sphere with seven &Rred&z stars has been dropped here.&w~
+~
+72 0&20 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if pl($n) < 5000000
+mea $n _ora You cannot pick those up!
+mpforce $n drop dragonball
+endif
+~
+|
+#280
+Extra Small Condom~
+An Extra-Small Sized Condom~
+An extra-small sized condom has been left here.~
+~
+9 0 17
+30 30 0 0
+1 20 2
+#281
+small condom~
+A Small Sized Condom~
+A small sized condom has been left here.~
+~
+9 0 17
+30 30 0 0
+1 20 2
+#282
+Medium Sized Condom~
+A Medium Sized Condom~
+A medium sized condom has been left here.~
+~
+9 0 17
+30 30 0 0
+1 20 2
+#283
+Large Sized Condom~
+A Large Sized Condom~
+A large sized condom has been left here.~
+~
+9 0 17
+30 30 0 0
+1 20 2
+#284
+Extra-Large Sized Condom~
+An Extra-Large Sized Condom~
+An extra-large sized condom has been left here.~
+~
+9 0 17
+30 30 0 0
+1 20 2
+#290
+Player Restore Voucher~
+Player Restore Voucher~
+Some god dropped a newly created Player Restore Voucher here.~
+~
+5 0 1
+0 0 0 0
+1 1000000 100000
+#292
+Flaming Flamberge~
+&z[&BShining&z] &WThe Legendary &RF&rlaming &BF&blamberge&w~
+The sword  of the dragon has been dropped here.~
+~
+5 0 8193
+0 130 61 2 0 1
+2010 0 0
+#293
+Mythril Body Armor~
+&z[&BShining&z] &RM&rythril &RF&rorged &RB&rreastplate&w~
+The body armor of the dragon has been dropped here.~
+~
+9 0 9
+1 125 0 2
+8120 0 0
+#294
+Legendary Sword~
+&z(&REternal&z) &zL&Wegendary &zS&Wword of the &zD&Wragon&w~
+The legendary sword of the dragon has been dropped here.~
+~
+5 0 8193
+0 79 41 1 0 1
+1450 0 0
+#295
+Legendary Body Armor~
+&z(&REternal&z) &zL&Wegendary &zB&Wody &zA&Wrmor of the &zD&Wragon&w~
+The legendary body armor of the dragon has been dropped here.~
+~
+9 0 9
+1 97 0 1
+8420 0 0
+#296
+Double-Edged Katana~
+&z(&YGodly&z) &rD&Rouble&W-&rE&Rdged &zK&Watana&w~
+The legendary sword of the dragon has been dropped here.~
+~
+5 0&20 8193
+0 180 150 4 0 1
+1320 0 0
+#297
+Dragonscale Body ARmor~
+&z(&YGodly&z) &gD&Gragon&W-&gS&Gcaled &zB&Wody &zA&Wrmor&w~
+The dragon-scale body armor of the dragon has been dropped here.~
+~
+9 8192&20 9
+0 129 0 4
+4300 0 0
+#298
+A Purple Scouter~
+&zA &pPurple&z Scouter~
+&zA &pPurple&z Scouter has been left here.~
+~
+65 0 131073
+0 0 0 0
+1 1000 100
+#299
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#250
+First Room~
+~
+0 4 0 0
+S
+#251
+Junction Point Alpha~
+Welcome to Jpa, the center of the world, where fighter
+and all come to relax, meet and get places. From here
+you can access the spaceport to the west, and go through
+the learning center on to the capsule corp jump gates.
+Catching your attention noise can be heard from the east.
+
+&RTo go back to the auth station say&r: &O"&Yauth station&O"
+~
+0 4 1 336
+D0
+~
+~
+0 -1 252 0 0 0
+D1
+~
+~
+0 -1 288 0 0 0
+D3
+~
+~
+0 -1 316 0 0 0
+D6
+~
+~
+0 -1 6951 0 0 0
+E
+east~
+&z==============================================
+
+&YIt seems to the east, its a street with many
+houses and building scattered aside of them.
+
+&z==============================================
+~
+E
+west~
+&z==============================================
+
+&YIt seems to the west, its a spaceport
+and there seems to be a spaceport guard also.
+
+&z==============================================
+~
+E
+north~
+&z==============================================
+
+&YIt seems to the north, its a long and wide
+hallway. It seems to be a some sort of facility
+
+&z==============================================
+~
+E
+sign~
+&z====================================
+
+&BNorth: &YTowards the Planets
+&BSouth: &YBank
+&BEast: &YResidential Zone
+&BWest: &YJPA Spaceport
+&BSouthwest: &YThe JPA Shop
+&BNortheast: &YJPA Hotel and Casino.
+
+&z====================================
+~
+> speech_prog p auth station~
+mea $n &CYou are engulfed by a blue light.
+mer $n &C$n is engulfed by a blue light.
+mptransfer $n 306
+mpat $n mpforce $n look
+~
+|
+S
+#252
+A hallway~
+The long rectangular hallway, streamed with lights iluminating it along
+each wall of it. As you look around, it appears that you have no choice
+but to keep going north. There seems to be a large building waiting for
+you at the end. The portal to the south is basicly a large circle that has
+a silver liquid which is flowing frequently.  
+ 
+To continue type: 'North'
+~
+0 0 1 0
+D0
+~
+~
+0 -1 253 0 0 0
+D2
+~
+~
+0 -1 251 0 0 0
+> entry_prog 100~
+if wasinroom($n) == 251
+mea $n &WAs you walk through the portal, you find yourself inside a hallway.
+endif
+if wasinroom($n) == 253
+mea $n &WThe strange liquid of the portal continues to flow...
+endif
+~
+|
+S
+#253
+Entrance to the Newbie Complex~
+You now stand before two large doors which have an engraving above it.
+Its a small complex now that you look at it from this perspective. The
+large doors open slowly as if they were reading your mind. The engraving
+above the doors read: "Only by training, you will unlock your true power".
+ 
+To continue into the complex type 'north'
+~
+0 0 1 0
+D0
+~
+~
+0 -1 254 0 0 0
+D2
+~
+~
+0 -1 252 0 0 0
+> speech_prog p test~
+mpat seventeen mptransfer seventeen 100
+~
+|
+S
+#254
+Inside the Newbie Complex~
+Upon entering the room you look around to see computer terminals, and
+blinking lights around you. There is a hologram to your left that has some
+words that is displaying, they read: All movement is based on the compass
+directions.  You can go North, South, East West, Northeast(NE),
+Southwest(SW), Southwest(SE), Northwest(NW), Up, and Down.  To move in one
+of these directions, simply type the direction you wish to move in (I.E,
+North or N for north, South or S for south, etc).  Well, now that we've
+covered the basics, go north and meet your next teacher."  With that being
+said, he bows and disappears in a brilliant display of light. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 255 0 0 0
+D2
+~
+~
+0 -1 253 0 0 0
+S
+#255
+Between Lesson Rooms~
+You find yourself between all the rooms which teach different lessons that
+are very helpful in this MUD. The hallway seems to be the same size and it
+has the same ilumination of the rest of it. You find yourself on the
+middle of the Newbie Complex. There is a &Yhologram&D which is displayed
+in the middle of the room.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 268 0 0 0
+D1
+~
+~
+0 -1 256 0 0 0
+D2
+~
+~
+0 -1 254 0 0 0
+D3
+~
+~
+0 -1 257 0 0 0
+D4
+~
+~
+0 -1 258 0 0 0
+D5
+~
+~
+0 -1 259 0 0 0
+E
+hologram~
+&x.&z
+&z=============================================================================
+ 
+&REast&r:  &CUses of the Score Command.&w
+&RWest&r:  &CHow to Practice your skills.&w
+&RDown&r:  &CAbout all the races.&w
+&RNorth&r: &CTransporters.&w
+ 
+&z=============================================================================
+~
+S
+#256
+How to Practice~
+As you enter the room, the only thing you notice is the large hologram that
+activates as the computer sensed your movement. The hologram reads as the
+following: Practicing skills: Type Slist and you will get a list of the
+skills you can learn and what powerlevel you need to practice them. Typing
+practice will inform you of what skills you know, and how proficient you
+are at them. To learn a skill out of a trainer, just type Practice <Skill>
+and you will automatically learn them, but you will need to train them on your
+own if you want to success everytime you use them.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 255 0 0 0
+S
+#257
+Score Command~
+As you enter the room, the only thing you notice is the large hologram that
+activates as the computer sensed your movement. The hologram reads as the
+following: Using the Score command: By typing "Score" it will inform you
+of your race, energy, lifeforce, powerlevel, blessscore, attributes, gold,
+and other things that will be helpful to play on this MUD. Like age and
+hours you have played. And other things like your current position, fighting
+style and your PKILL data once you reached a certain PL.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 255 0 0 0
+S
+#258
+Speech Therapy Room~
+As you walk into this room you see the same motif that you saw earlier.
+Various monitors are displayed along the walls, and an intercom playing
+annoying elevator music are all around you.  As you come to the center of
+the room, a fairly new looking android walks up to you and begins to talk
+to you.  He says "So you've made it this far.  I am surprised that such an
+inferior creature has lasted this long.  Although it is against my better
+judgement, i will teach you how to converse with the rest of the world. 
+To talk to those within the same room as you, use the say command (typing
+say <message> will say something).  There are other channels that you can
+master, all of which involve typing the channel name, and then your
+message.  There is the chat channel, shout, war, racetalk and newbiechat
+(for newbie questions).  Should you find any bugs in the MUD feel free
+to use bug <message> to inform the DBZ Blitz Staff.  I think i have taught
+you enough to function properly."  With that said he walks off. 
+~
+0 4 0 0
+D5
+~
+~
+0 -1 255 0 0 0
+S
+#259
+Between Race Information Rooms~
+Upon entering of the room, you watch all the different race choices
+that you can pick. Up from here, will take you back to the Newbie Complex.
+There is a &Yhologram&D displaying in the center of the room showing
+the different rooms of each race. You should take a look at it so it
+can be easier to enter the race of your choice.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 260 0 0 0
+D1
+~
+~
+0 -1 262 0 0 0
+D2
+~
+~
+0 -1 261 0 0 0
+D3
+~
+~
+0 -1 263 0 0 0
+D4
+~
+~
+0 -1 255 0 0 0
+D6
+~
+~
+0 -1 264 0 0 0
+D7
+~
+~
+0 -1 265 0 0 0
+D8
+~
+~
+0 -1 266 0 0 0
+D9
+~
+~
+0 -1 267 0 0 0
+E
+hologram~
+&x.&z
+&z=============================================================================
+ 
+&RNorth&r: &CNamek&w 
+&REast&r:  &CHuman&w
+&RSouth&r: &CHalfbreed&w 
+&RWest&r:  &CSaiyan&w
+&RNE&r:    &CAndroid&w
+&RNW&r:    &CIcer&w
+&RSE&r:    &CMutant&w
+&RSW&r:    &CBiodroid&w  
+ 
+&z=============================================================================
+~
+S
+#260
+Namek Information Room~
+~
+0 4 1 0
+D2
+~
+~
+0 -1 259 0 0 0
+S
+#261
+Half-Breed Information Room~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 259 0 0 0
+S
+#262
+Human Information Room~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 259 0 0 0
+S
+#263
+Saiyan Information Room~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 259 0 0 0
+S
+#264
+Android Information Room~
+~
+0 0 1 0
+D9
+~
+~
+0 -1 259 0 0 0
+S
+#265
+Icer Information Room~
+~
+0 0 1 0
+D8
+~
+~
+0 -1 259 0 0 0
+S
+#266
+Mutant Information Room~
+~
+0 0 1 0
+D7
+~
+~
+0 -1 259 0 0 0
+S
+#267
+Bio-Android Information Room~
+~
+0 0 1 0
+D6
+~
+~
+0 -1 259 0 0 0
+S
+#268
+Below the Training Facility~
+Walking down the hallway, you notice a small spiral case that leads upwards
+from the hallway. It looks like that up there, all the combat training
+goes on. Since you can hear all the fighting sounds from where you are
+standing. As you look to your north, you notice that its the transporter zone.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 271 0 0 0
+D2
+~
+~
+0 -1 255 0 0 0
+D4
+~
+~
+0 -1 269 0 0 0
+S
+#269
+Combat Training Facility~
+As you enter this room, you see a completely different looking room.  It
+resembles a lush green field of grass and flowers.  As you spin around and
+look at your surroundings you notice a large ring in the middle of the field.
+As you walk to the ring you see a large strong Saiyan, apparently awaiting
+your arrival.  Once you step into the ring, he tells you that this is your
+last lesson to learn, and to prepare for a fight.  When you are ready
+type 'nod' to begin your battle.
+As you prepare for your battle, a vortex appears above you and a rope drops
+down from the vortex, allowing you to go through it
+ 
+To fight the Saiyan, type 'Kill <target>'  In this case it would be Kill Saiyan
+~
+0 0 1 0
+D0
+~
+~
+0 -1 280 0 0 0
+D1
+~
+~
+0 -1 282 0 0 0
+D2
+~
+~
+0 -1 281 0 0 0
+D3
+~
+~
+0 -1 283 0 0 0
+D4
+~
+~
+0 -1 270 0 0 0
+D5
+~
+~
+0 -1 268 0 0 0
+S
+#270
+Portal to Junction Point Alpha~
+As you climb out of the vortex, you see a swirling portal floating in
+space. There seems to be a purple mist seeping out of the vortex.  The
+ 
+*Using the save command you can save your characters progress.  This
+command is crucial as if something happens to the server, you may be
+reverted to the state that you were at when you last typed save.  So SAVE
+OFTEN!* 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 251 0 0 0
+D5
+~
+~
+0 -1 269 0 0 0
+S
+#271
+&YEntrance To Capsule Corp Jump Gates~
+At the end of the hallway, you notice that you are between of what it seems
+to be the transporter rooms. These transporters will most likely transfer
+you to the different planets they exist on this universe. Once you are
+transported, you are able to get back to this place by activating them
+from the other side.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 284 0 0 0
+D1
+~
+~
+0 -1 272 0 0 0
+D2
+~
+~
+0 -1 268 0 0 0
+D3
+~
+~
+0 -1 273 0 0 0
+S
+#272
+Between Transporter Halls~
+Walking through the jump gate area, people scurry to and from 
+many diffrent halls where bright blue flashing lights can be
+seen above each hall there is a sign stating where the destination
+is. Capsule Corp logs can be seen hanging from banners above your
+head.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 274 0 0 0
+D1
+~
+~
+0 -1 275 0 0 0
+D2
+~
+~
+0 -1 276 0 0 0
+D3
+~
+~
+0 -1 271 0 0 0
+D4
+~
+~
+0 -1 285 0 0 0
+E
+sign~
+&z=====================================================================
+ 
+&wNorth &Y- &WPlanet Namek Transporter
+&wSouth &Y- &WPlanet Vegeta Transporter
+&wEast  &Y- &WPlanet Myuutanto Transporter
+ 
+&z=====================================================================
+~
+S
+#273
+Between Transporter Halls~
+Walking through the jump gate area, people scurry to and from 
+many diffrent halls where bright blue flashing lights can be
+seen above each hall there is a sign stating where the destination
+is. Capsule Corp logs can be seen hanging from banners above your
+head.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 277 0 0 0
+D1
+~
+~
+0 -1 271 0 0 0
+D2
+~
+~
+0 -1 278 0 0 0
+D3
+~
+~
+0 -1 279 0 0 0
+E
+sign~
+&z=====================================================================
+ 
+&wNorth &Y- &WAndroid Station Transporter&w
+&wWest  &Y- &WPlanet Freezar&w
+&wSouth &Y- &WGerok Planet Transporter&w
+ 
+&z=====================================================================
+~
+S
+#274
+Planet Namek Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Namek Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 272 0 0 0
+R O 0 32 1 274
+> custom_prog startup transporter~
+If race($n) == namek
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 8060
+Mpat $n &Cmer $n $n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+~
+|
+S
+#275
+Planet Myuutanto Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Myuutanto Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 272 0 0 0
+R O 0 32 1 275
+> custom_prog Startup Transporter~
+If race($n) == mutant
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 801
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+~
+|
+S
+#276
+Planet Vegeta Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Vegeta Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 272 0 0 0
+R O 0 32 1 276
+> custom_prog Startup Transporter~
+If race($n) == saiyan
+or race($n) == halfbreed
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 501
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+save
+~
+|
+S
+#277
+Android Station Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Android Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 273 0 0 0
+R O 0 32 1 277
+> custom_prog Startup Transporter~
+If race($n) == android
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 902
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+~
+|
+S
+#278
+Gerok Planet Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Gerok Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 273 0 0 0
+R O 0 32 1 278
+> custom_prog Startup Transporter~
+If race($n) == biodroid
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 8152
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+~
+|
+S
+#279
+Planet Freezar Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Freezar Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 273 0 0 0
+R O 0 32 1 279
+> custom_prog Startup Transporter~
+If race($n) == icer
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 7302
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+~
+|
+S
+#280
+The Trainers Room~
+The room is somewhat well maintained and has adequate lighting for what
+goes on here. Oddly, there are no windows nor doors in this room. The room
+is designed as a large square with a tall, muscular man standing calmly in
+the middle. In each of the four corners of the room is a small ring where
+one can train and practice their newly aquired skills. 
+~
+0 0 1 64
+D2
+~
+~
+0 -1 269 0 0 0
+R M 0 252 1 280
+S
+#281
+Sparring Chambers~
+This room is completely blank, its white tiles are made out of strong
+resistant tiles. The only exit available is the one to your north, which
+is the way you came in here. This room, is specialized since you can
+spar other players and just stun them, not kill them.
+ 
+&Y***&R Do not use Energy Attacks while sparring in this room. &Y***
+~
+0 0 1 2
+D0
+~
+~
+0 -1 269 0 0 0
+S
+#282
+Healing Chamber~
+Entering the room, you first notice that is complete dark, this helps the
+wounded who are inside the healing chamber, sleeping, able to recover
+faster than normal, so they can get back in action. There are some
+first-aid kits attached to the walls, and there are many chambers in lines
+scattered across the room. 
+~
+0 0 1 1
+D3
+~
+~
+0 -1 269 0 0 0
+S
+#283
+Gravity Room~
+Entering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+ 
+&R*** &YTraining Higher than you should, will result in death. &R***
+~
+0 0 1 4
+D1
+~
+~
+0 -1 269 0 0 0
+S
+#284
+Planet Earth Transporter~
+Entering a rather arge grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Earth Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+
+&YType&O: &RStartup Transporter&D, if you want to use it.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 271 0 0 0
+R O 0 32 1 284
+> custom_prog Startup Transporter~
+mpat $n mea $n 
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n mea $n &CA burst of blue light explodes from the transporter and takes you away.
+mpat $n mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+mptransfer $n 6919
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+~
+|
+S
+#285
+Planet Buutopia Transporter~
+Entering a rather large grey room standing before a small platform,
+a machine upon it beeps from time to time labeled "Buutopia Transporter",
+and there seems that there is no other exit, other than the one you came
+into this large room.
+&YType&O: &RStartup Transporter&g, if you want to use it.
+~
+0 1073741824 1 0
+D5
+~
+~
+0 -1 272 0 0 0
+> custom_prog Startup Transporter~
+If race($n) == Buu
+mpat $n mea $n
+mpat $n mea $n &BYou hit the button.
+mpat $n mer $n &Bn hits a button.
+Mpsleep 4
+Mpecho &CThe Transporter Begins To Power Up.
+Mpsleep 13
+mpat $n &Cmea $n A burst of blue light explodes from the transporter and takes you away.
+mpat $n &Cmer $n A burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 2802
+Mpat $n mer $n &Cn arrvies in a burst of blue light.
+Mpat $n mpforce $n look
+else
+mpat $n mea $n
+mpat $n mea $n &BYou hit a button.
+mpat $n mer $n &B$n hits a button.
+Mpecho &RThe Transporter Alerts "Access Denied".
+endif
+~
+|
+S
+#286
+The JPA Shop~
+~
+0 1028 1 0
+R M 0 254 1 286
+  R G 1 146 1
+  R G 1 149 1
+  R G 1 147 1
+  R G 1 148 1
+S
+#287
+International Bank~
+Upon entering, you notice all kinds of people, depositing their
+gold coins.There are many desks scattered across, and there
+is a counter that goes from side to side, with many bank tellers
+behind it, and some behind their desks. You see that this bank
+is fulled with people of different races.
+~
+0 4 1 16
+S
+#288
+Library and Common Room~
+You find yourself inside the common room of JPA. Here, people
+come and relax their thoughts and opinions. There are many couches
+scattered across the room, and there seems to be a stage set
+up to the front of the room. There also seems to be a bar with
+its barkeeper selling drinks to players.
+~
+0 1073741824 1 524289
+D3
+~
+~
+0 -1 251 0 0 0
+S
+#299
+Last Room~
+~
+0 4 0 0
+R M 0 250 1 299
+R M 0 299 1 299
+R O 0 299 1 299
+R O 0 250 1 299
+S
+#0
+
+
+#SHOPS
+ 253    0  0  0  0  0   120  90         0 23    ; a newly created Test Mob
+ 254    0  0  0  0  0   120  90         0 23    ; A shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

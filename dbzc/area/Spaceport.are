@@ -1,0 +1,1195 @@
+#AREA   JPA Spaceport~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+1 65 1 65
+$
+
+#SPELLLIMIT 0
+#FLAGS
+1
+
+#CONTINENT continent1~
+
+#ECONOMY 0 34384729
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#316
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#317
+The Spaceport Guard~
+The Guard~
+The spaceport guard stands here with his arms crossed making sure nothing goes wrong.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+25000 1500000000
+112 112 1
+33 25 23 25 23 23 25
+0 0 0 0 0
+1 0 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 317
+~
+|
+#318
+The Spaceport Officer~
+The Officer~
+The spaceport officer stands here looking for anything suspicious.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+50000 2000000000
+112 112 1
+36 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 318
+~
+> greet_prog 100~
+if isneutral($n)
+say You need to be either evil or good to enter this area.
+mptransfer $n 317
+mpat $n mpforce $n look
+mpat $n mpechoaround $n $n arrives from the west.
+endif
+~
+|
+#319
+A guard~
+A guard~
+A Guard stands here with his arms crossed.
+~
+~
+67108867 0 C
+1 0 0 0d0+0 0d0+0
+30000 1500000000
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 319
+~
+> act_prog p arrives from the south.~
+say Hello! Great times! Plantary shuttles is open again.
+~
+|
+#320
+a short fat man~
+A Short Fat Man~
+A Short Fat Man stands here.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 5000
+112 112 1
+Z
+none~
+> act_prog p arrives from the south.~
+Say Hello welcome to the restored Planatary Shuttles.
+mpsleep 4
+say If you'ed like a ride, it's be 5000 coins.
+mpsleep 4
+smile
+~
+> act_prog p arrives from the north.~
+say Thank you for using our services.
+~
+> bribe_prog 5000~
+say Thank you, you may proccede.
+mer $n A automatic door opens to the north and $n walks through it. 
+mea $n You walk north.
+mptransfer $n 342
+mpat $n force $n look
+~
+> act_prog p flies in from the south.~
+Say Hello welcome to the restored Planatary Shuttles.
+mpsleep 4
+say If you'ed like a ride, it's be 5000 coins.
+mpsleep 4
+smile
+~
+> act_prog p flies in from the north.~
+say Thank you for using our services.
+~
+|
+#399
+Last Obj~
+a newly created Last Obj~
+Some god abandoned a newly created Last Obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#316
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#399
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#316
+Entrance to the Spaceport~
+As you enter the spaceport, you notice the buff guard that stands here
+checking for weaklings and to keep them out of harm. The spaceport is just
+up north from here. The portal to the east, looks the same as the rest of
+them. You can see many people walking around the spaceport doing what they
+are supposed to do. 
+~
+0 8 1 256
+D0
+~
+~
+0 -1 317 0 0 0
+D1
+~
+~
+0 -1 251 0 0 0
+R M 0 317 1 316
+> entry_prog 100~
+if wasinroom($n) == 251
+mea $n As you walk through the portal, you find yourself inside the Spaceport
+endif
+if wasinroom($n) == 317
+mea $n The strange liquid of the portal continues to flow...
+endif
+~
+> entry_prog 100~
+if pl($n) <= 4999999
+mpforce guard say Your power is too weak, $n.
+mpechoaround $n $n leaves east.
+mpechoat $n You leave east.
+mptransfer $n 251
+mpat $n mpforce $n look
+mpat 251 mpechoaround $n $n arrives from the west.
+endif
+~
+|
+S
+#317
+Middle of the Hallway~
+The hallway continues to different directions on which they diverge
+on this very point. The hallway divides to the north, east, west and
+to the south. You notice another guard to the west from where you
+are standing. To the north, it seems that the Planetary Shuttles
+is located.
+~
+0 8 1 0
+D0
+~
+~
+0 -1 333 0 0 0
+D1
+~
+~
+0 -1 318 0 0 0
+D2
+~
+~
+0 -1 316 0 0 0
+D3
+~
+~
+0 -1 320 0 0 0
+S
+#318
+Inside a Brightly Lit Hallway~
+Walking along this side of the hallway, you notice the signs above the
+different gates from this part. It seems that this part is specialized in
+the fighting schools and the miscellanous planets. To the north, you see
+that the sign reads "&YGFS&D" which probably stands for Good Fighting
+School.  And to the south, the sign reads: "&YEFS&D" which probably stands
+for Evil Fighting School.
+~
+0 8 1 256
+D0
+~
+~
+0 -1 322 0 0 0
+D1
+~
+~
+0 -1 351 0 0 0
+D2
+~
+~
+0 -1 321 0 0 0
+D3
+~
+~
+0 -1 317 0 0 0
+S
+#319
+Ghetti Gate [Dock 1]~
+This gate is given to the shuttle for the Ghetti Planet. There are rumors
+that around Planet Ghetti, you can find a trainer which can teach you the
+secrets of powerful techniques. It is also rumored that at Ghetti, they
+develop the sensu beans and that they also hold many tournaments.
+~
+0 8 1 0
+D3
+~
+~
+0 -1 351 0 0 0
+S
+#320
+Towards the HQ Shuttles~
+Walking along this side of the hallway, you notice the signs above the
+different gates. It seems that this part has been made specially for those
+shuttles that travel from the Spacport towards the different clan
+headquarters. 
+ 
+&R*** &YUnclanned and Unaligned are not allowed on HQs &R***
+~
+0 8 1 256
+D0
+~
+~
+0 -1 323 0 0 0
+D1
+~
+~
+0 -1 317 0 0 0
+D2
+~
+~
+0 -1 324 0 0 0
+D3
+~
+~
+0 -1 325 0 0 0
+R M 0 318 1 320
+S
+#321
+EFS Shuttle Gate [Dock 3]~
+Upon entering of this gate, you clearly notice all of the people that are
+standing here, they look really warlike fighters, and it seems that they
+just want to gain more power, just to cause harm and destruction on
+anything and everything on their path. 
+~
+0 8 1 0
+D0
+~
+~
+0 -1 318 0 0 0
+S
+#322
+GFS Shuttle Gate [Dock 2]~
+Upon entering of this gate, you clearly notice all of the people that are
+standing here, look really peaceful and they have self-control over their
+power. Also, you can deduce that all they want is to be able to help
+others and to succeed in life. 
+~
+0 8 1 0
+D2
+~
+~
+0 -1 318 0 0 0
+S
+#323
+MHQ Shuttle Gate [Dock 4]~
+Upon entering of the room, you notice that all the people that stand here,
+feel a sort of evil feeling deep inside of them. This gate is well used by
+everyone that belongs to the clan of Majin Dynasty, lead by the Great
+Android Seventeen. 
+~
+0 -2147483640 1 0
+D2
+~
+~
+0 -1 320 0 0 0
+S
+#324
+ZFHQ Shuttle Gate [Dock 5]~
+Upon entering of the room, you notice that all the people that stand here,
+feel a sort of good deep inside of them. This gate is well used by those
+that belong to the clan of Z Fighters, lead by the Great Vegeta. Theres a
+rumor that Majin Dynasty and Z Fighters are currently at war. 
+~
+0 8 1 0
+D0
+~
+~
+0 -1 320 0 0 0
+S
+#325
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it. 
+~
+0 8 1 0
+D0
+~
+~
+0 0 326 0 0 0
+D1
+~
+~
+0 -1 320 0 0 0
+D2
+~
+~
+0 -1 327 0 0 0
+D3
+~
+~
+0 -1 328 0 0 0
+S
+#326
+CSHQ Shuttle [Dock 6]~
+This gate, harbouring the Cobra Sect Headquarters shuttle seems completely
+deserted. None dare even approach the shuttle for fear of retribution from
+the Sect. Even so, the ship continues it's neverending cycle of flights to
+and from the Headquarters, the automated droids running it never taking a break.
+Now and then a few figures are seen as they enter the shuttle, probably
+someone who desperately needs to return to the Sect Headquarters for something
+lost.
+~
+0 8 1 0
+D2
+~
+~
+1 -1 325 0 0 0
+S
+#327
+FDHQ Shuttle [Dock 7]~
+You stand here, as the gate seems deserted. You see all the dust that is
+accumulated on this area due to its unuse. There is a sign where on the
+other gates show the destination that reads: "Closed", which makes you
+wonder if the Spaceport Administration will ever give a good use to these
+empty gates.
+~
+0 8 1 0
+D0
+~
+~
+0 -1 325 0 0 0
+S
+#328
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it. 
+~
+0 8 1 0
+D0
+~
+~
+0 -1 329 0 0 0
+D1
+~
+~
+0 -1 325 0 0 0
+D2
+~
+~
+0 -1 330 0 0 0
+D3
+~
+~
+0 -1 345 0 0 0
+D5
+~
+~
+0 -1 334 0 0 0
+S
+#329
+PK Asteroid Shuttle [Dock 8]~
+You stand here, as the gate seems deserted. You see all the dust that is
+accumulated on this area due to its unuse. There is a sign where on the
+other gates show the destination that reads: "Closed", which makes you
+wonder if the Spaceport Administration will ever give a good use to these
+empty gates.
+~
+0 8 1 0
+D2
+~
+~
+0 -1 328 0 0 0
+S
+#330
+Turks HQ Shuttle [Dock 9]~
+You stand here, as the gate seems deserted. You see all the dust that is
+accumulated on this area due to its unuse. There is a sign where on the
+other gates show the destination that reads: "Closed", which makes you
+wonder if the Spaceport Administration will ever give a good use to these
+empty gates.
+~
+0 8 1 0
+D0
+~
+~
+0 -1 328 0 0 0
+S
+#331
+MDHQ Shuttle Gate [Dock 10]~
+As you come up in the spiral staircase, you notice that this dock is
+in medium condition. It is said that this shuttle leads to the headquarters
+of the legendary majin fighters.
+~
+0 12 1 0
+D3
+~
+~
+0 -1 346 0 0 0
+S
+#332
+Personal Docks [Dock 12]~
+Entering the end of the hallway, you notice that the personal docks is
+filled with different ships that are personalized to the person's
+character. This is basicly just a public dock in which anyone can
+disembark here without any trouble at all. 
+~
+0 8 1 0
+D1
+~
+~
+0 -1 345 0 0 0
+S
+#333
+Towards the Planetary Shuttles~
+As you continue to walk along the hallway, you notice that there is another
+guard as well here with his arms crossed. And there is also a sign that
+overlaps the Planetary Shuttle sign saying: "Closed". And it seems that no
+one uses these shuttles any more since it appears that someone tampered
+the portals and now anyone and everyone can get through them. 
+~
+0 8 1 0
+D0
+~
+~
+0 -1 341 0 0 0
+D2
+~
+~
+0 -1 317 0 0 0
+R M 0 319 1 333
+S
+#334
+A Dark Tunnel~
+Upon entering of the room, you can barely see 2 feet away from yourself,
+due to the poor lighting of this tunnel, but tunnels are supposed to be
+misterious and dark, just like this one. There are many spiders and dust
+hanging around here.  Everything looks the same as you lose consiousness
+of where you are. 
+~
+0 8 14 0
+D2
+~
+~
+0 -1 335 0 0 0
+D4
+~
+~
+0 -1 328 0 0 0
+S
+#335
+A Dark Tunnel~
+Upon entering of the room, you can barely see 2 feet away from yourself,
+due to the poor lighting of this tunnel, but tunnels are supposed to be
+misterious and dark, just like this one. There are many spiders and dust
+hanging around here.  Everything looks the same as you lose consiousness
+of where you are.
+~
+0 8 14 0
+D0
+~
+~
+0 -1 334 0 0 0
+D9
+~
+~
+0 -1 336 0 0 0
+S
+#336
+A Dark Tunnel~
+Upon entering of the room, you can barely see 2 feet away from yourself,
+due to the poor lighting of this tunnel, but tunnels are supposed to be
+misterious and dark, just like this one. There are many spiders and dust
+hanging around here.  Everything looks the same as you lose consiousness
+of where you are.
+~
+0 8 14 0
+D1
+~
+~
+0 -1 337 0 0 0
+D6
+~
+~
+0 -1 335 0 0 0
+S
+#337
+A Dark Tunnel~
+Upon entering of the room, you can barely see 2 feet away from yourself,
+due to the poor lighting of this tunnel, but tunnels are supposed to be
+misterious and dark, just like this one. There are many spiders and dust
+hanging around here.  Everything looks the same as you lose consiousness
+of where you are.
+~
+0 8 14 0
+D3
+~
+~
+0 -1 336 0 0 0
+D9
+~
+~
+0 -1 338 0 0 0
+S
+#338
+A Dark Tunnel~
+Upon entering of the room, you can barely see 2 feet away from yourself,
+due to the poor lighting of this tunnel, but tunnels are supposed to be
+misterious and dark, just like this one. There are many spiders and dust
+hanging around here.  Everything looks the same as you lose consiousness
+of where you are.
+~
+0 8 14 0
+D2
+~
+~
+0 -1 339 0 0 0
+D6
+~
+~
+0 -1 337 0 0 0
+S
+#339
+A Dark Tunnel~
+Upon entering of the room, you can barely see 2 feet away from yourself,
+due to the poor lighting of this tunnel, but tunnels are supposed to be
+misterious and dark, just like this one. There are many spiders and dust
+hanging around here.  Everything looks the same as you lose consiousness
+of where you are.
+~
+0 8 14 0
+D0
+~
+~
+0 -1 338 0 0 0
+D4
+~
+~
+0 -1 340 0 0 0
+> entry_prog 45~
+if wasinroom($n) == 338
+mptransfer $n 334
+endif
+~
+|
+S
+#340
+Yardrat Gate [Dock 11]~
+You are confused as you wonder where you are, since nothing of this is
+familiar of what you have seen before. But yes, this is a hidden gate
+where it lands the shuttle that takes you to Yardrat where you can learn
+new skills that no other trainer can teach you. The gate doesn't seem that
+modern since its not used much, but it aint as dusty as those who aren't
+used.
+~
+0 8 1 0
+D5
+~
+~
+0 -1 339 0 0 0
+S
+#341
+Planatary Shuttles Check In~
+Entering the room, it seems like someone has just moved in, or
+is moving out. There are boxes everywhere, and janitors cleaning.
+An glass door can be seen north, with a stubby little man in 
+front of it swinging a sack full of coins around.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 333 0 0 0
+R M 0 320 1 341
+S
+#342
+Planatary Shuttles Docking Bay~
+Now standing in the Planatery Shuttles docking bay, the
+size of the area is astounding. Rows of docks populate
+the large high domed hanger. Not much more can be seen
+tarps are thrown up blocking the rest of the view
+of the dock, assumlingly because of renivations. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 341 0 0 0
+> act_prog p walks out of his spaceship and closes the hatch behind him.~
+mpforce $n south
+~
+> act_prog p walks out of her spaceship and closes the hatch behind her.~
+mpforce $n south
+~
+|
+S
+#343
+TCHQ Shuttle Gate [Dock 13]~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 346 0 0 0
+S
+#344
+CKHQ Shuttle Gate [Dock 14]~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 347 0 0 0
+S
+#345
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 346 0 0 0
+D1
+~
+~
+0 -1 328 0 0 0
+D2
+~
+~
+0 -1 373 0 0 0
+D3
+~
+~
+0 -1 332 0 0 0
+S
+#346
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 347 0 0 0
+D1
+~
+~
+0 -1 331 0 0 0
+D2
+~
+~
+0 -1 345 0 0 0
+D3
+~
+~
+0 -1 343 0 0 0
+S
+#347
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 348 0 0 0
+D1
+~
+~
+0 -1 344 0 0 0
+D2
+~
+~
+0 -1 346 0 0 0
+D3
+~
+~
+0 -1 349 0 0 0
+S
+#348
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 350 0 0 0
+D2
+~
+~
+0 -1 347 0 0 0
+S
+#349
+Dueling Center [Dock 15]~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 347 0 0 0
+S
+#350
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 359 0 0 0
+D1
+~
+~
+0 -1 355 0 0 0
+D2
+~
+~
+0 -1 360 0 0 0
+D3
+~
+~
+0 -1 348 0 0 0
+S
+#351
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 352 0 0 0
+D1
+~
+~
+0 -1 319 0 0 0
+D3
+~
+~
+0 -1 318 0 0 0
+S
+#352
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 353 0 0 0
+D1
+~
+~
+0 -1 371 0 0 0
+D2
+~
+~
+0 -1 351 0 0 0
+D3
+~
+~
+0 -1 372 0 0 0
+> entry_prog 100~
+if isneutral($n)
+mpechoat $n You need to be either evil or good to enter this area.
+mptransfer $n 351
+mpat $n mpforce $n look
+mpat $n mpechoaround $n $n arrives from the north.
+endif
+~
+|
+S
+#353
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 354 0 0 0
+D1
+~
+~
+0 -1 369 0 0 0
+D2
+~
+~
+0 -1 352 0 0 0
+D3
+~
+~
+0 -1 370 0 0 0
+S
+#354
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 353 0 0 0
+D3
+~
+~
+0 -1 358 0 0 0
+S
+#355
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 361 0 0 0
+D1
+~
+~
+0 -1 356 0 0 0
+D2
+~
+~
+0 -1 362 0 0 0
+D3
+~
+~
+0 -1 350 0 0 0
+S
+#356
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 364 0 0 0
+D1
+~
+~
+0 -1 357 0 0 0
+D2
+~
+~
+0 -1 363 0 0 0
+D3
+~
+~
+0 -1 355 0 0 0
+S
+#357
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 365 0 0 0
+D1
+~
+~
+0 -1 358 0 0 0
+D2
+~
+~
+0 -1 366 0 0 0
+D3
+~
+~
+0 -1 356 0 0 0
+S
+#358
+Inside a Hallway~
+The hallway looks like the rest of it, very wide, enough for a big crowd to
+occupy it. You keep hearing the roar of all the shuttles that are landing
+and that are taking off this spaceport. The tiles of the floor create a
+sort of reflection when you look at it.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 368 0 0 0
+D1
+~
+~
+0 -1 354 0 0 0
+D2
+~
+~
+0 -1 367 0 0 0
+D3
+~
+~
+0 -1 357 0 0 0
+S
+#359
+BattleStar Shuttle Gate [Dock 16]~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 350 0 0 0
+S
+#360
+Nibelheim Shuttle Gate [Dock 17]~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 350 0 0 0
+S
+#361
+Spacestation Lusitania Shuttle Gate [Dock 18]~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 355 0 0 0
+S
+#362
+An Empty Dock~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 355 0 0 0
+S
+#363
+An Empty Dock~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 356 0 0 0
+S
+#364
+An Empty Dock~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 356 0 0 0
+S
+#365
+An Empty Dock~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 357 0 0 0
+S
+#366
+An Empty Dock~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 357 0 0 0
+S
+#367
+An Empty Dock~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 358 0 0 0
+S
+#368
+An Empty Dock~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 358 0 0 0
+S
+#369
+An Empty Dock~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 353 0 0 0
+S
+#370
+An Empty Dock~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 353 0 0 0
+S
+#371
+An Empty Dock~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 352 0 0 0
+S
+#372
+An Empty Dock~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 352 0 0 0
+S
+#373
+Public Transport Dock~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 345 0 0 0
+S
+#398
+Shadow Control Room~
+~
+0 12 0 8 251 30 0
+S
+#399
+Last Room~
+~
+0 12 0 0
+R M 0 316 1 399
+R M 0 399 1 399
+R O 0 316 1 399
+R O 0 399 1 399
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

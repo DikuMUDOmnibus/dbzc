@@ -1,0 +1,582 @@
+#AREA   King of the Hill~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+16
+
+#CONTINENT continent1~
+
+#ECONOMY 0 65693539
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#151
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1149239299 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#152
+A shopkeeper~
+A shopkeeper~
+A shopkeeper stands here selling beans.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#249
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#151
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#152
+Wooden Breastplate~
+&zA &rWooden&z Breastplate&w~
+&zA &rwooden&z breastplate has been dropped here.~
+~
+9 0 9
+4 5 0 0
+1 61 6
+#153
+Bone Breastplate~
+&YA &WBone&Y Breastplate&w~
+&YA &WBone&Y Breastplate has been dropped here.&w~
+~
+9 0 9
+4 10 0 0
+1 124 12
+#154
+Hard Leather Shirt~
+&YA &GHard Leather&Y Shirt&w~
+&YA &Ghard leather&Y shirt has been dropped here.&w~
+~
+9 0 9
+4 20 0 0
+1 382 38
+#155
+Mithril Banded Mail~
+&OA &rMithril&O Banded Mail&w~
+&OA &rmithril&O banded mail has been dropped here.~
+~
+9 0 9
+4 25 0 0
+1 1452 145
+#156
+Manticore Skin Shirt~
+&YA &OManticore&Y Skin Shirt&w~
+&YA &Omanticore&Y skin shirt has been dropped here.&w~
+~
+9 0 9
+4 30 0 0
+1 2457 245
+#157
+Wooden Gaiters~
+&zA Pair of &rWooden&z Gaiters&w~
+&zA Pair of &rWooden&z Gaiters has been dropped here.&w~
+~
+9 0 33
+4 35 0 0
+1 30 3
+#158
+Bone Gaiters~
+&YA Pair of &WBone&Y Gaiters&w~
+&YA pair of &Wbone&Y gaiters have been dropped here.~
+~
+9 0 33
+4 10 0 0
+1 62 6
+#159
+Hard Leather Pants~
+&YA pair of&G Hard Leather&Y Pants&w~
+&YA &Ghard leather&Y shirt has been dropped here.&w~
+~
+9 0 33
+4 20 0 0
+1 382 38
+#160
+Mithril Banded Gaiters~
+&OA Pair of &rMithril&O Banded Gaiters&w~
+&OA pair of &rmithril&O banded gaiters have been dropped here.&w~
+~
+9 0 33
+4 25 0 0
+1 741 74
+#161
+Manticone Skin Gaiters~
+&YA Pair of &OManticone&Y Skin Gaiters&w~
+&YA pair of &Omanticone&Y skin gaiters have been dropped here.&w~
+~
+9 0 33
+4 30 0 0
+1 1226 122
+#249
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 1073741824 1
+0 0 0 0
+1 0 0
+> wear_prog take~
+~
+|
+#0
+
+
+#ROOMS
+#151
+Loser's Room~
+You have lost. Be ashamed. Carry on with your embarrassment due to
+loss. Maybe you'll fare better next time. Until then, train and train!
+~
+0 1028 0 128
+D5
+~
+~
+0 -1 251 0 0 0
+S
+#152
+&GHealing Room&w~
+You are now inside the healing room on the base of the hill. There are
+many nurses running around with medpacs and patches for all the wounded
+fighters. You should just lay down here and take a nice sleep to recover
+your lost energy. There is also a shopkeeper here that sells his
+beans to anyone that has money.
+~
+0 1028 0 4194433
+D0
+~
+~
+0 -1 153 0 0 0
+R M 0 152 2 152
+  R G 1 6 1
+> rand_prog 100~
+if hitprcnt($n) <= 0
+mprestore $n 100
+endif
+~
+|
+S
+#153
+&zBase of the Hill&w~
+&OYou find yourself on the bottom part of the hill. You look upwards as
+you see the nice hill with all the people fighting for the priviledge
+to be on the top. The only way you can get to the top is by &Yclimbing&O up.
+~
+0 4 4 8320
+D0
+~
+~
+0 -1 154 0 0 0
+D10
+~
+above~
+67176448 -1 158 0 0 0
+S
+#154
+&zBase of the Hill&w~
+&OYou find yourself on the bottom part of the hill. You look upwards as
+you see the nice hill with all the people fighting for the priviledge
+to be on the top. The only way you can get to the top is by &Yclimbing&O up.
+~
+0 4 4 8320
+D0
+~
+~
+0 -1 155 0 0 0
+D2
+~
+~
+0 -1 153 0 0 0
+D10
+~
+above~
+67176448 -1 158 0 0 0
+S
+#155
+&zBase of the Hill&w~
+&OYou find yourself on the bottom part of the hill. You look upwards as
+you see the nice hill with all the people fighting for the priviledge
+to be on the top. The only way you can get to the top is by &Yclimbing&O up.
+~
+0 4 4 8320
+D0
+~
+~
+0 -1 156 0 0 0
+D2
+~
+~
+0 -1 154 0 0 0
+D10
+~
+above~
+67176448 -1 159 0 0 0
+S
+#156
+&zBase of the Hill&w~
+&OYou find yourself on the bottom part of the hill. You look upwards as
+you see the nice hill with all the people fighting for the priviledge
+to be on the top. The only way you can get to the top is by &Yclimbing&O up.
+~
+0 4 4 8320
+D0
+~
+~
+0 -1 157 0 0 0
+D2
+~
+~
+0 -1 155 0 0 0
+D10
+~
+above~
+67176448 -1 160 0 0 0
+S
+#157
+&zBase of the Hill&w~
+&OYou find yourself on the bottom part of the hill. You look upwards as
+you see the nice hill with all the people fighting for the priviledge
+to be on the top. The only way you can get to the top is by &Yclimbing&O up.
+~
+0 4 4 8320
+D2
+~
+~
+0 -1 156 0 0 0
+D10
+~
+above~
+67176448 -1 160 0 0 0
+S
+#158
+&zClimbing Up&w~
+&OThe hill seems to be very high. But it just takes a matter of time and
+effort before you reach the top. There are many people fighting for their
+right to achieve their goal... To be the last man standing up there.  You
+should just keep &Yclimbing&O up. 
+~
+0 4 4 8320
+D0
+~
+~
+0 -1 159 0 0 0
+D10
+~
+above~
+67176448 -1 161 0 0 0
+S
+#159
+&zClimbing Up&w~
+&OThe hill seems to be very high. But it just takes a matter of time and
+effort before you reach the top. There are many people fighting for their
+right to achieve their goal... To be the last man standing up there.  You
+should just keep &Yclimbing&O up. 
+~
+0 4 4 8320
+D0
+~
+~
+0 -1 160 0 0 0
+D2
+~
+~
+0 -1 158 0 0 0
+D10
+~
+above~
+67176448 -1 161 0 0 0
+S
+#160
+&zClimbing Up&w~
+&OThe hill seems to be very high. But it just takes a matter of time and
+effort before you reach the top. There are many people fighting for their
+right to achieve their goal... To be the last man standing up there.  You
+should just keep &Yclimbing&O up. 
+~
+0 4 4 8320
+D2
+~
+~
+0 -1 159 0 0 0
+D10
+~
+above~
+67176448 -1 162 0 0 0
+S
+#161
+&zMiddle of the Hill&w~
+&OYou have already reached the middle of the hill. There are still many
+fighters out there that can hold you back from reaching the top. North,
+from here, you notice a strange dark cave. Maybe you should keep &Yclimbing
+&Oup. 
+~
+0 0 4 8320
+D0
+~
+~
+0 -1 162 0 0 0
+D10
+~
+above~
+67176448 -1 164 0 0 0
+S
+#162
+&zMiddle of the Hill&w~
+&OYou have already reached the middle of the hill. There are still many
+fighters out there that can hold you back from reaching the top. North,
+from here, you notice a strange dark cave. Maybe you should keep &Yclimbing
+&Oup. 
+~
+0 0 4 8320
+D0
+~
+~
+0 -1 163 0 0 0
+D2
+~
+~
+0 -1 161 0 0 0
+D10
+~
+above~
+67176448 -1 165 0 0 0
+S
+#163
+&GHidden Recovery Room&w~
+&OYou find yourself inside a small recovery room. Its basicly just a
+dark area, which enables you to heal faster than the normal rate. But
+becareful, anyone can engage a combat inside this small dark area. So,
+its suggested that you only heal what you need to.
+~
+0 0 0 8321
+D2
+~
+~
+0 -1 162 0 0 0
+S
+#164
+&zNear the Top&w~
+&OYou are almost there! You can feel the intensity of reaching the top
+as you shiver in fear of what the top might have waiting for you. There
+are many fighters left in the hill, maybe you should clear them
+off before continuing to &Yclimb&O.
+ 
+&R** &YYou must engage battle in this room &R***
+~
+0 0 4 8320
+D0
+~
+~
+0 -1 165 0 0 0
+D10
+~
+above~
+67176448 -1 166 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mpforce $n murder $r
+endif
+~
+|
+S
+#165
+&zNear the Top&w~
+&OYou are almost there! You can feel the intensity of reaching the top
+as you shiver in fear of what the top might have waiting for you. There
+are many fighters left in the hill, maybe you should clear them
+off before continuing to &Yclimb&O.
+ 
+&R** &YYou must engage battle in this room &R***
+~
+0 0 4 8320
+D2
+~
+~
+0 -1 164 0 0 0
+D10
+~
+above~
+67176448 -1 166 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mpforce $n murder $r
+endif
+~
+|
+S
+#166
+&zTop of the Hill&w~
+&OYou find yourself in the top of the hill. This is it, theres no going
+back down. You must stay here until defeated or until you are awarded
+as the champion.
+ 
+&R** &YYou must engage battle in this room &R***
+~
+0 4 1 8320 0 0 5
+> speech_prog p last round~
+if isimmort($n)
+mpclosepassage 152 0
+mpopenpassage 152 151 0
+mpecho &YLast Round! Recovery Room Closed!&w
+endif
+~
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mpforce $n murder $r
+endif
+~
+> act_prog p $n is stunned, but will probably recover.~
+~
+|
+S
+#248
+Disposal Room~
+~
+0 4 1 128
+R M 0 249 1 248
+R M 0 151 1 248
+R O 0 249 1 248
+R O 0 151 1 248
+S
+#249
+&GKOTH Waiting Room&w~
+You are now standing inside a very large room. This room stands before
+the large hill which you will compete to be number one. Fighters with
+a Powerlevel above a pre-determined one, will join in this event if
+they choose to.
+ 
+&RLook at the rules before joining in.&g
+~
+0 -2147482620 0 8336
+E
+rules rule~
+&z==================================================================&w
+ 
+&RRules for joining in the KOTH Event&r:&w
+ 
+&R*&CNo Gangbanging.&w
+&R*&CNo Grouping.&w
+&R*&CNo Following.&w
+&R*&CNo Camping.&w
+&R*&CNo Killing.&w
+&R*&CNo Whining.&w
+ 
+&YThough it has been implemented that on these grounds, the code
+doesn't permit any death. We strongly suggest you toggle to stun for
+safety issues.
+ 
+&YIf you kill on these grounds, you will be punished. It was already
+warned that the code might bug in some place and death might be done for
+the opponent.
+ 
+&z==================================================================&w
+~
+> speech_prog p read the rules~
+if isimmort($n)
+mpforce all look rule
+endif
+~
+> rand_prog 100~
+if pl($n) < 75000000
+mpecho &R$n has a PL lower than 75000000 base.&w
+endif
+~
+> speech_prog p let the game begin~
+if isimmort($n)
+mpopenpassage 249 153 1
+mpclosepassage 152 0
+mpopenpassage 152 153 0
+mpechoat $n &RThe Recovery Room has been opened for Healing.&w
+mpecho &YThe door to your right has opened!&w
+endif
+~
+> speech_prog p prepare game~
+if isimmort($n)
+mpechoat $n &YOpening Entrance at JPA.&w
+mpechoat $n &wAn exit from JPA to the Waiting Room has been made.&w
+mpopenpassage 251 249 4
+endif
+~
+> speech_prog p close it~
+if isimmort($n)
+mpclosepassage 249 1
+mpecho &YThe door to your right has closed!&w
+endif
+~
+> speech_prog p close the entrance~
+if isimmort($n)
+mpat 251 mpecho &YThe entrance to the KOTH Waiting Room has been closed.&w
+mpechoat $n &YThe entrance to the KOTH Waiting Room has been closed.&w
+mpecho &RNo more fighters will enter the KOTH.&w
+mpclosepassage 251 4
+endif
+~
+|
+S
+#0
+
+
+#SHOPS
+ 152    0  0  0  0  0   120  90         0 23    ; A shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

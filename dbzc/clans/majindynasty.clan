@@ -1,0 +1,30 @@
+#CLAN
+Name         Majin Dynasty~
+Filename     majindynasty.clan~
+Shortname    majindynasty~
+Motto        &WDeath comes to us all, we just quicken the process~
+Description  ~
+Deity        ~
+Leader       Zabuza~
+NumberOne    Exile~
+NumberTwo    Exope~
+Badge        ~
+Leadrank     ~
+Onerank      ~
+Tworank      ~
+PKillRangeNew   0 1 0 0 2 6 116
+PDeathRangeNew  0 0 0 0 0 0 35
+RGDCount     31 0 3
+MKills       61451
+MDeaths      34
+IllegalPK    0
+Members      30
+Level        5
+Board        0
+Storeroom    9334
+Jail	   0
+Guard        0  0
+Gold	   167615000
+End
+
+#END

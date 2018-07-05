@@ -1,0 +1,794 @@
+#AREA   The Ladder Quest~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2351
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2352
+Ladder Quest Shopkeeper~
+The Ladder Quest Shopkeeper~
+The Ladder Quest Shopkeeper stands here growing Sensu's.
+~
+~
+67108867 0 S
+25 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2353
+Ladder Quest Shopkeeper~
+The Ladder Quest Shopkeeper~
+The Ladder Quest Shopkeeper stands here growing Sensu's.
+~
+~
+67108867 0 S
+25 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2399
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2351
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2399
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2351
+First Room~
+~
+0 4 1 0
+R M 0 2351 1 2351
+R M 0 2399 1 2351
+R O 0 2399 1 2351
+R O 0 2351 1 2351
+S
+#2352
+&PThe Ladder Quest Holding Room!&W&w~
+&WYou are standing in a large room next to a huge pyramid shaped
+building known as the Ladder quest. The goal is to stun someone
+to move up a level, the first person to stun someone on the
+top level wins the quest.
+
+&RLook at the rules before the quest gets started.
+~
+0 4 1 128
+R M 0 2352 1 2352
+  R G 1 6 1
+E
+rules rule~
+&x.
+&RRules for playing the Ladder Quest.
+
+&R*&cGangbang all you want
+&R*&cNo Grouping/Following
+&R*&cNo Killing
+&R*&cNo Whining, crying, pms'ing
+
+&YThough it has been implemented that on these grounds, the code
+doesn't permit any death. We strongly suggest you toggle to stun for
+safety issues.
+
+If you kill on these grounds, you will be punished. It was already
+warned that the code might bug in some place and death might be done for
+the opponent.
+~
+> speech_prog p read the rules~
+if isimmort($n)
+mpforce all look rule
+endif
+~
+|
+S
+#2353
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2364 0 0 0
+D2
+~
+~
+0 -1 2354 0 0 0
+S
+#2354
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2353 0 0 0
+D2
+~
+~
+0 -1 2355 0 0 0
+S
+#2355
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2354 0 0 0
+D2
+~
+~
+0 -1 2356 0 0 0
+S
+#2356
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2355 0 0 0
+D1
+~
+~
+0 -1 2357 0 0 0
+S
+#2357
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2358 0 0 0
+D3
+~
+~
+0 -1 2356 0 0 0
+S
+#2358
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2359 0 0 0
+D3
+~
+~
+0 -1 2357 0 0 0
+S
+#2359
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2360 0 0 0
+D3
+~
+~
+0 -1 2358 0 0 0
+S
+#2360
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2361 0 0 0
+D2
+~
+~
+0 -1 2359 0 0 0
+S
+#2361
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2362 0 0 0
+D2
+~
+~
+0 -1 2360 0 0 0
+S
+#2362
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D2
+~
+~
+0 -1 2361 0 0 0
+D3
+~
+~
+0 -1 2363 0 0 0
+S
+#2363
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2362 0 0 0
+D3
+~
+~
+0 -1 2364 0 0 0
+S
+#2364
+&PLadder Quest Level 1~
+&WYou have entered the Ladder Quest. You are on the first level,
+which seems to just be a large circular hallway. If you stun
+an opponent you will be transported to the second level, but
+if you get stunned you will remain on this level.
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2363 0 0 0
+D3
+~
+~
+0 -1 2353 0 0 0
+S
+#2365
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2368 0 0 0
+D2
+~
+~
+0 -1 2366 0 0 0
+D8
+~
+~
+0 -1 2369 0 0 0
+S
+#2366
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2365 0 0 0
+D1
+~
+~
+0 -1 2369 0 0 0
+D2
+~
+~
+0 -1 2367 0 0 0
+S
+#2367
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2366 0 0 0
+D1
+~
+~
+0 -1 2370 0 0 0
+D6
+~
+~
+0 -1 2369 0 0 0
+S
+#2368
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2371 0 0 0
+D2
+~
+~
+0 -1 2369 0 0 0
+D3
+~
+~
+0 -1 2365 0 0 0
+S
+#2369
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2368 0 0 0
+D1
+~
+~
+0 -1 2372 0 0 0
+D2
+~
+~
+0 -1 2370 0 0 0
+D3
+~
+~
+0 -1 2366 0 0 0
+D6
+~
+~
+0 -1 2371 0 0 0
+D7
+~
+~
+0 -1 2365 0 0 0
+D8
+~
+~
+0 -1 2373 0 0 0
+D9
+~
+~
+0 -1 2367 0 0 0
+S
+#2370
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2369 0 0 0
+D1
+~
+~
+0 -1 2373 0 0 0
+D3
+~
+~
+0 -1 2367 0 0 0
+S
+#2371
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D2
+~
+~
+0 -1 2372 0 0 0
+D3
+~
+~
+0 -1 2368 0 0 0
+D9
+~
+~
+0 -1 2369 0 0 0
+S
+#2372
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2371 0 0 0
+D2
+~
+~
+0 -1 2373 0 0 0
+D3
+~
+~
+0 -1 2369 0 0 0
+S
+#2373
+&PLadder Quest Level 2~
+&WYou have reached the second level of the Ladder Quest. This
+area seems like alot like the arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2372 0 0 0
+D3
+~
+~
+0 -1 2370 0 0 0
+D7
+~
+~
+0 -1 2369 0 0 0
+S
+#2374
+&PLadder Quest Level 3~
+&WYou have reached the third level of the Ladder Quest. This
+level appears to be a small squared arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2377 0 0 0
+D2
+~
+~
+0 -1 2375 0 0 0
+S
+#2375
+&PLadder Quest Level 3~
+&WYou have reached the third level of the Ladder Quest. This
+level appears to be a small squared arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2374 0 0 0
+D1
+~
+~
+0 -1 2376 0 0 0
+S
+#2376
+&PLadder Quest Level 3~
+&WYou have reached the third level of the Ladder Quest. This
+level appears to be a small squared arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D0
+~
+~
+0 -1 2377 0 0 0
+D3
+~
+~
+0 -1 2375 0 0 0
+S
+#2377
+&PLadder Quest Level 3~
+&WYou have reached the third level of the Ladder Quest. This
+level appears to be a small squared arena. If you stun an opponent
+you will be transported to the third level, but if you get stunned
+you are going back down a level!
+~
+0 4 1 128
+D2
+~
+~
+0 -1 2376 0 0 0
+D3
+~
+~
+0 -1 2374 0 0 0
+S
+#2378
+&PLadder Quest Level 4~
+&WYou have reached the fourth level of the Ladder Quest. This
+level is only a two room fighting pit. If you stun an opponent
+on this level you will move up to the last rung, but if you
+get stunned you are going back down!
+~
+0 4 1 128
+D1
+~
+~
+0 -1 2379 0 0 0
+S
+#2379
+&PLadder Quest Level 4~
+&WYou have reached the fourth level of the Ladder Quest. This
+level is only a two room fighting pit. If you stun an opponent
+on this level you will move up to the last rung, but if you
+get stunned you are going back down!
+~
+0 4 1 128
+D3
+~
+~
+0 -1 2378 0 0 0
+S
+#2380
+&PLadder Quest Level 5~
+&WYou have reached the fifth and final level of the Ladder Quest.
+This is a one room, no flee fight to the finish! If you stun
+an opponent on this level you win the quest, if you get stunned
+you lose!
+~
+0 4 1 128
+S
+#2381
+&PLevel One Stunned Room&W&w~
+&WLOL you got stunned on the first level! Don't get discouraged
+though, you can run back to level one and try again, but make
+sure you rebean first.
+~
+0 4 1 1
+D0
+~
+~
+0 -1 2364 0 0 0
+D1
+~
+~
+0 -1 2360 0 0 0
+D2
+~
+~
+0 -1 2358 0 0 0
+D3
+~
+~
+0 -1 2354 0 0 0
+R M 0 2353 1 2381
+  R G 1 6 1
+S
+#2382
+Floating in a void~
+~
+0 4 1 0
+S
+#2383
+Floating in a void~
+~
+0 4 1 0
+S
+#2384
+Floating in a void~
+~
+0 4 1 0
+S
+#2385
+Floating in a void~
+~
+0 4 1 0
+S
+#2386
+Floating in a void~
+~
+0 4 1 0
+S
+#2387
+Floating in a void~
+~
+0 4 1 0
+S
+#2388
+Floating in a void~
+~
+0 4 1 0
+S
+#2389
+Floating in a void~
+~
+0 4 1 0
+S
+#2390
+Floating in a void~
+~
+0 4 1 0
+S
+#2391
+Floating in a void~
+~
+0 4 1 0
+S
+#2392
+Floating in a void~
+~
+0 4 1 0
+S
+#2393
+Floating in a void~
+~
+0 4 1 0
+S
+#2394
+Floating in a void~
+~
+0 4 1 0
+S
+#2395
+Floating in a void~
+~
+0 4 1 0
+S
+#2396
+Floating in a void~
+~
+0 4 1 0
+S
+#2397
+Floating in a void~
+~
+0 4 1 0
+S
+#2398
+Floating in a void~
+~
+0 4 1 0
+S
+#2399
+Last room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 2352    0  0  0  0  0   120  90         0 23    ; The Ladder Quest Shopkeeper
+ 2353    0  0  0  0  0   120  90         0 23    ; The Ladder Quest Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

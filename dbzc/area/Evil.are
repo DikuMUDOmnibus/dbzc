@@ -1,0 +1,662 @@
+#AREA   Evil Fighting School~
+
+
+
+#VERSION 2
+#AUTHOR Buu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG &gYou tingle thinking bout this place...~
+
+#FLAGS
+1 10
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31458317
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#1101
+first_mob~
+a newly created first_mob~
+Some god abandoned a newly created first_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#1102
+Dark Chikara Master~
+The Dark Chikara Master~
+&WThe Dark Chikara Master is here floating, waiting for mischief.
+~
+~
+67109379 -1000 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p I pledge my loyalty to you dark master~
+say Good $n, i sensed the evil growing within you, i knew you would make it
+say here eventually.
+mppractice $n 'chikara 1' 5
+say You should now be able to 'train 'chikara1''.  By doing this you will grow
+say stronger, and be able to reach new heights of power.
+say $n, you are now an Evil Trainee, learn more about Chikara and you can
+say gain a more fitting title for one such as yourself.
+mpmset $n title the Evil Trainee
+say Oh, and you can have this too, its your training suit
+mpoload 1102
+drop armor
+mpforce $n get armor
+say NOW GO!  Destroy those who should dare fight against our evil powers!
+cackle
+~
+> speech_prog p I wish to become an apprentice~
+if pl($n) > 25000000
+say Congratulations $n, You are ready for the next face.
+say Henceforth you shall be known as an apprentice.
+mpmset $n title the Evil Apprentice
+mppractice $n 'chikara 2' 5
+say I suppose you have earned this Apprentice Robe
+mpoload 1103
+drop robe
+mpforce $n get robe
+say There, it looks good on you
+else
+say Why do you waste my time so $n?  You know you are not ready for that level!
+endif
+~
+> speech_prog p I wish to become a Dark Master~
+if pl($n) > 49999999
+say Wow, you really have surprised me $n.  I didn't expect you to make it
+say THIS far.  Congratulations, you are now a Master of Evil
+if sex($n) == 2
+mpmset $n title the Mistress of Evil
+else
+mpmset $n title the Master of Evil
+endif
+mppractice $n 'chikara 3' 5
+say Here, this will suit someone of your stature
+mpoload 1104
+drop armor
+mpforce $n get dark
+Say Congratulations again
+else
+say Bah, How dare you waste my time, you are no master of evil!  Go practice
+say more!  I will not be bothered with such stupidity.
+endif
+~
+> greet_prog 100~
+say Welcome $n.  You shall train here and become truly evil.  Should you
+say wish to return to the space-lift you arrived on, just 'say dock'
+~
+> speech_prog p dock~
+say I look forward to us continuing you training $n.
+mea $n &RDon't forget to look at your new surroundings!
+mptrans $n 1101
+~
+> speech_prog p I have finished my training~
+if pl($n) > 54999999
+say Excellent $n!  I now bestow upon you the title of Dark Warrior.
+mpmset $n title the Dark Warrior
+else
+say $n, you have yet to even comprehend the power of Evil, train more
+say before you ask me such things.
+endif
+~
+|
+#1103
+Bright Glowing Saiyan~
+A Brightly Glowing Saiyan~
+&WA goody goody Glowing Saiyan stands here mocking you.
+~
+~
+3 1000 C
+1 0 0 0d0+0 0d0+0
+0 2000000
+112 112 0
+8 6 6 9 17 7 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 1103
+~
+|
+#1104
+Kindly Namek~
+A Kindly Namek~
+&WA kindly namek stands here with a white aura
+~
+~
+3 1000 C
+1 0 0 0d0+0 0d0+0
+0 3000000
+112 112 0
+9 9 8 11 8 8 7
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 1104
+~
+|
+#1105
+Smiling Halfbreed~
+A Smiling Halfbreed~
+&WA smiling Halfbreed stands here offering his help
+~
+~
+3 1000 C
+1 0 0 0d0+0 0d0+0
+0 4000000
+112 112 0
+10 9 9 10 10 8 9
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 1105
+~
+|
+#1150
+first_mob~
+a newly created first_mob~
+Some god abandoned a newly created first_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#1101
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#1102
+Evil Training Armor~
+Evil Training Armor~
+A suit of Evil Training Armor lies here.~
+~
+9 0 9
+0 25 0 1
+1 0 0
+#1103
+Apprentice Robe~
+Apprentice Robe~
+An Apprentice Robe is crumpled up here.~
+~
+9 0 1025
+0 28 0 2
+1 0 0
+#1104
+Armor of the Dark Master~
+Armor of the Dark Masters~
+A Set of Armor of the Dark Masters is lieing here.~
+~
+9 0 9
+0 33 0 3
+1 0 0
+#1150
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1101
+&GSpaceport to Hidden Platform~
+&gYou are now on the dark platform, looking up you see whisps of
+electricity jumping crazily in the air.  Looking out into space you see a
+hidden platform that appears to be where you rode the lift from.  There is
+a set of stairs leading down that appear to lead into this platform.  You
+begin to feel an evil presence in your soul, and aren't sure what to make
+of it. 
+ 
+Should you wish to return, the shuttle returning to the Hidden Platform will
+leave at approximately 11 PM every day.  Do not fool around because you WILL
+be left.  The pilot has no remorse for stragglers.
+~
+0 4 1 0
+D5
+~
+~
+0 -1 1102 0 0 0
+S
+#1102
+&GDark Platform Entrance~
+&gAs you enter the platform the world around you becomes dark.  The light
+that you could see has now all but dissapeared.  You sense a preminition
+of evil here, you see sparks of flame glowing off of the walls to the
+north, and sense occasional surges of power coming from an unknown
+direction. The evil in you begins to abate as you are beckoned onward. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1103 0 0 0
+D4
+~
+~
+0 -1 1101 0 0 0
+> entry_prog 100~
+if pl($n) <= 4999999
+mpforce $n up
+endif
+~
+|
+S
+#1103
+&GDark Corridor~
+&gMoving further into the corridor the light around you is now completely
+gone. Replacing it is a pitch black scene, the only thing that stops you
+from bumping into the walls is the fact that you have outstretched your
+hands and are groping for the wall. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 1102 0 0 0
+D3
+~
+~
+0 -1 1104 0 0 0
+S
+#1104
+&GDimly Lit Room~
+&gComing into the room you still cant see a thing.  You now begin to bump
+and stumble into the walls out of pure frustration, not caring if you get
+hurt a bit or not.  As you spin around you notice a flickering light to
+the north.  It appears to be some sort of electrical charge, could this be
+the exit you have been looking for? 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1105 0 0 0
+D1
+~
+~
+0 -1 1103 0 0 0
+S
+#1105
+&GRegistration Room~
+&gComing into this room, you start to see a bright light, a light that
+could not see anywhere else in this school. It appears the the electric is
+turning back on, as you enter further, and further. You finally made it at
+your stop. Could this be where you enter the school?  
+ 
+On the wall, there seems to be a sign.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 1104 0 0 0
+E
+sign~
+&z=============================================================================
+&RTo enter Evil Chikara School, You must have a neutral or evil
+alignment, depending if you already been here. If you have a evil
+alignment, and you are returning, simple say:
+ 
+Enter The School
+ 
+If you are not returning, and you are joining, simply say:
+ 
+I wish to sign up
+ 
+&z=============================================================================
+~
+> speech_prog p I wish to sign up~
+if isneutral($n)
+if pl($n) > 4999999
+MEA $n &REvil runs through your body.
+mpforce $n evilgrin
+Mpmset $n align -1000
+mpdeadly $n
+mptransfer $n 1106
+endif
+endif
+if isgood($n)
+mea $n &RGuards, Send this pretender out of here, NOW!
+mea $n &cThe Evil School Guards, shines up his boot, and kicks you all
+mea $n &cthe way too Junction Point Alpha!
+mptrans $n 251
+endif
+~
+> speech_prog p Enter The School~
+if isevil($n)
+Mea $n &RWelcome back to Evil Chikara School, $n!
+mptransfer $n 1106
+endif
+if isneutral($n)
+mea $n &RSorry, Please look at the sign, if your intending to join.
+endif
+if isgood($n)
+mea $n &RGuards, Send this pretender out of here, NOW!
+mea $n &cThe Evil School Guards, shines up his boot, and kicks you all
+mea $n &cthe way too Junction Point Alpha!
+mptrans $n 251
+endif
+~
+|
+S
+#1106
+&GWelcome to the Evil School's Training Facility~
+&gCongratulations, you have survived the perils of the tests.  You are now
+in a fairly safe area.  Power builds within you as you feel the strength
+and might of darkness flow around you.  No longer shall you defend the
+weak, from here on out, you are the one who the weak need to be defended
+against, you will live your life to the destruction of all good, and
+creation of a world where chaos rules, and the strong survive.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 1107 0 0 0
+S
+#1107
+&GEntrance to the Evil School's Training Palace~
+&gNow that you have accepted your darkness, you are now able to train like
+a true dark warrior.  An entire underground organization has grown down in
+this dark platform.  Here your brethren will train you, and teach you how
+to be purely evil. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 1108 0 0 0
+D3
+~
+~
+0 -1 1106 0 0 0
+S
+#1108
+&GDark Palace Nexus~
+&gAs you enter the room, you look around you to see exits on all sides of
+you. This appears to be a huge complex, well thought out, the perfect
+hideout for the dark ones to practice their murderous technique.  You feel
+at home, and enlightened. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 1114 0 0 0
+D1
+~
+~
+0 -1 1112 0 0 0
+D2
+~
+~
+0 -1 1107 0 0 0
+D3
+~
+~
+0 -1 1111 0 0 0
+D4
+~
+~
+0 -1 1109 0 0 0
+D5
+~
+~
+0 -1 1110 0 0 0
+S
+#1109
+&GEvil Chikara's Training Room~
+&gAs you enter the room flames spew out from the ground as the Dark Chikara
+Master cackles with evil intent.  You have reached the place where you can
+learn and train your first Chikara ability.  These abilities are used to
+allow you to surpass the caps that most mortals can never exceed.  By
+training here, you will be able to reach heights of strength you never
+imagined to be possible. 
+ 
+To train Chikara 1, 'say I pledge my loyalty to you dark master'
+To train Chikara 2, 'say I wish to become an apprentice'
+to train Chikara 3, 'say I wish to become a Dark Master'
+To finish your training: 'say I have finished my training'
+ 
+To return to the dock, 'say dock'
+~
+0 4 1 64
+D5
+~
+~
+0 -1 1108 0 0 0
+R M 0 1102 1 1109
+> speech_prog p test~
+mptrans soren 1101
+~
+|
+S
+#1110
+&GSparring Room~
+&gInside the Sparring Chamber you see another bloodied room.  Blood appears
+to be the big motif of this area.  The smell of it though strangely
+arouses you, and you begin to lust for combat.  You feel an urge to hurt
+anyone, even those much weaker than you right now.  What perfect a place
+to do it in than a sparring room? 
+~
+0 4 1 2
+D4
+~
+~
+0 -1 1108 0 0 0
+S
+#1111
+&GEvil Lounge~
+&gAs you enter the room, you notice that the lights are dimmed.  There are
+weapons hanging on all the walls.  There is a odd smoke in the room,
+fragrant yet undescernable.  You smile slightly as you find yourself a
+table.  The lounge is home to all members of Morendeen's Training
+Facility.  This is where you will come to relax and get away from the good
+in the universe.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 1108 0 0 0
+S
+#1112
+&GGravity Training Room~
+&gYou are now in the gravity training room for the palace.  Using this room
+you can bulk up your power, and become stronger.  No good character will want
+to mess with you after a few days of practice inside here.
+ 
+A Notice is posted above the Gravity Machine's dial:
+ 
+&R****REMINDER TO ALL MEMBERS:  A TO HIGH GRAVITY SETTING CAN BE FATAL****&G
+~
+0 4 1 4
+D3
+~
+~
+0 -1 1108 0 0 0
+S
+#1113
+&GHealing Vat~
+&gIn front of you stands a huge vat of healing solution.  It doesn't look
+too wonderful, but it is.  The green bubbles repulse you, but once you get
+inside, the regenerative powers keep you in.  After a while it almost
+feels like a hot tub.  You lay back and let the urge to kill fade away. 
+All that matters now is getting back to shape. 
+~
+0 4 1 1
+D1
+~
+~
+0 -1 1117 0 0 0
+S
+#1114
+&GEntrance to the Battling Area~
+&gAs you walk under the archway into the battling area, you feel a sudden
+rush inside you.  You want blood, you want death, you want distruction. 
+You feel the urge to kill, you want destroy all the good in this puny
+area, so that it may never come back, ever again!
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1117 0 0 0
+D1
+~
+~
+0 -1 1115 0 0 0
+D2
+~
+~
+0 -1 1108 0 0 0
+R M 0 1103 1 1114
+S
+#1115
+&GBattling Area~
+&gThe urge to kill is now at the strongest you have ever felt it.  It is so
+powerful you almost feel sorry for the poor pathetic goody goody saiyans
+and nameks wandering the hall.  It is so easy, as they do not know what is
+going to happen, all they can do is wait for you to destroy them and their
+childish ideals.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1116 0 0 0
+D3
+~
+~
+0 -1 1114 0 0 0
+R M 0 1104 1 1115
+S
+#1116
+&GBattling Area~
+&gThe urge to kill is now at the strongest you have ever felt it.  It is so
+powerful you almost feel sorry for the poor pathetic goody goody saiyans
+and nameks wandering the hall.  It is so easy, as they do not know what is
+going to happen, all they can do is wait for you to destroy them and their
+childish ideals.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 1115 0 0 0
+D3
+~
+~
+0 -1 1117 0 0 0
+R M 0 1105 1 1116
+S
+#1117
+&GBattling Area~
+&gThe urge to kill is now at the strongest you have ever felt it.  It is
+so powerful you almost feel sorry for the poor pathetic goody goody saiyans
+and nameks wandering the hall.  It is so easy, as they do not know what is
+going to happen, all they can do is wait for you to destroy them and their
+childish ideals.
+ 
+There seems to be a Healing Vat westward.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 1116 0 0 0
+D2
+~
+~
+0 -1 1114 0 0 0
+D3
+~
+~
+0 -1 1113 0 0 0
+S
+#1140
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1141
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1142
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1143
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1150
+Floating in a void~
+~
+0 4 1 0
+R M 0 1150 1 1150
+R O 0 1101 1 1150
+R O 0 1150 1 1150
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

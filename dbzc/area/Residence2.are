@@ -1,0 +1,909 @@
+#AREA   Residence2 Zone~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31311000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#9351
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#11500
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#9351
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#11500
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#9351
+First Room~
+~
+0 4 1 0
+S
+#9352
+Porch~
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 7431 0 0 0
+S
+#9353
+Back Office~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7425 0 0 0
+S
+#9354
+Dark Tunnel~
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7419 0 0 0
+S
+#9355
+Floating in a void~
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7418 0 0 0
+S
+#9356
+&RT&rh&Re &rO&Rf&rf&Ri&rc&Re~
+~
+0 0 1 16384
+D5
+~
+~
+0 -1 7412 0 0 0
+S
+#9357
+Floating in a void~
+~
+0 0 1 16384
+D0
+~
+~
+0 -1 9358 0 0 0
+D5
+~
+~
+0 -1 7428 0 0 0
+S
+#9358
+Floating in a void~
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 9357 0 0 0
+S
+#9359
+Floating in a void~
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 9360 0 0 0
+D4
+~
+~
+0 -1 7428 0 0 0
+S
+#9360
+Floating in a void~
+~
+0 0 1 16384
+D0
+~
+~
+0 -1 9359 0 0 0
+S
+#9361
+Tsukara's Bedroom~
+This is the bedroom where Tsukara sleeps. There is an extravagant four poster bed with silk curtains and a huge fluffy down blanket. There is another finely stitched chinese rug laying under the bed here and a chandelier hanging from the ceiling.
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7427 0 0 0
+S
+#9362
+THE GHETTO-OFFIC VOID!~
+The ghetto-offic void of Faylis's home!  You are here!  Yay!  wow...  This is sure special....  Cool thing that there is a void though, that means we can have all the acid we want!  Yay!  Your body begins to tremble as you can take the hit and you see small aliens invading your skull!  EEK!
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 7455 0 0 0
+S
+#9363
+&bK&Be&bn&Bk&ba&B'&bs &BB&bo&Bo&bm&B-&bB&Bo&bo&Bm &bR&Bo&bo&Bm~
+&bAh yes, K&Be&bn&Bk&ba&B'&bs &BB&bo&Bo&bm&B-&bB&bo&Bo&bm &BR&bo&Bo&bm&B.
+&bThe place K&be&Bn&bk&Ba&b goes to chill, relax her sore muscles, and do
+da nasty. &W*&bwink&W* &bThis room is reserved especially for K&Be&bn&Bk&ba&B'&bs
+good friends. If you are not brought here by K&Be&bn&Bk&ba, then its not safe
+to be here. You will more then likely end up in the &zD&Cu&zn&Cg&ze&Co&zn&b.
+
+&bA Queen size bed sits in the corner of the room. It has Handcuff,
+ropes, and chains hanging from it. It has a black blanket on it.
+The room has blacklights in every corner.
+
+Theres also a couch on the other corner.
+~
+0 0 1 16388
+D3
+~
+~
+0 -1 7412 0 0 0
+S
+#9364
+&CK&ze&Cn&zk&Ca&z'&Cs &zD&Cu&zn&Cg&ze&Co&zn~
+&CThe &zD&Cu&zn&Cg&ze&Co&zn &Cis somewhere you do not want to be. If
+you are here, you better be begging K&ze&Cn&zk&Ca to forgive you, for
+whatever you have done, and let you out. If you do not accomplish this
+you will more then likely have to beat her in a fight, to get out.
+Hope for the best my friend.
+
+
+&W(&R|||&W) &CK&ze&Cn&zk&Ca&z'&Cs &zP&Ce&zt &CD&zr&Ca&zg&Co&zn &Wis standing here
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7412 0 0 0
+S
+#9365
+&PK&pe&Pn&pk&Pa&p'&Ps &pB&Pa&pr &P& &pS&Pt&pr&Pi&pp &PC&pl&Pu&pb~
+&pYou walk in, and notice naked pictures of &PK&pe&Pn&pk&Pa&p everywhere.
+There are &WWhite F&zu&Wz&zz&Wy&p platforms hanging from the ceiling,and
+dancing poles built in to the counters. The Bar is ran by &PK&pe&Pn&pk&Pa
+&pherself. Have fun and enjoy your time here:)
+
+&gA pound of the BEST weed available is lying here.
+~
+0 0 1 16385
+D0
+~
+~
+0 -1 7412 0 0 0
+S
+#9366
+&RWATCH OUT!!!!!!~
+&ROH NO!!!!! YOU JUST
+o.OOOo.   ooOoOOo o.OOoOoo o.OOOo.   oO 
+ O    `o     O     O        O    `o  OO 
+ o      O    o     o        o      O oO 
+ O      o    O     ooOO     O      o Oo 
+ o      O    o     O        o      O oO 
+ O      o    O     o        O      o    
+ o    .O'    O     O        o    .O' Oo 
+ OooOO'   ooOOoOo ooOooOoO  OooOO'   oO 
+&rJust kiddin =P..had to add something stupid
+~
+0 0 1 16384
+D7
+~
+~
+0 -1 7412 0 0 0
+S
+#9367
+&RH&rell~
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7416 0 0 0
+S
+#9368
+The Anarchist Lab~
+This room is the lab of a very sick individual.  All around the room
+are disection tables.  On the walls are shelves and cabinets filled
+with testing supplies and chemicals.  There is a network of computers
+in the southeastern corner of the room.
+
+There is blood all over the place...
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7499 0 0 0
+D9
+~
+~
+0 -1 9369 0 0 0
+S
+#9369
+The Conspiracy Room~
+This is a cramped room with a couple monitors put in the west wall.
+There are some flip down seats coming out of the north and south walls.
+This is where Fiaras comes to formulate his plots.  There are a few
+ashtrays scattered about and a nice Indian rug on the ground but little
+else.
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 9370 0 0 0
+D6
+~
+~
+0 -1 9368 0 0 0
+S
+#9370
+Fiaras's Inner Sanctum~
+This room is very large.  It has a bed in the northwest corner and some
+extremely soft recliners on the eastern and western sides of the room.
+There is a bar in the southeast corner of the room with a well stocked
+refrigerator.
+There appears to be three blowup dolls in recliners here.
+This room is completely filled with a rich, thick smoke and there are
+many ashtrays laying about the room.
+~
+0 0 1 16385
+D5
+~
+~
+0 -1 9369 0 0 0
+S
+#9371
+The Supreme Biodroid's Brewery~
+There are several running stihls in this large room.  Several making
+a smooth moonshine, while others brewing a crisp lager.  There are
+numerous fifty-five gallon drums around full to the brim.
+There are pin-ups from Master Roshi's sleezy magazines all over the
+walls.
+Whatever you do, do NOT strike a flame in here...
+~
+0 0 1 16384
+D5
+~
+~
+0 -1 7499 0 0 0
+S
+#9372
+&CH&Weaven~
+~
+0 0 1 16384
+D5
+~
+~
+0 -1 7416 0 0 0
+S
+#9373
+&wTr&Wop&zhy &WRo&wom~
+&YThe head of the corpse of Seventeen is left behind here.
+&YThe head of the corpse of Syder is left behind here.
+&YThe head of the corpse of Joten is left behind here.
+&YThe head of the corpse of Giovin is left behind here.
+&YThe head of the corpse of Jim is left behind here.
+&YThe head of the corpse of Eifa is left behind here.
+&YThe head of the corpse of Johan is left behind here.
+&YThe head of the corpse of Maeric is left behind here.
+&YThe head of the corpse of Romeo is left behind here.
+&YThe head of the corpse of Jamie is left behind here.
+&YThe head of the corpse of Demonian is left behind here.
+&YThe head of the corpse of Vegeta is left behind here.
+&YThe head of the corpse of Abare is left behind here.
+&YThe head of the corpse of Choutzu is left behind here.
+&YThe head of the corpse of Kenka is left behind here.
+&YThe head of the corpse of Ashura is left behind here.
+&YThe head of the corpse of Raze is left behind here.
+&YThe head of the corpse of Loki is left behind here.
+&YThe head of the corpse of Ganja is left behind here.
+&YThe head of the corpse of Muyu is left behind here.
+&YThe head of the corpse of Damien is left behind here.
+&YThe head of the corpse of Noodles is left behind here.
+&YThe head of the corpse of Gatz is left behind here.
+&YThe head of the corpse of Kaizik is left behind here.
+&YThe head of the corpse of Zeek is left behind here.
+&YThe head of the corpse of Kaiosui is left behind here.
+&YThe head of the corpse of Keros is left behind here.
+&YThe head of the corpse of Worm is left behind here.
+&YThe head of the corpse of Xavior is left behind here.
+&YThe head of the corpse of Mormacil is left behind here.
+&YThe head of the corpse of Syn is left behind here.
+&YThe head of the corpse of Landon is left behind here.
+&YThe head of the corpse of Melfina is left behind here.
+&YThe head of the corpse of Backfire is left behind here.
+&YThe head of the corpse of Ninjin is left behind here.
+&YThe head of the corpse of Efron is left behind here.
+&YThe head of the corpse of Magius is left behind here.
+~
+0 0 1 16384
+D5
+~
+~
+0 -1 7410 0 0 0
+S
+#9374
+&WDr&Bun&bker&z's&b Co&Brn&Wer~
+@
+      .======================================.
+      | ___ ___ ___               _   _   _  |
+      | \_/ \_/ \_/ C|||C|||C||| |-| |-| |-| |
+      | _|_ _|_ _|_  ||| ||| ||| |_| |_| |_| |
+      '===================================== ,
+ 
+           .:.                              
+          C|||'                             
+        ___|||______________________________
+       [____________________________________]
+        |   ____    ____    ____    ____   | 
+        |  (____)  (____)  (____)  (____)  | 
+        |  |    |  |    |  |    |  |    |  | 
+        |  |    |  |    |  |    |  |    |  |  
+        |  |    |  |    |  |    |  |    |  |  
+        |  |____|  |____|  |____|  |____|  |  
+        |  I====I  I====I  I====I  I====I  | 
+           |    |  |    |  |    |  |    |  | 
+                                              
+Ganja's favorite hangout
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 9375 0 0 0
+D7
+~
+~
+0 -1 7410 0 0 0
+S
+#9375
+&wB&Wa&Yt&Ohr&Yo&Wo&wm~
+@
+                                                         |
+                                            __________   |
+                           _    __    _    |          |  |
+                          /_\  /  \  /_\   |          |  |
+                          =|= | // | =|=   |          |  |
+                           !   \__/   !    |          |  |
+                                 _         |          |  |
+ ___               ___          //'        |          |  |
+[___]       _   :=|   |=:   __T_||_T__     |p=        |  |
+|  -|     =)_)=   |   |    [__________]    |          |  |
+|   |      (_(    |xXx|     \_      _/     |          |  |
+|   |      )_)    """""       \    /       |          |  |
+\___|                          |  |        |          |  |
+ |  `========,                 |  |        |          |  |
+__`.        .'_________________|  |________|__________lc_|
+    `.    .'                  (____)                      \
+    _|    |_...             .;;;;;;;;.                     \
+   (________);;;;          :;;;;;;;;;;:
+        :::::::'            '::::::::'
+  
+    (""""""""""""""""""""""""""""")
+     `\`'                  `'   /'
+       \                       / 
+        \           _         /
+         `-. .----<(o)_--. .-'
+          (_/     (_<_/  \_)
+
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 9374 0 0 0
+D6
+~
+~
+0 -1 9376 0 0 0
+S
+#9376
+&wMe&Wlf&Rin&ra'&zs &rB&Red&Wro&wom~
+@
+            _      ()              ()      _  
+           / \     ||______________||     / \
+          /___\    |                |    /___\
+            |      |       @@       |      |
+           (_)     |_______  _______|     (_)
+        ___/_\___  {_______}{_______}  ___/_\___
+         |__V__|   %%%%%%%%%%%%%%%%%%   |__V__|
+      ___|_____|__%%%%%%%%%%%%%%%%%%%%__|_____|___  
+         |     | %%%%%%%%%%%%%%%%%%%%%% |     |
+          `=====%%%%%%%%%%%%%%%%%%%%%%%%=====`             .-="""""""""""=-.
+         `=====%%%%%%%%%%%%%%%%%%%%%%%%%%=====`            | . . . . . . . |
+        `=====%%%%%%%%%%%%%%%%%%%%%%%%%%%%=====`           | .'.'.'.'.'.'. |
+       `=====/||||||||||||||||||||||||||||\=====`         ()_______________()
+      `======||||||||||||||||||||||||||||||======`        ||_______________||
+     `=======|||||||||||||||||||||||||||lc|=======`        W               W
+    `==============================================`
+   `================================================`
+  `==================================================`
+ `====================================================`
+I love you Ganja
+~
+0 0 1 16384
+D9
+~
+~
+0 -1 9375 0 0 0
+S
+#9377
+&WThe Kitchen~
+&wThe kitchen isn't as elaborate as the rest of the house, but
+it's definitely not low quality.  The floor is made out of white
+tile with a couple of &cblue&w rugs here and there.  A counter
+lines the back wall, and right angles with the eastern wall
+where it carrys on for a little while farther.  The refridgerator
+is always stocked.  Also, there's a bar here.There is some kind
+of hollow sound when you walk in the center of the room.
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 7432 0 0 0
+D5
+~
+~
+0 -1 9378 0 0 0
+S
+#9378
+&YThe Basement~
+&OThis is the basement.  The ULTIMATE hang out spot.  It's completely
+massive as far as basements go.  There are several couches in
+the room that surround a coffee table in the middle.  Even though
+there's rarely coffee on said table.  There are a couple of
+bars scattered about the room, and posters completely cover
+the walls.They come in a wide variety, anywhere from &CHarold
+and Kumar&O posters to &WC&chron&Wo &CT&wrigge&Cr&O.
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 9377 0 0 0
+S
+#9379
+&BSyder's Bedroom~
+&bThis is Syder's bedroom.  Almost everything in here is black
+and white.The white stuff seems to glow though, because the
+only source of illumination would be from the blacklights scattered
+sporadically about the room.  The bed is massive and against
+the northern wall.Black sheets cover it, and a black canopy
+REALLY covers it.It smells faintly of incense.  Or maybe weed.
+Or maybe both? There's a bar here.
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 9380 0 0 0
+D5
+~
+~
+0 -1 7432 0 0 0
+S
+#9380
+&WThe Bathroom~
+&wThis.. is a bathroom.  There's a shower.  And a jacuzzi bathtub,
+duh.Not to mention it's equipped with a floating mini bar.There's
+a sink.. a mirror.. a BIG mirror. And uh.. it's a bathroom,
+for the love of God.  Do I honestly have to lay out every little
+thing? And.. um.. there's a bar.
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 9379 0 0 0
+S
+#9381
+Hick's bedroom~
+As you walked east you entered another part of this dome that is mostly made of tecnology. This is the room where he slept at and also eat. No one knows that if you look south you might find a base of some kind
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 7415 0 0 0
+S
+#9382
+&RAglaius' Livingroom~
+~
+0 0 1 16384
+D5
+~
+~
+0 -1 7414 0 0 0
+S
+#9383
+A Massive Living Room~
+The entryway from the grand foyer opens up into a massive living room
+with all the luxuries one could imagine. Several pieces of oversized,
+as well as over padded, black leather furniture is spread out about
+the room. On the wall to the north is a finely lacquered wooden
+entertainment center, containing the master of this house's stereo
+system, ready to be played as loud as possible. A 100" flat-panel
+wide-screen TV hangs on the wall, spewing forth images that appear to
+real to be television.
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 7422 0 0 0
+S
+#9384
+The cave of truth~
+We all know melfina cant pk... theres no way she could kill more then half the ppl whos "heads" she has stored away up top... but hey... can't blame her for dreaming! Thats what homedesc's are for!!! Muhahaha
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7410 0 0 0
+S
+#9385
+A graveyard~
+This is where Reef has been buried under his old house... R.I.P.
+You notice a tombstone with the words etched in it....
+Here lies the greatest human killer ever known to this world.
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7426 0 0 0
+S
+#9386
+Floating in a void~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7469 0 0 0
+S
+#9387
+Floating in a void~
+~
+0 0 1 16384
+D0
+~
+~
+0 -1 9388 0 0 0
+D4
+~
+~
+0 -1 7433 0 0 0
+S
+#9388
+An empty room.~
+You see a simple room, compleatly empty, with the walls made
+of cement.  There seems to be no doorways leading to any other
+rooms 
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 9387 0 0 0
+D3
+~
+~
+0 -1 9389 0 0 0
+D5
+~
+~
+0 -1 9390 0 0 0
+S
+#9389
+Floating in a void~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 9388 0 0 0
+S
+#9390
+The Party Room~
+This is the main room.  And from the looks of the last room,
+it seems that one was only a distraction so this one would not
+be found.You see many tables, littered with food and drinks
+of many types, so that you can always find your choice of supply.This
+room is deffinently bigger then the rest of the rooms, and has
+a poster of "Fighter" on the wall.There is also a large entertainment
+system against the far wall, with many game systems, a DVD player,
+and a large screen TV that rivals the ones you would find in
+a theater.
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 9388 0 0 0
+S
+#9391
+Candy Room~
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 7594 0 0 0
+S
+#9392
+Floating in a void~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7594 0 0 0
+S
+#9393
+.~
+~
+0 0 1 16384
+D7
+~
+~
+0 -1 7410 0 0 0
+> rand_prog 20~
+&bMelfina whispers to Bacfire &c"&bI &Rlove &byou&c"
+~
+|
+S
+#9394
+Floating in a void~
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 7594 0 0 0
+S
+#9395
+Hallway of death~
+~
+0 0 1 16384
+D0
+~
+~
+0 -1 7430 0 0 0
+D1
+~
+~
+0 -1 9397 0 0 0
+D3
+~
+~
+0 -1 9396 0 0 0
+S
+#9396
+Zeken's Personal Room~
+~
+0 0 1 16384
+D0
+~
+~
+0 -1 9398 0 0 0
+D1
+~
+~
+0 -1 9395 0 0 0
+S
+#9397
+Guest's Room~
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 9395 0 0 0
+S
+#9398
+Zeken's Bedroom~
+You are standing in the entry hall of the Pirate Android, the Legendary Zeken. It is a long hall with a coat rack for all his clothing items he might use, and a treasure box that on closer inspection, contains all of his extra equipment and items
+~
+0 0 1 16384
+D2
+~
+~
+0 -1 9396 0 0 0
+S
+#9399
+Floating in a void~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7594 0 0 0
+S
+#9400
+Floating in a void~
+~
+0 0 1 16384
+D8
+~
+~
+0 -1 9401 0 0 0
+D9
+~
+~
+0 -1 7454 0 0 0
+S
+#9401
+Floating in a void~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 9402 0 0 0
+D7
+~
+~
+0 -1 9400 0 0 0
+S
+#9402
+Floating in a void~
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 9401 0 0 0
+S
+#9403
+Floating in a void~
+~
+0 0 1 16384
+D5
+~
+~
+0 -1 7457 0 0 0
+S
+#9404
+Floating in a void~
+~
+0 0 1 16384
+D4
+~
+~
+0 -1 7457 0 0 0
+S
+#9405
+Floating in a void~
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 7457 0 0 0
+S
+#9406
+Floating in a void~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7457 0 0 0
+S
+#9407
+&PD&pa &PS&phitter~
+&pThe smell of &gCheeba&p fills the &Cair&p as you walk in. T.V's
+line the walls making sure you don't miss anything while your
+takin a &Oshit&p.&PN&Yu&Pd&Ye&p posters line the walls, just
+in case you feel the urge to &R*&Ybeat &Byour &Ymeat&p.&R* 
+~
+0 0 1 16384
+D3
+~
+~
+0 -1 7452 0 0 0
+S
+#9408
+&RV&B.&YI&B.&PP &RR&Yoo&Pm~
+~
+0 0 1 16384
+D1
+~
+~
+0 -1 7452 0 0 0
+S
+#11500
+Last Room~
+~
+0 4 1 0
+R M 0 9351 1 11500
+R M 0 11500 1 11500
+R O 0 9351 1 11500
+R O 0 11500 1 11500
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

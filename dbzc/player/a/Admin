@@ -1,0 +1,67 @@
+PLAYER
+Version      3
+Name         Admin~
+Sex          1
+Class        0
+Race         2
+Level        66
+Played       48
+Room         100
+HpManaMove   150 150 116 243 100 100
+Breath       0
+Gold         20000
+Aura         -1 -1
+Balance      0
+Exp          5000
+Quest        0.0
+Mod          1.000000
+Kimod        1.000000
+Height          81 0
+Weight          148 0
+Act          637535816&8
+Powerup      0&16384
+Position     108
+Style        1
+Stat         4
+StatGain     1
+SKiGain      3
+SkillGain    1
+SkillLvl     1
+Gravity      0 0 0
+Alignment    0
+Glory        0
+AtkDef       0 0 0 0 0 0 0
+AtkDef2      0 0 0 0
+Armory       0
+Biomass     0
+Barrier     0
+Suppress    0
+Rage        0
+Kili           0
+NdCount     0
+Mapsize     0
+Set         0 0
+Password     Ad4O69cwrPVg.~
+Rank         ~
+Title         the Fighter~
+AIM          ~
+Boards       5 General 0 Ideas 0 Announce 0 Bugs 0 Personal 0
+WizInvis     0
+Flags        260079616
+Deaf       0
+PKills       0
+PDeaths      0
+PGTimer       49
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     8 5 5 5 5 5 5
+ModPerm      0 0 0 0 0 0 0
+Site           0.0.0.1
+LastOn         1148434487
+Coordinates     -1 -1 -1
+MaxColors    85
+Colors       0 1 2 3 4 5 6 15 8 9 10 11 12 13 14 7 25 7 7 15 15 14 15 15 11 11 9 9 9 12 7 7 2 6 7 7 10 7 7 7 9 7 9 15 7 7 11 7 7 3 12 9 7 7 10 7 2 3 7 9 7 2 9 12 10 6 11 15 2 13 15 12 12 12 10 10 11 14 7 12 7 13 2 6 8
+End
+
+#END

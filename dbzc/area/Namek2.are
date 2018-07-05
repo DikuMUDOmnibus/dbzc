@@ -1,0 +1,2825 @@
+#AREA   Planet Namek2~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 498640800
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#11701
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#11702
+invis worker~
+Invisible ship worker!~
+Invisible ship worker!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+#11703
+Space Guard~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 11703
+~
+> fight_prog 50~
+mea $n &YThe large mutant guard slashes at you! [10]
+mer $n &YThe large mutant guard slashes at $n! [10]
+mpdamage $n 10
+~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+|
+#11704
+Space Guard Mutant~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 11704
+~
+> fight_prog 50~
+mea $n &YThe large mutant guard slashes at you! [10]
+mer $n &YThe large mutant guard slashes at $n! [10]
+mpdamage $n 10
+~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+|
+#11705
+Space Guard Mutant~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+> fight_prog 50~
+mea $n &YThe large mutant guard slashes at you! [10]
+mer $n &YThe large mutant guard slashes at $n! [10]
+mpdamage $n 10
+~
+> death_prog 100~
+mpmload 11705
+~
+|
+#11706
+Space Guard Mutant~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 11706
+~
+> fight_prog 50~
+mea $n &YThe large mutant guard slashes at you! [10]
+mer $n &YThe large mutant guard slashes at $n! [10]
+mpdamage $n 10
+~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+|
+#11707
+Space Guard Mutant~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 11707
+~
+> fight_prog 30~
+mea $n &RThe large mutant fires a ki blast at you! [30]
+mer $n &RThe large mutant fires a ki blast at $n! [30]
+mpdamage $n 30
+~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+|
+#11708
+Space Guard Mutant~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 11708
+~
+> fight_prog 30~
+mea $n &RThe  large mutant fires a ki blast at you! [30]
+mer $n &RThe large mutant fires a ki blast at $n! [30]
+mpdamage $n 30
+~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+|
+#11709
+Space Guard Mutant~
+A Spaceship Guard~
+A large Mutant in Icerian armor stands guard here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 950000000
+108 108 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 11709
+~
+> fight_prog 30~
+mea $n &RThe large mutant fires a ki blast at you! [30]
+mer $n &RThe large mutant fires a ki blast at $n! [30]
+mpdamage $n 30
+~
+> greet_prog 100~
+if race($n) == Icer
+say Welcome back to the ship Sir.
+bow $n
+else
+say You aren't authorize to enter!
+mea $n &WThe Large Mutant Guard charges at you!
+mer $n &WThe Large Mutant Guard charges at $n!
+mpkill $n
+endif
+~
+|
+#11710
+zarbonn~
+Zarbon~
+A green mutant with a pony tail poses at the controls.
+~
+~
+3 -1000 C
+5 0 0 2d2+4 2d2+4
+0 950000000
+108 108 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+7 3 0 0 7 7 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> fight_prog 50~
+mpecho &cZarbon explodes with power as his wounds are healed!
+mprestore 'zarbon' 50
+~
+> fight_prog 5~
+mpecho &cZarbon's muscles double in size as he mutates into his final form!
+mea $n &RZarbon charges at you and slashes at your face! [50]
+mer $n &RZarbon charges at $n and slashes at their face! [50]
+mpdamage $n 50
+~
+> fight_prog 35~
+mpecho &WZarbon stretches his arms and prepares for an Energy Blast.
+mea $n &YZarbon sends three bolts right at you!
+mer $n &YZarbon sends three bolts right at $n!
+mea $n &WZarbon blast slams into you! [10]
+mea $n &WZarbon blast slams into you! [10]
+mea $n &WZarbon blast slams into you! [10]
+mer $n &WZarbon blast slams into $n! [10]
+mer $n &WZarbon blast slams into $n! [10]
+mer $n &WZarbon blast slams into $n! [10]
+mpdamage $n 30
+
+~
+> greet_prog 100~
+if race($n) == icer
+say Ah, welcome back to the ship Si... Wait a minute
+say You aren't Lord Frieza!
+say Die Imposter!
+mpkill $n
+else
+say What the deuce... I don't know how you got this far into the ship.
+say But you won't go any further!
+mpecho &cZarbon's muscles begin growing larger as he mutates to his second form!
+mpkill $n
+endif
+~
+> death_prog 100~
+mpmload 11710
+~
+|
+#11711
+Lord Frieza~
+Lord Frieza~
+&CA short icer in royal garb rests in his hovering pod.&W&w
+~
+~
+3&8 -1000 C
+5 0 0 2d2+4 2d2+4
+100000 1000000000
+108 108 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+6 3 0 0 6 6 2
+0 0 65536 0 0 0 0 0
+Z
+none~
+> fight_prog 100~
+if rand(30)
+mea $n &RFrieza directs his energy attack at you!
+mer $n &RFrieza directs his energy attack at $n!
+mea $n &RFrieza's energy disk cuts you! [20]
+mea $n &RFrieza's energy disk cuts you! [20]
+mer $n &RFrieza's energy disk cuts $n! [20]
+mer $n &RFrieza's energy disk cuts $n! [20]
+mpdamage $n 40
+mprestore 'lord frieza' 40
+else
+mea $n &YFrieza swings his tail at you! [12]
+mer $n &WFrieza swings his tail at $n! [12]
+mpdamage $n 12
+mprestore 'lord frieza' 25
+endif
+~
+> greet_prog 100~
+if race($n) == icer
+say Ah so you are the Imposter I've been monitoring...
+say I'm suprised you got past Zarbon... well you won't make it any farther!
+mpkill $n
+else
+say Ah so you are the Interloper I've been monitoring...
+say I'm suprised you got past Zarbon... well you won't make it any farther!
+mpkill $n
+endif
+~
+> death_prog 100~
+mpoload 11703
+mpoload 6
+mposet bean short &CA gummy bear shaped like $n!&W&w
+mposet bean long &CA gummy bear shaped like $n is half melted here!&W&w
+mposet bean name gummy bear
+~
+|
+#11712
+invis worker~
+Invisible ship worker!~
+Invisible ship worker!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+#11713
+invis worker~
+Invisible ship worker!~
+Invisible ship worker!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+#11714
+invis worker~
+Invisible ship worker!~
+Invisible ship worker!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+#11715
+invis worker~
+Invisible ship worker!~
+Invisible ship worker!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+> act_prog p flies~
+mpoload 11703
+close ne
+close e
+close se
+lock ne
+lock e
+lock se
+mpjunk key
+~
+> act_prog p leaves~
+mpoload 11703
+close ne
+close e
+close se
+lock ne
+lock e
+lock se
+mpjunk key
+~
+|
+#11716
+old disguised namek~
+A disguised namek~
+&GA namek in icerian armor stands guard here.&W&w
+~
+~
+67108867 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 5 5 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> act_prog p flies~
+say Shhh.... I'm disguised as one of Frieza's henchmen so that I can warn people of the dangers within this ship... If you are crazy enough to go inside just say 'Let me in'
+sigh
+~
+> act_prog p arrives~
+say Shhh.... I'm disguised as one of Frieza's henchmen so that I can warn people of the dangers within this ship... If you are crazy enough to go inside just say 'Let me in'
+sigh
+~
+> speech_prog p let me in~
+if pl($n) < 50000000
+say Going in at your pl would be suicide, I can't let you enter.
+else
+if pl($n) < 90000000
+say You should probably only come into this zone if you have max powerlevel... but if you want to kill yourself go on in
+mpecho &GThe namek presses in the code on the keypad.
+mpecho &GThe sliding doors open up and you are blinded by the light within.
+mpecho &GYou walk into the ship!
+mptransfer $n 11703
+else
+say Be careful within the ship brave fighter and good luck!
+mpecho &GThe namek presses in the code on the keypad.
+mpecho &GThe sliding doors open up and you are blinded by the light within.
+mpecho &GYou walk into the ship!
+mptransfer $n 11703
+endif
+endif
+~
+|
+#11717
+Guru~
+Guru~
+Guru, the patriarch of the Nameks, is here sitting in his chair.
+~
+~
+67108867 1000 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+5 3 0 0 5 5 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+if isnpc($n)
+mpdonothing
+else
+if pl($n) > 10000000
+say Welcome my friend. I'm sorry, but you are too strong for me to train you any further.
+say Feel free to use the training facilities in my house as you wish.
+else
+say Welcome my friend. If you wish for me to unlock your power, just say so.
+say Feel free to use the training facilities in my house as you wish.
+endif
+endif
+~
+> speech_prog unlock unlocked~
+if pl($n) < 10000000
+mpgiveunlock $n
+else
+say You have already unlocked your hidden power.
+endif
+~
+|
+#11718
+Nail Namek~
+Nail~
+A Namek that looks exactly like Piccolo stands guard here.
+~
+~
+67108867 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 5 5 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if isgood($n)
+or isneutral($n)
+bow $n
+say Welcome to Guru's house, $n.
+mpsleep 4
+say I assume you seek his training, unfortunately many evil men want to destroy Guru because of his ability to continue the existance of the Namek race here on our home planet.
+mpsleep 4
+say I have to protect those people from reaching him, so to get to Guru you must answer a riddle that no truely evil man could ever figure out.
+mpsleep 4
+say So if you want to take a shot at the riddle just ask me for it.
+else
+glare $n
+say Those of an evil heart are not welcome here, but my master Guru has given me orders to give every person a chance to train under him...
+cruel $n
+say Guru thinks there is good in most people, but they hide behind a false alignment thinking evil gives them more power...
+say Nevertheless, you must answer my riddle to reach Guru, just ask for it if you wish to procede.
+endif
+~
+> speech_prog p riddle~
+mpsleep 3
+nod
+mpsleep 4
+mea $n &GNail places his hands on your head and sends the riddle to you telepathically.
+mer $n &GNail places his hands on $n 's head and sends them the riddle telepathically.
+mpsleep 3
+mea $n &RDuels of good and evil,
+mpsleep 3
+mea $n &RA fighter of good am I,
+mpsleep 3
+mea $n &RRevealed beside watched words,
+mpsleep 3
+mea $n &RKing of the black night sky.
+mpsleep 3
+mea $n &RWhat am I?
+~
+> speech_prog p dark~
+if isgood($n)
+or isneutral($n)
+nod
+mpsleep 4
+say That is the correct answer.
+mpsleep 3
+mpecho &GNail reveals a secret staircase to the second floor of the house.
+mpopenpassage 11749 11754 4
+mea $n &GYou ascend the staircase towards the second floor.
+mer $n &G$n ascends the staircase towards the second floor.
+mpforce $n up
+mpclosepassage 11749 4
+mpat $n mer $n &G$n has arrived from the first floor.
+else
+say Lucky guess....
+mpecho &GNail reveals a secret staircase to the second floor of the house.
+mpopenpassage 11749 11754 4
+mea $n &GYou ascend the staircase towards the second floor.
+mer $n &G$n ascends the staircase towards the second floor.
+mpforce $n up
+mpclosepassage 11749 4
+mpat $n mer $n &G$n has arrived from the first floor.
+endif
+~
+|
+#11850
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#11701
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#11702
+Level one Key~
+Level One Elevator Key~
+The Level One Elevator Key to Frieza's Ship.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#11703
+Royal Chamber Key~
+The Royal Chamber Key~
+A key to Lord Frieza's Royal Chambers rests here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#11704
+Healing Pod~
+A Small Healing Pod~
+A small healing pod is here, ready to be entered.~
+~
+12 2 0
+0 0 0 0
+1 0 0
+#11705
+Gravity Machine~
+A Gravity Machine~
+A Large Gravity Machine is here making you feel heavy.~
+~
+12 2 0
+0 0 0 0
+1 0 0
+#11850
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#11701
+First Room~
+~
+0 1073741828 1 0
+S
+#11702
+&CEntrance to Frieza's Spaceship&W&w~
+&YYou stand before the massive entrance to one of the largest
+spaceships you've ever seen. There is a keypad next to the huge
+sliding doors that lead into the ship. It seems that no matter
+what you type into the keypad the ship isn't opening.
+~
+0 0 1 0
+D3
+~
+~
+536870912 -1 8150 443 449 3
+R M 0 11716 1 11702
+S
+#11703
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11721 0 0 0
+D2
+~
+~
+0 -1 11704 0 0 0
+D3
+~
+~
+0 -1 11702 0 0 0
+R M 0 11703 1 11703
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+
+~
+S
+#11704
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11703 0 0 0
+D8
+~
+~
+0 -1 11705 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+
+~
+S
+#11705
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11707 0 0 0
+D2
+~
+~
+0 -1 11706 0 0 0
+D7
+~
+~
+0 -1 11704 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11706
+&CAn Observation Room&W&w~
+&YThe walls in this room are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are several windows leading outside to Planet Namek in this
+room. One wall is lined with monitors and gauges displaying
+pictures of the ship, inside and out.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11705 0 0 0
+S
+#11707
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11708 0 0 0
+D1
+~
+~
+0 -1 11709 0 0 0
+D3
+~
+~
+0 -1 11705 0 0 0
+R M 0 11704 1 11707
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11708
+&CSpaceship Level 1 Control Room&W&w~
+&YAlmost every wall in this room has a control panel attatched
+to it. The panels are covered in gauges, switches, and buttons.Several
+small mutant workers monitor the gauges and flip switches and
+buttons when needed, keeping the ship operational.You probably
+shouldn't touch anything, you don't want to accidently activate
+self-destruct or anything.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11719 0 0 0
+D2
+~
+~
+0 -1 11707 0 0 0
+S
+#11709
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11711 0 0 0
+D2
+~
+~
+0 -1 11710 0 0 0
+D3
+~
+~
+0 -1 11707 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11710
+&CAn Observation Room&W&w~
+&YThe walls in this room are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are several windows leading outside to Planet Namek in this
+room. One wall is lined with monitors and gauges displaying
+pictures of the ship, inside and out.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11709 0 0 0
+S
+#11711
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11712 0 0 0
+D3
+~
+~
+0 -1 11709 0 0 0
+D6
+~
+~
+0 -1 11713 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11712
+&CStorage Room&W&w~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 11711 0 0 0
+S
+#11713
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11714 0 0 0
+D9
+~
+~
+0 -1 11711 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11714
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+There seems to be a sliding door to the west, but it's locked shut.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11716 0 0 0
+D2
+~
+~
+0 -1 11713 0 0 0
+D3
+~
+door~
+15 11702 11715 0 0 0
+R M 0 11702 1 11714
+R D 0 11714 3 2
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11715
+&CSpacehip Elevator: Level 1&W&w~
+&YThe walls in this elevator are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+is a small control panel on the elevator wall next to the entrance.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11714 0 0 0
+R M 0 11706 1 11715
+E
+control panel~
+&C====================
+|                  |
+| Startup Elevator |
+|                  |
+====================
+~
+> custom_prog startup elevator~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mea $n &CThe elevator starts moving upwards.
+mea $n &CYou have arrived at Level 2.
+mptransfer $n 11722
+mpat $n mpforce $n look
+mpat $n mer $n &C$n has arrived from Level 1.
+endif
+~
+|
+S
+#11716
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 11714 0 0 0
+D7
+~
+~
+0 -1 11717 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11717
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 11718 0 0 0
+D8
+~
+~
+0 -1 11716 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11718
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11717 0 0 0
+D2
+~
+~
+0 -1 11719 0 0 0
+D3
+~
+~
+0 -1 11720 0 0 0
+R M 0 11705 1 11718
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11719
+&CSpaceship Level 1 Control Room&W&w~
+&YAlmost every wall in this room has a control panel attatched
+to it. The panels are covered in gauges, switches, and buttons.
+Several small mutant workers monitor the gauges and flip switches
+and buttons when needed, keeping the ship operational. A large
+button catches your attention, although you probably shouldn't
+&Opress &Yanything, you don't want to accidently activate self-destruct
+or &Yanything.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11718 0 0 0
+D2
+~
+~
+0 -1 11708 0 0 0
+> custom_prog press button~
+mpecho
+mpecho &RThe monitor in front of you blinks on.
+mpecho &RIt displays an elevator door opening.
+mpat 11714 mpforce 'invis worker' mpoload 11702
+mpat 11714 mpforce 'invis worker' unlock door
+mpat 11714 mpforce 'invis worker' open door
+mpat 11714 mpforce 'invis worker' mpjunk key
+~
+|
+S
+#11720
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11718 0 0 0
+D9
+~
+~
+0 -1 11721 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11721
+&CSpaceship Level 1&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 11703 0 0 0
+D6
+~
+~
+0 -1 11720 0 0 0
+E
+monitor~
+&G....................&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&cSP&W++++++++++++++
+&G..................&W++++++++++++++++
+&G..................&W++++++++++++++++
+&G....................&W++++++++++++++
+&G....................&W++++++++++++++
+~
+S
+#11722
+&CSpaceship Elevator: Level 2&W&w~
+&YThe walls in this elevator are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+is a small control panel on the elevator wall next to the entrance.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11723 0 0 0
+E
+control panel~
+&C====================
+|                  |
+| Startup Elevator |
+|                  |
+====================
+~
+> custom_prog startup elevator~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mea $n &CThe elevator starts moving upwards.
+mea $n &CYou have arrived at Level 1.
+mptransfer $n 11715
+mpat $n mpforce $n look
+mpat $n mer $n &C$n has arrived from Level 2.
+endif
+~
+|
+S
+#11723
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 11722 0 0 0
+D7
+~
+~
+0 -1 11724 0 0 0
+D9
+~
+~
+0 -1 11735 0 0 0
+R M 0 11707 1 11723
+S
+#11724
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 11725 0 0 0
+D8
+~
+~
+0 -1 11723 0 0 0
+S
+#11725
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 11726 0 0 0
+D8
+~
+~
+0 -1 11724 0 0 0
+R M 0 11709 1 11725
+S
+#11726
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11725 0 0 0
+D2
+~
+~
+0 -1 11727 0 0 0
+D9
+~
+~
+0 -1 11728 0 0 0
+S
+#11727
+&CSpaceship Holosection&W&w~
+&YThis room is a large empty room, with black walls lined with
+sensors. A small control panel is set into the wall next to
+the entrance. This room must be where Frieza and his crew go
+to relax and get away from the everyday lifestyle of killing
+and rampaging.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11726 0 0 0
+E
+control panel~
+&C===========================
+|                         |
+| Under Water Fun!        |
+|                         |
+| Country Side Adventure! |
+|                         |
+| Sunset on the Beach!    |
+|                         |
+&C===========================
+~
+> speech_prog p Under Water Fun!~
+mpecho &RHolosection is temporarily disabled. :(
+~
+> speech_prog p Country Side Adventure!~
+mpecho &RHolosection is temporarily disabled. :(
+~
+> speech_prog p Sunset on the Beach!~
+mpecho &RHolosection is temporarily disabled. :(
+~
+|
+S
+#11728
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 11726 0 0 0
+D9
+~
+~
+0 -1 11729 0 0 0
+S
+#11729
+&CThe Bridge&W&w~
+&YYou have reached the main control room of the ship. There is
+a large captains chair in the center of the room. Everything
+in the room faces the wall size monitor on the front wall of
+the ship.You catch glimpse of something short running to the
+east.
+~
+0 0 1 256
+D1
+~
+~
+2048 -1 11730 0 0 0
+D6
+~
+~
+0 -1 11728 0 0 0
+D8
+~
+~
+0 -1 11731 0 0 0
+R M 0 11710 1 11729
+S
+#11730
+&CA Private Royal Elevator&W&w~
+&YThe walls in this elevator are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+is a small control panel on the elevator wall next to the entrance.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 11729 0 0 0
+E
+control pannel~
+&C====================
+|                  |
+| Startup Elevator |
+|                  |
+====================
+~
+> custom_prog startup elevator~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mea $n &CThe elevator starts moving upwards.
+mea $n &CYou have arrived at Level 3.
+mptransfer $n 11738
+mpat $n mpforce $n look
+mpat $n mer $n &C$n has arrived from Level 2.
+endif
+~
+|
+S
+#11731
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 11729 0 0 0
+D8
+~
+~
+0 -1 11732 0 0 0
+S
+#11732
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11733 0 0 0
+D7
+~
+~
+0 -1 11731 0 0 0
+S
+#11733
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11734 0 0 0
+D3
+~
+~
+0 -1 11732 0 0 0
+D6
+~
+~
+0 -1 11735 0 0 0
+R M 0 11708 1 11733
+S
+#11734
+&CSpaceship Training Area&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating.To the
+north there is an Ultra Gravity Machine and all of the healing
+pods are to the west.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 11737 0 0 0
+D2
+~
+~
+0 -1 11733 0 0 0
+D3
+~
+~
+0 -1 11736 0 0 0
+S
+#11735
+&CSpacehip Level 2&W&w~
+&YThe walls in this hallway are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+are monitors on the walls every fifteen feet displaying various
+camera shots of outside the ship and other rooms in the ship.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 11723 0 0 0
+D9
+~
+~
+0 -1 11733 0 0 0
+S
+#11736
+&CHealing Chamber&W&w~
+&YUpon entering of the healing chamber, you notice all the healing
+pods that are scattered across the room. There are many medpacks
+and health packs that are stacked against the walls. The light
+seems to be dimmed in order to let the fighters sleep and heal faster.
+~
+0 0 1 1
+D1
+~
+~
+0 -1 11734 0 0 0
+S
+#11737
+&CUltra Gravity Chamber&W&w~
+&YAs you walk into this dark blue room, you can clearly see a machine
+that continuously hums. There is a display panel above the machine
+showing a large number that keeps going up. As the number increases
+you feel heavier and heavier.
+~
+0 0 1 131076
+D2
+~
+~
+0 -1 11734 0 0 0
+S
+#11738
+&CPrivate Royal Elevator&W&w~
+&YThe walls in this elevator are made of a strange icerian metal,
+that seems to emit a soft glow of light. The floors are made
+of a metal grating that clinks when you walk over it. Several
+wires and cables can be seen running under the grating. There
+is a small control panel on the elevator wall next to the entrance.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 11739 0 0 0
+E
+control panel~
+&C====================
+|                  |
+| Startup Elevator |
+|                  |
+====================
+~
+> custom_prog startup elevator~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mea $n &CThe elevator starts moving upwards.
+mea $n &CYou have arrived at Level 2.
+mptransfer $n 11730
+mpat $n mpforce $n look
+mpat $n mer $n &C$n has arrived from Level 3.
+endif
+~
+|
+S
+#11739
+&CIcerian Royal Throne Room&W&w~
+&YThis room looks like no other area's in the spaceship. There
+are royal purple velvet tapestries draped over the walls and
+over the floors. The room is lit by dim torch light from torch
+holsters around the walls. There is a long red carpet down the
+center of the room that leads to a huge golden throne at the
+far end of the room. There is a door to the east, northeast,
+and southeast of the throne that have Royal Chamber scribed
+in gold on them.
+~
+0 0 1 256
+D1
+~
+~
+519 11703 11741 0 0 0
+D3
+~
+~
+0 -1 11738 0 0 0
+D6
+~
+~
+519 11703 11740 0 0 0
+D8
+~
+~
+519 11703 11742 0 0 0
+R M 0 11711 1 11739
+R M 0 11715 1 11739
+R D 0 11739 1 2
+R D 0 11739 6 2
+R D 0 11739 8 2
+S
+#11740
+&CIcerian Royal Chambers&W&w~
+&YA large icerian symbol is engraved in the marble floor.A large
+rack of laser weapons, scouters, and other icerian technological
+advances, is against the wall to your left. There appears to
+be a blood stain on the floor next to where you are standing
+from the last person that ventured this far into Lord Frieza's ship.
+~
+0 256 1 0 0 0 2
+D9
+~
+~
+6 -1 11739 0 0 0
+D10
+~
+~
+537004040 -1 8150 443 449 3
+R M 0 11712 1 11740
+> entry_prog 100~
+if rand(75)
+mpforce 'invis worker' mpwithdraw 10000000
+mpforce 'invis worker' give 10000000 coins $n
+mea $n &YYou find Frieza's gold stash!
+mea $n &YIt appears to be about 10million gold!
+mea $n &cYou suddenly get transported away.
+mpforce $n enter
+else
+mea $n &cYou walk into the room and are hit by a beam of light.
+mea $n &cYou've walked into a trap!
+mea $n &cYou suddenly get transported away.
+mpforce $n enter
+mpforce 'invis worker' mpat $n mpstun $n
+endif
+~
+|
+S
+#11741
+&CIcerian Royal Chambers&W&w~
+&YA large icerian symbol is engraved in the marble floor.A large
+rack of laser weapons, scouters, and other icerian technological
+advances, is against the wall to your left. There appears to
+be a blood stain on the floor next to where you are standing
+from the last person that ventured this far into Lord Frieza's ship.
+~
+0 256 1 0 0 0 2
+D3
+~
+~
+6 -1 11739 0 0 0
+D10
+~
+~
+537004040 -1 8150 443 449 3
+R M 0 11713 1 11741
+> entry_prog 100~
+if rand(50)
+mpforce 'invis worker' mpwithdraw 10000000
+mpforce 'invis worker' give 10000000 coins $n
+mea $n &YYou find Frieza's gold stash!
+mea $n &YIt appears to be about 10million gold!
+mea $n &cYou suddenly get transported away.
+mpforce $n enter
+else
+mea $n &cYou walk into the room and are hit by a beam of light.
+mea $n &cYou've walked into a trap!
+mea $n &cYou suddenly get transported away.
+mpforce $n enter
+mpforce 'invis worker' mpat $n mpstun $n
+endif
+~
+|
+S
+#11742
+&CIcerian Royal Chambers&W&w~
+&YA large icerian symbol is engraved in the marble floor.A large
+rack of laser weapons, scouters, and other icerian technological
+advances, is against the wall to your left. There appears to
+be a blood stain on the floor next to where you are standing
+from the last person that ventured this far into Lord Frieza's ship.
+~
+0 256 1 0 0 0 2
+D7
+~
+~
+6 -1 11739 0 0 0
+D10
+~
+~
+537004040 -1 8150 443 449 3
+R M 0 11714 1 11742
+> entry_prog 100~
+if rand(30)
+mpforce 'invis worker' mpwithdraw 10000000
+mpforce 'invis worker' give 10000000 coins $n
+mea $n &YYou find Frieza's gold stash!
+mea $n &YIt appears to be about 10million gold!
+mea $n &cYou suddenly get transported away.
+mpforce $n enter
+else
+mea $n &cYou walk into the room and are hit by a beam of light.
+mea $n &cYou've walked into a trap!
+mea $n &cYou suddenly get transported away.
+mpforce $n enter
+mpforce 'invis worker' mpat $n mpstun $n
+endif
+~
+|
+S
+#11743
+&CThe Brig&W&w~
+~
+0 4 1 0
+S
+#11744
+Inside Guru's House~
+&g=======================
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w..................&R***&g-
+&g=&w..................&R***
+&g=======================
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11750 0 0 0
+D1
+~
+~
+536870912 -1 11850 36 157 3
+D3
+~
+~
+0 -1 11746 0 0 0
+D7
+~
+~
+0 -1 11749 0 0 0
+S
+#11745
+Inside Guru's Quarters~
+You have entered Guru's personal quarters. The walls look like
+a typical namekian dwelling, except the room is much larger
+than most namekian homes. The room is lit by dim torch fire,
+coming from the torches at each corner of the room. Guru is
+seated in his massive chair, contemplating the philosphy of life.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 11758 0 0 0
+R M 0 11717 1 11745
+S
+#11746
+Inside Guru's House~
+&g=======================
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&R***&w.........&g-
+&g=&w.........&R***&w.........&g
+&g=======================
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11749 0 0 0
+D1
+~
+~
+0 -1 11744 0 0 0
+D3
+~
+~
+0 -1 11747 0 0 0
+D6
+~
+~
+0 -1 11750 0 0 0
+D7
+~
+~
+0 -1 11748 0 0 0
+S
+#11747
+Inside Guru's House~
+&g=======================
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&R***&w..................&g-
+&g=&R***&w..................&g
+&g=======================
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11748 0 0 0
+D1
+~
+~
+0 -1 11746 0 0 0
+D6
+~
+~
+0 -1 11749 0 0 0
+S
+#11748
+Inside Guru's House~
+&g=======================
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&R***&w......&B***&w.........&g=
+&g=&R***&w......&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g-
+&g=&w.....................&g
+&g=======================
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11751 0 0 0
+D1
+~
+~
+0 -1 11749 0 0 0
+D2
+~
+~
+0 -1 11747 0 0 0
+D6
+~
+~
+0 -1 11752 0 0 0
+D8
+~
+~
+0 -1 11746 0 0 0
+S
+#11749
+Inside Guru's House~
+&g=======================
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&R***&w.........&g=
+&g=&w.........&R***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g-
+&g=&w.....................&g
+&g=======================
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11752 0 0 0
+D1
+~
+~
+0 -1 11750 0 0 0
+D2
+~
+~
+0 -1 11746 0 0 0
+D3
+~
+~
+0 -1 11748 0 0 0
+D6
+~
+~
+0 -1 11753 0 0 0
+D7
+~
+~
+0 -1 11751 0 0 0
+D8
+~
+~
+0 -1 11744 0 0 0
+D9
+~
+~
+0 -1 11747 0 0 0
+R M 0 11718 1 11749
+S
+#11750
+Inside Guru's House~
+&g=======================
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w......&R***&g=
+&g=&w.........&B***&w......&R***&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g-
+&g=&w.....................&g
+&g=======================
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11753 0 0 0
+D2
+~
+~
+0 -1 11744 0 0 0
+D3
+~
+~
+0 -1 11749 0 0 0
+D7
+~
+~
+0 -1 11752 0 0 0
+D9
+~
+~
+0 -1 11746 0 0 0
+S
+#11751
+Inside Guru's House~
+&g=======================
+&g=&R***&w..................&g=
+&g=&R***&w..................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g-
+&g=&w.....................&g
+&g=======================
+~
+0 4 1 0
+D1
+~
+~
+0 -1 11752 0 0 0
+D2
+~
+~
+0 -1 11748 0 0 0
+D8
+~
+~
+0 -1 11749 0 0 0
+S
+#11752
+Inside Guru's House~
+&g=======================
+&g=&w.........&R***&w.........&g=
+&g=&w.........&R***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g-
+&g=&w.....................&g
+&g=======================
+~
+0 4 1 0
+D1
+~
+~
+0 -1 11753 0 0 0
+D2
+~
+~
+0 -1 11749 0 0 0
+D3
+~
+~
+0 -1 11751 0 0 0
+D8
+~
+~
+0 -1 11750 0 0 0
+D9
+~
+~
+0 -1 11748 0 0 0
+S
+#11753
+Inside Guru's House~
+&g=======================
+&g=&w..................&R***&g=
+&g=&w..................&R***&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.........&B***&w.........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g=&w.....................&g-
+&g=&w.....................&g
+&g=======================
+~
+0 4 1 0
+D2
+~
+~
+0 -1 11750 0 0 0
+D3
+~
+~
+0 -1 11752 0 0 0
+D9
+~
+~
+0 -1 11749 0 0 0
+S
+#11754
+Inside Guru's House~
+&x.    &g=============
+   &g=&w...............&g=
+ &g=&w...................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g &w..................&R***&g=
+&g &w..................&R***&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+ &g=&w...................&g=
+   &g=&w...............&g=
+     &g=============
+~
+0 4 1 0
+D3
+~
+~
+0 -1 11757 0 0 0
+D5
+~
+~
+0 -1 11744 0 0 0
+D7
+~
+~
+0 -1 11755 0 0 0
+D9
+~
+~
+0 -1 11756 0 0 0
+S
+#11755
+Inside Guru's House~
+&x.    &g=============
+   &g=&w......&R***&w......&g=
+ &g=&w........&R***&w........&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g &w..................&W\\\&g=
+&g &w..................&W\\\&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+ &g=&w...................&g=
+   &g=&w...............&g=
+     &g=============
+~
+0 4 1 4
+D2
+~
+~
+0 -1 11757 0 0 0
+D8
+~
+~
+0 -1 11754 0 0 0
+D9
+~
+~
+0 -1 11758 0 0 0
+R O 0 11705 1 11755
+S
+#11756
+Inside Guru's House~
+&x.    &g=============
+   &g=&w...............&g=
+ &g=&w...................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g &w..................&W\\\&g=
+&g &w..................&W\\\&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+ &g=&w........&R***&w........&g=
+   &g=&w......&R***&w......&g=
+     &g=============
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11757 0 0 0
+D6
+~
+~
+0 -1 11754 0 0 0
+D7
+~
+~
+0 -1 11758 0 0 0
+D10
+~
+~
+133128 -1 11759 0 0 0
+R O 0 11704 1 11756
+S
+#11757
+Inside Guru's House~
+&x.    &g=============
+   &g=&w...............&g=
+ &g=&w...................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g &w.........&R***&w......&W\\\&g=
+&g &w.........&R***&w......&W\\\&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+ &g=&w...................&g=
+   &g=&w...............&g=
+     &g=============
+~
+0 4 1 0
+D0
+~
+~
+0 -1 11755 0 0 0
+D1
+~
+~
+0 -1 11754 0 0 0
+D2
+~
+~
+0 -1 11756 0 0 0
+D3
+~
+~
+0 -1 11758 0 0 0
+S
+#11758
+Inside Guru's House~
+&x.    &g=============
+   &g=&w...............&g=
+ &g=&w...................&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+&g &R***&w...............&W\\\&g=
+&g &R***&w...............&W\\\&g=
+&g=&w.....................&g=
+&g=&w.....................&g=
+ &g=&w...................&g=
+   &g=&w...............&g=
+     &g=============
+~
+0 4 1 0
+D1
+~
+~
+0 -1 11757 0 0 0
+D3
+~
+~
+0 -1 11745 0 0 0
+D6
+~
+~
+0 -1 11755 0 0 0
+D8
+~
+~
+0 -1 11756 0 0 0
+S
+#11759
+&BInside a small Healing Pod.&W&w~
+&CAs you enter a small mouth piece comes down and attaches itself
+to your mouth so that you can breathe. Several senors attach
+themselves to your body and the pod begins filling with saline.
+You begin to slightly panic as the fluid goes over your head,
+but you quickly calm down as you feel your body begin healing.
+Type 'Leave' to return to Guru's House.
+~
+0 4 1 1
+D10
+~
+leavepod~
+788480 -1 11756 0 0 0
+> rand_prog 100~
+mprestore $r 100
+mpkirestore $r 10000
+mea $r &CYour body tingles as you recover from your wounds.&W&w
+~
+|
+S
+#11760
+Floating in a void~
+~
+0 4 1 0
+S
+#11761
+Floating in a void~
+~
+0 4 1 0
+S
+#11762
+Floating in a void~
+~
+0 4 1 0
+S
+#11763
+Floating in a void~
+~
+0 4 1 0
+S
+#11764
+Floating in a void~
+~
+0 4 1 0
+S
+#11765
+Floating in a void~
+~
+0 4 1 0
+S
+#11766
+Floating in a void~
+~
+0 4 1 0
+S
+#11767
+Floating in a void~
+~
+0 4 1 0
+S
+#11768
+Floating in a void~
+~
+0 4 1 0
+S
+#11769
+Floating in a void~
+~
+0 4 1 0
+S
+#11770
+Floating in a void~
+~
+0 4 1 0
+S
+#11771
+Floating in a void~
+~
+0 4 1 0
+S
+#11772
+Floating in a void~
+~
+0 4 1 0
+S
+#11773
+Floating in a void~
+~
+0 4 1 0
+S
+#11774
+Floating in a void~
+~
+0 4 1 0
+S
+#11775
+Floating in a void~
+~
+0 4 1 0
+S
+#11776
+Floating in a void~
+~
+0 4 1 0
+S
+#11777
+Floating in a void~
+~
+0 4 1 0
+S
+#11778
+Floating in a void~
+~
+0 4 1 0
+S
+#11779
+Floating in a void~
+~
+0 4 1 0
+S
+#11780
+Floating in a void~
+~
+0 4 1 0
+S
+#11781
+Floating in a void~
+~
+0 4 1 0
+S
+#11782
+Floating in a void~
+~
+0 4 1 0
+S
+#11783
+Floating in a void~
+~
+0 4 1 0
+S
+#11784
+Floating in a void~
+~
+0 4 1 0
+S
+#11785
+Floating in a void~
+~
+0 4 1 0
+S
+#11786
+Floating in a void~
+~
+0 4 1 0
+S
+#11787
+Floating in a void~
+~
+0 4 1 0
+S
+#11788
+Floating in a void~
+~
+0 4 1 0
+S
+#11789
+Floating in a void~
+~
+0 4 1 0
+S
+#11790
+Floating in a void~
+~
+0 4 1 0
+S
+#11791
+Floating in a void~
+~
+0 4 1 0
+S
+#11792
+Floating in a void~
+~
+0 4 1 0
+S
+#11793
+Floating in a void~
+~
+0 4 1 0
+S
+#11794
+Floating in a void~
+~
+0 4 1 0
+S
+#11795
+Floating in a void~
+~
+0 4 1 0
+S
+#11796
+Floating in a void~
+~
+0 4 1 0
+S
+#11797
+Floating in a void~
+~
+0 4 1 0
+S
+#11798
+Floating in a void~
+~
+0 4 1 0
+S
+#11799
+Floating in a void~
+~
+0 4 1 0
+S
+#11800
+Floating in a void~
+~
+0 4 1 0
+S
+#11801
+Floating in a void~
+~
+0 4 1 0
+S
+#11802
+Floating in a void~
+~
+0 4 1 0
+S
+#11803
+Floating in a void~
+~
+0 4 1 0
+S
+#11804
+Floating in a void~
+~
+0 4 1 0
+S
+#11805
+Floating in a void~
+~
+0 4 1 0
+S
+#11806
+Floating in a void~
+~
+0 4 1 0
+S
+#11807
+Floating in a void~
+~
+0 4 1 0
+S
+#11808
+Floating in a void~
+~
+0 4 1 0
+S
+#11809
+Floating in a void~
+~
+0 4 1 0
+S
+#11810
+Floating in a void~
+~
+0 4 1 0
+S
+#11811
+Floating in a void~
+~
+0 4 1 0
+S
+#11812
+Floating in a void~
+~
+0 4 1 0
+S
+#11813
+Floating in a void~
+~
+0 4 1 0
+S
+#11814
+Floating in a void~
+~
+0 4 1 0
+S
+#11815
+Floating in a void~
+~
+0 4 1 0
+S
+#11816
+Floating in a void~
+~
+0 4 1 0
+S
+#11817
+Floating in a void~
+~
+0 4 1 0
+S
+#11818
+Floating in a void~
+~
+0 4 1 0
+S
+#11819
+Floating in a void~
+~
+0 4 1 0
+S
+#11820
+Floating in a void~
+~
+0 4 1 0
+S
+#11821
+Floating in a void~
+~
+0 4 1 0
+S
+#11822
+Floating in a void~
+~
+0 4 1 0
+S
+#11823
+Floating in a void~
+~
+0 4 1 0
+S
+#11824
+Floating in a void~
+~
+0 4 1 0
+S
+#11825
+Floating in a void~
+~
+0 4 1 0
+S
+#11826
+Floating in a void~
+~
+0 4 1 0
+S
+#11827
+Floating in a void~
+~
+0 4 1 0
+S
+#11828
+Floating in a void~
+~
+0 4 1 0
+S
+#11829
+Floating in a void~
+~
+0 4 1 0
+S
+#11830
+Floating in a void~
+~
+0 4 1 0
+S
+#11831
+Floating in a void~
+~
+0 4 1 0
+S
+#11832
+Floating in a void~
+~
+0 4 1 0
+S
+#11833
+Floating in a void~
+~
+0 4 1 0
+S
+#11834
+Floating in a void~
+~
+0 4 1 0
+S
+#11835
+Floating in a void~
+~
+0 4 1 0
+S
+#11836
+Floating in a void~
+~
+0 4 1 0
+S
+#11837
+Floating in a void~
+~
+0 4 1 0
+S
+#11838
+Floating in a void~
+~
+0 4 1 0
+S
+#11839
+Floating in a void~
+~
+0 4 1 0
+S
+#11840
+Floating in a void~
+~
+0 4 1 0
+S
+#11841
+Floating in a void~
+~
+0 4 1 0
+S
+#11842
+Floating in a void~
+~
+0 4 1 0
+S
+#11843
+Floating in a void~
+~
+0 4 1 0
+S
+#11844
+Floating in a void~
+~
+0 4 1 0
+S
+#11845
+Floating in a void~
+~
+0 4 1 0
+S
+#11846
+Floating in a void~
+~
+0 4 1 0
+S
+#11847
+Floating in a void~
+~
+0 4 1 0
+S
+#11848
+Floating in a void~
+~
+0 4 1 0
+S
+#11849
+Floating in a void~
+~
+0 4 1 0
+S
+#11850
+Outside~
+~
+0 1073741828 1 0
+R M 0 11850 1 11850
+R M 0 11701 1 11850
+R O 0 11701 1 11850
+R O 0 11850 1 11850
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

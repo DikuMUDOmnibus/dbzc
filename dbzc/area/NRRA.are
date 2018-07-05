@@ -1,0 +1,2127 @@
+#AREA   New Red Ribbon Army~
+
+
+
+#VERSION 2
+#AUTHOR Buu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 57926123
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#950
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#954
+Robotic Abomination~
+The Robotic Ambomination~
+&WA robotic abomination paces loudly.
+~
+~
+67108865 0 C
+1 0 0 0d0+0 0d0+0
+0 50000000
+112 112 0
+13 13 13 13 13 13 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#965
+An NRRA officer~
+An NRRA Officer~
+&WAn NRRA officer sits against the wall, monitoring the consoles.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 10000000
+112 112 0
+13 13 13 13 13 13 15
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpoload 964
+mpoload 967
+mpmload 965
+~
+> greet_prog 100~
+say Looking for trouble eh?..
+smirk
+~
+> rand_prog 5~
+if mortinroom($n)
+snore
+~
+|
+#969
+The NRRA Shopkeeper~
+The NRRA Shopkeeper~
+&WThe NRRA Shopkeeper stands here, hoping you'll purchase an item.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#975
+The NRRA Guard~
+The NRRA Guard~
+&WThe NRRA Guard leans against the wall, guarding.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1250 20000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 975
+mpoload 975
+~
+|
+#986
+NRRA Officer 2~
+NRRA Officer~
+&WThe NRRA Officer stands here, guarding the park.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1400 30000000
+112 112 0
+13 13 13 13 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 986
+~
+> greet_prog 100~
+yawn $n
+~
+|
+#996
+half-robot half-beast~
+Robo-Beast~
+&WA half-robot half-beast cowers before you in fear.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1300 25000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 996
+mpoload 996
+~
+> greet_prog 100~
+growl $n
+~
+|
+#999
+NRRA Cook~
+The NRRA Cook~
+&WNRRA Cook lashes out at you!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1450 35000000
+112 112 0
+13 13 13 13 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 999
+~
+|
+#1000
+NRRA Chef~
+The NRRA Chef~
+&WThe NRRA Chef glares at you, knife in hand
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1500 40000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 1000
+~
+> greet_prog 100~
+say Get out of the Kitchen! Your not suppose to be here!
+mea $n &RThe NRRA Chef wields his knife.
+say OUT!
+~
+|
+#1002
+The NRRA Doctor~
+The NRRA Doctor~
+&WThe NRRA Doctor stands here, looking to upgrade.&w
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p implant 1~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1004
+mpforce $n remove all
+mpforce $n drop all
+give chest $n
+mpforce $n wear plate
+mpforce $n junk Adamantium-Alloy-Chest-Plate
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 2~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1005
+mpforce $n remove all
+mpforce $n drop all
+give exoskeleton $n
+mpforce $n wear exoskeleton
+mpforce $n junk Carbon-Steel Exoskeleton
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 3~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1006
+mpforce $n remove all
+mpforce $n drop all
+give durasteel $n
+mpforce $n wear durasteel
+mpforce $n junk DuraSteel Skull Plate
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 4~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1008
+mpforce $n remove all
+mpforce $n drop all
+give titanium $n
+mpforce $n wear titanium
+mpforce $n junk Titanium Re-Enforced Legs
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 5~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1009
+mpforce $n remove all
+mpforce $n drop all
+give tungsten $n
+mpforce $n wear tungsten
+mpforce $n junk Tungsten Plated Cyberneticly-Enhanced Arms
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 6~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1010
+mpforce $n remove all
+mpforce $n drop all
+give mounted $n
+mpforce $n wear mounted
+mpforce $n junk Wrist Mounted Laser Sights
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 7~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1011
+mpforce $n remove all
+mpforce $n drop all
+give metallic $n
+mpforce $n wear metallic
+mpforce $n junk Metallic Cybernetic Boots
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 8~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1012
+mpforce $n remove all
+mpforce $n drop all
+give telescopic $n
+mpforce $n wear telescopic
+mpforce $n junk Mechanical Telescopic Eyes
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> speech_prog p implant 9~
+if goldamt($n) < 35000000
+mpechoat $n You don't have enough money!
+else
+mpforce $n give 35000000 coins doctor
+mpat 69 drop all
+mpat 69 say I am ready to go.
+mpoload 1013
+mpforce $n remove all
+mpforce $n drop all
+give laser $n
+mpforce $n wear laser
+mpforce $n junk Laser Bladed Katana
+mpforce $n get all
+say There you go.
+grin
+endif
+~
+> greet_prog 100~
+cackle
+say If you want one of my infamous cybernetic upgrades just give me 10million gold!
+~
+|
+#1003
+The NRRA Manager~
+The NRRA Manager~
+&WThe NRRA Manager sits here, around the conference table.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1600 450000000
+112 112 0
+13 13 13 13 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 1003
+mpoload 1003
+~
+|
+#1007
+The NRRA VIP~
+The NRRA VIP~
+&WThe NRRA VIP is here, ignoring you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1800 50000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 1007
+mpoload 1007
+~
+> greet_prog 100~
+say What?! What are you doing here?! Only important members of the NRRA are
+say suppose to be here! Get out!
+glare $n
+~
+|
+#1011
+President of NRRA~
+The President of NRRA~
+&WThe President of NRRA is here, gazing out the window.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+5000 60000000
+112 112 0
+15 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 1011
+~
+> greet_prog 100~
+say What do you want?..Im a busy man.
+emote gazes out the window
+cackle
+~
+|
+#1049
+Last MOb~
+a newly created Last MOb~
+Some god abandoned a newly created Last MOb here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#950
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#964
+NRRA Keychain~
+A NRRA Keychain~
+A NRRA Keychain is on the ground before you.~
+~
+62 0 16385
+5 10 0 0
+1 0 0
+#966
+NRRA Multi-purpose Wristwatch~
+&wAn NRRA Multi-Purpose Wristwatch~
+An NRRA Multi-Purpose Wristwatch shines in your direction~
+~
+9 0 4097
+0 25 0 0
+1 10000 1000
+#967
+NRRA Keycard~
+An NRRA Keycard~
+An NRRA Keycard is here on the ground.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#968
+An NRRA Jacket~
+&wAn NRRA Jacket~
+An NRRA Jacket is folded on the ground before you.~
+~
+9 0 1033
+0 10 0 0
+1 10000 1000
+#969
+NRRA Pants~
+&wA Pair of NRRA Pants~
+Some god dropped a newly created NRRA Pants here.~
+~
+9 0 33
+0 20 0 0
+1 10000 1000
+#975
+A NRRA Keycard~
+A NRRA Keycard~
+A NRRA Keycard lies on the ground before you.~
+~
+18 0 16385
+0 975 0 0
+1 0 0
+#996
+NRRA Silver Keycard~
+A NRRA Silver Keycard~
+A NRRA Silver Keycard is on the ground here before you.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#1002
+Mechanical Telescopic Eyes~
+&wMechanical Telescopic Eyes~
+A pair of Mechanical Telescopic Eyes glows before you.~
+~
+9 12288 131073
+0 45 0 0
+1 2000000 200000
+#1003
+A NRRA Platinum Keycard~
+An NRRA Platinum Keycard~
+An NRRA Platinum Keycard lies on the ground here before you.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#1004
+Adamantium-Alloy Chest Plate~
+&z[&OCybernetic&z] &BAdamantium-Alloy Chest Plate&w~
+Adamantium-Alloy Chest plate glows on the ground before you.~
+~
+9 4096&32 9
+0 100 0 0
+1 150000000 200000
+#1005
+Carbon-Steel Exoskeleton~
+&z[&OCybernetic&z] &BCarbon-Steel Exoskeleton&w~
+Carbon-Steel Exoskeleton glows here before you.~
+~
+9 4096&32 1025
+0 50 0 0
+1 2000000 200000
+#1006
+DuraSteel Skull Plate~
+&z[&OCybernetic&z] &BDuraSteel Skull Plate&w~
+DuraSteel Skull Plate glows here before you.~
+~
+9 4096&32 17
+0 70 0 0
+1 2000000 200000
+#1007
+An NRRA Gold Keycard~
+An NRRA Gold Keycard~
+An NRRA Gold Keycard is on the ground here before you.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#1008
+Titanium Re-Enforced Legs~
+&z[&OCybernetic&z] &BTitanium Re-Enforced Legs&w~
+Titanium Re-Enforced Legs glows here before you.~
+~
+9 4096&32 33
+0 70 0 0
+1 2000000 200000
+#1009
+Tungsten Plated Cyberneticly-Enhanced Arms~
+&z[&OCybernetic&z] &BTungsten Plated Cyberneticly-Enhanced Arms&w~
+Tungsten Plated Cyberneticly-Enhanced Arms glows here before you.~
+~
+9 4096&32 257
+0 35 0 0
+1 2000000 200000
+#1010
+Wrist Mounted Laser Sights~
+&z[&OCybernetic&z] &BWrist Mounted Laser Sights&w~
+Wrist Mounted Laser Sights glows here before you.~
+~
+9 4096&32 4097
+0 40 0 0
+1 2000000 200000
+#1011
+Metallic Cybernetic Boots~
+&z[&OCybernetic&z] &BMetallic Cybernetic Boots&w~
+Metallic Cybernetic Boots glow on the ground before you.~
+~
+9 4096&32 65
+0 50 0 0
+1 2000000 200000
+#1012
+Mechanical Telescopic Eyes~
+&z[&OCybernetic&z] &BMechanical Telescopic Eyes&w~
+Mechanical Telescopic Eyes glows on the ground before you.~
+~
+65 4096&32 131073
+0 20 0 2
+1 0 0
+#1013
+Laser Bladed Katana~
+&z[&OCybernetic&z] &BLaser Bladed Katana&w~
+Mechanical Telescopic Eyes glows on the ground before you.~
+~
+5 4096&32 8193
+0 7 2 1
+1 0 0
+#1049
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#950
+First Room~
+~
+0 4 1 0
+S
+#951
+&GHidden Passage~
+&cYou've just crossed the threshold of a hidden door. The sounds here are
+almost deafening. Machines powered by unknown power sources work their
+designed tasks, and the lights above flicker from time to time. The
+passage itself looks as it it was made of a single piece of metal, shaped
+to fit the station perfectly. Assuming that you're deeper inside the
+station than you've been before, you start off in search of what there is
+to find.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 952 0 0 0
+D1
+~
+~
+536870912 -1 1049 128 412 0
+> entry_prog 100~
+if haspropagandized($n)
+mea $n _red You can't do that right now.
+mpforce $n up
+endif
+~
+|
+S
+#952
+&GLooking Into a Hole~
+&cComing to the end of the hidden passage, you find yourself standing
+before a huge gaping hole that's been cut into the floor. Looking inside
+you can make out a faint red light, barely illuminating the room. There
+are hand and foot holds for you to climb down with.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 951 0 0 0
+D5
+~
+~
+0 -1 953 0 0 0
+S
+#953
+&GThe Generator Room~
+&cThe main generator of the station is impressive, though not as impressive
+as the room that holds it. Tiny worker droids scurry about, reading
+gauges, changing settings, and monitoring the generator in general. Most
+might refer to this as the heart of the station, though some know
+differently. There seems to be a door to the south with the word exit
+written on it.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 954 0 0 0
+D4
+~
+~
+0 -1 952 0 0 0
+S
+#954
+&GStill in the Generator Room~
+&cThe main generator of the station is impressive, though not as impressive
+as the room that holds it. Tiny worker droids scurry about, reading
+gauges, changing settings, and monitoring the generator in general. Most
+might refer to this as the heart of the station, though some know
+differently. There is a door to the south with the word exit written on
+it.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 953 0 0 0
+D2
+~
+~
+0 -1 955 0 0 0
+R M 0 954 1 954
+S
+#955
+&GIn the Center of the Station~
+&cYou now stand in the center of the station. As you would expect, there is
+no one to be found, alive or artifical. Ages of dust have accumulated on
+the floor, and all but one of the lights has long since burned out.
+There's a small map on the wall. As you brush what might be a bucket full
+of grime off, you realize it's a very vague blueprint of the station, with
+a red dot in the center. Beside it reads 'You are here.' 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 954 0 0 0
+D2
+~
+~
+0 -1 956 0 0 0
+S
+#956
+&GA Poorly Maintained Corridor~
+&cThis corridor isn't much cleaner than the last one. In fact it's dirtier,
+if that can be possible. At least there's signs of life here, foot prints
+in the dust. Besides those, nothing mars the thick coat of grime covering
+the rarely used hall. To the south is a round door, shut tight. It seems
+to be operated by the keypad positioned on the wall to the left of it. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 955 0 0 0
+D2
+~
+airlock~
+3 -1 957 0 0 0
+R D 0 956 2 1
+S
+#957
+&GAn Airlock~
+&cThe air lock, now shut, is the cleanest place you've seen while in the
+belly of the station. There's no dust, as none can get in while the doors
+are closed. There are to large circular doors at either end, locking this
+room away from the rest of the station. Whatever lies past the airlock
+must be important enough to keep away from the sight of the rest of the
+station.
+~
+0 4 1 0
+D0
+~
+airlock~
+3 -1 956 0 0 0
+D2
+~
+airlock~
+3 -1 958 0 0 0
+R D 0 957 0 1
+R D 0 957 2 1
+> entry_prog 100~
+mpforce $n close airlock
+~
+|
+S
+#958
+&GEntrance to the NRRA Headquarters~
+&cYou're standing in a newer part of the station. If not newer, at least
+much cleaner. The walls and floor have an off metallic glimmer to them,
+and long lights hang from the ceiling. On the wall to the right, a large
+banner hangs, the words 'New Red Ribbon Army' written on it. Far to the
+south, you can make uot what appears to be a statue. 
+~
+0 4 1 0
+D0
+~
+airlock~
+3 -1 957 0 0 0
+D2
+~
+~
+0 -1 959 0 0 0
+R D 0 958 0 1
+S
+#959
+&GWithin the Walls of the NRRA~
+&cStanding within the walls of the NRRA headquarters, you're reminded of a
+military base. Anyone moving about walks with a purpose, anyone sitting is
+working on something. Almost as if they have something planned. You can
+see the statue to the south a little more clearly now, but you still can't
+quite make out what it is. To the west appears to be an equipment shop. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 958 0 0 0
+D1
+~
+~
+0 -1 970 0 0 0
+D2
+~
+~
+0 -1 960 0 0 0
+D3
+~
+~
+0 -1 969 0 0 0
+S
+#960
+&GStanding in Front of a Statue~
+&cYou can finally make out the statue. It stands well over nine feet tall,
+and has been carved out of solid stone. It's a man, though only just
+barely. He's been altered with robotic parts, to the point where you can
+barely call him a man. At the base of the statue is a small plaque.
+There's another NRRA member's room to the west, and a collection of
+healing pods to the east. A sign to the south reads: stairs. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 959 0 0 0
+D1
+~
+~
+0 -1 966 0 0 0
+D2
+~
+~
+0 -1 961 0 0 0
+D3
+~
+~
+0 -1 968 0 0 0
+S
+#961
+&GStairs Deeper Into the Headquarters~
+&cYou're standing at the top of the stairs leading to the lower level of
+the NRRA headquarters. In the upper corner someone has installed a
+security camera, which follows your movements. From below you can hear the
+sounds of people talking and machines working. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 960 0 0 0
+D5
+~
+~
+0 -1 962 0 0 0
+S
+#962
+&GAt the Bottom of the Stairs~
+&cYou're standing at the bottom of the stairs leading to the upper level of
+the NRRA headquarters. Looking up you can see light reflect off the
+security camera installed at the top of the stairs. Each step has been
+fitted with a strange black, gritty paper to prevent slippage. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 963 0 0 0
+D4
+~
+~
+0 -1 961 0 0 0
+S
+#963
+&GDeep Inside the NRRA Headquarters~
+&cIn the lower area of the NRRA headquarters, there are very few people
+moving about, or doing their daily tasks. There's the odd dormitory to
+either side, and what appears to be a control center further up ahead. On
+one of the walls, someone has painted the words: NRRA Forever! a small
+worker droid scrubs furiously to remove it. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 964 0 0 0
+D1
+~
+~
+0 -1 971 0 0 0
+D2
+~
+~
+0 -1 962 0 0 0
+D3
+~
+~
+0 -1 972 0 0 0
+S
+#964
+&GDrawing Near a Dead End~
+&cAhead you can see where the hall comes to an end. This hall, unlike the
+others found within the walls of the NRRA headquarters, has a room with a
+door. The words 'control room' have been painted neatly on it. The door
+itself appears to be unlocked, but you are fairly certain that whatever's
+inside is well guarded. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 967 0 0 0
+D1
+~
+~
+0 -1 965 0 0 0
+D2
+~
+~
+0 -1 963 0 0 0
+S
+#965
+&GControl Center~
+&cFrom the looks of it, this room is conrtolling the entire headquarters.
+There are many computers and unknown machines, doing their various tasks
+as usual. Sitting in a chair monitoring it all is a tall lanky android
+wearing an NRRA uniform.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 964 0 0 0
+R M 0 965 1 965
+S
+#966
+&GAdvanced Healing Unit~
+&cVarious makes and models of healing pods line the room here. All
+controled by a single computer stationed in the center of the room. They
+all seem to have one similar feature, however. NRRA has been painted in
+bright red letters on the doors of each. There's a single light hanging
+from the ceiling that sways as each person enters or leaves the room. 
+~
+0 0 1 1
+D3
+~
+~
+0 -1 960 0 0 0
+S
+#967
+&GA Dead End~
+&cThis is it. You've come to the end of the hall, and you can't make out
+any stairs or doors that lead to any other parts of the station. Wherever
+you're supposed to go from here, the answer probably won't be found while
+standing at a dead end, staring at a brick wall. Brick? Putting that
+thought out of your mind, you decide to explore some more.  
+~
+0 4 1 0
+D0
+~
+wall~
+7 967 973 0 0 0
+D2
+~
+~
+0 -1 964 0 0 0
+R D 0 967 0 2
+E
+wall~
+&cThis wall, unlike every other wall found in this part of the station, has
+been fashioned out of brick. There appears to be one brick that's loose
+near the top. Pulling it out, you find a small keyhole. Looks like you
+need to find the key now. 
+~
+S
+#968
+&GA Slightly Better Maintained Room~
+&cThis room belongs to someone of a higher rank than the last, though not
+by much. There's the same hard bed, table and chairs, but a bigger screen
+has been fixed into the wall, and the room itself must be at least a foot
+or two longer along each wall. There does not seem to be a door to this
+room either. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 960 0 0 0
+S
+#969
+&GNRRA Equipment Shop~
+&cA small androids sits on a chair, watching a computer screen. It barely
+looks up as you enter. Hanging from walls, or in display cases are various
+pieces of equipment the NRRA uses, or parts of their uniform which are for
+sale. There's an unattended counter with a register on the corner. Where
+you pay for your purchases, of course. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 959 0 0 0
+R M 0 969 1 969
+  R G 1 969 1
+  R G 1 968 1
+  R G 1 966 1
+S
+#970
+&GA Shabby Room~
+&cA low ranking NRRA member's room. From the condition it's in, a very low
+ranking member. There's only a bed, and a small table. It's clean though.
+Set into one of the walls is a small screen which is showing news of
+current events. There's something else about this room that's odd. There's
+no door.  
+~
+0 0 1 0
+D3
+~
+~
+0 -1 959 0 0 0
+S
+#971
+&GSomeone Else's Room~
+&cThis is someone else's room. Chairs, a table, bed, couch, what you'd
+usually expect to find in the average person's room. but something doesn't
+quite fit. It may be the 'Terrorism for Dummies' book beside the bed, or
+the various explosive devices scattered around the room. It may be a good
+idea to leave before the owner of the room arrives. 
+~
+0 0 1 0
+D3
+~
+~
+0 -1 963 0 0 0
+S
+#972
+&GSomeone's Room~
+&cNot much here. In fact, there's nothing, besides the screen that comes
+installed in every room. Whoever this room belongs to must be moving out,
+or in. Either way you decide there must be more interesting things here to
+look at.  
+~
+0 0 1 0
+D1
+~
+~
+0 -1 963 0 0 0
+S
+#973
+&GThrough the Hidden Door~
+&cAmazingly enough, the hidden door you just passed through shut and locked
+behind you. There is a keyhole though, so you can leave. This area of the
+headquarters is slightly less buisy than the last. There's thick cables
+running through the walls and along the ceiling, powering whatever lies to
+the east. The floor has changed from the shimmering metal, to a dull grey,
+though the walls remain the same, provifing whatever light is required. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 974 0 0 0
+D2
+~
+wall~
+7 967 967 0 0 0
+> entry_prog 100~
+mpforce $n close wall
+mpforce $n lock wall
+~
+|
+S
+#974
+&GIn the Hidden Passage~
+&cResembling the last passage, this one has a sligh twist. Actually, it's a
+turn. From the south, you can make out the sounds of guards talking and a
+door closing shut. Located in the center of the room is a tall column with
+a small plaqe set into it. It reads: Warning! Those found tresspassing
+will be dealt with in a most unpleasant fashion. 
+~
+0 4 1 0
+D2
+~
+~
+0 -1 975 0 0 0
+D3
+~
+~
+0 -1 973 0 0 0
+S
+#975
+&GGuard Outpost~
+&cThere's a guard leaning against the wall, half asleep. To his left is a
+tall metal door, locked of course. Besides that, and a chair, this part
+ofthe passage is completly empty. Gathering up your courage, you get ready
+to take the key from the guard, with force if you must.  
+~
+0 4 1 0
+D0
+~
+~
+0 -1 974 0 0 0
+D1
+~
+door~
+7 975 976 0 0 0
+R M 0 975 1 975
+R D 0 975 1 2
+S
+#976
+&GAn Almost Empty Room~
+&cYou're standing in a room filled beyond belief with strange pods, filled
+with people who appear to be sleeping. These pods do not look like your
+everyday healing pods, however. They each have thick cables trailing from
+their backs, leading into a large computer stationed against the far wall.
+Looking around you see that there is only one empty pod.
+~
+0 4 1 0
+D1
+~
+~
+3 -1 977 0 0 0
+D3
+~
+door~
+7 975 975 0 0 0
+> entry_prog 100~
+mpforce $n close w
+mpforce $n lock w
+~
+|
+S
+#977
+&GInside the Pod~
+&cInside the pod, you feel warm and safe. As if no harm could ever come to
+you while you stay inside. There's soft music playing, luring you into
+sleep. Perhaps you should just give in and experience what the other
+people in the pods outside are doing.  
+~
+0 4 1 0
+D3
+~
+~
+3 -1 976 0 0 0
+> entry_prog 100~
+mpforce $n close w
+~
+> sleep_prog 100~
+mptrans $n 978
+mpat $n mpforce $n wake
+mpat $n mea $n _blu You close your eyes and fall asleep. As you begin to
+mpat $n mea $n _blu dream, you find yourself in a strange city, standing
+mpat $n mea $n _blu infront of a tall building.
+~
+|
+S
+#978
+&GOutside a Tall Building~
+&cOpening your eyes almost immediatly after falling asleep, you find
+yourself in a strange city. One that you've never seen, nor heard of
+before. Ahead of you is a talll building, with big red letters reading
+&RNRRA&c. To the east appears to be a park, while the rest of the city
+lies to the west. A little voice in the back of your head reminds you that
+if you wish to wake, just say 'wake up.'
+~
+0 4 1 0
+D0
+~
+~
+0 -1 979 0 0 0
+D1
+~
+~
+0 -1 983 0 0 0
+D3
+~
+~
+0 -1 982 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#979
+&GIn the Lobby~
+&cYou're standing in the lobby of the NRRA office building, though how an
+organization like them has a building such as this is hard to believe. The
+floor has been covered with a lush red carpet, muting the sound of you
+walking up to the main desk. Behind that sits a short secretary, with
+strange eyes, and metal hands. Off to the west is the washroom, in case
+you need to freshen up before any meetings you may have.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 980 0 0 0
+D2
+~
+~
+0 -1 978 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#980
+&GWaiting for the Elevator~
+&cWhile waiting for the elevator, you take a moment to get your bearings.
+On almost every piece of furniture NRRA has stamped their logo, claiming
+it as theirs. On the walls hang paintings created by some of the finest
+artists available. There's also a plaque set into the far wall. After what
+seemed like an hour, the elevator finally reaches this floor, ready to
+take you wherever you wish to go in the building.  
+~
+0 4 1 0
+D0
+~
+~
+0 -1 981 0 0 0
+D2
+~
+~
+0 -1 979 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#981
+&GThe Elevator~
+&cBright lights and cheesy elevator music. Not very origional, but then
+again you are dealing with a major terrorist group. The floor remains a
+single piece of dull metal. There are three buttons in a row beside the
+door, which will take you to their corresponding floor. You notice another
+oddity. There were people waiting with you for the elevator, but as you
+entered, they remained on the ground level. A sign has also been fixed to
+the wall. 
+~
+0 0 0 0
+D2
+~
+~
+0 -1 980 0 0 0
+E
+sign~
+&CTo use the elevator, say:
+Level one for first floor
+Level two for second floor
+Level three for third floor
+~
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+> speech_prog p level one~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the higher levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the higher levels.
+mptransfer $n 997
+~
+> speech_prog p level two~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the higher levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the higher levels.
+mptrans $n 1004
+~
+> speech_prog p level three~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the higher levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the higher levels.
+mptrans $n 1008
+~
+|
+S
+#982
+&GAn Odd City~
+Heading deeper into the city, away from the park, you can faintly hear
+the sounds of bells and shistles, and other game-related sounds. A sign
+has been driven into the ground, directing you to the arcade. As always in
+this city, if you let your gaze wander skyward, you can see the NRRA
+building blocking out a good portion of the sky.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 978 0 0 0
+D7
+~
+~
+0 -1 988 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#983
+&GTowards the Park~
+You are nearing the park of NRRA. Many tree's line the pathway
+up to the park.You can hear the birds chirping. The breeze against
+your face makes you feel relaxed, you feel the urge to  head
+towards the park. West will take you back to the Tall Building.
+Heading Northeast will take you inside the park.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 978 0 0 0
+D6
+~
+~
+0 -1 984 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#984
+&GInside the Park~
+You are inside the park of NRRA, you can smell the fresh grass
+as the wind picks up. The sun is shining, its a very peaceful
+day out today. Looking up you notice the sky is a perfect blue,
+not a cloud can be seen. The park is shaped in a large circle. Maybe
+you should take a walk around. Many people are walking back and
+forth, going about their daily affairs.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 985 0 0 0
+D1
+~
+~
+0 -1 987 0 0 0
+D9
+~
+~
+0 -1 983 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#985
+&GInside the Park~
+You are inside the park of NRRA, you can smell the fresh grass
+as the wind picks up. The sun is shining, its a very peaceful
+day out today. Looking up you notice the sky is a perfect blue,
+not a cloud can be seen. The park is shaped in a large circle. Maybe
+you should take a walk around. Many people are walking back and
+forth, going about their daily affairs.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 986 0 0 0
+D2
+~
+~
+0 -1 984 0 0 0
+R M 0 986 2 985
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#986
+&GInside the Park~
+You are inside the park of NRRA, you can smell the fresh grass
+as the wind picks up. The sun is shining, its a very peaceful
+day out today. Looking up you notice the sky is a perfect blue,
+not a cloud can be seen. The park is shaped in a large circle. Maybe
+you should take a walk around. Many people are walking back and
+forth, going about their daily affairs.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 987 0 0 0
+D3
+~
+~
+0 -1 985 0 0 0
+R M 0 986 1 986
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#987
+&GInside the Park~
+You are inside the park of NRRA, you can smell the fresh grass
+as the wind picks up. The sun is shining, its a very peaceful
+day out today. Looking up you notice the sky is a perfect blue,
+not a cloud can be seen. The park is shaped in a large circle. Maybe
+you should take a walk around. Many people are walking back and
+forth, going about their daily affairs.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 986 0 0 0
+D3
+~
+~
+0 -1 984 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#988
+&GOn the Street~
+Standing on the sidewalk, facing the arcade, you wonder what could be
+inside that would cause so many people to flock into it every day. The
+sign on the door says that it's always open. One of the first things
+people see upon entering the city is the shirt little building, but there
+seems to be other things, of various importance further north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 989 0 0 0
+D8
+~
+~
+0 -1 982 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#989
+&GOn the Street~
+Continuing through the city, you find yourself standing before an
+resturant which may be even odder than the rest of the city. It's
+called 'Clear Beard's Pirat Shanty.' Deciding that you have no time
+for foolery such as that, you ignore the eatery. The street you're
+standing on continues west, but something catches your eye to the
+~
+0 4 1 0
+D1
+~
+~
+0 -1 990 0 0 0
+D2
+~
+~
+0 -1 988 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#990
+&GA dark alley~
+You're behind the NRRA building. It's pretty dark in here, though as you
+might expect to find undesirable types hiding in an alley such as this,
+it's empty. It's also very clean. In fact, you havn't seen one speck of
+dust, dirt, grime or filth since setting foot in the city. Whoever runs
+this place must have a very good cleaning company.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 991 0 0 0
+D3
+~
+~
+0 -1 989 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#991
+&GEnd of Alley~
+Standing at the end of the alley, you realize there's nothing here.
+Whatever was here moments ago is now gone, and you can find no trace of
+it. There's a back door to the NRRA building, but it's securly locked and
+bolted. Whatever was here didn't leave through there. And for some reason
+you can't put your finger on, you can hear the sound of rushing water.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 990 0 0 0
+D5
+~
+~
+0 -1 992 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#992
+&GIn the Sewers~
+Amazingly enough, even the sewers here are clean. Crystal clear water
+runs knee deep through the tube big enough for you to stand in, pushing
+you gently along it's path. The odd piece of garbage floars by, but
+nothing that would make you rush to the corner and retch. There are even
+lights dangling just above your head, lighting your way.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 993 0 0 0
+D4
+~
+~
+0 -1 991 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#993
+&GIn the Sewers~
+Amazingly enough, even the sewers here are clean. Crystal clear water
+runs knee deep through the tube big enough for you to stand in, pushing
+you gently along it's path. The odd piece of garbage floars by, but
+nothing that would make you rush to the corner and retch. There are even
+lights dangling just above your head, lighting your way.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 992 0 0 0
+D2
+~
+~
+0 -1 994 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#994
+&GIn the Sewers~
+Amazingly enough, even the sewers here are clean. Crystal clear water
+runs knee deep through the tube big enough for you to stand in, pushing
+you gently along it's path. The odd piece of garbage floars by, but
+nothing that would make you rush to the corner and retch. There are even
+lights dangling just above your head, lighting your way.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 993 0 0 0
+D1
+~
+~
+0 -1 995 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#995
+&GIn the Sewers~
+Amazingly enough, even the sewers here are clean. Crystal clear water
+runs knee deep through the tube big enough for you to stand in, pushing
+you gently along it's path. The odd piece of garbage floars by, but
+nothing that would make you rush to the corner and retch. There are even
+lights dangling just above your head, lighting your way. To the east you
+see a door. Just a plain door, probably leading to the sewage control
+room.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 996 0 0 0
+D3
+~
+~
+0 -1 994 0 0 0
+> speech_prog p wake up~
+mea $n _ora You give yourself a little shake and force yourself to
+mea $n _ora wake up.
+mptransfer $n 977
+~
+|
+S
+#996
+&GA Strange Room~
+This is no control room! It looks like... something has been living here
+for a short time. Whatever it is has amassed quite the collection of
+useless junk, and piled it all into one corner. Turning around, you find
+it, huddled against a wall, glaring at you. In one of it's hands is a
+shiny keycard, stamped with the NRRA name and logo.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 995 0 0 0
+R M 0 996 1 996
+> entry_prog 100~
+mpforce 'Half-robot half-beast' mpoload 996
+~
+|
+S
+#997
+&GThe Elevator~
+Bright lights and cheesy elevator music. Not very origional, but then
+again you are dealing with a major terrorist group. The floor remains a
+single piece of dull metal. There are three buttons in a row beside the
+door, which will take you to their corresponding floor. You notice another
+oddity. There were people waiting with you for the elevator, but as you
+entered, they remained on the ground level. A sign has also been fixed to
+the wall.
+~
+0 0 1 0
+D2
+~
+door~
+7 996 998 0 0 0
+R D 0 997 2 2
+E
+sign~
+&CTo use the elevator, say:
+Level two for second floor
+Level three for third floor
+Ground level for main floor
+~
+> speech_prog p ground level~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to the ground level.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to the ground level.
+mptrans $n 981
+~
+> speech_prog p level two~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to the third level.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to the third level.
+mptrans $n 1004
+~
+> speech_prog p level three~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the higher levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the higher levels.
+mptrans $n 1008
+~
+> entry_prog 100~
+mpforce $n close s
+mpforce $n lock s
+~
+|
+S
+#998
+&GA Hallway~
+Your footsteps echo omniously through the wide hallway. Shadows
+and distorted reflections dance about the metal floor. The walls
+are lined with wooden panels. Fading music can be heard in the
+distance, through the soft humming of the air conditioning.East
+will take you to the dinning room. South will take you further
+down the hallway.
+~
+0 0 1 0
+D0
+~
+door~
+7 996 997 0 0 0
+D1
+~
+~
+0 -1 999 0 0 0
+D2
+~
+~
+0 -1 1001 0 0 0
+R D 0 998 0 2
+> entry_prog 100~
+mpforce $n close n
+mpforce $n lock n
+~
+|
+S
+#999
+&GBefore the Kitchen~
+You are before the Kitchen of NRRA. You hear evil laughs coming
+from the north. You see chefs walking in and out of the Kitchen
+doors, handing out food to those who have ordered. North will
+take you into the Kitchen. West will take you back to the hallway.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1000 0 0 0
+D3
+~
+~
+0 -1 998 0 0 0
+R M 0 999 1 999
+S
+#1000
+&GKitchen~
+You are in the Kitchen of NRRA. You hear soup boiling and the
+smell of old food lingers. A large chef stands here, glaring
+at you, making you feel uneasy. There is lots of chefs walking
+in and out, giving out orders. South will take you to the Dinning
+Room.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 999 0 0 0
+R M 0 1000 1 1000
+S
+#1001
+&GA Hallway~
+Your footsteps echo omniously through the wide hallway. Shadows
+and distorted reflections dance about the metal floor. The walls
+are lined with wooden panels. Fading music can be heard in the
+distance, through the soft humming of the air conditioning.
+South will take you to the Meeting room of NRRA. West will take
+you into the Doctor's Office.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 998 0 0 0
+D2
+~
+~
+0 -1 1003 0 0 0
+S
+#1002
+&GDoctor's Office~
+&cThis sterile office smells of strong desinfectant, and faintly
+of blood. A large desk sits in the center of the room, surrounded
+by comfortable chairs. Shelf upon shelf full of books fill the
+west wall. A paper covered examination table stands against
+the east wall, empty for now. A plastic skeleton stands motionless
+next to it, waiting for the next patient to enter.
+
+&RThere is a &Ysign&R posted here.
+~
+0 4 1 0
+R M 0 1002 1 1002
+E
+sign signs~
+&z===========================================================================&w
+
+&CHere are the different cybernetic implants you can order to be upgraded
+to your body. Each implant has a cost of 150,000,000 gold coins.
+Just &Ysay&O: &Rimplant #&C to get it.
+
+&YList&O:
+&R1&r) &cAdamantium-Alloy Chest Plate &z[&WBody&z]&w
+&R2&r) &cCarbon-Steel Exoskeleton &z[&WAbout&z]&w
+&R3&r) &cDuraSteel Skull Plate &z[&WHead&z]&w
+&R4&r) &cTitanium Re-Enforced Legs &z[&WLegs&z]&w
+&R5&r) &cTungsten Plated Cyberneticly-Enhanced Arms &z[&WArms&z]&w
+&R6&r) &cWrist Mounted Laser Sights &z[&WWrist&z]&w
+&R7&r) &cMetallic Cybernetic Boots &z[&WFeet&z]&w
+&R8&r) &cMechanical Telescopic Eyes &z[&WEyes&z]&w
+&R9&r) &cLaser Bladed Katana &z[&WWielded&z]
+
+&z===========================================================================&w
+~
+S
+#1003
+&GMeeting Room~
+This large room has a high ceiling, a beamer hanging down from
+it. At the far side, a large white projection screen covers
+most of the wall. A large u-shaped conference table and matching
+chairs dominate the center of the room. The table is empty,
+except for a single vase with a yellow rose in it, a red ribbon
+tied about it.If you wish to leave, head north, and it will
+take you back to the hallway.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1001 0 0 0
+R M 0 1003 1 1003
+S
+#1004
+&GThe Elevator~
+&cBright lights and cheesy elevator music. Not very origional, but then
+again you are dealing with a major terrorist group. The floor remains a
+single piece of dull metal. There are three buttons in a row beside the
+door, which will take you to their corresponding floor. You notice another
+oddity. There were people waiting with you for the elevator, but as you
+entered, they remained on the ground level. A sign has also been fixed to
+the wall.
+~
+0 0 1 0
+D2
+~
+door~
+7 1003 1005 0 0 0
+R D 0 1004 2 2
+E
+sign~
+&CTo use the elevator, say:
+Level one for first floor
+Level three for third floor
+Ground level for main floor
+~
+> speech_prog p ground level~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to the ground level.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to the ground level.
+mptrans $n 981
+~
+> speech_prog p level one~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to the first level.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to the first level.
+mptrans $n 997
+~
+> speech_prog p level three~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the higher levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the higher levels.
+mptrans $n 1008
+~
+> entry_prog 100~
+mpforce $n close s
+mpforce $n lock s
+~
+|
+S
+#1005
+&GHallway~
+Your footsteps echo omniously through the wide hallway. Shadows
+and distorted reflections dance about the metal floor. The walls
+are lined with wooden panels. Fading music can be heard in the
+distance, through the soft humming of the air conditioning.
+South will take you towards the end of the hallway.
+~
+0 0 1 0
+D0
+~
+door~
+7 1003 1004 0 0 0
+D2
+~
+~
+0 -1 1006 0 0 0
+R D 0 1005 0 2
+> entry_prog 100~
+mpforce $n close n
+mpforce $n lock n
+~
+|
+S
+#1006
+&GHallway~
+&cYour footsteps echo omniously through the wide hallway. Shadows
+and distorted reflections dance about the metal floor. The walls
+are lined with wooden panels. Fading music can be heard in the
+distance, through the soft humming of the air conditioning.
+You hear laughter coming from the VIP Room to the east.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 1005 0 0 0
+D1
+~
+~
+0 -1 1007 0 0 0
+S
+#1007
+&GThe VIP Room~
+&cThis is the VIP Room, many people are sitting here, around
+a large table thats shaped in a circle. A lot of talking is
+going on here, it makes you wonder what they are arguing about.
+Maybe the future of NRRA?  You look closer at the men around
+the table..in the chairs, their all dressed up in formal attire
+sitting in comfortable chairs near by. These men must be very
+important.A smug man from the far end looks at you in a somewhat
+unsatisfied way, and walks towards you!
+~
+0 4 1 0
+D3
+~
+~
+0 -1 1006 0 0 0
+R M 0 1007 1 1007
+S
+#1008
+&GThe Elevator~
+Bright lights and cheesy elevator music. Not very origional, but then
+again you are dealing with a major terrorist group. The floor remains a
+single piece of dull metal. There are three buttons in a row beside the
+door, which will take you to their corresponding floor. You notice another
+oddity. There were people waiting with you for the elevator, but as you
+entered, they remained on the ground level. A sign has also been fixed to
+the wall.
+~
+0 4 1 0
+D2
+~
+~
+7 1007 1009 0 0 0
+R D 0 1008 2 2
+E
+sign~
+&CTo use the elevator, say:
+Level one for first floor
+Level two for second floor
+Ground Level for main floor
+~
+> speech_prog p ground level~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the ground levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the ground levels.
+mptrans $n 997
+~
+> speech_prog p level one~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to the first level.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to the first level.
+mptrans $n 997
+~
+> speech_prog p level two~
+mea $n _blu After stating your destination and pushing the correct button,
+mea $n _blu the elevator begins it's ascent to one of the higher levels.
+mer $n _blu After stating $s destination and pushing the correct button,
+mer $n _blu the elevator begins it's ascent to one of the higher levels.
+mptrans $n 1004
+~
+|
+S
+#1009
+&GHallway~
+Your footsteps echo omniously through the wide hallway. Shadows
+and distorted reflections dance about the metal floor. The walls
+are lined with wooden panels. Fading music can be heard in the
+distance, through the soft humming of the air conditioning.South
+will take you further down the hallway.
+~
+0 4 1 0
+D0
+~
+~
+7 1007 1008 0 0 0
+D2
+~
+~
+0 -1 1010 0 0 0
+R D 0 1009 0 2
+> entry_prog prog~
+mpforce $n close n
+mpforce $n lock n
+~
+|
+S
+#1010
+&GHallway~
+Your footsteps echo omniously through the wide hallway. Shadows
+and distorted reflections dance about the metal floor. The walls
+are lined with wooden panels. Fading music can be heard in the
+distance, through the soft humming of the air conditioning.South
+will take you to the President's Office, be beware, he isn't
+the nicest man you could meet.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 1009 0 0 0
+D2
+~
+~
+0 -1 1011 0 0 0
+S
+#1011
+&GPresident's Office~
+&cWhile walking into the room, you notice it's like any other
+office. A heavy looking desk sits parallel to the door, with
+a few papers lying on it. From a dark corner of the room, you
+can see a large man gazing outside a window, laughing at the
+gloomy city below him. Could this be the president of NRRA?
+~
+0 4 1 0
+D0
+~
+~
+0 -1 1010 0 0 0
+R M 0 1011 1 1011
+S
+#1012
+Floating in a void~
+~
+0 4 1 0
+S
+#1013
+Floating in a void~
+~
+0 4 1 0
+S
+#1014
+Floating in a void~
+~
+0 4 1 0
+S
+#1015
+Floating in a void~
+~
+0 4 1 0
+S
+#1016
+Floating in a void~
+~
+0 4 1 0
+S
+#1017
+Floating in a void~
+~
+0 4 1 0
+S
+#1018
+Floating in a void~
+~
+0 4 1 0
+S
+#1019
+Floating in a void~
+~
+0 4 1 0
+S
+#1049
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 969    0  0  0  0  0   120  90         0 23    ; The NRRA Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

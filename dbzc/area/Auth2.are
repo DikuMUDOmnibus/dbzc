@@ -1,0 +1,702 @@
+#AREA   New Auth Area~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+1
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2400
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2600
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2400
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#2600
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2400
+First Room~
+~
+0 1073741828 1 0
+S
+#2401
+Dragonball Z: Chronicles Newbie Help~
+&PGAMBLING   &O- &WNORTH
+
+&PDRAGONBALL &O- &WSOUTH
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2402 0 0 0
+D1
+~
+~
+0 -1 2407 0 0 0
+D2
+~
+~
+0 -1 2403 0 0 0
+D3
+~
+~
+0 -1 2404 0 0 0
+S
+#2402
+&RGambling!~
+&YGambling &ghas turned out to be a big way of raising
+money and entertaining the players.
+
+&gThe &Ycasino&g is located inside the &YJunction Point
+Alpha Hotel&W northeast&g of &YJPA.
+
+&gThe main command of &Ygambling&g is &Wgamble.
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 2401 0 0 0
+S
+#2403
+&RDragonballs and Dragonradar!~
+&YHELP WISHLIST
+ &O-&CExplains what wishes can be made.
+&YHELP SUMMON
+ &O-&CExplains how to summon a Dragon.
+&YHELP DRAGONBALL
+ &O-&CExplains the different types of Dragonballs.
+
+&PYou can be &RPKed&P if you are attacked with
+the &zblack star&P dragonballs. NEVER accept
+them from other players. 
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2401 0 0 0
+S
+#2404
+Dragonball Z: Chronicles Newbie Help~
+&PSKILL LEVELS &O- &WNORTH
+
+&PINFORMATION  &O- &WSOUTH
+
+&PEQUIPMENT    &O- &WUP
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2405 0 0 0
+D1
+~
+~
+0 -1 2401 0 0 0
+D2
+~
+~
+0 -1 2406 0 0 0
+D3
+~
+~
+0 -1 303 0 0 0
+D4
+~
+~
+0 -1 2425 0 0 0
+S
+#2405
+&RSkill Leveling and Evolutions!~
+&PSKILLINFO &p[&WSkill&p]&w
+ &O-&CShows more in-dept information of skills.&w
+&PSTUDY &p[&WSkill&p]
+ &O-&CAfter obtaining 45% or higher in a skill you will be able
+  to upgrade that skill to a higher level. This uses skill
+  leveling sessions.
+
+&O-&CLeveling up skills enables you to hit stronger with them
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 2404 0 0 0
+S
+#2406
+&RInformation Commands!~
+&PSCORE &p[&WYour scoresheet&p]
+ &O-&CShows you your scoresheet with all your stats
+  &Cand other useful information
+&PSTATUS &p[&WYour status&p]
+ &O-&CShows your gains status and your gravity status.
+&PSLIST &p[&WSkill List&p]
+ &O-&CShows the available skills for all races.
+&PALIST &p[&WAbilities List&p]
+ &O-&CShows the available skills for your race.
+&PPLIST &p[&WPowerup List&p]
+ &O-&CShows the available powerups for your race.
+&PMUDSTATUS &p[&WThe mud's status&p]
+ &O-&CShows the current status of the dragonballs and the stadium
+&PCLANS
+ &O-&CShows the current clans, their officers/leaders and kills
+&PPLANETS
+ &O-&CShows the current planets, their income and their government
+&PWIZLIST &p[&WImmortal List&p]
+ &O-&CShows a list of the current Immortals of the game.
+&PWHO &p[&WWho List&p]
+ &O-&CShows a list of the current players that are online at the moment.
+&PPRACTICE &p[&WSkill Sheet&p]
+ &O-&CShows a list of your current skills and the % you are at them.
+  It is also used to learn new skills, remember that some of the
+  skills need to be learned from a certain trainer, check that
+  skill's helpfile.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2404 0 0 0
+S
+#2407
+Dragonball Z: Chronicles Newbie Help~
+&PPROPAGANDA/PLANETS &O-&W NORTH
+
+&PMORTAL GAMES       &O-&W SOUTH
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2408 0 0 0
+D1
+~
+~
+0 -1 2410 0 0 0
+D2
+~
+~
+0 -1 2409 0 0 0
+D3
+~
+~
+0 -1 2401 0 0 0
+S
+#2408
+&RPlanets and Propaganda!~
+&PPLANETS
+ &O-&CShows the current list of planets with their income and popsupport.
+&PPROPAGANDA &p[&WCitizen Mob&p]
+ &O-&CCommand used on citizen mobs in order to lower or raise popsupport.
+&PCAPTURE
+ &O-&CCommand used to make a planet your clan's colony.
+&PPOPSUPPORT
+ &O-&CName used for Popular Support towards an organization.
+
+&RIn order to change governments, the popsupport MUST be under -75. 
+&RYou can be &WPKED&R after capturing and while propaganding planets.
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 2407 0 0 0
+S
+#2409
+&RMortal Games!~
+&PKOTH &p[&WKing of the Hill&p]
+ &O-&CBattle at the top of a hill to be crown the champion.
+&PArena&p/&PStadium
+ &O-&CBattle inside a 3 by 3 arena surviving on your own.
+&PCTF &p[&WCapture the Flag&p]
+ &O-&CRoam through Red and Blue area fields to capture the 
+  opponents flags and plant it on your tower.
+
+&r-&RYou cannot die in &WANY&R of the mortal games
+&r-&RMortal games are Immortal runned games [some automatic]
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2407 0 0 0
+S
+#2410
+Dragonball Z: Chronicles Newbie Help~
+&PTRAINING/PLing &O-&W NORTH
+
+&PCHIKARA        &O-&W SOUTH
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2411 0 0 0
+D1
+~
+~
+0 -1 2413 0 0 0
+D2
+~
+~
+0 -1 2412 0 0 0
+D3
+~
+~
+0 -1 2407 0 0 0
+S
+#2411
+&RTraining and Powerleveling!~
+&PGRAVITY TRAINING &p[&WGT&p]
+ &O-&CGravset &p[&Wlevel&p]   &C1 level per 10&WK
+  &CTrain gravity inside a gravity room.
+&PMOB TRAINING
+ &O-&CContinously attack mobs inside a battle tower
+&PULTRA GRAVITY TRAINING &p[&WUGT&p]
+ &O-&CSame as gravity training but the gains are
+  doubled.
+&PWEIGHTED EQ
+ &O-&CEquipment obtained at the Swamp of Planet Earth.
+  They make you move slower, but you gain more PL in all
+  the aspects of your training.
+&PTRAIN &p[&WAttribute&p]
+ &O-&CIts used to train your stats &p[&WSee Help attributes&P]
+&PSTUDY &p[&WSkill&p]
+ &O-&CIts used to level up skills, more information in the
+  skill evolution room.
+
+&r-&RIt is recommended that you UGT and Mob train at the same
+ time, since you have to wait 4 minutes in between each gravity
+ session.
+&r-&RKorin and Guru also give extra powerlevel.
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 2410 0 0 0
+S
+#2412
+&RThe power known as CHIKARA!~
+&PCHIKARA 1-3
+ &O-&CObtainable at the alignment schools
+&PCHIKARA 4
+ &O-&CObtainable at Yardrat after catching the chikara
+  trainer. 5 million gold must be offered in order to learn it.
+&PCHIKARA 5
+ &O-&CObtainable at Planet Lusitania after completing a small
+  quest that needs ATLEAST 11 million gold.
+
+&r-&RPlease note that you can only train chikara at certain places.
+&r-&RChikara 4 is obtainable from a chikara master and trained at
+ the Yardrat Trainer.
+&r-&RChikara 5 is trainable at the expense of 1 million gold at
+ Lusitania.
+
+&YFor more info see help chikara.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2410 0 0 0
+S
+#2413
+Dragonball Z: Chronicles Newbie Help~
+&PPLAYER-KILLING &O-&W NORTH
+
+&PASCII MAPS     &O-&W SOUTH
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2414 0 0 0
+D2
+~
+~
+0 -1 2415 0 0 0
+D3
+~
+~
+0 -1 2410 0 0 0
+S
+#2414
+&RPlayer-Killing [PK]!~
+&PMURDER &p[&WPlayer&p]
+ &O-&CStarts a PK fight with another player, this can only
+  be done in certain pk areas.
+&PCHARGETO &p[&WPlayer&p]
+ &O-&CStarts a PK fight with another player that is near by
+  in a ascii map.
+&PSTYLE &p[&WAggressive&p/&WDefensive&p]
+ &O-&CChanges styles from defensive to aggressive and viceversa.
+&PTOGGLEMURDER
+ &O-&CChanges if you want to spare players or kill them while
+  PK fighting.
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 2413 0 0 0
+S
+#2415
+&RAscii Maps!~
+&PFLY &p[&WDirection&p] &p[&W#&p]
+ &O-&CAllows you to fly in a direction more than
+  1 block at a time.
+&PRUN &p[&WDirection&p] &p[&W#&p]
+ &O-&CAllows you to run in a direction more than
+  1 block at a time.
+&PSEARCH
+ &O-&CAllows you to search for nearby objects.
+&PSENSE
+ &O-&CAllows you to sense for nearby players around you.
+&PCHECKRADAR
+ &O-&CAllows you to see what dragonballs are on Earth.
+&PSURVEY
+ &O-&CAllows you to see nearby landmarks.
+
+&r-&RAscii maps are best seen if you use Lucida Console size 8
+&r-&RThere are images of the current maps on the website: help www
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2413 0 0 0
+S
+#2416
+NEW TO MUDS Newbie Help~
+&PCHANNELS      &O-&W NORTH
+
+&PGLOBAL BOARDS &O-&W SOUTH
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 2417 0 0 0
+D1
+~
+~
+0 -1 303 0 0 0
+D2
+~
+~
+0 -1 2418 0 0 0
+D3
+~
+~
+0 -1 2419 0 0 0
+S
+#2417
+&RChannels!~
+&PCHANNEL OFF
+&cThis command will turn the specified channel OFF.
+For example, chan -ooc, will turn the OOC channel off.
+&YSyntax&O: &wchan -<channel/all>
+
+&PCHANNEL ON
+&cThis command will turn the specified channel ON.
+For example, chan +music, will turn the music channel on.
+&YSyntax&O: &wchan +<channel/all>
+
+&PCHANNEL LIST
+&cThis command will give you a list of all the available channels, and
+their status of either +(on) or -(off).
+&YSyntax&O: &wchannels
+~
+0 1073741828 1 0
+D2
+~
+~
+0 -1 2416 0 0 0
+S
+#2418
+&RGlobal Boards System!~
+&PGBOARD
+&cThis command will tell you what boards are there and
+how many messages are unread in a specific board.
+It is also used to change between boards.
+
+&PGNOTE READ #
+&cThis command is used to read gnotes from the currently
+selected gboard. If no syntax for number is used it will
+automatically show the unread notes.
+
+&PGNOTE WRITE
+&cThis command enables you to write new notes on the boards.
+Although there are some global boards you cant write.
+
+&PGNOTE DELETE
+&cThis command is used to delete a message that is unwanted
+on the boards. Players can only delete their own notes.
+
+&PGNOTE LIST
+&cThis command shows a list of the current messages of
+that specific board.
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 2416 0 0 0
+S
+#2419
+NEW TO MUDS Newbie Help~
+&PVITAL COMMANDS &O- &WNORTH
+
+&PCOMBAT         &O-&W SOUTH
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 2420 0 0 0
+D1
+~
+~
+0 -1 2416 0 0 0
+D2
+~
+~
+0 -1 2421 0 0 0
+D3
+~
+~
+0 -1 2422 0 0 0
+S
+#2420
+&RVital Commands!~
+&PSCORE&G (SC)
+&cYour score tells you all the basic statistics of your character.
+&BSyntax&b:&w score or sc
+
+&PEQUIPMENT&G (EQ)
+&cEquipment shows you all the items you are currently wearing.
+&BSyntax&b:&w equipment or eq
+
+&PINVENTORY&G (I)
+&cYour inventory shows you all items that you are carrying, that isn't worn on
+your characters body.
+&BSyntax&b:&w inventory or i
+
+&cUse the help menu to get more information on the topics here. To do
+this, type &wHELP <subject>&c.
+~
+0 1073741828 1 0
+D2
+~
+~
+0 -1 2419 0 0 0
+S
+#2421
+&RCombat!~
+&cThis room will teach you the basics of combat:
+
+&PKILL
+&cThis skill will engage you into combat with the target you specify, with the
+attempt of killing it.
+&BSyntax&b:&w kill <target>
+
+&PWIMPY
+&cWimpy is an automatic withdrawal from a fight when your hitpoints reach
+a set minimum. To set your wimpy, type WIMPY or WIMPY
+<number>. The number is the amount of lifeforce you want remaining
+when you leave the battle. 
+&BSyntax&b:&W wimpy and
+&BSyntax&b:&W wimpy <number>
+
+&PFLEE
+&cYou may also manually withdraw from a fight with flee. To use flee, just
+type FLEE. You may flee out of a fight at any amount of lifeforce, aslong
+as there is a room you can readily escape to.
+&BSyntax&b:&W flee
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2419 0 0 0
+S
+#2422
+NEW TO MUDS Newbie Help~
+&PSLEEP/WAKE/STAND &O- &WNORTH
+
+&PSHOPS            &O-&W SOUTH
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2423 0 0 0
+D1
+~
+~
+0 -1 2419 0 0 0
+D2
+~
+~
+0 -1 2424 0 0 0
+S
+#2423
+&RResting, Sleeping and Seating!~
+&cThe basics of regaining your lifeforce.
+
+&PREST &pand&P STAND
+&cAfter a long fight, or even a long walk, your character may need to rest.
+The safest way to do this is to type &wREST&c. When you are finished resting,
+type &wSTAND&c.
+&BSyntax&b:&W rest
+&BSyntax&b:&W stand
+
+&PSLEEP &pand &PWAKE
+&cSleep is a more effective way of restoring your lifeforce, however only
+sleep in a safe place as you will be more open to being attacked
+when you are sleeping. When you are done sleeping, type &wWAKE&c.
+&BSyntax&b:&W sleep
+&BSyntax&b:&W wake
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 2422 0 0 0
+S
+#2424
+&RBasic Shops Commands!~
+&cShops are a great way of aquiring equipment, and getting rid of extras.
+These following commands will help you:
+
+&PLIST
+&cThis command will list all the items that a shopkeeper is selling.
+&BSyntax&b:&w list
+
+&PBUY
+&cThis command is used to buy an item. You can either identify the object by a
+keyword in its name, or buy using it's number in the list. (eg, buy #2).
+&BSyntax&b:&w buy <object>
+  
+&PSELL
+&cIf you have extra equipment or have found something that you want to sell,
+use this command.
+&BSyntax&b:&w sell <object>
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 2422 0 0 0
+S
+#2425
+&REquipment!~
+&PEQUIPMENT &p[&WEQ&p]
+ &O-&CShows current equipment your wearing
+&PWEAR &z<&wPiece of EQ&z>
+ &O-&CCommand used to wear a piece of equipment.
+&PREMOVE &z<&wPiece of EQ&z>
+ &O-&CCommand used to remove a piece of equipment.
+&PINVENTORY &p[&WINV&p]
+ &O-&CAllows you to see what your carrying.
+&PApply &z<&wScroll&z> &z<&wPiece of EQ&z>
+ &O-&CAllows you to upgrade a piece of equipment
+  using a scroll of the same grade.
+
+&O-&CEquipment gives you extra P.Def/P.Atk/E.Def/E.Atk
+
+&PHELP EQUIPMENT
+&PHELP GRADE
+~
+0 1073741824 1 0
+D5
+~
+~
+0 -1 2404 0 0 0
+S
+#2600
+Last Room~
+~
+0 1073741828 1 0
+R M 0 2400 1 2600
+R M 0 2600 1 2600
+R O 0 2400 1 2600
+R O 0 2600 1 2600
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

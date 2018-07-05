@@ -1,0 +1,15 @@
+Heres some of the features DBZC offers:
+
+-9 races
+-Player runned clans
+-Map system available
+-More than 15 newbie friendly areas
+-90% of all skills/abilities found in the show
+-Skill level system
+-Custom Equipment system
+-Weboutput for clans, planets, who, wizlist
+-Newbie Friendly Automated Spaceship System
+-Hiscore tables
+-Fusion
+-Automated KOTH and Arena system
+

@@ -1,0 +1,11 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.dbzdl.slayn.net
+AuthUserFile /home/dbzdl/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/dbzdl/public_html/_vti_pvt/service.grp

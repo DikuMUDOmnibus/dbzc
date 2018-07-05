@@ -1,0 +1,1525 @@
+#AREA   Planet Vegeta~
+
+
+
+#VERSION 2
+#AUTHOR Buu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG Saiyans could be heard throughout the planet...~
+
+#FLAGS
+65 30
+
+#CONTINENT continent1~
+
+#INCOME 150000
+#POPSUPPORT 100
+#GOVERNMENT None~
+#GUARDS 0 0 0 0
+
+#ECONOMY 0 34155900
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#501
+First_obj~
+a newly created First_obj~
+Some god abandoned a newly created First_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#502
+Trainer~
+A Trainer~
+A Trainer is here waiting to help you train an attribute.
+~
+~
+71304707 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#503
+Puny~
+A Puny~
+A Puny Battler stands here, waiting for the attack.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 30000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 503
+~
+|
+#504
+Newbie~
+A Newbie~
+The Newbie Battler stands here, punching the air swiftly.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+10 60000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 504
+~
+|
+#505
+Saiyan~
+A Saiyan~
+A Saiyan clerk stands here, waiting for your order.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#506
+Level Two Battler~
+A Battler~
+The Level 2 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+20 120000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 506
+~
+|
+#507
+Level Three Battler~
+A Battler~
+The Level 3 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+40 200000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 507
+~
+|
+#508
+Level Four Battler~
+A Battler~
+The Level 4 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+80 290000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 508
+~
+|
+#509
+Level Five Battler~
+A Battler~
+The Level 5 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+160 380000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 509
+~
+|
+#510
+Level Six Battler~
+A Battler~
+The Level 6 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+320 500000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 510
+~
+|
+#511
+Level Seven Battler~
+A Battler~
+The Level 7 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+640 700000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 511
+~
+|
+#512
+Level Eight Battler~
+A Battler~
+The Level 8 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1280 950000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 512
+~
+|
+#513
+Level Nine Battler~
+A Battler~
+The Level 9 Battler stands here ready to fight you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+2560 2500000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+4 4 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 513
+~
+|
+#514
+A Mutant~
+A Mutant~
+A Mutant stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+3000 5000000
+112 112 0
+5 13 13 13 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 514
+~
+|
+#515
+Nurse~
+Nurse Sarah~
+Nurse Sarah stands here, giving out medicine.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Hey, $n! If you want me to heal you right up, just type 'sleep'.
+gig
+~
+|
+#516
+Saiyan~
+An Old Saiyan~
+A Saiyan stands here nodding, selling supplies.
+~
+~
+71303171 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Why, hello there $n. Take a look at my shop, type 'list'
+yawn $n
+say I don't have all day...
+~
+> rand_prog 5~
+yawn
+say I don't have all day...
+~
+|
+#517
+Dark Shadow~
+A Shadow~
+Something very dark lays in the corner, looks like a Shadow.
+~
+~
+1 0 C
+1 0 0 0d0+0 0d0+0
+1000 10000000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+2 2 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 517
+~
+> death_prog 100~
+mpmload 517
+~
+> death_prog 100~
+mpmload 517
+~
+> death_prog 100~
+mpmload 517
+~
+> death_prog 100~
+mpmload 517
+~
+> death_prog 100~
+mpmload 517
+~
+|
+#518
+Mutated Human~
+A Mutated Human~
+Some type of Mutated Human lays here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+4000 5000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 518
+~
+|
+#520
+A saiyan citizen~
+A saiyan citizen~
+A saiyan citizen wanders around here, minding his own bussiness.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 100000
+112 112 1
+Z
+none~
+#521
+A saiyan citizen~
+A saiyan citizen~
+A saiyan citizen wanders around here, minding his own bussiness.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 100000
+112 112 1
+Z
+none~
+#522
+A saiyan citizen~
+A saiyan citizen~
+A saiyan citizen wanders around here, minding his own bussiness.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 100000
+112 112 1
+Z
+none~
+#523
+A saiyan citizen~
+A saiyan citizen~
+A saiyan citizen wanders around here, minding his own bussiness.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 100000
+112 112 1
+Z
+none~
+#524
+A saiyan citizen~
+A saiyan citizen~
+A saiyan citizen wanders around here, minding his own bussiness.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 100000
+112 112 1
+Z
+none~
+#649
+Last_obj~
+a newly created Last_obj~
+Some god abandoned a newly created Last_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#501
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#502
+Saiyan Newbie Armor~
+Saiyan Newbie Armor~
+Some newbie armor lays on the floor.~
+~
+9 8192 9
+4 20 0 0
+1 100 10
+#503
+Second Class Saiyan Armor~
+Second Class Saiyan Armor~
+Second Class Saiyan Armor lays on the floor humming.~
+~
+9 8192 9
+4 20 0 0
+1 500 50
+#504
+Advanced Saiyan Armor~
+Advanced Saiyan Armor~
+Advanced Saiyan Armor lays on the floor humming.~
+~
+9 8192 9
+4 30 0 0
+1 700 70
+#505
+&zA&G Green&z Scouter~
+&zA&G Green&z Scouter~
+&zA&G Green&z Scouter has been left here.~
+~
+65 0 131073
+0 0 0 3
+1 1000 100
+#649
+Last_obj~
+a newly created Last_obj~
+Some god dropped a newly created Last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#501
+Planet Vegeta Spaceport~
+As you step foot on this planet, you could smell the fresh air. People,
+more like Saiyans, are walking around here. As you make a quick scan here,
+you could tell that somewhere northward lies a  battlers tower and a
+healing chamber. You know it wouldn't be a bad idea to gain some
+powerlevel. It might just useful. 
+ 
+~
+0 0 0 32768
+D0
+~
+~
+0 -1 502 0 0 0
+R O 0 32 1 501
+> custom_prog Startup Transporter~
+if haspropagandized($n)
+mpechoat $n You cant do that.
+else
+Mea $n &BYou hit a button.
+Mer $n &B$n hits a button.
+Mpecho &CThe Transporter Begins To Power Up.
+Mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 276
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+endif
+~
+> entry_prog 100~
+if haspropagandized($n)
+mea $n &RYou can't do that right now.
+mpforce $n north
+endif
+~
+|
+S
+#502
+A Hallway~
+As you take a look at this hallway you can tell that it is very light.
+You could tell that his hallway is not used alot. There is alot of dust
+here, everywhere. The walls are covered in lime green wallpaper, and the
+ceiling is all white. You could also tell that this hallway is a big
+impact leading into the Spaceport. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 511 0 0 0
+D2
+~
+~
+0 -1 501 0 0 0
+R M 0 520 2 502
+R M 0 520 2 502
+S
+#503
+Intersection~
+This intersection seems to be the most used intersection in this area!
+You can feel the power this room holds, as it connects everything planet
+Vegeta holds. You could tell that this area is decorated with lime green
+walls and a white ceiling. You can sense that to the south, is the
+entrance of planet Vegeta, leaving south, would allow you to leave this
+planet. To the north, lays an ancient old elevator. Westward is a vast,
+item shop, and a training room. And, most of all, the most important place
+is eastward, where the battlers and healing chamber are.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 529 0 0 0
+D1
+~
+~
+0 -1 504 0 0 0
+D2
+~
+~
+0 -1 511 0 0 0
+D3
+~
+~
+0 -1 523 0 0 0
+R M 0 524 2 503
+R M 0 524 2 503
+S
+#504
+Towards the Battling Sector~
+As you make your way to the battling sector, you can sense powerlevels
+that are way beyond yours. You almost feel unstoppable, thinking of all
+these ratings your getting. Green and dark green, is the colors as you
+enter the room. Eastward lays a healing chamber and a sparring room,
+fitted to your settings. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 505 0 0 0
+D3
+~
+~
+0 -1 503 0 0 0
+R M 0 521 2 504
+R M 0 521 2 504
+S
+#505
+A Hallway~
+As you take a look at this hallway you can tell that it is very light.
+You could tell that his hallway is not used alot. There is alot of dust
+here, everywhere. The walls are covered in lime green wallpaper, and the
+ceiling is all white. You could also tell that this hallway is a big
+impact leading into the Spaceport. You can see to the northern, there a
+healing chamber, to heal those nasty wounds. To the south, you can see a
+sparring arena, to spar other people. Also, to the east, is a battling
+tower, so you can fight battlers and gain powerlevel.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 506 0 0 0
+D1
+~
+~
+0 -1 509 0 0 0
+D2
+~
+~
+0 -1 508 0 0 0
+D3
+~
+~
+0 -1 504 0 0 0
+S
+#506
+Healing Chamber~
+Houndreds of thousands of machines can be heard in this room, injecting a
+redlike liquid into bodies of injuried ones. You can see that this healing
+chamber is tremendously used alot. You could see tubes of redlike
+substances on the floor, they must not be keeping up with the place.
+ 
+To gain benefit from the healing chamber, type: Sleep
+~
+0 0 1 1
+D2
+~
+~
+0 -1 505 0 0 0
+D3
+~
+~
+0 -1 507 0 0 0
+S
+#507
+Secondary Healing Chamber~
+Yet, there is so many people in the first healing chamber, they had to
+have another chamber. This chamber has blue liquid instaid of red liquid
+being injected into bodies that are injured. You could hear the machines
+hum, as they begin to heal peoples wounds. You know it wouldn't hurt to
+heal those wounds, you have, right about now. 
+~
+0 0 1 1
+D1
+~
+~
+0 -1 506 0 0 0
+R M 0 515 1 507
+S
+#508
+Towards the Sparring Arena~
+You could almost feel the power of other people, as you hear the screams
+of pain and agony, people are having. It must be fun, huh? Sparring means
+giving it your all to your opponent without actually killing them. You
+will stun them, which means, knock them out. After that, you could aid
+them to give then conscious back. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 505 0 0 0
+D2
+~
+~
+0 -1 512 0 0 0
+S
+#509
+Battlers Tower~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight. Right next to you lies a puny saiyan,
+just to get the feeling of what it feels to be on the tower. Get ready,
+because its your turn now, to gain powerlevel!  Downward is also a gravity
+chamber, where you can train your powerlevel without fighting.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 505 0 0 0
+D4
+~
+~
+0 -1 513 0 0 0
+D5
+~
+~
+0 -1 510 0 0 0
+R M 0 503 1 509
+S
+#510
+Gravity Room~
+As you walk into this dark green room, you can clearly see a machine
+humming. Above the machine seems to have some numbers on it, having
+purpose. Also as you walk into this room, you can feel your whole body
+become three times heavier! 
+ 
+&R*** YOU COULD DIE IF YOU SET THE GRAVITY TOO HIGH ***
+~
+0 4 1 4
+D4
+~
+~
+0 -1 509 0 0 0
+S
+#511
+A Hallway~
+As you take a look at this hallway you can tell that it is very light.
+You could tell that his hallway is not used alot. There is alot of dust
+here, everywhere. The walls are covered in lime green wallpaper, and the
+ceiling is all white. You could also tell that this hallway is a big
+impact leading into the Spaceport.  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 503 0 0 0
+D2
+~
+~
+0 -1 502 0 0 0
+S
+#512
+Sparring Arena~
+You gulp, to even think you entered the sparring arena. You can hear
+people scream, as they seem to lose conscious. As you look around, you can
+see that the sparring arena, is very huge, walls all white, and the floors
+are padded. As you step on the padding, you can feel its very soft. But
+that can be the worst of your troubles, when you enter in here, prepare to
+fight. 
+~
+0 0 1 2
+D0
+~
+~
+0 -1 508 0 0 0
+S
+#513
+Battlers Tower: Battler One~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight. 
+~
+0 4 1 0
+D4
+~
+~
+0 -1 514 0 0 0
+D5
+~
+~
+0 -1 509 0 0 0
+R M 0 504 1 513
+S
+#514
+Battlers Tower: Battler Two~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight. 
+~
+0 4 1 0
+D4
+~
+~
+0 -1 515 0 0 0
+D5
+~
+~
+0 -1 513 0 0 0
+R M 0 506 1 514
+S
+#515
+Battlers Tower: Battler Three~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 4 1 0
+D4
+~
+~
+0 -1 516 0 0 0
+D5
+~
+~
+0 -1 514 0 0 0
+R M 0 507 1 515
+S
+#516
+Battlers Tower: Battler Four~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 4 1 0
+D4
+~
+~
+0 -1 517 0 0 0
+D5
+~
+~
+0 -1 515 0 0 0
+R M 0 508 1 516
+S
+#517
+Battlers Tower: Battler Five~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 4 1 0
+D4
+~
+~
+0 -1 518 0 0 0
+D5
+~
+~
+0 -1 516 0 0 0
+R M 0 509 1 517
+S
+#518
+Battlers Tower: Battler Six~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 4 1 0
+D4
+~
+~
+0 -1 519 0 0 0
+D5
+~
+~
+0 -1 517 0 0 0
+R M 0 510 1 518
+S
+#519
+Battlers Tower: Battler Seven~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 0 1 0
+D4
+~
+~
+0 -1 520 0 0 0
+D5
+~
+~
+0 -1 518 0 0 0
+R M 0 511 1 519
+S
+#520
+Battlers Tower: Battler Eight~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 0 1 0
+D4
+~
+~
+0 -1 521 0 0 0
+D5
+~
+~
+0 -1 519 0 0 0
+R M 0 512 1 520
+S
+#521
+Battlers Tower: Battler Nine~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight.  
+~
+0 0 1 0
+D4
+~
+~
+0 -1 522 0 0 0
+D5
+~
+~
+0 -1 520 0 0 0
+R M 0 513 1 521
+S
+#522
+Battlers Tower: Final Battler~
+Finally, you are in the battlers tower. This tower contains the most
+vicious mobs and crazy ones too. Some of them have a high powerlevel, some
+not, and some may just be right for you. You know now what the power feels
+close up, as you get ready to fight. 
+~
+0 0 1 0
+D5
+~
+~
+0 -1 521 0 0 0
+R M 0 514 1 522
+S
+#523
+A Hallway~
+As you take a look at this hallway you can tell that it is very light.
+You could tell that his hallway is not used alot. There is alot of dust
+here, everywhere. The walls are covered in lime green wallpaper, and the
+ceiling is all white. You could also tell that this hallway is a big
+impact leading into the Spaceport. You can also see that to the south is a
+Saiyans Lounge, and to the north is an Item Shop.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 527 0 0 0
+D1
+~
+~
+0 -1 503 0 0 0
+D2
+~
+~
+0 -1 528 0 0 0
+D3
+~
+~
+0 -1 524 0 0 0
+S
+#524
+A Hallway~
+As you take a look at this hallway you can tell that it is very light.  
+You could tell that his hallway is not used alot. There is alot of dust
+here, everywhere. The walls are covered in lime green wallpaper, and the
+ceiling is all white. You could also tell that this hallway is a big
+impact leading into the Spaceport. You can also see that to the west is a
+Meditation Chamber, and to the north is a Training Room, to train your
+stats. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 600 0 0 0
+D1
+~
+~
+0 -1 523 0 0 0
+D2
+~
+~
+0 -1 526 0 0 0
+D3
+~
+~
+0 -1 525 0 0 0
+R M 0 522 2 524
+R M 0 522 2 524
+S
+#525
+Meditation Chamber~
+Yes, a Meditation Chamber, this chamber is for people who want to gravity
+train. You can see that the walls are all white. There is some equipment
+in here, for the gravity train. You could see that there is a machine in
+here humming. The gravity in here also seems to be much heavier then the
+room before. 
+ 
+&R*** YOU COULD DIE IF YOU SET THE GRAVITY TOO HIGH ***
+~
+0 0 1 4
+D1
+~
+~
+0 -1 524 0 0 0
+S
+#526
+Training Room~
+The room seems to be well maintained, although, the lighting is very dim.
+There is no windows in this room, the room itself is very small. You can
+see that trainer nods, as he looks at you. At this place you can train any
+of your typical stats here. If you don't know what stats are, you should
+read help *stat*. TO find out what stats you have, type score.
+~
+0 0 1 64
+D0
+~
+~
+0 -1 524 0 0 0
+R M 0 502 1 526
+S
+#527
+Item Shop~
+You look into this shop and see rows of items. You could see that this
+shop has tons of Cameras, and if you dont now what that means, don't steal
+anything! As you look at the glass, in the center of the shop, you see
+that it has everything from armors, weapons and even scouters! You could
+see a royal green color rug leading to the glass. As you look up from the
+glass, you can see the shopkeepeer eyeing you. It must be your time to
+buy. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 523 0 0 0
+R M 0 516 1 527
+  R G 1 504 1
+  R G 1 502 1
+  R G 1 503 1
+  R G 1 298 1
+  R G 1 505 1
+S
+#528
+Saiyans Lounge~
+A Saiyans lounge. A Place where all the saiyans could just hangout. Even
+the other races could hangout in here. There is a fifty inch screen T.V, a
+large deep red loveseat, along with a deep green couch. There seems to be
+a bar in the corner, along with drinks on it. You could tell that this
+lounge is just a place to hangout and talk. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 523 0 0 0
+S
+#529
+A Hallway~
+As you take a look at this hallway you can tell that it is very light.
+You could tell that his hallway is not used alot. There is alot of dust
+here, everywhere. The walls are covered in lime green wallpaper, and the
+ceiling is all white. You could also tell that this hallway is a big
+impact leading into the Spaceport. You hear something hum, like an
+elevator.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 530 0 0 0
+D2
+~
+~
+0 -1 503 0 0 0
+R M 0 523 2 529
+R M 0 523 2 529
+S
+#530
+An Old Elevator~
+As you enter this ancient old room, you could tell that this elevator is
+hardly used. This ancient old elevator, is a tannish color. With some
+buttons on the side, red buttons. A sign is here too, you might want to
+look at the sign. It could help you. The only exit in this room, is south.
+There is also a velvet couch in the most northern part of the room.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 529 0 0 0
+E
+sign~
+&cTo Get To Different levels say:
+ 
+Level 2 = Say Level 2
+Level 3 = Say Level 3
+ 
+You are on Level 1, Right now.
+~
+> speech_prog p Level 2~
+Mpechoat $n &YYou press the level 2 Button, as you Shoot up into the sky!
+Mpechoat $n &YYou are now on level 2, of planet Vegeta.
+Mptrans $n 531
+~
+> speech_prog p Level 3~
+Mpechoat $n &YYou press the level 3 Button, as you Shoot up into the sky!
+Mpechoat $n &YYou are now on level 3, of planet Vegeta.
+Mptrans $n 541
+~
+|
+S
+#531
+An Old Elevator~
+As you enter this ancient old room, you could tell that this elevator is
+hardly used. This ancient old elevator, is a tannish color. With some
+buttons on the side, red buttons. A sign is here too, you might want to
+look at the sign. It could help you. The only exit in this room, is south.
+There is also a velvet couch in the most northern part of the room. You
+can also hear some very eerie noises coming from the south. There also
+seems to be a sign here. 
+~
+0 4 1 0
+D2
+~
+~
+0 -1 532 0 0 0
+E
+sign~
+&cTo Get To Different levels say:
+
+Level 1 = Say Level 1
+Level 3 = Say Level 3
+ 
+You are on Level 2, Right now.
+~
+> speech_prog p Level 1~
+Mpechoat $n &YYou press the level 1 Button, with such power, you fly down!
+Mpechoat $n &YYou are now on level 1, of planet Vegeta.
+Mptrans $n 530
+~
+> speech_prog p Level 3~
+Mpechoat $n &YYou press the level 3 Button, as you Shoot up into the sky!
+Mpechoat $n &YYou are now on level 3, of planet Vegeta.
+Mptrans $n 541
+~
+|
+S
+#532
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of pain and agony reeking in here. You could see shadows walk all
+of here. They must be haunting this whole area of Planet Vegeta, its very
+freaky. If I were you, I wouldn't stay in here too long! They look mad!
+~
+0 0 1 0
+D0
+~
+~
+0 -1 531 0 0 0
+D1
+~
+~
+0 -1 533 0 0 0
+D2
+~
+~
+0 -1 535 0 0 0
+D3
+~
+~
+0 -1 536 0 0 0
+R M 0 517 6 532
+R M 0 517 6 532
+S
+#533
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of pain and agony reeking in here. You could see
+shadows walk all of here. They must be haunting this whole area of Planet
+Vegeta, its very freaky. If I were you, I wouldn't stay in here too long!
+They look mad! 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 534 0 0 0
+D3
+~
+~
+0 -1 532 0 0 0
+R M 0 517 6 533
+S
+#534
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of pain and agony reeking in here. You could
+see shadows walk all of here. They must be haunting this whole area of
+Planet Vegeta, its very freaky. If I were you, I wouldn't stay in here too
+long! They look mad!  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 533 0 0 0
+D2
+~
+~
+0 -1 540 0 0 0
+D3
+~
+~
+0 -1 535 0 0 0
+R M 0 517 6 534
+S
+#535
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of screams of pain and agony reeking in
+here. You could see shadows walk all of here. They must be haunting this
+whole area of Planet Vegeta, its very freaky. If I were you, I wouldn't
+stay in here too long! They look mad!   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 532 0 0 0
+D1
+~
+~
+0 -1 534 0 0 0
+D2
+~
+~
+0 -1 539 0 0 0
+D3
+~
+~
+0 -1 537 0 0 0
+S
+#536
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of screams of pain and agony reeking in
+here. You could see shadows walk all of here. They must be haunting this
+whole area of Planet Vegeta, its very freaky. If I were you, I wouldn't
+stay in here too long! They look mad!   
+~
+0 0 1 0
+D1
+~
+~
+0 -1 532 0 0 0
+D2
+~
+~
+0 -1 537 0 0 0
+R M 0 518 1 536
+S
+#537
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of screams of pain and agony reeking in
+here. You could see shadows walk all of here. They must be haunting this
+whole area of Planet Vegeta, its very freaky. If I were you, I wouldn't
+stay in here too long! They look mad!   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 536 0 0 0
+D1
+~
+~
+0 -1 535 0 0 0
+D2
+~
+~
+0 -1 538 0 0 0
+S
+#538
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of screams of pain and agony reeking in
+here. You could see shadows walk all of here. They must be haunting this
+whole area of Planet Vegeta, its very freaky. If I were you, I wouldn't
+stay in here too long! They look mad!   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 537 0 0 0
+D1
+~
+~
+0 -1 539 0 0 0
+R M 0 517 6 538
+S
+#539
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of screams of pain and agony reeking in
+here. You could see shadows walk all of here. They must be haunting this
+whole area of Planet Vegeta, its very freaky. If I were you, I wouldn't
+stay in here too long! They look mad!   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 535 0 0 0
+D1
+~
+~
+0 -1 540 0 0 0
+D3
+~
+~
+0 -1 538 0 0 0
+S
+#540
+A Ring Of Shadows~
+You could smell that this room has death in it. You could hear the
+screams of screams of screams of screams of pain and agony reeking in
+here. You could see shadows walk all of here. They must be haunting this
+whole area of Planet Vegeta, its very freaky. If I were you, I wouldn't
+stay in here too long! They look mad!   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 534 0 0 0
+D3
+~
+~
+0 -1 539 0 0 0
+R M 0 517 6 540
+S
+#541
+An Old Elevator~
+As you enter this ancient old room, you could tell that this elevator is
+hardly used. This ancient old elevator, is a tannish color. With some
+buttons on the side, red buttons. A sign is here too, you might want to
+look at the sign. It could help you. The only exit in this room, is south.
+You can hear people sparring in a distance. Keep your guard up. There also
+seems to be a sign here. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 542 0 0 0
+E
+sign~
+&cTo Get To Different levels say:
+ 
+Level 1 = Say Level 1
+Level 2 = Say Level 2
+ 
+You are on Level 3, Right now.
+~
+> speech_prog p Level 1~
+Mpechoat $n &YYou press the level 1 Button, with such power, you fly down!
+Mpechoat $n &YYou are now on level 1, of planet Vegeta.
+Mptrans $n 530
+~
+> speech_prog p Level 2~
+Mpechoat $n &YYou press the level 2 Button, with such power, you fly down!
+Mpechoat $n &YYou are now on level 2, of planet Vegeta.
+Mptrans $n 531
+~
+|
+S
+#542
+An Ancient Hallway~
+This hallway seems to be much more complex and calmer then level 2 and
+level 1. This area, seems to have no windows or doors. There is a heater
+in the southern part of the room, to keep things warm. You can see that
+eastward is some golden doors, and westward is a an advanced sparring
+dojo. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 541 0 0 0
+D1
+~
+~
+0 -1 545 0 0 0
+D3
+~
+~
+0 -1 543 0 0 0
+S
+#543
+Nearing a Sparring Room~
+As you get closer and closer to this advanced sparring dojo. You feel
+that you are more of a man, entering this dojo, just because its advanced.
+You gulp, as you think to yourself, only one more step to the advanced
+sparring dojo. There is only two exits in this room, north and east, pick
+your destiny. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 544 0 0 0
+D1
+~
+~
+0 -1 542 0 0 0
+S
+#544
+Advanced Sparring Dojo~
+Gore all over, with some missing teeth are widly on the floor. This
+advanced sparring dojo is somewhat, more tougher then the one on level
+one. You can hear all types of people screaming in here. You know what,
+you better get suited up, because ur next. 
+~
+0 0 1 2
+D2
+~
+~
+0 -1 543 0 0 0
+S
+#545
+Golden Doors~
+As you look at these golden doors, you can tell that these golden doors
+are very weak. Anybody could push through these doors. As you look more
+closely at the doors, you wonder. You push the golden doors. Hey, its a
+dead end, you been tricked! Turn back, theres nothing here. 
+~
+0 0 1 0
+D3
+~
+~
+0 -1 542 0 0 0
+S
+#600
+The Library~
+Upon entering of this library. You notice all the books that are stored
+around you. Wall to wall are just stacks of books with what it seems
+to be dust. There is a sign in the middle of the room that says "Silence",
+so maybe you should obey what its saying.
+~
+0 4 1 524288
+D2
+~
+~
+0 -1 524 0 0 0
+S
+#601
+Floating in a void~
+~
+0 4 1 0
+S
+#602
+Floating in a void~
+~
+0 4 1 0
+S
+#603
+Floating in a void~
+~
+0 4 1 0
+S
+#606
+Floating in a void~
+~
+0 4 1 0
+S
+#611
+Floating in a void~
+~
+0 4 1 0
+S
+#624
+Floating in a void~
+~
+0 4 1 0
+S
+#649
+Last_Room~
+~
+0 4 1 0
+R M 0 501 1 649
+R M 0 649 1 649
+R O 0 501 1 649
+R O 0 649 1 649
+S
+#0
+
+
+#SHOPS
+ 516    0  0  0  0  0   120  90         0 23    ; An Old Saiyan
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

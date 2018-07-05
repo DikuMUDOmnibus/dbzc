@@ -1,0 +1,146 @@
+#AREA   Legendaria~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#32100
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#32500
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#32100
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#32500
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#32100
+First Vnum~
+~
+0 4 1 0
+S
+#32101
+Xerlan's House~
+~
+0 1073741824 1 0
+D2
+~
+~
+536870912 -1 32499 480 490 7
+S
+#32499
+Legendaria~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 32499 0 0 0
+D1
+~
+~
+0 -1 32499 0 0 0
+D2
+~
+~
+0 -1 32499 0 0 0
+D3
+~
+~
+0 -1 32499 0 0 0
+D6
+~
+~
+0 -1 32499 0 0 0
+D7
+~
+~
+0 -1 32499 0 0 0
+D8
+~
+~
+0 -1 32499 0 0 0
+D9
+~
+~
+0 -1 32499 0 0 0
+S
+#32500
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

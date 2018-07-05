@@ -1,0 +1,1492 @@
+#AREA   Capture the Flag Game~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31300000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#11501
+First Obj~
+a newly created First Obj~
+Some god abandoned a newly created First Obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#11700
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#11501
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#11503
+Blue Team ID~
+&z(&WGlowing&z)&B Blue Team ID&w~
+Someone has dropped a &Bblue&R team ID.~
+~
+1 0 1
+0 0 0 0
+1 0 0
+> remove_prog 100~
+mpechoaround $n &Y$n has removed $s ID, $es out of the game.&w
+mptransfer $n 11502
+mpat $n mpechoaround $n &Y$n has removed $s ID, $es out of the game.&w
+mpat $n mea $n &YYou have removed your ID, you are out of the game.&w
+mpat $n mpforce $n junk 'blue team id'
+~
+> wear_prog 100~
+mpechoaround $n &Y$n has worn 1 ID, transferring $m to Blue Team Room&w
+mptransfer $n 11559
+mpechoat $n &Y You have been transferred to the waiting room.
+mpechoaround $n $n has joined the &BBlue Team&w
+~
+|
+#11504
+Red Team ID~
+&z(&WGlowing&z)&R Red Team ID&w~
+Someone has dropped a red team ID.~
+~
+1 0 1
+0 0 0 0
+1 0 0
+> remove_prog 100~
+mpechoaround $n &Y$n has removed $s ID, $es out of the game.&w
+mptransfer $n 11502
+mpat $n mpechoaround $n &Y$n has removed $s ID, $es out of the game.&w
+mpat $n mea $n &YYou have removed your ID, you are out of the game.&w
+mpat $n mpforce $n junk "red team id"
+~
+> wear_prog 100~
+mpechoaround $n $n &Yhas worn 1 ID, transferring $m to Red Team Room
+mptransfer $n 11560
+mpechoat $n &YYou have been transferred to the waiting room.
+mpechoaround $n $n has joined the &RRed Team
+~
+|
+#11505
+Blue Team Flag~
+&BBlue Team Flag&w~
+&BThe blue team flag is laying in the floor waiting to be stolen.~
+~
+8 0&4 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if iswearing($n) == 11503
+mpforce $n drop "blue flag"
+else
+if iswearing($n) == 11504
+mpzecho &Y$n has taken the &BBlue Flag&Y!
+endif
+endif
+~
+> drop_prog 100~
+if iswearing($n) == 11503
+mpzecho &Y$n has returned the &BBlue Flag&Y!
+mpoload 11505
+mpat 11503 drop "blue flag"
+mpforce $n sacrifice "blue flag"
+else
+if iswearing($n) == 11504
+if inroom($n) == 11558
+mpzecho &Y$n placed the &BBlue Flag&Y in the &RRed Base&Y!
+mpctf 1
+mpctf 3
+mpoload 11505
+mpat 11503 drop "blue flag"
+mpforce $n sacrifice "blue flag"
+else
+if iswearing($n) == 11504
+if inroom($n) != 11558
+mpforce $n get "blue flag"
+endif
+endif
+endif
+endif
+endif
+~
+|
+#11506
+Red Team Flag~
+&RRed Team Flag&w~
+&RThe red team flag is laying in the floor waiting to be stolen.~
+~
+8 0&4 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if iswearing($n) == 11504
+mpforce $n drop flag
+else
+if iswearing($n) == 11503
+mpzecho &Y$n has taken the &RRed Flag&Y!
+endif
+endif
+~
+> drop_prog 100~
+if iswearing($n) == 11504
+mpzecho &Y$n has returned the &RRed Flag&Y!
+mpoload 11506
+mpat 11558 drop "red flag"
+mpforce $n sacrifice "red flag"
+else
+if iswearing($n) == 11503
+if inroom($n) == 11503
+mpzecho &Y$n placed the &RRed Flag&Y in the &BBlue Base&Y!
+mpoload 11506
+mpat 11558 drop "red flag"
+mpctf 0
+mpctf 3
+mpforce $n sacrifice "red flag"
+else
+if iswearing($n) == 11503
+if inroom($n) != 11503
+mpforce $n get "red flag"
+endif
+endif
+endif
+endif
+endif
+~
+|
+#11700
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#11501
+First Room~
+~
+0 4 1 0
+S
+#11502
+Capture the Flag Waiting Room~
+~
+0 1073742852 1 262144
+D1
+~
+~
+33554439 -1 11559 0 0 0
+D3
+~
+~
+33554439 -1 11560 0 0 0
+D5
+~
+~
+0 -1 251 0 0 0
+> speech_prog p start the game~
+if isimmort($n)
+mpechoat $n You have started the Capture the Flag!!
+mpat 11559 mpecho $n has started the Game!!
+mpat 11560 mpecho $n has started the Game!!
+mpat 11559 mptransfer all 11503
+mpat 11560 mptransfer all 11558
+endif
+~
+> speech_prog p score~
+if isimmort($n)
+mpctf 3
+endif
+~
+|
+S
+#11503
+&CTop Of The Blue Tower~
+&BSmoke clouds fill the air with unwantful pollution. Fog descends
+from the ventilation on the top of the ceiling. This room is
+all blue with a transparent flag. Alarms sound the area incase
+an enemy tries to take the flag.Looking around for an alternate
+exit seems very difficult to find. There is only one exit from
+here, which is down. As the fog gets in the eyes of your fellow
+comrades, you begin to believe that this place could be dangerous
+but, also very fun at the same time.
+~
+0 1073741828 1 262400
+D5
+~
+~
+0 -1 11504 0 0 0
+S
+#11504
+&BBlue Base Tower&W&w~
+~
+0 1073741828 1 262400
+D4
+~
+~
+0 -1 11503 0 0 0
+D5
+~
+~
+0 -1 11505 0 0 0
+S
+#11505
+&BBlue Base Tower&W&w~
+~
+0 1073741824 1 262400
+D4
+~
+~
+0 -1 11504 0 0 0
+D5
+~
+~
+0 -1 11515 0 0 0
+S
+#11506
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741828 1 262400
+D1
+~
+~
+0 -1 11527 0 0 0
+D7
+~
+~
+0 -1 11509 0 0 0
+D9
+~
+~
+0 -1 11510 0 0 0
+S
+#11507
+&BBlue Team Base&W&w~
+&CLooks like you've walked into a maze trap! The temperature
+seems to be dropping constantly. If you don't get out of this
+room soon you are surely going to freeze to death! It looks
+like you can get out in just about any direction.
+~
+0 1073741828 1 262400
+D0
+~
+~
+0 -1 11507 0 0 0
+D1
+~
+~
+0 -1 11507 0 0 0
+D2
+~
+~
+0 -1 11507 0 0 0
+D3
+~
+~
+2048 -1 11508 0 0 0
+D4
+~
+~
+0 -1 11507 0 0 0
+D5
+~
+~
+0 -1 11507 0 0 0
+D6
+~
+~
+0 -1 11507 0 0 0
+D7
+~
+~
+0 -1 11507 0 0 0
+D8
+~
+~
+0 -1 11507 0 0 0
+D9
+~
+~
+0 -1 11507 0 0 0
+S
+#11508
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741828 1 262400
+D1
+~
+~
+0 -1 11507 0 0 0
+D2
+~
+~
+0 -1 11520 0 0 0
+D9
+~
+~
+0 -1 11509 0 0 0
+S
+#11509
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D6
+~
+~
+0 -1 11508 0 0 0
+D7
+~
+~
+0 -1 11516 0 0 0
+D8
+~
+~
+0 -1 11506 0 0 0
+S
+#11510
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11511 0 0 0
+D6
+~
+~
+0 -1 11506 0 0 0
+S
+#11511
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11512 0 0 0
+D1
+~
+~
+0 -1 11510 0 0 0
+D2
+~
+~
+0 -1 11514 0 0 0
+S
+#11512
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D2
+~
+~
+0 -1 11511 0 0 0
+D9
+~
+~
+0 -1 11513 0 0 0
+S
+#11513
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! Oops... Dead end 
+~
+0 1073741824 1 262400
+D6
+~
+~
+0 -1 11512 0 0 0
+S
+#11514
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11511 0 0 0
+D1
+~
+~
+0 -1 11522 0 0 0
+D3
+~
+~
+0 -1 11515 0 0 0
+S
+#11515
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! Fog is pouring into the room from above you!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11514 0 0 0
+D4
+~
+~
+2048 -1 11505 0 0 0
+S
+#11516
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741828 1 262400
+D0
+~
+~
+0 -1 11517 0 0 0
+D3
+~
+~
+0 -1 11518 0 0 0
+D8
+~
+~
+0 -1 11509 0 0 0
+S
+#11517
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! Oops... Dead end.
+~
+0 1073741828 1 262400
+D2
+~
+~
+0 -1 11516 0 0 0
+S
+#11518
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741828 1 262400
+D1
+~
+~
+0 -1 11516 0 0 0
+D2
+~
+~
+0 -1 11520 0 0 0
+D3
+~
+~
+0 -1 11521 0 0 0
+D7
+~
+~
+0 -1 11519 0 0 0
+S
+#11519
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! Oops... Dead end.
+~
+0 1073741828 1 262400
+D8
+~
+~
+0 -1 11518 0 0 0
+S
+#11520
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11518 0 0 0
+D1
+~
+~
+0 -1 11523 0 0 0
+D3
+~
+~
+0 -1 11520 0 0 0
+S
+#11521
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11518 0 0 0
+D3
+~
+~
+0 -1 11525 0 0 0
+S
+#11522
+&BBlue Team Flag Room!&W&w~
+&CJust kiddin, this isn't quite the flag room, but you must be
+getting close to it! It appears that there is a secret path
+towards the &RRed&C base if you go down.
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11514 0 0 0
+D5
+~
+~
+0 -1 11528 0 0 0
+> entry_prog 100~
+if wearingvnum($n) == 11504
+mptransfer $n 11520
+endif
+~
+|
+S
+#11523
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! Oops... Dead end.
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11520 0 0 0
+S
+#11524
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught, and remember after this room there's no turning back!
+~
+0 1073741824 1 262400
+D6
+~
+~
+0 -1 11520 0 0 0
+S
+#11525
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11521 0 0 0
+D3
+~
+~
+0 -1 11526 0 0 0
+S
+#11526
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! It looks like you can get back to the &RRed&C base
+by going down.
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11525 0 0 0
+D5
+~
+~
+0 -1 11528 0 0 0
+S
+#11527
+&BBlue Team Base&W&w~
+&CThis base is quite cold. You can see your breathe everytime
+you breathe out. A thick layer of fog covers the floor, preventing
+you from even seeing your feet. This makes you question what
+you are even walking on. You decide you shouldn't think about
+it and should try to hurry and get out of this base before you
+get caught! The flag room must be close...
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11506 0 0 0
+D4
+~
+~
+0 -1 11527 0 0 0
+S
+#11528
+&ONeutral Ground&W&w~
+&OThis area seems to be very barren. The ground is bare of any
+vegetation and covered in gravel and mud. There seems to be
+alot of cold air coming from above.
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11529 0 0 0
+D4
+~
+~
+0 -1 11524 0 0 0
+S
+#11529
+&ONeutral Ground&W&w~
+&OThis area seems to be very barren. The ground is bare of any
+vegetation and covered in gravel and mud. There is a large boulder
+face to the south with a crack large enough to get into.
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11528 0 0 0
+D2
+~
+~
+2048 -1 11533 0 0 0
+D3
+~
+~
+0 -1 11530 0 0 0
+S
+#11530
+&ONeutral Ground&W&w~
+&OThis area seems to be very barren. The ground is bare of any
+vegetation and covered in gravel and mud. There is a large boulder
+face to the north with a crack large enough to get into.
+~
+0 1073741824 1 262400
+D0
+~
+~
+2048 -1 11532 0 0 0
+D1
+~
+~
+0 -1 11529 0 0 0
+D3
+~
+~
+0 -1 11531 0 0 0
+S
+#11531
+&ONeutral Ground&W&w~
+&OThis area seems to be very barren. The ground is bare of any
+vegetation and covered in gravel and mud. There seems to be
+alot of heat coming from below.
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11530 0 0 0
+D5
+~
+~
+0 -1 11534 0 0 0
+S
+#11532
+&ONeutral Ground&W&w~
+&OThis small cavern is barely big enough for one person. You
+can be pretty sure no one else can enter this room. As you seem
+to think you've found a good hiding place you begin choking
+on the noxious fumes that enter the room from a crack in the
+cavern above you. Maybe it wasn't so safe after all!
+~
+0 1073742080 1 262400 0 0 1
+D2
+~
+~
+0 -1 11530 0 0 0
+> entry_prog 100~
+mea $n &YNoxious fumes choke you as you enter this room!
+mpdamage $n 25
+~
+> rand_prog 100~
+mea $r &YNoxious fumes choke you!
+mpdamage $r 50
+~
+|
+S
+#11533
+&ONeutral Ground&W&w~
+&OThis small cavern is barely big enough for one person. You
+can be pretty sure no one else can enter this room. As you seem
+to think you've found a good hiding place you begin choking
+on the noxious fumes that enter the room from a crack in the
+cavern above you. Maybe it wasn't so safe after all!
+~
+0 1073742080 1 262400 0 0 1
+D0
+~
+~
+0 -1 11529 0 0 0
+> entry_prog 100~
+mea $n &YNoxious fumes choke you as you enter this room!
+mpdamage $n 10
+~
+> rand_prog 100~
+mea $r &YNoxious fumes choke you!
+mpdamage $r 30
+~
+|
+S
+#11534
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D5
+~
+~
+0 -1 11535 0 0 0
+S
+#11535
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D2
+~
+~
+0 -1 11536 0 0 0
+D3
+~
+~
+0 -1 11537 0 0 0
+D5
+~
+~
+0 -1 11536 0 0 0
+S
+#11536
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11535 0 0 0
+D3
+~
+~
+0 -1 11537 0 0 0
+S
+#11537
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11535 0 0 0
+D2
+~
+~
+0 -1 11538 0 0 0
+S
+#11538
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11537 0 0 0
+D3
+~
+~
+0 -1 11539 0 0 0
+S
+#11539
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11540 0 0 0
+D1
+~
+~
+0 -1 11538 0 0 0
+S
+#11540
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D2
+~
+~
+0 -1 11539 0 0 0
+D3
+~
+~
+0 -1 11542 0 0 0
+D4
+~
+~
+0 -1 11535 0 0 0
+D6
+~
+~
+0 -1 11541 0 0 0
+S
+#11541
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11541 0 0 0
+D4
+~
+~
+0 -1 11541 0 0 0
+> entry_prog 100~
+mea $n &RYou've walked into the Red Teams Maze trap!
+mptransfer $n 11543
+~
+|
+S
+#11542
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11540 0 0 0
+D2
+~
+~
+0 -1 11545 0 0 0
+D3
+~
+~
+0 -1 11544 0 0 0
+D4
+~
+~
+0 -1 11543 0 0 0
+S
+#11543
+&RRed Team Base&W&w~
+&rLooks like you've walked into a maze trap! The temperature
+seems to be raising constantly. If you don't get out of this
+room soon you are surely going to burn to death! The walls are
+so blury from the heat you can't even tell which way is an exit!
+~
+0 1073741824 1 262400
+D0
+~
+~
+2048 -1 11543 0 0 0
+D1
+~
+~
+2048 -1 11543 0 0 0
+D2
+~
+~
+2048 -1 11542 0 0 0
+D3
+~
+~
+2048 -1 11543 0 0 0
+D4
+~
+~
+2048 -1 11543 0 0 0
+D5
+~
+~
+2048 -1 11543 0 0 0
+D6
+~
+~
+2048 -1 11543 0 0 0
+D7
+~
+~
+2048 -1 11543 0 0 0
+D8
+~
+~
+2048 -1 11543 0 0 0
+D9
+~
+~
+2048 -1 11543 0 0 0
+S
+#11544
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here! Oops... Dead end.
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11542 0 0 0
+S
+#11545
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D0
+~
+~
+0 -1 11542 0 0 0
+D3
+~
+~
+0 -1 11536 0 0 0
+D5
+~
+~
+0 -1 11546 0 0 0
+S
+#11546
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11551 0 0 0
+D3
+~
+~
+0 -1 11547 0 0 0
+D4
+~
+~
+0 -1 11545 0 0 0
+S
+#11547
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11546 0 0 0
+D3
+~
+~
+0 -1 11548 0 0 0
+D5
+~
+~
+0 -1 11549 0 0 0
+S
+#11548
+&RRed Team Flag Room!&W&w~
+&RJust kiddin, this isn't quite the flag room, but you must be
+getting close to it! It appears that there is a secret path
+towards the &BBlue&R base if you go up.
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11547 0 0 0
+D4
+~
+~
+0 -1 11531 0 0 0
+> entry_prog 100~
+if wearingvnum($n) == 11503
+mptransfer $n 11541
+endif
+~
+|
+S
+#11549
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11550 0 0 0
+D3
+~
+~
+0 -1 11555 0 0 0
+D5
+~
+~
+0 -1 11547 0 0 0
+S
+#11550
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11549 0 0 0
+D4
+~
+~
+0 -1 11546 0 0 0
+S
+#11551
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11546 0 0 0
+D8
+~
+~
+0 -1 11552 0 0 0
+S
+#11552
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11553 0 0 0
+D7
+~
+~
+0 -1 11551 0 0 0
+S
+#11553
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11554 0 0 0
+D3
+~
+~
+0 -1 11552 0 0 0
+S
+#11554
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here!
+~
+0 1073741824 1 262400
+D3
+~
+~
+0 -1 11553 0 0 0
+D4
+~
+~
+0 -1 11531 0 0 0
+S
+#11555
+&RRed Team Base&W&w~
+&RThe heat in this base is really intense. The walls seem to
+glow red hot and heat fumes fill the air all around you. You
+should try to ignore the sweat pouring off of your face and
+get the hell outa here! Flames are blazing from the ground!
+~
+0 1073741824 1 262400
+D1
+~
+~
+0 -1 11549 0 0 0
+D5
+~
+~
+0 -1 11556 0 0 0
+S
+#11556
+&rRed Base Barracks&W&w~
+~
+0 1073741824 1 262400
+D4
+~
+~
+0 -1 11555 0 0 0
+D5
+~
+~
+0 -1 11557 0 0 0
+S
+#11557
+&rRed Base Barracks&W&w~
+~
+0 1073741824 1 262400
+D4
+~
+~
+0 -1 11556 0 0 0
+D5
+~
+~
+0 -1 11558 0 0 0
+S
+#11558
+&rRed Flag Room Bunker~
+&RSmoke clouds fill the air with unwantful pollution. Fog descends
+from the ventilation on the sides of the walls. This room is
+all red with a transparent flag. Alarms sound the area incase
+an enemy tries to take the flag. Looking around for an alternate
+exit seems very difficult to find. There is only one exit from
+here, which is up. As the fog gets in the eyes of your fellow
+comrades, you begin to believe that this place could be dangerous
+but, also very fun at the same time.
+~
+0 1073741824 1 262400
+D4
+~
+~
+0 -1 11557 0 0 0
+S
+#11559
+&BBlue Waiting Room~
+~
+0 1073742852 1 256
+S
+#11560
+&RRed Waiting Room~
+~
+0 1073742852 1 256
+S
+#11561
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11562
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11563
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11564
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11565
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11566
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11567
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11568
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11569
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11570
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11571
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11572
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11573
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11574
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11575
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11576
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11577
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11578
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11579
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11600
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#11700
+Last Room~
+~
+0 4 1 0
+R M 0 11501 1 11700
+R M 0 11700 1 11700
+R O 0 11501 1 11700
+R O 0 11700 1 11700
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

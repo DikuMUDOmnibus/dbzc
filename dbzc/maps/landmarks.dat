@@ -1,0 +1,127 @@
+#LANDMARK
+Coordinates	0 268 33 80
+Description	you seem to be looking at Planet Earth's North City~
+Areadesc         Planet Earth's North City~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 425 155 80
+Description	You seem to be looking at Planet Earth's East City~
+Areadesc         Planet Earth's East City~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 226 257 80
+Description	you seem to be looking at Planet Earth's West City~
+Areadesc         Planet Earth's West City~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 406 350 50
+Description	you seem to be looking at Roshi's Island~
+Areadesc         Roshi's Island~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 413 256 50
+Description	you seem to be looking at Goku's House~
+Areadesc         Goku's House~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 282 474 50
+Description	you seem to be looking at the Budokai Arena~
+Areadesc         Budokai Arena~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 87 230 50
+Description	you seem to be looking at Korin's Tower~
+Areadesc         Korin's Tower~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 325 163 100
+Description	you seem to be looking at the Earth's Forest~
+Areadesc         Planet Earth's Forest~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	0 269 399 80
+Description	you seem to be looking at Planet Earth's South City~
+Areadesc         Planet Earth's South City~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 233 153 60
+Description	you seem to be looking at Planet Namek's Issun Village~
+Areadesc         Planet Namek's Issun Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 273 32 50
+Description	you seem to be looking at Planet Namek's Mittsu Village~
+Areadesc         Planet Namek's Mittsu Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 65 49 40
+Description	you seem to be looking at Planet Namek's Futatsu Village~
+Areadesc         Planet Namek's Futatsu Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 426 44 70
+Description	you seem to be looking at Planet Namek's Yottsu Village~
+Areadesc         Planet Namek's Yottsu Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 419 294 35
+Description	you seem to be looking at Planet Namek's Itsutsu Village~
+Areadesc         Planet Namek's Itsutsu Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 454 448 40
+Description	you seem to be looking at Frieza's Spaceship~
+Areadesc         Frieza's Spaceship~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 301 468 35
+Description	you seem to be looking at Planet Namek's Muttsu Village~
+Areadesc         Planet Namek's Muttsu Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 183 345 70
+Description	you seem to be looking at Planet Namek's Nanatsu Village~
+Areadesc         Planet Namek's Nanatsu Village~
+Isdesc		0
+End
+
+#LANDMARK
+Coordinates	3 31 157 30
+Description	you seem to be looking at Guru's Place~
+Areadesc         Guru's Place~
+Isdesc		0
+End
+
+#END

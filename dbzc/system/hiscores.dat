@@ -1,0 +1,45 @@
+#HISCORES
+#TABLE
+Keyword    pkill
+Desc       Most Player-Kills~
+Vnum       -1
+MaxLength  15
+End
+
+#TABLE
+Keyword    bless
+Desc       Most Blessed Player~
+Vnum       -1
+MaxLength  15
+
+End
+
+#TABLE
+Keyword    reputation
+Desc       Player with the best Reputation~
+Vnum       -1
+MaxLength  15
+End
+
+#TABLE
+Keyword    mkill
+Desc       Most Mob-Kills~
+Vnum       -1
+MaxLength  15
+End
+
+#TABLE
+Keyword    gold
+Desc       Most Gold held by Player~
+Vnum       -1
+MaxLength  15
+End
+
+#TABLE
+Keyword    bank
+Desc       Most Gold in Bank~
+Vnum       -1
+MaxLength  15
+End
+
+#END

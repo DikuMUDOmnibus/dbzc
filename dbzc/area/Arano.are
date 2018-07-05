@@ -1,0 +1,1551 @@
+#AREA   {PROTO} Arano's area in progress~
+
+
+
+#VERSION 2
+#AUTHOR Arano~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8551
+first_obj~
+a newly created first_obj~
+Some god abandoned a newly created first_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8603
+Old Man~
+Old Man~
+&WAn Old Man stands here before his house.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+say Hey there $n. I've been here for about 40 years now.
+mpsleep 4
+say If you want me to tell you a short story say "yes"
+~
+> speech_prog p yes~
+mpsleep 4
+say Well there's a rumor that behold this Woods lies the village of "Geith".
+mpsleep 2
+say There seems to be some military camps over there to control the activities
+mpsleep 1
+say of the jungle
+mpsleep 2
+say Inside the jungle of that area seems to be some strong creatures, they seem
+mpsleep 1
+say to be invisible to the human eye. But those who dare to enter the jungle never
+mpsleep 1
+say return so please $n dont go in.
+~
+|
+#8636
+Guard~
+Guard~
+&WA Military Guard stands here protecting the entrance.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+say Hey there $n. If you wish to enter the village, say "I wish to enter"
+~
+> speech_prog p I wish to enter~
+mpsleep 4
+say As you wish $n
+mpsleep 2
+mptransfer $n 8633
+mpat $n mea $n _yel &RAs the gates open the guard lets you through.
+mpat $n mpforce $n look
+~
+|
+#8637
+Villager~
+Villager~
+&WA villager seems to walk around here.
+~
+~
+67108865 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8638
+Old Shopkeeper~
+Old Shopkeeper~
+&WA old looking shopkeeper seems to be selling stuff here.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+say Welcome $n, I dont have too much items left you see, the military takes most of them.
+~
+|
+#8750
+last_obj~
+a newly created last_obj~
+Some god abandoned a newly created last_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#8551
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#8750
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#8551
+First Room~
+~
+0 4 1 0
+R M 0 8551 1 8551
+R O 0 8551 1 8551
+S
+#8552
+Planet Geith Spaceport~
+This is the Spaceport of Geith, some spaceships come by bringing
+new troops to the area.Many type of people come here to try
+to investigate the huge problems on the jungles of this area,
+it seems many people go inside but they never find a way out.The
+surroundings of this area seems to be filled with grass and
+very long and tall bushes, to the north the path continues.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8553 0 0 0
+S
+#8553
+Path to the Gaki Jungle~
+As you enter the room you notice a path coming from the north,
+it seems that the path guides towards the Gaki Jungle of the
+planet Geith. It seems that the civilization and the military
+camps are beyond these jungles. To the south lies the spaceport
+of the planet.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8554 0 0 0
+D2
+~
+~
+0 -1 8552 0 0 0
+S
+#8554
+Entrance to the Gaki Jungle~
+Note: Program where people type enter to enter the mini jungle
+ne direction will be removed.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8553 0 0 0
+D6
+~
+~
+0 -1 8555 0 0 0
+S
+#8555
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8557 0 0 0
+D3
+~
+~
+0 -1 8556 0 0 0
+D4
+~
+~
+0 -1 8560 0 0 0
+D6
+~
+~
+0 -1 8558 0 0 0
+D7
+~
+~
+0 -1 8559 0 0 0
+D9
+~
+~
+0 -1 8554 0 0 0
+S
+#8556
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8563 0 0 0
+D1
+~
+~
+0 -1 8555 0 0 0
+S
+#8557
+A Blocked Path~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8555 0 0 0
+S
+#8558
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8561 0 0 0
+D9
+~
+~
+0 -1 8555 0 0 0
+S
+#8559
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D7
+~
+~
+0 -1 8570 0 0 0
+D8
+~
+~
+0 -1 8555 0 0 0
+S
+#8560
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8566 0 0 0
+D5
+~
+~
+0 -1 8555 0 0 0
+S
+#8561
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8562 0 0 0
+D3
+~
+~
+0 -1 8558 0 0 0
+S
+#8562
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8561 0 0 0
+D2
+~
+~
+0 -1 8555 0 0 0
+S
+#8563
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8556 0 0 0
+D3
+~
+~
+0 -1 8564 0 0 0
+S
+#8564
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8563 0 0 0
+D6
+~
+~
+0 -1 8565 0 0 0
+S
+#8565
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8558 0 0 0
+D9
+~
+~
+0 -1 8564 0 0 0
+S
+#8566
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8567 0 0 0
+D1
+~
+~
+0 -1 8560 0 0 0
+S
+#8567
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8568 0 0 0
+D2
+~
+~
+0 -1 8566 0 0 0
+S
+#8568
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8569 0 0 0
+D3
+~
+~
+0 -1 8567 0 0 0
+S
+#8569
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8568 0 0 0
+S
+#8570
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8572 0 0 0
+D3
+~
+~
+0 -1 8571 0 0 0
+D8
+~
+~
+0 -1 8559 0 0 0
+S
+#8571
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8570 0 0 0
+D4
+~
+~
+0 -1 8555 0 0 0
+S
+#8572
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8573 0 0 0
+D3
+~
+~
+0 -1 8570 0 0 0
+S
+#8573
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8572 0 0 0
+D6
+~
+~
+0 -1 8574 0 0 0
+D7
+~
+~
+0 -1 8575 0 0 0
+> entry_prog 30~
+mptransfer $n 8555
+mpat $n mpforce $n look
+~
+|
+S
+#8574
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8576 0 0 0
+D9
+~
+~
+0 -1 8573 0 0 0
+S
+#8575
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8577 0 0 0
+D8
+~
+~
+0 -1 8573 0 0 0
+S
+#8576
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8577 0 0 0
+D2
+~
+~
+0 -1 8574 0 0 0
+S
+#8577
+Inside the Gaki Jungle~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8579 0 0 0
+D2
+~
+~
+0 -1 8576 0 0 0
+D3
+~
+~
+0 -1 8578 0 0 0
+S
+#8578
+A Blocked Path~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8577 0 0 0
+S
+#8579
+Before a Closed Path~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8577 0 0 0
+> entry_prog 100~
+mea $n &CThe path towards the exit of the jungle seems to be blocked by some fallen trees. It seems that if you keep pushing the trees the path might open.
+&w
+~
+> emote_prog p pushes the trees~
+mea $n _yel &GYou grab the branches of the tree and push your way through the obstruction.
+mer $n _yel $n &Ggrabs a bunch of branches and pushes a way through the trees.
+mptransfer $n 8580
+mpat $n mer $n &R$n has arrived!
+mpat $n mpforce $n look
+~
+|
+S
+#8580
+Path Towards the Woods~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8581 0 0 0
+S
+#8581
+Path Towards the Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8582 0 0 0
+D2
+~
+~
+0 -1 8580 0 0 0
+S
+#8582
+Path Towards the Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8581 0 0 0
+D6
+~
+~
+0 -1 8583 0 0 0
+S
+#8583
+Path Towards the Woods~
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8584 0 0 0
+D9
+~
+~
+0 -1 8582 0 0 0
+S
+#8584
+Path Towards the Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8585 0 0 0
+D4
+~
+~
+0 -1 8583 0 0 0
+S
+#8585
+Path Towards the Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8584 0 0 0
+D2
+~
+~
+0 -1 8586 0 0 0
+S
+#8586
+Path Towards the Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8585 0 0 0
+D6
+~
+~
+0 -1 8587 0 0 0
+S
+#8587
+Before the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8588 0 0 0
+D9
+~
+~
+0 -1 8586 0 0 0
+S
+#8588
+The Darkened Woods~
+Exits e n w Entry prog
+~
+0 0 1 0
+D0
+~
+~
+2048 -1 8620 0 0 0
+D1
+~
+~
+2048 -1 8610 0 0 0
+D2
+~
+~
+0 -1 8587 0 0 0
+D3
+~
+~
+2048 -1 8589 0 0 0
+> entry_prog 100~
+if rand(33)
+mpforce $n e
+else
+if rand(35)
+mpforce $n w
+else
+if rand(40)
+mpforce $n n
+endif
+endif
+endif
+~
+|
+S
+#8589
+Inside the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8590 0 0 0
+S
+#8590
+Inside the Darkened Woods~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8589 0 0 0
+D6
+~
+~
+0 -1 8591 0 0 0
+D7
+~
+~
+0 -1 8592 0 0 0
+D8
+~
+~
+0 -1 8593 0 0 0
+D9
+~
+~
+0 -1 8594 0 0 0
+S
+#8591
+Inside the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8595 0 0 0
+D9
+~
+~
+0 -1 8590 0 0 0
+S
+#8592
+Inside the Darkened Woods~
+~
+0 0 1 0
+D4
+~
+~
+0 -1 8598 0 0 0
+D8
+~
+~
+0 -1 8590 0 0 0
+S
+#8593
+Inside the Darkened Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8602 0 0 0
+D7
+~
+~
+0 -1 8590 0 0 0
+S
+#8594
+Inside the Darkened Woods~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8604 0 0 0
+D6
+~
+~
+0 -1 8590 0 0 0
+S
+#8595
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8590 0 0 0
+D2
+~
+~
+0 -1 8591 0 0 0
+D3
+~
+~
+0 -1 8596 0 0 0
+S
+#8596
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8595 0 0 0
+D4
+~
+~
+0 -1 8597 0 0 0
+S
+#8597
+Inside the Darkened Woods~
+exit 2 of this part
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8596 0 0 0
+> entry_prog 100~
+if rand(45)
+mptransfer $n 8630
+mpat $n mpforce $n look
+else
+if rand(50)
+mpdonothing
+endif
+endif
+~
+|
+S
+#8598
+Inside the Darkened Woods~
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8592 0 0 0
+D6
+~
+~
+0 -1 8599 0 0 0
+D7
+~
+~
+0 -1 8600 0 0 0
+> entry_prog 25~
+mptransfer $n 8590
+~
+|
+S
+#8599
+Inside the Darkened Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8601 0 0 0
+D9
+~
+~
+0 -1 8598 0 0 0
+S
+#8600
+Inside the Darkened Woods~
+U exit of here
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8601 0 0 0
+D4
+~
+~
+2048 -1 8630 0 0 0
+D8
+~
+~
+0 -1 8598 0 0 0
+> entry_prog 100~
+if rand(50)
+mpsleep 4
+mpechoat $n &GA cold breeze seems to come from somewhere.
+endif
+~
+|
+S
+#8601
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8599 0 0 0
+D3
+~
+~
+0 -1 8600 0 0 0
+S
+#8602
+Before a House~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8593 0 0 0
+D5
+~
+~
+0 -1 8603 0 0 0
+S
+#8603
+Old Man's House~
+~
+0 0 1 0
+D4
+~
+~
+0 -1 8602 0 0 0
+R M 0 8603 1 8603
+S
+#8604
+Inside the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8594 0 0 0
+D1
+~
+~
+0 -1 8591 0 0 0
+D3
+~
+~
+0 -1 8605 0 0 0
+S
+#8605
+Before a Military Camp~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8606 0 0 0
+D1
+~
+~
+0 -1 8604 0 0 0
+S
+#8606
+Small Military Camp~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8609 0 0 0
+D1
+~
+~
+0 -1 8608 0 0 0
+D2
+~
+~
+0 -1 8605 0 0 0
+D3
+~
+~
+0 -1 8607 0 0 0
+S
+#8607
+Utility Tent~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8606 0 0 0
+S
+#8608
+Medical Tent~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8606 0 0 0
+S
+#8609
+Weaponry Tent~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8606 0 0 0
+S
+#8610
+Inside the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8611 0 0 0
+S
+#8611
+Dark~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8613 0 0 0
+D2
+~
+~
+0 -1 8610 0 0 0
+D3
+~
+~
+0 -1 8612 0 0 0
+S
+#8612
+Dark~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8616 0 0 0
+D1
+~
+~
+0 -1 8611 0 0 0
+S
+#8613
+Dark~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8611 0 0 0
+D4
+~
+~
+0 -1 8614 0 0 0
+D6
+~
+~
+0 -1 8610 0 0 0
+S
+#8614
+Inside the Darkened Woods~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8615 0 0 0
+D3
+~
+~
+0 -1 8610 0 0 0
+D5
+~
+~
+0 -1 8613 0 0 0
+S
+#8615
+Inside the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8614 0 0 0
+D4
+~
+~
+0 -1 8630 0 0 0
+S
+#8616
+Dark~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8612 0 0 0
+D3
+~
+~
+0 -1 8617 0 0 0
+D4
+~
+~
+0 -1 8611 0 0 0
+S
+#8617
+Dark~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8616 0 0 0
+D5
+~
+~
+0 -1 8618 0 0 0
+> entry_prog 25~
+mptransfer $n 8611
+~
+|
+S
+#8618
+Dark~
+~
+0 0 1 0
+D3
+~
+~
+3 -1 8619 0 0 0
+R D 0 8618 3 1
+S
+#8619
+Dark~
+~
+0 0 1 0
+D1
+~
+~
+3 -1 8618 0 0 0
+> entry_prog 100~
+mptransfer $n 8630
+mpat $n mpforce $n look
+~
+|
+S
+#8620
+Inside the Darkened Woods~
+~
+0 0 1 0
+D4
+~
+~
+2048 -1 8621 0 0 0
+D5
+~
+~
+2048 -1 8622 0 0 0
+S
+#8621
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+3 -1 8623 0 0 0
+D3
+~
+~
+3 -1 8624 0 0 0
+D5
+~
+~
+0 -1 8620 0 0 0
+R D 0 8621 1 1
+R D 0 8621 3 1
+S
+#8622
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+3 -1 8626 0 0 0
+D3
+~
+~
+3 -1 8625 0 0 0
+D4
+~
+~
+0 -1 8620 0 0 0
+R D 0 8622 1 1
+R D 0 8622 3 1
+S
+#8623
+Inside the Darkened Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8621 0 0 0
+D6
+~
+~
+0 -1 8627 0 0 0
+D7
+~
+~
+0 -1 8620 0 0 0
+S
+#8624
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8621 0 0 0
+> entry_prog 100~
+mptransfer $n 8620
+mpat $n mpforce $n look
+~
+|
+S
+#8625
+Inside the Darkened Woods~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8622 0 0 0
+> entry_prog 100~
+mptransfer $n 8620
+mpat $n mpforce $n look
+~
+|
+S
+#8626
+Inside the Darkened Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8622 0 0 0
+D6
+~
+~
+0 -1 8629 0 0 0
+S
+#8627
+Inside the Darkened Woods~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8628 0 0 0
+D9
+~
+~
+0 -1 8623 0 0 0
+S
+#8628
+Inside the Darkened Woods~
+N Door
+~
+0 0 1 0
+D0
+~
+~
+3 -1 8630 0 0 0
+D1
+~
+~
+0 -1 8627 0 0 0
+D4
+~
+~
+0 -1 8622 0 0 0
+D5
+~
+~
+0 -1 8621 0 0 0
+R D 0 8628 0 1
+S
+#8629
+Inside the Darkened Woods~
+~
+0 0 1 0
+D0
+~
+~
+3 -1 8630 0 0 0
+D1
+~
+~
+0 -1 8621 0 0 0
+D3
+~
+~
+0 -1 8622 0 0 0
+D9
+~
+~
+0 -1 8626 0 0 0
+R D 0 8629 0 1
+S
+#8630
+Path to the Village~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8631 0 0 0
+S
+#8631
+Before A Village~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8632 0 0 0
+D2
+~
+~
+0 -1 8630 0 0 0
+S
+#8632
+Entrance to the Village~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8631 0 0 0
+R M 0 8636 1 8632
+S
+#8633
+&CGeith Village &Y- &CCenter Area~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8634 0 0 0
+D4
+~
+~
+0 -1 8635 0 0 0
+D6
+~
+~
+0 -1 8636 0 0 0
+D7
+~
+~
+0 -1 8637 0 0 0
+S
+#8634
+&CGeith Village &Y- &CNorth Area~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8633 0 0 0
+D3
+~
+~
+0 -1 8638 0 0 0
+S
+#8635
+&CGeith Village &Y- &COld House~
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8633 0 0 0
+S
+#8636
+&CGeith Village &Y- &CTowards the Military Camps~
+~
+0 0 1 0
+D4
+~
+~
+0 -1 8639 0 0 0
+D9
+~
+~
+0 -1 8633 0 0 0
+S
+#8637
+&CGeith Village &Y- &CDeserted House~
+~
+0 0 1 0
+D8
+~
+~
+0 -1 8633 0 0 0
+S
+#8638
+&CGeith Village &Y- &CUtility Shop~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8634 0 0 0
+R M 0 8638 1 8638
+  R G 1 6 1
+S
+#8639
+&CGeith Village &Y- &CTowards the Military Camps~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8640 0 0 0
+D5
+~
+~
+0 -1 8636 0 0 0
+S
+#8640
+&CGeith Village &Y- &CInside the Military Camps~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8642 0 0 0
+D1
+~
+~
+0 -1 8641 0 0 0
+D2
+~
+~
+0 -1 8639 0 0 0
+D3
+~
+~
+0 -1 8643 0 0 0
+D4
+~
+~
+0 -1 8644 0 0 0
+S
+#8641
+&CGeith Village &Y- &CMedical Tent~
+~
+0 0 1 1
+D3
+~
+~
+0 -1 8640 0 0 0
+S
+#8642
+&CGeith Village &Y- &CTraining Tent~
+~
+0 0 1 64
+D2
+~
+~
+0 -1 8640 0 0 0
+S
+#8643
+&CGeith Village &Y- &CUtility Tent~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8640 0 0 0
+S
+#8644
+&CGeith Village &Y- &CPath towards the Jungle~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8645 0 0 0
+D5
+~
+~
+0 -1 8640 0 0 0
+S
+#8645
+&CGeith Village &Y- &CMilitary Establishment~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8644 0 0 0
+S
+#8690
+Floating in a void~
+~
+0 4 1 0
+S
+#8750
+Last Room~
+~
+0 4 1 0
+R M 0 8750 1 8750
+R O 0 8750 1 8750
+S
+#0
+
+
+#SHOPS
+ 8638    0  0  0  0  0   120  90         0 23    ; Old Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

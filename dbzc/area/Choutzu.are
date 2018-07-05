@@ -1,0 +1,339 @@
+#AREA   {PROTO} Choutzu's area in progress~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 0
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2351
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+#2399
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+#0
+
+
+#OBJECTS
+#2351
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2399
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2351
+First Room~
+~
+0 0 1 0
+S
+#2352
+Floating in a void~
+~
+0 0 1 0
+S
+#2353
+Floating in a void~
+~
+0 0 1 0
+S
+#2354
+Floating in a void~
+~
+0 0 1 0
+S
+#2355
+Floating in a void~
+~
+0 0 1 0
+S
+#2356
+Floating in a void~
+~
+0 0 1 0
+S
+#2357
+Floating in a void~
+~
+0 0 1 0
+S
+#2358
+Floating in a void~
+~
+0 0 1 0
+S
+#2359
+Floating in a void~
+~
+0 0 1 0
+S
+#2360
+Floating in a void~
+~
+0 0 1 0
+S
+#2361
+Floating in a void~
+~
+0 0 1 0
+S
+#2362
+Floating in a void~
+~
+0 0 1 0
+S
+#2363
+Floating in a void~
+~
+0 0 1 0
+S
+#2364
+Floating in a void~
+~
+0 0 1 0
+S
+#2365
+Floating in a void~
+~
+0 0 1 0
+S
+#2366
+Floating in a void~
+~
+0 0 1 0
+S
+#2367
+Floating in a void~
+~
+0 0 1 0
+S
+#2368
+Floating in a void~
+~
+0 0 1 0
+S
+#2369
+Floating in a void~
+~
+0 0 1 0
+S
+#2370
+Floating in a void~
+~
+0 0 1 0
+S
+#2371
+Floating in a void~
+~
+0 0 1 0
+S
+#2372
+Floating in a void~
+~
+0 0 1 0
+S
+#2373
+Floating in a void~
+~
+0 0 1 0
+S
+#2374
+Floating in a void~
+~
+0 0 1 0
+S
+#2375
+Floating in a void~
+~
+0 0 1 0
+S
+#2376
+Floating in a void~
+~
+0 0 1 0
+S
+#2377
+Floating in a void~
+~
+0 0 1 0
+S
+#2378
+Floating in a void~
+~
+0 0 1 0
+S
+#2379
+Floating in a void~
+~
+0 0 1 0
+S
+#2380
+Floating in a void~
+~
+0 0 1 0
+S
+#2381
+Floating in a void~
+~
+0 0 1 0
+S
+#2382
+Floating in a void~
+~
+0 0 1 0
+S
+#2383
+Floating in a void~
+~
+0 0 1 0
+S
+#2384
+Floating in a void~
+~
+0 0 1 0
+S
+#2385
+Floating in a void~
+~
+0 0 1 0
+S
+#2386
+Floating in a void~
+~
+0 0 1 0
+S
+#2387
+Floating in a void~
+~
+0 0 1 0
+S
+#2388
+Floating in a void~
+~
+0 0 1 0
+S
+#2389
+Floating in a void~
+~
+0 0 1 0
+S
+#2390
+Floating in a void~
+~
+0 0 1 0
+S
+#2391
+Floating in a void~
+~
+0 0 1 0
+S
+#2392
+Floating in a void~
+~
+0 0 1 0
+S
+#2393
+Floating in a void~
+~
+0 0 1 0
+S
+#2394
+Floating in a void~
+~
+0 0 1 0
+S
+#2395
+Floating in a void~
+~
+0 0 1 0
+S
+#2396
+Floating in a void~
+~
+0 0 1 0
+S
+#2397
+Floating in a void~
+~
+0 0 1 0
+S
+#2398
+Floating in a void~
+~
+0 0 1 0
+S
+#2399
+Last room~
+~
+0 0 1 0
+S
+#0
+
+
+#RESETS
+M 1 2351 1 2351
+M 1 2399 1 2351
+O 1 2399 1 2351
+O 1 2351 1 2351
+S
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

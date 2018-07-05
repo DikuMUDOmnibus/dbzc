@@ -1,0 +1,3782 @@
+#AREA   Quest1~
+
+
+
+#VERSION 2
+#AUTHOR Harle~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+144
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31472375
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2000
+first_mob~
+a newly created first_mob~
+Some god abandoned a newly created first_mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#2001
+combination first~
+First Combination~
+The first combination mob is here.
+~
+~
+75497475 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p Right 22~
+mea $n _yel You hear gears turning inside as a loud *CLICK* echoes from within.
+mpmload 2002
+mpgoto 2198
+~
+|
+#2002
+combination second~
+Second Combination~
+The second combination mob is here.
+~
+~
+75497475 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p Left 15~
+mea $n _yel You hear gears turning inside as a loud *CLICK* echoes from within.
+mpmload 2003
+mpgoto 2198
+~
+> speech_prog p Right 22~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 10~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 29~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Right 69~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+|
+#2003
+combination third~
+Third Combination~
+The third combination mob is here.
+~
+~
+75497475 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p Left 10~
+mea $n _yel You hear gears turning inside as a loud *CLICK* echoes from within.
+mpmload 2004
+mpgoto 2198
+~
+> speech_prog p Right 22~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 15~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 29~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Right 69~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+|
+#2004
+combination fourth~
+Fourth Combination~
+The fourth combination mob is here.
+~
+~
+75497475 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p Left 29~
+mea $n _yel You hear gears turning inside as a loud *CLICK* echoes from within.
+mpmload 2005
+mpgoto 2198
+~
+> speech_prog p Right 22~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 15~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 10~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Right 69~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+|
+#2005
+combination fifth~
+Fifth Combination~
+The fifth combination mob is here.
+~
+~
+75497475 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p Left 10~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 15~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Left 29~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Right 22~
+mea $n _yel Many gears are heard turning inside, apparently resetting themselves.
+mpmload 2001
+mpgoto 2198
+~
+> speech_prog p Right 69~
+mea $n _yel A slight "Click" is heard as you speak the final combination
+mea $n _yel number. Suddenly, the safe door swings open, unleashing
+mea $n _yel the creature within upon you.
+mpmload 2008
+mpforce 'lost number' mpkill $n
+mpgoto 2198
+~
+|
+#2006
+Death Gigas~
+Death Gigas~
+A large demon stands here surrounding by crackling electricity.
+~
+~
+3 0 C
+1 0 0 4d3+3 1d3+2
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 50~
+mea $n _red As you land the last hit, Death Gigas picks up the magical tome
+mea $n _red and rips out a page, dropping it on the floor before releasing
+mea $n _red its last breath.
+mpoload 2010
+~
+> fight_prog 20~
+mea $n _yel Death Gigas performs its Gigadunk on you!
+mea $n _yel Suddenly, you feel a powerful punch connect in your stomache. [25]
+mpdamage $n 25
+mer $n _yel Death Gigas performs its Gigadunk on $n!
+mer $n _yel Suddenly, $n is hit with a powerful punch to their stomache.
+~
+> fight_prog 20~
+mea $n _ora Death Gigas performs its Livewire on you!
+mea $n _ora Death Gigas sends an gigantic electric charge at you. [35]
+mpdamage $n 35
+mer $n _ora Death Gigas performs its Livewire on $n!
+mer $n _ora A large electric charge hits $n.
+~
+|
+#2007
+Hellmasker~
+Hellmasker~
+A masked figure wielding a chainsaw stands here.
+~
+~
+3 0 C
+5 0 0 2d2+2 2d2+2
+0 2000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpoload 2197
+~
+> fight_prog 75~
+mea $n _yel Hellmasker performs its Splattercombo on you!
+mea $n _yel Hellmasker slashes at you with its chainsaw. [35]
+mpdamage $n 35
+mprestore 'hellmasker' 35
+mer $n _yel Hellmasker performs its Splattercombo on $n!
+mer $n _yel Hellmasker slashes at $n with its chainsaw. [35]
+~
+> fight_prog 80~
+mprestore 'hellmasker' 650
+~
+> fight_prog 15~
+1> mea $n _ora Hellmasker performs its Nightmare on you!
+ 2> mea $n _ora Hellmasker invades your mind and slashes away at your sanity [70]
+ 3> mpdamage $n 70
+ 4> mprestore 'hellmasker' 100
+ 5> mer $n _ora Hellmasker performs its Nightmare on $n!
+ 6> mer $n _ora $n writhes in agony as Hellmasker invades their mind. [70]
+~
+|
+#2008
+Lost Number~
+Lost Number~
+A large creature of red and purple skin looms here, snarling at you.
+~
+~
+3 0 C
+1 0 0 2d2+4 2d2+4
+0 2000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 5
+0 0 0 0 0 0 0 0
+Z
+none~
+> fight_prog 15~
+mea $n _ora Lost Number casts Fire2 at you!
+mea $n _ora Out of nowhere, flames engulf your body completely. [30]
+mpdamage $n 30
+mer $n _ora Lost Number casts Fire2 on $n!
+mer $n _ora $n is suddenly engulfed in flames that cover the entire body.
+~
+> fight_prog 15~
+mea $n _yel Lost Number casts Bolt2 at you!
+mea $n _yel Bolts of lightning rain down from nothingness onto you! [25]
+mpdamage $n 25
+mer $n _yel Lost Number casts Bolt2 on $n!
+mer $n _yel Bolts of lightning rain down from nothingness onto $n!
+~
+> fight_prog 25~
+mea $n _dgr Lost Number casts Quake2 at you!
+mea $n _dgr Columns of earth rise from the ground with speed and slam into you! [50]
+mpdamage $n 50
+mer $n _dgr Lost Number casts Quake2 on $n!
+mer $n _dgr Columns of earth rise from the ground with speed and slam into $n!
+~
+> fight_prog 25~
+mea $n _dbl Lost Number hits you with a devastating punch! [60]
+mpdamage $n 60
+mer $n _dbl Lost Number hits $n with a devastating punch!
+~
+> fight_prog 90~
+mprestore 'lost number' 75
+~
+> death_prog 100~
+mpmload 2001
+mptransfer $n 2080
+~
+|
+#2009
+Mako Reactor~
+Mako Reactor~
+A Mako Reactor sits here.
+~
+~
+75497475 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> act_prog p gives~
+if ovnuminv(2013) > 0
+if ovnuminv(2014) > 0
+mea $n _yel As the converter detects the energy in the reactor, it immediately powers up.
+mea $n _yel Upon depositing the mythril, the machine begins molding it before your eyes
+mea $n _yel mere seconds before it disappears into the bulk of the contraption. A few minutes
+mea $n _yel later, a bright red ball, glowing and seemingly of a crystal appearance is spit
+mea $n _yel out.
+mpoload 2015
+drop materia
+mppurge 'vial'
+mppurge 'mythril'
+else
+mpdonothing
+endif
+endif
+~
+|
+#2010
+shrouded figure~
+A Shrouded Figure~
+A shrouded figure moves around the area.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+10000 1250000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 0 0
+Z
+none~
+> fight_prog 10~
+mea $n _blu The Shrouded Figure bites you! [10]
+mer $n _blu The Shrouded Figure bites $n! [10]
+mpdamage $n 10
+~
+|
+#2194
+Phoenix~
+Phoenix~
+&rThe legendary bird, &RPhoenix&r, hovers here, flapping it's flame-like wings.&w
+~
+~
+-2147483645 0 C
+1 0 0 2d2+4 2d2+4
+0 2000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+Z
+none~
+> act_prog p smirks at~
+if wearingvnum($n) == 2015
+if isfight($n)
+growl $t
+mea $t _ora Phoenix stretches out it's blazing wings, scorching the ground around it.
+mea $t _ora Suddenly, a load shriek is heard from it as it begins glowing brightly like
+mea $t _ora the sun. The temperature rises, becoming more unbearable each passing second.
+mea $t _ora The flame envelopping its body begins expanding, burning all in it's path, as
+mea $t _ora it hurtles towards you!
+mea $t _yel Phoenix's Rebirth Flame engulfs you! [35]
+mer $t _ora Phoenix stretches out it's blazing wings, scorching the ground around it.
+mer $t _ora Suddenly, a load shriek is heard from it as it begins glowing brightly like
+mer $t _ora the sun. The temperature rises, becoming more unbearable each passing second.
+mer $t _ora The flame envelopping its body begins expanding, burning all in it's path, as
+mer $t _ora it hurtles towards $t!
+mer $t _yel Phoenix's Rebirth Flame engulfs $t! [35]
+mpdamage $t 35
+mprestore $n 100
+mpgoto 2198
+else
+mpdonothing
+endif
+endif
+~
+> fight_prog 65~
+mprestore 'phoenix' 50
+~
+> act_prog p points at~
+if wearingvnum($n) == 2015
+mpkill $t
+else
+mpdonothing
+endif
+~
+> speech_prog suit up~
+if name($n) == Abare
+mpoload 2199
+mpoload 2199
+mpoload 1010
+mpoload 1010
+wear buster
+wear buster
+wear wrist
+wear wrist
+else
+mpdonothing
+endif
+~
+|
+#2195
+Leviathan~
+Leviathan~
+&rThe legendary sea serpent, &bLeviathan&r, slithers on the floor.&w
+~
+~
+-2147483645 0 C
+1 0 0 2d2+4 2d2+4
+0 2000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+Z
+none~
+> fight_prog 50~
+mea $n _dbl Leviathan calls forth a Tidal Wave to crash down on you! [40]
+mpdamage $n 40
+mer $n _dbl Leviathan calls forth a Tidal Wave to crash down on $n! [40]
+~
+> act_prog p points at~
+if wearingvnum($n) == 2015
+mpkill $t
+else
+mpdonothing
+endif
+~
+> fight_prog 12~
+mprestore 'leviathan' 50
+~
+> speech_prog suit up~
+if name($n) == Abare
+mpoload 2199
+mpoload 2199
+mpoload 1010
+mpoload 1010
+wear buster
+wear buster
+wear wrist
+wear wrist
+else
+mpdonothing
+endif
+~
+|
+#2196
+bahamut~
+Bahamut~
+&bThe legendary beast, &rBahamut&b, stands here, snarling slightly.&w
+~
+~
+-2147483645 0 C
+1 0 0 2d2+4 2d2+4
+0 2000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 4
+0 0 0 0 0 0 0 0
+Z
+none~
+> act_prog p points at~
+if wearingvnum($n) == 2015
+mpkill $t
+else
+mpdonothing
+endif
+~
+> act_prog p ROARS at~
+if wearingvnum($n) == 2015
+if isfight($n)
+snarl $t
+mea $t _bro Bahamut looks at you with a menacing look, while baring his gigantic fangs.
+mea $t _bro Suddenly, he jumps backwards, and crouches on all fours. Spreading his
+mea $t _bro majestic wings, he lets out a deafening roar as a large ball of energy begins
+mea $t _bro materializing in it's mouth. The ball grows each second exponentially until,
+mea $t _bro without warning, it fires towards you!
+mea $t _ora Bahamut's Megaflare envelops you! [40]
+mer $t _bro Bahamut looks at $t with a menacing look, while baring his gigantic fangs.
+mer $t _bro Suddenly, he jumps backwards, and crouches on all fours. Spreading his
+mer $t _bro majestic wings, he lets out a deafening roar as a large ball of energy begins
+mer $t _bro materializing in it's mouth. The ball grows each second exponentially until,
+mer $t _bro without warning, it fires towards $t!
+mer $t _ora Bahamut's Megaflare envelops $t! [40]
+mpdamage $t 40
+mpgoto 2198
+else
+mpdonothing
+endif
+endif
+~
+> fight_prog 65~
+mprestore 'bahamut' 50
+~
+> speech_prog suit up~
+if name($n) == Abare
+mpoload 2199
+mpoload 2199
+mpoload 1010
+mpoload 1010
+wear buster
+wear buster
+wear wrist
+wear wrist
+else
+mpdonothing
+endif
+~
+|
+#2197
+mystload~
+Someone~
+The Mystile loader is here... loading!
+~
+~
+69206019 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#2198
+Purger~
+Purger~
+The purger is here.
+~
+~
+75497475 0 S
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> rand_prog 25~
+mppurge
+~
+|
+#2199
+skills~
+a newly created skills~
+Some god abandoned a newly created skills here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p Teach me~
+if isimmort($n)
+mppractice $n 'chikara 1' 100
+mppractice $n 'chikara 2' 100
+mppractice $n 'chikara 3' 100
+mppractice $n 'chikara 4' 100
+if race($n) == saiyan
+mppractice $n 'final flash' 100
+mppractice $n dragonfist 100
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n 'galic gun' 100
+mppractice $n kaioken 100
+mppractice $n regenerate 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'truesense' 99
+else
+if race($n) == halfbreed
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n mystic 100
+mppractice $n kaioken 100
+mppractice $n regenerate 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n masenko 100
+mppractice $n 'burning attack' 100
+mppractice $n 'renzoku ki dan' 100
+mppractice $n 'energy barrier' 100
+mppractice $n 'truesense' 99
+else
+if race($n) == namek
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n 'special beam cannon' 100
+mppractice $n scattershot 100
+mppractice $n heal 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'truesense' 99
+mppractice $n 'energy barrier' 100
+mppractice $n makosen 100
+else
+if race($n) == icer
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n 'mental throw' 100
+mppractice $n 'dual destructo disk' 100
+mppractice $n fingerbeam 100
+mppractice $n tail 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'truesense' 99
+mppractice $n 'red destructo disk' 100
+mppractice $n deathball 100
+else
+if race($n) == mutant
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n scattershot 100
+mppractice $n 'energy barrier' 100
+mppractice $n claw 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'truesense' 99
+mppractice $n 'primary skill' 0
+mppractice $n 'secondary skill' 0
+else
+if race($n) == android
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n eyebeam 100
+mppractice $n 'fingerbeam' 100
+mppractice $n grip 100
+mppractice $n absorb 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'truesense' 99
+mppractice $n 'hells flash' 100
+mppractice $n 'rocket punch' 100
+else
+if race($n) == biodroid
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n grip 100
+mppractice $n kamehameha 100
+mppractice $n fingerbeam 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n regenerate 100
+mppractice $n absorb 100
+mppractice $n heal 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'truesense' 99
+mppractice $n 'primary attack' 0
+else
+if race($n) == human
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n mystic 100
+mppractice $n kaioken 100
+mppractice $n regenerate 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n kicharge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n tribeam 100
+mppractice $n dodompa 100
+mppractice $n 'renzoku ki dan' 100
+mppractice $n 'energy barrier' 100
+mppractice $n 'truesense' 99
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+#2200
+last_mob~
+a newly created last_mob~
+Some god abandoned a newly created last_mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2000
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2001
+silver key~
+A Silver Key~
+A silver key lies on the floor glimmering.~
+~
+12 0&16 1
+0 0 0 0
+1 0 0
+#2002
+copper key~
+A Copper Key~
+A plain copper key lies here.~
+~
+18 0 0
+0 0 0 0
+1 0 0
+#2003
+piano black~
+A black piano~
+A dusty black piano sits here unused.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> emote_prog p plays the piano~
+mea $n As you play a few notes, a loud clank is heard from within the piano.
+mea $n Suddenly, a key wrapped in a paper falls from the underside of the
+mea $n piano, releasing itself from it's covering as it falls.
+mpoload 2002
+mpoload 2004
+~
+|
+#2004
+paper 1~
+A piece of paper~
+A piece of paper is on the floor.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+exam paper~
+2- Left 15
+~
+#2005
+paper torn~
+A torn piece of paper~
+A torn piece of paper with some written text lies here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+exam paper~
+1- Right 22
+~
+#2006
+tome black~
+A jet black tome~
+A jet black tome sits here, pulsating with a strange energy.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> get_prog 100~
+mea $n &cAs you pick up the tome, the power inside it explodes making it fly
+mea $n &cfrom your hands to the floor. Suddenly a large figure emerges from
+mea $n &cit's pages and quickly lunges at you.
+mpat $n mpforce $n drop tome
+mpmload 2006
+mpforce 'death gigas' mpkill $n
+~
+|
+#2007
+paper long~
+A long piece of paper~
+A long piece of paper lies here on the floor, crumpled.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+exam paper~
+&BTo anyone who's reading this:
+Leave now while you can! This is a horrible place. Full of twists
+and turns at every corner. The creatures inhabitting this place
+are voraciously murderous. All I can tell you is that there is
+great treasure within this mansion. A safe on the second floor a
+is said to hold a treasure of great value in the entire town. 
+Problem is that the owner was a very paranoid man. He wrote the
+combination to the safe on separate papers. Thus, throughtout the
+years, the papers have scattered through Nibelheim. I
+believe I've tracked down all of the papers but, due to the danger,
+haven't dared try to get it. I wrote clues to finding the
+combination numbers in another paper but I lost it while exploring
+the house. I had the paper in an envelope if that can be of any
+help. BEWARE the monsters of the mansion, especially the one in...
+
+
+&rA slew of blood is all that remains. apparently the author of
+this letter wasn't so lucky...
+~
+#2008
+envelope~
+An envelope~
+An envelope lays here, shut tight.~
+~
+15 0 0
+0 0 0 0
+1 0 0
+#2009
+letter~
+A letter~
+A letter written long ago lies here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+exam letter~
+To whoever desires to open the safe:
+The safe in this room holds great treasure, but also great peril.
+To protect both its reward and those seeking it, I have taken the
+safe's combination and written on various pieces of paper, only
+to hide those pieces all around Nibelheim. Now, seeing as there
+might come a time when someone deserving of the reward might
+come, I have added clues on this letter that might help find the
+combination. After you have found all 5, return to this room and
+say the combination aloud. Its the only way to open the safe.
+Even then, Beware! Once you open the safe, you must deal with
+whatever is inside if you hope to gain its treasure.
+Clues:
+1) Behind true friendship.
+2) After the song of a childhood crush.
+3) Where oxygen is most abundant.
+4) Surrounded by knowledge, hollow blackness holds the answer.
+5) Its closer than you might imagine.
+~
+#2010
+paper old~
+An old piece of paper~
+A very old-looking piece of paper lies here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+exam paper~
+4- Left 29
+~
+#2011
+coffin~
+A Coffin~
+A large sarcophagus lies on the floor covered in dust and spiderwebs.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+> custom_prog lift lid~
+mea $n _red As you lift the lid up, it suddenly slides to the side, landing on
+mea $n _red the floor with a loud thud. The sound of a chainsaw revving echoes
+mea $n _red from within the sarcophagus, as a large figure wielding the origin
+mea $n _red of the noise stands up and lunges at you.
+mpmload 2007
+mpforce 'hellmasker' mpkill $n
+~
+|
+#2012
+mythril processing machine~
+Mythril Processing Machine~
+A mythril processing machine lies trashed and in a heap.~
+~
+15 0 0
+2 0 0 0
+1 0 0
+#2013
+Mythril~
+Some Mythril~
+A bright metal lies on the floor gleaming in the light.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2014
+vial mako energy~
+A vial of Mako energy~
+A vial filled with a green substance lies here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2015
+master summon materia~
+&r(&BTranscendent&r) &cMaster &RSummon &cMateria~
+A small red ball lies here irradiating power.~
+~
+5 0 16385
+2 200 200 5
+1 0 0
+> custom_prog call bahamut~
+if isfight($n)
+mpdonothing
+else
+if mobinworld(2196) == 1
+mea $n _ora Bahamut already serves another master.
+mpdonothing
+else
+mea $n _ora Holding the Summon materia tightly in your hands, thoughts
+mea $n _ora of the great dragon beast fill your head. Your mind breaks
+mea $n _ora through the barriers between the dimensions, calling it to
+mea $n _ora you. Suddenly a great flash in the sky, a sound like an
+mea $n _ora explosion rings through the air: the one known as Bahamut
+mea $n _ora has appeared before you with all it's grace and power.
+mpmload 2196
+mpforce 'bahamut' follow $n
+mpforce $n group bahamut
+endif
+endif
+~
+> custom_prog call leviathan~
+if isfight($n)
+mpdonothing
+else
+if mobinworld(2195) == 1
+mea $n _blu Leviathan already serves another master.
+mpdonothing
+else
+mea $n _blu Holding the Summon materia tightly in your hands, thoughts
+mea $n _blu of the great sea serpent fill your head. Your mind breaks
+mea $n _blu through the barriers between the dimensions, calling it to
+mea $n _blu you. Suddenly a great flash in the sky, a sound like an
+mea $n _blu explosion rings through the air: the one known as Leviathan
+mea $n _blu has appeared before you with all it's grace and power.
+mpmload 2195
+mpforce 'leviathan' follow $n
+mpforce $n group leviathan
+endif
+endif
+~
+> custom_prog call phoenix~
+if isfight($n)
+mpdonothing
+else
+if mobinworld(2194) == 1
+mea $n _red Phoenix already serves another master.
+mpdonothing
+else
+mea $n _red Holding the Summon materia tightly in your hands, thoughts
+mea $n _red of the great flaming bird fill your head. Your mind breaks
+mea $n _red through the barriers between the dimensions, calling it to
+mea $n _red you. Suddenly a great flash in the sky, a sound like an
+mea $n _red explosion rings through the air: the one known as Phoenix
+mea $n _red has appeared before you with all it's grace and power.
+mpmload 2194
+mpforce 'phoenix' follow $n
+mpforce $n group phoenix
+endif
+endif
+~
+|
+#2016
+proxy~
+A Mako Reactor~
+A Mako Reactor lies here in perfect condition.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#2182
+Bloodlust~
+&r(&BMythical&r) &cBloodlust&w~
+&cA strange-looking pair of pants is floating over the ground.&w~
+~
+9 0 33
+0 250 250 5
+1 0 0
+#2183
+Sprint Shoes~
+&r(&BMythical&r) &cSprint Shoes&w~
+&cA strange-looking pair of shoes is floating over the ground.&w~
+~
+9 0 65
+0 250 250 5
+1 0 0
+#2184
+Key Success~
+&r(&BMythical&r) &cKey to Success&w~
+&cA strange-looking ball is floating over the ground.&w~
+~
+1 0 1
+0 250 250 5
+1 0 0
+#2185
+Adamantite~
+&r(&BMythical&r) &cAdamantite&w~
+&cA strange-looking anklet is floating over the ground.&w~
+~
+5 0 2097153
+0 250 250 5
+1 0 0
+#2186
+Rood Inverse Blood-sin~
+&r(&BBlood-Sin&r) &cRood Inverse of the Dark&w~
+&cA strange-looking tattoo is floating over the ground.&w~
+~
+9 0 524289
+0 250 250 5
+1 0 0
+#2187
+Shinra Alpha~
+&r(&BMythical&r) &cShinra Alpha&w~
+&cA strange-looking armlet is laying on the ground.&w~
+~
+9 0 257
+0 250 250 5
+1 0 0
+#2188
+Hypno Crown~
+&r(&BMythical&r) &cHypno Crown&w~
+&cA strange-looking crown is laying on the ground.&w~
+~
+9 0 17
+0 250 250 5
+1 0 0
+#2189
+Choco Feather~
+&r(&BMythical&r) &cChoco Feather&w~
+&cA strange-looking feather is laying on the ground.&w~
+~
+9 0 65537
+0 250 250 5
+1 0 0
+#2190
+Sneak Glove~
+&r(&BMythical&r) &cSneak Glove&w~
+&cA strange-looking pair of gloves is laying on the ground.&w~
+~
+9 0 129
+0 250 250 5
+1 0 0
+#2191
+Safety Bit~
+&r(&BMythical&r) &cSafety Bit&w~
+&cA strange-looking sash is laying on the ground.&w~
+~
+9 0 2049
+0 250 250 5
+1 0 0
+#2192
+Iron Duke~
+&r(&BMythical&r) &cIron Duke&w~
+&cA strange-looking ring is laying on the ground.&w~
+~
+5 0 3
+0 250 250 5
+1 0 0
+#2193
+Chocobracelet~
+&r(&BMythical&r) &cChocobracelet&w~
+&cA strange-looking bracelet is laying on the ground.&w~
+~
+9 0 4097
+0 250 250 5
+1 0 0
+#2194
+Tetra Elemental~
+&r(&BMythical&r) &cTetra Elemental&w~
+&cA strange-looking necklace is laying on the ground.&w~
+~
+9 0 5
+0 250 250 5
+1 0 0
+#2195
+Ziedrich~
+&r(&BMythical&r) &cZiedrich&w~
+&cA strange-looking armor is laying on the ground.&w~
+~
+9 0 9
+0 250 250 5
+1 0 0
+#2196
+Ultima Weapon~
+&r(&BMythical&r) &cUltima Weapon&w~
+&cA strange-looking sword is stabbed in the ground.&w~
+~
+5 0 8193
+0 225 225 4
+1 0 0
+> custom_prog limitbreak~
+mea $n _blu The Ultima Weapon glows violently and frees itself from your hands. Suddenly bolts of light
+mea $n _blu rain down on you leaving you completely naked. Strangely enough, the light seems to cover
+mea $n _blu your body. In a blinding flash, it's all over and you stand wielding the Ultima Weapon once again.
+mpforce $n remove all
+mpmload 108
+mpforce 'nemo' mpoload 2195
+mpforce 'nemo' mpoload 2194
+mpforce 'nemo' mpoload 2194
+mpforce 'nemo' mpoload 2193
+mpforce 'nemo' mpoload 2193
+mpforce 'nemo' mpoload 2192
+mpforce 'nemo' mpoload 2192
+mpforce 'nemo' mpoload 2191
+mpforce 'nemo' mpoload 2190
+mpforce 'nemo' mpoload 2189
+mpforce 'nemo' mpoload 2188
+mpforce 'nemo' mpoload 2187
+mpforce 'nemo' mpoload 2186
+mpforce 'nemo' mpoload 2185
+mpforce 'nemo' mpoload 2185
+mpforce 'nemo' mpoload 2184
+mpforce 'nemo' mpoload 2183
+mpforce 'nemo' mpoload 2182
+mpforce 'nemo' give ziedrich $n
+mpforce 'nemo' give tetra $n
+mpforce 'nemo' give tetra $n
+mpforce 'nemo' give chocobracelet $n
+mpforce 'nemo' give chocobracelet $n
+mpforce 'nemo' give duke $n
+mpforce 'nemo' give duke $n
+mpforce 'nemo' give safety $n
+mpforce 'nemo' give sneak $n
+mpforce 'nemo' give feather $n
+mpforce 'nemo' give crown $n
+mpforce 'nemo' give alpha $n
+mpforce 'nemo' give rood $n
+mpforce 'nemo' give adamantite $n
+mpforce 'nemo' give adamantite $n
+mpforce 'nemo' give key $n
+mpforce 'nemo' give sprint $n
+mpforce 'nemo' give bloodlust $n
+mpforce $n wear ultima
+mpforce $n wear ziedrich
+mpforce $n wear tetra
+mpforce $n wear tetra
+mpforce $n wear chocobracelet
+mpforce $n wear chocobracelet
+mpforce $n wear duke
+mpforce $n wear duke
+mpforce $n wear safety
+mpforce $n wear sneak
+mpforce $n wear feather
+mpforce $n wear crown
+mpforce $n wear alpha
+mpforce $n wear rood
+mpforce $n wear adamantite
+mpforce $n wear adamantite
+mpforce $n wear key
+mpforce $n wear sprint
+mpforce $n wear bloodlust
+mppurge 'nemo'
+~
+|
+#2197
+buster sword~
+&r(&BGigantic&r) &cBuster Sword&w~
+&cA humongous sword, emanating extreme power, lays stuck on the ground.&w~
+~
+5 128 8193
+0 200 100 5
+1 0 0
+#2200
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2000
+First room~
+~
+0 4 1 0
+S
+#2001
+Approaching Nibelheim~
+As you get closer to the town of Nibelheim, the mountains seem to come
+ever closer to you, as if trying to crush you. You quickly dismiss this
+as an optical illusion of sorts and continue onward. The gates of the
+deserted town lie just a few meters in front of you. Gathering your
+courage you push onwards.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2002 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2002
+The Gates of Nibelheim~
+Passing through the rust-covered gates, you enter into the desolate town
+of Nibelhiem. The air is rancid, filled with death from years long past.
+The buildings are abandoned, yet surprisingly standing in pretty good
+condition. A large water tower sits in the center of the townsquare,
+around which the rest of the town is positioned.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2003 0 0 0
+D2
+~
+~
+0 -1 2001 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2003
+Townsquare~
+You are standing right beside the water tower, looking at the surrounding
+buildings. Houses rest to the west and to the east. An old shop lies to
+the northwest and to the northeast sits what appears to be an old factory.
+Then, looking northward you notice an ominous building, a large mansion.
+This must be the famed and feared Shinra Mansion.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2027 0 0 0
+D1
+~
+~
+0 -1 2010 0 0 0
+D2
+~
+~
+0 -1 2002 0 0 0
+D3
+~
+~
+0 -1 2004 0 0 0
+D6
+~
+~
+0 -1 2021 0 0 0
+D7
+~
+~
+0 -1 2020 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2004
+Towards a house~
+Walking up to the house, you notice the lesser details about it missed
+from afar. This two-story home is in excellent condition considering the
+years that have passed since the town was abandoned. After a few seconds
+of walking, you have reached the door.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2003 0 0 0
+D3
+~
+~
+0 -1 2005 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2005
+Inside the house~
+Upon passing through the door, a chill runs down your spine. The house's
+outside exterior could never have projected the sight on the inside. 
+Everything is either torn, destroyed or thrown down. It looked as if
+something ravaged through here. Looking through the debris, you notice a
+doorway leading to what appears to have been a kitchen. Also, stairs 
+heading up line the wall.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2004 0 0 0
+D4
+~
+~
+0 -1 2007 0 0 0
+D8
+~
+~
+0 -1 2006 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2006
+Kitchen~
+Just like the rest of the house, the kitchen is in shambles. Knives and
+other kitchen utensils clutter the floor. A rust filled sink full of dirty
+dishes, and some broken dishes. Nothing appears to be of interest in here.
+Suddenly, a slight glimmer captures your attention.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 2005 0 0 0
+R O 0 2001 1 2006
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2007
+Top of the stairs~
+After climbing up the stairs you come upon two rooms with closed doors.
+The wood doors appear brand new except for the few rotting spots. Curiously,
+a light shines on one of the keyholes, coming from a hole in the roof.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2009 0 0 0
+D3
+~
+~
+7 2002 2008 0 0 0
+D5
+~
+~
+0 -1 2005 0 0 0
+R D 0 2007 3 2
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2008
+Cloud's room~
+Upon entering the room, you see a confusing sight. Everything in the room
+is in perfect order. A poster of the long forgotten SOLDIER squad lies in
+pasted on one of the walls. A few unusable materia lie in a corner. A
+picture sits on a table, signed at the bottom Cloud and Zach. Maybe you
+should take a closer look at the picture.
+~
+0 4 1 0
+D1
+~
+~
+7 2002 2007 0 0 0
+R D 0 2008 1 2
+E
+picture~
+Looking at the picture of the two friends up close, you
+notice some smaller writing saying "Look behind."
+~
+> emote_prog p looks behind the picture~
+mea $n &YAs you turn the picture around, a torn piece of paper falls to the floor.
+mpoload 2005
+mer $n &YAs $n turns the picture around, a torn piece of paper falls to the floor.l
+~
+|
+S
+#2009
+Trashed room~
+As you enter with caution, a floorboard creaks under your weight. You can
+hear the sound of scurring creatures along the floor. Mice you imagine.
+Aside from the complete chaos inside the room, there appears to be nothing
+of interest here.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2007 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2010
+Approaching a house~
+Turning away from the townsquare, you start your movement towards a big old
+house. Time appears to have taken its toll on the structure but you're
+confident you can enter it. Suddenly the house groans as a strong wind passes
+and your confidence falters.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2011 0 0 0
+D3
+~
+~
+0 -1 2003 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2011
+Entrance of the house~
+After carefully pushing the door, you step into the decaying house. It
+appears you have entered what used to be a family room. A chimney lies in
+a corner of the room, its fire doused long ago by time. A huge sofa sits
+in the middle of the room facing the chimney. The many decorations filling
+the room make you think this must have been a happy home.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2013 0 0 0
+D2
+~
+~
+0 -1 2014 0 0 0
+D3
+~
+~
+0 -1 2010 0 0 0
+D6
+~
+~
+0 -1 2012 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2012
+Debris-filled room~
+This room is in complete shambles. Adding to its discord, it appears that
+some of the floor from the second floor has correded and fallen into this
+one. Maybe you should be careful as to avoid having something fall on you.
+~
+0 0 1 0
+D9
+~
+~
+0 -1 2011 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2013
+Beginning of a staircase~
+A large staircase leads up from here. A few steps are missing but that 
+won't detain you. The top of the staircase is shrouded in darkness so
+you'll have to actually climb the stairs to see what's up there.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2011 0 0 0
+D4
+~
+~
+0 -1 2015 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2014
+Abandoned dining room~
+This is obviously what used to be a dining room for a family. A square
+table sits at the center of the room, what's left of burnt tablecloth
+sits on top of it. Some plates still sit on the table, though most are
+broken. A doorway sits on the opposite end of the room, probably leading
+to the kitchen. After a better view of it, you notice that the kitchen has
+completely caved in, making it inaccessible.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2011 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2015
+Between two corridors~
+After climbing up the stairs you notice two corridors heading in opposite
+directions. As usual, darkness covers both and you can only go forward if
+you wish to know their ends.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2018 0 0 0
+D2
+~
+~
+0 -1 2016 0 0 0
+D5
+~
+~
+0 -1 2013 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2016
+Walking through the corridor~
+You can barely see anything. Each step brings forth yet another groan or
+creak from the floor. As you continue forward, the sounds get louder,
+probably from an echo of sorts. You keep thinking it can't be much longer.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2015 0 0 0
+D2
+~
+~
+7 2001 2017 0 0 0
+R D 0 2016 2 2
+> entry_prog 25~
+mea $n &YCRASH!! You fall through the wooden floor to the lower level.
+mer $n &Y$n falls through the wooden floor.
+mptransfer $n 2014
+mpat $n mpforce $n look
+~
+|
+S
+#2017
+A bedroom~
+Upon entering this room, a few things bring to mind that it probably
+belonged to a girl. Maybe the closet full of tattered old dresses give
+it away. As you take in the full scope of the room, a piece captures 
+your eye. An old piano sits in a corner. Its ivory keys begging to be
+touched by any hand. Think you should dare play the piano?
+~
+0 0 1 0
+D0
+~
+~
+7 2001 2016 0 0 0
+R O 0 2003 1 2017
+R D 0 2017 0 2
+S
+#2018
+Walking through the corridor~
+You can barely see anything. Each step brings forth yet another groan
+or creak from the floor. As you continue forward, the sounds get louder,
+probably from an echo of sorts. You keep thinking it can't be much longer.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2019 0 0 0
+D3
+~
+~
+0 -1 2015 0 0 0
+> entry_prog 25~
+mea $n &YCRASH!! You fall through the wooden floor to the lower level.
+mer $n &Y$n falls through the wooden floor.
+mptransfer $n 2012
+mpat $n mpforce $n look
+~
+|
+S
+#2019
+A thrashed bedroom~
+Upon entering you see total destruction. Half the floor's collapsed. 
+The walls are charred black and what little is left of the floor seems
+as if it won't last long. Maybe you shouldn't stay in here for long.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2018 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2020
+A desolate shop~
+You're now inside what used to be Nibelheim's main supplier for almost
+everything. You see shelves with dusty old cartons of milk, empty materia
+holders and a few other daily items obviously too old and corroded to be 
+used. The cash register is wide open, and completely empty. Apparently
+this place got ransacked.
+~
+0 0 1 0
+D8
+~
+~
+0 -1 2003 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2021
+At the factory entrance~
+You're in the threshold of what used to be a factory. Its position is
+very curious due to being inside the actual town of Nibelheim. You notice
+a mythril processing machine at the far end of the factory. A small mako
+energy converter (AKA: Materia Maker) sits at the center. Maybe you 
+should get a closer look.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 2022 0 0 0
+D9
+~
+~
+0 -1 2003 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2022
+Factory Center~
+The factory spans out from here. You can see a few clean walkways but
+most have either broken machinery or pipes in the way. The small Mako
+reactor sits here, amaizingly untouched, its long funnel stretching
+upwards until almost reaching the cealing. Maybe you could get it to work
+somehow.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2023 0 0 0
+D2
+~
+~
+0 -1 2026 0 0 0
+D6
+~
+~
+0 -1 2024 0 0 0
+D8
+~
+~
+0 -1 2025 0 0 0
+D9
+~
+~
+0 -1 2021 0 0 0
+R M 0 2009 1 2022
+R O 0 2016 1 2022
+E
+reactor~
+1- Insert Mako energy, to power up the converter.
+2- Insert prime matter to create the materia (Mythril preffered).
+3- Powerup the machine.
+4- Remove the finished product.
+~
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2023
+Broom closet~
+This room is apparently intact. A few brooms and mops stand against the
+wall in their buckets, spiderwebs covering the entire room. This enclosed
+room is ripe with humidity, which makes the stay very unpleasant.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2022 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2024
+Mythril Processing Machine~
+What used to be a mythril processing machine sits here, gathering dust.
+Most of its metal casing appears to have rusted away. The top appears 
+to have been ripped off, probably by looters desiring the mythril inside.
+Maybe there's still some mythril inside.
+~
+0 4 1 0
+D9
+~
+~
+0 -1 2022 0 0 0
+R O 0 2012 1 2024
+  R P 0 2013 1 2012
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2025
+Boiler room~
+As you enter this room, the first thing that captures your sight is the
+old boiler sitting against the wall. This piece of equipment must have 
+powered the factory and perhaps the entire town. All that's left of it 
+now is the coal which it burned and the few pieces laying across the 
+floor, corroded by time.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 2022 0 0 0
+S
+#2026
+Worker's lounge~
+This room is quite different from the rest. A large sofa rests against 
+the wall, springs and filling falling out. A few parts of a small bar are
+still standing in one of the room's corners, smashed bottles littering 
+the floor inside it. This must've been a popular place for factory workers
+years ago.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2022 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2027
+Road to Shinra Mansion~
+You're now leaving Nibelheim's townsquare and heading up the hill towards
+the nefarious Shinra Mansion. As you wonder lies at that dreaded place, 
+a cold wind brushes past you. Maybe you shouldn't go there. There's still
+a chance to go back.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2028 0 0 0
+D2
+~
+~
+0 -1 2003 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2028
+Road to Shinra Mansion~
+You're now leaving Nibelheim's townsquare and heading up the hill towards
+the nefarious Shinra Mansion. As you wonder lies at that dreaded place,
+a cold wind brushes past you. Maybe you shouldn't go there. There's still
+a chance to go back. You noticed then that the road is getting thinner and
+starting to slant a bit up.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2029 0 0 0
+D2
+~
+~
+0 -1 2027 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2029
+Approaching a divergence~
+Your feet continue carrying you forward as the walk gains momentum as 
+well as small altitude. Suddenly, at the very end of your sight you see
+a fork in the road. You wonder where both directions might take you. 
+Nothing to do but continue until reaching the division.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2030 0 0 0
+D2
+~
+~
+0 -1 2028 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2030
+A fork in the road~
+Your standing now at a fork in the road. Two directions leading to the 
+unknown. Nothing can be seen in the horizon in either direction. What 
+will you do? Then, out of the corner of your eye, you notice a sign hidden 
+among the bushes. Maybe that could be of some help.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2029 0 0 0
+D7
+~
+~
+0 -1 2031 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2031
+Heading for Shinra Mansion~
+As you move away from the fork, a large building becomes visible in the
+horizon. That must be Shinra Mansion. The wind becomes ever stronger the
+more you approach the mansion. Maybe this wasn't such a good idea.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 2032 0 0 0
+D8
+~
+~
+0 -1 2030 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2032
+Getting closer to the mansion~
+After a few minutes' worth of walking, you're almost at the entrance of
+the mansion. A cold chill runs down your spine as a strange howl emanates
+from the building. There's still a chance to turn back, maybe you should 
+take it.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 2033 0 0 0
+D8
+~
+~
+0 -1 2031 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2033
+Mansion Gates~
+You're now standing infront of the Mansion's gates, which, as is the 
+rest of the town, has been severely affected by the passage of time. 
+Strangely enough, they appear sturdy, as if the rust and corrosion hasn't
+affected its strength. Seeing as they're closed shut, you'll probably 
+have to open the gates.
+~
+0 0 1 0
+D0
+~
+gate~
+3 -1 2034 0 0 0
+D8
+~
+~
+0 -1 2032 0 0 0
+R D 0 2033 0 1
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2034
+Courtyard~
+After passing though the gates, you walk into the mansion's small 
+courtayard. Hardly any vegetation is still standing, most of the floor
+is charred black. The house looms over you with a menacing feeling. 
+There's no turning back now. Time to enter the Mansion.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2035 0 0 0
+D2
+~
+gate~
+3 -1 2033 0 0 0
+R D 0 2034 2 1
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2035
+On the porch~
+After moving through the courtyard, you're now standing on the mansion's
+porch, right infront of the door. The door itself looks brand new, to 
+your amazement. The rest of the porch does not. The wood feels weak,
+meaning corrosion, and you see a few mounds of termites, which have made
+short work of most of the porch. Open the door and enter if you wish to
+escape this sight.
+~
+0 0 1 0
+D0
+~
+~
+3 -1 2036 0 0 0
+D2
+~
+~
+0 -1 2034 0 0 0
+R D 0 2035 0 1
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2036
+Grand Hall~
+At last! You're now standing at the center of the Shinra Mansion Grand 
+Hall. From here you can virtually reach any floor or wing of the building.
+There's not much light except that from the chandelier high above. You can
+explore the rooms on the ground floor or ascend the stairs and search
+the second level.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2040 0 0 0
+D1
+~
+~
+0 -1 2039 0 0 0
+D2
+~
+~
+3 -1 2035 0 0 0
+D4
+~
+~
+0 -1 2047 0 0 0
+D7
+~
+~
+0 -1 2041 0 0 0
+D8
+~
+~
+0 -1 2038 0 0 0
+D9
+~
+~
+0 -1 2037 0 0 0
+R D 0 2036 2 1
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2037
+A small foyer~
+courtyard. Once upon a time ago, someone must've sat here enjoying the 
+sunlight and the scenery. Now the room is wrecked. The crystal windows 
+are broken, letting a draft into the mansion. As you examine the room 
+in detail, you notice a lone paper on the floor.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 2036 0 0 0
+R O 0 2007 1 2037
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2038
+Storage room~
+As you enter this room, a damp humidity fills your nostrils. A few 
+barrels lay against the wall, some broken on the floor. This room is 
+pretty bare aside from the barrels. A single light bulb hangs from the 
+ceiling. A few rats squirm by, passing by your feet in the process. 
+Nothing of interest appears to be here.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 2036 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2039
+Study~
+This room appears to have been a study of some sort. Someone probably 
+did most of their paperwork here. A large desk is set in the middle of 
+the room, a quill holder and some paper lay on top of it all messed up. 
+Aside from this, nothing stands out in the room. Maybe you should continue 
+exploring.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2036 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2040
+A hallway~
+Walking in, you notice a small hallway to either side of you, seemingly 
+the same length. Above you, you can feel the groans of the staircase, 
+which is located right above you. In a house this old, maybe you shouldn't 
+stay still here. Pick a way and move.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2044 0 0 0
+D2
+~
+~
+0 -1 2036 0 0 0
+D3
+~
+~
+0 -1 2043 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2041
+Outside the Auditorium~
+As you enter this small corridor, a small sign on the wall indicates 
+that the room adyancent is the mansion's auditorium. Suddenly, you hear 
+a faint music, like a piano. You wonder if someone's in the mansion after 
+all these years.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2042 0 0 0
+D8
+~
+~
+0 -1 2036 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2042
+Auditorium~
+This is quite a large room, almost the size of the Grand Hall. Very 
+few pieces of furniture are here. A large table rests at one side of 
+the room, a couple of chairs surround it. This must be the Dining Room 
+as well. A large, black piano rests against the other wall, music 
+emanating from it. As you approach it, you notice no one's there physically
+playing it. You wonder what's going on here.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2043 0 0 0
+D2
+~
+~
+0 -1 2041 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2043
+A hallway~
+The hallway stretches for quite a bit. You can see the end though a 
+few meters away. Another door awaits you at the other side. Maybe you 
+should check it out.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2040 0 0 0
+D3
+~
+~
+0 -1 2042 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2044
+A hallway~
+The hallway stretches for quite a bit. You can see the end though a 
+few meters away. Another door awaits you at the other side. Maybe you 
+should check it out.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2045 0 0 0
+D3
+~
+~
+0 -1 2040 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2045
+Servant's bedroom~
+You're now in what was probably the a bedroom for the mansion's servants. 
+A few beds lay here, some wrecked, while others are seemingly intact. A 
+stove, a few small closets, and left behind possessions lay scattered 
+throughout the floor. A door leads to the north, leading into a room with
+a visible chest inside it, among other things.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2046 0 0 0
+D3
+~
+~
+0 -1 2044 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2046
+A cramped room~
+The lack of light prevents you from seeing the better part the room 
+but you can see that alot of debris is scattered everywhere. The small 
+chest that sits in the center of the room, untouched, awaiting someone 
+to open it. You can only contain your glee as you wonder what treasures 
+it might contain.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2045 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2047
+Large Staircase~
+Ascending the stairs, you move upwards, getting ever closer to the 
+second floor. Looking around the surrounding area of the floor, you 
+notice movement, yet can't distinguish what causes them. Maybe its 
+just your imagination, or maybe its not. Only way to find out is 
+continue onward.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 2048 0 0 0
+D5
+~
+~
+0 -1 2036 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2048
+Top of the Stairs~
+Finally! You're now at the top of the stairs, the beginning of the 
+second level. A whole new area to explore, starting with two directions: 
+Northwest and Northeast. Where will you go? Choose wisely, you never 
+know what you might encounter.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 2047 0 0 0
+D6
+~
+~
+0 -1 2053 0 0 0
+D7
+~
+~
+0 -1 2049 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2049
+Between Three Rooms~
+You're now standing between three doorways, each leading into a 
+different room. To the north you see a half-open door, a safe can 
+be seen through the slight crack. To the west there's a warmness of 
+sorts, which intrigues you. To the south, a closed door holds the 
+secret of the room's contents.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2050 0 0 0
+D2
+~
+~
+0 -1 2052 0 0 0
+D3
+~
+~
+0 -1 2051 0 0 0
+D8
+~
+~
+0 -1 2048 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2050
+Safe room~
+This appears to be the best preserved room in the mansion. A large 
+safe sits against the wall, its contents a complete mystery. A desk 
+is to the left of the safe, an envelope lays on it. Aside from these 
+two pieces, the rest of the room appears to be pretty bare. As you 
+examine the safe closer, you notice that it lacks a handle. How are 
+you going to open it?
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2049 0 0 0
+R M 0 2001 1 2050
+R O 0 2008 1 2050
+  R P 0 2009 1 2008
+E
+safe~
+5- Right 69
+~
+S
+#2051
+The Atrium~
+Upon entering, you're overwhelmed by the humidity inside this place. 
+Dozens of overgrown plants litter the room, apparently no one has 
+checked on them for quite some time. The crystal dome is almost unseen, 
+though it is clearly in one piece. Looking around, you wonder if any of 
+these are poisonous. As your eye scours the place, a plant with a wide 
+stem catches your attention as it stands out from the rest.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2049 0 0 0
+E
+stem~
+3- Left 10
+~
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2052
+Sleeping Quarters~
+As you step inside this room, you notice the two large beds sitting 
+at the opposite side of the quarters. They still have their sheets 
+and pillows intact, as if they've been used recently. The room appears 
+to be in pretty good condition. Other than some dust, nothing appears 
+to have damaged this room, making it seem almost safe.
+~
+0 0 1 1
+D0
+~
+~
+0 -1 2049 0 0 0
+S
+#2053
+South end of a Hallway~
+From one hallway to another, you're now standing at what is obviously 
+the beginning of yet another hallway. Right infront of you is a door, 
+half open, the contents of the room beyond it a complete mystery. You 
+notice a door not so far away, at the very end of the hall. The wood 
+creaks as you shuffle your feet deciding which way to go. You hear a 
+few noises echoing through the hallway, as if they were coming from all 
+sides. Which door should you go through is up to you.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2054 0 0 0
+D1
+~
+~
+0 -1 2056 0 0 0
+D9
+~
+~
+0 -1 2048 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2054
+North end of a Hallway~
+After traversing the hallway's darkness, you have come upon a door 
+leading into another room of the mansion. A cold wind comes from 
+within the adyacent room, making one think that there must be some 
+opening to the outside in the room. Only way to find out is by going 
+in.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2055 0 0 0
+D2
+~
+~
+0 -1 2053 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2055
+An empty room~
+As you enter from the hallway, you feel yet another draft of cold air. 
+Upon searching the room, you discover a hole where a window used to be. 
+This is obviously the source of the chill. Aside from the wind, nothing 
+appears out of order here. Maybe you should continue exploring the mansion.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2054 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2056
+Master Bedroom~
+This is the master bedroom of the mansion. A huge bed sits in a corner, 
+covered in sheets and dust. A large closet, a few chairs and other pieces 
+of furniture adorn the room. Old pictures cover the walls, though some are 
+half if not completely destroyed. As you look around, one thing stands
+out: a corner wall, much like a cylinder. It isn't covered by any dust 
+or anything at all. Maybe it deserves a closer look.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2053 0 0 0
+E
+wall~
+&BSpeak the master in reverse.
+~
+> speech_prog p arnihs~
+mea $n As you finish your words, the wall begins to slide to the side revealing a hidden entrance.
+mer $n $n passes through a hidden entrance as the wall slides to the side
+mptransfer $n 2057
+mpat $n mpforce $n look
+~
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2057
+Begining of a Sprial Staircase~
+The opening in the wall has lead you down into this tower of sorts. 
+The staircase, made of a wood that doesn't show any signs of sturdyness, 
+spirals down into the underground. The stone walls are completely 
+different from those of the mansion, which must surely be at the other 
+side of those rocks.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 2056 0 0 0
+D5
+~
+~
+0 -1 2058 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2058
+Down into the Underground~
+You're now going down this strange staircase into the unknown. Each 
+step makes a sound that echoes endlessly in this hollow tower. The 
+constant thought of falling is in your mind, seeing as this structure 
+doesn't appear very sturdy. The only thing you can do is continue 
+downwards.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 2057 0 0 0
+D5
+~
+~
+0 -1 2059 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2059
+Down into the Underground~
+You're now going down this strange staircase into the unknown. Each 
+step makes a sound that echoes endlessly in this hollow tower. The 
+constant thought of falling is in your mind, seeing as this structure 
+doesn't appear very sturdy. The only thing you can do is continue 
+downwards.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 2058 0 0 0
+D5
+~
+~
+0 -1 2060 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2060
+Base of the Structure~
+Finally, you have gotten to the end of that harrowing walk. You're 
+now at the base of the pseudo tower, at its bottom. To the south you 
+can see the beginnings of a cave or something like one. A dank smell 
+emerges from the opening, makeing your nostrils flare.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2061 0 0 0
+D4
+~
+~
+0 -1 2059 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2061
+Inside the Catacombs~
+As you walk on, the smell gets even stronger, making you nauseous. 
+As you look to your sides, you start noticing corpses, skeletons and 
+even coffins. You understand what this place is now: the Shinra 
+Catacombs. The path stretches on into the darkness.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2060 0 0 0
+D2
+~
+~
+0 -1 2062 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2062
+Catacombs~
+Everywhere you look, a corpse or body is laying on the ground. The 
+scent of death permeates through every inch of this place. No end 
+appears to be in sight, and hardly any light guides your steps. Only 
+thing you have is your strength and courage, if you have them that 
+is...
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2061 0 0 0
+D2
+~
+~
+0 -1 2063 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2063
+Catacombs~
+Everywhere you look, a corpse or body is laying on the ground. The 
+scent of death permeates through every inch of this place. No end 
+appears to be in sight, and hardly any light guides your steps. Only 
+thing you have is your strength and courage, if you have them that 
+is...
+~
+0 0 1 256
+D0
+~
+~
+0 -1 2062 0 0 0
+D8
+~
+~
+0 -1 2064 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2064
+Catacombs~
+Everywhere you look, a corpse or body is laying on the ground. The 
+scent of death permeates through every inch of this place. No end 
+appears to be in sight, and hardly any light guides your steps. Only 
+thing you have is your strength and courage, if you have them that 
+is... A curious door lies incrusted into one of the stone walls, 
+closed. You wonder what could be inside if not bodies by the dozen.
+~
+0 0 1 256
+D0
+~
+~
+3 -1 2065 0 0 0
+D1
+~
+~
+0 -1 2066 0 0 0
+D7
+~
+~
+0 -1 2063 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2065
+Family Crypt~
+This room is unlike the rest of the catacombs. It looks more majestic, 
+and slightly more stable. The walls are made of sculptured stone, 
+obviously to add to the decoration. A slew of sarcophagus lie on the 
+floor, lids covering them. One sarcophagus catches your eye due to its 
+larger size and large "V" carved onto the lid. There's something written 
+on the side, maybe you should check it out.
+~
+0 0 1 256
+D2
+~
+~
+3 -1 2064 0 0 0
+R O 0 2011 1 2065
+R D 0 2065 2 1
+E
+look side~
+&rLift the lid at your own risk! Great horror sleeps inside............
+~
+S
+#2066
+Catacombs~
+Everywhere you look, a corpse or body is laying on the ground. The 
+scent of death permeates through every inch of this place. No end 
+appears to be in sight, and hardly any light guides your steps. Only 
+thing you have is your strength and courage, if you have them that 
+is...
+~
+0 0 1 256
+D1
+~
+~
+0 -1 2067 0 0 0
+D3
+~
+~
+0 -1 2064 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2067
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 256
+D0
+~
+~
+0 -1 2067 0 0 0
+D1
+~
+~
+0 -1 2067 0 0 0
+D2
+~
+~
+0 -1 2067 0 0 0
+D3
+~
+~
+0 -1 2066 0 0 0
+D6
+~
+~
+0 -1 2067 0 0 0
+D7
+~
+~
+0 -1 2067 0 0 0
+D8
+~
+~
+0 -1 2068 0 0 0
+D9
+~
+~
+0 -1 2067 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2068
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2067 0 0 0
+D1
+~
+~
+0 -1 2069 0 0 0
+D2
+~
+~
+0 -1 2068 0 0 0
+D3
+~
+~
+0 -1 2068 0 0 0
+D6
+~
+~
+0 -1 2068 0 0 0
+D7
+~
+~
+0 -1 2067 0 0 0
+D8
+~
+~
+0 -1 2067 0 0 0
+D9
+~
+~
+0 -1 2067 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2069
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2070 0 0 0
+D1
+~
+~
+0 -1 2067 0 0 0
+D2
+~
+~
+0 -1 2067 0 0 0
+D3
+~
+~
+0 -1 2068 0 0 0
+D6
+~
+~
+0 -1 2068 0 0 0
+D7
+~
+~
+0 -1 2069 0 0 0
+D8
+~
+~
+0 -1 2069 0 0 0
+D9
+~
+~
+0 -1 2068 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2070
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2068 0 0 0
+D1
+~
+~
+0 -1 2067 0 0 0
+D2
+~
+~
+0 -1 2069 0 0 0
+D3
+~
+~
+0 -1 2068 0 0 0
+D6
+~
+~
+0 -1 2068 0 0 0
+D7
+~
+~
+0 -1 2069 0 0 0
+D8
+~
+~
+0 -1 2069 0 0 0
+D9
+~
+~
+0 -1 2071 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2071
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2072 0 0 0
+D1
+~
+~
+0 -1 2071 0 0 0
+D2
+~
+~
+0 -1 2069 0 0 0
+D3
+~
+~
+0 -1 2068 0 0 0
+D6
+~
+~
+0 -1 2070 0 0 0
+D7
+~
+~
+0 -1 2068 0 0 0
+D8
+~
+~
+0 -1 2070 0 0 0
+D9
+~
+~
+0 -1 2071 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2072
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2069 0 0 0
+D1
+~
+~
+0 -1 2071 0 0 0
+D2
+~
+~
+0 -1 2071 0 0 0
+D3
+~
+~
+0 -1 2073 0 0 0
+D6
+~
+~
+0 -1 2070 0 0 0
+D7
+~
+~
+0 -1 2067 0 0 0
+D8
+~
+~
+0 -1 2072 0 0 0
+D9
+~
+~
+0 -1 2071 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2073
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2068 0 0 0
+D1
+~
+~
+0 -1 2072 0 0 0
+D2
+~
+~
+0 -1 2074 0 0 0
+D3
+~
+~
+0 -1 2073 0 0 0
+D6
+~
+~
+0 -1 2069 0 0 0
+D7
+~
+~
+0 -1 2067 0 0 0
+D8
+~
+~
+0 -1 2070 0 0 0
+D9
+~
+~
+0 -1 2071 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2074
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2073 0 0 0
+D1
+~
+~
+0 -1 2068 0 0 0
+D2
+~
+~
+0 -1 2074 0 0 0
+D3
+~
+~
+0 -1 2075 0 0 0
+D6
+~
+~
+0 -1 2069 0 0 0
+D7
+~
+~
+0 -1 2067 0 0 0
+D8
+~
+~
+0 -1 2070 0 0 0
+D9
+~
+~
+0 -1 2071 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2075
+Lost between the Dead~
+Your heart sinks as you enter this place. The little light that is 
+inside this room shows you which way you can go: everywhere. Tunnels 
+litter this room, leading into, guess what, darkness. No point in 
+moaning over it. Choose a road and hope you don't end up lost.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2066 0 0 0
+D1
+~
+~
+0 -1 2076 0 0 0
+D2
+~
+~
+0 -1 2066 0 0 0
+D3
+~
+~
+0 -1 2066 0 0 0
+D6
+~
+~
+0 -1 2066 0 0 0
+D7
+~
+~
+0 -1 2066 0 0 0
+D8
+~
+~
+0 -1 2066 0 0 0
+D9
+~
+~
+0 -1 2066 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2076
+Long Library~
+As you leave the dampness of the catacombs, you step into a series 
+of shelves filled to the top with books and tomes. Dust covers the 
+entire place, obviously neglected for many years. Dozens of books sit 
+on the floor and on various chairs that litter the room. A small table 
+sits on the middle, also covered with books. Among the jungle of shelves
+you notice an opening, probably leading deeper into the library.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2077 0 0 0
+D3
+~
+~
+0 -1 2075 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2077
+Between the Torrents of Knowledge~
+Books tower above you, sorrounding you to either side. A slight fear 
+of a tumble arouses in you as you traverse the corridor. Columns of 
+books on top of one another litter the floor here as you walk through. 
+Creaking noises can be heard coming from the wooden shelves. You can 
+only hope the humidity down here hasn't taken its toll on the shelves.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2078 0 0 0
+D2
+~
+~
+0 -1 2076 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2078
+Between the Torrents of Knowledge~
+Books tower above you, sorrounding you to either side. A slight fear 
+of a tumble arouses in you as you traverse the corridor. Columns of 
+books on top of one another litter the floor here as you walk through. 
+Creaking noises can be heard coming from the wooden shelves. You can 
+only hope the humidity down here hasn't taken its toll on the shelves.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2079 0 0 0
+D2
+~
+~
+0 -1 2077 0 0 0
+> act_prog p flees head~
+if mobinroom(2010) > 0
+mppurge shrouded
+endif
+~
+> entry_prog 10~
+mea $n _dgr A shrouded figure appears out of nowhere and lunges at you!
+mpmload 2010
+mpforce shrouded mpkill $n
+~
+|
+S
+#2079
+Circular Room~
+You've reached the end of the library. This is probably the deepest 
+room in the mansion. A large, circular table sits in the center, 
+apparently made of oak. As the rest of the library, books clutter the 
+space in here. A large leather chair sits beside the table. The table 
+itself is covered with large tomes, some of which appear to be extremely 
+ancient. Maybe one of these could be of help.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2078 0 0 0
+R O 0 2006 1 2079
+S
+#2080
+Inside the Safe~
+Upon stepping into the giant safe, thoughts of riches disappear as all
+you see is dust, spider webs and the remnants of those who attempted to
+gain the safe's treasures before. Upon further inspection you notice 
+something glowing in a corner of the safe. Could this be the treasure
+everyone sought?
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2050 0 0 0
+R O 0 2014 1 2080
+S
+#2150
+Floating in a void~
+~
+0 4 1 0
+S
+#2198
+Purgatory~
+~
+0 4 1 0
+R M 0 2198 1 2198
+S
+#2199
+Floating in a void~
+~
+0 4 1 0
+S
+#2200
+Last room~
+~
+0 4 1 0
+R M 0 2199 1 2200
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

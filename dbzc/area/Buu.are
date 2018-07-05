@@ -1,0 +1,1799 @@
+#AREA   Buutopia~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG &PYour mind is filled with thoughts of candy!~
+
+#FLAGS
+1 5
+
+#CONTINENT continent1~
+
+#ECONOMY 0 33211150
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2801
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2802
+Buu Battler Fighter~
+A Buu Battler~
+&PA squishy pink battler is here ready for some action!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 10000
+108 108 0
+Z
+none~
+> death_prog 100~
+mpmload 2802
+~
+|
+#2803
+buu battler fighter~
+A Buu Battler~
+&PA squishy pink battler is here ready for some action!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 30000
+108 108 0
+Z
+none~
+> death_prog 100~
+mpmload 2803
+~
+|
+#2804
+buu battler fighter~
+A Buu Battler~
+&PA squishy pink battler is here ready for some action!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 70000
+108 108 0
+Z
+none~
+> death_prog 100~
+mpmload 2804
+~
+|
+#2805
+buu battler fighter~
+A Buu Battler~
+&PA squishy pink battler is here ready for some action!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 125000
+108 108 0
+Z
+none~
+> death_prog 100~
+mpmload 2805
+~
+|
+#2806
+buu battler fighter~
+A Buu Battler~
+&PA squishy pink battler is here ready for some action!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 250000
+108 108 0
+Z
+none~
+> death_prog 100~
+mpmload 2806
+~
+|
+#2807
+buu battler fighter~
+A Buu Battler~
+&PA squishy pink battler is here ready for some action!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 500000
+108 108 0
+Z
+none~
+> death_prog 100~
+mpmload 2807
+~
+|
+#2808
+Female Buu Receptionist~
+A Buu Receptionist~
+A female buu receptionist sits here making appointments.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> bribe_prog 1000000~
+say Great, we here at the Buutopia Kili School appreciate you as a new member.
+mpsleep 3
+say Here is your lifetime pass, but try not to lose it, or you will have to buy another...
+mpoload 2805
+give pass $n
+drop pass
+mptransfer $n 2847
+mpat $n mpforce $n look
+~
+> greet_prog 100~
+if wasinroom($n) == 2841
+if wearingvnum($n) == 2805
+or carryingvnum($n) == 2805
+mpsleep 5
+say Welcome back to the school $n.
+mptransfer $n 2847
+mpat $n mpforce $n look
+else
+mea $n &W&cThe receptionist looks up at you and smiles
+say Hello, Welcome to the Buutopia Kili School!
+say If you wanna go into the school to train and raise your kili, you are gonna have to buy a pass.
+say New membership passes cost 1million gold, so you'll have to give me the gold before I can sign you up.
+smile
+endif
+endif
+~
+|
+#2809
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 10000000
+108 108 0
+Z
+none~
+#2810
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 25000000
+108 108 0
+Z
+none~
+#2811
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 50000000
+108 108 0
+Z
+none~
+#2812
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 150000000
+108 108 0
+Z
+none~
+#2813
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 500000000
+108 108 0
+Z
+none~
+#2814
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+#2815
+buu kili battler~
+A Kili School Buu Battler~
+&PA nicely physiqued buu battler stands here ready to fight.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+Z
+none~
+#2816
+Buu Trainer~
+A Buu Trainer~
+A Buu trainer stands here ready to teach.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2817
+Pet Store Owner~
+A Petstore Owner~
+A Petstore owner is walking around feeding the pets.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> speech_prog p bee jr.~
+if goldamt($n) > 4999999
+mpforce $n give 5000000 coins owner
+mpmload 2818
+mpmset puppy short Bee Jr.
+mpmset puppy long Bee Jr. is attached to a leash, following $n.
+mpforce puppy follow $n
+else
+say Sorry, you can't afford that one...
+endif
+~
+> speech_prog p rex~
+if goldamt($n) > 2499999
+mpforce $n give 2500000 coins owner
+mpmload 2818
+mpmset puppy short Rex
+mpmset puppy long Rex is attached to a leash, following $n.
+mpforce puppy follow $n
+else
+say Sorry, you can't afford that one...
+endif
+~
+> speech_prog p scruffy~
+if goldamt($n) > 999999
+mpforce $n give 1000000 coins owner
+mpmload 2818
+mpmset puppy short Scruffy
+mpmset puppy long Scruffy is attached to a leash, following $n.
+mpforce puppy follow $n
+else
+say Sorry, you can't afford that one...
+endif
+~
+> speech_prog p princess~
+if goldamt($n) > 9999999
+mpforce $n give 10000000 coins owner
+mpmload 2818
+mpmset puppy short Princess
+mpmset puppy long Princess is attached to a leash, following $n.
+mpforce puppy follow $n
+else
+say Sorry, you can't afford that one...
+endif
+~
+> speech_prog p rascal~
+if goldamt($n) > 2499999
+mpforce $n give 2500000 coins owner
+mpmload 2818
+mpmset puppy short Rascal
+mpmset puppy long Rascal is attached to a leash, following $n.
+mpforce puppy follow $n
+else
+say Sorry, you can't afford that one...
+endif
+~
+> greet_prog 100~
+bow $n
+mpsleep 5
+mea $n &cThe Petstore Owner points to their sales sign.
+mpsleep 3
+mpforce $n look sign
+~
+> rand_prog 100~
+if mobinroom(2818) > 1
+mppurge 2.puppy
+endif
+~
+|
+#2818
+Pet Dog Puppy~
+a newly created Pet Dog Puppy~
+A lost little puppy dog sits here.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> act_prog p has left the game.~
+mpgoto 69
+say i am ready to go.
+~
+|
+#2819
+candy shopkeeper~
+A Candy Shop Shopkeeper~
+A Candy Shop Shopkeeper stands here counting MnM's.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2820
+invis gobstopper mob~
+a newly created invis gobstopper mob~
+An invis, gobstopper mob is here
+~
+~
+77594627 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2821
+Buutopia Citizen~
+A Buutopia Citizen~
+A Buutopia Citizen wonders around the town.
+~
+~
+68157441 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2822
+buutopia citizen~
+A Buutopia Citizen~
+A Buutopia Citizen wonders around the town.
+~
+~
+68157441 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2823
+buutopia citizen~
+A Buutopia Citizen~
+A Buutopia Citizen wonders around the town.
+~
+~
+68157441 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2824
+buutopia citizen~
+A Buutopia Citizen~
+A Buutopia Citizen wonders around the town.
+~
+~
+68157441 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2825
+buutopia citizen~
+A Buutopia Citizen~
+A Buutopia Citizen wonders around the town.
+~
+~
+68157441 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2826
+buutopia citizen~
+A Buutopia Citizen~
+A Buutopia Citizen wonders around the town.
+~
+~
+68157441 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2849
+Statue Creator~
+A Statue Creator~
+A tall, chubby buu stands here working on sculpting more statues.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> speech_prog p yes~
+if goldamt($n) < 5000000
+say uhmmm, I'm sorry but you don't have enough gold for the deal, maybe next time?
+else
+say Alright! Hand over the gold...
+mpforce $n give 5000000 coins creator
+mpecho &CThe buu sculptor's antenna begins glowing and then zaps a huge block of stone!
+if rand(40)
+mposet 'player statue' long There is a statue of $n giving a V sign, standing here!
+else
+if rand(40)
+mposet 'player statue' long A statue of $n is here, in a ki charge stance.
+else
+if rand(40)
+mposet 'player statue' long $n is here with $s hands on $s hips, in a superhero stance. Oh wait it's a statue?
+else
+if rand(40)
+mposet 'player statue' long $n's statue is standing here, flipping the bird.
+else
+mposet 'player statue' long A statue of $n is here, scaring away birds and children.
+endif
+endif
+endif
+endif
+endif
+~
+> greet_prog 100~
+mpsleep 5
+say Hi there... I'm just trying to get ideas for my next statue.
+mpsleep 5
+say Hmm, I'll tell you what, if you give me 5million gold, then I will dedicate this statue to you!
+mpsleep 3
+say Do we have a deal?
+~
+|
+#2850
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2801
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2802
+Evil Buu Statue~
+An Evil Buu Statue~
+&wA tall, skiny evil buu statue is here, posed in an attack stance.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2803
+Good Buu Statue~
+A Good Buu Statue~
+&PA big, fat good buu statue is here, holding some chocolate.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2804
+player statue~
+A Player Statue~
+A large block of stone stands here, ready to be sculpted.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2805
+Buu Kili Pass~
+&PA Buutopia Kili School Pass~
+&PA Buutopia Kili School pass rests on the ground here.~
+~
+13 0 16385
+0 0 0 0
+1 0 0
+#2806
+candy chocolate~
+&OA Piece of Chocolate~
+&OA piece of chocolate is melting on the ground.~
+~
+19 0 1
+0 0 0 0
+1 500 50
+#2807
+candy Gumball~
+&PA small gumball~
+&PA small gumball rolls around on the ground.~
+~
+19 0 1
+0 0 0 0
+1 1000 100
+#2808
+candy sour~
+&GA piece of Sour Candy~
+&GA piece of Sour Candy rolls around here.~
+~
+19 0 1
+0 0 0 0
+1 1250 125
+#2809
+candy taffy~
+&pA Piece of Taffy~
+&pA piece of taffy is stuck to the ground.~
+~
+19 0 1
+0 0 0 0
+1 1500 150
+#2810
+candy everlasting gobstopper~
+&CAn Everlasting Gobstopper~
+&CAn Everlasting Gobstopper is on the ground.~
+~
+19 0 1
+0 0 0 0
+1 12500000 1250000
+> use_prog 100~
+mea $n &wYou eat &CAn Everlasting Gobstopper.
+mer $n &w$n eats &CAn Everlasting Gobstopper.
+mpat 'invis gobstopper mob' mpforce 'invis gobstopper mob' mpgoto $n
+mpat 'invis gobstopper mob' mpforce 'invis gobstopper mob' mpoload 2810
+mpat 'invis gobstopper mob' mpforce 'invis gobstopper mob' mposet gobstopper level 5
+mpat 'invis gobstopper mob' mpforce 'invis gobstopper mob' give gobstopper $n
+mpat 'invis gobstopper mob' mpforce 'invis gobstopper mob' mpgoto 2827
+~
+|
+#2850
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2801
+First Room~
+~
+0 4 1 0
+R M 0 2801 1 2801
+R M 0 2850 1 2801
+R O 0 2850 1 2801
+R O 0 2801 1 2801
+S
+#2802
+&PBuutopia Transporter~
+&pThere is a very high tech transporter here that transporters
+people back to jpa. There is also a small shuttle dock, so shuttles
+and smaller ships can land on Buutopia. The air here on Buutopia
+smells like birthday cake and cotton candy, what an awesome
+place!
+
+Startup Transporter
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2803 0 0 0
+> custom_prog Startup Transporter~
+if haspropagandized($n)
+mea $n &RYou can't do that right now.
+else
+Mea $n 
+Mea $n &BYou hit a button.
+Mea $n &CA burst of blue light explodes from the transporter and takes you away.
+Mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 285
+Mpat $n mer $n &C$n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+endif
+~
+> rand_prog 100~
+if mobinroom(2818) > 0
+mppurge puppy
+endif
+~
+|
+S
+#2803
+&PBubbleGum Boulevard~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland? 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2802 0 0 0
+D1
+~
+~
+0 -1 2810 0 0 0
+D2
+~
+~
+0 -1 2804 0 0 0
+D3
+~
+~
+0 -1 2824 0 0 0
+R M 0 2822 1 2803
+S
+#2804
+&PPath to the Statue Garden~
+&pThis seems to be a short path into the center of the Buutopia
+colony. You can see several statues in the distance. Apparently
+the Buu race has decided to pay tribute to famous people in
+the form of statues.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2803 0 0 0
+D2
+~
+~
+0 -1 2805 0 0 0
+S
+#2805
+&PBefore the Statue Garden~
+&pBefore you are several statues and blocks of uncarved stone,
+soon to become statues. The grass is cut fairly short and small
+shrubs line the perimeter of the garden.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2804 0 0 0
+D1
+~
+~
+0 -1 2807 0 0 0
+D2
+~
+~
+0 -1 2849 0 0 0
+D3
+~
+~
+0 -1 2806 0 0 0
+S
+#2806
+&PIn the Statue Garden~
+&pBefore you are several statues and blocks of uncarved stone,
+soon to become statues. The grass is cut fairly short and small
+shrubs line the perimeter of the garden.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2805 0 0 0
+D2
+~
+~
+0 -1 2808 0 0 0
+S
+#2807
+&PIn the Statue Garden~
+&pBefore you are several statues and blocks of uncarved stone,
+soon to become statues. The grass is cut fairly short and small
+shrubs line the perimeter of the garden.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2809 0 0 0
+D3
+~
+~
+0 -1 2805 0 0 0
+S
+#2808
+&PIn the Statue Garden~
+&pBefore you are several statues and blocks of uncarved stone,
+soon to become statues. The grass is cut fairly short and small
+shrubs line the perimeter of the garden.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2806 0 0 0
+R O 0 2803 1 2808
+S
+#2809
+&PIn the Statue Garden~
+&pBefore you are several statues and blocks of uncarved stone,
+soon to become statues. The grass is cut fairly short and small
+shrubs line the perimeter of the garden.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2807 0 0 0
+R O 0 2802 1 2809
+S
+#2810
+&PBubbleGum Boulevard~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2811 0 0 0
+D3
+~
+~
+0 -1 2803 0 0 0
+S
+#2811
+&PBubbleGum Boulevard~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2810 0 0 0
+D8
+~
+~
+0 -1 2812 0 0 0
+S
+#2812
+&PJawbreaker Drive~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2814 0 0 0
+D2
+~
+~
+0 -1 2820 0 0 0
+D3
+~
+~
+0 -1 2813 0 0 0
+D7
+~
+~
+0 -1 2811 0 0 0
+R M 0 2823 1 2812
+S
+#2813
+&PBuutopia Gravity Trainer~
+&pAs soon as you enter this small building you feel twice as
+heavy. Moving around isn't quite as easy in here. In the center
+of the building is a large gravity manipulation device, which
+must be what's making you feel so heavy. Don't train with too
+high of a gravity level or you might go squish!
+~
+0 0 1 4
+D1
+~
+~
+0 -1 2812 0 0 0
+S
+#2814
+&PBuutopia Battle Tower~
+&pYou are here to fight, not read fancy descriptions!
+So kill some battlers!
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2812 0 0 0
+D4
+~
+~
+0 -1 2815 0 0 0
+R M 0 2802 1 2814
+S
+#2815
+&PBuutopia Battle Tower~
+&pYou are here to fight, not read fancy descriptions!
+So kill some battlers!
+~
+0 0 1 0
+D4
+~
+~
+0 -1 2816 0 0 0
+D5
+~
+~
+0 -1 2814 0 0 0
+R M 0 2803 1 2815
+S
+#2816
+&PBuutopia Battle Tower~
+&pYou are here to fight, not read fancy descriptions!
+So kill some battlers!
+~
+0 0 1 0
+D4
+~
+~
+0 -1 2817 0 0 0
+D5
+~
+~
+0 -1 2815 0 0 0
+R M 0 2804 1 2816
+S
+#2817
+&PBuutopia Battle Tower~
+&pYou are here to fight, not read fancy descriptions!
+So kill some battlers!
+~
+0 0 1 0
+D4
+~
+~
+0 -1 2818 0 0 0
+D5
+~
+~
+0 -1 2816 0 0 0
+R M 0 2805 1 2817
+S
+#2818
+&PBuutopia Battle Tower~
+&pYou are here to fight, not read fancy descriptions!
+So kill some battlers!
+~
+0 0 1 0
+D4
+~
+~
+0 -1 2819 0 0 0
+D5
+~
+~
+0 -1 2817 0 0 0
+R M 0 2806 1 2818
+S
+#2819
+&PBuutopia Battle Tower~
+&pYou are here to fight, not read fancy descriptions!
+So kill some battlers!
+~
+0 0 1 0
+D5
+~
+~
+0 -1 2818 0 0 0
+R M 0 2807 1 2819
+S
+#2820
+&PJawbreaker Drive~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2812 0 0 0
+D2
+~
+~
+0 -1 2821 0 0 0
+S
+#2821
+&PJawbreaker Drive~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2820 0 0 0
+D2
+~
+~
+0 -1 2822 0 0 0
+S
+#2822
+&PJawbreaker Drive~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2821 0 0 0
+D1
+~
+~
+0 -1 2823 0 0 0
+D2
+~
+~
+0 -1 2842 0 0 0
+S
+#2823
+&PBuutopia Hotel~
+&pSoon as you enter this building you feel relaxation wash over
+you. This seems like a great place to get some rest and rejuvinate
+yourself. Take a nap, sunbath, or even go swimming in the pool
+in the back!
+~
+0 0 1 1
+D3
+~
+~
+0 -1 2822 0 0 0
+S
+#2824
+&PBubbleGum Boulevard~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2803 0 0 0
+D3
+~
+~
+0 -1 2825 0 0 0
+S
+#2825
+&PBubbleGum Boulevard~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2824 0 0 0
+D3
+~
+~
+0 -1 2826 0 0 0
+R M 0 2821 1 2825
+S
+#2826
+&PBubbleGum Boulevard~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2827 0 0 0
+D1
+~
+~
+0 -1 2825 0 0 0
+D9
+~
+~
+0 -1 2828 0 0 0
+S
+#2827
+&PThe Candy Shoppe!~
+&pThis shop is the place dreams are made of. The walls are lined
+with bins full of candy. Ropes of taffy and bubblegum hang from
+the ceiling, and there is a mural made out of gumdrops and chocolate.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2826 0 0 0
+R M 0 2820 1 2827
+R M 0 2819 1 2827
+  R G 0 2810 1
+  R G 0 2808 1
+  R G 0 2806 1
+  R G 0 2807 1
+  R G 0 2809 1
+S
+#2828
+&PTaffy Road~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7595 0 0 0
+D2
+~
+~
+0 -1 2829 0 0 0
+D3
+~
+~
+0 -1 7594 0 0 0
+D6
+~
+~
+0 -1 2826 0 0 0
+S
+#2829
+&PTaffy Road~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2828 0 0 0
+D1
+~
+~
+0 -1 7597 0 0 0
+D2
+~
+~
+0 -1 2831 0 0 0
+D3
+~
+~
+0 -1 7596 0 0 0
+S
+#2830
+&PBuutopia Kili School~
+&pThis is the Kili Battler room, not much to say about it. There
+is a sign with instructions on how to use the room.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2848 0 0 0
+E
+sign~
+&z.
+&C============================================================
+
+To use the Kili School Replicators just say Kili Level #
+
+Level 1 - 10,000,000 PL
+Level 2 - 25,000,000 PL
+Level 3 - 50,000,000 PL
+Level 4 - 150,000,000 PL
+Level 5 - 500,000,000 PL
+Level 6 - 1,000,000,000 PL
+Level 7 - 2,000,000,000 PL
+
+============================================================
+~
+> speech_prog p level 7~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 7 Battler is replicated into the room!
+mpmload 2815
+endif
+~
+> speech_prog p level 6~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 6 Battler is replicated into the room!
+mpmload 2814
+endif
+~
+> speech_prog p level 5~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 5 Battler is replicated into the room!
+mpmload 2813
+endif
+~
+> speech_prog p level 4~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 4 Battler is replicated into the room!
+mpmload 2812
+endif
+~
+> speech_prog p level 3~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 3 Battler is replicated into the room!
+mpmload 2811
+endif
+~
+> speech_prog p level 2~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 2 Battler is replicated into the room!
+mpmload 2810
+endif
+~
+> speech_prog p level 1~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 1 Battler is replicated into the room!
+mpmload 2809
+endif
+~
+|
+S
+#2831
+&PTaffy Road~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2829 0 0 0
+D1
+~
+~
+0 -1 7599 0 0 0
+D2
+~
+~
+0 -1 2833 0 0 0
+D3
+~
+~
+0 -1 7598 0 0 0
+S
+#2832
+&PBuutopia Kili School~
+&pThis is the Kili Battler room, not much to say about it. There
+is a sign with instructions on how to use the room.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2848 0 0 0
+E
+sign~
+&z.
+&C============================================================
+
+To use the Kili School Replicators just say Kili Level #
+
+Level 1 - 10,000,000 PL
+Level 2 - 25,000,000 PL
+Level 3 - 50,000,000 PL
+Level 4 - 150,000,000 PL
+Level 5 - 500,000,000 PL
+Level 6 - 1,000,000,000 PL
+Level 7 - 2,000,000,000 PL
+
+============================================================
+~
+> speech_prog p level 7~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 7 Battler is replicated into the room!
+mpmload 2815
+endif
+~
+> speech_prog p level 6~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 6 Battler is replicated into the room!
+mpmload 2814
+endif
+~
+> speech_prog p level 5~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 5 Battler is replicated into the room!
+mpmload 2813
+endif
+~
+> speech_prog p level 4~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 4 Battler is replicated into the room!
+mpmload 2812
+endif
+~
+> speech_prog p level 3~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 3 Battler is replicated into the room!
+mpmload 2811
+endif
+~
+> speech_prog p level 2~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 2 Battler is replicated into the room!
+mpmload 2810
+endif
+~
+> speech_prog p level 1~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 1 Battler is replicated into the room!
+mpmload 2809
+endif
+~
+|
+S
+#2833
+&PTaffy Road~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2831 0 0 0
+D1
+~
+~
+0 -1 7601 0 0 0
+D2
+~
+~
+0 -1 2835 0 0 0
+D3
+~
+~
+0 -1 7600 0 0 0
+S
+#2834
+&PBuutopia Kili School~
+&pThis is the Kili Battler room, not much to say about it. There
+is a sign with instructions on how to use the room.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2848 0 0 0
+E
+sign~
+&z.
+&C============================================================
+
+To use the Kili School Replicators just say Kili Level #
+
+Level 1 - 10,000,000 PL
+Level 2 - 25,000,000 PL
+Level 3 - 50,000,000 PL
+Level 4 - 150,000,000 PL
+Level 5 - 500,000,000 PL
+Level 6 - 1,000,000,000 PL
+Level 7 - 2,000,000,000 PL
+
+============================================================
+~
+> speech_prog p level 7~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 7 Battler is replicated into the room!
+mpmload 2815
+endif
+~
+> speech_prog p level 6~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 6 Battler is replicated into the room!
+mpmload 2814
+endif
+~
+> speech_prog p level 5~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 5 Battler is replicated into the room!
+mpmload 2813
+endif
+~
+> speech_prog p level 4~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 4 Battler is replicated into the room!
+mpmload 2812
+endif
+~
+> speech_prog p level 3~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 3 Battler is replicated into the room!
+mpmload 2811
+endif
+~
+> speech_prog p level 2~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 2 Battler is replicated into the room!
+mpmload 2810
+endif
+~
+> speech_prog p level 1~
+if isfight($n)
+mpdonothing
+else
+mppurge
+mea $n &CA Level 1 Battler is replicated into the room!
+mpmload 2809
+endif
+~
+|
+S
+#2835
+&PTaffy Road~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2833 0 0 0
+D1
+~
+~
+0 -1 7593 0 0 0
+D3
+~
+~
+0 -1 7592 0 0 0
+D8
+~
+~
+0 -1 2836 0 0 0
+S
+#2836
+&PChocolate Street~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2837 0 0 0
+D7
+~
+~
+0 -1 2835 0 0 0
+R M 0 2826 1 2836
+S
+#2837
+&PChocolate Street~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2838 0 0 0
+D2
+~
+~
+0 -1 2844 0 0 0
+D3
+~
+~
+0 -1 2836 0 0 0
+S
+#2838
+&PChocolate Street~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2839 0 0 0
+D3
+~
+~
+0 -1 2837 0 0 0
+S
+#2839
+&PChocolate Street~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2843 0 0 0
+D1
+~
+~
+0 -1 2840 0 0 0
+D2
+~
+~
+0 -1 2845 0 0 0
+D3
+~
+~
+0 -1 2838 0 0 0
+R M 0 2825 1 2839
+S
+#2840
+&PChocolate Street~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2841 0 0 0
+D3
+~
+~
+0 -1 2839 0 0 0
+S
+#2841
+&PChocolate Street~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2846 0 0 0
+D3
+~
+~
+0 -1 2840 0 0 0
+D6
+~
+~
+0 -1 2842 0 0 0
+S
+#2842
+&PJawbreaker Drive~
+&pThe architecture here on Buutopia seems very primative. All
+of the roads seem to be built out of whatever they are named
+after and all of the buildings look like pastries and large
+chocolate structures. Is this a planet or candyland?
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2822 0 0 0
+D9
+~
+~
+0 -1 2841 0 0 0
+R M 0 2824 1 2842
+S
+#2843
+&PBuutopia Trainers Inc.~
+&pThis building is pretty simple. There are some training dummies
+around the room, for people to practice the skills they are
+learning. A few buus are punching and kicking some of the dummies,
+and a couple really powerful buu's are using upper level ki
+attacks like 'Super Ghost Kamikaze'.
+~
+0 0 1 64
+D2
+~
+~
+0 -1 2839 0 0 0
+R M 0 2816 1 2843
+S
+#2844
+&PThe Buutopia Pet Shop~
+&pThis little shop is full of animal sounds and is probably the
+only place on the planet that doesn't smell like sweet candy
+goodness. There is a large sign up that says there is a big
+sale on puppies.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2837 0 0 0
+R M 0 2817 1 2844
+E
+sign~
+&z.
+&C===========================================
+Puppies for sale!
+
+- Bee Jr. - 5million
+
+- Rex - 2.5million
+
+- Scruffy - 1million
+
+- Princess - 10million
+
+- Rascal - 2.5million
+===========================================
+~
+S
+#2845
+&PBuutopia Library~
+&pThe library is full of useful books on how to advance your
+skills to further levels. Since the Buu race has so many universal
+skills they need alot of information on other races and how
+they improve their skills.
+~
+0 0 1 524288
+D0
+~
+~
+0 -1 2839 0 0 0
+S
+#2846
+&PBuutopia Kili School~
+&pThe first thing you see upon entering this building is a large
+desk with a female buu sitting behind it taking phone calls.This
+place seems very professional and very well kept.There is a
+large pamplet booth full of titles like "Kili is Cool!", "Kili...
+It's that time of the month", and "How big's your kili?" 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2841 0 0 0
+R M 0 2808 1 2846
+S
+#2847
+&PBuutopia Kili School~
+&pThis is the hallway back to the kili battler rooms. The floor
+is covered in a nice soft carpet, and there are kili posters
+along the hallway. This place really reminds you of a dentists
+office...
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2848 0 0 0
+D3
+~
+~
+0 -1 2846 0 0 0
+S
+#2848
+&PBuutopia Kili School~
+&pThis is the hallway back to the kili battler rooms. The floor
+is covered in a nice soft carpet, and there are kili posters
+along the hallway. This place really reminds you of a dentists
+office...
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2834 0 0 0
+D1
+~
+~
+0 -1 2832 0 0 0
+D2
+~
+~
+0 -1 2830 0 0 0
+D3
+~
+~
+0 -1 2847 0 0 0
+S
+#2849
+&PIn the Statue Garden~
+&pBefore you are several statues and blocks of uncarved stone,
+soon to become statues. The grass is cut fairly short and small
+shrubs line the perimeter of the garden.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2805 0 0 0
+R M 0 2849 1 2849
+R O 0 2804 1 2849
+S
+#2850
+Last room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 2819    0  0  0  0  0   120  90         0 23    ; A Candy Shop Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

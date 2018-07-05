@@ -1,0 +1,4026 @@
+#AREA   Clan Level Quest Area~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+144 60
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2601
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2602
+invis level 2 worker~
+Invis Worker~
+An invis level 2 worker is here...
+~
+~
+77594627 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2603
+invis one counter~
+An Invis Mob Counter~
+An invis mob is here, to indicate someone is in the maze...
+~
+~
+77594627 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2604
+invis two counter~
+An Invis Mob Counter~
+An invis mob is here, to indicate someone is doing the riddles...
+~
+~
+77594627 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2605
+strange old man~
+A Strange Old Man~
+A strange old man stands here, but what's stranger is that he is naked!
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> speech_prog p I have it all~
+if clanlevel($n) == 3
+if carryingvnum($n) == 8525
+if carryingvnum($n) == 6627
+if carryingvnum($n) == 7104
+if carryingvnum($n) == 417
+if carryingvnum($n) == 8317
+if carryingvnum($n) == 969
+if carryingvnum($n) == 8124
+if carryingvnum($n) == 8071
+if carryingvnum($n) == 6811
+if carryingvnum($n) == 2197
+say You did it!
+mpforce $n drop all
+mppurge
+say Anyone that has the tracking abilities of your likes, is one good clan leader!
+mpclanlevel $n 4
+mpmudecho &b|&GCLAN&b|&z: &Y$n's&O clan has reached &WLevel 4&O!
+mpoload 2604
+give sphere $n
+mpforce $n look wall2
+else
+say You don't have the Buster Sword.
+endif
+else
+say You don't have the Scouter
+endif
+else
+say You don't have the Earring.
+endif
+else
+say You don't have the Pendant.
+endif
+else
+say You don't have the pants
+endif
+else
+say You don't have the Broadsword
+endif
+else
+say You don't have the Ring
+endif
+else
+say You don't have the Cloak
+endif
+else
+say You don't have the Insignia
+endif
+else
+say You don't have the Boots
+endif
+else
+say You aren't the correct clan level...
+endif
+~
+> speech_prog p yes~
+mpsleep 3
+say Thank god, i know it's hot down here, but i can't get out of this volcano without any armor to protect me!
+mpsleep 5
+say Can you bring me this stuff?
+mpsleep 3
+mpforce $n look wall
+~
+> greet_prog 100~
+mpsleep 5
+say Are you going to just stand there and stare at my junk?
+mpsleep 3
+say Can you help me get some equipment?
+~
+|
+#2606
+Lava Creature~
+A Lava Creature~
+&rA huge pillar of lava is standing here... alive!?
+~
+~
+3 -1000 C
+1 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+30 13 13 20 13 13 25
+0 0 0 0 0
+0 3 0 0 0 0 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpkill $n
+~
+> death_prog 100~
+mpmload 2606
+~
+|
+#2607
+invis level 4 worker~
+An invis level 4 worker~
+An invis level 4 worker is here...
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> rand_prog 45~
+mpclosepassage 2634 0
+~
+|
+#2608
+invis statue counter one~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2609
+invis statue counter two~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2610
+invis statue counter three~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2611
+invis statue counter four~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2612
+invis statue counter five~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2613
+invis statue counter six~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2614
+Lava Wyrm~
+A Lava Wyrm~
+&rA large wyrm made out of lava blocks the path here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+27 25 13 25 25 13 25
+0 0 0 0 0
+0 3 0 0 0 0 3
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpkill $n
+~
+> death_prog 100~
+mpecho &RThe Lava Wyrm Splits in two and continues attacking!
+mpmload 2615
+mpmload 2615
+mpforce two mpkill $n
+mpforce 2.two mpkill $n
+~
+|
+#2615
+lava wyrm two~
+A Lava Wyrm~
+&rA large wyrm made out of lava blocks the path here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+27 25 13 25 25 13 25
+0 0 0 0 0
+0 3 0 0 0 0 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpecho &RThe Lava Wyrm splits in two and continues attacking!
+mpmload 2616
+mpmload 2616
+mpforce three mpkill $n
+mpforce 2.three mpkill $n
+~
+> greet_prog 100~
+mpkill $n
+~
+|
+#2616
+lava wyrm three~
+A Lava Wyrm~
+&rA large wyrm made out of lava blocks the path here.
+~
+~
+3 -1000 C
+5 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+27 25 13 25 25 13 25
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpkill $n
+~
+|
+#2617
+invis altar counter one~
+an invis counter mob, bitch~
+An invis Counter mob that must be used because invis flag on objects doesn't fuckin work
+~
+~
+75497475 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2800
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2601
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2602
+The Master Key~
+The Master Key~
+Some god dropped a newly created The Master Key here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#2603
+small treasure chest~
+A Small Treasure Chest~
+A small, dusty chest rests here.~
+~
+15 0 0
+2 0 0 0
+1 0 0
+#2604
+half sphere lava rock~
+&OA Smooth Hemi-Sphere of Lava Rock~
+A small hemi-sphere of lava rock rolls around on the ground.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+#2605
+Sphere Lava Rock~
+&RA Perfect Sphere of Lava~
+A perfect sphere of lava eminates heat here.~
+~
+13 1 1
+0 0 0 0
+1 0 0
+#2606
+Dragon Statue~
+A Large Dragon Statue~
+&rA statue of a fiery red dragon stands here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2607
+Dragon Statue~
+A Large Dragon Statue~
+&rA statue of a fiery red dragon stands here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2608
+Dragon Statue~
+A Large Dragon Statue~
+&rA statue of a fiery red dragon stands here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2609
+Ancient Altar~
+An Ancient Altar~
+A large bowl shaped altar rests in the center of the room.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+> exa_prog 100~
+if leader($n)
+mea $n &r-------------------------------------------------------
+mea $n &rThe sacrifice of followers blood is the only path
+mea $n &rto the ultimate power. Only a person with enough
+mea $n &rpower to order his followers to sacrifice theirselves,
+mea $n &rdeserves the ultimate power. Fill the altar with your
+mea $n &rfollowers blood, and you shall recieve this power...
+mea $n &r-------------------------------------------------------
+mpsleep 5
+mea $n &WYour followers must 'offer self' to become a sacrifice for the altar.
+mea $n &WIf you can't fill the altar, say I give up and come back another day.
+else
+mea $n &r-------------------------------------------------------
+mea $n &rThe sacrifice of followers blood is the only path
+mea $n &rto the ultimate power. Only a person with enough
+mea $n &rpower to order his followers to sacrifice theirselves,
+mea $n &rdeserves the ultimate power. Fill the altar with your
+mea $n &rfollowers blood, and you shall recieve this power...
+mea $n &r-------------------------------------------------------
+mea $n &WIf you can't fill the altar, say I give up and come back another day.
+endif
+~
+|
+#2666
+Philosopher Stone~
+The Philosopher's Stone~
+The Philosopher's Stone rests here.~
+~
+9 1 16385
+0 0 0 0
+1 0 0
+> custom_prog philosophise~
+if wearingvnum($n) == 2666
+mea $n &P&PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &P&PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+save
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpsleep 40
+mea $n &PThe Philosopher's Stone glows brightly making you invincible!
+mer $n &PThe Philosopher's Stone glows brightly making $n invincible!
+mprestore $n 150
+mpforce $n remove 'philosopher stone'
+mpforce $n junk philosopher
+endif
+~
+> wear_prog 100~
+mea $n &PTo reason philosophically is to unlock the mysteries of this stone.
+~
+|
+#2800
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2601
+First Room~
+~
+0 4 1 0
+R M 0 2601 1 2601
+R M 0 2800 1 2601
+R O 0 2601 1 2601
+R O 0 2800 1 2601
+S
+#2602
+&OTop of the Volcano~
+&R&rIntense heat and steam is the first thing that you notice
+as you reach the top and opening of this volcano. As you look
+over the edge the lava seems to be pretty inactive at the moment,
+but this doesn't mean this isn't a dangerous place. There seems
+to be a large spiral staircase leading deeper into the volcano.
+~
+0 4 1 0
+D0
+~
+~
+536870912 -1 2799 25 474 0
+D1
+~
+~
+536870912 -1 2799 26 475 0
+D2
+~
+~
+536870912 -1 2799 25 476 0
+D3
+~
+~
+536870912 -1 2799 24 475 0
+> emote_prog p goes down the spiral staircase~
+if ispkill($n)
+mptransfer $n 2603
+mpat $n mpforce $n look
+else
+mea $n &WSorry this place is too dangerous for you.
+endif
+~
+|
+S
+#2603
+&ODescending Into the Volcano~
+&rIntense heat and steam are the first thing that you notice
+as decend into the mouth of the volcano. The naturally made
+spiral stairs leading deeper into the volcano seem to have been
+created from dried magma.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2604 0 0 0
+D4
+~
+~
+0 -1 2602 0 0 0
+S
+#2604
+&OVolcano: Sub-Level 1~
+&rThe intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2603 0 0 0
+D8
+~
+~
+0 -1 2605 0 0 0
+S
+#2605
+&OVolcano: Sub-Level 1~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2606 0 0 0
+D7
+~
+~
+0 -1 2604 0 0 0
+S
+#2606
+&OVolcano: Sub-Level 1~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2605 0 0 0
+D2
+~
+~
+0 -1 2607 0 0 0
+S
+#2607
+&OVolcano: Sub-Level 1~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2606 0 0 0
+D3
+~
+~
+0 -1 2608 0 0 0
+S
+#2608
+&OVolcano: Sub-Level 1~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2607 0 0 0
+D7
+~
+~
+0 -1 2609 0 0 0
+S
+#2609
+&OVolcano: Sub-Level 1~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2610 0 0 0
+D8
+~
+~
+0 -1 2608 0 0 0
+S
+#2610
+&OVolcano: Sub-Level 1~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2609 0 0 0
+D3
+~
+~
+0 -1 2635 0 0 0
+D6
+~
+~
+0 -1 2611 0 0 0
+S
+#2611
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2612 0 0 0
+D9
+~
+~
+0 -1 2610 0 0 0
+S
+#2612
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2611 0 0 0
+D8
+~
+~
+0 -1 2613 0 0 0
+S
+#2613
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2614 0 0 0
+D7
+~
+~
+0 -1 2612 0 0 0
+S
+#2614
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2613 0 0 0
+D2
+~
+~
+0 -1 2615 0 0 0
+S
+#2615
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2614 0 0 0
+D3
+~
+~
+0 -1 2616 0 0 0
+S
+#2616
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2615 0 0 0
+D7
+~
+~
+0 -1 2617 0 0 0
+S
+#2617
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2618 0 0 0
+D8
+~
+~
+0 -1 2616 0 0 0
+S
+#2618
+&OVolcano: Sub-Level 2~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2617 0 0 0
+D3
+~
+~
+0 -1 2645 0 0 0
+D6
+~
+~
+0 -1 2619 0 0 0
+S
+#2619
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2620 0 0 0
+D9
+~
+~
+0 -1 2618 0 0 0
+S
+#2620
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2619 0 0 0
+D8
+~
+~
+0 -1 2621 0 0 0
+S
+#2621
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2622 0 0 0
+D7
+~
+~
+0 -1 2620 0 0 0
+S
+#2622
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2621 0 0 0
+D2
+~
+~
+0 -1 2623 0 0 0
+S
+#2623
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2622 0 0 0
+D3
+~
+~
+0 -1 2624 0 0 0
+S
+#2624
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2623 0 0 0
+D7
+~
+~
+0 -1 2625 0 0 0
+S
+#2625
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2626 0 0 0
+D8
+~
+~
+0 -1 2624 0 0 0
+S
+#2626
+&OVolcano: Sub-Level 3~
+&r The intense heat and steam continue to bother you as you follow
+the staircase deeper. It seems very monotonous as you continue
+on, but this staircase must lead to something.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2625 0 0 0
+D3
+~
+~
+0 -1 2671 0 0 0
+D6
+~
+~
+0 -1 2627 0 0 0
+S
+#2627
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2628 0 0 0
+D9
+~
+~
+0 -1 2626 0 0 0
+S
+#2628
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2627 0 0 0
+D8
+~
+~
+0 -1 2629 0 0 0
+S
+#2629
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2630 0 0 0
+D7
+~
+~
+0 -1 2628 0 0 0
+S
+#2630
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2629 0 0 0
+D2
+~
+~
+0 -1 2631 0 0 0
+S
+#2631
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2630 0 0 0
+D3
+~
+~
+0 -1 2632 0 0 0
+S
+#2632
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2631 0 0 0
+D7
+~
+~
+0 -1 2633 0 0 0
+S
+#2633
+&OVolcano: Sub-Level 4~
+&rThe intensity of the heat seems to have almost doubled on this
+level. You must be close to the huge lava pool you saw from
+the mouth of the volcano. You can see tongues of fire licking
+up into the air from the center. You can't take too much more
+of this!
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2634 0 0 0
+D8
+~
+~
+0 -1 2632 0 0 0
+S
+#2634
+&OVolcano: Sub-Level 4~
+&rYou have finally reached the bottom of the staircase. The next
+step is straight into the huge pool of lava that fills the bottom
+of the volcano. You are on the edge of passing out from the
+extremely high heat. You have to get out of here soon.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2633 0 0 0
+R M 0 2607 1 2634
+> entry_prog 100~
+if carryingvnum($n) == 2605
+mpsleep 5
+mpforce $n drop 'sphere lava rock'
+mea $n &RThe Sphere of Lava floats out of your hands and begins glowing redder than the lava all around you!
+mer $n &RA small sphere of lava floats out of $n's hands and beings glowing bright red!
+mppurge 'sphere lava rock'
+mpsleep 5
+mpecho &rThe lava pool begins bubbling and boiling violently as a platform of rock rises out of the lava.
+mpecho &RThe platform of rock, still steaming from the lava, leads across the pool to a once unaccessable cavern.
+mpecho &RYou better hurry before it sinks back into the lava!
+mpopenpassage 2634 2684 0
+mpforce $n north
+else
+mpdonothing
+endif
+~
+|
+S
+#2635
+&OA Volcanic Cavern~
+&OThis cavern is extremely warm and dry. The walls are made of
+a shiny volcanic rock which was probably shaped by lava that
+has flowed through here in the past. Small trickles of lava
+flow just beneath the rock like veins.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2610 0 0 0
+D3
+~
+~
+0 -1 2636 0 0 0
+> entry_prog 100~
+if leader($n)
+if clanlevel($n) == 1
+mpdonothing
+else
+mea $n &WSorry, you are't the proper clanlevel for this quest.
+mpforce $n east
+endif
+else
+mea $n &WSorry, only clan leaders can do this quest.
+mpforce $n east
+endif
+~
+|
+S
+#2636
+&OA Volcanic Cavern~
+&OThis cavern is extremely warm and dry. The walls are made of
+a shiny volcanic rock which was probably shaped by lava that
+has flowed through here in the past. Small trickles of lava
+flow just beneath the rock like veins.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2635 0 0 0
+D2
+~
+~
+0 -1 2637 0 0 0
+S
+#2637
+&OA Volcanic Cavern~
+&OThis cavern is extremely warm and dry. The walls are made of
+a shiny volcanic rock which was probably shaped by lava that
+has flowed through here in the past. Small trickles of lava
+flow just beneath the rock like veins.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2636 0 0 0
+D8
+~
+~
+0 -1 2638 0 0 0
+S
+#2638
+&OA Volcanic Cavern~
+&OThis cavern is extremely warm and dry. The walls are made of
+a shiny volcanic rock which was probably shaped by lava that
+has flowed through here in the past. Small trickles of lava
+flow just beneath the rock like veins.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2639 0 0 0
+D7
+~
+~
+0 -1 2637 0 0 0
+S
+#2639
+&OA Volcanic Cavern~
+&OThis cavern is extremely warm and dry. The walls are made of
+a shiny volcanic rock which was probably shaped by lava that
+has flowed through here in the past. Small trickles of lava
+flow just beneath the rock like veins.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2638 0 0 0
+D2
+~
+~
+0 -1 2640 0 0 0
+S
+#2640
+&OA Glowing Volcanic Cavern~
+&OThis cavern is extremely warm and dry. The walls are made of
+a shiny volcanic rock which was probably shaped by lava that
+has flowed through here in the past. This room of the cavern
+seems to have an eerie glow.
+
+To procede say "I wish to procede"
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2639 0 0 0
+> speech_prog p i wish to procede~
+if mobinroom(2604) > 0
+mpecho &WSorry, only one person can procede to the next area at a time.
+else
+mpecho &YAs you wish...
+mptransfer $n 2641
+mpat $n mpforce $n look
+mpat 'invis two counter' mpforce 'invis two counter' mpgoto 2640
+endif
+~
+|
+S
+#2641
+&OThe First Ancient Riddle~
+&OThe following ancient riddle is inscribed on the wall:
+
+&RI dance and breathe and can even deceive.
+I am not alive, yet watch how I thrive.
+Do not come too near or I will eat you my dear.
+What am I?
+
+&OSpeak the answer or give up.
+~
+0 2359300 1 128
+R M 0 2604 1 2641
+> speech_prog p I give up~
+mea $n &OHow pathetic...
+mea $n &OThe floor beneath you crumbles, sending you to the lava pits below!
+mptransfer $n 2798
+mpat $n mpforce $n look
+mpat 'invis two counter' mpforce 'invis two counter' mpgoto 2641
+~
+> speech_prog p Fire~
+mpecho &YYou are correct!
+mpsleep 3
+mpecho &OA large stone door opens, leading to the next room.
+mptransfer $n 2642
+mpat $n mpforce $n look
+~
+|
+S
+#2642
+&OThe Second Ancient Riddle~
+&OThe following ancient riddle is inscribed on the wall:
+
+&RRearrange the letters in NOR DO WE to form one word.
+
+&OSpeak the answer or give up.
+~
+0 2359300 1 128
+> speech_prog p I give up~
+mea $n &OHow pathetic...
+mea $n &OThe floor beneath you crumbles, sending you to the lava pits below!
+mptransfer $n 2798
+mpat $n mpforce $n look
+mpat 'invis two counter' mpforce 'invis two counter' mpgoto 2641
+~
+> speech_prog p one word~
+mpecho &YYou are correct!
+mpsleep 3
+mpecho &OA large stone door opens, leading to the next room.
+mptransfer $n 2643
+mpat $n mpforce $n look
+~
+|
+S
+#2643
+&OThe Third Ancient Riddle~
+&OThe following ancient riddle is inscribed on the wall:
+
+&RSome try to hide, some try to cheat, but time will show, we always will meet.
+Try as you might, to guess my name, I promise you'll know, when you I do claim.
+Who am I?
+
+&OSpeak the answer or give up.
+~
+0 2359300 1 128
+> speech_prog p I give up~
+mea $n &OHow pathetic...
+mea $n &OThe floor beneath you crumbles, sending you to the lava pits below!
+mptransfer $n 2798
+mpat $n mpforce $n look
+mpat 'invis two counter' mpforce 'invis two counter' mpgoto 2641
+~
+> speech_prog p Death~
+mpecho &YYou are correct!
+mpsleep 3
+mpecho &OA large stone door opens, leading to the next room.
+mptransfer $n 2644
+mpat $n mpforce $n look
+~
+|
+S
+#2644
+&OThe Final Ancient Riddle~
+&OThe following ancient riddle is inscribed on the wall:
+
+&RI am the black child of a white father
+A wingless bird, flying even to the clouds of heaven.
+I give birth to tears of mourning in pupils that meet me,
+and at once on my birth I am dissolved into air.
+
+&OSpeak the answer or give up.
+~
+0 2359300 1 128
+> speech_prog p I give up~
+mea $n &OHow pathetic...
+mea $n &OThe floor beneath you crumbles, sending you to the lava pits below!
+mptransfer $n 2798
+mpat $n mpforce $n look
+mpat 'invis two counter' mpforce 'invis two counter' mpgoto 2641
+~
+> speech_prog p Smoke~
+mpsleep 5
+mpecho &YYou are correct!
+mpsleep 3
+mpecho &YAnyone wise enough to solve these ancient riddles, is meant to lead!
+mpsleep 3
+mpclanlevel $n 2
+mpmudecho &b|&GCLAN&b|&z: &Y$n's&O clan has reached &WLevel 2&O!
+mptransfer $n 2610
+mpat $n mpforce $n look
+mpat 'invis two counter' mpforce 'invis two counter' mpgoto 2641
+~
+|
+S
+#2645
+&OA Volcanic Cavern Maze Entrance~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+
+To enter the maze, just say "I wish to enter"
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2618 0 0 0
+> entry_prog 100~
+if leader($n)
+if clanlevel($n) == 2
+mpdonothing
+else
+mea $n &WSorry, you aren't the proper clanlevel for this quest.
+mpforce $n east
+endif
+else
+mea $n &WSorry, this quest is only for clan leaders.
+mpforce $n east
+endif
+~
+> speech_prog p I wish to enter~
+if mobinroom(2603) == 0
+mpecho &YAs you wish...
+mptransfer $n 2646
+mpat $n mpforce $n look
+mpat 'invis one counter' mpforce 'invis one counter' mpgoto 2645
+else
+mpecho &WSorry, only one person is allowed in the maze at a time.
+endif
+~
+|
+S
+#2646
+&OA Volcanic Cavern Maze: Entrance~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+
+To give up trying, just say so.
+~
+0 2359296 1 128
+D2
+~
+~
+0 -1 2655 0 0 0
+D3
+~
+~
+0 -1 2647 0 0 0
+> speech_prog p I give up~
+mea $n &OHow pathetic...
+mea $n &OThe floor beneath you crumbles, sending you to the lava pits below!
+mptransfer $n 2798
+mpat $n mpforce $n look
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2651
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close green
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock green
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2663
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close yellow
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock yellow
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2661
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close blue
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock blue
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2667
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close red
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock red
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+mpat 'invis one counter' mpforce 'invis one counter' mpgoto 2669
+~
+|
+S
+#2647
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2646 0 0 0
+D2
+~
+~
+0 -1 2654 0 0 0
+D3
+~
+~
+0 -1 2648 0 0 0
+S
+#2648
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2647 0 0 0
+D2
+~
+~
+0 -1 2653 0 0 0
+D3
+~
+~
+0 -1 2649 0 0 0
+S
+#2649
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2648 0 0 0
+> entry_prog 100~
+mpforce $n junk sensu
+mpdamage $n 20
+mpecho &OLarge rocks fall ontop of you, Ouch!
+~
+|
+S
+#2650
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D2
+~
+~
+7 2602 2651 0 0 0
+R D 0 2650 2 2
+> entry_prog 100~
+mpecho &YAs you enter the room you step on a small yellow rock in the floor.
+mpsleep 2
+mpecho &OYou can hear a large door opening in the distance.
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2663
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' unlock yellow
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' open yellow
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+~
+|
+S
+#2651
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+green door north~
+7 2602 2650 0 0 0
+D1
+~
+~
+0 -1 2652 0 0 0
+R D 0 2651 0 2
+S
+#2652
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2653 0 0 0
+D3
+~
+~
+0 -1 2651 0 0 0
+S
+#2653
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2648 0 0 0
+D2
+~
+~
+0 -1 2658 0 0 0
+D3
+~
+~
+0 -1 2652 0 0 0
+S
+#2654
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2647 0 0 0
+D2
+~
+~
+0 -1 2659 0 0 0
+S
+#2655
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2646 0 0 0
+R O 0 2603 1 2655
+  R P 0 106 1 2603
+S
+#2656
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2657 0 0 0
+D2
+~
+~
+0 -1 2665 0 0 0
+S
+#2657
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2658 0 0 0
+D3
+~
+~
+0 -1 2656 0 0 0
+S
+#2658
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2653 0 0 0
+D2
+~
+~
+0 -1 2663 0 0 0
+D3
+~
+~
+0 -1 2657 0 0 0
+S
+#2659
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2654 0 0 0
+D1
+~
+~
+0 -1 2660 0 0 0
+S
+#2660
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D2
+~
+~
+0 -1 2661 0 0 0
+D3
+~
+~
+0 -1 2659 0 0 0
+S
+#2661
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2660 0 0 0
+D2
+~
+blue door south~
+7 2602 2670 0 0 0
+S
+#2662
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D2
+~
+~
+0 -1 2669 0 0 0
+D3
+~
+~
+0 -1 2663 0 0 0
+S
+#2663
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2658 0 0 0
+D1
+~
+~
+0 -1 2662 0 0 0
+D2
+~
+Yellow Door South~
+7 2602 2668 0 0 0
+R D 0 2663 2 2
+S
+#2664
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D3
+~
+~
+0 -1 2665 0 0 0
+> entry_prog 100~
+mpforce $n junk sensu
+mpdamage $n 20
+mpecho &OLarge rocks fall ontop of you, Ouch!
+~
+|
+S
+#2665
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2656 0 0 0
+D1
+~
+~
+0 -1 2664 0 0 0
+S
+#2666
+&OA Volcanic Cavern Maze: Exit~
+&OYou have finally reached the end of this confusing maze. The
+walls here aren't as disorienting to look at, making you feel
+a little better. Inscribed on the far wall it reads "Speak the
+door colors in the correct order to procede!" 
+~
+0 2359300 1 128
+> speech_prog p green yellow blue red~
+mpsleep 3
+mpecho &YThat is the correct order!
+mpsleep 5
+mpecho &YAnyone wise enough to navigate this maze is a born clan leader!
+mpsleep 3
+mpclanlevel $n 3
+mpmudecho &b|&GCLAN&b|&z: &Y$n's&O clan has reached &WLevel 3&O!
+mptransfer $n 2618
+mpat $n mpforce $n look
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2651
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close green
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock green
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2663
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close yellow
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock yellow
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2661
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close blue
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock blue
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2667
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close red
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock red
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+mpat 'invis one counter' mpforce 'invis one counter' mpgoto 2669
+~
+|
+S
+#2667
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D1
+~
+~
+0 -1 2668 0 0 0
+D3
+~
+red door west~
+7 2602 2666 0 0 0
+R D 0 2667 3 2
+> entry_prog 100~
+mpecho &BAs you enter the room you step on a small blue rock in the floor.
+mpsleep 2
+mpecho &OYou can hear a large door opening in the distance.
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2661
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' unlock blue
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' open blue
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+~
+|
+S
+#2668
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+7 2602 2663 0 0 0
+D3
+~
+~
+0 -1 2667 0 0 0
+R D 0 2668 0 2
+S
+#2669
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+0 -1 2662 0 0 0
+R M 0 2602 1 2669
+  R G 0 2602 1
+R M 0 2603 1 2669
+> entry_prog 100~
+mpecho &gAs you enter the room you step on a small green rock in the floor.
+mpsleep 2
+mpecho &OYou can hear a large door opening in the distance.
+mpforce 'invis level 2 worker' mpgoto 2651
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' unlock green
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' open green
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+~
+|
+S
+#2670
+&OA Volcanic Cavern Maze~
+&OYou have entered an enourmous volcanic cavern with walls made
+of the glassiest looking rock you've ever seen. They are almost
+mirror like, except much darker. The reflections in this cavern
+make things very disorienting.
+~
+0 2359296 1 128
+D0
+~
+~
+7 2602 2661 0 0 0
+> entry_prog 100~
+mpecho &RAs you enter the room you step on a small red rock in the floor.
+mpsleep 2
+mpecho &OYou can hear a large door opening in the distance.
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2667
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' unlock red
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' open red
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+~
+|
+S
+#2671
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D1
+~
+~
+0 -1 2626 0 0 0
+D2
+~
+~
+0 -1 2672 0 0 0
+> entry_prog 100~
+if leader($n)
+if clanlevel($n) > 2
+mpdonothing
+else
+mea $n &WSorry, you aren't ready for this quest yet.
+mpforce $n east
+endif
+else
+mea $n &WSorry, this quest is only for clan leaders.
+mpforce $n east
+endif
+~
+|
+S
+#2672
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D0
+~
+~
+0 -1 2671 0 0 0
+D2
+~
+~
+0 -1 2673 0 0 0
+S
+#2673
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D0
+~
+~
+0 -1 2671 0 0 0
+D2
+~
+~
+0 -1 2674 0 0 0
+S
+#2674
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D0
+~
+~
+0 -1 2671 0 0 0
+D2
+~
+~
+0 -1 2675 0 0 0
+R M 0 2606 1 2674
+S
+#2675
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D0
+~
+~
+0 -1 2671 0 0 0
+D2
+~
+~
+0 -1 2676 0 0 0
+S
+#2676
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D0
+~
+~
+0 -1 2671 0 0 0
+D2
+~
+~
+0 -1 2677 0 0 0
+S
+#2677
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D0
+~
+~
+0 -1 2671 0 0 0
+D1
+~
+~
+0 -1 2678 0 0 0
+S
+#2678
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D1
+~
+~
+0 -1 2679 0 0 0
+D3
+~
+~
+0 -1 2677 0 0 0
+S
+#2679
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D1
+~
+~
+0 -1 2680 0 0 0
+D3
+~
+~
+0 -1 2677 0 0 0
+S
+#2680
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D1
+~
+~
+0 -1 2681 0 0 0
+D3
+~
+~
+0 -1 2677 0 0 0
+R M 0 2606 2 2680
+S
+#2681
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D1
+~
+~
+0 -1 2682 0 0 0
+D3
+~
+~
+0 -1 2677 0 0 0
+S
+#2682
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 262144 1 0
+D1
+~
+~
+0 -1 2683 0 0 0
+D3
+~
+~
+0 -1 2677 0 0 0
+S
+#2683
+&OA Long Volcanic Hallway~
+&OThe extreme heat in this volcanic hallway makes it difficult
+to see or feel anything other than hot. The hallway is barely
+large enough to stand up straight in and barely wide enough
+to not touch the blisteringly hot walls.
+~
+0 2097408 1 128 0 0 2
+D3
+~
+~
+0 -1 2677 0 0 0
+R M 0 2605 1 2683
+E
+wall~
+&z.
+&W1. &GB&goots &wof &GV&gigilance
+&W2. &YThe Turk's Insignia
+&W3. &bA Hooded Cloak
+&W4. &RA Ring of Swirling Chaos
+&W5. &WA &R(&zDark&R) &CBroadsword &Wof &rChaos
+&W6. &wA Pair of NRRA Pants
+&W7. &wPendant of Protection
+&W8. &wA &GN&ga&Gm&ge&Gk&gi&Ga&gn &wEarring
+&W9. &wA Capsule Corp Scouter
+&W10. &r(&BGigantic&r) &cBuster Sword
+
+&WA Strange Old Man says 'Bring me all of this stuff at once and say 'I have it all' and I'll make sure you are rewarded highly!
+~
+E
+wall2~
+&z.
+&WA Strange Old Man says 'Take this piece of lava rock, and find the other half of it somewhere on earth so you can reach the bottom level of this volcano!'
+~
+> entry_prog 100~
+if clanlevel($n) > 3
+mpforce 'strange old man' say Try not to lose it this time...
+mpforce 'strange old man' mpoload 2604
+mpforce 'strange old man' give 'lava rock' $n
+else
+mpdonothing
+endif
+~
+|
+S
+#2684
+&OCrossing A Rock Platform~
+&R&rThere is barely enough room to walk across this narrow path
+over the lava. The rock doesn't seem very stable and it feels
+like it might crumble into the lava at any moment. The heat
+of the lava is starting to make you dizzy.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2685 0 0 0
+D2
+~
+~
+0 -1 2634 0 0 0
+> entry_prog 100~
+mpsleep 25
+if mortcount(2684) > 0
+mpecho &RThe floor crumbles into the lava, sending you falling in!
+mptransfer all 2798
+else
+mpdonothing
+endif
+~
+|
+S
+#2685
+&OCrossing A Rock Platform~
+&R&rThere is barely enough room to walk across this narrow path
+over the lava. The rock doesn't seem very stable and it feels
+like it might crumble into the lava at any moment. The heat
+of the lava is starting to make you dizzy.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2686 0 0 0
+D2
+~
+~
+0 -1 2684 0 0 0
+> entry_prog 100~
+mpsleep 15
+if mortcount(2685) > 0
+mpecho &RThe floor crumbles into the lava, sending you falling in!
+mptransfer all 2798
+else
+mpdonothing
+endif
+~
+|
+S
+#2686
+&OEntrance to a Huge Cavern~
+&OFinally across the pool of lava you have finally reached the
+last cavern in the volcano, maybe you will finally find an end
+to this quest. There are three exits that lead deeper into the
+cavern from here. The northern and eastern exits are dark and
+empty while the western exit emits a soft red light and an extreme
+heat.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2689 0 0 0
+D1
+~
+~
+0 -1 2687 0 0 0
+D3
+~
+~
+0 -1 2688 0 0 0
+> entry_prog 100~
+if wasinroom($n) == 2685
+mea $n &RThe rock platform that led you to this cavern sinks back into the lava pool behind you.
+mea $n &OThere is no turning back now.
+endif
+~
+|
+S
+#2687
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2686 0 0 0
+D6
+~
+~
+0 -1 2726 0 0 0
+D8
+~
+~
+0 -1 2725 0 0 0
+S
+#2688
+&OA Perfectly Shaped Hallway~
+&OThis hallway seems to perfectly created to be natural. The
+walls are smoother than granite and make a perfect arch overhead
+for a ceiling. Just under the walls there are veins of lava
+flowing, which must be what gives this hallway it's soft red
+light. It also makes this hallway unbareably hot.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2686 0 0 0
+D3
+~
+~
+0 -1 2729 0 0 0
+> entry_prog 100~
+mea $n &RThe intense heat of this hallway drains you.
+mpdamage $n 50
+mpkidrain $n 10000
+~
+|
+S
+#2689
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2690 0 0 0
+D2
+~
+~
+0 -1 2686 0 0 0
+D6
+~
+~
+0 -1 2692 0 0 0
+D7
+~
+~
+0 -1 2691 0 0 0
+S
+#2690
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2689 0 0 0
+> leave_prog 100~
+if mortcount(2733) < 1
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2732
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+endif
+~
+> entry_prog 100~
+mpecho &cAs you enter the room you hear a loud click.
+~
+|
+S
+#2691
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 2693 0 0 0
+D8
+~
+~
+0 -1 2689 0 0 0
+S
+#2692
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2695 0 0 0
+D9
+~
+~
+0 -1 2689 0 0 0
+S
+#2693
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2694 0 0 0
+D8
+~
+~
+0 -1 2691 0 0 0
+S
+#2694
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2695 0 0 0
+D9
+~
+~
+0 -1 2693 0 0 0
+S
+#2695
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2692 0 0 0
+D3
+~
+~
+0 -1 2694 0 0 0
+D6
+~
+~
+0 -1 2696 0 0 0
+S
+#2696
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2698 0 0 0
+D1
+~
+~
+0 -1 2699 0 0 0
+D7
+~
+~
+0 -1 2697 0 0 0
+D9
+~
+~
+0 -1 2695 0 0 0
+S
+#2697
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D8
+~
+~
+0 -1 2696 0 0 0
+> leave_prog 100~
+if mortcount(2733) < 1
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2732
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+endif
+~
+> entry_prog 100~
+mpecho &cAs you enter the room you hear a loud click.
+~
+|
+S
+#2698
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2696 0 0 0
+S
+#2699
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2700 0 0 0
+D3
+~
+~
+0 -1 2696 0 0 0
+D6
+~
+~
+0 -1 2704 0 0 0
+S
+#2700
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2699 0 0 0
+D2
+~
+~
+0 -1 2701 0 0 0
+S
+#2701
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2700 0 0 0
+D6
+~
+~
+0 -1 2702 0 0 0
+S
+#2702
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2703 0 0 0
+D1
+~
+~
+0 -1 2705 0 0 0
+D9
+~
+~
+0 -1 2701 0 0 0
+S
+#2703
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2704 0 0 0
+D2
+~
+~
+0 -1 2702 0 0 0
+S
+#2704
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2703 0 0 0
+D9
+~
+~
+0 -1 2699 0 0 0
+S
+#2705
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2702 0 0 0
+D6
+~
+~
+0 -1 2706 0 0 0
+D8
+~
+~
+0 -1 2708 0 0 0
+S
+#2706
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D8
+~
+~
+0 -1 2707 0 0 0
+D9
+~
+~
+0 -1 2705 0 0 0
+S
+#2707
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 2706 0 0 0
+D9
+~
+~
+0 -1 2709 0 0 0
+S
+#2708
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 2705 0 0 0
+D8
+~
+~
+0 -1 2710 0 0 0
+S
+#2709
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2710 0 0 0
+D6
+~
+~
+0 -1 2707 0 0 0
+S
+#2710
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2709 0 0 0
+D1
+~
+~
+0 -1 2712 0 0 0
+D2
+~
+~
+0 -1 2711 0 0 0
+D3
+~
+~
+0 -1 2728 0 0 0
+D7
+~
+~
+0 -1 2708 0 0 0
+D8
+~
+~
+0 -1 2712 0 0 0
+S
+#2711
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2710 0 0 0
+> entry_prog 100~
+mpecho &cAs you enter the room you hear a loud click.
+~
+> leave_prog 100~
+if mortcount(2733) < 1
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2732
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+endif
+~
+|
+S
+#2712
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2710 0 0 0
+D7
+~
+~
+0 -1 2710 0 0 0
+D8
+~
+~
+0 -1 2713 0 0 0
+S
+#2713
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 2714 0 0 0
+D7
+~
+~
+0 -1 2712 0 0 0
+D9
+~
+~
+0 -1 2715 0 0 0
+S
+#2714
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2713 0 0 0
+S
+#2715
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 2713 0 0 0
+D9
+~
+~
+0 -1 2717 0 0 0
+S
+#2716
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2717 0 0 0
+D9
+~
+~
+0 -1 2718 0 0 0
+S
+#2717
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2716 0 0 0
+D6
+~
+~
+0 -1 2715 0 0 0
+S
+#2718
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2720 0 0 0
+D6
+~
+~
+0 -1 2716 0 0 0
+S
+#2719
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2721 0 0 0
+> entry_prog 100~
+mpecho &cAs you enter the room you hear a loud click.
+~
+> leave_prog 100~
+if mortcount(2733) < 1
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2732
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+endif
+~
+|
+S
+#2720
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2721 0 0 0
+D1
+~
+~
+0 -1 2718 0 0 0
+S
+#2721
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2719 0 0 0
+D2
+~
+~
+0 -1 2720 0 0 0
+D3
+~
+~
+0 -1 2722 0 0 0
+S
+#2722
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2723 0 0 0
+D1
+~
+~
+0 -1 2721 0 0 0
+S
+#2723
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2724 0 0 0
+D2
+~
+~
+0 -1 2722 0 0 0
+D3
+~
+~
+0 -1 2725 0 0 0
+S
+#2724
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2723 0 0 0
+S
+#2725
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2723 0 0 0
+D7
+~
+~
+0 -1 2687 0 0 0
+S
+#2726
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2727 0 0 0
+D9
+~
+~
+0 -1 2687 0 0 0
+S
+#2727
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2726 0 0 0
+D6
+~
+~
+0 -1 2728 0 0 0
+S
+#2728
+&OA Cavern Passage~
+&OThe passageways through this cavern seem endless and like a
+huge bee hive carved into the bottom of this volcano. Suprisingly
+these passages aren't as warm as the other caverns in this volcano,
+it actually feels inhabitable.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2710 0 0 0
+D9
+~
+~
+0 -1 2727 0 0 0
+S
+#2729
+&OA Perfectly Shaped Hallway~
+&OThis hallway seems to perfectly created to be natural. The
+walls are smoother than granite and make a perfect arch overhead
+for a ceiling. Just under the walls there are veins of lava
+flowing, which must be what gives this hallway it's soft red
+light. It also makes this hallway unbareably hot.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2688 0 0 0
+D3
+~
+~
+0 -1 2730 0 0 0
+R M 0 2606 5 2729
+> entry_prog 100~
+mea $n &RThe intense heat of this hallway drains you.
+mpdamage $n 50
+mpkidrain $n 10000
+~
+|
+S
+#2730
+&OA Perfectly Shaped Hallway~
+&OThis hallway seems to perfectly created to be natural. The
+walls are smoother than granite and make a perfect arch overhead
+for a ceiling. Just under the walls there are veins of lava
+flowing, which must be what gives this hallway it's soft red
+light. It also makes this hallway unbareably hot.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2729 0 0 0
+D3
+~
+~
+0 -1 2731 0 0 0
+R M 0 2606 3 2730
+> entry_prog 100~
+mea $n &RThe intense heat of this hallway drains you.
+mpdamage $n 50
+mpkidrain $n 10000
+~
+|
+S
+#2731
+&OA Perfectly Shaped Hallway~
+&OThis hallway seems to perfectly created to be natural. The
+walls are smoother than granite and make a perfect arch overhead
+for a ceiling. Just under the walls there are veins of lava
+flowing, which must be what gives this hallway it's soft red
+light. It also makes this hallway unbareably hot.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 2730 0 0 0
+D3
+~
+~
+0 -1 2732 0 0 0
+R M 0 2606 4 2731
+> entry_prog 100~
+mea $n &RThe intense heat of this hallway drains you.
+mpdamage $n 50
+mpkidrain $n 10000
+~
+|
+S
+#2732
+&OA Perfectly Shaped Hallway~
+&OThis hallway seems to perfectly created to be natural. The
+walls are smoother than granite and make a perfect arch overhead
+for a ceiling. Just under the walls there are veins of lava
+flowing, which must be what gives this hallway it's soft red
+light. It also makes this hallway unbareably hot.
+~
+0 0 1 0
+D0
+~
+~
+7 2602 2733 0 0 0
+D1
+~
+~
+0 -1 2731 0 0 0
+R D 0 2732 0 2
+> entry_prog 100~
+mea $n &RThe intense heat of this hallway drains you.
+mpdamage $n 50
+mpkidrain $n 10000
+~
+> entry_prog 100~
+if mortcount(2690) > 0
+if mortcount(2697) > 0
+if mortcount(2711) > 0
+if mortcount(2719) > 0
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2732
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' unlock north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' open north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+mea $n &YAs you enter the room the double doors before you open, as if opened by a devine power.
+endif
+endif
+endif
+endif
+~
+|
+S
+#2733
+&OEntrance to an Underground Palace~
+&OIt seems that you have uncovered an ancient underground palace
+underneath this volcano. Suprisingly it is very drafty and almost
+cool in this palace. The real quest is who actually resides
+here.The floors seem to be made out of a beautiful marble granite
+laced with gold, and the walls are made of a shiny black onyx stone.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2735 0 0 0
+D2
+~
+~
+7 2602 2732 0 0 0
+R D 0 2733 2 2
+> leave_prog 100~
+if mortcount(2733) < 1
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2732
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock north
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+endif
+~
+|
+S
+#2734
+&OAn Underground Palace~
+&OThis small alcove room seems to have been designed to hold
+priceless paintings, statues, or any other displayable riches
+the owner of this palace wishes to show off. There is a large
+circle of gold on the floor that appears to be a marker for
+where something is supposed to go.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2735 0 0 0
+> emote_prog p pushes the statue east~
+if ovnumroom(2608) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the east.
+mppurge
+mpat 2743 mppurge 'invis statue counter five'
+mpat 2735 mpoload 2608
+mpforce $n east
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2735
+&OAn Underground Palace~
+&OYour footsteps echo through the huge palace's main chambers.
+There are small alcove rooms to your left and right, and the
+palace's main hallway continues to the north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2737 0 0 0
+D1
+~
+~
+0 -1 2736 0 0 0
+D2
+~
+~
+0 -1 2733 0 0 0
+D3
+~
+~
+0 -1 2734 0 0 0
+R O 0 2608 1 2735
+> emote_prog p pushes the statue west~
+if ovnumroom(2608) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the west.
+mppurge
+mpat 2734 mpoload 2608
+mpat 2743 mpmload 2612
+mpforce $n west
+else
+mea $n What statue?
+endif
+~
+> emote_prog p pushes the statue east~
+if ovnumroom(2608) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the east.
+mppurge
+mpat 2736 mpoload 2608
+mpat 2743 mpmload 2613
+mpforce $n east
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2736
+&OAn Underground Palace~
+&OThis small alcove room seems to have been designed to hold
+priceless paintings, statues, or any other displayable riches
+the owner of this palace wishes to show off. There is a large
+circle of gold on the floor that appears to be a marker for
+where something is supposed to go.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2735 0 0 0
+> emote_prog p pushes the statue west~
+if ovnumroom(2608) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the west.
+mppurge
+mpat 2743 mppurge 'invis statue counter six'
+mpat 2735 mpoload 2608
+mpforce $n west
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2737
+&OAn Underground Palace~
+&OYour footsteps echo through the huge palace's main chambers.
+There are small alcove rooms to your left and right, and the
+palace's main hallway continues to the north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2740 0 0 0
+D1
+~
+~
+0 -1 2739 0 0 0
+D2
+~
+~
+0 -1 2735 0 0 0
+D3
+~
+~
+0 -1 2738 0 0 0
+R O 0 2607 1 2737
+> emote_prog p pushes the statue west~
+if ovnumroom(2607) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the west.
+mppurge
+mpat 2738 mpoload 2607
+mpat 2743 mpmload 2610
+mpforce $n west
+else
+mea $n What statue?
+endif
+~
+> emote_prog p pushes the statue east~
+if ovnumroom(2607) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the east.
+mppurge
+mpat 2739 mpoload 2607
+mpat 2743 mpmload 2611
+mpforce $n east
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2738
+&OAn Underground Palace~
+&OThis small alcove room seems to have been designed to hold
+priceless paintings, statues, or any other displayable riches
+the owner of this palace wishes to show off. There is a large
+circle of gold on the floor that appears to be a marker for
+where something is supposed to go.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2737 0 0 0
+> emote_prog p pushes the statue east~
+if ovnumroom(2607) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the east.
+mppurge
+mpat 2743 mppurge 'invis statue counter three'
+mpat 2737 mpoload 2607
+mpforce $n east
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2739
+&OAn Underground Palace~
+&OThis small alcove room seems to have been designed to hold
+priceless paintings, statues, or any other displayable riches
+the owner of this palace wishes to show off. There is a large
+circle of gold on the floor that appears to be a marker for
+where something is supposed to go.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2737 0 0 0
+> emote_prog p pushes the statue west~
+if ovnumroom(2607) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the west.
+mppurge
+mpat 2743 mppurge 'invis statue counter four'
+mpat 2737 mpoload 2607
+mpforce $n west
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2740
+&OAn Underground Palace~
+&OYour footsteps echo through the huge palace's main chambers.
+There are small alcove rooms to your left and right, and the
+palace's main hallway continues to the north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2743 0 0 0
+D1
+~
+~
+0 -1 2742 0 0 0
+D2
+~
+~
+0 -1 2737 0 0 0
+D3
+~
+~
+0 -1 2741 0 0 0
+R O 0 2606 1 2740
+> emote_prog p pushes the statue west~
+if ovnumroom(2606) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the west.
+mppurge
+mpat 2741 mpoload 2606
+mpat 2743 mpmload 2608
+mpforce $n west
+else
+mea $n &wWhat statue?
+endif
+~
+> emote_prog p pushes the statue east~
+if ovnumroom(2606) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the east.
+mppurge
+mpat 2742 mpoload 2606
+mpat 2743 mpmload 2609
+mpforce $n east
+else
+mea $n &wWhat statue?
+endif
+~
+|
+S
+#2741
+&OAn Underground Palace~
+&OThis small alcove room seems to have been designed to hold
+priceless paintings, statues, or any other displayable riches
+the owner of this palace wishes to show off. There is a large
+circle of gold on the floor that appears to be a marker for
+where something is supposed to go.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2740 0 0 0
+> emote_prog p pushes the statue east~
+if ovnumroom(2606) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the east.
+mppurge
+mpat 2743 mppurge 'invis statue counter one'
+mpat 2740 mpoload 2606
+mpforce $n east
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2742
+&OAn Underground Palace~
+&OThis small alcove room seems to have been designed to hold
+priceless paintings, statues, or any other displayable riches
+the owner of this palace wishes to show off. There is a large
+circle of gold on the floor that appears to be a marker for
+where something is supposed to go.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2740 0 0 0
+> emote_prog p pushes the statue west~
+if ovnumroom(2606) == 1
+mea $n &WThe statue slides easily across the smooth marble floors
+mer $n &W$n pushes the statue of the dragon to the west.
+mppurge
+mpat 2743 mppurge 'invis statue counter two'
+mpat 2740 mpoload 2606
+mpforce $n west
+else
+mea $n What statue?
+endif
+~
+|
+S
+#2743
+&OThe Palace Throne Room~
+&OThis is obviously the throne room. There is a huge stone throne
+marbled with gold and silver. There are huge chunks of the throne
+that seem to have broken off. An enourmous shield shaped crest
+is hung on the wall behind the throne. A large iron door is
+closed to the east.
+~
+0 4 1 0
+D1
+~
+iron door e east~
+7 2602 2744 0 0 0
+D2
+~
+~
+0 -1 2740 0 0 0
+E
+shield crest~
+&z.
+&W---------------------
+V                   V
+ |&Y()&W   |     |     |
+ |_________________|
+ |     |     |  &Y ()&W|
+ |_________________|
+ |&Y()&W   |     |     |
+ |_________________|
+ |_________________|
+  V V V V V V V V V
+   V V V V V V V V
+    V V V V V V V
+     V V V V V V
+      V V V V V
+       V V V V
+        V V V
+         V V
+          V
+~
+> entry_prog 100~
+if mobinroom(2608) == 1
+if mobinroom(2611) == 1
+if mobinroom(2612) == 1
+mpecho &YThe iron door shoots open followed by a blast of extremely hot air... Uh-Oh...
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2743
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' unlock east
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' open east
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+mppurge
+mpat 2741 mppurge
+mpat 2739 mppurge
+mpat 2734 mppurge
+mpat 2740 mpoload 2606
+mpat 2737 mpoload 2607
+mpat 2735 mpoload 2608
+endif
+endif
+endif
+~
+> entry_prog 100~
+if mobinroom(2609) > 0
+or mobinroom(2610) > 0
+or mobinroom(2613) > 0
+mpecho &RJets of fire blast through the sides of the iron door burning you badly!
+mpdamage all 50
+endif
+~
+|
+S
+#2744
+&RA Scorched Room~
+&RThe walls are blackened, covered in ash. The air all around
+you tingles with heat, it feels like everything could ignite
+at any moment.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2745 0 0 0
+D3
+~
+~
+7 2602 2743 0 0 0
+> entry_prog 100~
+if wasinroom($n) == 2743
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2743
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' close east
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' lock east
+mpat 'invis level 2 worker' mpforce 'invis level 2 worker' mpgoto 2669
+endif
+~
+|
+S
+#2745
+&RA Scorched Room~
+&RThe walls are blackened, covered in ash. The air all around
+you tingles with heat, it feels like everything could ignite
+at any moment.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2746 0 0 0
+D3
+~
+~
+0 -1 2744 0 0 0
+R M 0 2614 2 2745
+S
+#2746
+&RA Scorched Room~
+&RThe walls are blackened, covered in ash. The air all around
+you tingles with heat, it feels like everything could ignite
+at any moment.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 2745 0 0 0
+D5
+~
+~
+0 -1 2747 0 0 0
+R M 0 2614 2 2746
+> rand_prog 100~
+if mobinroom(2614) == 0
+if mobinroom(2615) == 0
+if mobinroom(2616) == 0
+mpecho &YA portal appears from thin air and sucks you into it!
+mptransfer all 2748
+mpmload 2614
+endif
+endif
+endif
+~
+|
+S
+#2747
+&RA Fiery Pit~
+&RFire.... Lots of &RFire...
+~
+0 0 1 0
+D4
+~
+~
+0 -1 2746 0 0 0
+> entry_prog 100~
+mea $n &RYou are burnt by the fire!
+mpdamage $n 25
+~
+> rand_prog 100~
+mea $n &RYou are burnt by the fire!
+mpdamage $n 50
+~
+|
+S
+#2748
+&rAn Ancient Altar Room~
+&rYou have reached some bizarre ancient altar room. Could this
+actually be the end of this quest? You can't find any way out
+of this room. There are ancient shelves filled with books of
+legend all around the room. In the very middle of the room,
+there is a large bowl shaped altar with a small hole in the
+middle that is probably used to drain blood from the altar.
+There is a small inscription on the side of the altar.
+~
+0 4 1 0
+R O 0 2609 1 2748
+> custom_prog offer self~
+if leader($n)
+mea $n &WSorry, clan leaders cannot sacrifice theirself.
+else
+mer $n &Y$n has decided to offer himself as a sacrifice so that his clan might recieve the ultimate power!
+if mobinroom(2617) == 0
+mea $n &RYou slice your wrists on the edge of the altar and let yourself bleed out into the bowl.
+mer $n &R$n slices their wrists on the edge of the altar and bleeds out into the altar
+mpslay $n
+mppurge
+mpoload 2609
+mpecho &rThe altar fills a third of the way up with blood.
+mpmload 2617
+else
+if mobinroom(2617) == 1
+mea $n &RYou slice your wrists on the edge of the altar and let yourself bleed out into the bowl.
+mer $n &R$n slices their wrists on the edge of the altar and bleeds out into the altar
+mpslay $n
+mppurge
+mpoload 2609
+mpecho &rThe altar fills two-thirds of the way up with blood.
+mpmload 2617
+mpmload 2617
+else
+if mobinroom(2617) == 2
+mea $n &RYou slice your wrists on the edge of the altar and let yourself bleed out into the bowl.
+mer $n &R$n slices their wrists on the edge of the altar and bleeds out into the altar
+mpclanlevel $n 5
+mpslay $n
+mppurge
+mpoload 2609
+mpecho &RThe altar fills completely with blood!
+mpecho &YThis clan has earned the ultimate power!
+mpmudecho &b|&GCLAN&b|&z: &Y$n's &Oclan has reached &WLevel 5!
+mptransfer all 2633
+endif
+endif
+endif
+endif
+~
+> speech_prog p I give up~
+if leader($n)
+mpmudecho &b|&GCLAN&b|&z: &Y$n's &Oclan has &Rfailed &Oto reach &WLevel 5!
+mppurge
+mpoload 2609
+mptransfer all 2798
+else
+mppurge
+mpoload 2609
+mptransfer all 2798
+endif
+~
+|
+S
+#2749
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2750
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2751
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2752
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2753
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2754
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2755
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2756
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2757
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2758
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2759
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2760
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2761
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2762
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2763
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2764
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2765
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2766
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2767
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2768
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2769
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2770
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2771
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2772
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2773
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2774
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2775
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2776
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2777
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2778
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2779
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2780
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2781
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2782
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2783
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2784
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2798
+&RA Fiery Lava Pit~
+&RYou've somehow managed to fall into the burning hot magma!
+This is definitely going to leave a mark...
+~
+0 0 1 0
+D0
+~
+~
+0 -1 2798 0 0 0
+D1
+~
+~
+0 -1 2798 0 0 0
+D2
+~
+~
+0 -1 2798 0 0 0
+D3
+~
+~
+0 -1 2798 0 0 0
+D4
+~
+~
+0 -1 2798 0 0 0
+D5
+~
+~
+0 -1 2798 0 0 0
+D10
+~
+~
+537004040 -1 2799 26 475 0
+> entry_prog 100~
+if rand(60)
+mea $n &RThe extreme heat of the lava blisters your skin! [20]
+mpdamage $n 20
+else
+mea $n &RThe lava explodes upwards, blasting you out of the valcano!
+mpforce $n enter
+mpat $n mpstun $n
+endif
+~
+|
+S
+#2799
+Outside~
+~
+0 1073741828 1 0
+S
+#2800
+Last Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

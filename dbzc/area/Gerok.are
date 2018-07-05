@@ -1,0 +1,2863 @@
+#AREA   Planet Gerok~
+
+
+
+#VERSION 2
+#AUTHOR Cortez~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+65 30
+
+#CONTINENT continent1~
+
+#INCOME 90000
+#POPSUPPORT 100
+#GOVERNMENT None~
+#GUARDS 0 0 0 0
+
+#ECONOMY 0 22690874
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8151
+first_obj~
+a newly created first_obj~
+Some god abandoned a newly created first_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8165
+The Lab Scientist~
+The Lab Scientist~
+&WThe Lab Scientist of Gerok stands here, mixing chemicals.
+~
+~
+71304707 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+say Ermmm, Hello there! How are you? If you wish to train something, I think I
+say could mix the right chemicals up, and we can get you tested out.
+~
+|
+#8168
+A Lost Biodroid~
+A Lost Biodroid~
+&WA Lost Biodroid is sitting here, searching around the boulder.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 5
+say H..h..hey, do you think you could help me? Please say 'yes'. Im lost.
+mpsleep 3
+sniff
+~
+> speech_prog yes~
+mpsleep 5
+say Really?!..Wow! Thank you Sir! Well...what I need you to do for me, is move
+say this boulder here. Its in my way, and my family must be worried about me.
+~
+|
+#8171
+Frankie 8~
+Frankie 8~
+&WFrankie 8 stands here, with a blank look on his face.
+~
+~
+1 0 C
+1 0 0 0d0+0 0d0+0
+800 10000000
+112 112 0
+15 13 13 13 13 13 15
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8171
+~
+> rand_prog 5~
+tsk
+~
+|
+#8175
+Biodroid Fighter 1~
+Biodroid Fighter 1~
+&WBiodroid Fighter 1 stands here, waiting to absorb his next victim.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+75 10000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8175
+~
+|
+#8176
+Biodroid Fighter 2~
+Biodroid Fighter 2~
+&WBiodroid Fighter 2 stands here, waiting to absorb his next victim.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+150 50000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8176
+~
+|
+#8177
+Biodroid Fighter 3~
+Biodroid Fighter 3~
+&WBiodroid Fighter 3 stands here, waiting to absorb his next victim.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+300 200000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8177
+~
+|
+#8178
+Biodroid Fighter 4~
+Biodroid Fighter 4~
+&WBiodroid Fighter 4 stands here, waiting to absorb his next victim.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+400 400000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8178
+~
+|
+#8179
+Biodroid Fighter 5~
+Biodroid Fighter 5~
+&WBiodroid Fighter 5 stands here, waiting to absorb his next victim.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+500 600000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8179
+~
+|
+#8180
+Final Biodroid~
+The Final Biodroid~
+&WThe Final Biodroid is here, still licking the blood from his lips.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+700 1000000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8180
+~
+|
+#8188
+Grunt~
+The Grunt~
+&WThe Grunt stands here, ready for battle.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+900 2000000
+112 112 0
+10 13 13 10 13 13 10
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8188
+~
+> greet_prog 100~
+mpsleep 10
+say Bring it punk!
+~
+|
+#8189
+Sgt. Metal~
+Sgt. Metal~
+&WSgt. Metal stands before you, gun in hand.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 5000000
+112 112 0
+10 13 13 10 13 13 10
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8189
+~
+> greet_prog 100~
+mpsleep 8
+say Make your move!
+mpsleep 6
+yawn
+~
+|
+#8193
+Shadow Ninja~
+Shadow Ninja~
+&WThe Shadow Ninja is here, with his hand on his sheath.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 15000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8193
+~
+> greet_prog 100~
+mpsleep 7
+say You may be able to defeat me, but not my clones!
+mpsleep 5
+say Multiform!!
+mpecho &WAs the Shadow Ninja concentrates, he manages to form clones of himself
+mpecho &CThe Cloned Ninja says '&WHah!&C'
+mpsleep 5
+mpecho &wThe Cloned Ninja's dive into the water.
+~
+|
+#8194
+Gerok Shopkeeper~
+Gerok Shopkeeper~
+&WThe Gerok Shopkeeper is here, wandering the area.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+if isnpc($n)
+mpdonothing
+else
+mpsleep 4
+say Hey $n! Wanting to buy some items? Better hurry, im in a rush.
+mpsleep 8
+say Oh, almost forgot...check the list to see whats on display.
+endif
+~
+> entry_prog 100~
+mpat 69 drop all
+mpat 69 mppurge
+mpoload 8184
+mpoload 8182
+mpoload 8181
+~
+> greet_prog 100~
+mpat 69 drop all
+mpat 69 mppurge
+mpoload 8184
+mpoload 8182
+mpoload 8181
+~
+|
+#8207
+Guldo~
+Guldo~
+&WGuldo is standing here, breathing heavily.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+200 2000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+emote does a weird looking fighting pose.
+mpsleep 5
+say Guldo!
+~
+> death_prog 100~
+mpmload 8207
+~
+|
+#8208
+Recoom~
+Recoom~
+&WRecoom is here, practicing his fighting pose.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+400 4000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+say Halt! You can't get past Recoom!
+~
+> rand_prog 5~
+say Recoom BOOM!!
+~
+> death_prog 100~
+mpmload 8208
+~
+|
+#8209
+aburterr~
+Burter~
+&WThe Tall Blue Mutant known as Burter stands here, ready for action.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+500 6000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 8209
+~
+> greet_prog 100~
+mpsleep 5
+emote looks at you and laughs
+mpsleep 3
+say You can never match my speed!
+~
+|
+#8210
+Jeice~
+Jeice~
+&WJeice is here, looking cocky, thinking about how great he is.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+600 8000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 8210
+~
+> greet_prog 100~
+mpsleep 4
+say YEAAAHHH!! JEICE!
+mpsleep 5
+say Your no match for the Ginyu FORCE!
+~
+|
+#8211
+Captain Ginyu~
+Captain Ginyu~
+&WCaptain Ginyu stands here, with his arms spread wide.
+~
+~
+1 0 C
+1 0 0 0d0+0 0d0+0
+1000 10000000
+112 112 0
+15 13 13 15 13 13 15
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8211
+mpoload 8183
+~
+> greet_prog 100~
+mpsleep 4
+muhah
+mpsleep 4
+say I'm going to enjoy killing you!
+~
+> entry_prog 100~
+mpsleep 1
+say Ah Ha! I found you!
+mpsleep 3
+say None can contend with THE....
+mpsleep 4
+emote does a strange fighting pose.
+mpsleep 2
+say GINYU FORCE!
+~
+|
+#8212
+Trainer~
+Gerok Trainer~
+&WThe Gerok Trainer stands here, ready to test you.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8221
+Colonel Red~
+Colonel Red~
+&RColonel Red stands here promptly, giving out orders.&w
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 23000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpsleep 8
+say Attention!
+glare $n
+~
+> death_prog 100~
+mpmload 8221
+~
+|
+#8222
+Lieutenant Green~
+Lieutenant Green~
+&GLieutenant Green is here, laughing at you.&w
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 21000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 1000~
+mpmload 8222
+~
+> greet_prog 100~
+mpsleep 12
+say At ease Soldier...
+~
+|
+#8224
+Lt. General Blue~
+Lt. General Blue~
+&BLt. General Blue is here, glaring at you.&w
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+3500 25000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8224
+~
+> greet_prog 100~
+mpsleep 8
+say Hey $n! What are you doing here?! Looking for a fight are we?
+mpsleep 4
+laugh
+~
+|
+#8225
+Shadow Ninja2~
+Shadow Ninja~
+&WShadow Ninja is here, lurking in the backround.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 20000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8233
+mpforce clone mpkill $n
+mea $n &RA Ninja Clone jumps out of the tree's and attacks you!
+~
+> greet_prog 100~
+mpsleep 8
+hmm
+mpsleep 5
+say We meet again.
+grin
+mpsleep 7
+mea $n &RYou feel multiple powerlevels near by.
+mer $n &RYou feel multiple powerlevels near by.
+~
+|
+#8226
+Jail Guard~
+The Jail Guard~
+&WThe Jail Guard of Gerok stands here, guarding the Jail.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 100000000
+112 112 0
+25 25 13 25 13 13 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpsleep 2
+say Halt! This is the Jail of Gerok. Enter at your own risk.
+mpsleep 3
+emote opens up the gates.
+~
+|
+#8228
+Bebidi~
+Bebidi~
+&WBebidi is standing here, with an evil aura.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+2000 15000000
+112 112 0
+13 13 13 13 13 13 10
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8228
+~
+> greet_prog 100~
+mpsleep 3
+say Get me out of this hell hole!!
+grin
+~
+> rand_prog 5~
+say Pleeeease!
+~
+|
+#8229
+A Crazed Android~
+A Crazed Android~
+&WA Crazed Android is chained up here.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+3000 30000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+mpsleep 5
+say Release me and I wont KILL you!!
+glare $n
+~
+> rand_prog 5~
+emote looks about the room with a psychotic look in his eye.
+~
+> fight_prog 100~
+emote breaks from his chains!
+~
+> death_prog 100~
+mpmload 8229
+~
+> rand_prog 5~
+say AHAHAHAH!!!!
+~
+|
+#8231
+An Evil Alien~
+An Evil Alien~
+&WAn Evil Alien lurks in the shadows here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1500 12500000
+112 112 0
+25 13 13 25 13 13 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpsleep 5
+say Blar gla beln sawku be jeem!!
+mpsleep 4
+emote coughs up some blood.
+mea $n &RBlood sprays all over you! SICK!
+mer $n &RBlood sprays all over $n! SICK!
+mpsleep 10
+blank $n
+~
+> death_prog 100~
+mpmload 8231
+~
+> rand_prog 10~
+say Be Jeem! Be Jeem!!
+~
+> rand_prog 5~
+scream
+~
+|
+#8233
+Ninja Clone~
+Ninja Clone~
+&WThe Ninja Clone attacks you!!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 20000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8234
+mpforce clone2 mpkill $n
+mea $n &GA Ninja Clone jumps out of the tree's and attacks you!
+~
+|
+#8234
+Ninja Clone2~
+Ninja Clone~
+&WThe Ninja Clone attacks you!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 20000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8235
+mpforce Clone3 mpkill $n
+mea $n &CA Ninja Clone jumps out of the tree's and attacks you!
+~
+|
+#8235
+Ninja Clone3~
+Ninja Clone~
+&WThe Ninja Clone attacks you!!!
+~
+~
+1 0 C
+1 0 0 0d0+0 0d0+0
+1000 20000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8225
+mea $n &CThe Shadow Ninja says '&WYou are a great warrior, ill let you pursue
+mea $n &Wyour journey.&C'
+mer $n &CThe Shadow Ninja says '&WYou are a great warrior, ill let you pursue
+mer $n &Wyour journey.&C'
+mea $n &CThe Ninja opens up a secret passage.
+mer $n &CThe Ninja opens up a secret passage.
+mptrans $n 8216
+mpat $n mer $n &Y$n arrives in a flash of light.
+mpat $n mpforce $n look
+~
+|
+#8236
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+-2076180223 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8237
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8238
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8239
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8240
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8241
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8242
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8243
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8244
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8245
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8246
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8247
+A biodroid citizen~
+A biodroid citizen~
+A biodroid citizen wanders around here.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8300
+last_obj~
+a newly created last_obj~
+Some god abandoned a newly created last_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#8151
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#8171
+Bio-Android Structure~
+A Bio-Android Lab~
+&GA Ancient Bio-Android Lab is here.&w~
+~
+69 0 0
+5000 0 0 0
+1 0 0
+#8181
+Turtle Shell~
+&wA Giant &gTurtle &wShell~
+A Giant Shell is lying here on the ground, looks like it could be worn.~
+~
+9 0 1025
+20 20 0 0
+1 3500 350
+> wear_prog 100~
+mea $n &GTurtle Power!
+~
+|
+#8182
+Bio Scouter~
+&GBio&W-&wScouter~
+A Bio Scouter lies on the ground here before you.~
+~
+65 0 131073
+10 10 0 2
+1 3500 350
+#8183
+Captain Ginyu's Special Forces Armor~
+&wCaptain Ginyu's Special Forces Armor~
+Captain Ginyu's armor lies on the ground here, waiting to be worn.~
+~
+9 0 9
+0 59 0 1
+1 0 0
+#8184
+Shell of a Biodroid~
+&wShell &wof a &rBiodroid&w~
+Some god dropped a newly created Shell of a Biodroid here.~
+~
+9 0 1025
+25 25 0 0
+1 5000 500
+#8198
+Bio-Android orphanage structure~
+The Orphanage~
+&rA Newly Built Bio-Android Orphanage is here.~
+~
+69 0 0
+5000 0 0 0
+1 0 0
+#8199
+Bio-Android Hospital Structure~
+A Bio-Android Hospital~
+&gA Large Bio-Android Hospital is here.~
+~
+69 0 0
+2500 0 0 0
+1 0 0
+#8300
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#8151
+Floating in a void~
+~
+0 4 1 0
+R M 0 8151 1 8151
+R O 0 8151 1 8151
+S
+#8152
+Planet Gerok Portal Chamber~
+As you step foot on this planet, a cold chill goes down your
+spine, and you sense lots of evil around you.Many Biodroids
+travel in and out of here.Sensing around the area, you notice
+there is a long and dark hallway to your north. You feel the
+wind come from above and the ground is shaking. Up must be the
+Gerok Spaceport, maybe tourists come from there to visit.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8154 0 0 0
+D4
+~
+~
+0 -1 8153 0 0 0
+R O 0 32 1 8152
+> custom_prog Startup Transporter~
+if haspropagandized($n)
+mea $n &RYou can't do that right now.
+else
+Mea $n 
+Mea $n &BYou hit a button.
+Mea $n &CA burst of blue light explodes from the transporter and takes you away.
+Mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 278
+Mpat $n mer $n $n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+endif
+~
+|
+S
+#8153
+The Gerok Spaceport~
+This is the Spaceport of Gerok, in the backround you see spaceships
+flying off into the sky, and spaceships landing. Many types
+of people and races are entering and leaving the spaceport.You
+sense a strong power of evil and good coming from this spaceport.The
+ground shakes uncontrolably as you stand here. The spaceship
+must be taking off. Down will take you back the to Transporter
+of Gerok.
+~
+0 0 0 0
+D5
+~
+~
+0 -1 8152 0 0 0
+S
+#8154
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray from the portal from
+which you entered. A leaky pipe can be heard overhead, dripping
+water onto the soil at your feet. Considering the circumstances,
+you might consider being more cautious around the dark, wet
+hallway. North will take you further down the hallway.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8155 0 0 0
+D2
+~
+~
+0 -1 8152 0 0 0
+S
+#8155
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray from the portal from
+which you entered. A leaky pipe can be heard overhead, dripping
+water onto the soil at your feet. Considering the circumstances,
+you might consider being more cautious around the dark, wet
+hallway. North will take you further down the hallway.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8156 0 0 0
+D2
+~
+~
+0 -1 8154 0 0 0
+S
+#8156
+An Intersection~
+Coming to an intersection, you see a large pile of rubble and
+debris, probably where a large building once stood. Judging
+from a smoking crater, the destruction seems to have happened
+recently. You notice a bent post with a sign sticking from it,
+reading the following: 
+
+East - Sparring Quarters
+West - Recovery
+North - Laboratory
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8157 0 0 0
+D1
+~
+~
+0 -1 8158 0 0 0
+D2
+~
+~
+0 -1 8155 0 0 0
+D3
+~
+~
+0 -1 8161 0 0 0
+S
+#8157
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray away from the intersection.A
+leaky pipe can be heard overhead, dripping water onto the soil
+at your feet. Considering the circumstances, you might consider
+being more cautious around the dark, wet hallway. North will
+take you further down the hallway.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8168 0 0 0
+D2
+~
+~
+0 -1 8156 0 0 0
+D6
+~
+~
+0 -1 8165 0 0 0
+R M 0 8245 1 8157
+S
+#8158
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray away from the intersection.A
+leaky pipe can be heard overhead, dripping water onto the soil
+at your feet. Considering the circumstances, you might consider
+being more cautious around the dark, wet hallway. West will
+take you back towards the intersection. East will take you further
+down the hallway.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8159 0 0 0
+D3
+~
+~
+0 -1 8156 0 0 0
+S
+#8159
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray away from the intersection.A
+leaky pipe can be heard overhead, dripping water onto the soil
+at your feet. Considering the circumstances, you might consider
+being more cautious around the dark, wet hallway. West will
+take you back towards the intersection. North will take you
+towards the sparring chamber.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8160 0 0 0
+D3
+~
+~
+0 -1 8158 0 0 0
+R M 0 8247 1 8159
+S
+#8160
+Sparring Center~
+This room is completely blank, its white tiles are made out of
+strong resistant tiles. The only exit available is the one to
+your north, which is the way you came in here. This room, is
+specialized since you can spar other players and just stun them,
+not kill them.Even though there may not be death, there is still
+blood.
+
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 0 0 2
+D2
+~
+~
+0 -1 8159 0 0 0
+S
+#8161
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray away from the intersection.A
+leaky pipe can be heard overhead, dripping water onto the soil
+at your feet. Considering the circumstances, you might consider
+being more cautious around the dark, wet hallway. East will
+take you back to the Intersection. West will take you into a
+small training area.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8156 0 0 0
+D3
+~
+~
+0 -1 8162 0 0 0
+S
+#8162
+Dark Hallway~
+Walking down the hallway, you can only see your surroundings
+getting darker and darker as you stray away from the intersection.A
+leaky pipe can be heard overhead, dripping water onto the soil
+at your feet. Considering the circumstances, you might consider
+being more cautious around the dark, wet hallway. North will
+take you to the Gravity Chamber. South will take you to the
+Rejuvenation Chamber.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8163 0 0 0
+D1
+~
+~
+0 -1 8161 0 0 0
+D2
+~
+~
+0 -1 8164 0 0 0
+R M 0 8246 1 8162
+S
+#8163
+Gravity Chamber~
+Entering the room, you first notice the large machine in the
+middle of the room, which probably controls the room's gravity.
+The floor is cracked, and many biodroids lay on the ground,
+out of breath. The only exit to the outside, is the same way
+that you came inside.
+
+*** Training Higher than you should, will result in death. ***
+~
+0 0 0 4
+D2
+~
+~
+0 -1 8162 0 0 0
+S
+#8164
+Rejuvenation Chamber~
+Entering the room, you first notice that is complete dark, this
+helps the wounded who are inside the healing chamber, sleeping,
+able to recover faster than normal, so they can get back in
+action. There are some first-aid kits attached to the walls,
+and there are many chambers in lines scattered across the room.
+There is blood smeared all over the walls and pools of blood
+stain the floor. You see many biodroids lying in the healing
+chambers, they almost look to be dead.
+~
+0 0 0 1
+D0
+~
+~
+0 -1 8162 0 0 0
+S
+#8165
+Training Lab~
+The room is somewhat well maintained and has adequate lighting
+for what goes on here. Oddly, there are no windows nor doors
+in this room. The room is designed as a large square with a
+small, weak biodroid standing promplty in the middle. In each
+of the four corners of the room is a small ring where one can
+train and practice their newly aquired skills. Also, tubes filled
+with toxic chemicals line the walls, they must be used for testing
+skills. The Scientist looks a bit nervous looking at you.
+~
+0 0 0 64
+D9
+~
+~
+0 -1 8157 0 0 0
+R M 0 8165 1 8165
+S
+#8166
+Floating in a void~
+~
+0 4 1 0
+S
+#8168
+Dead End~
+Continuing on down the path, you disappointedly look at a dead
+end. A large boulder blocks the way through, obstructing the
+view ahead. Preparing to turn around and walk back, you notice
+a lost biodroid, searching around the large boulder.
+~
+0 0 0 0
+D2
+~
+~
+0 -1 8157 0 0 0
+R M 0 8168 1 8168
+> emote_prog p moves the boulder~
+mea $n &WYou use all your strength as you move the boulder to the side.
+mer $n &W$n moves the boulder to the side.
+mptrans $n 8169
+mpat $n mer $n &WA Large Boulder moves and $n steps through the broken wall.
+mpat $n mpecho &CA Lost Biodroid says '&WThanks!&C'
+mpat $n mpecho &wA Lost Biodroid leaves northeast.
+mpat $n mpforce $n look
+~
+|
+S
+#8169
+Further Into Gerok~
+As you move the boulder and walk through the broken wall. You
+notice a new area to Gerok, lots of experienced biodroids travel
+through here, and apparently this is a good place to train.The
+Evil you sensed earlier is getting stronger by the minute. Even
+though you dont feel very save, there is a side to you that
+makes you want to explore this area. The boulder you moved before
+is in your way again, if you wish to get out, maybe you should
+try moving it.
+~
+0 0 0 0
+D6
+~
+~
+0 -1 8170 0 0 0
+R M 0 8244 1 8169
+> emote_prog p moves the boulder~
+mea $n &WYou use all your strength as you move the boulder again
+mer $n &W$n moves the boulder to the side.
+mptrans $n 8168
+mpat $n mer $n &WA Large Boulder moves and $n steps back through the broken wall.
+mpat $n mpforce $n look
+~
+|
+S
+#8170
+Following the Path~
+As you follow the path, you here screams in the backround, people
+must be fighting close by. You must be near a battle tower or
+something. The smell of blood gives you a headache. If you wish
+to continue forward, head northeast. If you wish to head back,
+head southwest, it will take you back to the boulder.
+~
+0 0 0 0
+D6
+~
+~
+0 -1 8171 0 0 0
+D9
+~
+~
+0 -1 8169 0 0 0
+R O 0 140 1 8170
+S
+#8171
+Fork In The Road~
+You are at a Fork in the Road, there are 3 directions you can
+take. Northwest, East and Southwest. Northwest, will take you
+towards the Battle Tower where you can go and train. Southwest,
+will take you towards the boulder. East, will take you towards
+a building.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8172 0 0 0
+D7
+~
+~
+0 -1 8173 0 0 0
+D9
+~
+~
+0 -1 8170 0 0 0
+R O 0 8171 1 8171
+S
+#8172
+Following the Path~
+As you follow the path, you here screams in the backround, people
+must be fighting close by. You must be near a battle tower or
+something. The smell of blood gives you a headache. If you wish
+to continue forward, head east towards the Building. If you
+wish to head back, go west.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8181 0 0 0
+D3
+~
+~
+0 -1 8171 0 0 0
+S
+#8173
+Following the Path~
+As you follow the path, you here screams in the backround, people
+must be fighting close by. You must be near a battle tower or
+something. The smell of blood gives you a headache. If you wish
+to continue forward, heading northwest will take you to the
+battle towers. That must be where all the warcries came from.If
+you wish to head back, head southeast, it will take you back
+to the Fork in the Road.
+~
+0 0 0 0
+D7
+~
+~
+0 -1 8174 0 0 0
+D8
+~
+~
+0 -1 8171 0 0 0
+S
+#8174
+Before the Battle Tower~
+You are at the Top of the Battle Tower of Gerok. Many fighters
+come here, experienced or not. Its a good place to train. You
+see Biodroids here, cackling as they absorb their victims. Blood
+covered warriors are here, fighting to become more powerful.
+A chill goes up your spine as you hear a death cry in the backround.
+Is it time for you to leave? Or you could go down, and go into
+battle.
+~
+0 4 0 0
+D5
+~
+~
+0 -1 8175 0 0 0
+D8
+~
+~
+0 -1 8173 0 0 0
+R M 0 8243 1 8174
+S
+#8175
+Battle Tower~
+You are at the Battle Tower of Gerok. Many fighters come here,
+experienced or not. Its a good place to train. You see Biodroids
+here, cackling as they absorb their victims. Blood covered warriors
+are here, fighting to become more powerful. A chill goes up
+your spine as you hear a death cry in the backround. Is it time
+for you to leave? Or maybe its time for you to fight, and become
+more powerful!
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8174 0 0 0
+D5
+~
+~
+0 -1 8176 0 0 0
+R M 0 8175 1 8175
+S
+#8176
+Battle Tower~
+You are at the Battle Tower of Gerok. Many fighters come here,
+experienced or not. Its a good place to train. You see Biodroids
+here, cackling as they absorb their victims. Blood covered warriors
+are here, fighting to become more powerful. A chill goes up
+your spine as you hear a death cry in the backround. Is it time
+for you to leave? Or maybe its time for you to fight, and become
+more powerful!
+~
+0 0 0 0
+D3
+~
+~
+0 -1 8177 0 0 0
+D4
+~
+~
+0 -1 8175 0 0 0
+R M 0 8176 1 8176
+S
+#8177
+Battle Tower~
+You are at the Battle Tower of Gerok. Many fighters come here,
+experienced or not. Its a good place to train. You see Biodroids
+here, cackling as they absorb their victims. Blood covered warriors
+are here, fighting to become more powerful. A chill goes up
+your spine as you hear a death cry in the backround. Is it time
+for you to leave? Or maybe its time for you to fight, and become
+more powerful!
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8176 0 0 0
+D3
+~
+~
+0 -1 8178 0 0 0
+R M 0 8177 1 8177
+S
+#8178
+Battle Tower~
+You are at the Battle Tower of Gerok. Many fighters come here,
+experienced or not. Its a good place to train. You see Biodroids
+here, cackling as they absorb their victims. Blood covered warriors
+are here, fighting to become more powerful. A chill goes up
+your spine as you hear a death cry in the backround. Is it time
+for you to leave? Or maybe its time for you to fight, and become
+more powerful!
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8177 0 0 0
+D3
+~
+~
+0 -1 8179 0 0 0
+R M 0 8178 1 8178
+S
+#8179
+Battle Tower~
+You are at the Battle Tower of Gerok. Many fighters come here,
+experienced or not. Its a good place to train. You see Biodroids
+here, cackling as they absorb their victims. Blood covered warriors
+are here, fighting to become more powerful. A chill goes up
+your spine as you hear a death cry in the backround. Is it time
+for you to leave? Or maybe its time for you to fight, and become
+more powerful!
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8178 0 0 0
+D5
+~
+~
+0 -1 8180 0 0 0
+R M 0 8179 1 8179
+S
+#8180
+End of The Battle Tower~
+You are at the Battle Tower of Gerok. Many fighters come here,
+experienced or not. Its a good place to train. You see Biodroids
+here, cackling as they absorb their victims. Blood covered warriors
+are here, fighting to become more powerful. A chill goes up
+your spine as you hear a death cry in the backround. You've
+gotten this far, you can't give up now, this is the last Biodroid
+Fighter. The Biodroid gazes into your eyes. This must be the
+strongest Biodroid of this tower. Can you handle it? 
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8179 0 0 0
+R M 0 8180 1 8180
+S
+#8181
+Entrance To The Building~
+This is the entrance to the Building of Gerok. You look and see
+its about 3 stories high. A cold breeze of air comes from the
+south, also, you hear many yells coming from that direction.To
+the east is another hallway. You feel the evil growing stronger,
+you think it must be further down that direction. To the north
+is another hallway.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8182 0 0 0
+D1
+~
+~
+0 -1 8194 0 0 0
+D2
+~
+~
+0 -1 8184 0 0 0
+D3
+~
+~
+0 -1 8172 0 0 0
+R M 0 8239 1 8181
+S
+#8182
+Hallway~
+This is a very bright hallway. As you step on the floor, it makes
+a loud sound, almost as if the floor was hollow. You hear music
+humming in the backround. You look up at the light and you see
+bugs swarming around it. The floors are made out of hard wood,
+and the walls have a grey color. To the south is the entrance
+of the building, and west looks to be a healing chamber.
+~
+0 0 0 0
+D2
+~
+~
+0 -1 8181 0 0 0
+D3
+~
+~
+0 -1 8183 0 0 0
+S
+#8183
+Healing Chamber~
+Entering the room, you first notice that is complete dark, this
+helps the wounded who are inside the healing chamber, sleeping,
+able to recover faster than normal, so they can get back in
+action. There are some first-aid kits attached to the walls,
+and there are many chambers in lines scattered across the room.
+There is blood smeared all over the walls and pools of blood
+stain the floor. You see many biodroids lying in the healing
+chambers, they almost look to be dead.
+~
+0 0 0 1
+D1
+~
+~
+0 -1 8182 0 0 0
+S
+#8184
+Hallway~
+This is a very bright hallway. As you step on the floor, it makes
+a loud sound, almost as if the floor was hollow. You hear music
+humming in the backround. You look up at the light and you see
+bugs swarming around it. The floors are made out of hard wood,
+and the walls have a grey color. To the north is the entrance
+of the building, and south will take you further down the hallway.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8181 0 0 0
+D2
+~
+~
+0 -1 8185 0 0 0
+S
+#8185
+Hallway~
+This is a very bright hallway. As you step on the floor, it makes
+a loud sound, almost as if the floor was hollow. You hear music
+humming in the backround. You look up at the light and you see
+bugs swarming around it. The floors are made out of hard wood,
+and the walls have a grey color. To the north is the entrance
+of the building, and southwest will take you to what looks to
+be a Base.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8184 0 0 0
+D9
+~
+~
+0 -1 8186 0 0 0
+R M 0 8240 1 8185
+S
+#8186
+Entrace to the Base~
+The entrance to this base is heavily fortified. You have to move
+between anti- tank traps, and you can see sandbagged machine
+gun positions on both side of the road. You're lucky no one
+is guarding the base right now, or you would have been shot
+down before you could think, 'oops'. Makes you wonder where
+everyone is.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8187 0 0 0
+D6
+~
+~
+0 -1 8185 0 0 0
+R M 0 8241 1 8186
+S
+#8187
+Inside the Base~
+You've entered the heart of the base. Rows of computer terminals
+are lined against the thick, concrete walls, displaying all
+kind of supposedly interesting information. An airco is softly
+humming on the low ceiling, trying to fight of the humidity.
+A guard post is siutuated in the middle of the room, but you
+cannot decide if it's to guard the scientists who work here
+or to protect them.
+~
+0 4 0 0
+D0
+~
+~
+0 -1 8188 0 0 0
+D2
+~
+~
+0 -1 8186 0 0 0
+D4
+~
+~
+0 -1 8190 0 0 0
+S
+#8188
+Inside the Base~
+You've entered the heart of the base. Rows of computer terminals
+are lined against the thick, concrete walls, displaying all
+kind of supposedly interesting information. An airco is softly
+humming on the low ceiling, trying to fight of the humidity.
+A guard post is siutuated in the middle of the room, but you
+cannot decide if it's to guard the scientists who work here
+or to protect them.
+~
+0 0 0 0
+D2
+~
+~
+0 -1 8187 0 0 0
+D4
+~
+~
+0 -1 8189 0 0 0
+R M 0 8188 1 8188
+S
+#8189
+Inside the Base~
+You've entered the heart of the base. Rows of computer terminals
+are lined against the thick, concrete walls, displaying all
+kind of supposedly interesting information. An airco is softly
+humming on the low ceiling, trying to fight of the humidity.
+A guard post is siutuated in the middle of the room, but you
+cannot decide if it's to guard the scientists who work here
+or to protect them.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8191 0 0 0
+D2
+~
+~
+0 -1 8190 0 0 0
+D5
+~
+~
+0 -1 8188 0 0 0
+R M 0 8189 1 8189
+S
+#8190
+Inside the Base~
+You've entered the heart of the base. Rows of computer terminals
+are lined against the thick, concrete walls, displaying all
+kind of supposedly interesting information. An airco is softly
+humming on the low ceiling, trying to fight of the humidity.
+A guard post is siutuated in the middle of the room, but you
+cannot decide if it's to guard the scientists who work here
+or to protect them.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8189 0 0 0
+D5
+~
+~
+0 -1 8187 0 0 0
+S
+#8191
+Inside the Base~
+You've entered the heart of the base. Rows of computer terminals
+are lined against the thick, concrete walls, displaying all
+kind of supposedly interesting information. An airco is softly
+humming on the low ceiling, trying to fight of the humidity.
+A guard post is siutuated in the middle of the room, but you
+cannot decide if it's to guard the scientists who work here
+or to protect them.
+~
+0 0 0 0
+D3
+~
+~
+0 -1 8189 0 0 0
+D4
+~
+~
+0 -1 8192 0 0 0
+S
+#8192
+In the Forest~
+You walk through a dense forest. The rays of the burning sun
+have trouble getting through the canopy of the many trees. Ferns
+and bushes grow under large oaks. Squirrels flit through the
+tree branches, looking for nuts. North you can see a glimpse
+of a lake.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8193 0 0 0
+D5
+~
+~
+0 -1 8191 0 0 0
+S
+#8193
+Before a Lake~
+A large lake stretches out before you. The bright sunlight shimmers
+on the gentle waves, making you put a hand before your eyes.
+Small insects buzz around. A bird circles lazily over the water,
+hunting for fish. As you look closer at the water, you think
+that you might be able to &Gdive &ginto it.
+~
+0 0 0 0
+D2
+~
+~
+0 -1 8192 0 0 0
+R M 0 8193 1 8193
+> emote_prog p dives into the water~
+mea $n &bYou take a deep breath as you dive into the water!
+mer $n &b$n dives into the water.
+mptrans $n 8213
+mpat $n mer $n &b$n floats in from above
+mpat $n mpforce $n look
+~
+|
+S
+#8194
+Hallway~
+This is a very bright hallway. As you step on the floor, it makes
+a loud sound, almost as if the floor was hollow. You hear music
+humming in the backround. You look up at the light and you see
+bugs swarming around it. The floors are made out of hard wood,
+and the walls have a grey color. To the west is the entrance
+of the building, and southwest will take you further down the
+hallway.
+~
+0 0 0 0
+D3
+~
+~
+0 -1 8181 0 0 0
+D8
+~
+~
+0 -1 8195 0 0 0
+R M 0 8194 1 8194
+S
+#8195
+Hallway~
+This is a very bright hallway. As you step on the floor, it makes
+a loud sound, almost as if the floor was hollow. You hear music
+humming in the backround. You look up at the light and you see
+bugs swarming around it. The floors are made out of hard wood,
+and the walls have a grey color. To the northwest is another
+hallway, and south will take you further down the hallway.
+~
+0 0 0 0
+D2
+~
+~
+0 -1 8196 0 0 0
+D7
+~
+~
+0 -1 8194 0 0 0
+S
+#8196
+Hallway~
+This is a very bright hallway. As you step on the floor, it makes
+a loud sound, almost as if the floor was hollow. You hear music
+humming in the backround. You look up at the light and you see
+bugs swarming around it. The floors are made out of hard wood,
+and the walls have a grey color. To the north is another hallway,
+and down will take to the bottom of a this staircase.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8195 0 0 0
+D5
+~
+~
+0 -1 8197 0 0 0
+R M 0 8238 1 8196
+S
+#8197
+Bottom of the Stairs~
+As you walk out of the emergency exit of the building, you see
+some stairs that lead down to the streets. You sense a strong
+evil coming from the north. You ponder about what dangers lurk
+ahead. If you wish to go back, go back up the stairs and back
+into the building. If you want to pursue and follow the evil,
+go north, into the intersection.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8198 0 0 0
+D4
+~
+~
+0 -1 8196 0 0 0
+R M 0 8237 1 8197
+S
+#8198
+On the Street~
+You are on a large and very busy street. Many races travel through
+here, but mostly its only the most powerful people who come
+amongst these parts. You sense the evil aura getting stronger.
+South will take you back to the Stairs, and North, will take
+you to what looks to be an intersection.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8199 0 0 0
+D2
+~
+~
+0 -1 8197 0 0 0
+R O 0 8198 1 8198
+S
+#8199
+Intersection~
+You are at an intersection. There are four directions you can
+choose from. There's north, which will lead you to the area
+where all this evil has been coming from. South, which will
+take you back to the Streets. East, which will take you to a
+training area. Last, there's west, which looks to be a house,
+maybe you can rest there.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8206 0 0 0
+D1
+~
+~
+0 -1 8201 0 0 0
+D2
+~
+~
+0 -1 8198 0 0 0
+D3
+~
+~
+0 -1 8200 0 0 0
+R O 0 8199 1 8199
+S
+#8200
+A House~
+You are in an empty house. Many people are sleeping on the floor
+here, but it seems that there is no owner of this house. Your
+feeling a bit tired, maybe you should take a rest? If not, go
+back east to the intersection.
+~
+0 0 0 1
+D1
+~
+~
+0 -1 8199 0 0 0
+S
+#8201
+Training Area~
+You are now in the main part of the Training area. In this area,
+there are many forms of training you can use. You can spar with
+other fighters, gravity train, or train some skills.  If you
+get injured, there is also a house near by where you can rest.
+North, west and east will take you to the sparring chambers.
+Up will take you to the trainer.  As you look down you see a
+gravity chamber.  West will take you back to the Interesection
+if you wish to leave.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8203 0 0 0
+D1
+~
+~
+0 -1 8202 0 0 0
+D2
+~
+~
+0 -1 8204 0 0 0
+D3
+~
+~
+0 -1 8199 0 0 0
+D4
+~
+~
+0 -1 8212 0 0 0
+D5
+~
+~
+0 -1 8205 0 0 0
+S
+#8202
+Sparring Chamber #1~
+This room is completely blank, its white tiles are made out of
+strong resistant tiles. The only exit available is the one to
+your north, which is the way you came in here. This room, is
+specialized since you can spar other players and just stun them,
+not kill them. Even though there may not be death, there is still
+blood.
+
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 0 0 2
+D3
+~
+~
+0 -1 8201 0 0 0
+S
+#8203
+Sparring Chamber #2~
+This room is completely blank, its white tiles are made out of
+strong resistant tiles. The only exit available is the one to
+your north, which is the way you came in here. This room, is
+specialized since you can spar other players and just stun them,
+not kill them. Even though there may not be death, there is still
+blood.
+
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 0 0 2
+D2
+~
+~
+0 -1 8201 0 0 0
+S
+#8204
+Sparring Chamber #3~
+This room is completely blank, its white tiles are made out of
+strong resistant tiles. The only exit available is the one to
+your north, which is the way you came in here. This room, is
+specialized since you can spar other players and just stun them,
+not kill them. Even though there may not be death, there is still
+blood.
+
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 0 0 2
+D0
+~
+~
+0 -1 8201 0 0 0
+S
+#8205
+Gravity Chamber~
+Entering the room, you first notice the large machine in the
+middle of the room, which probably controls the room's gravity.
+The floor is cracked, and many biodroids lay on the ground,
+out of breath. The only exit to the outside, is the same way
+that you came inside.
+
+*** Training Higher than you should, will result in death. ***
+~
+0 0 0 4
+D4
+~
+~
+0 -1 8201 0 0 0
+S
+#8206
+Base of the Ginyu Tower~
+You are at the base of what seems to be, the tower of the Ginyu
+Force. You sense plenty of evil coming from above, but the evil
+seems to be more then just the Ginyu Force. You wonder what
+lies ahead. As you sit here, you try to decide if you should
+follow the darkness above. Or leave safely back south.
+~
+0 0 0 0
+D2
+~
+~
+0 -1 8199 0 0 0
+D4
+~
+~
+0 -1 8207 0 0 0
+S
+#8207
+&GGinyu Tower~
+As you enter the room a strange feeling stirs inside you. Various
+objects hover in mid air as if frozen in place. The place is
+filled with training equipment.Apparently the owner is trying
+to surpass his limits... On the walls various pictures of what
+appears to be a man with spiky, black hair completely scorched,
+ripped or torn.In a corner, your attention is caught by a wardrobe
+closet, a single uniform hangs inside. Once again, that strange
+feeling envelops you. Suddenly, in the blink of an eye, a squat
+4 eyed mutant stands before you wearing a uniform bearing the
+mark of the Ginyu.
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8208 0 0 0
+D5
+~
+~
+0 -1 8206 0 0 0
+R M 0 8207 1 8207
+S
+#8208
+&YGinyu Tower~
+&OEntering this room, you feel an enormously powerful energy
+inside it. As your sight moves through the room, you notice
+a large bed, some weights, a table with an empty plate of food
+on it, some porno lying around the floor and a few weapons on
+the floor.As strange as this room might seem, the following
+sight far surpasses it. In a corner, you see a gigantic man
+with a poorly done haircut, sitting in a chair reading an Algebra
+schoolbook. You stiffle a laugh but its too late. The man pulls
+his head away from the book and notices you. In a stupified
+rage, the energy levels in the room go off the scale as the
+giant is consumed by the rage due to your laughter.
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8209 0 0 0
+D5
+~
+~
+0 -1 8207 0 0 0
+R M 0 8208 1 8208
+S
+#8209
+&BGinyu Tower&w~
+&bUpon entering the room, you feel a strong wind pass by you.
+Walking into the dimly lit room some sort of running machine
+in the exact center of the room.There's a distinct air of blood
+running through the entire area making your nostrils flare.
+The room is pretty much bare except for the machine, a bed and...
+dozens of pedastals lined against a wall. As you approach these,
+you notice they each have something placed on top. To your grimace
+you discover the pedestals hold severed heads, most of which
+are in the decomposing period. Aside from the main pedestals,
+a few empty ones sit in the far end. Suddenly, out of nowhere,
+a head appears on one of the empty pedestals, still oozing blood.Then,
+another one.  Bewildered, you look around you as if looking
+for someone, the murderer. Nothing. Suddenly, a chuckle from
+behind breaks the silence. You turn around to an enormous blue
+being.
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8210 0 0 0
+D5
+~
+~
+0 -1 8208 0 0 0
+R M 0 8209 1 8209
+S
+#8210
+&RGinyu Tower~
+&rWalking into the room, a strong scent arouses your nostrils.It's,
+you believe, some sort of cologne. The room is vibrantly colored.On
+a wall, a bookshelf sits. Books like "Lose the Accent" and "Hair
+Care for the Working Mutant" sit on its dusty shelves. A table
+lies next to the bookshelf, an assortment of combs and brushes
+lie on it. A gigantic mirror hangs just above it. In one of
+the room's corners, various pieces of training equipment lie,
+dust-ridden and obviously neglected.As you look around, you
+notice a lone book laying on the bed. As you pick it up and
+snicker at its title you hear a deafening "OY!!!" from the entrance.You
+turn around to a red skinned mutant with long white locks.
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8211 0 0 0
+D5
+~
+~
+0 -1 8209 0 0 0
+R M 0 8210 1 8210
+S
+#8211
+&PGinyu Tower~
+&pFinally, the end of the line. The top of Ginyu Tower. Entering
+this gian room, you notice the walls to be full of posters with
+faces. Oddly enough, all of the faces have the same grin. Following
+the line of posters you notice one that's out of place. A skinny,
+orange mutant with a fearful expression appears to be the origin
+of the line. Moving along, you see a few manequines in various
+poses, which strike as strange. Posters and manequines do not
+compare to what you encounter next. A purple man, with portruding
+horns stands infront of mirror holding a book in his hand. He
+reads carefully, drops the book and, suddenly..... STRIKES A
+POSE.You feel a sweatdrop run down your head thinking this can't
+possibly be the feared Captain Ginyu. At that instant, Ginyu
+turns towards you, a smile on his face, and says "I found me
+a new body..." 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8226 0 0 0
+D5
+~
+~
+0 -1 8210 0 0 0
+R M 0 8211 1 8211
+S
+#8212
+Training Room~
+The room is somewhat well maintained and has adequate lighting
+for what goes on here. Oddly, there are no windows nor doors
+in this room. The room is designed as a large square with a
+tall, muscular man standing calmly in the middle. In each of
+the four corners of the room is a small ring where one can train
+and practice their newly aquired skills. Down will take you
+back to the Main room of the Training Area 
+~
+0 0 0 64
+D5
+~
+~
+0 -1 8201 0 0 0
+R M 0 8212 1 8212
+S
+#8213
+Underwater~
+&bYou swim beneth a large lake. The water is clear, giving you
+a good view of the underwater life. Schools of colorful fish
+dart about, and starfish are dotted between the rocky bottom
+of the lake. It's peaceful here.
+~
+0 0 10 0
+D0
+~
+~
+0 -1 8214 0 0 0
+D4
+~
+~
+0 -1 8193 0 0 0
+> rand_prog 8~
+mea $n &CYou gasp for air, but can't get any!
+mer $n &C$n gasps for air, but can't get any!
+mpdamage $n 8
+~
+|
+S
+#8214
+Underwater~
+&bYou swim beneth a large lake. The water is clear, giving you
+a good view of the underwater life. Schools of colorful fish
+dart about, and starfish are dotted between the rocky bottom
+of the lake. It's peaceful here.
+~
+0 0 10 0
+D0
+~
+~
+0 -1 8215 0 0 0
+D2
+~
+~
+0 -1 8213 0 0 0
+> rand_prog 8~
+mea $n &CYou gasp for air, but can't get any!
+mer $n &C$n gasps for air, but can't get any!
+mpdamage $n 8
+~
+|
+S
+#8215
+Underwater~
+&bYou swim beneth a large lake. The water is clear, giving you
+a good view of the underwater life. Schools of colorful fish
+dart about, and starfish are dotted between the rocky bottom
+of the lake. It's peaceful here.
+~
+0 0 10 0
+D2
+~
+~
+0 -1 8214 0 0 0
+D4
+~
+~
+0 -1 8225 0 0 0
+> rand_prog 8~
+mea $n &CYou gasp for air, but can't get any!
+mer $n &C$n gasps for air, but can't get any!
+mpdamage $n 8
+~
+|
+S
+#8216
+The Secret Base of Gerok~
+You are in the Secret Base of Gerok. You sense much stronger
+powerlevels here then you did before. You hear shouts out in
+the backround, sounds like someone might be giving out orders.To
+the west is A Healing Chamber, and to the east, is a Gravity
+chamber. If you wish to leave, head south, and take the bridge
+across. If your wanting to move forward, go up to the Military
+Room.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8218 0 0 0
+D2
+~
+~
+0 -1 8217 0 0 0
+D3
+~
+~
+0 -1 8219 0 0 0
+D4
+~
+~
+0 -1 8220 0 0 0
+S
+#8217
+On a Bridge~
+As you step on to the Bridge, it sways back and forth slowly.Each
+step you take, the boards that hold you, creek loudly. Looking
+down you see lots of water, maybe thats the Lake. If you dont
+trust this Bridge, I suggest you head back north into the Secret
+Base. But, this could be the only way out.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8216 0 0 0
+D5
+~
+~
+0 -1 8193 0 0 0
+> rand_prog 20~
+mea $n &RYou lose your balance and fall off of the Bridge!
+mer $n &R$n loses their balance and falls of the Bridge!
+mpdamage $n 5
+mptrans $n 8214
+mpat $n mer $n &C$n falls into the water from above!
+mpat $n mpforce $n look
+~
+|
+S
+#8218
+Gravity Chamber~
+Entering the room, you first notice the large machine in the
+middle of the room, which probably controls the room's gravity.
+The floor is cracked, and many biodroids lay on the ground,
+out of breath. The only exit to the outside, is the same way
+that you came inside.
+
+*** Training Higher than you should, will result in death. ***
+~
+0 0 0 4
+D3
+~
+~
+0 -1 8216 0 0 0
+S
+#8219
+Healing Chamber~
+Entering the room, you first notice that is complete dark, this
+helps the wounded who are inside the healing chamber, sleeping,
+able to recover faster than normal, so they can get back in
+action. There are some first-aid kits attached to the walls,
+and there are many chambers in lines scattered across the room.There
+is blood smeared all over the walls and pools of blood stain
+the floor. You see many biodroids lying in the healing chambers,
+they almost look to be dead.
+~
+0 0 0 1
+D1
+~
+~
+0 -1 8216 0 0 0
+S
+#8220
+Military Room~
+You are in the Military room, many missles of all sorts are lined
+up against the walls. You hear voices coming from all directions,
+sounds like someone giving out orders. You think maybe it would
+be a good choice to not stay here for too long. Anything could
+set this room off. Sweat drops from your forehead as you become
+nervous.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8221 0 0 0
+D3
+~
+~
+0 -1 8222 0 0 0
+D4
+~
+~
+0 -1 8223 0 0 0
+D5
+~
+~
+0 -1 8216 0 0 0
+S
+#8221
+Colonel's Office~
+You are in the Colonel's Office, many missles of all sorts are
+lined up against the walls. You hear voices coming from all
+directions, sounds like someone giving out orders. You think
+maybe it would be a good choice to not stay here for too long.Anything
+could set this room off. Sweat drops from your forehead as you
+become nervous. A large man stands here, gazing at you.
+~
+0 0 0 0
+D3
+~
+~
+0 -1 8220 0 0 0
+R M 0 8221 1 8221
+S
+#8222
+Lieutenant's Office~
+You are in the Lieutenants Office, many missles of all sorts
+are lined up against the walls. You hear voices coming from
+all directions, sounds like someone giving out orders. You think
+maybe it would be a good choice to not stay here for too long.Anything
+could set this room off. Sweat drops from your forehead as you
+become nervous. A large man stands here, glaring at you.
+~
+0 0 0 0
+D1
+~
+~
+0 -1 8220 0 0 0
+R M 0 8222 1 8222
+S
+#8223
+Military Room~
+You are in the Military room, many missles of all sorts are lined
+up against the walls. You hear voices coming from all directions,
+sounds like someone giving out orders. You think maybe it would
+be a good choice to not stay here for too long. Anything could
+set this room off. Sweat drops from your forehead as you become
+nervous.
+~
+0 0 0 0
+D4
+~
+~
+0 -1 8224 0 0 0
+D5
+~
+~
+0 -1 8220 0 0 0
+S
+#8224
+Lt. General's Office~
+You are in the Lieutenant General's Office, many missles of all
+sorts are lined up against the walls. You hear voices coming
+from all directions, sounds like someone giving out orders.
+You think maybe it would be a good choice to not stay here for
+too long.Anything could set this room off. Sweat drops from
+your forehead as you become nervous. The LT. General stands
+here infront of you, waiting for something.
+~
+0 0 0 0
+D5
+~
+~
+0 -1 8223 0 0 0
+R M 0 8224 1 8224
+S
+#8225
+Other Side of the Lake~
+You are on the other side of the lake. The bright sunlight shimmers
+on the gentle waves, making you put a hand before your eyes.Small
+insects buzz around. A bird circles lazily over the water, hunting
+for fish. As you look closer at the water, you think that you
+might be able to dive into it.But you feel a dark shadow watching
+you...
+~
+0 4 0 0 0 0 4
+R M 0 8225 1 8225
+> entry_prog 100~
+mea $n &BAs you jump out of the water you take a giant gasp for air!
+mer $n $n &Bcoughs up some water!
+~
+|
+S
+#8226
+Before the Jail~
+You seem to be before the Jail of Gerok. There are some security
+guards here guarding the doors, making sure no one leaves, and
+no one gets in that isn't authorized. Coming from the jail you
+hear people yelling and screaming at eachother, the aura of
+evil lingers here. Up will take you further into the Jail.
+~
+0 4 0 0
+D3
+~
+~
+0 -1 8211 0 0 0
+D4
+~
+~
+0 -1 8227 0 0 0
+R M 0 8226 2 8226
+R M 0 8226 2 8226
+S
+#8227
+The Jail of Gerok~
+You are inside the Jail of Gerok. Looking around you see many
+people in the Jail Cells, trying to reach out at you and grab
+you. A chill goes down your spine as you hear the screams in
+the backround. This is where the evil lies. Many races of all
+sorts are held in these Jail Cells. North will take you further
+into the Jail. Down will take you out of the Jail, going down
+might be a smart decision.
+~
+0 4 0 0
+D0
+~
+~
+0 -1 8230 0 0 0
+D1
+~
+~
+0 -1 8229 0 0 0
+D3
+~
+~
+0 -1 8228 0 0 0
+D5
+~
+~
+0 -1 8226 0 0 0
+S
+#8228
+Jail Cell~
+You are in one of the Jail Cells that was left open. There appears
+to be no one in here. Its quiet, a little too quiet, all you
+can hear is the drops of water hit the ground as they leak out
+from the roof. Blood stains the floor, there must be have been
+a fight here recently. As you go to leave the Jail Cell, you
+see a shadow, lurking in the corner.
+~
+0 4 0 0
+D1
+~
+~
+0 -1 8227 0 0 0
+R M 0 8228 1 8228
+S
+#8229
+Jail Cell~
+You are in one of the Jail Cells that was left open. There appears
+to be no one in here. Its quiet, a little too quiet, all you
+can hear is the drops of water hit the ground as they leak out
+from the roof. Blood stains the floor, there must be have been
+a fight here recently. As you go to leave the Jail Cell, you
+see a shadow, lurking in the corner.
+~
+0 4 0 0
+D3
+~
+~
+0 -1 8227 0 0 0
+R M 0 8229 1 8229
+S
+#8230
+The Jail of Gerok~
+You are inside the Jail of Gerok. Looking around you see many
+people in the Jail Cells, trying to reach out at you and grab
+you. A chill goes down your spine as you hear the screams in
+the backround. This is where the evil lies. Many races of all
+sorts are held in these Jail Cells. South will take you back
+near the entrance of the Jail.
+~
+0 4 0 0
+D1
+~
+~
+0 -1 8232 0 0 0
+D2
+~
+~
+0 -1 8227 0 0 0
+D3
+~
+~
+0 -1 8231 0 0 0
+S
+#8231
+Jail Cell~
+You are in one of the Jail Cells that was left open. There appears
+to be no one in here. Its quiet, a little too quiet, all you
+can hear is the drops of water hit the ground as they leak out
+from the roof. Blood stains the floor, there must be have been
+a fight here recently. As you go to leave the Jail Cell, you
+see a shadow, lurking in the corner.
+~
+0 4 0 0
+D1
+~
+~
+0 -1 8230 0 0 0
+R M 0 8231 1 8231
+S
+#8232
+Jail Cell~
+You are in one of the Jail Cells that was left open. There appears
+to be no one in here. Its quiet, a little too quiet, all you
+can hear is the drops of water hit the ground as they leak out
+from the roof. Blood stains the floor, there must be have been
+a fight here recently. As you go to leave the Jail Cell, you
+see a shadow, lurking in the corner.
+~
+0 4 0 0
+D3
+~
+~
+0 -1 8230 0 0 0
+R M 0 8231 2 8232
+S
+#8233
+Floating in a void~
+~
+0 4 1 0
+S
+#8234
+Floating in a void~
+~
+0 4 1 0
+S
+#8235
+Floating in a void~
+~
+0 4 1 0
+S
+#8236
+Floating in a void~
+~
+0 4 1 0
+S
+#8237
+Floating in a void~
+~
+0 4 1 0
+S
+#8238
+Floating in a void~
+~
+0 4 1 0
+S
+#8239
+Floating in a void~
+~
+0 4 1 0
+S
+#8240
+Floating in a void~
+~
+0 4 1 0
+S
+#8241
+Floating in a void~
+~
+0 4 1 0
+S
+#8242
+Floating in a void~
+~
+0 4 1 0
+S
+#8243
+Floating in a void~
+~
+0 4 1 0
+S
+#8244
+Floating in a void~
+~
+0 4 1 0
+S
+#8245
+Floating in a void~
+~
+0 4 1 0
+S
+#8246
+Floating in a void~
+~
+0 4 1 0
+S
+#8247
+Floating in a void~
+~
+0 4 1 0
+S
+#8248
+Floating in a void~
+~
+0 4 1 0
+S
+#8249
+Floating in a void~
+~
+0 4 1 0
+S
+#8250
+Floating in a void~
+~
+0 4 1 0
+S
+#8252
+Floating in a void~
+~
+0 4 1 0
+S
+#8281
+Floating in a void~
+~
+0 4 1 0
+S
+#8300
+Floating in a void~
+~
+0 4 1 0
+R M 0 8300 1 8300
+R O 0 8300 1 8300
+S
+#0
+
+
+#SHOPS
+ 8194    0  0  0  0  0   120  90         0 23    ; Gerok Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

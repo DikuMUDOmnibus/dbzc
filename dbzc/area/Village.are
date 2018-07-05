@@ -1,0 +1,681 @@
+#AREA   Hunter's Village~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250001
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#772
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#799
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#772
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#773
+Freekill Bean~
+A Freekill Bean~
+A Bean used in Hunter's Village is lying here~
+~
+64 1073741824 1
+0 0 0 0
+1 4500 450
+> drop_prog ~
+mpforce $n sac freekill
+
+endif
+~
+|
+#774
+baggy white pants~
+&G&WA Pair of Baggy White Pants&W&w~
+A pair of baggy white pants lie here.~
+~
+9 0 33
+0 110 110 0
+1 0 0
+#775
+golden earrings~
+&G&YA Pair of Golden Earrings&W&w~
+A pair of golden earrings have been left behind here.~
+~
+9 0 65537
+0 110 110 0
+1 0 0
+#776
+large golden pendant~
+&G&YA Large Golden Pendant&W&w~
+A large golden pendant has been neatly placed on the floor here.~
+~
+9 0 5
+0 110 110 0
+1 0 0
+#777
+golden boots~
+&G&OA Pair of Golden Boots&W&w~
+A pair of golden boots sit side by side here.~
+~
+5 0 65
+4 200 200 0
+1 0 0
+#778
+red gi~
+&G&RA Draped Red Gi&W&w~
+A crumpled red gi has been thrown on the floor here.~
+~
+9 0 2049
+0 110 110 0
+1 0 0
+#779
+golden wristguard~
+&G&OA Golden Wristguard&W&w~
+A wristguard has been left behind here.~
+~
+5 0 4097
+4 200 200 0
+1 0 0
+#799
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#772
+A Narrow Dirt Path~
+Small animals can be seen scurrying about the dirt path as one
+nears the village. Slight fog, apparently coming from the village,
+can be seen hovering lightly above the dirt path. Though there
+are various creatures crawling about the path, none can be seen
+near the village, as if afraid of what lies beyond. A large
+wooden arch can be seen at the entrance of the village reading:
+HUNTER'S VILLAGE
+~
+0 1073741828 1 0
+D0
+~
+~
+536870912 -1 6950 316 15 0
+D2
+~
+~
+0 -1 773 0 0 0
+> all_greet_prog 100~
+if ispc($n)
+if OvnumInv 773 >= 1
+
+
+
+mpforce $n drop all.Freekill
+endif
+endif
+~
+|
+S
+#773
+Hunter's Village~
+Thick fog hovers above the ground of this village. Abandoned
+and destroyed, the village appears to be almost entirely destroyed.
+Made entirely of wood, termites and battle damage have taken
+their toll on the remaining buildings.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 772 0 0 0
+D8
+~
+~
+0 -1 774 0 0 0
+D9
+~
+~
+0 -1 794 0 0 0
+S
+#774
+Village Square~
+Once inside the village, the damage the village has sustained
+is made much more visible. The few buildings that still remain
+standing are in horrible condition. The floor is stained red,
+from all of the bloodshed that has occurred within the village.
+~
+0 0 1 8388608
+D2
+~
+~
+0 -1 793 0 0 0
+D3
+~
+~
+0 -1 794 0 0 0
+D6
+~
+~
+0 -1 775 0 0 0
+D7
+~
+~
+0 -1 773 0 0 0
+S
+#775
+A Torn-Down Shop~
+Entering the shop, it is obvious that the back wall was blasted
+out with a massive ki attack. Pieces of armor and steel lie about
+the area and, what would appear to be the shopkeeper's skeleton,
+lies beneath a pile of debris.
+~
+0 0 1 8388608
+D9
+~
+~
+0 -1 774 0 0 0
+S
+#776
+Before the Easern Bridge~
+Two bridges surround the village square, both leading to the
+residential sector of the village. Battle damage can be seen
+in the residential sector from this side of the bridge, proving
+there was a horrible battle causing the emptiness of the village.
+~
+0 0 1 8388608
+D1
+~
+~
+0 -1 777 0 0 0
+D2
+~
+~
+0 -1 778 0 0 0
+D3
+~
+~
+0 -1 793 0 0 0
+S
+#777
+An Abandoned Warehouse~
+Four walls and a roof adequately describe this warehouse. The
+warehouse has been completely emptied and appears to be in better
+condition than the other buildings in the village. Large chunks
+of the wooden floor are missing, as if someone was thrown through
+it. Not much else can be seen in the warehouse.
+~
+0 0 1 8388608
+D3
+~
+~
+0 -1 776 0 0 0
+S
+#778
+On the Eastern Bridge~
+A foggy abyss can be seen directly below this deteriorated bridge.
+Perfectly round pieces of bridge are missing and upon closer
+inspection, appear to have been burned off. A ki battle must
+have taken place in the village.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 776 0 0 0
+D2
+~
+~
+0 -1 779 0 0 0
+S
+#779
+On the Eastern Bridge~
+A foggy abyss can be seen directly below this deteriorated bridge.
+Perfectly round pieces of bridge are missing and upon closer
+inspection, appear to have been burned off. A ki battle must
+have taken place in the village.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 778 0 0 0
+D2
+~
+~
+0 -1 780 0 0 0
+S
+#780
+A Wooden Walkway~
+This long walkway spans the village's residential area. Though
+sturdy, the walkway creaks and groans with every step taken
+on it. A large beautiful mansion can be seen in the western-most
+part of the area. Two small residences are sandwiched between
+a large building, in the eastern-most section of the area, and
+the mansion.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 779 0 0 0
+D3
+~
+~
+0 -1 782 0 0 0
+D8
+~
+~
+0 -1 781 0 0 0
+S
+#781
+Village Hall~
+A small sign at the entrance of the building reads: "Welcome
+to the Village Hall!" Were it not for the sign, this building
+could not have been recognized as the Village Hall. The hall
+has been emptied out entirely and all that remains are the four
+walls and a few burnt chairs.
+~
+0 0 1 8388608
+D7
+~
+~
+0 -1 780 0 0 0
+S
+#782
+A Wooden Walkway~
+This long walkway spans the village's residential area. Though
+sturdy, the walkway creaks and groans with every step taken
+on it. A large beautiful mansion can be seen in the western-most
+part of the area. Two small residences are sandwiched between
+a large building, in the eastern-most section of the area, and
+the mansion.
+~
+0 0 1 8388608
+D1
+~
+~
+0 -1 780 0 0 0
+D2
+~
+~
+1 -1 783 0 0 0
+D3
+~
+~
+0 -1 784 0 0 0
+S
+#783
+Abandoned Residence~
+Although not as much as the house next door this house still as the 
+appearance of a once luxurious home. Scattered all over the floor are 
+what appears to be the remains of clothing and eating utensils. A table 
+lays splintered in the south western corner, who ever used to live here 
+must have left in a hurry. Looking at the eastern wall you see that there 
+is a fire place, the mantle almost plain and dull in comparison to the 
+residence next door. 
+~
+0 0 1 8388608
+D0
+~
+~
+1 -1 782 0 0 0
+E
+'open log fire'~
+Upon closer inspection you see that there is no back to the fire place,
+instead it looks like a small tunnel. maybe one could somehow fit through.
+~
+> emote_prog p Crawls through the fire place~
+if ispc($n)
+mea $n You get on your hands and knees and crawl through the Fireplace.
+mer $n Crawls through the Fireplace.
+mptrans $n 785
+mpat $n mer $n $n Appears from the Fireplace.
+mpat $n mpforce $n look
+endif
+~
+> rand_prog 47~
+if ispc($n)
+mpe _cha You notice a faint draft come from the 'open log fire'
+else
+mpe
+endif
+~
+|
+S
+#784
+A Wooden Walkway~
+This long walkway spans the village's residential area. Though
+sturdy, the walkway creaks and groans with every step taken
+on it. A large beautiful mansion can be seen in the western-most
+part of the area. Two small residences are sandwiched between
+a large building, in the eastern-most section of the area, and
+the mansion.
+~
+0 4 1 8388608
+D1
+~
+~
+0 -1 782 0 0 0
+D2
+~
+~
+1 -1 785 0 0 0
+D3
+~
+~
+0 -1 786 0 0 0
+S
+#785
+Abandoned Residence~
+Shattered furniture and smashed pictures litter the floor of this house.
+A large, ornate mantle surrounds an open log fire on the western 
+wall, the exotic decorations make it seem out of place from the rest 
+of the dwellings in the village. Even in its dilapidated state this home 
+still holds a sense of luxury, though long gone, whoever once lived 
+here must have been someone important.
+~
+0 4 1 8388608
+D0
+~
+~
+1 -1 784 0 0 0
+E
+'open log fire'~
+Upon closer inspection you see that there is no back to the fire place,
+instead it looks like a small tunnel. maybe one could somehow fit through.
+~
+> emote_prog p Crawls through the fire place~
+if ispc($n)
+mea $n You get on your hands and knees and crawl through the Fireplace.
+mer $n Crawls through the Fireplace.
+mptrans $n 783
+mpat $n mer $n $n Appears from the Fireplace.
+mpat $n mpforce $n look
+endif
+~
+> rand_prog 47~
+if ispc($n)
+mpe _cha You notice a faint draft come from the 'open log fire'
+else
+mpe
+endif
+~
+|
+S
+#786
+A Wooden Walkway~
+This long walkway spans the village's residential area. Though
+sturdy, the walkway creaks and groans with every step taken
+on it. A large beautiful mansion can be seen in the western-most
+part of the area. Two small residences are sandwiched between
+a large building, in the eastern-most section of the area, and
+the mansion.
+~
+0 4 1 8388608
+D0
+~
+~
+0 -1 788 0 0 0
+D1
+~
+~
+0 -1 784 0 0 0
+D9
+~
+~
+0 -1 787 0 0 0
+S
+#787
+Mystic's Mansion~
+The musky scent of wood and leaves fills this mansion. Every
+one of the windows in the house have been blown out and the
+roof seems to be badly damaged. The mansion's beautiful exterior
+is but a facade, as the interior has been completely destroyed
+and is unkempt. Whoever was living in this mansion must have
+left in a hurry, as old jewelery and clothes can be seen scattered
+throughout the rooms.
+~
+0 0 1 8388608
+D6
+~
+~
+0 -1 786 0 0 0
+S
+#788
+On the Western Bridge~
+A foggy abyss can be seen directly below this deteriorated bridge.
+Perfectly round pieces of bridge are missing and upon closer
+inspection, appear to have been burned off. A ki battle must
+have taken place in the village.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 789 0 0 0
+D2
+~
+~
+0 -1 786 0 0 0
+S
+#789
+On the Western Bridge~
+A foggy abyss can be seen directly below this deteriorated bridge.
+Perfectly round pieces of bridge are missing and upon closer
+inspection, appear to have been burned off. A ki battle must
+have taken place in the village.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 790 0 0 0
+D2
+~
+~
+0 -1 788 0 0 0
+S
+#790
+Before the Western Bridge~
+Two bridges surround the village square, both leading to the
+residential sector of the village. Battle damage can be seen
+in the residential sector from this side of the bridge, proving
+there was a horrible battle causing the emptiness of the village.
+~
+0 0 1 8388608
+D1
+~
+~
+0 -1 792 0 0 0
+D2
+~
+~
+0 -1 789 0 0 0
+D3
+~
+~
+0 -1 791 0 0 0
+S
+#791
+A Guard Post~
+Neatly hidden behind a house, this guard post once provided adequate
+shelter for the guard. The wooden roof is slowly falling apart,
+as termites can be seen walking about and chipping away at the
+beams. The skeletal remains of the former guard can be seen
+strewn about the guard post. The history of Hunter's Village
+is slowly beginning to unravel. The village appears to have
+been ransacked.
+~
+0 0 1 8388608
+D1
+~
+~
+0 -1 790 0 0 0
+S
+#792
+Village Square~
+The remains of what used to be the village square are barely
+recognizable. Though the village's structure were mostly made
+of wood, the square was made of stone. A large circular fountain
+used to stand tall at the center of the square, but only the
+base remains.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 794 0 0 0
+D1
+~
+~
+0 -1 793 0 0 0
+D3
+~
+~
+0 -1 790 0 0 0
+S
+#793
+Village Square~
+The remains of what used to be the village square are barely
+recognizable. Though the village's structure were mostly made
+of wood, the square was made of stone. A large circular fountain
+used to stand tall at the center of the square, but only the
+base remains.
+~
+0 0 1 8388608
+D0
+~
+~
+0 -1 774 0 0 0
+D1
+~
+~
+0 -1 776 0 0 0
+D3
+~
+~
+0 -1 792 0 0 0
+S
+#794
+Village Square~
+Once inside the village, the damage the village has sustained
+is made much more visible. The few buildings that still remain
+standing are in horrible condition. The floor is stained red,
+from all of the bloodshed that has occurred within the village.
+~
+0 0 1 8388608
+D1
+~
+~
+0 -1 774 0 0 0
+D2
+~
+~
+0 -1 792 0 0 0
+D6
+~
+~
+0 -1 773 0 0 0
+D7
+~
+~
+0 -1 795 0 0 0
+S
+#795
+An Empty House~
+Broken glass and heavy dirt make up what used to be a wooden
+floor. The stench of rotting skin fills the room as flies can
+be seen flying about a corpse at one end of the house. Near
+the corpse, a shattered armor and a broken katana.
+~
+0 0 1 8388608
+D8
+~
+~
+0 -1 794 0 0 0
+S
+#796
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#797
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#798
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#799
+Floating in a void~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

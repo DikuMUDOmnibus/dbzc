@@ -1,0 +1,3315 @@
+#AREA   Chikara5~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+17
+
+#CONTINENT continent1~
+
+#ECONOMY 2 613898397
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2252
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2253
+Lusitania Guard~
+A Lusitanian Guard~
+A large armed guard stands here guarding the western door.
+~
+~
+-2147483645 1000 C
+1 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 1
+25 25 13 25 25 13 25
+0 0 0 0 0
+4 3 0 0 4 4 3
+0 0 0 0 0 0 0 0
+Z
+none~
+#2254
+Lusitania Guard~
+A Lusitanian Guard~
+A large armed guard stands here guarding the western door.
+~
+~
+-2147483645 1000 C
+1 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 1
+25 25 13 25 25 13 25
+0 0 0 0 0
+4 3 0 0 4 4 3
+0 0 0 0 0 0 0 0
+Z
+none~
+#2255
+Woman Receptionist Lusitania~
+The Check-In Receptionist~
+A lady in a lab coat sits behind a large desk filling out papers.
+~
+~
+67108867 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpsleep 5
+if wasinroom($n) == 2258
+mpecho &WThe receptionist looks up from her work and smiles at you.
+mpsleep 3
+say Welcome to Lusitania.
+mpsleep 3
+say We have to keep the colony fenced in to prevent any alien race native to this planet from getting into the colony and spreading any kind of native diseases.
+mpsleep 3
+say I can allow you into the colony to explore on a temporary basis, but you must agree to remain peaceful while visiting.
+else
+if carryingvnum($n) == 2255
+mpdonothing
+else
+say Welcome back, I hope you enjoyed your visit...
+endif
+endif
+~
+> speech_prog p I agree~
+bow $n
+say Enjoy your visit in Lusitania Colony!
+mpsleep 4
+mpecho &WThe receptionist instructs the guards to open the western door and allow you through.
+mea $n &WYou walk west through the large door.
+mer $n &W$n walks west through the large door.
+mptransfer $n 2260
+mpsleep 2
+mpat $n mpforce $n look
+~
+> greet_prog 100~
+if carryingvnum($n) == 2255
+say ...where did you get that relic!
+mpsleep 3
+say If you got out of the colony somehow to get that relic, I can't let you re-enter the colony or leave the planet!
+mer $n &GThe Receptionist snaps her fingers and points at $n!
+mea $n &GThe Receptionist snaps her fingers and points at you!
+mer $n &RThe guards grab you and transport you out of the colony drop you off outside of the fence!
+mea $n &RThe guards grab $n and transport them out of the colony!
+mptransfer $n 2300
+endif
+~
+|
+#2256
+Lusitania Shopkeeper~
+The Lusitanian Shopkeeper~
+A short man stands behind the counter straightening things on the shelves.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+mpsleep 3
+say Welcome to the Lusitanian Supply Shop.
+mpsleep 3
+say I know the prices are high, but it's hard to get things imported here, so I have to charge alot.
+~
+|
+#2257
+Lusitania Trainer~
+A Lusitanian Trainer~
+A large, well built trainer stands behind the counter.
+~
+~
+67108867 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+say Ah, Velcome to zee Lusitanian Training Gym!
+mpsleep 4
+say If you are looking for zee membership, it vill cost you 1million coins!
+~
+> bribe_prog 1000000~
+say Ah, so you do want to train!
+mptransfer $n 2289
+mpat $n mpforce $n look
+~
+|
+#2258
+Lusitania Trainer~
+A Lusitanian Trainer~
+A large, well built trainer stands behind the counter.
+~
+~
+1539 1000 C
+1 0 0 0d0+0 0d0+0
+0 100000000
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 2258
+~
+|
+#2259
+Disguised Old Man~
+A disguised old man~
+A short person in a large cloak, that covers it completely, paces here.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+if carryingvnum($n) == 2255
+peer $n
+else
+say Someone actually found me...
+say Promise that you won't tell the humans that I am here and I'll tell you of my people's great treasure!
+endif
+~
+> speech_prog p I promise~
+mpsleep 10
+nod $n
+say I am one of the native races of the planet Lusitania...
+mpsleep 10
+say We are a peaceful but secretive race, and do not want others to know of our culture.
+mpsleep 10
+sigh
+say But I got trapped here when the humans landed and can't escape this colony...
+mpsleep 10
+say My people know of a method to increase a fighters power beyond the limits of any other fighter
+mpsleep 10
+say Take this item to my tribe not too far away from this colony and my people will surely teach this technique to you!
+mpoload 2255
+drop relic
+~
+|
+#2260
+Lusitanian Priest~
+A Lusitanian Priest~
+A religious man in white and purple robes prays here.
+~
+~
+67108867 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+pray
+say May the powers above bless this colony and prevent the evils of this planet from hurting any humans here!
+~
+|
+#2261
+Lusitanian Worker Mob~
+Lusitanian Worker Mob~
+An Invis Lusitanian Worker Mob
+~
+~
+77594627 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2262
+Giant Old Tree~
+A Giant Living Tree~
+&gA fifty foot tree stands out as the largest tree in the forest.&W&w
+~
+~
+3 -1000 C
+50 0 0 0d0+0 0d0+0
+0 1250000000
+108 108 0
+13 25 13 25 25 13 25
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> fight_prog 100~
+mprestore 'giant old tree' 100
+mpecho &gThe Tree howls at you, &W'You're puny attempts of damaging me are useless!'
+~
+> emote_prog p swings the axe at a target.~
+if wearingvnum($n) == 2253
+if ovnumroom(2258) < 1
+mpoload 2258
+mpecho &gThe tree howls in pain as you chop away at it.
+mpecho &gYou are going to chop all the way through it eventually!
+else
+if ovnumroom(2259) < 1
+mpoload 2259
+mpecho &gThe tree howls in pain as you chop away at it.
+mpecho &gYou are going to chop all the way through it eventually!
+else
+if ovnumroom(2260) < 1
+mpoload 2260
+mpecho &gThe tree howls in pain as you chop away at it.
+mpecho &gThe tree is about to fall down! One more good chop!
+else
+mppeace $n
+mpecho &gYou hear a loud crack as the tree snaps in half and falls over!
+mppurge
+if carryingvnum($n) == 2261
+mpgoto 2198
+else
+mpoload 2261
+mposet 'tree sap' wear take
+mposet 'tree sap' timer 10
+mpforce $n get 'tree sap'
+mpgoto 2198
+endif
+endif
+endif
+endif
+endif
+~
+|
+#2263
+Lusitanian Native Priest~
+A Native Lusitanian Priest~
+A short person in a large cloak, that covers it completely, paces here.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+if carryingvnum($n) == 2255
+peer $n
+mpsleep 5
+say If you have that relic... then that means he is still alive!
+mpforce $n junk relic
+mpsleep 3
+say Praise the heavens....
+mpsleep 3
+say Because you helped my people, I will now help you.
+say My people are all migrating to hidden villages to avoid being discovered by the human colony.
+mpsleep 5
+say I will teach you the great secret that my race poccesses, but you must collect some ingrediants first!
+mpsleep 3
+say Bring me the rare Colada Root that must be dug out of the ground on the Lusitanian plains, but you must bring it back to me quickly or it will decay!
+say You'll need to buy a shovel to dig with if you don't have one
+mpsleep 3
+say Once you have returned with the root, give it to me, and I will tell you where to get the next ingrediant.
+bow $n
+say If you don't want to learn the secret now and want to return to the human colony, just say return me to the colony
+else
+if carryingvnum($n) == 2257
+say Quickly give me the root!
+else
+if carryingvnum($n) == 2261
+say Give me the sap and I can finally teach you my races great secret!
+else
+peer $n
+mea $n &cThe Native Lusitanian Priest ignores your presense.
+endif
+endif
+endif
+~
+> speech_prog p return me to the colony~
+nod $n
+mea $n &WThe Priest chants some arcaine words and teleports you!
+mptransfer $n 2255
+mpat $n mpforce $n look
+~
+> act_prog p gives you A Small Colada Root.~
+if ovnuminv(2261) > 0
+mpjunk 'living tree sap'
+mpjunk 'colada root'
+cheer $n
+say You found the Colada Root!
+say Now i can teach you my races great secret to increase your power beyond the normal limits.
+mea $n The Native Lusitanian Priest mixes the root and sap together and rubs it on his hands.
+mea $n The Native Lusitanian Priest chants some arcaine words and touches your forehead.
+mppractice $n 'chikara 5' 15
+else
+say Great, you found the root!
+mea $n &cThe Native Lusitanian Priest puts the root into a pouch on his belt.
+say Next you'll have to get some living tree sap, from the tallest tree in the Lusitanian forest. It is said that you can only find the tree when the moon is high in the sky.
+say You'll need an axe to get the sap out of the center of the tree, if you don't have one
+endif
+~
+> act_prog p gives you Some Living Tree Sap.~
+if ovnuminv(2257) > 0
+mpjunk 'living tree sap'
+mpjunk 'colada root'
+cheer $n
+say You found the Tree Sap!
+say Now i can teach you my races great secret to increase your power beyond the normal limits.
+mea $n &CThe Native Lusitanian Priest mixes the root and sap together and rubs it on his hands.
+mea $n &WThe Native Lusitanian Priest chants some arcaine words and touches your forehead.
+mppractice $n 'chikara 5' 15
+else
+cheer $n
+say You found the tree sap!
+say But you still need to bring me a Colada Root before I can teach you the secret.
+endif
+~
+|
+#2350
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2252
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2253
+axe axex~
+A Sharp, Single Sided Axe~
+An axe is stuck into the ground here.~
+~
+5 0 16385
+0 110 0 4 0 1
+1 2500000 500000
+E
+axe~
+&WThis axe looks like it is very good at &Ychop&Wping down trees.
+~
+> custom_prog chop~
+if wearingvnum($n) == 2253
+if isfight($n)
+mpforce $n emote swings the axe at a target.
+mpdelay $n 2
+else
+if wearingvnum($n) == 2253
+mpforce $n emote swings the axe through the air.
+endif
+endif
+endif
+~
+> drop_prog 100~
+mpforce $n sac axex
+~
+|
+#2254
+Shovel~
+A Digging Shovel~
+A long handled shovel is stuck into the ground here.~
+~
+5 8192 16385
+15 15 0 0
+1 2500000 250000
+E
+shovel~
+&WThis shovel looks like it is made for some quality &Ydig&Wging
+~
+> custom_prog dig~
+if wearingvnum($n) == 2254
+mpforce $n emote pushes the shovel into the ground.
+endif
+~
+> drop_prog 100~
+mpforce $n sac shovel
+~
+|
+#2255
+Lusitanian Relic~
+A Lusitanian Relic~
+A strange alien relic lies on the ground here.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+relic~
+&GThis relic is covered in strange alien symbols, there is no
+way you could ever decifer this.
+~
+#2256
+Hole Ground~
+A Hole in the Ground~
+&OYou have dug out a small hole in the ground.&W&w~
+~
+15 0 0
+2 0 0 0
+1 0 0
+#2257
+Colada Root~
+A Small Colada Root~
+&OA strange little root is growing out of the ground here.&W&w~
+~
+13 1 1
+0 0 0 0
+1 0 0
+#2258
+tree damage counter~
+A Tree Damage Counter [1]~
+&OA chunk of dead tree bark.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2259
+tree damage counter~
+A Tree Damage Counter [2]~
+&OA chunk of dead tree bark.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2260
+tree damage counter~
+A Tree Damage Counter [3]~
+&OA chunk of dead tree bark.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2261
+Living Tree Sap~
+Some Living Tree Sap~
+A small puddle of gooey tree sap coagulates here.~
+~
+13 1 0
+0 0 0 0
+1 0 0
+#2350
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2252
+First Room~
+~
+0 4 1 0
+R M 0 2252 1 2252
+R M 0 2350 1 2252
+R O 0 2350 1 2252
+R O 0 2252 1 2252
+S
+#2253
+&CLusitania Landing Pad&W&w~
+&cA large rolling staircase leads the way down from the shuttle
+to the ground of the landing pad. You can feel the heat from
+the shuttles engines as you begin your decent. Several humans
+rush around the shuttle to get it's post-flight statistics and
+prepare it for it's next trip.
+~
+0 4 1 0
+D5
+~
+~
+0 -1 2254 0 0 0
+> entry_prog 100~
+if wearingvnum($n) == 2253
+mpforce $n remove axex
+mpforce $n drop axex
+else
+if carryingvnum($n) == 2253
+mpforce $n drop axex
+endif
+endif
+~
+|
+S
+#2254
+&CBelow the Landing Pad&W&w~
+&cThe area below the landing pad is scorched from all of the
+shuttles that have landed and taken off from here. The ground
+that is away from the landing area seems to be fertile and covered
+in green grass. It seems sort of odd to you that there are no
+trees in site. A large lazer grid fence prevents you from leaving
+in any direction, and guides you southwest to a well traveled path.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 2253 0 0 0
+D9
+~
+~
+0 -1 2255 0 0 0
+> entry_prog 100~
+if wearingvnum($n) == 2254
+mpforce $n southwest
+else
+if carryingvnum($n) == 2254
+mpforce $n southwest
+else
+if wearingvnum($n) == 2253
+mpforce $n southwest
+else
+if carryingvnum($n) == 2253
+mpforce $n southwest
+endif
+endif
+endif
+endif
+~
+|
+S
+#2255
+&CA Well Traveled Path&W&w~
+&cIt is obvious that many have traveled down this trail. The
+grass is trampled and sparse along the path, but still luscious
+around the path. The large fence continues guiding you to the
+south.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2256 0 0 0
+D6
+~
+~
+0 -1 2254 0 0 0
+S
+#2256
+&CA Well Traveled Path&W&w~
+&cIt is obvious that many have traveled down this trail. The
+grass is trampled and sparse along the path, but still luscious
+around the path. The large fence continues guiding you to the
+southeast.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2255 0 0 0
+D8
+~
+~
+0 -1 2257 0 0 0
+S
+#2257
+&CA Well Traveled Path&W&w~
+&cIt is obvious that many have traveled down this trail. The
+grass is trampled and sparse along the path, but still luscious
+around the path. The large fence continues guiding you to the
+south towards a small building that appears to be the only entrance
+you can see to the Lusitanian colony.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2258 0 0 0
+D7
+~
+~
+0 -1 2256 0 0 0
+S
+#2258
+&CApproaching a Small Building&W&w~
+&cThe lazer grid fence stops at the entrance to this small building.
+The door on the building says something in a strange alien language
+that you can't decifer, but as you approach the door it slides
+open allowing you entrance.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2257 0 0 0
+D2
+~
+~
+0 -1 2259 0 0 0
+S
+#2259
+&CCheck-In Station&W&w~
+&cThe first thing you notice is two armed guards blocking a large
+metal door on the other side of the room. As you glance around
+the room you see a large granite desk that has a small human
+woman in a lab coat sitting behind a huge stack of papers.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2258 0 0 0
+R M 0 2253 1 2259
+R M 0 2254 1 2259
+R M 0 2255 1 2259
+> entry_prog 100~
+if mobinroom(2253) == 1
+mpecho &GA Lusitanian Guard steps infront of the western door and raises his weapon to his shoulder.
+if mobinroom(2254) == 1
+mpecho &GA Lusitanian Guard steps infront of the western door and raises his weapon to his shoulder.
+endif
+endif
+~
+|
+S
+#2260
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2283 0 0 0
+D1
+~
+~
+0 -1 2259 0 0 0
+D3
+~
+~
+0 -1 2261 0 0 0
+S
+#2261
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2262 0 0 0
+D1
+~
+~
+0 -1 2260 0 0 0
+D3
+~
+~
+0 -1 2268 0 0 0
+S
+#2262
+&CA Large Foyer&W&w~
+&cThis large foyer has several tapestries and beatiful paintings
+all over the walls and ceilings. A large golden dish sits on
+a marble pedistool, and seems to be filled with holy water.
+You're pretty sure you have found the colonies church.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2261 0 0 0
+D6
+~
+~
+0 -1 2267 0 0 0
+D7
+~
+~
+0 -1 2263 0 0 0
+S
+#2263
+&CInside the Cathedral&W&w~
+&cThe ceilings of the cathedral are atleast 25 feet tall. Large
+royal colored tapestries drape the walls. Light bleeds into
+the room through the multi-colored stained glass windows. There
+are several rows of pews that face a large pulpit to the north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2264 0 0 0
+D1
+~
+~
+0 -1 2267 0 0 0
+D8
+~
+~
+0 -1 2262 0 0 0
+S
+#2264
+&CInside the Cathedral&W&w~
+&cThe ceilings of the cathedral are atleast 25 feet tall. Large
+royal colored tapestries drape the walls. Light bleeds into
+the room through the multi-colored stained glass windows. There
+are several rows of pews that face a large pulpit to the north.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2266 0 0 0
+D2
+~
+~
+0 -1 2263 0 0 0
+D6
+~
+~
+0 -1 2265 0 0 0
+S
+#2265
+&CBehind the Pulpit&W&w~
+&cThe pulpit is draped with a holy white sheet inscribed with
+golden holy symbols. There are several ceremonial instraments
+on a table next to where the priest stands. A large golden symbol
+of the Lusitanins object of worship is on the wall behind the
+pulpit, looming over the entire cathedral.
+~
+0 4 1 0
+D8
+~
+~
+0 -1 2266 0 0 0
+D9
+~
+~
+0 -1 2264 0 0 0
+R M 0 2260 1 2265
+S
+#2266
+&CInside the Cathedral&W&w~
+&cThe ceilings of the cathedral are atleast 25 feet tall. Large
+royal colored tapestries drape the walls. Light bleeds into
+the room through the multi-colored stained glass windows. There
+are several rows of pews that face a large pulpit to the north.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2267 0 0 0
+D3
+~
+~
+0 -1 2264 0 0 0
+D7
+~
+~
+0 -1 2265 0 0 0
+S
+#2267
+&CInside the Cathedral&W&w~
+&cThe ceilings of the cathedral are atleast 25 feet tall. Large
+royal colored tapestries drape the walls. Light bleeds into
+the room through the multi-colored stained glass windows. There
+are several rows of pews that face a large pulpit to the north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2266 0 0 0
+D3
+~
+~
+0 -1 2263 0 0 0
+D9
+~
+~
+0 -1 2262 0 0 0
+S
+#2268
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2269 0 0 0
+D1
+~
+~
+0 -1 2261 0 0 0
+D2
+~
+~
+0 -1 2270 0 0 0
+D3
+~
+~
+0 -1 2271 0 0 0
+S
+#2269
+&CLusitanian Dwelling&W&w~
+&cLusitanian dwellings seem to be pretty basic human houses.
+There is a living area, a kitchen, and a couple bedrooms, nothing
+to special.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2268 0 0 0
+S
+#2270
+&CLusitanian Dwelling&W&w~
+&cLusitanian dwellings seem to be pretty basic human houses.
+There is a living area, a kitchen, and a couple bedrooms, nothing
+to special.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2268 0 0 0
+S
+#2271
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2272 0 0 0
+D1
+~
+~
+0 -1 2268 0 0 0
+D3
+~
+~
+0 -1 2273 0 0 0
+D7
+~
+~
+0 -1 2274 0 0 0
+S
+#2272
+&CLusitanian Dwelling&W&w~
+&cLusitanian dwellings seem to be pretty basic human houses.
+There is a living area, a kitchen, and a couple bedrooms, nothing
+to special.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2271 0 0 0
+S
+#2273
+&CLusitanian Shop&W&w~
+&cThis shop is fairly small, but seems pretty well stocked. The
+shelves are lined with materials that don't seem too out of
+the ordinary. One shelf has several axes, there is a rack of
+shovels against the far wall, and several sensu bean plants
+on the counter.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2271 0 0 0
+R M 0 2256 1 2273
+  R G 1 2254 1
+  R G 1 6 1
+  R G 1 2253 1
+S
+#2274
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2275 0 0 0
+D8
+~
+~
+0 -1 2271 0 0 0
+S
+#2275
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2277 0 0 0
+D1
+~
+~
+0 -1 2278 0 0 0
+D2
+~
+~
+0 -1 2274 0 0 0
+D3
+~
+~
+0 -1 2276 0 0 0
+S
+#2276
+&CLusitanian Training Center&W&w~
+&cThere is a large desk at the entrance to the training center
+with a large, well built personal trainer awating the next customer
+that wishes to sign up. You can see through the glass doors
+that lead further into the training center that is loaded with
+training equipment and sparring partners. This may be a nice
+place to train if you need some training.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2275 0 0 0
+R M 0 2257 1 2276
+S
+#2277
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2275 0 0 0
+D6
+~
+~
+0 -1 2284 0 0 0
+S
+#2278
+&CLusitanian Dwelling&W&w~
+&cLusitanian dwellings seem to be pretty basic human houses.There
+is a living area, a kitchen, and a couple bedrooms, nothing
+to special.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2275 0 0 0
+S
+#2279
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2285 0 0 0
+D1
+~
+~
+0 -1 2280 0 0 0
+D3
+~
+~
+0 -1 2284 0 0 0
+S
+#2280
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2281 0 0 0
+D3
+~
+~
+0 -1 2279 0 0 0
+S
+#2281
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2280 0 0 0
+D2
+~
+~
+0 -1 2282 0 0 0
+S
+#2282
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2281 0 0 0
+D2
+~
+~
+0 -1 2283 0 0 0
+S
+#2283
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2282 0 0 0
+D2
+~
+~
+0 -1 2260 0 0 0
+S
+#2284
+&CPath Around the Colony&W&w~
+&cYou have finally made it into the Lusitanian Colony. Several
+colony inhabitants wonder around the colony like it was any
+small village on earth. The main path around the colony is a
+narrow cobblestone path, wide enough for about three people
+to walk on.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2279 0 0 0
+D9
+~
+~
+0 -1 2277 0 0 0
+S
+#2285
+&CThe Porch of an Old House&W&w~
+&cThe boards on the porch seem to be almost completely destroyed
+by termites and water damage. One step on these boards would
+probably send you falling through the porch.  You are suprised
+there is a house this old on this newly established colony.
+The door into the house looks so rickety that you are pretty
+sure knocking would just knock the door off the hindges.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2286 0 0 0
+D2
+~
+~
+0 -1 2279 0 0 0
+> entry_prog 100~
+if isflying($n)
+mpdonothing
+else
+save
+mea $n &OAs you step onto the old porch you fall through the brittle boards!
+mer $n &O$n falls through the boards of the porch!
+mptransfer $n 2287
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2286
+&CAn Empty House&W&w~
+&cThe inside of the house is filled with cobwebs and dust. The
+floor boards seem to be a little more sturdy than the boards
+of the porch. You hear noises below the floor, it's probably
+just mice under the boards. Unfortunately there isn't anyone
+in the house.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2285 0 0 0
+S
+#2287
+&CBeneath the Porch&W&w~
+&cYou begin coughing as the dust under the porch stirs into the
+air from your fall. Light beams into the room from the hole
+you fell through, and reveals a small tunnel to the north that
+leads under the house.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2288 0 0 0
+D2
+~
+~
+0 -1 2279 0 0 0
+> entry_prog 100~
+if isflying($n)
+if wasinroom($n) == 2279
+mptransfer $n 2285
+else
+mpdonothing
+endif
+endif
+~
+|
+S
+#2288
+&CA Hidden Basement&W&w~
+&cYou realize the noises you heard in the floor of the house
+above weren't mice, but they were coming from this room. The
+basement is very dimly lit by torch light that leaves the edges
+of the basement still in darkness. Wind howls into the room
+from the south. Between the dim light and howling wind it's
+hard to not get disoriented in this room.
+~
+0 260 1 0 0 0 2
+D2
+~
+~
+0 -1 2287 0 0 0
+R M 0 2259 1 2288
+S
+#2289
+&CPreparation Room&W&w~
+&cThere are a couple healing pods around the edge of the room
+that you can recover in. There is also several sparring mats
+that you can get warmed up on if need be.
+~
+0 4 1 7
+D0
+~
+~
+0 -1 2290 0 0 0
+D1
+~
+~
+0 -1 2276 0 0 0
+S
+#2290
+&CTraining Room&W&w~
+&cThere is a large, muscular man standing in the middle of the
+room. He is wearing a shirt that says staff, so he must be another
+trainer. There are several training equipment machines, and
+weight lifting machines around the room.
+~
+0 4 1 131143
+D2
+~
+~
+0 -1 2289 0 0 0
+R M 0 2258 1 2290
+S
+#2291
+&WSpacestation Ship Port&W&w~
+&WAs you exit your ship you notice how small this spacestation
+looks from the inside. There is a large air lock that leads
+to the west further into the spacestation. As you take your
+first step you float up into the air because of the lack of
+gravity.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2292 0 0 0
+S
+#2292
+&WSpacestation: Lusitania&W&w~
+&WThis area of the spacestation is pretty spacious. There are
+a few metallic boxes with astronaut supplies anchored to the
+ground and locked shut to prevent stuff from floating away.
+As you begin spinning around in the room without gravity, you
+become extremely disoriented and can't tell which way leads
+out of the room!
+~
+0 262148 1 0
+D0
+~
+~
+0 -1 2297 0 0 0
+D1
+~
+~
+0 -1 2291 0 0 0
+D2
+~
+~
+0 -1 2297 0 0 0
+D3
+~
+~
+0 -1 2293 0 0 0
+D6
+~
+~
+0 -1 2292 0 0 0
+D7
+~
+~
+0 -1 2292 0 0 0
+D8
+~
+~
+0 -1 2292 0 0 0
+D9
+~
+~
+0 -1 2292 0 0 0
+> entry_prog 100~
+if isflying($n)
+mpforce $n fly
+endif
+~
+|
+S
+#2293
+&WSpacestation: Lusitania&W&w~
+&WThis area of the spacestation is pretty spacious. There are
+a few metallic boxes with astronaut supplies anchored to the
+ground and locked shut to prevent stuff from floating away.
+As you begin spinning around in the room without gravity, you
+become extremely disoriented and can't tell which way leads
+out of the room!
+~
+0 262148 1 0
+D0
+~
+~
+0 -1 2296 0 0 0
+D1
+~
+~
+0 -1 2292 0 0 0
+D2
+~
+~
+0 -1 2296 0 0 0
+D3
+~
+~
+0 -1 2294 0 0 0
+D6
+~
+~
+0 -1 2293 0 0 0
+D7
+~
+~
+0 -1 2293 0 0 0
+D8
+~
+~
+0 -1 2293 0 0 0
+D9
+~
+~
+0 -1 2293 0 0 0
+S
+#2294
+&WSpacestation: Lusitania&W&w~
+&WThis area of the spacestation is pretty spacious. There are
+a few metallic boxes with astronaut supplies anchored to the
+ground and locked shut to prevent stuff from floating away.
+As you begin spinning around in the room without gravity, you
+become extremely disoriented and can't tell which way leads
+out of the room!
+~
+0 262148 1 0
+D0
+~
+~
+0 -1 2295 0 0 0
+D1
+~
+~
+0 -1 2293 0 0 0
+D2
+~
+~
+0 -1 2295 0 0 0
+D3
+~
+~
+0 -1 2294 0 0 0
+D6
+~
+~
+0 -1 2294 0 0 0
+D7
+~
+~
+0 -1 2294 0 0 0
+D8
+~
+~
+0 -1 2294 0 0 0
+D9
+~
+~
+0 -1 2294 0 0 0
+S
+#2295
+&WSpacestation: Lusitania&W&w~
+&WThis area of the spacestation is pretty spacious. There are
+a few metallic boxes with astronaut supplies anchored to the
+ground and locked shut to prevent stuff from floating away.
+As you begin spinning around in the room without gravity, you
+become extremely disoriented and can't tell which way leads
+out of the room!
+~
+0 262148 1 0
+D0
+~
+~
+0 -1 2294 0 0 0
+D1
+~
+~
+0 -1 2296 0 0 0
+D2
+~
+~
+0 -1 2294 0 0 0
+D3
+~
+~
+0 -1 2298 0 0 0
+D6
+~
+~
+0 -1 2295 0 0 0
+D7
+~
+~
+0 -1 2295 0 0 0
+D8
+~
+~
+0 -1 2295 0 0 0
+D9
+~
+~
+0 -1 2295 0 0 0
+S
+#2296
+&WSpacestation: Lusitania~
+&WThis area of the spacestation is pretty spacious. There are
+a few metallic boxes with astronaut supplies anchored to the
+ground and locked shut to prevent stuff from floating away.
+As you begin spinning around in the room without gravity, you
+become extremely disoriented and can't tell which way leads
+out of the room!
+~
+0 262148 1 0
+D0
+~
+~
+0 -1 2293 0 0 0
+D1
+~
+~
+0 -1 2297 0 0 0
+D2
+~
+~
+0 -1 2293 0 0 0
+D3
+~
+~
+0 -1 2295 0 0 0
+D6
+~
+~
+0 -1 2296 0 0 0
+D7
+~
+~
+0 -1 2296 0 0 0
+D8
+~
+~
+0 -1 2296 0 0 0
+D9
+~
+~
+0 -1 2296 0 0 0
+S
+#2297
+&WSpacestation: Lusitania~
+&WThis area of the spacestation is pretty spacious. There are
+a few metallic boxes with astronaut supplies anchored to the
+ground and locked shut to prevent stuff from floating away.
+As you begin spinning around in the room without gravity, you
+become extremely disoriented and can't tell which way leads
+out of the room!
+~
+0 262148 1 0
+D0
+~
+~
+0 -1 2292 0 0 0
+D1
+~
+~
+0 -1 2297 0 0 0
+D2
+~
+~
+0 -1 2292 0 0 0
+D3
+~
+~
+0 -1 2296 0 0 0
+D6
+~
+~
+0 -1 2297 0 0 0
+D7
+~
+~
+0 -1 2297 0 0 0
+D8
+~
+~
+0 -1 2297 0 0 0
+D9
+~
+~
+0 -1 2297 0 0 0
+S
+#2298
+&WBeneath the Shuttle Port&W&w~
+&WFinally! You figured out which way is which and made it out
+of that confusing area. There is a ladder that leads up towards
+a docking port that is barely large enough for a shuttle to
+dock at. The area before the docking port above here looks like
+only one person can get there at a time.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2295 0 0 0
+D4
+~
+~
+0 -1 2299 0 0 0
+S
+#2299
+&WSpacestation Shuttle Port&W&w~
+&WThis area is extremely cramped, and the shuttle that docks
+here doesn't seem any more roomy. Probably only one person at
+a time could fit into the shuttle, which is going to make this
+for a lonely flight down to where the shuttle takes you.
+~
+0 260 1 0 0 0 1
+D5
+~
+~
+0 -1 2298 0 0 0
+> entry_prog 100~
+if isflying($n)
+mpdonothing
+else
+mea $n &RYou fall back down to the room below!
+mptransfer $n 2298
+endif
+~
+|
+S
+#2300
+&CDeportation Room&W&w~
+&cYou have been kicked out of the colony for health safety reasons.
+You must survive on your own in the wilderness of Lusitania
+for the rest of your days. There is a portal to the east that
+will teleport you away from the colony into the wilderness.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2322 0 0 0
+S
+#2301
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2303 0 0 0
+D1
+~
+~
+0 -1 2308 0 0 0
+D2
+~
+~
+0 -1 2304 0 0 0
+D3
+~
+~
+0 -1 2318 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2302
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2305 0 0 0
+D1
+~
+~
+0 -1 2306 0 0 0
+D2
+~
+~
+0 -1 2303 0 0 0
+D3
+~
+~
+0 -1 2316 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2303
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2302 0 0 0
+D1
+~
+~
+0 -1 2307 0 0 0
+D2
+~
+~
+0 -1 2301 0 0 0
+D3
+~
+~
+0 -1 2317 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2304
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2301 0 0 0
+D1
+~
+~
+0 -1 2309 0 0 0
+D2
+~
+~
+0 -1 2305 0 0 0
+D3
+~
+~
+0 -1 2319 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2305
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2304 0 0 0
+D1
+~
+~
+0 -1 2310 0 0 0
+D2
+~
+~
+0 -1 2302 0 0 0
+D3
+~
+~
+0 -1 2320 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2306
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2310 0 0 0
+D1
+~
+~
+0 -1 2311 0 0 0
+D2
+~
+~
+0 -1 2307 0 0 0
+D3
+~
+~
+0 -1 2302 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2307
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2306 0 0 0
+D1
+~
+~
+0 -1 2312 0 0 0
+D2
+~
+~
+0 -1 2308 0 0 0
+D3
+~
+~
+0 -1 2303 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2308
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2307 0 0 0
+D1
+~
+~
+0 -1 2313 0 0 0
+D2
+~
+~
+0 -1 2309 0 0 0
+D3
+~
+~
+0 -1 2301 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2309
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2308 0 0 0
+D1
+~
+~
+0 -1 2314 0 0 0
+D2
+~
+~
+0 -1 2310 0 0 0
+D3
+~
+~
+0 -1 2304 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2310
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2309 0 0 0
+D1
+~
+~
+0 -1 2315 0 0 0
+D2
+~
+~
+0 -1 2306 0 0 0
+D3
+~
+~
+0 -1 2305 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2311
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2315 0 0 0
+D1
+~
+~
+0 -1 2316 0 0 0
+D2
+~
+~
+0 -1 2312 0 0 0
+D3
+~
+~
+0 -1 2306 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2312
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2311 0 0 0
+D1
+~
+~
+0 -1 2317 0 0 0
+D2
+~
+~
+0 -1 2313 0 0 0
+D3
+~
+~
+0 -1 2307 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2313
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2312 0 0 0
+D1
+~
+~
+0 -1 2318 0 0 0
+D2
+~
+~
+0 -1 2314 0 0 0
+D3
+~
+~
+0 -1 2308 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2314
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2313 0 0 0
+D1
+~
+~
+0 -1 2319 0 0 0
+D2
+~
+~
+0 -1 2315 0 0 0
+D3
+~
+~
+0 -1 2309 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2315
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2314 0 0 0
+D1
+~
+~
+0 -1 2320 0 0 0
+D2
+~
+~
+0 -1 2311 0 0 0
+D3
+~
+~
+0 -1 2310 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2316
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2320 0 0 0
+D1
+~
+~
+0 -1 2302 0 0 0
+D2
+~
+~
+0 -1 2317 0 0 0
+D3
+~
+~
+0 -1 2311 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2317
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2316 0 0 0
+D1
+~
+~
+0 -1 2303 0 0 0
+D2
+~
+~
+0 -1 2318 0 0 0
+D3
+~
+~
+0 -1 2312 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2318
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2317 0 0 0
+D1
+~
+~
+0 -1 2301 0 0 0
+D2
+~
+~
+0 -1 2319 0 0 0
+D3
+~
+~
+0 -1 2313 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2319
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2318 0 0 0
+D1
+~
+~
+0 -1 2304 0 0 0
+D2
+~
+~
+0 -1 2320 0 0 0
+D3
+~
+~
+0 -1 2314 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2320
+&gThe Lusitanian Plains&W&w~
+&GYou are standing in the middle of a grassy Lusitanian plain.
+All you can see in any direction is flat land covered in grass.
+You think you can see trees on the horizon, but at that distance
+it's probably just more grass!
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2319 0 0 0
+D1
+~
+~
+0 -1 2321 0 0 0
+D2
+~
+~
+0 -1 2316 0 0 0
+D3
+~
+~
+0 -1 2315 0 0 0
+> emote_prog p pushes the shovel into the ground.~
+if ovnumroom(2256) > 0
+mpdonothing
+else
+if wearingvnum($n) == 2254
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2256
+mpforce 'lusitanian worker mob' mposet hole timer 1
+mppurge 'lusitanian worker mob'
+if carryingvnum($n) == 2257
+mpdonothing
+else
+if rand(10)
+mpmload 2261
+mpforce 'lusitanian worker mob' mpoload 2257
+mpforce 'lusitanian worker mob' mposet 'colada root' timer 10
+mpforce 'lusitanian worker mob' put root hole
+mppurge 'lusitanian worker mob'
+endif
+endif
+endif
+endif
+~
+|
+S
+#2321
+&gApproaching a Lusitanian Forest&W&w~
+&gIt's hard to believe you are finally out of all of that flat
+grassland. You see several large trees to the east. The canopy
+makes the forest floor quite dark and ominus.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2323 0 0 0
+D3
+~
+~
+0 -1 2320 0 0 0
+S
+#2322
+&CDeportation Teleporter&W&w~
+&cThe teleporter lights up as you enter it... Before you know
+it light surrounds you and continues to grow in brightness until
+all you see is white light!
+~
+0 4 1 0
+> entry_prog 100~
+mpscatter $n 2301 2319
+~
+|
+S
+#2323
+&gEntrance to a Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 2321 0 0 0
+D6
+~
+~
+0 -1 2324 0 0 0
+D8
+~
+~
+0 -1 2325 0 0 0
+S
+#2324
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2326 0 0 0
+D8
+~
+~
+0 -1 2327 0 0 0
+D9
+~
+~
+0 -1 2323 0 0 0
+S
+#2325
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2327 0 0 0
+D7
+~
+~
+0 -1 2323 0 0 0
+D8
+~
+~
+0 -1 2328 0 0 0
+S
+#2326
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2329 0 0 0
+D8
+~
+~
+0 -1 2330 0 0 0
+D9
+~
+~
+0 -1 2324 0 0 0
+S
+#2327
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2330 0 0 0
+D7
+~
+~
+0 -1 2324 0 0 0
+D8
+~
+~
+0 -1 2331 0 0 0
+D9
+~
+~
+0 -1 2325 0 0 0
+> time_prog 23~
+mpecho &gThe trees seem to come alive and open a new passage deeper into the forest.
+mpopenpassage 2327 2349 1
+~
+> time_prog 1~
+mpecho &gThe trees seem to come alive and close off a passage that leads deeper into the forest.
+mpclosepassage 2327 1
+~
+> entry_prog 75~
+if wasinroom($n) == 2349
+mpdonothing
+else
+mea $n &gThe tree's branches scrape against you!
+mpdamage $n 10
+endif
+~
+|
+S
+#2328
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2331 0 0 0
+D7
+~
+~
+0 -1 2325 0 0 0
+D8
+~
+~
+0 -1 2332 0 0 0
+S
+#2329
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D8
+~
+~
+0 -1 2333 0 0 0
+D9
+~
+~
+0 -1 2326 0 0 0
+S
+#2330
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D2
+~
+~
+4096 -1 2349 0 0 0
+D6
+~
+~
+0 -1 2333 0 0 0
+D7
+~
+~
+0 -1 2326 0 0 0
+D8
+~
+~
+0 -1 2334 0 0 0
+D9
+~
+~
+0 -1 2327 0 0 0
+> time_prog 23~
+mpecho The trees seem to come alive and open a new passage deeper into the forest.
+mpopenpassage 2330 2349 2
+~
+> time_prog 1~
+mpecho The trees seem to come alive and close off a passage that leads deeper into the forest.
+mpclosepassage 2330 2
+~
+> entry_prog 75~
+if wasinroom($n) == 2349
+mpdonothing
+else
+mea $n &gThe tree's branches scrape against you!
+mpdamage $n 10
+endif
+~
+> entry_prog 100~
+mpat 2349 mppurge
+~
+|
+S
+#2331
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2334 0 0 0
+D7
+~
+~
+0 -1 2327 0 0 0
+D8
+~
+~
+0 -1 2335 0 0 0
+D9
+~
+~
+0 -1 2328 0 0 0
+> time_prog 23~
+mpecho The trees seem to come alive and open a new passage deeper into the forest.
+mpopenpassage 2331 2349 0
+~
+> time_prog 1~
+mpecho The trees seem to come alive and close off a passage that leads deeper into the forest.
+mpclosepassage 2331 0
+~
+> entry_prog 75~
+if wasinroom($n) == 2349
+mpdonothing
+else
+mea $n &gThe tree's branches scrape against you!
+mpdamage $n 10
+endif
+~
+|
+S
+#2332
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2335 0 0 0
+D7
+~
+~
+0 -1 2328 0 0 0
+S
+#2333
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 2329 0 0 0
+D8
+~
+~
+0 -1 2336 0 0 0
+D9
+~
+~
+0 -1 2330 0 0 0
+S
+#2334
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2336 0 0 0
+D7
+~
+~
+0 -1 2330 0 0 0
+D8
+~
+~
+0 -1 2337 0 0 0
+D9
+~
+~
+0 -1 2331 0 0 0
+> time_prog 23~
+mpecho The trees seem to come alive and open a new passage deeper into the forest.
+mpopenpassage 2334 2349 3
+~
+> time_prog 1~
+mpecho The trees seem to come alive and close off a passage that leads deeper into the forest.
+mpclosepassage 2334 3
+~
+> entry_prog 75~
+if wasinroom($n) == 2349
+mpdonothing
+else
+mea $n &gThe tree's branches scrape against you!
+mpdamage $n 10
+endif
+~
+|
+S
+#2335
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2337 0 0 0
+D7
+~
+~
+0 -1 2331 0 0 0
+D9
+~
+~
+0 -1 2332 0 0 0
+S
+#2336
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 2333 0 0 0
+D8
+~
+~
+0 -1 2338 0 0 0
+D9
+~
+~
+0 -1 2334 0 0 0
+S
+#2337
+&gA Lusitanian Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you.
+It probably wouldn't be a good idea to hang around in this forest.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 2338 0 0 0
+D7
+~
+~
+0 -1 2334 0 0 0
+D9
+~
+~
+0 -1 2335 0 0 0
+S
+#2338
+&gLeaving the Forest&W&w~
+&gYou hear several menacing howls and see several red eyes coming
+from the darkness of the forest. It almost seems like the trees
+are moving at will, almost like the trees are watching you. You
+finally found a way out of this evil forest.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2339 0 0 0
+D7
+~
+~
+0 -1 2336 0 0 0
+D9
+~
+~
+0 -1 2337 0 0 0
+S
+#2339
+&gApproaching a Small Village&W&w~
+&gWith the forest falling behind you, you see a small pillar
+of smoke rising from what looks like a small village to the
+east. This must be the village the old man from the colony told
+you about.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2341 0 0 0
+D3
+~
+~
+0 -1 2338 0 0 0
+S
+#2340
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2343 0 0 0
+D2
+~
+~
+0 -1 2341 0 0 0
+S
+#2341
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2340 0 0 0
+D2
+~
+~
+0 -1 2342 0 0 0
+D3
+~
+~
+0 -1 2339 0 0 0
+S
+#2342
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2341 0 0 0
+D1
+~
+~
+0 -1 2344 0 0 0
+S
+#2343
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2345 0 0 0
+D3
+~
+~
+0 -1 2340 0 0 0
+S
+#2344
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 2347 0 0 0
+D3
+~
+~
+0 -1 2342 0 0 0
+S
+#2345
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 2346 0 0 0
+D3
+~
+~
+0 -1 2343 0 0 0
+S
+#2346
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic. There appears to be smoke rising from the chimney of
+the hut to the west.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2345 0 0 0
+D2
+~
+~
+0 -1 2347 0 0 0
+D3
+~
+~
+0 -1 2348 0 0 0
+S
+#2347
+&OInside a Small Village&W&w~
+&OThis village seems very primitive. There is no technology beyond
+lumber and grass huts. You notice that there is no movement
+or inhabitants. Just hope you aren't too late to deliver the
+relic.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 2346 0 0 0
+D3
+~
+~
+0 -1 2344 0 0 0
+S
+#2348
+&OInside a Small Temple&W&w~
+&OThe small fire in the hearth sends waves of heat across the
+well decorated single-room hut. Several golden figurines of
+alien creatures line the shelves. This hut must be the village's
+holy place.
+
+To go back say: return me to the colony
+~
+0 4 1 64
+D1
+~
+~
+0 -1 2346 0 0 0
+R M 0 2263 1 2348
+  R G 1 2254 1
+  R G 1 2253 1
+S
+#2349
+&gThe Center of the Forest&W&w~
+&gYou have found the deepest, darkest, most hidden area of this
+forest. Standing in the very center of the forest is the largest
+tree you've ever seen. The tree looks like it has scars on it
+from someone that has tried to chop it down in the past, but
+apparently didn't succeed.
+~
+0 2097412 1 128 0 0 2
+D0
+~
+~
+2048 -1 2330 0 0 0
+D1
+~
+~
+2048 -1 2334 0 0 0
+D2
+~
+~
+2048 -1 2331 0 0 0
+D3
+~
+~
+2048 -1 2327 0 0 0
+D10
+~
+~
+0 -1 2349 0 0 0
+> emote_prog p swings the axe through the air.~
+if wearingvnum($n) == 2253
+mpecho &gYour axe blade slams into the side of the tallest tree in the forest!
+mpecho &RThe tree comes to life and attacks you for disturbing it!
+mpmload 2262
+mpforce 'giant tree' mpkill $n
+endif
+~
+> leave_prog 100~
+if mobinroom(2262) > 0
+mppurge giant
+endif
+~
+|
+S
+#2350
+Last room~
+~
+0 1073741828 1 0
+S
+#0
+
+
+#SHOPS
+ 2256    0  0  0  0  0   120  90         0 23    ; The Lusitanian Shopkeeper
+ 2263    0  0  0  0  0   120  90         0 23    ; A Native Lusitanian Priest
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

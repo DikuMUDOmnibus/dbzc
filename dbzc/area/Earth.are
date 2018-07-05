@@ -1,0 +1,4629 @@
+#AREA   Planet Earth~
+
+
+
+#VERSION 2
+#AUTHOR Cortez~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+32 30
+
+#CONTINENT continent1~
+
+#ECONOMY 0 47264938
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6801
+First_Mob~
+a newly created First_Mob~
+Some god abandoned a newly created First_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6803
+Small Hologram~
+A Small Hologram~
+&WA Small Hologram is here, waiting to help you.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Hello $n, welcome to planet Earth! If you need some assistance, just say
+say Help Me
+smile $n
+~
+> speech_prog p help me~
+say Here's the sign!
+mpforce $n look sign
+~
+> speech_prog p races~
+if race($n) == Halfbreed
+mpforce $n help halfbreed
+else
+if race($n) == human
+mpforce $n help human
+else
+mpforce $n help races
+endif
+endif
+~
+> speech_prog p gravity~
+mpforce $n help gravity
+~
+> speech_prog powerlevel~
+mpforce $n help powerlevel
+~
+> speech_prog p chikara~
+mpforce $n help chikara
+~
+> speech_prog stats~
+mpforce $n help stats
+~
+> speech_prog p death~
+mpforce $n help death
+~
+> speech_prog p ki~
+mpforce $n help ki
+~
+|
+#6809
+Dr. Brief~
+Dr. Brieffs~
+&WDr. Brieffs stands here, selling some Capsule Corp items.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6812
+Level 1 Battler~
+The Level 1 Battler~
+&WThe Level 1 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 25000
+112 112 0
+8 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6812
+~
+|
+#6813
+Level 2 Battler~
+The Level 2 Battler~
+&WThe Level 2 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 60000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6813
+~
+|
+#6814
+Level 3 Battler~
+The Level 3 Battler~
+&WThe Level 3 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 120000
+112 112 0
+5 5 13 5 13 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6814
+~
+|
+#6815
+Level 4 Battler~
+The Level 4 Battler~
+&WThe Level 4 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 200000
+112 112 0
+5 5 13 5 13 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6815
+~
+|
+#6816
+Level 5 Battler~
+The Level 5 Battler~
+&WThe Level 5 Battler is standing here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 290000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6816
+~
+|
+#6817
+Level 6 Battler~
+The Level 6 Battler~
+&WThe Level 6 Battler is standing here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 380000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6817
+~
+|
+#6818
+Level 7 Battler~
+The Level 7 Battler~
+&WThe Level 7 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 500000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6818
+~
+|
+#6819
+The Final Battler~
+The Final Battler~
+&WThe Final Battler stands here, increasing his powerlevel!
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 700000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 6819
+~
+|
+#6820
+Level 1 Battler~
+The Level 1 Battler~
+&WThe Level 1 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 30000
+112 112 0
+8 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpload 6820
+~
+|
+#6821
+Level 2 Battler~
+The Level 2 Battler~
+&WThe Level 2 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 60000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6821
+~
+|
+#6822
+Level 3 Battler~
+The Level 3 Battler~
+&WThe Level 3 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 120000
+112 112 0
+5 5 13 5 13 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6822
+~
+|
+#6823
+Level 4 Battler~
+The Level 4 Battler~
+&WThe Level 4 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 200000
+112 112 0
+5 5 13 5 13 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6823
+~
+|
+#6824
+Level 5 Battler~
+The Level 5 Battler~
+&WThe Level 5 Battler is standing here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 290000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6824
+~
+|
+#6825
+Level 6 Battler~
+The Level 6 Battler~
+&WThe Level 6 Battler is standing here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 380000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6825
+~
+|
+#6826
+Level 7 Battler~
+The Level 7 Battler~
+&WThe Level 7 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 500000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6826
+~
+|
+#6827
+Level 1 Battler~
+The Level 1 Battler~
+&WThe Level 1 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 30000
+112 112 0
+8 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6827
+~
+|
+#6828
+Level 2 Battler~
+The Level 2 Battler~
+&WThe Level 2 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 60000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6828
+~
+|
+#6829
+Level 3 Battler~
+The Level 3 Battler~
+&WThe Level 3 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 120000
+112 112 0
+5 5 13 5 13 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6829
+~
+|
+#6830
+Level 4 Battler~
+The Level 4 Battler~
+&WThe Level 4 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 200000
+112 112 0
+5 5 13 5 13 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6830
+~
+|
+#6831
+Level 5 Battler~
+The Level 5 Battler~
+&WThe Level 5 Battler is standing here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 290000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6831
+~
+|
+#6832
+Level 6 Battler~
+The Level 6 Battler~
+&WThe Level 6 Battler is standing here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 380000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6832
+~
+|
+#6833
+Level 7 Battler~
+The Level 7 Battler~
+&WThe Level 7 Battler is here, prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 500000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6833
+~
+|
+#6835
+The Trainer~
+The Trainer~
+&WThe Trainer stands here, waiting to train with you.
+~
+~
+71304707 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Hello $n, if you want to train any of your stats im here!
+~
+|
+#6836
+Facility Shopkeeper~
+The Facility's Shopkeeper~
+&WThe Facility's Shopkeeper stands here, selling items.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6838
+Newbie Battler~
+The Newbie Battler~
+&WThe Newbie Battler stands here, waiting for you to attack.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 30000
+112 112 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6838
+~
+|
+#6852
+Cloaked Hermit~
+A Cloaked Hermit~
+&WA Cloaked Hermit wanders here, he looks to be lost
+~
+~
+67108865 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Get away from me! LEAVE! NOW! You are not welcome here!!
+mea $n &RA Cloaked Hermit reveals his knife.
+mer $n &RA Cloaked Hermit reveals his knife to $n.
+hiss $n
+scream
+if rand(20)
+mea $n &ROut of nowhere the Cloaked Hermit STABS you!!!
+mer $n &ROut of nowhere the Cloaked Hermit STABS $n!!!
+mpdamage $n 3
+endif
+~
+> entry_prog 100~
+say Get out! I dont like outsider's! Leave before I stab you!!!
+hiss $n
+say I'll stab you!!
+~
+|
+#6866
+Mr. T~
+Mr. T~
+&WMr. T stands here with his arms crossed, looking for fools.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say I pity the FOO!
+laugh $n
+~
+|
+#6867
+Clothing Shopkeeper~
+Clothing Shopkeeper~
+&WA Clothing Shopkeeper is here, waiting to sell you some clothes.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Come buy some clothes!
+wink $n
+~
+|
+#6868
+Accessory Shopkeeper~
+The Accessory Shopkeeper~
+&WThe Accessory Shopkeeper is here, selling items.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Welcome to the Accessory Shop!
+nod $n
+~
+|
+#6869
+Hat Shopkeeper~
+The Hat Shopkeeper~
+&WThe Hat Shopkeeper is here, waiting for you to buy a hat.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Come on, buy a Hat!
+tip
+~
+|
+#6872
+Starbucks~
+Starbucks Man~
+&WThere is a Man standing behind the counter, selling Starbucks Coffee.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Welcome to Starbucks, would you like to buy some Coffee?
+mea $n &cMr. Starbucks sips on his Coffee.
+mer $n &cMr. Starbucks sips on his Coffee.
+~
+|
+#6878
+The Bouncer~
+The Bouncer~
+&WThe Bouncer stands here with his arms crossed, blocking the door.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+if cha($n) > 10
+say Whats up kid? You want in the club? Just step right through the door.
+mea $n &CThe Bouncer opens up the doors and lets you into the Club!
+mea $n &CThe doors close behind you.
+mpforce $n w
+else
+say Huh? What punk? You aint getting through there, get lost.
+mea $n &RThe Bouncer chucks you back onto the streets! OUCH!
+mpdamage $n 5
+mpforce $n s
+endif
+~
+|
+#6880
+Steve Austin~
+Steve Austin~
+&WStone Cold Steve Austin stands here, drinking a Stevewieser
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+900 1900000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+say And thats the bottom line, because stone cold said so!
+~
+> rand_prog 20~
+say WHAT!?
+~
+> death_prog 100~
+mpmload 6880
+~
+|
+#6887
+Rocky Balboa~
+Rocky Balboa~
+&WRocky Balboa stands here, with his arms in the air.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 2000000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6887
+~
+> greet_prog 100~
+say ADRIEN!
+~
+|
+#6888
+George Foreman~
+George Foreman~
+&WGeorge Foreman stands here, ready to knock someone out.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1100 3000000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mea $n &cGeorge Foreman punches his fists together.
+mer $n &cGeorge Foreman punches his fists together.
+~
+|
+#6889
+Muhammad Ali~
+Muhammad Ali~
+&WMuhammad Ali shuffles around the ring, taunting you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1300 5000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Im the greatest! Moves like a butterfly, stings like a bee!
+mea $n &cMuhammad Ali punches at you.
+mer $n &cMuhammad Ali punches at $n.
+~
+> death_prog 100~
+mpmload 6889
+~
+|
+#6890
+Mike Tyson~
+mike tyson~
+&WMike Tyson stands here, with a hungry look in his eye!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1200 4000000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6890
+~
+> greet_prog 100~
+glare $n
+~
+|
+#6892
+Hulk Hogan~
+Hulk Hogan~
+&WHulk Hogan stands here, hulking up.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+600 700000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6892
+~
+> greet_prog 100~
+say Whatchu gonna do when hulkamania runs wild on your brother?!
+flex
+~
+|
+#6893
+The Rock~
+The Rock~
+&WThe Rock is here, laying the smack down.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+700 1000000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6893
+~
+> greet_prog 100~
+say Just bring it!
+taunt $n
+~
+|
+#6894
+Kane~
+Kane~
+&WKane is here before you, with a menacing look in his eye.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+800 1400000
+112 112 0
+5 5 5 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6894
+~
+|
+#6895
+The Undertaker~
+The Undertaker~
+&WThe Undertaker is standing here, adjusting his gloves.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+800 1200000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6895
+~
+> greet_prog 100~
+say Rest...in...peace
+glare $n
+~
+|
+#6897
+Small Sumo Wrestler~
+The Small Sumo Wrestler~
+&WThe Small Sumo Wrestler is here, ready to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+200 100000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6897
+~
+|
+#6898
+Medium Sumo Wrestler~
+The Medium Sumo Wrestler~
+&WThe Medium Sumo Wrestler is standing here, in position.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+300 200000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6898
+~
+|
+#6899
+HUGE Sumo Wrestler~
+The HUGE Sumo Wrestler~
+&WThe HUGE Sumo Wrestler is here, taunting you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+500 400000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6899
+~
+|
+#6900
+Large Sumo Wrestler~
+The Large Sumo Wrestler~
+&WThe Large Sumo Wrestler is here, stomping the ground.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+400 300000
+112 112 0
+5 13 13 5 13 13 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6900
+~
+|
+#6901
+A male citizen~
+A male citizen~
+A male citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6902
+A male citizen~
+A male citizen~
+A male citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6903
+A female citizen~
+A female citizen~
+A female citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6904
+A female citizen~
+A female citizen~
+A female citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6905
+A male citizen~
+A male citizen~
+A male citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6906
+A male citizen~
+A male citizen~
+A male citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6907
+A female citizen~
+A female citizen~
+A female citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6908
+A female citizen~
+A female citizen~
+A female citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6909
+A male citizen~
+A male citizen~
+A male citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6910
+A male citizen~
+A male citizen~
+A male citizen is walking around here on the sidestreets.
+~
+~
+71303169 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6913
+Roshi~
+Master Roshi~
+&WMaster Roshi is here, looking for something.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Hey $n! I've been looking for something that I lost, but I can't seem to
+say find it...think you could help me find them?
+sigh
+say When you have all the magazines just say "I have the magazines".
+~
+> speech_prog yes~
+chuckle
+whisper $n Ok..I seem to have misplaced my collection of Magazines..
+whisper $n There's 3 of them, If you can go out and find them for me..
+whisper $n I'll teach you one of my technique's.
+flex
+whisper $n Oh by the way, these magazines could be anywhere.
+~
+> rand_prog 5~
+if mortinroom($n)
+say Could you help me find them?
+endif
+~
+> speech_prog sure~
+chuckle
+whisper $n Ok..I seem to have misplaced my collection of Magazines..
+whisper $n There's 3 of them, If you can go out and find them for me..
+whisper $n I'll teach you one of my technique's.
+flex
+whisper $n Oh by the way, these magazines could be anywhere.
+~
+> speech_prog p I have the magazines~
+if carryingvnum($n) == 6853
+if carryingvnum($n) == 6857
+if carryingvnum($n) == 6863
+mpforce $n give nudie roshi
+mpforce $n give dirty roshi
+mpforce $n give sleezy roshi
+say Thanks $n! Here, let me teach you this technique!
+say Let me demonstrate!
+mea $n &BRoshi spreads his arms and turns towards you.
+mea $n &BRoshi yells 'KA-ME-HA-ME-HA!'
+mea $n &WRoshi pushes his arms forward as he launches a white energy blast
+mea $n &Wtowards you!
+mea $n &RRoshi's energy wave blasts you away. [5]
+mpdamage $n 5
+mppractice $n kame 10
+mpat 69 drop all
+endif
+endif
+else
+say Get the Magazines first!! Then I'll consider teaching you my technique.
+endif
+~
+|
+#6937
+Trunks~
+Trunks~
+Trunks is here taking a rest after his long gravity sessions.
+~
+~
+67109891 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+3 3 0 0 3 3 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6938
+Dende~
+Dende~
+Dende stands here with his wooden staff, looking over earth.
+~
+~
+67109635&1 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 5 5 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6939
+Piccolo~
+Piccolo~
+Piccolo is sitting here meditating in mid-air.
+~
+~
+67109123&1 1000 C
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+5 3 0 0 5 5 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if carryingvnum($n) == 2604
+hmm
+say You found a hemi-sphere of lava rock just like the one I found...
+mpsleep 5
+mea $n &GPiccolo reaches into his cape and pulls out another hemi-sphere of lava rock.
+mpsleep 3
+mea $n &YThe two spheres jump out of Piccolo's and your hands and being glowing intensely
+mpforce $n drop rock
+mppurge rock
+mpsleep 3
+mea $n &YThe two rocks fuse together and begin to glow as red as lava!
+mpsleep 3
+mea $n &YThe sphere dims and falls to the ground.
+mea $n &YPiccolo picks it up.
+mpsleep 3
+say I'm sure you could put this thing to better use than I could...
+say Here
+mpoload 2605
+give sphere $n
+else
+mpdonothing
+endif
+~
+|
+#6940
+A saiyan~
+A saiyan~
+A saiyan stands here looking for something unusual.
+~
+~
+3&8 0 C
+1 0 0 0d0+0 0d0+0
+4000 1000000
+108 108 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+2 3 0 0 2 2 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6941
+A noble saiyan~
+A noble saiyan~
+A noble saiyan stands here strutting his muscles.
+~
+~
+3&8 0 C
+1 0 0 0d0+0 0d0+0
+4000 500000
+108 108 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+2 3 0 0 2 2 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6942
+An old saiyan~
+An old saiyan~
+An old saiyan stands here with his arms crossed looking for trouble
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+4000 150000
+108 108 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+2 3 0 0 2 2 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6943
+A legendary saiyan~
+A legendary saiyan~
+A legendary saiyan stands here with his arms relaxed waiting for new fighters.
+~
+~
+3&8 0 C
+1 0 0 0d0+0 0d0+0
+4000 2000000
+108 108 0
+5 5 5 5 5 5 5
+0 0 0 0 0
+2 3 0 0 2 2 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6943
+~
+|
+#6944
+Korin~
+Korin~
+Korin stands here with his arms crossed and smiling.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+mpsleep 4
+if isnpc($n)
+mpdonothing
+else
+say Welcome to my tower, $n. If you wish to train with me, just say so.
+endif
+~
+> speech_prog p i wish to train~
+if pl($n) < 5000000
+mpgiveunlock $n
+else
+say Your too powerful to recieve any training from me.
+endif
+~
+|
+#6945
+A trainer~
+West City's Trainer~
+West City's Trainer is here with his arms crossed waiting for new students.
+~
+~
+67110403 0 C
+1 0 0 0d0+0 0d0+0
+0 50000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6946
+A trainer~
+South City's Trainer~
+South City's Trainer is here with his arms crossed waiting for new students.
+~
+~
+67110403 0 C
+1 0 0 0d0+0 0d0+0
+0 50000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6947
+A trainer~
+East City's Trainer~
+East City's Trainer is here with his arms crossed waiting for new students.
+~
+~
+67110403 0 C
+1 0 0 0d0+0 0d0+0
+0 50000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6948
+A trainer~
+North City's Trainer~
+North City's Trainer is here with his arms crossed waiting for new students.
+~
+~
+67110403 0 C
+1 0 0 0d0+0 0d0+0
+0 50000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+4 3 0 0 4 4 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6949
+A shopkeeper~
+A shopkeeper~
+A shopkeeper stands behind a counter checking out his stock.
+~
+~
+67108867 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6950
+Last_Mob~
+a newly created Last_Mob~
+Some god abandoned a newly created Last_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#6801
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#6809
+Bullet Proof Vest~
+A Bullet Proof Vest~
+A Bullet Proof Vest lies here before you.~
+~
+9 0 9
+10 10 0 0
+1 4000 400
+#6810
+Capsule Corp Leather Jacket~
+&wCapsule Corp Leather Jacket~
+A Capsule Corp Leather Jacket is folded on the ground.~
+~
+9 0 1025
+20 20 0 0
+1 10000 1000
+#6811
+Capsule Corp Scouter~
+&wA Capsule Corp Scouter~
+A Capsule Corp Scouter is on the ground here before you.~
+~
+65 0 131073
+0 0 0 1
+1 5000 500
+#6836
+Newbie Scouter~
+A Newbie Scouter~
+A Newbie Scouter lies on the ground, beeping.~
+~
+65 0 131073
+0 0 0 1
+1 1000 100
+#6853
+Sleezy Magazine~
+A Sleezy Magazine~
+A Sleezy Magazine magazine is crumpled up on the ground.~
+~
+35 0 16385
+0 0 0 0
+1 750 75
+#6856
+A Rock~
+A Rock~
+A large Rock is here on the ground.~
+~
+15 0 0
+10 0 0 0
+1 0 0
+> speech_prog p test~
+mpoload 6857
+~
+|
+#6857
+Dirty Magazine~
+A Dirty Magazine~
+A Dirty Magazine is laying on the ground here.~
+~
+35 0 16385
+0 0 0 0
+1 750 75
+#6861
+A Trash Can~
+The Trash Can~
+A Trash Can is here, there looks to be something inside it.~
+~
+15 0 0
+10 0 0 0
+1 0 0
+#6863
+A Nudie Magazine~
+A Nudie Magazine~
+A Nudie Magazine is folded up here~
+~
+35 0 16385
+0 0 0 0
+1 750 75
+#6864
+A Chair~
+A Chair~
+A Chair sits here, seems like something is under one of the chairs legs.~
+~
+15 134217728 0
+10 0 0 0
+1 0 0
+#6865
+A Pair of Black Boots~
+&zA Pair of Black Boots&w~
+A pair of boots sit on the ground here before you.~
+~
+13 0 65
+0 0 0 0
+1 100 10
+#6866
+Gold Chains~
+&OGold Chains&w~
+A bunch of Mr. T's Gold Chains lay on the ground here before you.~
+~
+13 8192 5
+0 0 0 0
+1 500 50
+#6868
+Red Glasses~
+&rRed Glasses&w~
+A pair of red glasses are on the ground, reflecting light towards you.~
+~
+13 0 131073
+0 0 0 0
+1 2000 200
+#6869
+Pimp Hat~
+&GPimp Hat&w~
+A Pimp Hat lies on the ground here before you, pimpin it up.~
+~
+13 0 17
+0 0 0 0
+1 1000 100
+#6872
+Starbucks Coffee~
+Starbucks Coffee~
+Steam is venting out of the Starbucks Coffee thats on the ground here.~
+~
+13 0 16385
+0 0 0 0
+1 20 2
+#6890
+Red Bandana~
+&rRed Bandana&w~
+A Red Bandana is folded on the floor before you.~
+~
+13 0 17
+0 0 0 0
+1 1000 100
+#6891
+Blue Bandana~
+&bBlue Bandana&w~
+A Blue Bandana is folded here on the ground before you.~
+~
+13 0 17
+0 0 0 0
+1 1000 100
+#6892
+Bowler Hat~
+&zBowler Hat&w~
+A Bowler Hat is on the ground before you.~
+~
+13 0 17
+0 0 0 0
+1 1000 100
+#6893
+Baseball Cap~
+&RBaseball Cap&w~
+A baseball cap lies on the floor infront of you, waiting for you to wear it.~
+~
+13 0 17
+0 0 0 0
+1 1000 100
+#6894
+Green Glasses~
+&gGreen Glasses&w~
+A pair of green glasses are on the ground, reflecting light at you~
+~
+13 0 131073
+0 0 0 0
+1 2000 200
+#6895
+Blue Glasses~
+&bBlue Glasses&w~
+A pair of blue glasses are on the ground, reflecting light up at you.~
+~
+13 0 131073
+0 0 0 0
+1 2000 200
+#6896
+Red Scarf~
+&RA Red Scarf&w~
+A Red Scarf is on the ground here before you.~
+~
+13 0 5
+0 0 0 0
+1 2000 200
+#6897
+A Pair of Blue Jeans~
+&BA Pair of Blue Jeans&w~
+&BA Pair of Blue Jeans lies here.&w~
+~
+13 0 33
+0 0 0 0
+1 100 10
+#6898
+Short Jeanss~
+&BA Pair of Short Blue Jeans&w~
+&BA Pair of Short Blue Jeans lies here.&w~
+~
+13 8192 33
+0 0 0 0
+1 100 10
+#6899
+A Black Shirt~
+&zA Black Shirt&w~
+&zA Black Shirt lies here.&w~
+~
+13 0 9
+0 0 0 0
+1 100 10
+#6900
+A White Shirt~
+&WA White Shirt&w~
+&wA White Shirt lies here.~
+~
+13 8192 9
+0 0 0 0
+1 100 10
+#6901
+A Pair of Black Sneakers~
+&zA Pair of Black Sneakers&w~
+&zA Pair of Black Sneakers lies here.&w~
+~
+13 0 65
+0 0 0 0
+1 100 10
+#6902
+A Hooded Trenchcoat~
+&WA Hooded Trenchcoat&w~
+&WA Hooded Trenchcoat lies here.&w~
+~
+13 0 1025
+0 0 0 0
+1 100 10
+#6909
+Sand~
+Some Sand~
+There looks to be something in the Sand here that your stepping on.~
+~
+15 0 0
+10 0 0 0
+1 0 0
+#6949
+A bed~
+A bed~
+A bed is located here, against the wall.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#6950
+Last_Obj~
+a newly created Last_Obj~
+Some god dropped a newly created Last_Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#6801
+Planet Earth~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6801 0 0 0
+D1
+~
+~
+0 -1 6801 0 0 0
+D2
+~
+~
+0 -1 6801 0 0 0
+D4
+~
+~
+0 -1 6948 0 0 0
+D5
+~
+~
+0 -1 6949 0 0 0
+D6
+~
+~
+0 -1 6801 0 0 0
+D7
+~
+~
+0 -1 6801 0 0 0
+D8
+~
+~
+0 -1 6801 0 0 0
+D9
+~
+~
+0 -1 6801 0 0 0
+S
+#6802
+Battler Room #6~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 2 0
+D4
+~
+~
+0 -1 6804 0 0 0
+D5
+~
+~
+0 -1 6810 0 0 0
+R M 0 6825 1 6802
+S
+#6803
+&CNewbie Room~
+&cThis is the newbie room. There is a high tech computer in the center of
+the room. A small hologram stand above the computer. The walls are made
+out of some type of steel. Earth is a good place to train to gain
+powerlevel. There is a battle tower close by where you can fight opponents
+to become more powerful. If you get beat up, there is also a hotel close
+by, where you can sleep. You see the Hologram flickering, tryin to get
+your attention.
+~
+0 0 1 0
+D1
+~
+~
+536870912 -1 6950 254 24 0
+R M 0 6803 1 6803
+E
+sign~
+&C-&RRaces&C-
+&C-&RGravity&C-
+&C-&RPowerlevel&C-
+&C-&RChikara&C-
+&C-&RKi&C-
+&C-&RStats&C-
+&C-&RDeath&C-
+ 
+&CIf you want to learn about any of those, just say it: (For example say races)
+~
+S
+#6804
+Battler Room #7~
+You have reached the top of the battle tower! You feel a tremendous power
+near by. Perhaps you have come to test your strength against some of
+Earth's most powerful warriors. Or maybe you are not worthy enough, and
+you should go back down the tower and search for a fighter that is more
+suited for your skills.
+~
+0 0 2 0
+D5
+~
+~
+0 -1 6802 0 0 0
+R M 0 6826 1 6804
+S
+#6805
+A small shop~
+Upon entering of this small shop. You notice all the shopkeeper's
+stock items stacked up again the wall. Weapons, armor, clothing
+and all sorts of other things.
+~
+0 0 2 0
+D3
+~
+~
+536870912 -1 6950 442 150 0
+S
+#6806
+Sparring Chamber~
+You are inside a huge sparring chamber. Here is where fighters come to
+test out their skills in combat. The floor has the tiles re-enforced
+for extreme training.
+~
+0 0 2 2
+D3
+~
+~
+536870912 -1 6950 287 34 0
+S
+#6807
+&CEntrance of Capsule Corp~
+&cYou are at the Entrace to the Capsule Corp building. As you look up you
+see a giant &CC.C. &cLogo. The walls here are made out of a special type
+of metal. Everything in this place is high tech.  You hear beeps in the
+backround, must be one of these machines.  North will take you inside the
+Capsule Corp building.  South will take you back to the street. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6808 0 0 0
+D2
+~
+~
+536870912 -1 6950 208 258 0
+S
+#6808
+&CInside Capsule Corp~
+&cYou are inside the Capsule Corp building. The room smells like machines.
+Many suits hang up against the walls, most of them look like they've never
+been worn.  You see robots wandering around and machines doing daily house
+work.  To the west you see a Capsule Corp Shop. South will take you out
+and back to the street.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6939 0 0 0
+D2
+~
+~
+0 -1 6807 0 0 0
+D3
+~
+~
+0 -1 6809 0 0 0
+S
+#6809
+&CCapsule Corp Shop~
+&cYou are in the Capsule Corp Shop. There are some items on display here. A
+cute girl with blue hair is smiling at you, asking if you want to buy
+anything.  If you wish to buy something, just check the list to see whats
+on sale.  If you head back eastwards it will take you back to the streets.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6808 0 0 0
+R M 0 6809 1 6809
+  R G 1 298 1
+  R G 1 505 1
+  R G 1 6810 1
+  R G 1 6809 1
+  R G 1 6811 1
+  R G 1 93 1
+S
+#6810
+Battler Room #5~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 2 0
+D4
+~
+~
+0 -1 6802 0 0 0
+D5
+~
+~
+0 -1 6820 0 0 0
+R M 0 6824 1 6810
+S
+#6811
+Entrance of the Battle Tower~
+You are standing at the entrance to the battle tower. Looking up you see
+the tower is very tall, with many levels. This is where you can train with
+other fighters and test your strength and abilities.  Looking back south
+you see the street where you came from. 
+~
+0 4 1 0
+D2
+~
+~
+536870912 -1 6950 276 19 0
+D4
+~
+~
+0 -1 6812 0 0 0
+S
+#6812
+Battler Room #1~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6813 0 0 0
+D5
+~
+~
+0 -1 6811 0 0 0
+R M 0 6812 1 6812
+S
+#6813
+Battler Room #2~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6814 0 0 0
+D5
+~
+~
+0 -1 6812 0 0 0
+R M 0 6813 1 6813
+S
+#6814
+Battler Room #3~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6815 0 0 0
+D5
+~
+~
+0 -1 6813 0 0 0
+R M 0 6814 1 6814
+S
+#6815
+Battler Room #4~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6816 0 0 0
+D5
+~
+~
+0 -1 6814 0 0 0
+R M 0 6815 1 6815
+S
+#6816
+Battler Room #5~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6817 0 0 0
+D5
+~
+~
+0 -1 6815 0 0 0
+R M 0 6816 1 6816
+S
+#6817
+Battler Room #6~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6818 0 0 0
+D5
+~
+~
+0 -1 6816 0 0 0
+R M 0 6817 1 6817
+S
+#6818
+Battler Room #7~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6819 0 0 0
+D5
+~
+~
+0 -1 6817 0 0 0
+R M 0 6818 1 6818
+S
+#6819
+Top Battler Room~
+You have reached the top of the battle tower! You feel a tremendous power
+near by. Perhaps you have come to test your strength against some of
+Earth's most powerful warriors. Or maybe you are not worthy enough, and
+you should go back down the tower and search for a fighter that is more
+suited for your skills. 
+~
+0 0 1 0
+D5
+~
+~
+0 -1 6818 0 0 0
+R M 0 6819 1 6819
+S
+#6820
+Battler Room #4~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 2 0
+D4
+~
+~
+0 -1 6810 0 0 0
+D5
+~
+~
+0 -1 6824 0 0 0
+R M 0 6823 1 6820
+S
+#6821
+Inside the Spaceport~
+You find yourself at the entrance of the Spaceport. The hallway continues
+to the west. And to the north, you will find the exit towards the Planet
+Earth.
+~
+0 0 2 0
+D0
+~
+~
+536870912 -1 6950 248 39 0
+D3
+~
+~
+0 -1 6822 0 0 0
+S
+#6822
+Walking down a hallway~
+You now walk down a hallway inside the earth's spaceport. You notice that
+there are no windows around here, and there is only one light which is the
+line of them that run through the ceiling here. The floor is covered with
+a red carpet that gives you a warm welcome or good bye.
+~
+0 0 2 0
+D1
+~
+~
+0 -1 6821 0 0 0
+D3
+~
+~
+0 -1 6823 0 0 0
+> act_prog p flies in~
+if carryingvnum($n) == 260
+mpforce $n east
+else
+if carryingvnum($n) == 261
+mpforce $n east
+else
+if carryingvnum($n) == 262
+mpforce $n east
+else
+if carryingvnum($n) == 263
+mpforce $n east
+else
+if carryingvnum($n) == 264
+mpforce $n east
+else
+if carryingvnum($n) == 265
+mpforce $n east
+else
+if carryingvnum($n) == 266
+mpforce $n east
+else
+mpdonothing
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> act_prog p arrives~
+if carryingvnum($n) == 260
+mpforce $n east
+else
+if carryingvnum($n) == 261
+mpforce $n east
+else
+if carryingvnum($n) == 262
+mpforce $n east
+else
+if carryingvnum($n) == 263
+mpforce $n east
+else
+if carryingvnum($n) == 264
+mpforce $n east
+else
+if carryingvnum($n) == 265
+mpforce $n east
+else
+if carryingvnum($n) == 266
+mpforce $n east
+else
+mpdonothing
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#6823
+Planet Earth's Spaceport Docks~
+This is the earth's spaceport, you see many space shuttles flying in and
+out of here.  The ground rumbles from all the vibrations that the shuttles
+make.  People are coming in and out of this room, trying to catch their
+flights.  The east will take you to Kilika Road. 
+~
+0 0 1 32768
+D1
+~
+~
+0 -1 6822 0 0 0
+S
+#6824
+Battler Room #3~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 2 0
+D4
+~
+~
+0 -1 6820 0 0 0
+D5
+~
+~
+0 -1 6825 0 0 0
+R M 0 6822 1 6824
+S
+#6825
+Battler Room #2~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 2 0
+D4
+~
+~
+0 -1 6824 0 0 0
+D5
+~
+~
+0 -1 6828 0 0 0
+R M 0 6821 1 6825
+S
+#6826
+Healing Chamber~
+Upon entering of the healing chamber, you notice the healing pods
+scattered across the room. Enough for every single fighter standing
+on earth. There are also many medpacks and healthpacks stacked
+against the wall. The light seems to be dimmed well enough for players
+to sleep while they recover.
+~
+0 0 1 1
+D0
+~
+~
+536870912 -1 6950 267 35 0
+S
+#6827
+Gravity Training Room~
+Entering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+ 
+*** Training Higher than you should, will result in death. ***
+~
+0 0 1 4
+D3
+~
+~
+536870912 -1 6950 286 39 0
+S
+#6828
+Battler Room #1~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 2 0
+D4
+~
+~
+0 -1 6825 0 0 0
+D5
+~
+~
+0 -1 6829 0 0 0
+R M 0 6820 1 6828
+S
+#6829
+Entrance of the Battle Tower~
+You are standing at the entrance to the battle tower. Looking up you see
+the tower is very tall, with many levels. This is where you can train with
+other fighters and test your strength and abilities.  Looking back south
+you see the street where you came from.
+~
+0 0 2 0
+D1
+~
+~
+536870912 -1 6950 413 150 0
+D4
+~
+~
+0 -1 6828 0 0 0
+S
+#6830
+&CEarth Facility Entrance~
+&cThis is one of Earth's training facilities, where warriors go to train
+their skills and test their abilities.  This Facility is useful for any
+type of warrior, a less experienced warrior. Or a seasoned veteran.  West
+will take you further into the facility. East will take you back to the
+small road. 
+~
+0 0 1 0
+D1
+~
+~
+536870912 -1 6950 269 53 0
+D3
+~
+~
+0 -1 6831 0 0 0
+S
+#6831
+&CInside the Facility~
+&cThis is one of Earth's training facilities, where warriors go to train
+their skills and test their abilities. This Facility is useful for any
+type of warrior, a less experienced warrior. Or a seasoned veteran. South
+will take you further into the facility. East will take you back to the
+entrance of the Facility.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6830 0 0 0
+D2
+~
+~
+0 -1 6832 0 0 0
+S
+#6832
+&CInside the Facility~
+&cThis is one of Earth's training facilities, where warriors go to train
+their skills and test their abilities.  This Facility is useful for any
+type of warrior, a less experienced warrior. Or a seasoned veteran. Up
+will take you further into the facility. North will take you towards the 
+entrance. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6831 0 0 0
+D4
+~
+~
+0 -1 6833 0 0 0
+S
+#6833
+&CMiddle of Training~
+&cYou are now in the main part of the facility. In this area, there are
+many forms of training you can use. You can spar with other fighters, buy
+equipment, gravity train, or even fight a newbie battler.  If you get
+injured, there is also a healing chamber near by where you can rest.  Up
+will take you to the sparring chamber. West will take you to the trainer.
+Looking south you see a shopkeeper.  As you look north you see a gravity
+chamber.  East will take you to the Newbie Battler room. Down will take
+you back towards the entrance of the Facility.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6837 0 0 0
+D1
+~
+~
+0 -1 6838 0 0 0
+D2
+~
+~
+0 -1 6836 0 0 0
+D3
+~
+~
+0 -1 6835 0 0 0
+D4
+~
+~
+0 -1 6834 0 0 0
+D5
+~
+~
+0 -1 6832 0 0 0
+S
+#6834
+&CSparring Arena~
+&cThis room is completely blank, its white tiles are made out of strong
+resistant tiles. The only exit available is the one below, which is the
+way you came in here. This room, is specialized since you can spar other
+players and just stun them, not kill them. 
+ 
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 0 1 2
+D5
+~
+~
+0 -1 6833 0 0 0
+S
+#6835
+&CTrainer Room~
+&cThe room is somewhat well maintained and has adequate lighting for what
+goes on here. Oddly, there are no windows nor doors in this room. The room
+is designed as a large square with a tall, muscular man standing calmly in
+the middle. In each of the four corners of the room is a small ring where
+one can train and practice their newly aquired skills.
+~
+0 0 1 64
+D1
+~
+~
+0 -1 6833 0 0 0
+R M 0 6835 1 6835
+S
+#6836
+&CA Small Shop~
+&cYou are at the shop of the facility. It isn't a very big shop, but its
+something.  There is a shopkeeper here, waiting on you to buy an item.  If
+you wish you buy something, just check the list to see whats on sale.
+North will take you back to the main part of the Training facility 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6833 0 0 0
+R M 0 6836 1 6836
+  R G 1 6836 1
+S
+#6837
+&CGravity Room~
+&cEntering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+ 
+*** Training Higher than you should, will result in death. ***
+~
+0 0 1 4
+D2
+~
+~
+0 -1 6833 0 0 0
+S
+#6838
+&RNewbie Battler~
+&rYou are now in a fighting arena, where you can fight an opponent to
+become more powerful. But looking at your opponent, you notice that he
+isn't the strongest fighter...he must be for less experienced fighters. If
+you get beat up too bad, there is a healing chamber to the east. West will
+take you back to the Middle training area. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6839 0 0 0
+D3
+~
+~
+0 -1 6833 0 0 0
+R M 0 6838 1 6838
+S
+#6839
+&RHealing Chamber~
+&rEntering the room, you first notice that is complete dark, this helps the
+wounded who are inside the healing chamber, sleeping, able to recover
+faster than normal, so they can get back in action. There are some
+first-aid kits attached to the walls, and there are many chambers in lines
+scattered across the room.
+~
+0 0 1 1
+D3
+~
+~
+0 -1 6838 0 0 0
+S
+#6840
+Gravity Chamber~
+Entering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+
+*** Training Higher than you should, will result in death. ***
+~
+0 0 1 4
+D2
+~
+~
+536870912 -1 6950 224 242 0
+S
+#6841
+Sparring Chamber~
+You are inside a huge sparring chamber. Here is where fighters come to
+test out their skills in combat. The floor has the tiles re-enforced
+for extreme training.
+~
+0 0 1 2
+D3
+~
+~
+536870912 -1 6950 216 251 0
+S
+#6842
+West City's Bank~
+Upon entering of the West City's Bank, you notice all the bank tellers
+and desks that are found here. To the south, you can find the huge vault
+behind all the tellers. There are many people working here and
+offering you some service.
+~
+0 0 1 16
+D2
+~
+~
+536870912 -1 6950 222 258 0
+S
+#6843
+Training Room~
+Upon entering of the room, you quickly notice that it is completely
+empty.The only thing that can be found here, is one man with
+hits arms crossed.Waiting for new students to walk in and learn
+his lessons. There are no windows nor other exits than the one
+you came in inside the small building.
+~
+0 0 1 64
+D3
+~
+~
+536870912 -1 6950 229 257 0
+R M 0 6945 1 6843
+S
+#6844
+Entrance to the Battle Tower~
+You are standing at the entrance to the battle tower. Looking up you see
+the tower is very tall, with many levels. This is where you can train with
+other fighters and test your strength and abilities.  Looking back south
+you see the street where you came from.
+~
+0 0 1 0
+D3
+~
+~
+536870912 -1 6950 229 251 0
+D4
+~
+~
+0 -1 6845 0 0 0
+S
+#6845
+Battler Room #1~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6846 0 0 0
+D5
+~
+~
+0 -1 6844 0 0 0
+R M 0 6827 1 6845
+S
+#6846
+Battler Room #2~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6847 0 0 0
+D5
+~
+~
+0 -1 6845 0 0 0
+R M 0 6828 1 6846
+S
+#6847
+Battler Room #3~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6848 0 0 0
+D5
+~
+~
+0 -1 6846 0 0 0
+R M 0 6829 1 6847
+S
+#6848
+Battler Room #4~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6849 0 0 0
+D5
+~
+~
+0 -1 6847 0 0 0
+R M 0 6830 1 6848
+S
+#6849
+Battler Room #5~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6850 0 0 0
+D5
+~
+~
+0 -1 6848 0 0 0
+R M 0 6831 1 6849
+S
+#6850
+Battler Room #6~
+This is the battle tower where all the fighters of earth come to train.
+The fighters work their way up the tower as they get stronger. The weakest
+fighters starting at the bottom, and only the most powerful fighters
+battle at the top. So choose your opponents wisely.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6851 0 0 0
+D5
+~
+~
+0 -1 6849 0 0 0
+R M 0 6832 1 6850
+S
+#6851
+Battler Room #7~
+You have reached the top of the battle tower! You feel a tremendous power
+near by. Perhaps you have come to test your strength against some of
+Earth's most powerful warriors. Or maybe you are not worthy enough, and
+you should go back down the tower and search for a fighter that is more
+suited for your skills.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 6850 0 0 0
+R M 0 6833 1 6851
+S
+#6852
+A small shop~
+Upon entering of the small shop, you quickly notice all the items
+stacked against the wall behind the counter. There is a small
+shopkeeper sitting behind the counter, waiting for new customers
+to walk in. There seems to be no windows in this shop, and the
+only way out is the same way you came in.
+~
+0 0 1 0
+D1
+~
+~
+536870912 -1 6950 212 262 0
+S
+#6853
+Gravity Chamber~
+Entering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+
+*** Training Higher than you should, will result in death. ***
+~
+0 0 1 4
+D3
+~
+~
+536870912 -1 6950 286 395 0
+S
+#6854
+Sparring Chamber~
+You are inside a huge sparring chamber. Here is where fighters come to
+test out their skills in combat. The floor has the tiles re-enforced
+for extreme training.
+~
+0 0 1 0
+D0
+~
+~
+536870912 -1 6950 270 392 0
+S
+#6855
+South City's Bank~
+Upon entering of the South City's Bank, you notice all the bank
+tellers and desks that you can see here. To the north, you can
+find the vault of the bank. There are many people working around
+here and offering you their services.
+~
+0 0 1 16
+D2
+~
+~
+536870912 -1 6950 281 384 0
+S
+#6856
+Healing Chamber~
+Houndreds of thousands of machines can be heard in this room, injecting a
+redlike liquid into bodies of injuried ones. You can see that this healing
+chamber is tremendously used alot. You could see tubes of redlike
+substances on the floor, they must not be keeping up with the place.
+~
+0 0 1 1
+D2
+~
+~
+536870912 -1 8000 267 376 0
+S
+#6857
+Training Room~
+Upon entering of the room, you quickly notice that it is completely
+empty. There is only one man in the middle of the room standing there
+with his arms crossed, waiting for new students to walk in. The lighting
+on this small building is normal, there are no windows and it seems the
+only exit out of here, is the same you came in.
+~
+0 0 1 65
+D2
+~
+~
+536870912 -1 6950 253 382 0
+R M 0 6946 1 6857
+S
+#6858
+Bottom of Korin's Tower~
+You find yourself at the bottom of Korin's Tower. As you look up, you
+notice there is a long way to go to reach the tower. It seems the only
+way to do so, is to fly up there, or to climb the pole. In the distance
+and above you, you get a glimpse of what could be, Kame's Lookout.
+~
+0 0 1 0
+D2
+~
+~
+536870912 -1 6950 87 232 0
+D4
+~
+~
+0 -1 6859 0 0 0
+S
+#6859
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6860 0 0 0
+D5
+~
+~
+0 -1 6858 0 0 0
+S
+#6860
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6861 0 0 0
+D5
+~
+~
+0 -1 6859 0 0 0
+S
+#6861
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6862 0 0 0
+D5
+~
+~
+0 -1 6860 0 0 0
+S
+#6862
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6863 0 0 0
+D5
+~
+~
+0 -1 6861 0 0 0
+S
+#6863
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6864 0 0 0
+D5
+~
+~
+0 -1 6862 0 0 0
+S
+#6864
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6865 0 0 0
+D5
+~
+~
+0 -1 6863 0 0 0
+S
+#6865
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6870 0 0 0
+D5
+~
+~
+0 -1 6864 0 0 0
+S
+#6866
+Inside Korin's Tower~
+Finally you have made it to Korin's Tower. It seems that the
+room is pretty much empty. There is nothing closed, its all
+but a roof and the way down towards Planet Earth. Korin is standing
+here with his stick, waiting for new trainees. From up  here,
+you can get a good look of Kame's Lookout. You can just try
+to fly towards there.
+
+If you want to reach Kami's Lookout, you should try to fly towards it.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 6871 0 0 0
+D10
+~
+~
+537004096 -1 6950 85 243 1
+R M 0 6944 1 6866
+> emote_prog flies flys~
+mpforce $n enter
+~
+|
+S
+#6867
+Clothing Shop~
+You are in the Clothing Shop, where you can buy many different types of
+clothing. There is a shopkeeper here, asking you if you need help with
+anything. To see what kind of clothing you might like to buy, check the
+list to see what items are on display. 
+~
+0 0 1 0
+D2
+~
+~
+536870912 -1 6950 274 402 0
+R M 0 6867 1 6867
+  R G 1 6865 1
+  R G 1 6897 1
+  R G 1 6898 1
+  R G 1 6902 1
+  R G 1 6900 1
+  R G 1 6899 1
+  R G 1 6901 1
+S
+#6868
+Accessory Shop~
+You are in the Accessory Shop, where you can buy many different types of
+Accessories. There is a shopkeeper here, asking you if you need help with
+anything. To see what kind of accessories you might like to buy, check the
+list to see what items are on display. 
+~
+0 0 1 0
+D0
+~
+~
+536870912 -1 6950 269 410 0
+R M 0 6868 1 6868
+  R G 1 6896 1
+  R G 1 6895 1
+  R G 1 6894 1
+  R G 1 6868 1
+S
+#6869
+A Hat Shop~
+This is the hat shop, where you can buy many types of hats. But other
+then that, there isn't much here. There is a shopkeeper here, pointing
+towards  some hats, trying to get you interested in buying something. To
+see what kind of hat you might like to buy, check the list to see what
+items are on display.  
+~
+0 0 1 0
+D0
+~
+~
+536870912 -1 6950 286 406 0
+R M 0 6869 1 6869
+  R G 1 6869 1
+  R G 1 6893 1
+  R G 1 6891 1
+  R G 1 6890 1
+  R G 1 6892 1
+S
+#6870
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6871 0 0 0
+D5
+~
+~
+0 -1 6865 0 0 0
+S
+#6871
+Climbing Korin's Tower~
+You find yourself climbing up the pole of Korin's Tower. As you
+look up you notice there is a long way to go. You pray that
+your arms and feet will hold on to the pole as you climb it.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 6866 0 0 0
+D5
+~
+~
+0 -1 6870 0 0 0
+S
+#6872
+Starbucks Coffee~
+You are in the Starbucks Coffee. You see a bunch of stools lined up
+against the counter for people to sit on. People come in and out of here
+ordering some of starbucks coffee. North will take you back to the street.
+~
+0 0 1 0
+D0
+~
+~
+536870912 -1 6950 260 403 0
+R M 0 6872 1 6872
+  R G 1 6872 1
+S
+#6873
+Entrance of the Tower~
+Upon entrance on the tower, you feel a cold chill. There seems
+to be no windows in this hallway. At the end of the hallway
+you notice two big doors.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6874 0 0 0
+D2
+~
+~
+536870912 -1 6950 85 232 1
+S
+#6874
+A Hallway~
+The hallway seems to have no windows. The light is provided by
+a line of lights attached to the ceiling. As you look to the
+south, you notice the exit of the tower.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6877 0 0 0
+D2
+~
+~
+0 -1 6873 0 0 0
+S
+#6875
+Entrance to the VR~
+You are at the entrance to the VR. This is most likely the best place to
+train once your experienced enough.  If you think you can take the heat,
+head north.  Heading north will take you Inside the VR.  You can see many
+warriors traveling in and out through here.  Coming from the VR, and going
+to.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6876 0 0 0
+D2
+~
+~
+536870912 -1 6950 263 397 0
+S
+#6876
+Inside the VR~
+You are now inside the VR fighting system. Warriors from all over the
+world come to train here, because the VR fighting system is so real, its
+perfect for training.  But...only the most experienced warriors should be
+here.  South will take you down to the entrance of the VR and towards to
+Streets. You see a &YSign &cin the corner, maybe you should look at it.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6875 0 0 0
+E
+sign~
+&R-&YVR Training System&R-
+&YIf you wish to use the transporter, say one of the following:
+
+&R-&YSumo Arena&R- &z(PL: 100k-500k)
+&R-&YWWF Arena&R- &z(PL: 500k-2mil)
+&R-&YBoxing Arena&R- &z(PL: 2mil-5mil)
+&R-&YHealing&R-
+&R-&YGravity&R-
+~
+> speech_prog p healing~
+mea $n &YYou have been transported into the healing chamber.
+mer $n &Y$n has been transported to the healing chamber.
+mptrans $n 6901
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p gravity~
+mea $n &YYou have been transported into the gravity chamber.
+mer $n &Y$n has been transported to the gravity chamber.
+mptrans $n 6902
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p boxing arena~
+mea $n &YYou have been transported into the Boxing Arena.
+mer $n &Y$n has been transported to the Boxing Arena.
+mptrans $n 6886
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p WWF arena~
+mea $n &YYou have been transported into the WWF Arena.
+mer $n &Y$n has been transported to the WWF Arena.
+mptrans $n 6891
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p sumo arena~
+mea $n &YYou have been transported into the Sumo Arena.
+mer $n &Y$n has been transported to the Sumo Arena.
+mptrans $n 6896
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> entry_prog 100~
+mea $n &YThis is the VR System room! Look at the sign!
+~
+|
+S
+#6877
+A Hallway~
+The hallways seems to have no windows. The light is provided
+by a single line of lights attached to the ceiling. The floor
+is made out of white tiles that reflect the light upwards.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6905 0 0 0
+D1
+~
+~
+0 -1 6904 0 0 0
+D2
+~
+~
+0 -1 6874 0 0 0
+D3
+~
+~
+0 -1 6903 0 0 0
+S
+#6878
+Before a Club~
+You are before the club. There is a bouncer here infront of you guarding
+the door. It seems the bouncer is only letting selective people in. As you
+sit in the line up you can hear the music and people cheering.  If you get
+past the bouncer west will take you inside the Club.  East will take you
+back to the streets. 
+~
+0 4 2 0
+D2
+~
+~
+536870912 -1 6950 249 394 0
+D3
+~
+~
+0 -1 6879 0 0 0
+R M 0 6878 1 6878
+S
+#6879
+Inside a Club~
+You are now inside the club, so many people are hear. There is a bar
+behind you, and a bartender is there, mixing up some drinks. The music is
+so loud you can't hear anything.  There are many nice looking ladies here,
+maybe you should go get a dance.  The dance floor is north from here. 
+If you wish to leave the club, just say "Im out dawg" 
+~
+0 0 14 0
+D0
+~
+~
+0 -1 6880 0 0 0
+> speech_prog p im out dawg~
+mea $n &CThe Bouncer opens up the doors and lets you out.
+mptrans $n 6878
+mpat $n mpforce $n look
+~
+|
+S
+#6880
+Dance Floor~
+You are now on the dance floor. So many people are hear dancing. Everyone
+is dressed up all nice and fancy. The DJ is at the far end of the room.
+Damn, when you leave this place, you ears are definetly going to be
+ringing. The girl in the corner seems to be checking you out. Maybe you
+should ask her to dance with you.
+~
+0 0 14 0
+D2
+~
+~
+0 -1 6879 0 0 0
+S
+#6881
+Ring Fighter #2~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6883 0 0 0
+D1
+~
+~
+0 -1 6882 0 0 0
+S
+#6882
+Ring Fighter #1~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6884 0 0 0
+D1
+~
+~
+0 -1 6885 0 0 0
+D3
+~
+~
+0 -1 6881 0 0 0
+S
+#6883
+Ring Fighter #4~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6884 0 0 0
+D2
+~
+~
+0 -1 6881 0 0 0
+S
+#6884
+Ring Fighter #3~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6882 0 0 0
+D3
+~
+~
+0 -1 6883 0 0 0
+S
+#6885
+Fighter Arena~
+~
+0 4 1 0
+D3
+~
+~
+0 -1 6882 0 0 0
+D4
+~
+~
+0 -1 6876 0 0 0
+S
+#6886
+Boxing Arena~
+You are outside the Boxing Arena. You can here many people cheering and
+chanting names.  In the distance you can see a ring, you can also see
+someone raising there hands in the air, they must have just one a match.
+You hear a voice in the backround.."LETS GET READY TO RUMBLE!!"  If you
+wish to leave, go up.  West will take you into the Boxing Ring. 
+~
+0 4 1 0
+D3
+~
+~
+0 -1 6887 0 0 0
+D4
+~
+~
+0 -1 6876 0 0 0
+S
+#6887
+Boxing Fighter #1~
+You are inside the Boxing Arena. You can here many people cheering and
+chanting names. The lights flashing and all the camera's taking pictures
+blindes your vision. The referee here yells "LETS GETS READY TO RUMBLE!!"
+Your opponent rushes towards you right after the sound of the bell.  This
+is going to be a challenge... 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6890 0 0 0
+D1
+~
+~
+0 -1 6886 0 0 0
+D3
+~
+~
+0 -1 6888 0 0 0
+R M 0 6887 1 6887
+S
+#6888
+Boxing Fighter #2~
+You are inside the Boxing Arena. You can here many people cheering and
+chanting names. The lights flashing and all the camera's taking pictures
+blindes your vision. The referee here yells "LETS GETS READY TO RUMBLE!!"
+Your opponent rushes towards you right after the sound of the bell.  This
+is going to be a challenge...
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6889 0 0 0
+D1
+~
+~
+0 -1 6887 0 0 0
+R M 0 6888 1 6888
+> death_prog 100~
+mpmload 6888
+~
+|
+S
+#6889
+Boxing Fighter #4~
+You are inside the Boxing Arena. You can here many people cheering and
+chanting names. The lights flashing and all the camera's taking pictures
+blindes your vision. The referee here yells "LETS GETS READY TO RUMBLE!!"
+Your opponent rushes towards you right after the sound of the bell. This
+is going to be a challenge...
+~
+0 4 1 0
+D1
+~
+~
+0 -1 6890 0 0 0
+D2
+~
+~
+0 -1 6888 0 0 0
+R M 0 6889 1 6889
+S
+#6890
+Boxing Fighter #3~
+You are inside the Boxing Arena. You can here many people cheering and
+chanting names. The lights flashing and all the camera's taking pictures
+blindes your vision. The referee here yells "LETS GETS READY TO RUMBLE!!"
+Your opponent rushes towards you right after the sound of the bell. This
+is going to be a challenge...
+~
+0 4 1 0
+D2
+~
+~
+0 -1 6887 0 0 0
+D3
+~
+~
+0 -1 6889 0 0 0
+R M 0 6890 1 6890
+S
+#6891
+WWF Arena~
+You are just outside of the ring. You see many people in the crowd
+watching. The arena is so loud, you can hear many boo's and cheer's. 
+Music is blasting away in the backround.  If you wish to leave, just go
+up, it will take you back to the VR system.  If you wish to enter the
+ring, go west. 
+~
+0 4 1 0
+D3
+~
+~
+0 -1 6892 0 0 0
+D4
+~
+~
+0 -1 6876 0 0 0
+S
+#6892
+WWF Fighter #1~
+You are just inside the ring. You see many people in the crowd watching.
+The arena is so loud, you can hear many boo's and cheer's.  Music is
+blasting away in the backround. The ring is in a large rectangle shape.
+The ropes surround the ring, there is a turnbuckle on each corner of the
+ring.  Your opponent stands here before you, talking trash, think you can
+handle it?
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6895 0 0 0
+D1
+~
+~
+0 -1 6891 0 0 0
+D3
+~
+~
+0 -1 6893 0 0 0
+R M 0 6892 1 6892
+S
+#6893
+WWF Fighter #2~
+You are just inside the ring. You see many people in the crowd watching.
+The arena is so loud, you can hear many boo's and cheer's.  Music is
+blasting away in the backround. The ring is in a large rectangle shape.
+The ropes surround the ring, there is a turnbuckle on each corner of the
+ring.  Your opponent stands here before you, talking trash, think you can
+handle it?
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6894 0 0 0
+D1
+~
+~
+0 -1 6892 0 0 0
+R M 0 6893 1 6893
+S
+#6894
+WWF Fighter #4~
+You are just inside the ring. You see many people in the crowd watching.
+The arena is so loud, you can hear many boo's and cheer's.  Music is
+blasting away in the backround. The ring is in a large rectangle shape.
+The ropes surround the ring, there is a turnbuckle on each corner of the
+ring. Your opponent stands here before you, talking trash, think you can
+handle it?
+~
+0 4 1 0
+D1
+~
+~
+0 -1 6895 0 0 0
+D2
+~
+~
+0 -1 6893 0 0 0
+R M 0 6880 1 6894
+S
+#6895
+WWF Fighter #3~
+You are just inside the ring. You see many people in the crowd watching.
+The arena is so loud, you can hear many boo's and cheer's.  Music is
+blasting away in the backround. The ring is in a large rectangle shape.
+The ropes surround the ring, there is a turnbuckle on each corner of the
+ring. Your opponent stands here before you, talking trash, think you can
+handle it?
+~
+0 4 1 0
+D2
+~
+~
+0 -1 6892 0 0 0
+D3
+~
+~
+0 -1 6894 0 0 0
+R M 0 6894 1 6895
+R M 0 6895 1 6895
+S
+#6896
+Sumo Arena~
+You have entered Sumo Arena entry room. You'll find the Sumo Fighters off
+to the west.  The floor here is all padded and there is a white circle
+that represents the ring.  If you wish to leave, just go up, and it will
+take you back to the VR System.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 6897 0 0 0
+D4
+~
+~
+0 -1 6876 0 0 0
+S
+#6897
+Sumo Fighter #1~
+This is the Sumo Ring. You see a big Sumo Wrestler infront of you.
+Getting ready for a fight. The floor here is all padded and there is a
+white circle that represents the ring.  Observing your surroundings a bit
+more, you see large men square off in the sandy circle. Although scantily
+clad, these men are powerful.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6900 0 0 0
+D1
+~
+~
+0 -1 6896 0 0 0
+D3
+~
+~
+0 -1 6898 0 0 0
+R M 0 6897 1 6897
+S
+#6898
+Sumo Fighter #2~
+This is the Sumo Ring. You see a big Sumo Wrestler infront of you.
+Getting ready for a fight. The floor here is all padded and there is a
+white circle that represents the ring. Observing your surroundings a bit
+more, you see large men square off in the sandy circle. Although scantily
+clad, these men are powerful.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6899 0 0 0
+D1
+~
+~
+0 -1 6897 0 0 0
+R M 0 6898 1 6898
+S
+#6899
+Sumo Fighter #4~
+This is the Sumo Ring. You see a big Sumo Wrestler infront of you.
+Getting ready for a fight. The floor here is all padded and there is a
+white circle that represents the ring. Observing your surroundings a bit
+more, you see large men square off in the sandy circle. Although scantily
+clad, these men are powerful.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 6900 0 0 0
+D2
+~
+~
+0 -1 6898 0 0 0
+R M 0 6899 1 6899
+S
+#6900
+Sumo Fighter #3~
+This is the Sumo Ring. You see a big Sumo Wrestler infront of you.
+Getting ready for a fight. The floor here is all padded and there is a
+white circle that represents the ring. Observing your surroundings a bit
+more, you see large men square off in the sandy circle. Although scantily
+clad, these men are powerful.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 6897 0 0 0
+D3
+~
+~
+0 -1 6899 0 0 0
+R M 0 6900 1 6900
+S
+#6901
+Healing Chamber~
+Entering the room, you first notice that is complete dark, this helps the
+wounded who are inside the healing chamber, sleeping, able to recover
+faster than normal, so they can get back in action. There are some
+first-aid kits attached to the walls, and there are many chambers in lines
+scattered across the room.
+~
+0 4 1 1
+D4
+~
+~
+0 -1 6876 0 0 0
+S
+#6902
+Gravity Chamber~
+Entering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+ 
+*** Training Higher than you should, will result in death. ***
+~
+0 4 1 4
+D4
+~
+~
+0 -1 6876 0 0 0
+S
+#6903
+Healing Chamber~
+Upon entering of the healing chamber, you notice all the healings
+pods that are scattered across the room. There are many medpacks
+and health packs that are stacked against the walls. The light
+seems to be dimmed in order to let the fighters sleep and heal
+faster.
+~
+0 0 1 1
+D1
+~
+~
+0 -1 6877 0 0 0
+S
+#6904
+Gravity Chamber~
+Upon entering of the gravity chamber. You notice the large machine
+in the middle of the room. You also noticed all the stacks of weights
+that can be found here. The panel on the machine controls the gravity
+of the room.
+
+** Training under high gravity will result in death. **
+~
+0 0 1 4
+D3
+~
+~
+0 -1 6877 0 0 0
+S
+#6905
+A Hallway~
+The hallways seems to have no windows. The light is provided
+by a single line of lights attached to the ceiling. The floor
+is made out of white tiles that reflect the light upwards.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6907 0 0 0
+D1
+~
+~
+0 -1 6906 0 0 0
+D2
+~
+~
+0 -1 6877 0 0 0
+D3
+~
+~
+0 -1 6908 0 0 0
+S
+#6906
+Sparring Chamber~
+Upon entering of the sparring chamber. You notice that this room
+is completely blank. There is nothing in it. There are no windows
+and it seems that the only exit is the same as the one you came
+in. The floor seems to be made from the same tile as the hallway,
+yet, it feels different from it.
+~
+0 0 1 2
+D3
+~
+~
+0 -1 6905 0 0 0
+S
+#6907
+Before the Hyperbolic Time Chamber Doors~
+The hallways seems to have no windows. The light is provided
+by a single line of lights attached to the ceiling. The floor
+is made out of white tiles that reflect the light upwards. To
+the north you notice a large wooden door that leads towards
+the Hyperbolic Time Chamber 
+~
+0 0 1 0
+D0
+~
+'chamber door'~
+3 -1 6909 0 0 0
+D2
+~
+~
+0 -1 6905 0 0 0
+R D 0 6907 0 1
+> entry_prog 100~
+if wasinroom($n) == 6909
+mpforce $n close north
+endif
+~
+|
+S
+#6908
+Before the Room of Spirit and Time~
+The hallways seems to have no windows. The light is provided
+by a single line of lights attached to the ceiling. The floor
+is made out of white tiles that reflect the light upwards. To
+the west, you notice a large wooden door that leads to the Room
+of Spirit and Time.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6905 0 0 0
+D3
+~
+'chamber door'~
+3 -1 6910 0 0 0
+R D 0 6908 3 1
+> entry_prog 100~
+if wasinroom($n) == 6910
+mpforce $n close west
+endif
+~
+|
+S
+#6909
+Inside the Hyperbolic Time Chamber~
+Upon entering of the Hyperbolic Time Chamber. You can already feel
+the pull of the room itself. As you continue to walk north, you notice
+that you find yourself inside a small house.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6911 0 0 0
+D2
+~
+'chamber door'~
+3 -1 6907 0 0 0
+R D 0 6909 2 1
+> entry_prog 100~
+if wasinroom($n) == 6907
+mpforce $n close south
+mpechoat $n &BYou feel the gravity pull you down.
+endif
+~
+|
+S
+#6910
+Inside the Room of Spirit and Time~
+Upon entering of the Room of Spirit and Time, you notice that
+you seem to be in another dimension. You also think that this
+is too real to be holograms or figments of your imagination.
+The smell, the air, the sounds feel real for you.
+~
+0 4 1 0
+D1
+~
+'chamber door'~
+3 -1 6908 0 0 0
+D3
+~
+~
+0 -1 6926 0 0 0
+R D 0 6910 1 1
+> entry_prog 100~
+if wasinroom($n) == 6908
+mpforce $n close east
+mpechoat $n &RYou hear a computerized voice say: Program Initiated
+endif
+~
+|
+S
+#6911
+A corridor~
+You find yourself now inside a corridor within the small house
+inside the HBTC. To the east, you can find the kitchen and to
+the west, you will find the bedroom and bathroom. As you look
+north, you notice that there is a blank space that seems to
+be endless.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6914 0 0 0
+D1
+~
+~
+0 -1 6915 0 0 0
+D2
+~
+~
+0 -1 6909 0 0 0
+D3
+~
+~
+0 -1 6916 0 0 0
+S
+#6912
+&rInside Roshi's House~
+&cYou are inside Roshi's house. You look around but you dont see anyone.
+The TV here is on, but no one is watching it. There are some dirty
+magazines laying on the floor beside you hear. It sounds like there's a
+voice coming from above, maybe you should head upstairs. If you wish to
+leave, you can go through the door thats south of you.
+~
+0 0 1 0
+D3
+~
+~
+536870912 -1 6950 404 350 0
+D4
+~
+~
+0 -1 6913 0 0 0
+S
+#6913
+&rRoshi's Bedroom~
+&cYou are inside of Roshi's bedroom here, you see master Roshi sitting in
+his chair, reading a dirty magazine. That voice that heard earlier must
+have been Roshi. You look out the window and see an amazing view of the
+ocean and the horizon. If you wish to leave the house, just head back down
+stairs. If not, maybe you should talk to Roshi. 
+~
+0 4 1 0
+D5
+~
+~
+0 -1 6912 0 0 0
+R M 0 6913 1 6913
+S
+#6914
+Before the endless void~
+&wYou find yourself before an endless void. The gravity here seems
+to pull you even more. There doesnt seem to be anything else outside
+here other than this house.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6920 0 0 0
+D2
+~
+~
+0 -1 6911 0 0 0
+S
+#6915
+Inside the kitchen~
+As you enter the kitchen, everything seems to be completely organized.Cleaned
+to the teeth, nothing is out of place, no dust nor anything.To
+the northeast, there seems to be another door that leads towards
+the reserve of food.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 6911 0 0 0
+S
+#6916
+Inside the bedroom~
+As you enter the room, you notice that there is one bed here.
+To the northwest, you can find the bathroom. There are two night
+chests at each side of the bed. There seems to be no TV nor
+any electronics inside of this place.
+~
+0 0 1 1
+D1
+~
+~
+0 -1 6911 0 0 0
+D7
+~
+~
+0 -1 6917 0 0 0
+R O 0 6949 1 6916
+S
+#6917
+Inside the bathroom~
+~
+0 0 1 1
+D8
+~
+~
+0 -1 6916 0 0 0
+S
+#6918
+Condom World~
+Upon entering the room, you notice all the different brands of condoms
+that this shop has to offer. All the different sizes, colors and flavors.
+You can see that there is a clerk shop behind the counter, checking
+our his stock seeing if hes running low on something.
+~
+0 0 1 0
+D2
+~
+~
+536870912 -1 6950 261 16 0
+R M 0 6949 1 6918
+  R G 1 6857 1
+  R G 1 6863 1
+  R G 1 6853 1
+  R G 1 283 1
+  R G 1 282 1
+  R G 1 281 1
+  R G 1 284 1
+  R G 1 280 1
+S
+#6919
+Transporter Room~
+As you enter the portal, and look around a bit, immediatly you can tell
+this is planet Earth... the people, the sky, the environment, the smell,
+everything here symbolizes planet Earth.  Earth is a well known place for
+its training, lots of skilled fighters come to train here to become more
+powerful. The VR system became a famous place to train here, due to its
+popularity with powerful fighters. You feel wing coming from the south.
+
+Say &z"&YTransport me&z"&g to return to JPA.
+~
+0 0 1 32768
+D2
+~
+~
+536870912 -1 6950 258 43 0
+R O 0 32 1 6919
+> speech_prog n transport me~
+if haspropagandized($n)
+mea $n _ora You can't do that right now.
+else
+Mea $n 
+Mea $n _dbl You hit a button.
+Mea $n _blu A burst of blue light explodes from the transporter and takes you away.
+Mer $n _blu A burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 284
+Mpat $n mer $n _blu $n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+endif
+~
+> act_prog p flies from~
+if carryingvnum($n) == 260
+mpforce $n south
+else
+if carryingvnum($n) == 261
+mpforce $n south
+else
+if carryingvnum($n) == 262
+mpforce $n south
+else
+if carryingvnum($n) == 263
+mpforce $n south
+else
+if carryingvnum($n) == 264
+mpforce $n south
+else
+if carryingvnum($n) == 265
+mpforce $n south
+else
+if carryingvnum($n) == 266
+mpforce $n south
+else
+mpdonothing
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> act_prog p arrives from~
+if carryingvnum($n) == 260
+mpforce $n south
+else
+if carryingvnum($n) == 261
+mpforce $n south
+else
+if carryingvnum($n) == 262
+mpforce $n south
+else
+if carryingvnum($n) == 263
+mpforce $n south
+else
+if carryingvnum($n) == 264
+mpforce $n south
+else
+if carryingvnum($n) == 265
+mpforce $n south
+else
+if carryingvnum($n) == 266
+mpforce $n south
+else
+mpdonothing
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#6920
+In the endless void~
+&wYou find yourself in the endless void. There doesnt seem to be
+anything more out here, other than the small house to the south.
+~
+0 0 1 131076
+D0
+~
+~
+0 -1 6924 0 0 0
+D1
+~
+~
+0 -1 6922 0 0 0
+D2
+~
+~
+0 -1 6914 0 0 0
+D3
+~
+~
+0 -1 6921 0 0 0
+S
+#6921
+In the endless void~
+&wYou find yourself in the endless void. There doesnt seem to be
+anything more out here, other than the small house to the south.
+~
+0 0 1 131076
+D0
+~
+~
+0 -1 6925 0 0 0
+D1
+~
+~
+0 -1 6920 0 0 0
+D2
+~
+~
+0 -1 6914 0 0 0
+D3
+~
+~
+0 -1 6922 0 0 0
+S
+#6922
+In the endless void~
+&wYou find yourself in the endless void. There doesnt seem to be
+anything more out here, other than the small house to the south.
+~
+0 0 1 131076
+D0
+~
+~
+0 -1 6923 0 0 0
+D1
+~
+~
+0 -1 6921 0 0 0
+D2
+~
+~
+0 -1 6914 0 0 0
+D3
+~
+~
+0 -1 6920 0 0 0
+S
+#6923
+In the endless void~
+&wYou find yourself in the endless void. There doesnt seem to be
+anything more out here, other than the small house to the south.
+~
+0 0 1 131076
+D0
+~
+~
+0 -1 6923 0 0 0
+D1
+~
+~
+0 -1 6925 0 0 0
+D2
+~
+~
+0 -1 6922 0 0 0
+D3
+~
+~
+0 -1 6924 0 0 0
+S
+#6924
+In the endless void~
+&wYou find yourself in the endless void. There doesnt seem to be
+anything more out here, other than the small house to the south.
+~
+0 0 1 131076
+D0
+~
+~
+0 -1 6924 0 0 0
+D1
+~
+~
+0 -1 6923 0 0 0
+D2
+~
+~
+0 -1 6920 0 0 0
+D3
+~
+~
+0 -1 6925 0 0 0
+S
+#6925
+In the endless void~
+&wYou find yourself in the endless void. There doesnt seem to be
+anything more out here, other than the small house to the south.
+~
+0 0 1 131076
+D0
+~
+~
+0 -1 6925 0 0 0
+D1
+~
+~
+0 -1 6924 0 0 0
+D2
+~
+~
+0 -1 6921 0 0 0
+D3
+~
+~
+0 -1 6923 0 0 0
+S
+#6926
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6927 0 0 0
+D1
+~
+~
+0 -1 6910 0 0 0
+D2
+~
+~
+0 -1 6928 0 0 0
+D3
+~
+~
+0 -1 6929 0 0 0
+S
+#6927
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6926 0 0 0
+D3
+~
+~
+0 -1 6930 0 0 0
+R M 0 6942 1 6927
+S
+#6928
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6926 0 0 0
+D3
+~
+~
+0 -1 6931 0 0 0
+R M 0 6943 1 6928
+S
+#6929
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6930 0 0 0
+D1
+~
+~
+0 -1 6926 0 0 0
+D2
+~
+~
+0 -1 6931 0 0 0
+D3
+~
+~
+0 -1 6932 0 0 0
+> speech_prog p test~
+mppractice $n 'chikara 5' 100
+~
+|
+S
+#6930
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6927 0 0 0
+D2
+~
+~
+0 -1 6929 0 0 0
+D3
+~
+~
+0 -1 6933 0 0 0
+S
+#6931
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6929 0 0 0
+D1
+~
+~
+0 -1 6928 0 0 0
+D3
+~
+~
+0 -1 6934 0 0 0
+S
+#6932
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6933 0 0 0
+D1
+~
+~
+0 -1 6929 0 0 0
+D2
+~
+~
+0 -1 6934 0 0 0
+S
+#6933
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6930 0 0 0
+D2
+~
+~
+0 -1 6932 0 0 0
+R M 0 6940 1 6933
+S
+#6934
+Inside a dark and destroyed area~
+&zThis area seems to be completely destroyed. You seem to find
+yourself in the debris of a forgotten city. You can smell an
+inch away, and it seems that its at your doorstep.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6932 0 0 0
+D1
+~
+~
+0 -1 6931 0 0 0
+R M 0 6941 1 6934
+S
+#6935
+Inside Goku's House~
+Upon entering of Goku's house, you see that its very clean and
+neat.Everything is in its place, nothing out of order or anything.
+Chichi must be doing one hell of a job having Goku as a husband
+and her sons.
+~
+0 4 1 0
+D2
+~
+~
+536870912 -1 6950 413 258 0
+S
+#6939
+&CCapsule Corp's Gravity Training Room~
+&cUpon entering of the room, you see a large machine in the middle
+of the room. It seems to control the gravity of this room. The room is
+also filled with red tiles, that help support all the weight that the gravity
+makes.
+~
+0 1073741824 1 68
+D3
+~
+~
+0 -1 6808 0 0 0
+R M 0 6937 1 6939
+S
+#6940
+Healing Chamber~
+Houndreds of thousands of machines can be heard in this room, injecting a
+redlike liquid into bodies of injuried ones. You can see that this healing
+chamber is tremendously used alot. You could see tubes of redlike
+substances on the floor, they must not be keeping up with the place.
+~
+0 0 1 1
+D2
+~
+~
+536870912 -1 6950 235 243 0
+S
+#6941
+Sparring Chamber~
+You are inside a huge sparring chamber. Here is where fighters come to
+test out their skills in combat. The floor has the tiles re-enforced
+for extreme training.
+~
+0 0 1 2
+D2
+~
+~
+536870912 -1 6950 433 160 0
+S
+#6942
+Training Room~
+Upon entering of the room, you quickly notice that it is completely
+empty.The only thing that can be found here, is one man with
+hits arms crossed.Waiting for new students to walk in and learn
+his lessons. There are no windows nor other exits than the one
+you came in inside the small building.
+~
+0 0 1 64
+D0
+~
+~
+536870912 -1 6950 414 167 0
+R M 0 6947 1 6942
+S
+#6943
+Healing Chamber~
+Houndreds of thousands of machines can be heard in this room, injecting a
+redlike liquid into bodies of injuried ones. You can see that this healing
+chamber is tremendously used alot. You could see tubes of redlike
+substances on the floor, they must not be keeping up with the place.
+~
+0 0 1 1
+D0
+~
+~
+536870912 -1 6950 420 157 0
+S
+#6944
+Gravity Chamber~
+Entering the room, you first notice the large machine in the middle of the
+room, which probably controls the room's gravity. The floor is made out of
+strong resistant red tiles which can support a large amount of weight. The
+only exit to the outside, is the same way that you came inside. 
+
+*** Training Higher than you should, will result in death. ***
+~
+0 0 1 4
+D2
+~
+~
+536870912 -1 6950 407 156 0
+S
+#6945
+East City's Bank~
+Upon entering of the East City's Bank, you notice all the bank tellers
+and desks that are found here. To the north, behind the tellers, you can
+find the vault. There are many people working around here offering
+you some service.
+~
+0 0 1 16
+D2
+~
+~
+536870912 -1 6950 437 138 0
+S
+#6946
+Training Room~
+Upon entering of the room, you quickly notice that it is completely
+empty. There is only one man in the middle of the room standing there
+with his arms crossed, waiting for new students to walk in. The lighting
+on this small building is normal, there are no windows and it seems the
+only exit out of here, is the same you came in.
+~
+0 0 1 64
+D2
+~
+~
+536870912 -1 6950 284 26 0
+R M 0 6948 1 6946
+S
+#6947
+North City's Bank~
+Upon entering of the North City's Bank, you notice all the bank tellers
+and desks that are found here. To the south, you can find the huge
+vault behind all the tellers. There are many people working here and
+offering you some service.
+~
+0 0 1 16
+D0
+~
+~
+536870912 -1 6950 260 32 0
+S
+#6948
+Above the earth~
+~
+0 0 1 64
+D0
+~
+~
+0 -1 6948 0 0 0
+D1
+~
+~
+0 -1 6948 0 0 0
+D2
+~
+~
+0 -1 6948 0 0 0
+D3
+~
+~
+0 -1 6948 0 0 0
+D5
+~
+~
+0 -1 6801 0 0 0
+D6
+~
+~
+0 -1 6948 0 0 0
+D7
+~
+~
+0 -1 6948 0 0 0
+D8
+~
+~
+0 -1 6948 0 0 0
+D9
+~
+~
+0 -1 6948 0 0 0
+S
+#6949
+Underwater~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6949 0 0 0
+D1
+~
+~
+0 -1 6949 0 0 0
+D2
+~
+~
+0 -1 6949 0 0 0
+D3
+~
+~
+0 -1 6949 0 0 0
+D4
+~
+~
+0 -1 6801 0 0 0
+D6
+~
+~
+0 -1 6949 0 0 0
+D7
+~
+~
+0 -1 6949 0 0 0
+D8
+~
+~
+0 -1 6949 0 0 0
+D9
+~
+~
+0 -1 6949 0 0 0
+S
+#6950
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 6809    0  0  0  0  0   120  90         0 23    ; Dr. Brieffs
+ 6836    0  0  0  0  0   120  90         0 23    ; The Facility's Shopkeeper
+ 6866    0  0  0  0  0   120  90         0 23    ; Mr. T
+ 6867    0  0  0  0  0   120  90         0 23    ; Clothing Shopkeeper
+ 6868    0  0  0  0  0   120  90         0 23    ; The Accessory Shopkeeper
+ 6869    0  0  0  0  0   120  90         0 23    ; The Hat Shopkeeper
+ 6872    0  0  0  0  0   120  90         0 23    ; Starbucks Man
+ 6949    0  0  0  0  0   120  90         0 23    ; A shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

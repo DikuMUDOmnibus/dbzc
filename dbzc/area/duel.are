@@ -1,0 +1,689 @@
+#AREA   Dueling Center~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+144
+
+#CONTINENT continent1~
+
+#ECONOMY 0 35049000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2201
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2202
+Duel Sensu Shop Shopkeeper~
+The Dueling Center Shopkeeper~
+An old man stands here watering his Sensu Bean plants.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#2203
+Feral Claw Mob~
+A Feral Claw Mob~
+A Feral Claw mob stands here chillin...
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+> act_prog p points at~
+if name($n) == Choutzu
+mpdelay $n 1
+mpkidrain $n 5000
+mpecho &rChoutzu yells 'Feral Evisceration!!!'
+mea $t &RChoutzu charges at you and swings his claws at your face!
+mer $t &RChoutzu charges at $t and swings his claws at their face!
+if rand(20)
+mea $t &YChoutzu's claws eviscerate you! [100]
+mer $t &YChoutzu's claws eviscerate $t! [100]
+mpdamage $t 100
+else
+if rand(75)
+mea $t &YChoutzu's claws eviscerate you! [60]
+mer $t &YChoutzu's claws eviscerate $t! [60]
+mpdamage $t 60
+else
+mea $t &YChoutzu's claws eviscerate you! [45]
+mer $t &YChoutzu's claws eviscerate $t! [45]
+mpdamage $t 45
+endif
+endif
+endif
+~
+> act_prog p leaves~
+if name ($n) == Choutzu
+mpgoto 140
+endif
+~
+> act_prog p flies~
+if name ($n) == Choutzu
+mpgoto 140
+endif
+~
+|
+#2251
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#2201
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2202
+Feral Claws~
+&w[&OCybernetic&w] &BLarge Feral Claws&W&w~
+&rA set of large claws dripping with blood are stuck into the ground here.&W&w~
+~
+5 0&32 129
+110 8 2 1
+1 0 0
+> custom_prog slashup~
+if name($n) == Choutzu
+mpecho &rChoutzu takes a fighting stance and exposes his bloody feral claws!
+mpmload 2203
+endif
+~
+> wear_prog 100~
+if name($n) == Choutzu
+mpecho &rChoutzu slides a razor sharp set of claws onto his fists.
+else
+mpforce $n remove claws
+mpforce $n junk 'feral claws'
+endif
+~
+|
+#2251
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2201
+First Room~
+~
+0 4 1 0
+R M 0 2201 1 2201
+R M 0 2251 1 2201
+R O 0 2251 1 2201
+R O 0 2201 1 2201
+S
+#2202
+Dueling Center Dock~
+You're standing on a small landing pad outside a somewhat large building.
+The building is rather nondescript, not really drawing your attention.
+Groups of two enter the building in a steady stream, ready to challenge
+each other in friendly combat.  
+~
+0 1024 1 0
+D0
+~
+~
+0 -1 2203 0 0 0
+S
+#2203
+Dueling Center Hallway~
+You're standing in a wide hallway within the Dueling Center.
+The hallway is wide enough for three or four people to stand
+shoulder to shoulder in it. To the east is a healing chamber
+and a bean shop is to your west.
+~
+0 1024 1 0
+D0
+~
+~
+0 -1 2206 0 0 0
+D1
+~
+~
+0 -1 2204 0 0 0
+D2
+~
+~
+0 -1 2202 0 0 0
+D3
+~
+~
+0 -1 2205 0 0 0
+S
+#2204
+A Healing Chamber~
+This large healing chamber obviously sees a lot of use. It resides
+here for people to heal themselves between fights. Medics move
+from patient to patient, making sure they are healing properly.
+Some of the more seriously injured fighters float in tanks of
+green fluid, ensuring that they heal quickly from their wounds.
+~
+0 1024 1 1
+D3
+~
+~
+0 -1 2203 0 0 0
+S
+#2205
+A Sensu Shop~
+An old man sits here resting over a rather parched plant. He begins to
+make arcane jestures and the plant seems to sprout new buds with
+cylindrical shaped fruits. The fruit seems to have some healing properties
+and it is at that point the man chuckles and says, "It's some sensu beans"
+They heal you fully.
+~
+0 1024 1 0
+D1
+~
+~
+0 -1 2203 0 0 0
+R M 0 2202 1 2205
+  R G 1 6 1
+S
+#2206
+Dueling Center Hallway~
+You're standing in a wide hallway within the Dueling Center.
+The hallway is wide enough for three or four people to stand
+shoulder to shoulder in it.To the east and west are doors leading
+into the Dueling Chambers. A sign is posted, indicating that
+only two people may enter a chamber at a time, and the fights
+here can be deadly, so don't trust anyone!
+~
+0 1024 1 0
+D0
+~
+~
+0 -1 2207 0 0 0
+D1
+~
+~
+0 -1 2209 0 0 0
+D2
+~
+~
+0 -1 2203 0 0 0
+D3
+~
+~
+0 -1 2210 0 0 0
+S
+#2207
+Dueling Center Hallway~
+You're standing in a wide hallway within the Dueling Center.
+The hallway is wide enough for three or four people to stand
+shoulder to shoulder in it.To the east and west are doors leading
+into the Dueling Chambers. A sign is posted, indicating that
+only two people may enter a chamber at a time, and the fights
+here can be deadly, so don't trust anyone!
+~
+0 1024 1 0
+D0
+~
+~
+0 -1 2208 0 0 0
+D1
+~
+~
+0 -1 2211 0 0 0
+D2
+~
+~
+0 -1 2206 0 0 0
+D3
+~
+~
+0 -1 2212 0 0 0
+S
+#2208
+Dueling Center Hallway~
+You're standing in a wide hallway within the Dueling Center.
+The hallway is wide enough for three or four people to stand
+shoulder to shoulder in it.To the east and west are doors leading
+into the Dueling Chambers. A sign is posted, indicating that
+only two people may enter a chamber at a time, and the fights
+here can be deadly, so don't trust anyone!
+~
+0 1024 1 0
+D0
+~
+~
+0 -1 2215 0 0 0
+D1
+~
+~
+0 -1 2213 0 0 0
+D2
+~
+~
+0 -1 2207 0 0 0
+D3
+~
+~
+0 -1 2214 0 0 0
+D4
+~
+~
+0 -1 2216 0 0 0
+D5
+~
+~
+0 -1 2217 0 0 0
+S
+#2209
+Dueling Chamber #1~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2206
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2210
+Dueling Chamber #2~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2206
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2211
+Dueling Chamber #3~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2207
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2212
+Dueling Chamber #4~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2207
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2213
+Dueling Chamber #5~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2208
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2214
+Dueling Chamber #6~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2208
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2215
+Dueling Chamber #7~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 2
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2208
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2216
+Dueling Chamber 2v2 #1~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 4
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2208
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2217
+Dueling Chamber 2v2 #2~
+You are standing inside one of the dueling chambers. The room
+is circular and about a hundred feet in diameter. Outcroppings
+and other terrain features provide cover for fighting duos.
+Once a fight has begun, there is no way to finish it until one
+party has been defeated. Once the fight is over, simply say
+"Return me" to return to the hallway.
+~
+0 260 1 256 0 0 4
+> speech_prog p Return me~
+if isfight($n)
+mea $n &RYou are still fighting!
+else
+mptransfer $n 2208
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#2218
+Floating in a void~
+~
+0 4 1 0
+S
+#2219
+Floating in a void~
+~
+0 4 1 0
+S
+#2220
+Floating in a void~
+~
+0 4 1 0
+S
+#2221
+Floating in a void~
+~
+0 4 1 0
+S
+#2222
+Floating in a void~
+~
+0 4 1 0
+S
+#2223
+Floating in a void~
+~
+0 4 1 0
+S
+#2224
+Floating in a void~
+~
+0 4 1 0
+S
+#2225
+Floating in a void~
+~
+0 4 1 0
+S
+#2226
+Floating in a void~
+~
+0 4 1 0
+S
+#2227
+Floating in a void~
+~
+0 4 1 0
+S
+#2228
+Floating in a void~
+~
+0 4 1 0
+S
+#2229
+Floating in a void~
+~
+0 4 1 0
+S
+#2230
+Floating in a void~
+~
+0 4 1 0
+S
+#2231
+Floating in a void~
+~
+0 4 1 0
+S
+#2232
+Floating in a void~
+~
+0 4 1 0
+S
+#2233
+Floating in a void~
+~
+0 4 1 0
+S
+#2234
+Floating in a void~
+~
+0 4 1 0
+S
+#2235
+Floating in a void~
+~
+0 4 1 0
+S
+#2236
+Floating in a void~
+~
+0 4 1 0
+S
+#2237
+Floating in a void~
+~
+0 4 1 0
+S
+#2238
+Floating in a void~
+~
+0 4 1 0
+S
+#2239
+Floating in a void~
+~
+0 4 1 0
+S
+#2240
+Floating in a void~
+~
+0 4 1 0
+S
+#2241
+Floating in a void~
+~
+0 4 1 0
+S
+#2242
+Floating in a void~
+~
+0 4 1 0
+S
+#2243
+Floating in a void~
+~
+0 4 1 0
+S
+#2244
+Floating in a void~
+~
+0 4 1 0
+S
+#2245
+Floating in a void~
+~
+0 4 1 0
+S
+#2246
+Floating in a void~
+~
+0 4 1 0
+S
+#2247
+Floating in a void~
+~
+0 4 1 0
+S
+#2248
+Floating in a void~
+~
+0 4 1 0
+S
+#2249
+Floating in a void~
+~
+0 4 1 0
+S
+#2250
+Floating in a void~
+~
+0 4 1 0
+S
+#2251
+Last Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 2202    0  0  0  0  0   120  50         0 23    ; The Dueling Center Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,782 @@
+#AREA   Good Fighting School~
+
+
+
+#VERSION 2
+#AUTHOR Buu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG &gTrain Harder, young one! You must train harder.~
+
+#FLAGS
+1 10
+
+#CONTINENT continent1~
+
+#ECONOMY 0 30220729
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#1076
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#1077
+Dealer~
+&z&WA Sensu Dealer~
+&z&WA Dealer is here, providing service to those who can afford it.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Hello there, give me 3000 gold and i'll give you a bean!
+~
+|
+#1078
+ShopKeeper~
+The Shop Owner~
+&WThe shop owner waits here, for your purchase.
+~
+~
+67108867 0 C
+1 0 0 0d0+0 0d0+0
+0 5000
+112 112 0
+13 13 13 25 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#1079
+Good Master~
+An Honorable Master~
+&WAn Honorable Master lies here, teaching you the secrets of Chikara
+~
+~
+1539 100 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> all_greet_prog 100~
+say Welcome $n! I can feel your heart from here, good it is, eh?. If
+say you wish to train chikara, please look at the sign, If you wish to go
+say back to the dock, please 'say dock'.
+~
+> speech_prog p I Wish To Become An Honorable Knight~
+if sex($n) == 2
+say Your no male, or ARE you? We will never know.
+else
+say I sensed the good growing within you, and i knew you would make it here
+say eventually.
+mppractice $n 'Chikara 1' 5
+mea $n _yel You have now learned Chikara 1!
+say I will now bestow you the title of the Honorable Knight.
+say Go on $n! Go destroy evil!
+mpmset $n title the Honorable Knight
+endif
+~
+> speech_prog p I Wish To Become A Priest~
+if pl($n) <= 24999999
+or sex($n) == 2
+say Can't do that mate.
+else
+say Wow! You have really grown last time I seen you. You are now ready for
+say the next phase. Henchforth, here is your reward, Chikara 2! If you
+say would like to train it type 'train 'chikara2''. Also, I know bestow you
+say with the title of a priest.
+mpmset $n title the Priest
+mppractice $n 'Chikara 2' 5
+mea $n _yel You have now learned Chikara 2!
+say Go on destroy evil!
+endif
+~
+> speech_prog p I wish to become an Honorable King~
+if pl($n) <= 49999999
+or sex($n) == 2
+say Your no male! Or are you?
+else
+say Wow, you really surprised me $n. I didn't expect you to make
+say it this far!! Congratulations, you are now an Honorable King.
+mpmset $n title the Honorable King
+mppractice $n 'Chikara 3' 5
+mea $n _yel You have learned Chikara 3!
+say Congratulations again.
+Say If you wish to train chiakra 3, type 'train 'chikara3''.
+endif
+~
+> speech_prog p I wish to become an amazon~
+if sex($n) == 2
+say I sensed the good growing within you, and i knew you would make it here
+say eventually.
+mppractice $n 'Chikara 1' 5
+mea $n _yel You have now learned Chikara 1!
+say I will now bestow you the title of the Amazon.
+say Go on $n! Go destroy evil!
+mpmset $n title the Amazon
+else
+say Your no female, or ARE you? We will never know.
+endif
+~
+> speech_prog p I wish To Become A Priestess~
+if pl($n) > 24999999
+if sex($n) == 2
+say Wow! You have really grown last time I seen you. You are now ready for
+say the next phase. Henchforth, here is your reward, Chikara 2! If you
+say would like to train it type 'train 'chikara2''. Also, I know bestow you
+say with the title of a priestess.
+mpmset $n title the Priestess
+mppractice $n 'Chikara 2' 5
+mea $n _yel You have now learned Chikara 2!
+say Go on $n! Go destroy evil!
+else
+say Your no female, OR are YOU?
+endif
+endif
+~
+> speech_prog p I Wish To Become An Honorable Queen~
+if pl($n) > 49999999
+if sex($n) == 2
+say Wow, you really surprised me $n. I didn't expect you to make
+say it this far!! Congratulations, you are now an Honorable Queen.
+mpmset $n title the Honorable Queen
+mppractice $n 'Chikara 3' 5
+mea $n _yel You have learned Chikara 3!
+say Congratulations again.
+Say If you wish to train chiakra 3, type 'train 'chikara3''.
+else
+say Your no female! Or are you?
+endif
+endif
+~
+> speech_prog p Dock~
+say All done with your training already? That was fast.
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1076
+~
+> speech_prog p I'm Done With My Training~
+if pl($n) > 54999999
+say Excellent $n!  I now bestow upon you the title of Devout Fighter.
+mpmset $n title the Devout Fighter
+else
+say $n, you have yet to even comprehend the power of good, train more
+say before you ask me such things.
+endif
+~
+|
+#1080
+Jeyce~
+Jeyce~
+Jeyce stands here, waiting for your death.
+~
+~
+3 -1000 S
+1 0 0 0d0+0 0d0+0
+100 4000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 1080
+~
+|
+#1081
+Freezer~
+Freezer~
+Freezer stands here, waiting patiently.
+~
+~
+3 -1000 S
+1 0 0 0d0+0 0d0+0
+200 6000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 1081
+~
+|
+#1083
+Kooler~
+Kooler~
+Kooler is here, trembling in tremendous power.
+~
+~
+3 -1000 S
+1 0 0 0d0+0 0d0+0
+600 15000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 1083
+~
+|
+#1084
+Sell~
+Sell~
+Sell is here, powering up.
+~
+~
+3 -1000 S
+1 0 0 0d0+0 0d0+0
+800 20000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 1084
+~
+|
+#1100
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#1076
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#1077
+Knights Armor~
+Knights Armor~
+Someone left there knight armor laying on the floor.~
+~
+9 0 9
+0 25 0 1
+1 300 30
+#1078
+Amazon Armor~
+Amazons Armor~
+Someone left there Amazon armor laying on the floor.~
+~
+9 0 9
+0 25 0 1
+1 300 30
+#1079
+Priests Bodyarmor~
+a Priests Bodyarmor~
+Someone left there Priests Bodyarmor laying on the floor.~
+~
+9 0 9
+0 30 0 2
+1 600 60
+#1080
+Priestess Bodyarmor~
+a Priestess Bodyarmor~
+Someone left there Priestess Bodyarmor laying on the floor.~
+~
+9 0 9
+0 30 0 2
+1 600 60
+#1081
+Kings Armor~
+a Kings Armor~
+Someone left there Kings Armor laying on the floor.~
+~
+9 0 9
+0 35 0 3
+1 1000 100
+#1082
+Queens Armor~
+a Queens Armor~
+Someone left there Queens Armor laying on the floor.~
+~
+9 0 9
+0 35 0 3
+1 1000 100
+#1100
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1076
+&YThe Good Fighting School (&ODocking Bay&Y)~
+&OImaculate.  That is a very good word to describe the state of this
+landing pad.  Everything is inexplicably clean.  The surface is a
+completely shiny chrome, with a large yellow circle painted onto it. 
+Inside the circle countless ships take off and land every hour.  You can
+begin your training by going down..
+~
+0 0 1 0
+D5
+~
+~
+0 -1 1077 0 0 0
+S
+#1077
+&YThe Good Fighting School (&OEntrance&Y)~
+&z&OWelcome!  Your future awaits!  At this school you will be able to
+further your fighting prowess by obtaining the legendary Chikara!  All you
+have to do is take your vows to serve the side of good, and you're
+qualified to enter the school!  The pledge is engraved on a &rstatue&O.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 1076 0 0 0
+E
+statue~
+&z=============================================================================
+&YTo enter Good Chikara School, you must have a neutral or good
+alignment, depending if you already been here. If you have a good
+alignment, and you are returning simply say:
+ 
+Enter The School
+ 
+If you are not returning, and you are joining, simply say:
+ 
+I solemnly swear to uphold the causes of truth and all that is right!
+ 
+&z=============================================================================
+~
+> speech_prog p Enter The School~
+if isgood($n)
+mea $n &YWelcome back to Good Chikara School, $n!
+mptransfer $n 1078
+endif
+if isneutral($n)
+mea $n &YSorry, Please look at the statue, if your intending to join.
+endif
+if isevil($n)
+mea $n &YGuards, Send this pretender out of here, NOW!
+mea $n &cThe Good School Guards, shines up his boot, and kicks you all
+mea $n &cthe way too Junction Point Alpha!
+mptrans $n 251
+endif
+~
+> speech_prog p I solemnly swear to uphold the causes of truth and all that is right!~
+if isneutral($n)
+if pl($n) > 4999999
+MEA $n &YYour heart has turned good.
+mpforce $n smirk
+Mpmset $n align 1000
+mpdeadly $n
+mptransfer $n 1078
+endif
+endif
+if isevil($n)
+mea $n &YGuards, Send this pretender out of here, NOW!
+mea $n &cThe Evil School Guards, shines up his boot, and kicks you all
+mea $n &cthe way too Junction Point Alpha!
+mptrans $n 251
+endif
+~
+> entry_prog 100~
+if pl($n) <= 4999999
+mpforce $n up
+endif
+~
+|
+S
+#1078
+&YThe Good Fighting School (&ONexus&Y)~
+&OThis is the center of the school.  Your fighting sectors lie to the
+north, your training sectors to the east.  The sparring chamber is down
+below, and the trainer is up above.  The healing room is northwest. The
+miscellaneous stuff is to the west.  Enjoy. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1083 0 0 0
+D1
+~
+~
+0 -1 1084 0 0 0
+D3
+~
+~
+0 -1 1093 0 0 0
+D4
+~
+~
+0 -1 1082 0 0 0
+D5
+~
+~
+0 -1 1081 0 0 0
+D7
+~
+~
+0 -1 1079 0 0 0
+> speech_prog p dock~
+mpechoat $n &GHave a good day, $n.
+mptransfer $n 1076
+~
+|
+S
+#1079
+&YThe Good Fighting School (&OHealing Room&Y)~
+&OThis room just eminates comfortableness.  All over people are sprawled
+out aimlessly, basking in the rooms warm healing goodness.  There is also
+a man here, peddling sensu beans.. for a price, of course. 
+~
+0 0 1 1
+D8
+~
+~
+0 -1 1078 0 0 0
+S
+#1081
+&YThe Good Fighting School (&OSparring Chamber&Y)~
+&OAs soon as you enter this school, you can see the amount of blood here.
+The blood appears to be everywhere. You start to feel an urge to kill
+anyone and eveyone. You can see some padded mats on the ground for
+protection. Watch out! You don't want any blood on you.
+~
+0 0 1 2
+D4
+~
+~
+0 -1 1078 0 0 0
+S
+#1082
+&YThe Good Fighting School (&OTrainers Room&Y)~
+&OAs you enter the trainers room, you get a sense of not feeling alone. You
+can tell that this is place to learn the legendary chikara. You can see
+that there is chalk and a chalkboard, boraded on the wall. If you wish to
+train chikara, the chikara trainer will tell you. There seems to be a
+&Ysign&O posted on the wall here.
+~
+0 0 1 64
+D5
+~
+~
+0 -1 1078 0 0 0
+R M 0 1079 1 1082
+E
+sign~
+&z=============================================================================
+&YWelcome to the Good Fighting School! If you would like to train chikara,
+please say:
+ 
+For Males:
+
+Chikara 1 = I Wish To Become An Honorable Knight
+Chikara 2 = I Wish To Become A Priest
+Chikara 3 = I Wish To Become An Honorable King
+ 
+For Females:
+ 
+Chikara 1 = I Wish To Become An Amazon
+Chikara 2 = I Wish To Become A Priestess
+Chikara 3 = I Wish To Become An Honorable Queen
+ 
+For Its:
+
+Chikara 1 = I Wish To Become An Honorable Knight
+Chikara 2 = I Wish To Become A Priest
+Chikara 3 = I Wish to Become An Honorable King
+ 
+When Finished:
+ 
+To Return To The Dock = Dock
+When Finished With All Chikaras = I'm Done With My Training
+&z=============================================================================
+~
+S
+#1083
+&YThe Good Fighting School (&OVillian Room&Y)~
+&OAs you enter this room, you can tell that it has no Battlers. Weird. You
+can tell that it has nothing in it. But wait a second, you can see a sign.
+Type 'look sign' to read what the sign says. Probley to tell you where the
+battlers are, I hope! 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 1078 0 0 0
+E
+sign~
+&z======================================================================
+&YTo access the Villian room please state the following:
+ 
+Villian/What to Say:
+ 
+Jeice - Level 1
+Frieza - Level 2
+Seventeen - Level 3
+Cooler - Level 4
+Cell - Level 5
+Buu - Level 6
+&z======================================================================
+~
+> speech_prog p Level 1~
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1087
+~
+> speech_prog p Level 2~
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1088
+~
+> speech_prog p Level 3~
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1089
+~
+> speech_prog p Level 4~
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1090
+~
+> speech_prog p Level 5~
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1091
+~
+> speech_prog p Level 6~
+mea $n _yel Don't forget to look at your surrondings!!
+mptrans $n 1092
+~
+|
+S
+#1084
+&YThe Good Fighting School (&ONearing Gravity Room&Y)~
+&OAs you get closer to the gravity room here, you start to feel nervous
+inside. You can tell that this room is plasterd with pictures. Pictures
+ranging from mighty Goku, to android eighteen. If you wish to enter the
+gravity room, type north. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1085 0 0 0
+D3
+~
+~
+0 -1 1078 0 0 0
+S
+#1085
+&YThe Good Fighting School (&OGravity Room #1&Y)~
+&OHere you go, the gravity room. You can tell that this gravity room is
+fairly new. It looks like it hasn't even been touched. You can tell that
+this gravity room has a help label on top of it. "If you wish to gravity
+train, type 'gravset', and and you can use 'stat', to figure out how to
+gravity train, or you can always help gravity."
+ 
+&YWARNING: IF YOU SET THE GRAVITY TOO HIGH IT CAN KILL YOU!
+~
+0 0 1 4
+D2
+~
+~
+0 -1 1084 0 0 0
+D4
+~
+~
+0 -1 1086 0 0 0
+S
+#1086
+&YThe Good Fighting School (&OGravity Room #2&Y)~
+&OHere you go, the gravity room. You can tell that this gravity room is
+fairly new. It looks like it hasn't even been touched. You can tell that
+this gravity room has a help label on top of it. "If you wish to gravity
+train, type 'gravset', and and you can use 'stat', to figure out how to
+gravity train, or you can always help gravity."
+ 
+&YWARNING: IF YOU SET THE GRAVITY TOO HIGH IT CAN KILL YOU!
+~
+0 0 1 4
+D5
+~
+~
+0 -1 1085 0 0 0
+S
+#1087
+&YThe Good Fighting School (&ODragonballz Villians&Y)~
+&OAs you enter this room, you can tell that you are not alone. You can feel
+someone breathing on your back. It feels like someone wants to fight you.
+Altho, this place is a good place to train and gain powerlevel. I wouldn't
+worry about this puny!
+~
+0 4 1 0
+D2
+~
+~
+0 -1 1083 0 0 0
+R M 0 1080 1 1087
+S
+#1088
+&YThe Good Fighting School (&ODragonballz Villians&Y)~
+&OAs you enter this room, you can tell that you are not alone. You can feel
+someone breathing on your back. It feels like someone wants to fight you.
+Altho, this place is a good place to train and gain powerlevel. I wouldn't
+worry about this puny!
+~
+0 4 1 0
+D2
+~
+~
+0 -1 1083 0 0 0
+R M 0 1081 1 1088
+S
+#1089
+&YThe Good Fighting School (&ODragonballz Villians&Y)~
+&OAs you enter this room, you can tell that you are not alone. You can feel
+someone breathing on your back. It feels like someone wants to fight you.
+Altho, this place is a good place to train and gain powerlevel. I wouldn't
+worry about this puny!
+~
+0 4 1 0
+D2
+~
+~
+0 -1 1083 0 0 0
+S
+#1090
+&YThe Good Fighting School (&ODragonballz Villians&Y)~
+&OAs you enter this room, you can tell that you are not alone. You can feel
+someone breathing on your back. It feels like someone wants to fight you.
+Altho, this place is a good place to train and gain powerlevel. I wouldn't
+worry about this puny!
+~
+0 4 1 0
+D2
+~
+~
+0 -1 1083 0 0 0
+R M 0 1083 1 1090
+S
+#1091
+&YThe Good Fighting School (&ODragonballz Villians&Y)~
+&OAs you enter this room, you can tell that you are not alone. You can feel
+someone breathing on your back. It feels like someone wants to fight you.
+Altho, this place is a good place to train and gain powerlevel. I wouldn't
+worry about this puny!
+~
+0 4 1 0
+D2
+~
+~
+0 -1 1083 0 0 0
+R M 0 1084 1 1091
+S
+#1092
+&YThe Good Fighting School (&ODragonballz Villians&Y)~
+&OAs you enter this room, you can tell that you are not alone. You can feel
+someone breathing on your back. It feels like someone wants to fight you.
+Altho, this place is a good place to train and gain powerlevel. I wouldn't
+worry about this puny!
+~
+0 4 1 0
+D2
+~
+~
+0 -1 1083 0 0 0
+S
+#1093
+&YThe Good Fighting School (&ONearing A Shop&Y)~
+&OYou are now nearing a the Good Fighting School shop. You start to feel
+anxious, while you stay in here. You want to see whats in the shop. Most
+likely armor for those who are training chikara. If you want to look at
+the shop, and buy something, continue north. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 1094 0 0 0
+D1
+~
+~
+0 -1 1078 0 0 0
+S
+#1094
+&YThe Good Fighting School (&OGFS Shop&Y)~
+&OMillions of little gagets can be seen on the corner shelf as you enter
+this shop. A bright yellow rug lays on the floor. As you start to look at
+the objects on the shelf, wondering what they are, the shop keeper looks
+at you and mumbles. It looks like your next! 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 1093 0 0 0
+R M 0 1078 1 1094
+  R G 1 1078 1
+  R G 1 1077 1
+  R G 1 1081 1
+  R G 1 1080 1
+  R G 1 1079 1
+  R G 1 1082 1
+S
+#1095
+Floating in a void~
+~
+0 4 1 0
+S
+#1100
+Last Room~
+~
+0 4 1 0
+R M 0 1100 1 1100
+R M 0 1076 1 1100
+R O 0 1076 1 1100
+R O 0 1100 1 1100
+S
+#0
+
+
+#SHOPS
+ 1078    0  0  0  0  0   120  90         0 23    ; The Shop Owner
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

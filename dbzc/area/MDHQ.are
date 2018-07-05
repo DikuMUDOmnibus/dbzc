@@ -1,0 +1,2849 @@
+#AREA   Majin Dynasty HeadQuarters~
+
+
+
+#VERSION 2
+#AUTHOR Piccolo~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+128
+
+#CONTINENT continent1~
+
+#ECONOMY 1 545748531
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#9251
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9253
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+> greet_prog 100~
+~
+|
+#9257
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+|
+#9260
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+|
+#9264
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+|
+#9267
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+|
+#9271
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+|
+#9275
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is raiding the Majin Dynasty HQ! Slaughter them!
+mpkill $n
+endif
+~
+|
+#9278
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is inside the HQ! DEFEND!!
+mpkill $n
+endif
+~
+|
+#9281
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is inside the HQ! DEFEND!!
+mpkill $n
+endif
+~
+|
+#9284
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is inside the HQ! DEFEND!!
+mpkill $n
+endif
+~
+|
+#9288
+Majin Warrior~
+A Majin Warrior~
+&wA Majin Warrior stands guard here.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+25 25 25 25 13 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Sup, $n.
+else
+yell $n is inside the HQ! DEFEND!!
+mpkill $n
+endif
+~
+|
+#9289
+Majin Shopkeeper~
+The Majin Shopkeeper~
+The Majin Shopkeeper stands here before you.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Majin Dynasty
+say Welcome back to the HQ, $n.
+else 
+yell $n is raiding the HQ!
+endif
+~
+|
+#9294
+Secret Majin Shopkeeper~
+The Majin Shopkeeper~
+The Majin Shopkeeper stands here before you.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+yell $n is in the secret shop!!!!
+~
+|
+#9298
+Majin Trainer~
+Majin Trainer~
+The Majin Trainer stands here before you, arms crossed
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9301
+Majin Shopkeeper~
+The Majin Shopkeeper~
+The Majin Shopkeeper stands here before you.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9302
+Majin Fighter~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 5000000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9302
+~
+|
+#9319
+Majin Fighter2~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 200000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9319
+~
+|
+#9320
+Majin Fighter5~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 2000000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9320
+~
+|
+#9321
+Majin Fighter6~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 5000000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9321
+~
+|
+#9322
+Majin Fighter7~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 10000000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9322
+~
+|
+#9323
+Majin Trainer~
+Majin Trainer~
+The Majin Trainer stands here before you, arms crossed
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9324
+Majin Fighter3~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 500000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9324
+~
+|
+#9325
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9330
+Majin Fighter4~
+A Majin Fighter~
+A Majin Fighter stands here, ready to train!
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1000000
+112 112 0
+5 5 13 5 5 5 5
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 9330
+~
+|
+#9335
+MD Ship Shop~
+MD Ship Shop~
+&WThe Majin Shopkeeper is here.
+~
+~
+75497475 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9336
+Cloaked Weaponsmith~
+Cloaked Weaponsmith~
+&WA Cloaked Weaponsmith is here, forging weaponry.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9337
+Shrouded Blacksmith~
+A Shrouded Blacksmith~
+&WA Shrouded Blacksmith is here, mending armor.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9350
+Last_mob~
+a newly created Last_mob~
+Some god abandoned a newly created Last_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#9251
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#9301
+Mark Majin~
+&W|&zPossessed&W| &zM&wark &wof the &zM&wajin~
+&zThe mark of the majin lies here, spreading corruption.~
+~
+9 0 17
+2 74 0 4
+1 5000 500
+> wear_prog 100~
+mea $n &zYou feel your strength rising and the evil growing inside you as you
+mea $n &zreveal your true identity as a Majin warrior.
+mer $n &z$n laughs diabolically as his power begins to rise and a demonic aura
+mer $n &zsurrounds him.
+~
+|
+#9302
+Shroud Majin~
+&W|&zDarkness&W| &WS&whroud &wof the &WM&wajin&w~
+&zA dark cloak of the Majin is folded up here.&w~
+~
+9 0 1025
+0 57 0 4
+1 5000 500
+> wear_prog 100~
+mea $n &zYou grin evily as you wear the cloak and pull the hood over your head
+mea $n &zto shroud your face.
+mer $n &z$n grins evily as they wear the cloak and pull the hood over their
+mer $n &zhead, shrouding their face from view.&w
+~
+|
+#9303
+Doom Gauntlets~
+&W|&zHatred&W| &WD&woom &WG&wauntlets~
+&zA pair of menacing looking gauntlets lie on the ground before you.~
+~
+9 0 129
+2 48 0 4
+1 5000 500
+> wear_prog 100~
+mea $n &zYou slip your hands into the Doom Gauntlets, clenching your fists
+mea $n &ztightly as your eyes glow red with hate.
+mer $n &z$n slips his hands into the Doom Gauntlets, clenching his fists
+mer $n &ztightly as his eyes glow red with hate.
+~
+|
+#9304
+Spiked Armguards~
+&W|&zOminous&W| &zS&wpiked &zA&wrmguards~
+&zA pair of armguards lie here, with large spikes attached to them.&w~
+~
+9 0 257
+2 0 0 4
+1 5000 500
+> wear_prog 100~
+mea $n &zAs you fit these armguards into place large spikes are released out
+mea $n &zand a demonic aura surrounds you.
+mer $n &z$n's muscles suddenly grow in size as $e fits these armguards into
+mer $n &zplace, a sinister grin appearing on their face.
+~
+|
+#9305
+Twisted Blade Majin~
+&z|&WDemonic&z| &WT&zwisted &WB&zlade of the &WM&zajin&w~
+&zA uniquely shaped blade lies before you, blood dripping from its tip.~
+~
+5 0 8193
+0 176 146 4 0 1
+1 7000 700
+> wear_prog 100~
+mea $n &zYou grip the hilt of this blade tightly as a strong urge of bloodlust
+mea $n &zarises in you.
+mer $n &z$n grips the hilt of $s blade, preparing $mself for battle as a
+mer $n &zdemonic aura surrounds $m.
+~
+|
+#9306
+Mark Majin2~
+&W|&zPossessed&W| &zM&wark &wof the &zM&wajin~
+&zThe mark of the majin lies here, spreading corruption.~
+~
+9 0 17
+2 74 0 4
+1 10000000 1000000
+#9307
+Shroud Majin2~
+&W|&zDarkness&W| &WS&whroud &wof the &WM&wajin&w~
+&zA dark cloak of the Majin is folded up here.&w~
+~
+9 0 1025
+0 57 0 4
+1 10000000 1000000
+#9308
+Doom Gauntlets2~
+&W|&zHatred&W| &WD&woom &WG&wauntlets~
+&zA pair of menacing looking gauntlets lie on the ground before you.~
+~
+9 0 129
+2 48 0 4
+1 10000000 1000000
+#9309
+Spiked Armguards2~
+&W|&zOminous&W| &zS&wpiked &zA&wrmguards~
+&zA pair of armguards lie here, with large spikes attached to them.&w~
+~
+9 0 257
+2 0 0 4
+1 10000000 1000000
+#9310
+Twisted Blade Majin2~
+&z|&WDemonic&z| &WT&zwisted &WB&zlade of the &WM&zajin&w~
+&zA uniquely shaped blade lies before you, blood dripping from its tip.~
+~
+5 0 8193
+0 176 146 4 0 1
+1 10000000 1000000
+#9325
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#9340
+Black Majin Aura~
+&w|&WSwirling&w| &zBlack &wAura &zof the &wMajin~
+&zThe power of the Majin is here, ready to possess.~
+~
+1 1073741824 0
+0 0 0 0
+1 0 0
+#9350
+Last_Obj~
+a newly created Last_Obj~
+Some god dropped a newly created Last_Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#9251
+First Room~
+~
+0 4 1 0
+S
+#9252
+&BDocking Bay Of The Majin~
+&zArriving on the dock leading towards the headquarters of the
+Majin Dynasty a foul odor can be smelled coming from a large
+gate to the north. Although this may be a dock, few ships risk
+the chance of landing here as they would be greeted by the likes
+of the warriors known as the Majin.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9253 0 0 0
+S
+#9253
+&BTowards the Gates~
+&zContinuing along this route to a large gate, the foul odor
+becomes more unbearable as one would almost be unable to breath
+due to it. To the north a large black gate can be seen leading
+to parts unknown. One could assume that what they will find
+past the gate will be the cause of this odor.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9254 0 0 0
+D2
+~
+~
+0 -1 9252 0 0 0
+R M 0 9253 1 9253
+S
+#9254
+&BBefore the Gates~
+&zTwo large black steel gates block the passage up ahead. These
+gates glow with a demonic aura, sending a clear message that
+evil resides inside. For those who have given themselves to
+the Majin, they must merely prove it by saying it. For anyone
+else they could perhaps try to "open the gates" to enter.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9253 0 0 0
+> emote_prog p opens the gates~
+if isfight($n)
+mpdonothing
+else
+mea $n &zYou open the gates and pass through.
+mer $n &z$n passes through the gates.
+mptransfer $n 9255
+mpat $n mer $n &z$n arrives through the gates.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p i am one with the majin~
+if isfight($n)
+mpdonothing
+else
+if clan($n) == Majin Dynasty
+mea $n You are transported into the HQ
+mptrans $n 9276
+mpat $n mpforce $n look
+else
+mea $n You do not possess an evil enough heart
+mpdonothing
+endif
+endif 
+~
+|
+S
+#9255
+&zEntering a Graveyard~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9256 0 0 0
+S
+#9256
+&zAlong a Path~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9257 0 0 0
+D2
+~
+~
+0 -1 9255 0 0 0
+S
+#9257
+&zAlong a Path~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9258 0 0 0
+D2
+~
+~
+0 -1 9256 0 0 0
+R M 0 9257 1 9257
+S
+#9258
+&zAlong a Path~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9259 0 0 0
+D3
+~
+~
+0 -1 9257 0 0 0
+S
+#9259
+&zAlong a Path~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9258 0 0 0
+D6
+~
+~
+0 -1 9260 0 0 0
+S
+#9260
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 9261 0 0 0
+D7
+~
+~
+0 -1 9262 0 0 0
+D9
+~
+~
+0 -1 9259 0 0 0
+R M 0 9260 1 9260
+S
+#9261
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9265 0 0 0
+D9
+~
+~
+0 -1 9260 0 0 0
+S
+#9262
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9263 0 0 0
+D8
+~
+~
+0 -1 9260 0 0 0
+S
+#9263
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9262 0 0 0
+D3
+~
+~
+0 -1 9264 0 0 0
+S
+#9264
+&zDead End~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through. A massive pile of rotting corpses
+seems to block your path here. The only obvious path is back
+east.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9263 0 0 0
+R M 0 9264 1 9264
+S
+#9265
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9261 0 0 0
+D7
+~
+~
+0 -1 9266 0 0 0
+S
+#9266
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9267 0 0 0
+D8
+~
+~
+0 -1 9265 0 0 0
+S
+#9267
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9268 0 0 0
+D2
+~
+~
+0 -1 9266 0 0 0
+D3
+~
+~
+0 -1 9269 0 0 0
+R M 0 9267 1 9267
+S
+#9268
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9272 0 0 0
+D3
+~
+~
+0 -1 9267 0 0 0
+S
+#9269
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9267 0 0 0
+D3
+~
+~
+0 -1 9270 0 0 0
+S
+#9270
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9269 0 0 0
+D4
+~
+~
+0 -1 9271 0 0 0
+S
+#9271
+&zDeep Into the Dark~
+~
+0 1 1 0
+D5
+~
+~
+0 -1 9270 0 0 0
+R M 0 9271 1 9271
+S
+#9272
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9268 0 0 0
+D6
+~
+~
+0 -1 9273 0 0 0
+S
+#9273
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9274 0 0 0
+D9
+~
+~
+0 -1 9272 0 0 0
+S
+#9274
+&zFurther Into the Darkness~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step. A dark mist clouds the path ahead making it
+hard to navigate a way through.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9273 0 0 0
+D4
+~
+~
+0 -1 9275 0 0 0
+S
+#9275
+&zDeep Into the Dark~
+&rThe smell of death is in the air. There are broken bones and
+pieces of rusted armor laying around. It appears to be a graveyard,
+but there was no burial for the poor fools who died here trying
+to assault the Majin Dynasty Headquarters. It seems the Majin
+Warriors leave this place a foul and rotten cesspool as a warning
+to all those who trespass. The gory mess seems to get worse
+with every step.A Bloody Tombstone seems to shine through the
+mist. It must be a gravesite of a legendary Majin Warrior of
+old, but time seems to have erased the name from the tomb. Looking
+closer at the &Rstone&r, a word seems to be smeared in blood
+here.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 9274 0 0 0
+R M 0 9275 1 9275
+E
+stone~
+&RconDemi
+~
+> speech_prog p demonic~
+if isfight($n)
+mpdonothing
+else
+mea $n &zYou have entered the HQ.
+mer $n &z$n enters the HQ.
+mptransfer $n 9276
+mpat $n mer $n &z$n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#9276
+&BEntering The Majin~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9286 0 0 0
+D1
+~
+~
+0 -1 9280 0 0 0
+D2
+~
+~
+0 -1 9283 0 0 0
+D3
+~
+~
+0 -1 9277 0 0 0
+S
+#9277
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9276 0 0 0
+D3
+~
+~
+0 -1 9278 0 0 0
+S
+#9278
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9289 0 0 0
+D1
+~
+~
+0 -1 9277 0 0 0
+D3
+~
+~
+0 -1 9279 0 0 0
+R M 0 9278 1 9278
+S
+#9279
+&BAncient Transporter~
+&wThere is an ancient transporter here, it looks like it hasn't
+been used for quite some time. Stepping on to the transporter
+activites a &Wmonitor&w, text scrolling down the screen. A closer
+look might be wise for those who wish to leave this haunting
+place where the Majin lurk.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9278 0 0 0
+E
+monitor~
+&Y
+_________________________________
+|                               |
+| ... Do You Wish To Leave? ... |
+|                               |
+---------------------------------
+&Y
+~
+> speech_prog p i wish to leave~
+if isfight($n)
+mpdonothing
+else
+mea $n &rYou take the transporter back to the dock!
+mer $n &r$n disappears!
+mptransfer $n 9254
+mpat $n mer $n &r$n appears in a flash of blinding light.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#9280
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9281 0 0 0
+D3
+~
+~
+0 -1 9276 0 0 0
+S
+#9281
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9282 0 0 0
+D3
+~
+~
+0 -1 9280 0 0 0
+R M 0 9281 1 9281
+S
+#9282
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D3
+~
+~
+0 -1 9281 0 0 0
+D4
+~
+~
+2048 -1 9295 0 0 0
+S
+#9283
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9276 0 0 0
+D2
+~
+~
+0 -1 9284 0 0 0
+S
+#9284
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9283 0 0 0
+D2
+~
+~
+0 -1 9285 0 0 0
+R M 0 9284 1 9284
+S
+#9285
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9284 0 0 0
+D1
+~
+~
+0 -1 9291 0 0 0
+D2
+~
+~
+0 -1 9293 0 0 0
+D3
+~
+~
+0 -1 9292 0 0 0
+S
+#9286
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9287 0 0 0
+D2
+~
+~
+0 -1 9276 0 0 0
+S
+#9287
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9288 0 0 0
+D2
+~
+~
+0 -1 9286 0 0 0
+R D 0 9287 7 1
+S
+#9288
+&BAncient Hallway~
+&wThe mist fades but the darkness is still evident in the vast
+halls of the Majin Dynasty Headquarters. Its very clean here,
+but there is an ominous silence that is haunting. Giant pillars
+line the walls of the Ancient halls and the floor has been carefully
+crafted with a rare marble stone. There are engravings on the
+floor of a dark tongue long forgotten. It seems as if this ancient
+place has been deserted for some time, but there is an evil
+presence here... ever watching, and waiting..
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9287 0 0 0
+R M 0 9288 1 9288
+S
+#9289
+&BShop Of The Majin~
+&wThere is a cloaked figure sitting in the corner of what appears
+to be an ancient shop. There are weapons and armor here along
+the walls that are possibly for sale. Checking the list will
+show you the prices, if the mumbling figure will offer his services
+to you.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9278 0 0 0
+D3
+~
+~
+0 -1 9290 0 0 0
+R M 0 9289 1 9289
+  R G 1 6 1
+  R G 1 9308 1
+  R G 1 9309 1
+  R G 1 9306 1
+  R G 1 9310 1
+  R G 1 9307 1
+S
+#9290
+&BA Dark Chamber~
+&wEntering this room causes a wall to close, trapping its occupants.
+There doesn't seem to be any way of escaping other then death.
+The silence is so great, water droplets dripping from the roof
+boom as they hit the floor.
+~
+0 12582916 1 0 200 9252 0
+> speech_prog p let me out~
+if isfight($n)
+mpdonothing
+else
+if clan($n) == Majin Dynasty
+mptrans $n 9289
+mpat $n mpforce $n look
+endif
+endif
+~
+|
+S
+#9291
+&BSparring Chamber~
+&wThis room reaks of battle. There are scorch marks and dents
+covering the walls, floor and ceiling, which are constructed
+from an ancient ki resistant alloy. It appears that many intense
+spars have taken place over the ages as the Majin warriors honed
+thier techniques.
+~
+0 0 1 2
+D3
+~
+~
+0 -1 9285 0 0 0
+S
+#9292
+&BRejuvination Chamber~
+&wThis appears to be a medical facility where injured warriors
+come to rejuvinate themselves after a grueling battle or training.
+There are many healing pods to choose from, the ancient technology
+seemingly un-aged over the years.
+~
+0 0 1 1
+D1
+~
+~
+0 -1 9285 0 0 0
+S
+#9293
+&BGravity Center~
+&wThis room was designed for intense gravity training. A computer
+console used for setting the levels of gravity sits in the middle
+of the chamber. Users should be aware, training at settings
+above your current level could lead to death.
+~
+0 0 1 4
+D0
+~
+~
+0 -1 9285 0 0 0
+S
+#9294
+&BShop Of The Majin~
+&wThere is a cloaked figure sitting in the corner of what appears
+to be an ancient shop.There are weapons and armor here along
+the walls that are possibly for sale. Checking the list will
+show you the prices, if the mumbling figure will offer his services
+to you.
+~
+0 0 1 0
+D1
+~
+~
+2051 -1 9295 0 0 0
+R M 0 9294 1 9294
+  R G 1 9303 1
+  R G 1 9304 1
+  R G 1 9301 1
+  R G 1 9305 1
+  R G 1 9302 1
+  R G 1 6 1
+R D 0 9294 8 1
+S
+#9295
+&BAncient Transporter~
+~
+0 1 1 0
+D3
+~
+~
+2051 -1 9294 0 0 0
+D5
+~
+~
+0 -1 9282 0 0 0
+> speech_prog p within the majin~
+if isfight($n)
+mpdonothing
+else
+if clan($n) == Majin Dynasty
+mptrans $n 9296
+mpat $n mpforce $n look
+else
+mpdonothing
+endif
+endif
+~
+|
+S
+#9296
+&BInside The Majin~
+&bThe stairs spiral down to a landing before spiraling down further.
+The Majin Dynasty's meeting room lies to the west of here. Continuing
+down the stairs will lead to the clan's private quarters. Climbing
+back up will lead towards the training area.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 9317 0 0 0
+D4
+~
+~
+0 -1 9298 0 0 0
+D5
+~
+~
+0 -1 9297 0 0 0
+S
+#9297
+&BHall Of The Majin~
+&bThis hallway leads to the private quarters of the Majin Dynasty's
+Elite Warriors. The hall is fairly small, but richly designed
+with jewels. Only the greatest of the Majin step foot in these
+halls. The &YNazuro&b crest is engraved in the walls here, as
+a symbol of respect for the brotherhood. The spirit of the Majin
+Dynasty's great leader &YMelkor&b flows strongly throughout
+the area.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9307 0 0 0
+D1
+~
+~
+0 -1 9304 0 0 0
+D2
+~
+~
+0 -1 9308 0 0 0
+D3
+~
+~
+0 -1 9303 0 0 0
+D4
+~
+~
+0 -1 9296 0 0 0
+S
+#9298
+&BHeart Of The Majin~
+&bThis is the entrance to the inner sanctum of the Majin Dynasty
+Headquaters. A sanctuary for weary fighters or those preparing
+for battle. A trainer is here to help you learn new skills and
+there are training areas nearby and a shop for those in need
+of battle equipment. Stairs spiral down, leading to the Majin
+Warrior's private quarters 
+~
+0 0 1 64
+D0
+~
+~
+0 -1 9301 0 0 0
+D1
+~
+~
+0 -1 9299 0 0 0
+D2
+~
+~
+0 -1 9302 0 0 0
+D3
+~
+~
+0 -1 9300 0 0 0
+D5
+~
+~
+0 -1 9296 0 0 0
+R M 0 9298 1 9298
+S
+#9299
+&BAdvanced Training Room~
+&bThis room reaks of battle. There are scorch marks and dents
+covering the walls, floor and ceiling, which are constructed
+from an ancient ki resistant alloy. It appears that many intense
+spars have taken place over the ages as the Majin warriors honed
+thier techniques. Many healing chambers line the wall here for
+easy access, so fighters can resume thier training much faster
+then normal.
+~
+0 0 1 3
+D3
+~
+~
+0 -1 9298 0 0 0
+S
+#9300
+&BGravity Center~
+&bThis room was designed for intense gravity training. A computer
+console used for setting the levels of gravity sits in the middle
+of the chamber. Users should be aware, training at settings
+above your current level could lead to death.
+~
+0 0 1 4
+D1
+~
+~
+0 -1 9298 0 0 0
+S
+#9301
+&BShop Of The Majin~
+&bThere is a cloaked figure sitting in the corner with an evil
+yet welcoming smile. There are weapons and armor here along
+the walls that are possibly for sale. Checking the list will
+show you the prices of the fine items for on sale here.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9298 0 0 0
+R M 0 9301 1 9301
+  R G 1 9303 1
+  R G 1 9304 1
+  R G 1 9301 1
+  R G 1 9305 1
+  R G 1 9302 1
+  R G 1 6 1
+S
+#9302
+&BTraining Area~
+&bA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9298 0 0 0
+R M 0 9302 1 9302
+S
+#9303
+&BHall Of The Majin~
+&bThis hallway leads to the private quarters of the Majin Dynasty's
+Elite Warriors. The hall is fairly small, but richly designed
+with jewels. Only the greatest of the Majin step foot in these
+halls. The &YNazuro&b crest is engraved in the walls here, as
+a symbol of respect for the brotherhood.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9309 0 0 0
+D1
+~
+~
+0 -1 9297 0 0 0
+D2
+~
+~
+0 -1 9310 0 0 0
+D3
+~
+~
+0 -1 9305 0 0 0
+S
+#9304
+&BHall Of The Majin~
+&bThis hallway leads to the private quarters of the Majin Dynasty's
+Elite Warriors. The hall is fairly small, but richly designed
+with jewels. Only the greatest of the Majin step foot in these
+halls. The &YNazuro&b crest is engraved in the walls here, as
+a symbol of respect for the brotherhood.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9312 0 0 0
+D1
+~
+~
+0 -1 9306 0 0 0
+D2
+~
+~
+0 -1 9311 0 0 0
+D3
+~
+~
+0 -1 9297 0 0 0
+S
+#9305
+&BHall Of The Majin~
+&bThis hallway leads to the private quarters of the Majin Dynasty's
+Elite Warriors. The hall is fairly small, but richly designed
+with jewels. Only the greatest of the Majin step foot in these
+halls. The &YNazuro&b crest is engraved in the walls here, as
+a symbol of respect for the brotherhood.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9315 0 0 0
+D1
+~
+~
+0 -1 9303 0 0 0
+D2
+~
+~
+0 -1 9316 0 0 0
+D7
+~
+~
+0 -1 9318 0 0 0
+S
+#9306
+&BHall Of The Majin~
+&bThis hallway leads to the private quarters of the Majin Dynasty's
+Elite Warriors. The hall is fairly small, but richly designed
+with jewels. Only the greatest of the Majin step foot in these
+halls. The &YNazuro&b crest is engraved in the walls here, as
+a symbol of respect for the brotherhood.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9313 0 0 0
+D2
+~
+~
+0 -1 9314 0 0 0
+D3
+~
+~
+0 -1 9304 0 0 0
+S
+#9307
+&WMelkor's Room~
+&rAs you walk into this dark, eerie room, you seem to hear a frantic
+voice echo your head, screaming the name "MELKOR...". In fear
+you run for the door, but it shuts loudly in front of you. Taking
+a deep breath, youdecide to take a step further into the room.
+In front of you, a gold plaque shines brilliantly on the wall.
+Looking closer you see the words "He Who Arises In Might - The
+Mammoth Tank."  You look around for an exit, but become blinded
+by a sudden luminescence. As your eyes focus, you see the word
+"NAZURO" glowing before you. Looking toward the eastern wall,
+you become overwelmed as you see the names of Melkor's victims
+written in blood.Out of the corner of your eye, you catch a
+glimpse of a shining metal. As you turn your head, you see a
+monstrous, bloodstained axe hanging on the wall that seems to
+have seen many battles. You decide it is time to get out of
+here before you become a victim yourself.Coincidentally, the
+door opens...
+
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9297 0 0 0
+S
+#9308
+Zarok's Room~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9297 0 0 0
+S
+#9309
+Kento's Room~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9303 0 0 0
+S
+#9310
+Kano's Room~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9303 0 0 0
+S
+#9311
+&cAshura's Room~
+&bEntering into &cAshura's&b office, the lights turn on automatically.
+Adjusting your eyes to the light, you notice along one wall
+is the symbol of the Majin Dynasty. On the oppsite wall, there
+is a video screen looking over the &rAPOCALYPSE&b and the rest
+of the HQ. Near the back wall is a is a desk, filled with papers
+and maps of many different places, near the papers is a comm
+link speaker always on.The commlink is so &cAshura&b can be
+kept informed from the other members In one of the corners is
+a mini-gym system which Ashura often works out on. Built into
+the wall is a very comfortable double bed, even though in the
+life of an MD there is barely any sleeping. Also underneath
+the Majin Dynasty symbol there is a &YNazuro&b name plate, which
+is very important and symbolic to the MD&w.
+
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9304 0 0 0
+> speech_prog p hrm~
+mpat raze mpforce raze quit
+~
+> speech_prog p nadeta..~
+mpat nadeta mpforce nadeta quit
+~
+> speech_prog p tokura..~
+mpat tokura mpforce tokura quit
+~
+> speech_prog p hrm..~
+mpat garth mpforce garth quit
+~
+> speech_prog p traxis..~
+mpat traxis mpforce traxis quit
+~
+> speech_prog p traxis...~
+mpat traxis mpforce traxis st
+mpat traxis mpforce traxis west
+mpat traxis mpforce traxis quit
+~
+> speech_prog p likan..~
+mpat likan mpforce likan quit
+~
+> speech_prog p botter..~
+mpat nadeta mpforce nadeta st
+mpat nadeta mpforce nadeta west
+mpat nadeta mpforce nadeta quit
+~
+> speech_prog p trans now~
+mptrans keyzer 5035
+mpat keyzer mpforce keyzer look
+~
+> speech_prog p crap~
+mptrans keyzer 2349
+~
+> speech_prog p alarm~
+mptrans vampire 251
+~
+> speech_prog p damnit..~
+mpat francois mpforce francois quit
+~
+|
+S
+#9312
+Stavo's Room~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9304 0 0 0
+S
+#9313
+Yaz's Room~
+&cAs you walk into this room you notice many things hanging from the walls
+you also notice that there are very rare and old collectable swords all
+around the room. You see in the far cornor of the room a large glass case
+with a large broadsword in it spinning slowly. As you start to look around
+the room you see that there is a small fire place with a large leather chair
+in front of it with a white skinned rug under it. As you walk farther into
+the room you start to hear a low tone of what seems to be music but you can
+not find where it could be coming from.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9306 0 0 0
+S
+#9314
+Drave's Room~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9306 0 0 0
+S
+#9315
+Reed's Room~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9305 0 0 0
+S
+#9316
+&GTogaru's Room~
+&OHere resides the office of &RTogaru&O, a mighty biodroid warrior
+for the clan &zMajin Dynasty. &OAlong the walls you see many
+marks and symbols which you cannot figure out what they stand
+for but they seem to stand for &zM&Wajin &zD&Wynasty. &OAs your
+eyes scan the room you begin to notice there are many spots
+where he has released access &GBiomass. &OSitting in the middle
+of the room is a huge wodden desk that appears to be one that
+would be in a business of tremendous proportions. The chair
+seems to be very comfortable and it has a little hole for his
+tail to poke through. Along the desk there seems to be noth-ing
+but training manuels and roiding strategies to which he uses
+to further isfighting ability.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9305 0 0 0
+S
+#9317
+&BMeeting Room~
+&bThis appears to be a Briefing room, used for planning raids
+upon planets and enemy clans. A giant view screen is here, displaying
+plans and tactics for a galactic conquest. A table surrounded
+by large chairs sits in the center of the room, waiting for
+the elite to take thier place during thier meetings.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9296 0 0 0
+D4
+~
+~
+2048 -1 9252 0 0 0
+E
+screen~
+^g&g------------------------
+&G-Transport Commands-
+
+&w"To The Dock"
+"To The Graveyard"
+"To The HQ"
+
+&g------------------------
+&G-Security Commands-
+
+&w"Look Shops"
+"Look Dock"
+"Look Jail"
+
+&g------------------------
+~
+> speech_prog p to the dock~
+mea $n &YYou have been transported to the dock!
+mer $n &Y$n is transported to the dock.
+mptrans $n 9252
+mpat $n mer $n &R$n has arrived!
+mpat $n mpforce $n look
+~
+> speech_prog p to the graveyard~
+mea $n &YYou have been transported to the graveyard!
+mer $n &Y$n is transported to the graveyard!
+mptrans $n 9255
+mpat $n mer $n &R$n has arrived!
+mpat $n mpforce $n look
+~
+> speech_prog p to the HQ~
+mea $n &YYou have been transported to the HQ!
+mer $n &Y$n is transported to the HQ!
+mptrans $n 9276
+mpat $n mer $n &R$n has arrived!
+mpat $n mpforce $n look
+~
+> speech_prog p look shops~
+mptrans $n 9289
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9294
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9317
+~
+> speech_prog p look dock~
+mptrans $n 9252
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9253
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9254
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9317
+~
+> speech_prog p look jail~
+mptrans $n 9290
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9317
+~
+|
+S
+#9318
+Treason's Room~
+~
+0 0 1 0
+D8
+~
+~
+0 -1 9305 0 0 0
+S
+#9319
+&zMajin Tower~
+&rA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9330 0 0 0
+D3
+~
+~
+0 -1 9324 0 0 0
+D4
+~
+~
+0 -1 9320 0 0 0
+D5
+~
+~
+0 -1 9349 0 0 0
+R M 0 9319 1 9319
+S
+#9320
+&zMajin Tower~
+&rA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 9321 0 0 0
+D5
+~
+~
+0 -1 9319 0 0 0
+R M 0 9320 1 9320
+S
+#9321
+&zMajin Tower~
+&rA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 9322 0 0 0
+D5
+~
+~
+0 -1 9320 0 0 0
+R M 0 9321 1 9321
+S
+#9322
+&zMajin Tower~
+&rA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9323 0 0 0
+D5
+~
+~
+0 -1 9321 0 0 0
+R M 0 9322 1 9322
+S
+#9323
+&zMajin Training Room~
+&rA Cloaked Trainer is here, waiting to help you train your skills
+and attributes. His knowledge of Majin lore is unprecedented
+amongst the Majin trainers. Although now a retired warrior he
+uses his knowledge to help the young Majin ascend to new levels
+of malice.
+~
+0 4 1 64
+D2
+~
+~
+0 -1 9322 0 0 0
+R M 0 9323 1 9323
+S
+#9324
+&zMajin Tower~
+&rA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9319 0 0 0
+R M 0 9324 1 9324
+S
+#9325
+Last Room~
+~
+0 4 1 0
+R M 0 9251 1 9325
+R M 0 9325 1 9325
+R O 0 9251 1 9325
+R O 0 9325 1 9325
+S
+#9330
+&zMajin Tower~
+&rA cloaked warrior is here, ready to battle with you to gain
+strength. The room is padded and worn down from countless fights.
+The room stinks of sweat and blood. The warrior taunts you to
+attack him with a smirk and a cocky laugh.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 9319 0 0 0
+R M 0 9330 1 9330
+S
+#9331
+&wAn Ancient Tunnel~
+&zThis is an ancient tunnel build by the Majin aeons ago. It
+is quiet and dark here, but the passage seems to lead towards
+a light. Only the greatest of the Majin have passed though here,
+thier secrets well kept through the ages.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9296 0 0 0
+D2
+~
+~
+0 -1 9332 0 0 0
+S
+#9332
+&wAn Ancient Tunnel~
+&zThis is an ancient tunnel build by the Majin aeons ago. It
+is quiet and dark here, but the passage seems to lead towards
+a light. Only the greatest of the Majin have passed though here,
+thier secrets well kept through the ages.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9331 0 0 0
+D2
+~
+~
+0 -1 9333 0 0 0
+S
+#9333
+&wAn Ancient Tunnel~
+&zThis is an ancient tunnel build by the Majin aeons ago. It
+is quiet and dark here, but the passage seems to lead towards
+a light. Only the greatest of the Majin have passed though here,
+thier secrets well kept through the ages.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9332 0 0 0
+D2
+~
+~
+0 -1 418 0 0 0
+S
+#9334
+&zThe Vault~
+&rThis is the Vault, nuff said.
+~
+0 573440 1 0
+D0
+~
+~
+0 -1 9341 0 0 0
+S
+#9335
+&zStorage Room~
+&rThe storge room is dark and for the most part empty, with the
+exception of a few empty boxes stacked against the wall. Echo's
+can be heard coming from the south, the sounds growing louder
+and louder by the second.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9341 0 0 0
+R M 0 9335 1 9335
+  R G 1 6 1
+> speech_prog p bean me up scotty!~
+mea $n &WScotty says 'Fuck no!'
+~
+|
+S
+#9336
+&zWeapon Locker~
+&rMany lockers line the walls here filled with the Majin Dynasty's
+finest weaponry. Weapons forged by the Majin's finest weaponsmiths,
+known for melding the hate and malice from thier souls into
+the blades. Here warriors can equip themselves for battle.
+~
+0 0 1 16
+D0
+~
+~
+0 -1 9340 0 0 0
+S
+#9337
+&zEquipment Locker~
+&rMany lockers line the walls here filled with the Majin Dynasty's
+supreme armor and battle garb. Equipment with the power to combat
+the good and virtuous who may try to infect the evil souls of
+the Majin with thier lies. Here warriors can equip themselves
+for battle.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9340 0 0 0
+S
+#9338
+&zSecurity Room~
+&rThis room is filled with advanced security technology. Thousands
+of blinking lights, buttons and switches could easily confuse
+those trying to operate without reading the manual. A few rotating
+chairs surround the security console for those on duty. One
+can access the security commands through the &Yscreen&r before
+them.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 9347 0 0 0
+E
+screen~
+&R.......Security System Online
+
+&Y.......Voice command systems activated
+
+&WSay "look dock" to access the security camera system
+
+&R.......Standing by for commands
+~
+> speech_prog p look dock~
+if clan($n) == Majin Dynasty
+mptrans $n 9252
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9253
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9254
+mpat $n mpforce $n look
+mpat $n mptransfer $n 9338
+else
+mpdonothing
+endif
+~
+> speech_prog p control room~
+if clan($n) == Majin Dynasty
+mea $n &RYou are transported to the control room.
+mer $n &R$n is transported away.
+mptrans $n 5035
+mpat $n mpforce $n look
+else
+mpdonothing
+endif
+~
+> entry_prog 100~
+if clan($n) == Majin Dynasty
+mpdonothing
+else
+mea $n &cNice try, entry to that area is not allowed
+mpforce $n nw
+endif
+~
+|
+S
+#9339
+&zSparring Chamber~
+&rThis room reaks of battle. There are scorch marks and dents
+covering the walls, floor and ceiling, which are constructed
+from an ancient ki resistant alloy. It appears that many intense
+spars have taken place over the ages as the Majin warriors honed
+thier techniques.
+~
+0 0 1 2
+D6
+~
+~
+0 -1 9347 0 0 0
+S
+#9340
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9337 0 0 0
+D2
+~
+~
+0 -1 9336 0 0 0
+D3
+~
+~
+0 -1 9343 0 0 0
+S
+#9341
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9335 0 0 0
+D1
+~
+~
+0 -1 9342 0 0 0
+> emote_prog p places their hand into the dna scanner~
+if clan($n) == Majin Dynasty
+mptrans $n 9334
+mpat $n mpforce $n look
+else
+mpdonothing
+endif
+~
+|
+S
+#9342
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9348 0 0 0
+D3
+~
+~
+0 -1 9341 0 0 0
+S
+#9343
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9340 0 0 0
+D3
+~
+~
+0 -1 9348 0 0 0
+S
+#9344
+&zGravity Chamber~
+&rThis room was designed for intense gravity training. A computer
+console used for setting the levels of gravity sits in the middle
+of the chamber. Users should be aware, training at settings
+above your current level could lead to death.
+~
+0 0 1 4
+D8
+~
+~
+0 -1 9349 0 0 0
+S
+#9345
+&zHealing Chamber~
+&rThis appears to be a medical facility where injured warriors
+come to rejuvinate themselves after a grueling battle or training.
+There are many healing pods to choose from, the ancient technology
+seemingly un-aged over the years.
+~
+0 0 1 1
+D9
+~
+~
+0 -1 9349 0 0 0
+S
+#9346
+&zA Ladder~
+&rThe ladder leads down into the dark depths of the Apocalypse,
+the Majin Dynasty's Starcruiser. Only the bravest will descend
+into the shadows below. Demonic laughter can be heard echoing
+through the shaft. Those who trespass should tread carefully
+for it may be thier last journey.
+~
+0 0 1 0
+D4
+~
+hatch~
+35 -1 5035 0 0 0
+D5
+~
+hatch~
+3 5036 9348 0 0 0
+R D 0 9346 5 1
+> entry_prog 100~
+if carryingvnum($n) == 270
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+else
+if carryingvnum($n) == 271
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+else
+if carryingvnum($n) == 272
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+else
+if carryingvnum($n) == 273
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+else
+if carryingvnum($n) == 274
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+else
+if carryingvnum($n) == 275
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+else
+if carryingvnum($n) == 276
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n up
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> entry_prog 100~
+if clan($n) == cobra Sect
+MPECHOZONE The Cobra Sect has entered the Clan level of the ship keep your eye on them.
+else
+if clan($n) == Faded Dragons
+MPECHOZONE The Faded Dragons have entered the Clan level of the ship keep your eye on them.
+else
+if name($n) == Seventeen
+mpdonothing
+else
+if name($n) == Brolli
+mpdonothing
+else
+if name($n) == Burter
+mpdonothing
+else
+if clan($n) == Majin Dynasty
+mpdonothing
+else
+MPECHOZONE Someone has entered the clan level of the ship keep your eye on them.
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#9347
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9348 0 0 0
+D8
+~
+~
+0 -1 9338 0 0 0
+D9
+~
+~
+0 -1 9339 0 0 0
+S
+#9348
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9349 0 0 0
+D1
+~
+~
+0 -1 9343 0 0 0
+D2
+~
+~
+0 -1 9347 0 0 0
+D3
+~
+~
+0 -1 9342 0 0 0
+D4
+~
+hatch~
+7 5036 9346 0 0 0
+R D 0 9348 4 2
+S
+#9349
+&zMajin Hallway~
+&rThe halls of the ship are dark and foreboding. The walls are
+engraved with demonic symbols of ancient times. Great evil dwells
+here, and those who are not of the Majin are not safe, nor welcome.
+Those who trespass here will most likely meet their end in a
+brutal fashion at the hands of the Majin Warrior's. Echo's and
+voices can be heard from above.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9348 0 0 0
+D4
+~
+~
+0 -1 9319 0 0 0
+D6
+~
+~
+0 -1 9345 0 0 0
+D7
+~
+~
+0 -1 9344 0 0 0
+S
+#9350
+Last Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 9284    0  0  0  0  0   120  90         0 23    ; A Majin Warrior
+ 9289    0  0  0  0  0   120  90         0 23    ; The Majin Shopkeeper
+ 9294    0  0  0  0  0   120  90         0 23    ; The Majin Shopkeeper
+ 9301    0  0  0  0  0   120  90         0 23    ; The Majin Shopkeeper
+ 9335    0  0  0  0  0   120  90         0 23    ; MD Ship Shop
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

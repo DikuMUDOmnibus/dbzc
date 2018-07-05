@@ -1,0 +1,33 @@
+DBZC Release 3.0
+Tuesday 23 May 2006
+
+Seventeen (Riketsu)  - riketsukirai@hotmail.com
+Vegeta (Lenn)
+
+== License Terms
+
+In order to use DBZC you must follow the Diku, SMAUG and our license. The
+exact terms of the Diku and SMAUG license are in the files 'license.diku' and
+'license.smaug'. A summary of these terms is:
+
+------
+
+        -- No resale or operation for profit.
+        -- Original author's names must appear in login sequence.
+        -- The 'credits' command must report original authors.
+        -- You must notify the Diku creators that you are operating a Diku mud.
+
+Our license terms are:
+	-- You must give credit where its due to Seventeen and Vegeta.
+	-- You are requested to notify DBZC creators (Seventeen) atleast if your
+	   running or using ANY part of the modifications that were made or implemented
+	   in DBZC.
+	-- Credit must appear on the login sequence with Smaug and Diku credits.
+
+
+Seventeen nor Vegeta are responsible for damage done to your codebase due to implementing
+parts or segments of DBZC. We tried to make DBZC as stable as possible so your running this
+codebase at your own risk. If you happen to find any bugs within this current version, your
+more than welcome to email me, Riketsu, and will be happy to update it. And on a last note,
+our codebase has ZERO code coming from Dragonball Z World. All our code is original or is
+inspired/ripped from released versions of other MUDs.

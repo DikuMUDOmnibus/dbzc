@@ -1,0 +1,2067 @@
+#AREA   JPA Residence Zone~
+
+
+
+#VERSION 2
+#AUTHOR Cortez~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+1
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31627238
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7401
+First_mob~
+a newly created First_mob~
+Some god abandoned a newly created First_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8000
+Last_mob~
+a newly created Last_mob~
+Some god abandoned a newly created Last_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#7401
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#8000
+Last_obj~
+a newly created Last_obj~
+Some god dropped a newly created Last_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7401
+First Room~
+~
+0 4 1 0
+S
+#7402
+Iku's House~
+~
+0 0 2 2048
+D1
+~
+~
+536870912 -1 8000 227 250 0
+S
+#7403
+Hyakuhei~
+~
+0 1028 1 2048
+D2
+~
+~
+536870912 -1 8000 275 27 0
+> custom_prog sundrop~
+if name($n) == Hyakuhei
+mea $n _yel The sun light shines in and fashions a drop of pure brilliance before you!
+mpmload 108
+mpforce 'nemo' mpoload 111
+mpforce 'nemo' give drop hyakuhei
+mppurge 'nemo'
+endif
+~
+|
+S
+#7404
+Legeavudd's Home~
+~
+0 0 2 2048
+D2
+~
+~
+536870912 -1 8000 211 244 0
+S
+#7405
+Earth's Elite Forces Headquater~
+~
+0 0 1 2048
+D2
+~
+~
+536870912 -1 8000 263 27 0
+S
+#7406
+Romeo's luv shack~
+~
+0 4 1 2048
+D2
+~
+~
+536870912 -1 8000 271 27 0
+S
+#7407
+The Smoking Lounge~
+You are in the main room of Wase's house. The room consists of
+4 couches and a 4 large tv's facing each couch. The room smells
+of chronic. A table sits on the side of each couch. On each
+table is a little bit of grass. The room is crowded with many
+different people.
+Take a Hit of the Reefa Keep Smokin
+~
+0 4 1 2048
+D2
+~
+~
+536870912 -1 8000 267 27 0
+S
+#7408
+Shrine to the greatest woman ever Melfina~
+!!!!!!!!!!!!!;    .,.
+               !!!!!!!!!!!!!!!!!!!!!!!!!!
+         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      !!!!!!!!!!!!!!!!!.,cec. !!!!!!!!!!!!!
+    !!!!!!!!!!!!!!!!.e$$$$$$$$$.!! zcec !!!!
+    !!!!!!!!!!!!!.e$$$$$$$$$$$$$$c$$$$$L !!!
+    !!!!!!!!!!! z$$$$$$$$$$$$$$$$$$$$$$$!!'
+   !!!!!!!!!!!! $$$$$',ssss,."$$$$$$$$$$
+   !!!!!!!!!!!! $$$$$$$$$$$$$$$$$$$',ss,
+    !!!!!!!!!!! $$$$$$$/'  "$$$$$$'""",
+  !!!!!!!!!!!! $$$$$$$c'f . ,$$$$$,f ,
+ !!!!!!!!!!!!! $$$$$$$$$$$$$$$$$$$$$$$
+ !!!!!!!!!!!!! $$$$$$$$$$$$$$$$$$$$$$$
+ !!!!!!!!!!!!! $$$$$$$$$$$$$$$$P"$$'$$
+  !!!!!!!!!!!! $$$$$$$$$$$$$$$$bcuz$$$
+ !!!!!!!!!!!!!! $$$$$$$$$$$PP"""v""?$
+  !!!!!!!!!!!!! $$$$$$$$$$$b  --- <$
+  !!!!!!!!!!!!! $$$$$$$$$$$$$c,,,,P
+ !!!!!!!!!!!!!! $$$$$$C?$$$$$$$$P"
+ !!!!!!!!!!!!!! $$$$$$$b. "$$$$$"
+ !!!!!!!!!!!!!! $$$$$$$$$b.
+ !!!!!!!!!!!!!! $$$$$$$$$$$$
+   !!!!!!!!!!!! $$$$$$$$$$$$$$
+    !!!!!!!!!!! $$$$$$$$$$$$$$$$
+~
+0 4 2 2048
+D3
+~
+~
+536870912 -1 8000 242 248 0
+S
+#7409
+&PDip&W-&PSets&W Domain~
+~
+0 4 1 2048
+D3
+~
+~
+536870912 -1 6950 269 32 0
+S
+#7410
+Melfina's Home~
+~
+0 1028 1 2048
+D0
+~
+~
+536870912 -1 8000 274 31 0
+D8
+~
+~
+0 -1 9393 0 0 0
+S
+#7411
+"Ninjin's House"~
+~
+0 0 2 2048
+D3
+~
+~
+536870912 -1 8000 244 253 0
+S
+#7412
+Kenka's plc~
+~
+0 1028 1 2048
+D0
+~
+~
+536870912 -1 8000 278 31 0
+D1
+~
+~
+0 -1 9363 0 0 0
+D2
+~
+~
+0 -1 9365 0 0 0
+D3
+~
+~
+0 -1 9364 0 0 0
+D4
+~
+~
+0 -1 9356 0 0 0
+D8
+~
+~
+0 -1 9366 0 0 0
+> rand_prog 30~
+mpecho &PY&Go&Cu &OH&Be&ca&Rr &GL&ro&Wu&bd &YS&Cc&pr&Oe&Ba&cm&Ws &O& &PM&Go&Ca&On&Bs &cC&ro&Gm&Yi&Wn&bg &RF&gr&po&Pm &bK&Be&bn&Bk&ba&B'&bs &BB&bo&Bo&bm&B-&bB&Bo&bo&Bm &bR&Bo&bo&Bm
+~
+|
+S
+#7413
+An Empty Apartment~
+~
+0 1028 1 2048
+D2
+~
+~
+536870912 -1 8000 278 37 0
+S
+#7414
+&RAglaius' Crib~
+&zWelcome to Aglaius' Crib. You find yourself standing in a huge
+hall. The ground has been made out of marble that reflects your
+image. There is a big, marble staircase with a red carpet on
+it right in front of you. You are overwhelmed by this hall.
+There are a few ornaments on the walls, such as paintings and
+weapons.
+~
+0 0 2 2048
+D1
+~
+~
+536870912 -1 8000 236 258 0
+D4
+~
+~
+0 -1 9382 0 0 0
+S
+#7415
+XXX~
+As you walk in this home you have notice that it is not like a ordinary house, this is the house of the greatest fighter that ever lived... named hick. The shadows of this biodroids house is vary weary about you entering the dome, so look out cause someone might just be home. 
+
+BEWARE OF DOG /s
+[C /s
+~
+0 0 1 2048
+D1
+~
+~
+0 -1 9381 0 0 0
+D3
+~
+~
+536870912 -1 8000 247 266 0
+S
+#7416
+&GC&gage's &wand &CK&Benka's &wpad~
+~
+0 4 1 2048
+D2
+~
+~
+536870912 -1 8000 274 37 0
+D4
+~
+~
+0 -1 9372 0 0 0
+D5
+~
+~
+0 -1 9367 0 0 0
+S
+#7417
+Sebine's Black Hole~
+As you look around the room, you notice many swords on plaques and racks. A few of them stand out and you cant stop looking at them. Along the west wall on a rack is a white shortsword with a nameplate labeled Lifebane. Against the east wall, on a pedestle lies what appears to be a slice of the Void, with a nameplate reading Darkness. Finally hung high on the wall is a small sword, so short it looks like a dagger... upon the name plate in big black letters it reads Deathbane
+~
+0 0 2 2048
+D1
+~
+~
+536870912 -1 8000 243 269 0
+S
+#7418
+&zThe MuthaFuck'n Jeebus House~
+~
+0 4 1 2048
+D1
+~
+~
+536870912 -1 8000 251 47 0
+D5
+~
+~
+0 -1 9355 0 0 0
+S
+#7419
+A old Shack~
+~
+0 4 1 2048
+D3
+~
+~
+536870912 -1 8000 255 37 0
+D5
+~
+~
+0 -1 9354 0 0 0
+S
+#7420
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8000 420 144 0
+S
+#7421
+&OKasuta's Bachelor Pad~
+~
+0 4 2 2048
+D2
+~
+~
+536870912 -1 8000 238 272 0
+S
+#7422
+A Grand Foyer~
+~
+0 4 1 2048
+D1
+~
+~
+0 -1 9383 0 0 0
+D3
+~
+~
+536870912 -1 8000 240 277 0
+S
+#7423
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+1 -1 7421 0 0 0
+S
+#7424
+An empty house~
+You are standing in the entry hall of the famous saiyan
+warrior, the mighty Zame. It is a long hall with a coat rack
+for all his clothing items he might use, and a treasure box
+that on closer inspection, contains all of his extra equipment
+and items. To the east you see his bedroom, to the west is his
+bathroom, and to the south is his kitchen. You also see some
+stairs going up...might wanna check them out.
+~
+0 0 2 1024
+D0
+~
+~
+536870912 -1 8000 232 276 0
+S
+#7425
+Team AC~
+As you walk through the door, you notice a big blue fluffy couch in front
+of you. To the east there is what appears to be a very expensive stereo
+system. To the west there is a recliner that matches the couch, and to 
+west side of the door there is an entertainment center, complete with
+a big screen t.v., dvd player, vcr, ps1, ps2, and yet another stereo system.
+~
+0 4 1 2048
+D0
+~
+~
+536870912 -1 8000 260 50 0
+D3
+~
+~
+0 -1 9353 0 0 0
+S
+#7426
+An Empty Apartment~
+~
+0 1028 1 2048
+D1
+~
+~
+536870912 -1 8000 253 31 0
+D5
+~
+~
+0 -1 9385 0 0 0
+S
+#7427
+An empty house~
+There is a couch on the back of the wall and a television on the other side. There is a wonderfully hand-stitched chinese rug on the ground here and a glass coffee table on top of it to place your things.
+~
+0 0 2 1024
+D2
+~
+~
+536870912 -1 8000 231 272 0
+D3
+~
+~
+0 -1 9361 0 0 0
+S
+#7428
+A Dark Lair~
+~
+0 1028 1 2048
+D2
+~
+~
+536870912 -1 8000 276 47 0
+D4
+~
+~
+0 -1 9357 0 0 0
+D5
+~
+~
+0 -1 9359 0 0 0
+S
+#7429
+Kagemusha Estates~
+~
+0 4 1 2048
+D0
+~
+~
+536870912 -1 8000 279 50 0
+S
+#7430
+Zeken's Party House~
+~
+0 0 2 2048
+D1
+~
+~
+536870912 -1 8000 225 271 0
+D2
+~
+~
+0 -1 9395 0 0 0
+S
+#7431
+&WThe &zFaded Dragon &WSafe &YHouse~
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&z:&z:&z:&z:&cH&cS&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.^^&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&G.&G.
+&W+&W+&W+&W+&W+&W+&W+&W+&cSP&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.
+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:^^&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:^^
+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&cTP&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.
+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:^^&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&z:&z:
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:^^&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&cH&cS&W+&W+&G.&G.&G.&G.&W+&W+&cH&cS&W+&W+&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&R*&R*&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&W+&W+&cH&cS&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&cH&cS&z:&z:&z:&z:&z:&z:&z:&z:&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.^^&G.&G.&z:&z:&G.&G.&G.&G.^^&G.&G.&z:&z:&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&z:&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.^^&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.^^&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.^^&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&z:&z:&G.&G.&G.&G.&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&cH&cS&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.^^&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&cH&cS&W+&W+&G.&G.&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&cB&cU&z:&z:&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.
+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&W+&W+&W+&W+&W+&W+&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.&G.
+
+&R** &Wmeans you are here mother f*cker! GET OUT OF MY HOUSE!
+~
+0 4 1 2048
+D0
+~
+~
+0 -1 9352 0 0 0
+D2
+~
+~
+536870912 -1 8000 263 46 0
+S
+#7432
+&CSyder's House~
+&cThis is Syder's living room.  Of course, it's fully stocked,
+blah blah.There's a massive TV, a computer, a bar, a bar, a
+bar, and so on.The floor is a shiny marble-esque material that
+you can see your reflection in.  Two massive staircases spiral
+up from the ground and intertwine, only to meet at the top where
+they lay before a huge double door.  From the door an open walkway
+stretches all around the room.There are exits in various locations.
+~
+0 1028 1 2048
+D1
+~
+~
+0 -1 9377 0 0 0
+D2
+~
+~
+536870912 -1 8000 268 46 0
+D4
+~
+~
+0 -1 9379 0 0 0
+S
+#7433
+An Empty Apartment~
+~
+0 1024 2 2048
+D1
+~
+~
+536870912 -1 8000 225 266 0
+D5
+~
+~
+0 -1 9387 0 0 0
+S
+#7434
+The home of Saran~
+~
+0 0 1 2048
+D0
+~
+~
+536870912 -1 8000 218 266 0
+S
+#7435
+An empty house~
+~
+0 4 1 1024
+S
+#7436
+An empty house~
+~
+0 4 1 1024
+S
+#7437
+An empty house~
+~
+0 4 1 1024
+S
+#7438
+An empty house~
+~
+0 4 1 1024
+S
+#7439
+An empty house~
+~
+0 4 1 1024
+S
+#7440
+An empty house~
+~
+0 1028 1 1024
+S
+#7441
+An empty house~
+~
+0 4 1 1024
+S
+#7442
+An empty house~
+~
+0 1024 1 1024
+D0
+~
+~
+536870912 -1 8000 421 166 0
+S
+#7443
+Oevern's House~
+~
+0 0 1 2048
+D1
+~
+~
+536870912 -1 8000 412 161 0
+S
+#7444
+An empty house~
+~
+0 0 1 1024
+D0
+~
+~
+536870912 -1 8000 427 169 0
+S
+#7445
+An empty house~
+~
+0 0 1 1024
+D0
+~
+~
+536870912 -1 8000 438 166 0
+S
+#7446
+An empty house~
+~
+0 4 1 1024
+S
+#7447
+An empty house~
+~
+0 4 1 1024
+S
+#7448
+An empty house~
+~
+0 0 1 1024
+D3
+~
+~
+536870912 -1 8000 442 145 0
+S
+#7449
+An empty house~
+~
+0 1024 1 1024
+D2
+~
+~
+536870912 -1 8000 433 150 0
+S
+#7450
+An empty house~
+~
+0 0 1 1024
+D2
+~
+~
+536870912 -1 8000 434 134 0
+S
+#7451
+An empty house~
+~
+0 0 1 1024
+D2
+~
+~
+536870912 -1 8000 428 138 0
+S
+#7452
+&PLucion's &YT&zitty &YB&zar~
+&bYou are surrounded by dozens of beautiful &Yladies&b. It wouldn't
+be smart to make a move though, these ladies belong to da &RP&rimp
+&bof all &RP&rimps.&GDisco &Ylights &bshine so bright you start
+to see spots. Take a seat and enjoy the view. &PLucion's &bclub,
+is your club.
+~
+0 4 1 2048
+D1
+~
+~
+0 -1 9407 0 0 0
+D2
+~
+~
+536870912 -1 8150 223 141 3
+D3
+~
+~
+0 -1 9408 0 0 0
+S
+#7453
+,~
+~
+0 4 1 2048
+D0
+~
+~
+536870912 -1 8100 216 143 3
+S
+#7454
+An Empty Apartment~
+.;;;,;;;;;,;;;;;,.;;;,       .;;;.,;;;;;,;;;;;,;;;.
+      ;;;;xXXxXXxXXxXXxXXx;;;. .,. .;;;xXXxXXxXXxXXxXX;;;;;
+  .,,.`xXX'             `xXXx,;;;;;,xXXx'            `XXx;;,,.
+ ;;;;xXX'                  `xXXx;xXXx'                 `XXx;;;;
+ `;;XX'                       `XXX'                      `XX;;'
+,;;,XX                         `X'                        XX,;;,
+;;;;XX,                                                  ,XX;;;;
+ ``.;XX,          Morsmordre    &    Mesuinu            ,XX;,''
+   ;;;;XX,                                             ,XX;;;;
+    ```.;XX,                                        ,XX;,'''
+       ;;;;XX,                                    ,XX;;;;
+        ```,;XX,                                ,XX;,'''
+            ;;;;XX,                          ,XX;;;;
+             ````,;XX,                    ,XX;, '''
+                 ;;;;;XX,              ,XX;;;;
+                  `````,;XX,        ,XX;,''''
+                       ;;;;;XX,  ,XX;;;;;
+                        `````;;XX;;'''''
+                             `;;;;
+~
+0 1028 1 2048
+D2
+~
+~
+536870912 -1 8100 213 141 3
+D6
+~
+~
+0 -1 9400 0 0 0
+S
+#7455
+&RVampire's Much hole&w~
+As you walk in, you notice many posters hanging on the wall showing famous musicians such as Hendrix, Zeppilin, and Jaco.  There is a speaker system on a table pumping out some Jaco tunes and making you tap your feet to the heavy bass.  It doesn't seem like too much of a traditional Namekian home, but it is still comfortable.
+~
+0 1028 1 2048
+D0
+~
+~
+0 -1 9362 0 0 0
+D1
+~
+~
+536870912 -1 8100 204 147 3
+S
+#7456
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 204 160 3
+S
+#7457
+An Empty Apartment~
+&OAs you look into the room, you see &RBlood &Oeverywhere. Looking
+at the walls there are engravings everywhere of demons.&OYou
+start to &wShiver &Obut suddenly freeze because you thought
+that you had heard something come up from behind you.You turn
+around fast and seeing nothing but thin aid then you heard it
+again, behind you, but you can't see very well cause your eyes
+are starting to tear from the fear.Then, you feel something
+hit you in the back, and you thought you'd be all right but
+then feel the same pain in the front of you, you look down to
+see a hand has gone through your chest.You gasp as the owner
+of the hand finally speaks, &C"This is my house, and you are
+not welcome." &OWith the last wrod he said he takes ur body
+and throw you outside to have the corpse devoured by the creatures
+of this planet 
+~
+0 1028 1 2048
+D0
+~
+~
+536870912 -1 8100 211 166 3
+D1
+~
+~
+0 -1 9405 0 0 0
+D3
+~
+~
+0 -1 9406 0 0 0
+D4
+~
+~
+0 -1 9403 0 0 0
+D5
+~
+~
+0 -1 9404 0 0 0
+S
+#7458
+&za dark room~
+~
+0 4 1 2048
+D2
+~
+~
+536870912 -1 8100 215 164 3
+S
+#7459
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 231 166 3
+S
+#7460
+An empty house~
+~
+0 1028 1 1024
+D3
+~
+~
+536870912 -1 8100 242 169 3
+S
+#7461
+An empty house~
+~
+0 1028 1 1024
+D1
+~
+~
+536870912 -1 8100 240 175 3
+S
+#7462
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 247 180 3
+S
+#7463
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 255 178 3
+S
+#7464
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 261 180 3
+S
+#7465
+Kaizik's Living Room~
+~
+0 4 1 2048
+D3
+~
+~
+536870912 -1 8100 267 175 3
+S
+#7466
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 265 166 3
+S
+#7467
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 267 162 3
+S
+#7468
+An empty house~
+This is my house.. Dont take shit from it. Especially my heads!
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 256 155 3
+S
+#7469
+My Shit~
+&RDont fuck wit shit or your ass is hit!
+~
+0 1028 1 2048
+D2
+~
+~
+536870912 -1 8100 251 153 3
+D3
+~
+~
+0 -1 9386 0 0 0
+S
+#7470
+An Empty Apartment~
+&zYou wander into the room, you see nothing but carnage. The
+stench around the room makes you almost drop a tear, realizing
+there has never been a hell till now. You sigh, seeing many
+of your very own soldiers bodies, lying in heaps of one another.
+You continue to look around the room, bloodshed across the hallways,
+blood everywhere. Your mind begins to corrupt, you are falling
+victim to the &RINSANE MONKY PIMP&z. Your mind shatters into
+a million pieces, seeing your loved ones dead body lie there,
+in a heap of masacre. Beyond the body is a chair, and sitting
+in this chair holding a cigar is one man... &WNoodles Kusanagi&z...The
+man who took your loved ones, your soldiers, and your soul...
+~
+0 1028 1 2048
+D3
+~
+~
+536870912 -1 8100 245 157 3
+S
+#7471
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 275 46 3
+S
+#7472
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 283 48 3
+S
+#7473
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 286 46 3
+S
+#7474
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 291 39 3
+S
+#7475
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 293 32 3
+S
+#7476
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 284 30 3
+S
+#7477
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 275 30 3
+S
+#7478
+An empty house~
+~
+0 1028 1 1024
+D3
+~
+~
+536870912 -1 8100 268 38 3
+S
+#7479
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 266 42 3
+S
+#7480
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 257 23 3
+S
+#7481
+An empty house~
+~
+0 1028 1 1024
+D2
+~
+~
+536870912 -1 8100 263 17 3
+S
+#7482
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 269 19 3
+S
+#7483
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 273 17 3
+S
+#7484
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 280 22 3
+S
+#7485
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 278 25 3
+S
+#7486
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 79 46 3
+S
+#7487
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 72 38 3
+S
+#7488
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 65 44 3
+S
+#7489
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 71 47 3
+S
+#7490
+An empty house~
+~
+0 1028 1 1024
+D1
+~
+~
+536870912 -1 8100 71 55 3
+S
+#7491
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 65 60 3
+S
+#7492
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 73 59 3
+S
+#7493
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 427 303 3
+S
+#7494
+An empty house~
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 428 305 3
+S
+#7495
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 433 300 3
+S
+#7496
+An empty house~
+~
+0 4 1 1024
+D1
+~
+~
+536870912 -1 8100 431 294 3
+S
+#7497
+An empty house~
+~
+0 4 1 1024
+D3
+~
+~
+536870912 -1 8100 433 293 3
+S
+#7498
+An empty house~
+~
+0 1028 1 1024
+D2
+~
+~
+536870912 -1 8100 428 288 3
+S
+#7499
+An empty house~
+This room is filled with a thick cloud of smoke.  By the looks of it,
+this place seems really comfortable with a couple leather chairs and a
+nice leather futon.
+There are shelves on the walls with tons of smoking pipes all over
+them.  Don't stay here too long, you might get a little bit hungry...
+~
+0 4 1 1024
+D0
+~
+~
+536870912 -1 8100 421 290 3
+D4
+~
+~
+0 -1 9371 0 0 0
+D5
+~
+~
+0 -1 9368 0 0 0
+S
+#7500
+An empty house~
+~
+0 4 1 1024
+D2
+~
+~
+536870912 -1 8100 419 288 3
+S
+#7501
+An empty house~
+~
+0 1073741824 1 1024
+D2
+~
+~
+536870912 -1 8000 409 288 3
+S
+#7502
+An empty house~
+~
+0 1073741824 1 1024
+D0
+~
+~
+536870912 -1 8000 407 290 3
+S
+#7503
+An empty house~
+~
+0 1073741824 1 1024
+D3
+~
+~
+536870912 -1 8000 288 473 3
+S
+#7504
+An empty house~
+~
+0 1073741824 1 1024
+D0
+~
+~
+536870912 -1 8000 290 481 3
+S
+#7505
+An empty house~
+~
+0 1073741824 1 1024
+D2
+~
+~
+536870912 -1 8000 293 479 3
+S
+#7506
+An empty house~
+~
+0 1073741824 1 1024
+D0
+~
+~
+536870912 -1 8000 297 481 3
+S
+#7507
+An empty house~
+~
+0 1073741824 1 1024
+D1
+~
+~
+536870912 -1 8000 299 475 3
+S
+#7508
+An empty house~
+~
+0 1073741824 1 1024
+D3
+~
+~
+536870912 -1 8000 301 472 3
+S
+#7509
+An empty house~
+~
+0 1073741824 1 1024
+D0
+~
+~
+536870912 -1 8000 294 468 3
+S
+#7510
+An empty house~
+~
+0 1073741824 1 1024
+D1
+~
+~
+536870912 -1 8000 286 472 3
+S
+#7511
+An empty house~
+~
+0 1073741824 1 1024
+D3
+~
+~
+536870912 -1 8000 292 462 3
+S
+#7512
+An empty house~
+~
+0 1073741824 1 1024
+D1
+~
+~
+536870912 -1 8000 290 461 3
+S
+#7513
+An empty house~
+~
+0 1073741824 1 1024
+D2
+~
+~
+536870912 -1 8000 297 456 3
+S
+#7514
+An empty house~
+~
+0 1073741824 1 1024
+D0
+~
+~
+536870912 -1 8000 301 458 3
+S
+#7515
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 196 349 3
+S
+#7516
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 198 351 3
+S
+#7517
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 199 358 3
+S
+#7518
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 197 361 3
+S
+#7519
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 205 363 3
+S
+#7520
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 211 360 3
+S
+#7521
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 213 359 3
+S
+#7522
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 211 353 3
+S
+#7523
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 213 351 3
+S
+#7524
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 199 367 3
+S
+#7525
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 196 373 3
+S
+#7526
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 173 369 3
+S
+#7527
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 175 361 3
+S
+#7528
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 181 357 3
+S
+#7529
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 185 355 3
+S
+#7530
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 190 357 3
+S
+#7531
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 192 355 3
+S
+#7532
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 179 344 3
+S
+#7533
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 177 348 3
+S
+#7534
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 179 352 3
+S
+#7535
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 170 359 3
+S
+#7536
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 168 361 3
+S
+#7537
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 167 353 3
+S
+#7538
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 161 353 3
+S
+#7539
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 158 347 3
+S
+#7540
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 156 345 3
+S
+#7541
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 161 338 3
+S
+#7542
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 164 340 3
+S
+#7543
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 170 341 3
+S
+#7544
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 172 339 3
+S
+#7545
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 428 50 3
+S
+#7546
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 426 53 3
+S
+#7547
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 432 57 3
+S
+#7548
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 436 55 3
+S
+#7549
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 439 57 3
+S
+#7550
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 443 52 3
+S
+#7551
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 445 50 3
+S
+#7552
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 443 46 3
+S
+#7553
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 445 42 3
+S
+#7554
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 440 39 3
+S
+#7555
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 437 37 3
+S
+#7556
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 434 39 3
+S
+#7557
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 423 62 3
+S
+#7558
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 421 60 3
+S
+#7559
+An empty house~
+~
+0 1073741828 1 1024
+D2
+~
+~
+536870912 -1 8000 413 60 3
+S
+#7560
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8000 408 62 3
+S
+#7561
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 402 60 3
+S
+#7562
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 404 57 3
+S
+#7563
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 401 51 3
+S
+#7564
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+536870912 -1 8000 404 46 3
+S
+#7565
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 402 44 3
+S
+#7566
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+536870912 -1 8000 408 37 3
+S
+#7567
+An empty house~
+~
+0 1073741828 1 1024
+D0
+~
+~
+536870912 -1 8150 411 45 3
+S
+#7568
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7569
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7570
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7571
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7572
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7573
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7574
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7575
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7576
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7577
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7578
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7579
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7580
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7581
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7582
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7583
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7584
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7585
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7586
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7587
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7588
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7589
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7590
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7591
+An empty house~
+~
+0 1073741828 1 1024
+S
+#7592
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+0 -1 2835 0 0 0
+S
+#7593
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+0 -1 2835 0 0 0
+S
+#7594
+Da Spot~
+~
+0 1073741828 1 2048
+D1
+~
+~
+0 -1 2828 0 0 0
+D3
+~
+~
+0 -1 9399 0 0 0
+S
+#7595
+Shimazuya's Home~
+~
+0 1073741828 1 2048
+D3
+~
+~
+0 -1 2828 0 0 0
+S
+#7596
+&rVolcom's House&W&w~
+~
+0 1073741828 1 2048
+D1
+~
+~
+0 -1 2829 0 0 0
+S
+#7597
+A Pink Bubble~
+~
+0 1073741828 1 2048
+D3
+~
+~
+0 -1 2829 0 0 0
+S
+#7598
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+0 -1 2831 0 0 0
+S
+#7599
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+0 -1 2831 0 0 0
+S
+#7600
+An empty house~
+~
+0 1073741828 1 1024
+D1
+~
+~
+0 -1 2833 0 0 0
+S
+#7601
+An empty house~
+~
+0 1073741828 1 1024
+D3
+~
+~
+0 -1 2833 0 0 0
+S
+#7999
+last room~
+~
+0 1073741828 1 0
+R O 0 7401 1 7999
+S
+#8000
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

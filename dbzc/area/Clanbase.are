@@ -1,0 +1,1714 @@
+#AREA   Clan HQ~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31281000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#12000
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#32000
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#12000
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#24999
+Dual Swords*Dual Swords~
+Sword of Nightmare*Tsurugi~
+Some god dropped a newly created Dual Swords*Dual Swords here.~
+~
+5 1073741824 8193
+2 0 0 0 0 2
+1 0 0
+#25000
+Dark Crystal Leather Armor~
+&WD&zark &WC&zrystal &WL&zeather &WA&zrmor&w~
+A dark armor has dropped here.~
+~
+9 0 9
+0 128 0 4
+4300 0 0
+#25001
+Zubei's Leather Shirt~
+&zZu&Wbe&ri's &OLe&Ya&Oth&rer S&Whi&zrt&w~
+A dark armor has dropped here.~
+~
+9 0 9
+0 117 0 3
+4330 0 0
+#25002
+Theca Leather Armor~
+&wTh&We&zc&Ca L&Bea&bt&Bhe&Cr A&Wr&zm&wor~
+A dark armor has dropped here.~
+~
+9 0 9
+0 106 0 2
+4370 0 0
+#25003
+Rind Leather Armor~
+&WR&zin&Od &WL&zeathe&Or &WA&zrmo&Or&w~
+A brown and silver light armor has been dropped here.~
+~
+9 0 9
+0 97 0 2
+4400 0 0
+#25004
+Plated Leather Armor~
+&RP&Wlate&cd &RL&Weathe&cd &RA&Wrmo&cr&w~
+An orange and silver body armor has been dropped here.~
+~
+9 0 9
+0 94 0 2
+4450 0 0
+#25005
+Mithril Shirt~
+&zM&With&Rri&cl&R Sh&Wir&zt&w~
+A silver and orange body mithril armor has been dropped here.~
+~
+9 0 9
+0 90 0 2
+4470 0 0
+#25006
+Manticore Skin Shirt~
+&wMa&Wnt&Yic&Oor&ze S&Oki&Yn S&Whi&wrt~
+A white and brown body armor has been dropped here.~
+~
+9 0 9
+0 77 0 1
+4520 0 0
+#32000
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#12000
+First Room~
+~
+0 4 1 0
+S
+#12001
+&W|&GJesus Dock&W|~
+&zThis is the beginning of your end. By visiting this HQ you have set
+up your inevitable defeat. You shall fall to those of the Jeebus
+Status. There is no way to escape the wrath. This dock is huge in
+size and is horribly smelly do to all the rotting corpses lying
+around. You should evacuate this HQ as soon as possible before the
+mighty barbarians know as the Kurinagas awaken and slaughter you.
+You feel mighty power coming from inside of the HQ. You shiver in
+fear as you here howling coming from inside of the HQ. should you
+dare to continue on? or will you turn back now..?
+~
+0 1073741828 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12009 0 0 0
+D2
+~
+~
+0 -1 12022 0 0 0
+D3
+~
+~
+0 -1 12021 0 0 0
+S
+#12002
+Center of the Headquarters~
+&cYou have just entered the center of the&YZ fighters&cHQ.
+~
+0 0 1 0
+C
+zfighters~
+D4
+~
+~
+0 -1 12023 0 0 0
+S
+#12003
+&RT&rh&Re &rR&RR&rA &RD&r&Ro&rc&Rk&ri&Rn&rg &RS&rt&Ra&rt&Ri&ro&Rn~
+~
+0 1073741828 1 0
+C
+therra~
+D5
+~
+~
+1073741831 12345 12057 0 0 0
+R D 0 12003 5 2
+S
+#12004
+Toward the Training Sector~
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12002 0 0 0
+S
+#12005
+Training Sector Hallway~
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12004 0 0 0
+S
+#12006
+Gravity Chamber~
+&cYou have just entered the state if the art Gravity Chambers.
+it was built for one thing and thats if Gravity Traning.
+The Memebers of&YZ Fighters&c have decorated the wall of the chamber with posters.
+~
+0 0 1 4
+C
+zfighters~
+D3
+~
+~
+0 -1 12005 0 0 0
+S
+#12007
+Healing Chamber~
+&cYou have just entered the Healing Chamber.
+this is where members go to heal after battle or traning.
+You can see other Members in the Chambers, there is also a&RHOT&c nurse who helps the members get healed.
+~
+0 0 1 1
+C
+zfighters~
+D1
+~
+~
+0 -1 12005 0 0 0
+S
+#12008
+Floating in a void~
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12002 0 0 0
+S
+#12009
+&W|&GSquad Transporter&W|~
+&zAs you walk into the room you notice the emptiness. The strange
+feeling that you should not be here, flows through your head.
+You look around for some sort of way to pass. There is a keypad
+to the side of the room, maybe you should try to try and enter
+the code. Or just leave and fear the "&G2LEET&z"ness of the &GSquad&z.
+~
+0 0 1 0
+C
+jeebussquad~
+D3
+~
+~
+0 -1 12001 0 0 0
+D4
+~
+~
+1073741831 21337 12010 0 0 0
+R D 0 12009 4 2
+S
+#12010
+&W|&GSquad Territory&W|~
+&zThe entire area is scarcely quiet. The dust from the bones
+of the dead float freely around you in the room. The sound of
+Squad Fighters honing their skills ring in your ears. You probably
+shouldn't be sitting around in here, you might get caught by
+the &GSquad&z!
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12025 0 0 0
+D5
+~
+~
+1073741831 21337 12009 0 0 0
+R D 0 12010 5 2
+S
+#12011
+Floating in a void~
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12008 0 0 0
+S
+#12012
+Toward the Clan Shop~
+&c You are now heading towards the&YZ Fighters&c shop.
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12002 0 0 0
+S
+#12013
+Before the Clan Shop~
+&c To the north is the&YZ Fighters&c Clan Shop.
+it has all the latest items including the new&RPSP&c and &GX-box 360&c.
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12012 0 0 0
+S
+#12014
+Clan Shop~
+&c You have just fallen for the oldest trick in the book.
+you are now in&rJAIL&c we hope you like your stay you will be here a while.
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12013 0 0 0
+S
+#12015
+Toward The Pent House~
+&cThis is the way to the Pent House.
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+0 -1 12002 0 0 0
+S
+#12016
+A Dead End~
+&c You have just hit a Dead End.
+Well its not realy the End, The builders are on strick so they haven't finished it yet.
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+0 -1 12015 0 0 0
+S
+#12017
+Clan Meeting Room~
+&cYou have just entered the TOP Secret room of the&YZ Fighters&c
+you might want to leave before you&Rdie
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+1073741824 12345 12016 0 0 0
+S
+#12018
+Clan Shop~
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 12345 12016 0 0 0
+S
+#12019
+ZF Clan Vault~
+~
+0 524288 1 0
+C
+zfighters~
+D0
+~
+~
+1073741824 12345 12016 0 0 0
+S
+#12020
+Floating in a void~
+~
+0 4 1 0
+C
+darklotus~
+S
+#12021
+&W|&GJeebus Transporter&W|~
+&zAs you walk into the room you notice the emptiness. You look
+around for some sort of way to pass here, but only see a large
+wall with skulls hanging from it. There seems to be something
+strange about this, maybe you shouldn't be here..
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12001 0 0 0
+S
+#12022
+&W|&GJeebus Transporter&W|~
+&zAs you walk into the room you notice the emptiness. You look
+around for some sort of way to pass here, but only see a large
+wall with skulls hanging from it. There seems to be something
+strange about this, maybe you shouldn't be here..
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12001 0 0 0
+D2
+~
+~
+0 -1 12061 0 0 0
+S
+#12023
+&YZ Fighter's &WDock~
+&c You have just Landed on the &YZ Fighters&c Docks.
+It is very state of the Art, There are four turrents aimed in the sky if a non clan ship enters.
+~
+0 1073741828 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12074 0 0 0
+D3
+~
+~
+0 -1 12082 0 0 0
+D4
+~
+~
+0 -1 12081 0 0 0
+S
+#12024
+Floating in a void~
+~
+0 1073741828 1 0
+C
+darklotus~
+S
+#12025
+&W|&GSquad Territory&W|~
+&zThe entire area is scarcely quiet. The dust from the bones
+of the dead float freely around you in the room. The sound of
+Squad Fighters honing their skills ring in your ears. You probably
+shouldn't be sitting around in here, you might get caught by
+the &GSquad&z!
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12062 0 0 0
+D1
+~
+~
+0 -1 12027 0 0 0
+D2
+~
+~
+0 -1 12010 0 0 0
+D3
+~
+~
+3 -1 12026 0 0 0
+R D 0 12025 3 1
+S
+#12026
+&W|&GThe Room&W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+3 -1 12025 0 0 0
+R D 0 12026 1 1
+S
+#12027
+&W|&GSquad Territory&W|~
+&zThe entire area is scarcely quiet. The dust from the bones
+of the dead float freely around you in the room. The sound of
+Squad Fighters honing their skills ring in your ears. You probably
+shouldn't be sitting around in here, you might get caught by
+the &GSquad&z!
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12028 0 0 0
+D3
+~
+~
+0 -1 12025 0 0 0
+S
+#12028
+&W|&GSquad Territory&W|~
+&zThe entire area is scarcely quiet. The dust from the bones
+of the dead float freely around you in the room. The sound of
+Squad Fighters honing their skills ring in your ears. You probably
+shouldn't be sitting around in here, you might get caught by
+the &GSquad&z!
+~
+0 0 1 0
+C
+jeebussquad~
+D3
+~
+~
+0 -1 12027 0 0 0
+D6
+~
+~
+0 -1 12029 0 0 0
+D8
+~
+~
+0 -1 12030 0 0 0
+S
+#12029
+&W|&GJeebus Transporter&W|~
+&zThe entire area is scarcely quiet. The dust from the bones
+of the dead float freely around you in the room. The sound of
+Squad Fighters honing their skills ring in your ears. You probably
+shouldn't be sitting around in here, you might get caught by
+the &GSquad&z!There might be a way to get through here if you
+know how to &Gcount up &zthat is, or not..maybe you should just
+leave? 
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+1073741831 23456 12032 0 0 0
+D9
+~
+~
+0 -1 12028 0 0 0
+R D 0 12029 0 2
+S
+#12030
+&W|&GJeebus Transporter&W|~
+&zThe entire area is scarcely quiet. The dust from the bones
+of the dead float freely around you in the room. The sound of
+Squad Fighters honing their skills ring in your ears.The door
+infront of you seems to have numbers on it..maybe you can punch
+in the right ones..if you knew how to &Gcount down&z that is..This
+might be the way to get through here, or not.. maybe you should
+just leave? 
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+1073741831 98765 12034 0 0 0
+D7
+~
+~
+0 -1 12028 0 0 0
+R D 0 12030 1 2
+S
+#12031
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12032
+&W|&GDead End!&W|~
+&zThis seems to be a dead end, guess you wasted your time..huh?
+
+~
+0 0 1 0
+C
+jeebussquad~
+D2
+~
+~
+1073741831 23456 12029 0 0 0
+R D 0 12032 2 2
+S
+#12033
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12034
+&W|&GJeebus Hall&W|~
+&zAs you enter the room, you feel relieved that you made it past
+that difficult password. You feel the urge to keep moving on,
+as you hear the footsteps of the Squad members running around
+you.There may be something going on around here..Maybe it wouldbe
+a good idea to flee back the other way if you do not belong
+here.To turn back, dont forget the odd pattern.
+~
+0 0 1 0
+C
+jeebussquad~
+D2
+~
+~
+0 -1 12035 0 0 0
+D3
+~
+~
+1073741831 98765 12030 0 0 0
+R D 0 12034 3 2
+S
+#12035
+&W|&GTraining Area&W|~
+&zThis room has a sign labeled "&GTraining&z" hanging from the
+ceiling. To the east of here is the healing pods, and to the
+west is the gravity chamber for those who wish to do some training.
+Maybe you should do some workouts, or you can just go rest,
+your choice.
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12034 0 0 0
+D1
+~
+~
+0 -1 12037 0 0 0
+D3
+~
+~
+0 -1 12036 0 0 0
+D4
+~
+~
+0 -1 12038 0 0 0
+S
+#12036
+&W|&GGravity Chamber&W|~
+&zAs you walk into this room, you feel the gravity pull you down
+to the floor. As you gather your strength and stand again, you
+realize this room is ment for intense gravity training. If your
+not from the squad maybe you shouldn't be training in here..
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12035 0 0 0
+S
+#12037
+&W|&GHealing Chamber&W|~
+&zAs you enter the room you see many huge tanks with gas flowing
+from them. This room must be for the injured to heal their wounds.
+If you are not from the squad, this room may not be a safe spot
+to rest in.. you might get caught!
+~
+0 0 1 0
+C
+jeebussquad~
+D3
+~
+~
+0 -1 12035 0 0 0
+S
+#12038
+&W|&GJeebus Hall&W|~
+&zAs you enter the room you hear the screaming of the clan members
+battling each other. The smell of some kind of plants floats
+in the air in a click smoke, as you sniff the room, you begin
+to feel light headed. It seems this is the entrance to the real
+clan spot.
+~
+0 0 1 0
+C
+jeebussquad~
+D2
+~
+~
+0 -1 12039 0 0 0
+D5
+~
+~
+0 -1 12035 0 0 0
+S
+#12039
+&W|&GJeebus Area&W|~
+&zThis area is where all the Squad comes to get together, it
+has many weapons of the clan laying on the walls, it would not
+be smart for someone to pick a fight here.
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12038 0 0 0
+D1
+~
+~
+0 -1 12044 0 0 0
+D2
+~
+~
+0 -1 12041 0 0 0
+D3
+~
+~
+0 -1 12040 0 0 0
+S
+#12040
+&W|&GMeeting Room&W|~
+&zAs you enter the room, you see a chalk board and many chairs
+lined up infront of it. You notice writings of peoples names
+and other clan hq's directions wrote on it. This room seems
+to be where the &GJeebus Squad&z holds its clan meetings.
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12039 0 0 0
+S
+#12041
+&W|&GChill Spot&W|~
+&zThis room seems to have no point but to relax in, It has a
+big screen TV with 3 couches in a half square shape surrounding
+it. You get the urge to go and sit down and start to relieve
+yourself of some stress.
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12039 0 0 0
+S
+#12042
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12043
+&W|&GThe Top Deck&W|~
+&zThis room seems to be the last floor, The walls of the room
+have many trophie's and scrolls hanging from it. You start to
+stare at them and notice most of them are prizes for killing.
+It still seems to be just as empty as the dock..many fights
+seem to have happened here from the wholes in the floor and
+the walls..You notice another keypad in the middle of the room,
+it probably has a &Godd counting pattern&z for it to work. A
+sudden yell comes from nowhere saying "&GSQUAD UP!&z" if your
+not from the squad, this would be the best time to start your
+leave.
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12045 0 0 0
+D3
+~
+~
+1073741831 13579 12047 0 0 0
+D4
+~
+~
+0 -1 12048 0 0 0
+D5
+~
+~
+0 -1 12044 0 0 0
+R D 0 12043 3 2
+S
+#12044
+&W|&GThe Cut&W|~
+&zAs you enter the room you hear the screaming of the clan members
+battling each other. The smell of the plant leaves your head
+and you begin to wonder what kind of place is next. Maybe your
+heading towards the right spot or maybe your senses are just
+wrong.
+~
+0 0 1 0
+C
+jeebussquad~
+D3
+~
+~
+0 -1 12039 0 0 0
+D4
+~
+~
+0 -1 12043 0 0 0
+D8
+~
+~
+0 -1 12049 0 0 0
+S
+#12045
+&W|&GThe End!&W|~
+&zThis room seems to be the end, unless you can figure out a
+way to get somewhere else..you might want to head back out of
+here.
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+3 -1 12046 0 0 0
+D3
+~
+~
+0 -1 12043 0 0 0
+R D 0 12045 1 1
+S
+#12046
+&W|&GThe Shop&W|~
+&zThis room has many items hung on the walls being sold. You
+start to feel the need to spend money in here. A sign hangs
+here that reads "&GGET OUT IF YOUR BROKE!&z", everyone knows
+what that means.
+~
+0 0 1 0
+C
+jeebussquad~
+D3
+~
+~
+3 -1 12045 0 0 0
+R D 0 12046 3 1
+S
+#12047
+&W|&GSquad Vault&W|~
+&zThis is where the squad puts all their stuff that they steal
+from other folks as you can can see..It might not be a good
+idea to touch anything if your not from the &GSquad&z.You should
+probably just leave before you end up dead!
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+1073741831 13579 12043 0 0 0
+R D 0 12047 1 2
+S
+#12048
+&W|&GThe Roof Top&W|~
+&BThis room has a huge glass ceiling, maybe it has no point,
+it probably is used for saiyans and halfbreeds to see the moon..That
+would explain why the room is so extremely large, ya think?
+
+~
+0 0 1 0
+C
+jeebussquad~
+D5
+~
+~
+0 -1 12043 0 0 0
+S
+#12049
+&W|&ROfficers Area&W|~
+&zAs you enter the room, you see the names of this clans leaders
+hanging on the door frames.Wondering how good they are at the
+skill of killing, your bones begin to ache and your body begins
+to shiver.You are standing in the midst of a constant battle
+field. The room has many glorious weapons and faces of dead
+warriors, that have been slaughtered by the &GSquad&z.You notice
+a sign hanging above the door of &GGiovin&z reading: "This place
+is full of &Ccold &rblooded &zkilla's, and if you are an enemy,
+beware." 
+~
+0 0 1 0
+C
+jeebussquad~
+D2
+~
+~
+0 -1 12055 0 0 0
+D3
+~
+~
+0 -1 12060 0 0 0
+D7
+~
+~
+0 -1 12044 0 0 0
+D8
+~
+~
+0 -1 12051 0 0 0
+S
+#12050
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12051
+&W|&RRaze's Room&W|~
+Raze is the shit son Raze is the shit son Raze is the shit son
+Raze is the shit son Raze is the shit son Raze is the shit son
+Raze is the shit son Raze is the shit son Raze is the shit son
+Raze is the shit son Raze is the shit son Raze is the shit son
+Raze is the shit son Raze is the shit son Raze is the shit son
+Raze is the shit son Raze is the shit son Raze is the shit son
+~
+0 0 1 0
+C
+jeebussquad~
+D7
+~
+~
+0 -1 12049 0 0 0
+S
+#12052
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12053
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12054
+Floating in a void~
+~
+0 4 1 0
+C
+jeebussquad~
+S
+#12055
+&W|&BJon's Room&W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12049 0 0 0
+S
+#12056
+The RRA Dock~
+~
+0 1073741828 1 0
+S
+#12057
+&RA&ri&Rr&rl&Ro&rc&Rk~
+~
+0 0 1 0
+C
+therra~
+D2
+~
+~
+0 -1 12059 0 0 0
+D4
+~
+~
+1073741831 12345 12003 0 0 0
+D5
+~
+~
+1073741831 54321 12058 0 0 0
+R D 0 12057 4 2
+R D 0 12057 5 2
+S
+#12058
+&rA&Ri&rr&Rl&ro&Rc&rk&W: &RI&rn&Rs&ri&Rd&re &RT&rh&Re &rB&Ra&rs&Re~
+~
+0 0 1 0
+C
+therra~
+D4
+~
+~
+1073741831 54321 12057 0 0 0
+R D 0 12058 4 2
+S
+#12059
+&rI&Rn&rs&Ri&rd&Re &rT&Rh&re &RH&re&Ra&rd&Rq&ru&Ra&rr&Rt&re&Rr&rs~
+~
+0 0 1 0
+C
+therra~
+D0
+~
+~
+0 -1 12057 0 0 0
+S
+#12060
+&W|&GGiovin's Room&W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12049 0 0 0
+S
+#12061
+&W|&GVoid&W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12022 0 0 0
+S
+#12062
+&W| &GThe Field &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12063 0 0 0
+D2
+~
+~
+0 -1 12025 0 0 0
+D3
+~
+~
+0 -1 12070 0 0 0
+S
+#12063
+&W| &GIn the Field &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D2
+~
+~
+0 -1 12062 0 0 0
+D7
+~
+~
+0 -1 12064 0 0 0
+S
+#12064
+&W| &GIn the Field &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D5
+~
+~
+0 -1 12065 0 0 0
+D8
+~
+~
+0 -1 12063 0 0 0
+S
+#12065
+&W| &GThe End &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D4
+~
+~
+0 -1 12064 0 0 0
+S
+#12066
+Between Leaders Rooms~
+&cYou have just entered the Leaders Chambers.
+
+You look up and notice 14 laser lock on to your head.
+You better Run for it now.
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12017 0 0 0
+S
+#12067
+Zeek's Room~
+&cYou have just entered the Leaders room.
+There a picture of Sexy Wemon on the wall.
+By the look of thing, Zeek has not cleaned this hell hole up in YEARS.
+You notice in the Conor of the room is a pile of Empty Beer cans
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12066 0 0 0
+S
+#12068
+Ruyu's Room~
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+0 -1 12066 0 0 0
+S
+#12069
+Celera's Room~
+You have Just entered the Butifull Celeras room.
+You notice on the walls are Posters of Zeek.
+You notice her diary on her bed.
+You open it and its full of Pictures of Zeek aswell
+
+Someone must like Zeek
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12066 0 0 0
+S
+#12070
+&W| &GIn the Field &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12071 0 0 0
+D1
+~
+~
+0 -1 12062 0 0 0
+D2
+~
+~
+0 -1 12072 0 0 0
+S
+#12071
+&W| &GIn the Field &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D1
+~
+~
+0 -1 12073 0 0 0
+D2
+~
+~
+0 -1 12070 0 0 0
+S
+#12072
+&W| &GIn the Field &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D0
+~
+~
+0 -1 12070 0 0 0
+S
+#12073
+&W| &GThe End &W|~
+~
+0 0 1 0
+C
+jeebussquad~
+D3
+~
+~
+0 -1 12071 0 0 0
+S
+#12074
+&WBig &YGolden&W Gates~
+&c You have just come arcoss a set of &YGolden&c Gates.
+You look to the to of the gates and it has to letters Z and F.
+
+There is guard doing his rounds makeing sure no one gets in.
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12023 0 0 0
+D2
+~
+~
+3 -1 12084 0 0 0
+R D 0 12074 2 1
+S
+#12075
+Floating in a void~
+~
+0 4 1 0
+C
+zfighters~
+S
+#12076
+Floating in a void~
+~
+0 4 1 0
+C
+zfighters~
+S
+#12077
+Floating in a void~
+~
+0 4 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12080 0 0 0
+S
+#12078
+Floating in a void~
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12077 0 0 0
+S
+#12079
+Floating in a void~
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12078 0 0 0
+S
+#12080
+Floating in a void~
+~
+0 4 1 0
+C
+zfighters~
+S
+#12081
+&W Watch Tower~
+&c You have just entered the Watch Tower.
+There are several Robots working on computers, is looks like no else has been up here you yonkes
+~
+0 0 1 0
+C
+zfighters~
+D5
+~
+~
+0 -1 12023 0 0 0
+S
+#12082
+&W Hanger~
+&c This is the &YZ Fighters&c Hanger where all there ships are kept
+You look both ways and there are ships as far as the eye can see.
+Each ship is shinny and has its on personal Robot to Fix, Clean and make sure it runs.
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12083 0 0 0
+D1
+~
+~
+0 -1 12023 0 0 0
+S
+#12083
+&W Crew's Room~
+&c This is were the Crew of the &YZ Fighters&c ship sleep.
+There are Posters on the wall, Piles of beer cans in the conor.
+It looks like they need to clean it up before someon dies from the smell.
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12082 0 0 0
+S
+#12084
+&W In Front Of The &YZ Fighter&W Tower~
+&c You are now standing in front of the Legendary &YZ Fighter&c Tower.
+There are many Guards patrolling the outside, There is a door but u have to
+be a &YZ Fighter&c to know how to get in. You put you hand on the door when
+a huge laser comes from out the wall and points and your head.
+You hear a voice say "STEP AWAY FROM THE BUILDING"
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+3 -1 12074 0 0 0
+D3
+~
+~
+1073741831 12345 12085 0 0 0
+R D 0 12084 0 1
+R D 0 12084 3 2
+S
+#12085
+&W Ground Floor Of The Tower~
+&c This is the Ground Floor of the tower There is a desk With
+a bell, you should go ring it unless your scared!.
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12099 0 0 0
+D1
+~
+~
+1073741831 12345 12084 0 0 0
+D4
+~
+~
+0 -1 12086 0 0 0
+D5
+~
+~
+0 -1 12089 0 0 0
+R D 0 12085 1 2
+S
+#12086
+&W 1st Floor~
+&c This is the 1st floor to the tower.
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12092 0 0 0
+D3
+~
+~
+0 -1 12093 0 0 0
+D4
+~
+~
+0 -1 12087 0 0 0
+D5
+~
+~
+0 -1 12085 0 0 0
+S
+#12087
+&W 2nd Floor~
+&c This is the 2nd floor to the tower.
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12094 0 0 0
+D2
+~
+~
+0 -1 12095 0 0 0
+D4
+~
+~
+0 -1 12088 0 0 0
+D5
+~
+~
+0 -1 12086 0 0 0
+S
+#12088
+&W Top Floor~
+&c This is the top floor to the Tower.It looks alot better then
+the other floors, someone must have done some re-modeling up
+here 
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12096 0 0 0
+D1
+~
+~
+0 -1 12097 0 0 0
+D2
+~
+~
+3 -1 12101 0 0 0
+D3
+~
+~
+0 -1 12098 0 0 0
+D5
+~
+~
+0 -1 12087 0 0 0
+R D 0 12088 2 1
+S
+#12089
+&W Basment~
+&c You have just entered the Basment of the Tower.
+You must be realy Stupid or Brave as hell to come down here
+
+You here some death crys coming from the west
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12091 0 0 0
+D3
+~
+~
+0 -1 12090 0 0 0
+D4
+~
+~
+0 -1 12085 0 0 0
+S
+#12090
+&W Torture Room~
+&c Well this room Speaks for it self.
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12089 0 0 0
+S
+#12091
+&W Jail~
+&c
+This is the Jail. If You have ended up here you are lucky.
+You might Die in your sleep here, Then be Tortured to &RDEATH.
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+0 -1 12089 0 0 0
+S
+#12092
+&W Healing Room~
+&c This is where the &YZ Fighters&c come to heal after a battle
+and traning or someone had a good night out.The &YZ Fighters&c
+have put posters on the walls to make in feel more like home.
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+0 -1 12086 0 0 0
+S
+#12093
+&W Gravity Room~
+&c This is the &YZ Fighters&c personal Gravity chamber.It is
+state of the art and has lots of flashy lights.
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12086 0 0 0
+S
+#12094
+&W Gym~
+&c This is the Gym. It has every bit of traning equipment you can think of and some you can't.
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12087 0 0 0
+S
+#12095
+&W Office~
+&c This is where all the legal mumble jumble gose before the Leader see it.
+There are lots of people behind desks with stacks of paper on them.
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+0 -1 12087 0 0 0
+S
+#12096
+&YZ Fighter's &W Meeting Room~
+&c This is were the &YZ Fighter's&c have there meetings before big battles.
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12088 0 0 0
+S
+#12097
+&W BedRoom~
+&c This is where the &YZ Fighters&c sleep at night. There a Millions of beds as far as the eye can see.
+~
+0 0 1 0
+C
+zfighters~
+D3
+~
+~
+0 -1 12088 0 0 0
+S
+#12098
+&W Reck Room~
+&c This is were the &YZ Fighters&c go to have fun.There is a
+HUGE T.V with a X-box360 and a PS3 conected up to it.There is
+a Fridge in the conor and a pool table. There is a wide selection
+on DVD's on what they can watch.
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12088 0 0 0
+S
+#12099
+&W Dining Hall~
+&c This is were the &YZ Fighters&c have Breakfast, Lunch and Dinner.
+~
+0 0 1 0
+C
+zfighters~
+D2
+~
+~
+0 -1 12085 0 0 0
+S
+#12100
+&W Out Side~
+l
+~
+0 0 1 0
+C
+zfighters~
+D1
+~
+~
+0 -1 12085 0 0 0
+S
+#12101
+&YZ Fighter's &W Vault~
+&c This is were the &YZ Fighters&c put everthing they have stolen from&REVIL&c Clans.
+~
+0 0 1 0
+C
+zfighters~
+D0
+~
+~
+3 -1 12088 0 0 0
+R D 0 12101 0 1
+S
+#12502
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#32000
+Last Room~
+~
+0 4 1 0
+C
+Merc~
+R M 0 12000 1 32000
+R M 0 32000 1 32000
+R O 0 12000 1 32000
+R O 0 32000 1 32000
+E
+test~
+sagfagfa
+~
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

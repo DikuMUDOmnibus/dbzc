@@ -1,0 +1,1210 @@
+#AREA   TurkHQ~
+
+
+
+#VERSION 2
+#AUTHOR Cortez~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+128
+
+#CONTINENT continent1~
+
+#ECONOMY 0 46919312
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6601
+first_mob~
+a newly created first_mob~
+Some god abandoned a newly created first_mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6605
+Turk's Guard~
+The Turk's Guard~
+&WThe Turk's Guard stands here, Protecting the HQ.
+~
+~
+65 0 S
+1 0 0 0d0+0 0d0+0
+0 700000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+mpkill $n
+endif
+~
+|
+#6618
+Turk's Guard3~
+The Turk's Guard~
+&WThe Turk's Guard is here, Protecting the HQ.
+~
+~
+65 0 S
+1 0 0 0d0+0 0d0+0
+0 700000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+mpkill $n
+endif
+~
+> greet_prog 100~
+if ispc($n)
+mpkill $n
+endif
+~
+|
+#6627
+turks shopkeeper~
+Turk's Shop Keeper~
+&WThe Turk's Shop Keeper Is Here Waiting To Sell.
+~
+~
+67109123 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+25 13 13 25 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6630
+Turk's Guard4~
+The Turk's Guard~
+&WThe Turk's Guard is here, Protecting the HQ.
+~
+~
+65 0 S
+1 0 0 0d0+0 0d0+0
+0 700000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+mpkill $n
+endif
+~
+|
+#6648
+Turk's Guard5~
+The Turk's Guard~
+&WThe Turk's Guard is here, Protecting the HQ.
+~
+~
+65 0 S
+1 0 0 0d0+0 0d0+0
+0 700000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+mpkill $n
+endif
+~
+|
+#6651
+Turk's Guard2~
+The Turk's Guard~
+&WThe Turk's Guard is here, Protecting the HQ.
+~
+~
+33 0 S
+1 0 0 0d0+0 0d0+0
+0 700000000
+112 112 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+mpkill $n
+endif
+~
+|
+#6700
+last_mob~
+a newly created last_mob~
+Some god abandoned a newly created last_mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#6601
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#6627
+Turk Insignia~
+&YThe Turk's Insignia&w~
+The Turk's Insignia lays on the ground before you.~
+~
+9 8192 257
+2 0 0 4
+1 20000 2000
+> wear_prog 100~
+mea $n &WYou slip your arm into the ring and the insignia glows bright!
+~
+|
+#6628
+Slay Card~
+&rA Slay Someone Free Card~
+&rA Slay Someone Free Card is sitting here~
+~
+8 0 16385
+0 0 0 0
+5 0 0
+#6700
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#6601
+First Room~
+~
+0 4 1 0
+S
+#6602
+&YThe Turk's Docking Bay~
+&GThe smooth silver looking pad shows signs of an apparent battle. The
+trees and plant life around the pad look charred and dead. Small holes are
+all over the wall on closer inspection youd see they were from a fire
+arm. Tape that reads "police-do not cross" is strung all over the room, it
+looks like the tape leading towards the building has been cut.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6603 0 0 0
+S
+#6603
+&YPath Leading To The Turks HQ~
+&GThe air come to a stop as you walk down the path. The walk way to the HQ
+is chipped and totally in ruin. Some fallen trees get in the way but you
+just climb right over them. The large tower stands tall in the sky as
+dark clouds circle around it, you get an odd feeling of discomfort.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6604 0 0 0
+D2
+~
+~
+0 -1 6602 0 0 0
+S
+#6604
+&YPath Leading To The Turks HQ~
+&GThe air come to a stop as you walk down the path. The walk way to the HQ
+is chipped and totally in ruin. Some fallen trees get in the way but you
+just climb right over them. The large tower stands tall in the sky as
+dark clouds circle around it, you get an odd feeling of discomfort.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6605 0 0 0
+D2
+~
+~
+0 -1 6603 0 0 0
+S
+#6605
+&YPath Leading To The Turks HQ~
+&GThe air come to a stop as you walk down the path. The walk way to the HQ
+is chipped and totally in ruin. Some fallen trees get in the way but you
+just climb right over them. The large tower stands tall in the sky as
+dark clouds circle around it, you get an odd feeling of discomfort.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6606 0 0 0
+D2
+~
+~
+0 -1 6604 0 0 0
+R M 0 6605 1 6605
+S
+#6606
+&YPath Leading To The Turks HQ~
+&GThe air come to a stop as you walk down the path. The walk way to the HQ
+is chipped and totally in ruin. Some fallen trees get in the way but you
+just climb right over them. The large tower stands tall in the sky as
+dark clouds circle around it, you get an odd feeling of discomfort.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6607 0 0 0
+D2
+~
+~
+0 -1 6605 0 0 0
+S
+#6607
+&YLeading Into The HQ~
+&GYou stand on the stone steps that lead up to the only one way into the
+HQ. You hear the fluttering of some birds off into the distance that
+leaves an eerie feeling to the place. The building has some wear to it, 
+but it looks like it could never fall. The door leading to the hq has no
+handles, it even looks like it was just painted on. A small sign below the
+door might be able to help.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6606 0 0 0
+D3
+~
+~
+2048 -1 6656 0 0 0
+E
+sign~
+&R****************************
+*      Owned by            *
+*                          *
+*      SsHINayRA           *
+****************************
+~
+> speech_prog shinra~
+if isfight($n)
+mpdonothing
+mpechoat $n &RFinish fighting first!
+else
+mea $n &WThe ground under you opens and you fall in!
+mer $n &WThe ground under $n opens and they fall in!
+mptrans $n 6655
+mpat $n mer $n &W $n drops in from above!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#6608
+&YTurk's Lobby~
+&GThe lobby is in total ruin, but from what a past raid? The lights over
+head flicker on and off. The bones, from the members of the past clan,
+crumble under your feet and turn into a fine powder dissolving into the
+air. Weapons and armor lay all over the ground, none look like they are
+worth the effort to get. Bloody foot prints lead you to the north.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6655 0 0 0
+D6
+~
+~
+0 -1 6610 0 0 0
+D7
+~
+~
+0 -1 6609 0 0 0
+S
+#6609
+&YDestroyed Stairs~
+&GThe stairs shake and feel as if they are going to collapse at any moment.
+You look up at the second floor of the building and find it in a better
+shape then the rest of the buildings.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 6651 0 0 0
+D8
+~
+~
+0 -1 6608 0 0 0
+S
+#6610
+&YDestroyed Stairs~
+&GThe stairs shake and feel as if they are going to collapse at any moment.
+You look up at the second floor of the building and find it in a better
+shape then the rest of the buildings.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 6651 0 0 0
+D9
+~
+~
+0 -1 6608 0 0 0
+S
+#6611
+Floating in a void~
+~
+0 4 1 0
+S
+#6613
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6614 0 0 0
+D3
+~
+~
+0 -1 6651 0 0 0
+S
+#6614
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6617 0 0 0
+D1
+~
+~
+0 -1 6615 0 0 0
+D3
+~
+~
+0 -1 6613 0 0 0
+S
+#6615
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important 
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6616 0 0 0
+D2
+~
+~
+0 -1 6628 0 0 0
+D3
+~
+~
+0 -1 6614 0 0 0
+S
+#6616
+&YHealing Room~
+&GThe tanks in the room still bubble, showing some hope that they may work!
+The control pannels light up and display some read outs to you, yes they
+do work. The pods are stand tall, but only big enough for one person. On
+the side of the pods it says "JENOVA".
+~
+0 0 1 1
+D3
+~
+~
+0 -1 6615 0 0 0
+S
+#6617
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6618 0 0 0
+D2
+~
+~
+0 -1 6614 0 0 0
+S
+#6618
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6619 0 0 0
+D2
+~
+~
+0 -1 6617 0 0 0
+R M 0 6618 1 6618
+S
+#6619
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6620 0 0 0
+D1
+~
+~
+0 -1 6621 0 0 0
+D2
+~
+~
+0 -1 6618 0 0 0
+S
+#6620
+&YHolding Room~
+&gThe Door behind you slams shut and you panic as you look around to find
+no way out! The walls are scratched from people stranded in here, some
+read "There is no escape" "HELP me...!". It doesnt look to good. A small
+&gsign reads "To leave say "Let me be"
+~
+0 4 1 0
+> speech_prog let_me_be~
+if rand(10)
+mea $n You feel your body shift as you howl in pain!
+mea $n You have been sparred!
+mptrans $n 6619
+mpat $n mpforce $n look
+else
+mea $n The room starts getting hot as a laser beam shoots you right
+mea $n between the eyes!
+mpdamage $n 10
+endif
+~
+> speech_prog p let me be~
+if rand(10)
+mea $n &WYou feel your body shift as you howl in pain!
+mea $n &WYou have been sparred!
+mptrans $n 6619
+mpat $n mpforce $n look
+else
+mea $n &WThe room starts getting hot as a laser beam shoots you right
+mea $n &Wbetween the eyes!
+mpdamage $n 10
+endif
+~
+|
+S
+#6621
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6622 0 0 0
+D3
+~
+~
+0 -1 6619 0 0 0
+S
+#6622
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6623 0 0 0
+D2
+~
+~
+0 -1 6624 0 0 0
+D3
+~
+~
+0 -1 6621 0 0 0
+S
+#6623
+&YGravitron~
+&GLights flicker on and off at your arrival. The out dated grav machine
+looks dead. The buttons are cracked and wires hang from above. The blood
+is still caked all over the floor and the smell of old decaying flesh
+fills the air. All of a suddenly you feel the gravity kick in for a brief
+second then die out.
+~
+0 0 1 4
+D2
+~
+~
+0 -1 6622 0 0 0
+S
+#6624
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6622 0 0 0
+D2
+~
+~
+0 -1 6625 0 0 0
+S
+#6625
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6624 0 0 0
+D2
+~
+~
+0 -1 6626 0 0 0
+S
+#6626
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important
+people from The Turks and Shinra are seen on the wall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6625 0 0 0
+D2
+~
+~
+2048 -1 6627 0 0 0
+S
+#6627
+&YTurk's Clan Shop~
+&gWhats left of the clans old equipment can be found in here. The cases are
+smashed and have been looted. The small safe the shop keeper, keeps has
+been ripped from the wall. The shop keeper still stays loyal to the shop
+and has a few items on display.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6626 0 0 0
+R M 0 6627 1 6627
+  R G 1 6627 1
+  R G 1 6 1
+S
+#6628
+&YTrap!~
+&gHa! you fell for one of the clans old tricks...Before you realise what you
+did, you just hit the ground instead, maybe someone nice will aid you?
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6615 0 0 0
+> entry_prog 100~
+mpstun $n
+~
+|
+S
+#6630
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6641 0 0 0
+D2
+~
+~
+0 -1 6632 0 0 0
+R M 0 6630 1 6630
+S
+#6632
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6630 0 0 0
+D1
+~
+~
+0 -1 6633 0 0 0
+D6
+~
+~
+0 -1 6636 0 0 0
+D7
+~
+~
+0 -1 6634 0 0 0
+S
+#6633
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6637 0 0 0
+D2
+~
+~
+0 -1 6642 0 0 0
+D3
+~
+~
+0 -1 6632 0 0 0
+S
+#6634
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6635 0 0 0
+D8
+~
+~
+0 -1 6632 0 0 0
+S
+#6635
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6634 0 0 0
+S
+#6636
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D9
+~
+~
+0 -1 6632 0 0 0
+S
+#6637
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6638 0 0 0
+D2
+~
+~
+0 -1 6646 0 0 0
+D3
+~
+~
+0 -1 6633 0 0 0
+S
+#6638
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6639 0 0 0
+D2
+~
+~
+0 -1 6637 0 0 0
+D7
+~
+~
+0 -1 6640 0 0 0
+R M 0 6648 1 6638
+S
+#6639
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D3
+~
+~
+0 -1 6638 0 0 0
+S
+#6640
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D3
+~
+~
+0 -1 6641 0 0 0
+D8
+~
+~
+0 -1 6638 0 0 0
+S
+#6641
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6640 0 0 0
+D2
+~
+~
+0 -1 6630 0 0 0
+S
+#6642
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6633 0 0 0
+D2
+~
+~
+0 -1 6643 0 0 0
+D9
+~
+~
+0 -1 6644 0 0 0
+S
+#6643
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6642 0 0 0
+S
+#6644
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6645 0 0 0
+D6
+~
+~
+0 -1 6642 0 0 0
+S
+#6645
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6644 0 0 0
+D2
+~
+~
+0 -1 6602 0 0 0
+> entry_prog 100~
+mea $n &YYou see the light!
+~
+|
+S
+#6646
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6637 0 0 0
+D2
+~
+~
+0 -1 6647 0 0 0
+D6
+~
+~
+0 -1 6648 0 0 0
+S
+#6647
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6646 0 0 0
+S
+#6648
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D6
+~
+~
+0 -1 6649 0 0 0
+D9
+~
+~
+0 -1 6646 0 0 0
+S
+#6649
+&YHQ Basement~
+&gYou stand in a corridor of the hq basement. A green moss covers the walls
+and ground, making the basement even look alive! Halls shift around and
+wind endlessly. Small light bulbs over head swing back and forth with
+each foot step, making the shadows dance. The smell down here is horrible
+and almost makes you lose your lunch. It would be good to get out of here
+~
+0 0 1 0
+D9
+~
+~
+0 -1 6648 0 0 0
+S
+#6650
+&YTransporter Room~
+&GThe door creaks as you enter and you see a single pod there for exiting
+the building. Its a wonder the pod even works. Upon entry of the room the
+pod glows up and boots into "Safe Mode", guess it works after all. A voice
+comes over head "To return to the Dock say "Transport Me" and have a nice day".
+~
+0 4 1 0
+D2
+~
+~
+1 -1 6651 0 0 0
+> speech_prog p transport me~
+if isfight($n)
+mpdonothing
+mpechoat $n &RFinish fighting first!
+else
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &RACCESS DENIED
+mea $n &WYou feel the ground open as you fall down a trap door
+mea $n &WThe hatch above opens
+mer $n &W$n falls through the trap door!
+mptrans $n 6630
+mpat $n mer $n &WThe hatch above opens
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#6651
+&YTurk's Clan Hall~
+&GYou stand in a white hall inside of The Turks HQ. The hall has been
+abandoned for quite a while. The Halls seem to have taken little to no
+damage and have been kept clean, by who though? Portraits of Important 
+people from The Turks and Shinra are seen on the wall. To your north there
+is a door.
+~
+0 0 1 0
+D0
+~
+~
+3 -1 6650 0 0 0
+D1
+~
+~
+0 -1 6613 0 0 0
+D8
+~
+~
+0 -1 6610 0 0 0
+D9
+~
+~
+0 -1 6609 0 0 0
+R M 0 6651 1 6651
+R D 0 6651 0 1
+S
+#6652
+Floating in a void~
+~
+0 4 1 0
+S
+#6653
+Floating in a void~
+~
+0 4 1 0
+S
+#6654
+Floating in a void~
+~
+0 4 1 0
+S
+#6655
+&YTurk's Lobby~
+&GThe lobby is in total ruin, but from what a past raid? The lights over
+head flicker on and off. The bones, from the members of the past clan,
+crumble under your feet and turn into a fine powder dissolving into the
+air. Weapons and armor lay all over the ground, none look like they are
+worth the effort to get. Bloody foot prints lead you to the north.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6608 0 0 0
+S
+#6656
+&YA Dark Room~
+~
+0 1 1 0
+D0
+~
+~
+0 -1 6657 0 0 0
+D1
+~
+~
+0 -1 6607 0 0 0
+S
+#6657
+&YEndless Stairs~
+~
+0 1 1 0
+D2
+~
+~
+0 -1 6656 0 0 0
+D4
+~
+~
+0 -1 6658 0 0 0
+S
+#6658
+&YGoing up!~
+~
+0 1 1 0
+D4
+~
+~
+0 -1 6658 0 0 0
+D5
+~
+~
+0 -1 6657 0 0 0
+S
+#6670
+Floating in a void~
+~
+0 4 1 0
+S
+#6671
+Floating in a void~
+~
+0 4 1 0
+S
+#6685
+Floating in a void~
+~
+0 4 1 0
+S
+#6700
+Last Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 6627    0  0  0  0  0   120  90         0 23    ; Turk's Shop Keeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

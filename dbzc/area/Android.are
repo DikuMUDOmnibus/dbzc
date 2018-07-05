@@ -1,0 +1,1075 @@
+#AREA   Android Station~
+
+
+
+#VERSION 2
+#AUTHOR Buu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG &gYou can hear Droid Workers in the background yelling.~
+
+#FLAGS
+65 30
+
+#CONTINENT continent1~
+
+#INCOME 90000
+#POPSUPPORT 100
+#GOVERNMENT None~
+#GUARDS 0 0 0 0
+
+#ECONOMY 0 37971620
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#901
+First MOb~
+a newly created First MOb~
+Some god abandoned a newly created First MOb here.
+~
+As you look at this large droid you notice it moves quickly and strongly
+and that he is quite advanced in his structure. This is the droid built to
+train younger androids how to fight using abilities and skills.  
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#902
+Trainer~
+An Android Trainer~
+&WAn Android Trainer stares down at you as he prepares to train you.
+~
+~
+71304707 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> all_greet_prog 100~
+say Greetings, $n, Are you ready to start your lessons?
+~
+|
+#903
+Greeter~
+An Android Greeter~
+&WAn Android is here greeting new recruits.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> all_greet_prog 100~
+if ispc($n)
+say Welcome to the station, $n.
+endif
+~
+|
+#904
+newbie android battler~
+A Newbie Android Battler~
+&WA Newbie Android Battler is here ready to fight.
+~
+&WThis android stands before and prepares to assist you in your training.
+It has been programmed to let you beat it up so you learn how to fight. 
+Good Luck!!
+ 
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 7000
+112 112 0
+6 5 13 5 13 7 7
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 904
+~
+|
+#905
+android battler~
+An Android Battler~
+&WAn Android Battler awaits your attack.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+10 15000
+112 112 0
+6 6 7 6 13 7 6
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 905
+~
+|
+#906
+Android Battler~
+An Android Battler~
+&WAn Android Battler stands here prepared to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+300 20000
+112 112 0
+9 9 6 9 6 6 6
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 906
+~
+|
+#907
+Android Battler~
+An Android Battler~
+&WAn Android Battler glares at you hatefully.
+~
+&WBefore you stands a battle droid prepared to train you in your skill,
+although he appears to hate you fiercly you know that it is just his 
+programming and he has no real feelings about you.
+ 
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+400 35000
+112 112 0
+13 7 13 7 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 907
+~
+|
+#908
+Android Battler~
+An Android Battler~
+&WAn Android Battler calmy awaits your attack.
+~
+&WBefore you stands a battle droid prepared to train you in your skill,
+although he appears to hate you fiercly you know that it is just his 
+programming and he has no real feelings about you.
+ 
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+500 80000
+112 112 0
+13 6 13 8 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 908
+~
+|
+#909
+Android Battler~
+An Android Battler~
+&WAn Android Battler glows slightly as he looks at you.
+~
+&WThis Battler has a red hew about him and is emenating great power. He
+is obviously quite strong and looks like he has much to teach you. His 
+body is larger than the one below and his eyes glow red.
+ 
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+600 125000
+112 112 0
+13 7 13 8 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 909
+~
+|
+#910
+Android Battler~
+An Android Battler~
+&WAn Android Battler hums quietly as he focuses his energy.
+~
+&WThe Battler before you is humming lightly as to keep his power under
+control. His eyes are a bright red color and his hair is standing up on
+end. He nods at you slightly as he takes notice to you and then prepares 
+for battle.
+ 
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+700 300000
+112 112 0
+13 6 13 9 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 910
+~
+|
+#911
+Android Battler~
+A Large Android Battler~
+&WA Large Android Battler roars loudly as he glares at you.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+800 750000
+112 112 0
+13 10 13 10 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 911
+~
+|
+#912
+android driod scientist observer~
+An Android Observer~
+&WAn Android is here looking through a large telescope.
+~
+&WThis droid appears to be designed for the monitoring and mapping of
+the skies. He is busy working at his telescope and is recording everything
+into his memory.
+ 
+~
+71303171 0 C
+1 0 0 0d0+0 0d0+0
+800 5000000
+112 112 0
+13 10 13 10 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 912
+~
+> greet_prog 100~
+say Why does this sky have to be so big?
+sigh
+~
+|
+#913
+Android Battler~
+An Android Battler~
+&WAn Android is here preparing to fight.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+900 5000000
+112 112 0
+13 12 13 12 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 913
+~
+|
+#914
+worker droid~
+A Droid Worker~
+&WA Droid labours on the tasks of maintaining the station.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 5000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 914
+~
+|
+#915
+android guard~
+An Android Guard~
+&WAn Android is here patrolling the spaceport.
+~
+&WBefore you stands a stalky android who is staring at you cautiously,
+he scans you up and down and then nods slightly. His eyes are glowing 
+green and he appears to be a sentry of some kind.
+ 
+~
+4194307 0 C
+1 0 0 0d0+0 0d0+0
+1000 6000000
+112 112 0
+15 15 13 15 16 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 915
+~
+|
+#916
+Android Shopkeeper~
+Android Shopkeeper~
+&WAn Android Shopkeeper stands here selling chips.
+~
+~
+4194307 0 C
+1 0 0 0d0+0 0d0+0
+0 5000000
+112 112 0
+13 13 13 25 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 916
+~
+|
+#917
+An android citizen~
+An android citizen~
+An android citizen wanders around here.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+Z
+none~
+#918
+An android citizen~
+An android citizen~
+An android citizen wanders around here.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+Z
+none~
+#919
+An android citizen~
+An android citizen~
+An android citizen wanders around here.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+Z
+none~
+#949
+Last MOb~
+a newly created Last MOb~
+Some god abandoned a newly created Last MOb here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#901
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#911
+Nanotech Structure~
+The Nanotech Building~
+&wA Large Nanotech Building (RRA)~
+~
+69 0 0
+7000 0 0 0
+1 0 0
+#949
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#901
+&GFirst Room~
+~
+0 4 1 0
+S
+#902
+&GMain Station~
+&gYou have arrived through the transporter to the Android station. You
+see computer consoles covering every wall. There is a map of the main complex
+in the middle of the room and there are exits leading in all 4 directions.
+There are loud bangs and bright lights flashing in the north and you hear the
+sounds of other androids training and upgrading their systems.  
+ 
+To return: 'startup transporter'
+
+~
+0 0 1 0
+D0
+~
+~
+0 -1 911 0 0 0
+D1
+~
+~
+0 -1 904 0 0 0
+D2
+~
+~
+0 -1 907 0 0 0
+D3
+~
+~
+0 -1 906 0 0 0
+D4
+~
+~
+0 -1 919 0 0 0
+D5
+~
+~
+0 -1 903 0 0 0
+R M 0 903 1 902
+R O 0 32 1 902
+E
+map~
+&GNorth - Battling Tower and Residential Area
+South - Sparring Dome
+West - Recharging Station
+East - Training Center
+Down - Gravity Training
+Up - Spaceport
+~
+> custom_prog Startup Transporter~
+if haspropagandized($n)
+mea $n &RYou can't do that right now.
+else
+Mea $n 
+Mea $n &BYou hit a button.
+Mea $n &CA burst of blue light explodes from the transporter and takes you away.
+Mer $n &CA burst of blue light explodes from the transporter and $n is gone.
+Mptransfer $n 277
+Mpat $n mer $n $n arrvies in a burst of blue light. 
+Mpat $n mpforce $n look
+endif
+~
+|
+S
+#903
+&GGravity Training Dome~
+&gYou have entered the gravity training dome and there and mini circles
+on the floor and ceiling that will simulate a higher level of gravity for
+androids to train in.
+ 
+&R** Warning!! Gravity Training could kill you if you set it too high **
+~
+0 0 1 4
+D4
+~
+~
+0 -1 902 0 0 0
+S
+#904
+&GTraining Center~
+&gYou have entered a large square room with a computer console in the middle.
+The console has multiple outlets in the front for androids to plug into and 
+download upgrades for their systems. There is also a droid to the left of 
+the room placing upgrading parts on other androids which increase their speed,
+strength, stabilty, etc.
+~
+0 0 1 64
+D0
+~
+~
+0 -1 905 0 0 0
+D3
+~
+~
+0 -1 902 0 0 0
+R M 0 902 1 904
+S
+#905
+&GAndroid Shop~
+&gAs you enter this dome you see large shelves covering the wall with
+items on them. There is everything you could possible think of in here
+and a large droid in the center awaiting your request.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 904 0 0 0
+R M 0 916 1 905
+  R G 1 146 1
+  R G 1 147 1
+S
+#906
+&GRecharging Station~
+&gYou are standing in a circular room with multiple outlets for androids
+to plug into and recharge their systems. There are a few little droids 
+wandering around giving assistance to those in need. Plug in and recharge!
+~
+0 4 1 1
+D1
+~
+~
+0 -1 902 0 0 0
+S
+#907
+&GEntrance to Sparring Dome~
+&gThere are 3 doors in this room leading to the sparring domes where
+androids can test their powers on each other and even train each other.
+The door to the west leads to the newbie sparring dome and the south one
+leads to the middle level sparring dome. So of course the one to the east
+leads to the higher level sparring dome.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 902 0 0 0
+D1
+~
+~
+0 -1 908 0 0 0
+D2
+~
+~
+0 -1 910 0 0 0
+D3
+~
+~
+0 -1 909 0 0 0
+R M 0 918 3 907
+R M 0 918 3 907
+R M 0 918 3 907
+S
+#908
+&GNewbie Sparring Dome~
+&gThe walls of this room are plated steel so that any attacks used by the
+new androids on each other will not cause to much damage. This dome has
+been created specificaly for weaker androids to train together.  
+~
+0 4 1 2
+D3
+~
+~
+0 -1 907 0 0 0
+S
+#909
+&GMiddle Level Sparring Dome~
+&gThis room has been reinforced with titanium walls to weaken some of the 
+blows done by these stronger androids. This dome is designed for androids
+of medium power and strength. Those who have not yet achieved perfection
+and who  are stronger then the newer models. 
+~
+0 0 1 2
+D1
+~
+~
+0 -1 907 0 0 0
+S
+#910
+&GAny Level Sparring Dome~
+&gAs you enter this dome you notices massive char spots on the walls and
+droids patching up holes here and there. You have entered the high level
+sparring dome where the elite of the elite come to test to powers on each
+other. You could probably watch some pretty amazing battles in here. 
+~
+0 0 1 2
+D0
+~
+~
+0 -1 907 0 0 0
+S
+#911
+&GWandering the Station~
+&gYou are standing in a hallway junction and you can hear battles to the
+west. You must be hearing the sounds of the androids training to prepare
+for the attack on earth. To the east you can see the outline of buildings
+and  residential areas. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 917 0 0 0
+D2
+~
+~
+0 -1 902 0 0 0
+D3
+~
+~
+0 -1 916 0 0 0
+S
+#912
+&GAndroid Training Level 1~
+&gYou have entered the first level in the training tower. This level is
+designed for new androids to start with their training and get a feel for
+battle. Once this is achieved it is advised that they move up in the 
+tower. Good Luck. 
+~
+0 4 1 0
+D2
+~
+~
+0 -1 916 0 0 0
+D4
+~
+~
+0 -1 913 0 0 0
+R M 0 904 1 912
+S
+#913
+&GAndroid Training Level 2 (PL 0-5000)~
+&gYou are now in the second level of the training tower and here you will
+be able to get your systems even stronger than in the level below.
+Although make sure that as your system grows stronger and stronger that
+you download  new abilities into your memory. Only by doing this will you
+become perfect. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 914 0 0 0
+D5
+~
+~
+0 -1 912 0 0 0
+R M 0 905 1 913
+S
+#914
+&GAndroid Training Level 3 (PL 5000-15000)~
+&gAs you enter this level of the tower you notice the walls are covered in
+armored plating to reflect the attacks of the growing androids. This is
+the level where androids star to practice some of their new found
+abilities and so the training programs are stronger. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 915 0 0 0
+D5
+~
+~
+0 -1 913 0 0 0
+R M 0 906 1 914
+S
+#915
+&GAndroid Training Level 4 (PL 15000-30000)~
+&gAs you enter this new level you see scorch marks on the walls and holes
+in some places. Droids are repairing them as fast as they can but the
+androids are making them faster. You have done well if you have reached
+this level and if you keep training hard you shall soon ascertain great
+power. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 921 0 0 0
+D5
+~
+~
+0 -1 914 0 0 0
+R M 0 907 1 915
+S
+#916
+&GEntrance to Battling Tower~
+&gYou are standing at the base of the battling tower the sounds of battles
+are getting louder. There are other Androids here preparing to make the
+climb which will test their systems. The tower is built in such a way that
+it allows the weaker models to not have to climb very high to commence
+with their training and the stronger models must climb quite high to
+commence with theirs.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 912 0 0 0
+D1
+~
+~
+0 -1 911 0 0 0
+S
+#917
+&GHallway through the Station~
+&gYou are in a corridor which leads to the residential area of the station.
+The corridor is in a semi circle shape and the walls are covered in
+screens and outlets. Tiny droids are working on some of the screens and
+others are  monitoring your movements. From watching what these droids are
+doing you get the idea that this station is controlled by one person or
+machine. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 918 0 0 0
+D3
+~
+~
+0 -1 911 0 0 0
+R M 0 917 3 917
+R M 0 917 3 917
+R M 0 917 3 917
+S
+#918
+&GLiving Quarters~
+&gAs you enter this part of the station you are overwhelmed with peace
+and serenity. It is quiet in this sector and there are multiple rooms all
+around in which androids house themselves. Be careful whoes quarters you 
+barge into though because some androids are not so friendly.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 929 0 0 0
+D1
+~
+~
+0 -1 927 0 0 0
+D2
+~
+~
+0 -1 917 0 0 0
+D3
+~
+~
+0 -1 928 0 0 0
+R M 0 919 3 918
+R M 0 919 3 918
+R M 0 919 3 918
+S
+#919
+&GStairway to the Entrance~
+As you ascend higher in to the station, you approach the entrance. This
+is where all adventures begin, this is how you access the outside
+world and become a true android warrior. You can hear the sounds of
+the wilderness in the outside.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 920 0 0 0
+D5
+~
+~
+0 -1 902 0 0 0
+R M 0 914 1 919
+S
+#920
+&GEntrance to the Station~
+You find yourself at the entrance of the Android Station. This
+is where all androids were created in mass, and they have been
+put into training, for further development.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 919 0 0 0
+D2
+~
+~
+536870912 -1 949 449 42 0
+R M 0 915 1 920
+> act_prog p arrives~
+if carryingvnum($n) == 260
+mpforce $n south
+else
+if carryingvnum($n) == 261
+mpforce $n south
+else
+if carryingvnum($n) == 262
+mpforce $n south
+else
+if carryingvnum($n) == 263
+mpforce $n south
+else
+if carryingvnum($n) == 264
+mpforce $n south
+else
+if carryingvnum($n) == 265
+mpforce $n south
+else
+if carryingvnum($n) == 266
+mpforce $n south
+else
+mpdonothing
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> act_prog p flies~
+if carryingvnum($n) == 260
+mpforce $n south
+else
+if carryingvnum($n) == 261
+mpforce $n south
+else
+if carryingvnum($n) == 262
+mpforce $n south
+else
+if carryingvnum($n) == 263
+mpforce $n south
+else
+if carryingvnum($n) == 264
+mpforce $n south
+else
+if carryingvnum($n) == 265
+mpforce $n south
+else
+if carryingvnum($n) == 266
+mpforce $n south
+else
+mpdonothing
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#921
+&GAndroid Training Level 5 (PL 30000-60000)~
+&gThis section of the tower is reinforced with titanium and the damages 
+are minimal even after the attacks used by androids with this much power.
+You hear a loud rumbling coming from above and you must be getting close
+to the top of the tower. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 922 0 0 0
+D5
+~
+~
+0 -1 915 0 0 0
+R M 0 908 1 921
+S
+#922
+&GAndroid Training Level 6 (PL 60000-100000)~
+&gThe walls of this room shine with a red glow as they have been imbued
+with an energy barrier to reflect attacks. You sense stronger power still
+as you climb the tower and your challanges are still getting harder. You
+see a  large battle droid prepare to assist you in your training. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 923 0 0 0
+D5
+~
+~
+0 -1 921 0 0 0
+R M 0 909 1 922
+S
+#923
+&GAndroid Training Level 7 (PL 100000-250000)~
+&gAs you enter this room the roaring sound from above gets even louder. You
+notice that the walls are pulsating with an energy barrier to keep the
+room  intact. Other Androids are training around you and there are
+multiple battle droids waiting to be trained with. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 924 0 0 0
+D5
+~
+~
+0 -1 922 0 0 0
+R M 0 910 1 923
+S
+#924
+&GAndroid Training Level 8 (PL 250000-500000)~
+&gThis room appears to be one of the last levels of the tower and there is
+a loud rumbling noise above you. The walls are protected by a golden
+energy field which appears to be immune to all attacks, even those of such
+advanced androids. 
+~
+0 0 1 0
+D4
+~
+~
+0 -1 925 0 0 0
+D5
+~
+~
+0 -1 923 0 0 0
+R M 0 911 1 924
+S
+#925
+&GBefore the Observation Tower~
+&gThis room is the last one of the levels in the towers. The walls are
+protected by a golden energy field which appears to be immune to all
+attacks, even those of such advanced androids.  
+~
+0 0 1 0
+D4
+~
+~
+0 -1 926 0 0 0
+D5
+~
+~
+0 -1 924 0 0 0
+S
+#926
+&GThe Observation Tower (PL 500000-1000000)~
+&gAs you enter the final level of the tower you are confronted with a large
+telescope object in the center of the room. There is a loud rumbling
+emenating from the base of the mechanism and it appears to be the motor
+which rotates this massive piece of machinary. 
+~
+0 0 1 0
+D5
+~
+~
+0 -1 925 0 0 0
+R M 0 913 1 926
+S
+#927
+&GTelescope~
+&gAs you peer through the large telescope you see a fairly large planet in
+the distance. Only after looking at it for a while do you realize that it
+is earth, your target. Who new you were so close to it! 
+~
+0 0 1 0
+D3
+~
+~
+0 -1 918 0 0 0
+R M 0 912 1 927
+S
+#928
+&GPrivate Room~
+&gThis room appears to be very plain and boring with a table in the center
+of the room with 2 chairs on either side. There is a large outlet in the
+wall to the right and a computer console on the left. It appears that
+whoever lives in this room is out at the moment. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 918 0 0 0
+S
+#929
+&GPrivate Room~
+&gYou enter a finely decorated room with a large recharge outlet in the 
+wall. There are multiple computers with a large table in the center. By
+the size of this place it appears that it houses multiple androids. Wander
+where they all are. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 918 0 0 0
+S
+#940
+Floating in a void~
+~
+0 4 1 0
+S
+#949
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 916    0  0  0  0  0   120  90         0 23    ; Android Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

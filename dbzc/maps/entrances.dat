@@ -1,0 +1,3301 @@
+#ENTRANCE
+ToMap	0
+OnMap	2
+Here	449 449
+There	499 499
+From     0 0
+Symbol   0
+Vnum	-1
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	0
+OnMap	1
+Here	499 498
+There	499 499
+From     0 0
+Symbol   0
+Vnum	-1
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	1
+Here	498 499
+There	-1 -1
+From     0 0
+Symbol   0
+Vnum	51499
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	2
+OnMap	1
+Here	500 499
+There	499 499
+From     0 0
+Symbol   0
+Vnum	-1
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	0
+OnMap	2
+Here	500 499
+There	499 499
+From     0 0
+Symbol   0
+Vnum	-1
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	2
+Here	498 499
+There	-1 -1
+From     0 0
+Symbol   0
+Vnum	50999
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	1
+OnMap	2
+Here	499 498
+There	499 499
+From     0 0
+Symbol   0
+Vnum	-1
+Prevsector 18
+Area	(null)~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	1
+Here	498 502
+There	-1 -1
+From     0 0
+Symbol   0
+Vnum	251
+Prevsector 5
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	496 499
+There	-1 -1
+From     0 0
+Symbol   0
+Vnum	251
+Prevsector 3
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	420 158
+There	-1 -1
+From     -1 -1
+Symbol   4
+Vnum	6943
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	433 159
+There	-1 -1
+From     433 160
+Symbol   5
+Vnum	6941
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	407 155
+There	-1 -1
+From     -1 -1
+Symbol   3
+Vnum	6944
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	443 150
+There	-1 -1
+From     -1 -1
+Symbol   1
+Vnum	6805
+Prevsector 0
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	261 15
+There	-1 -1
+From     261 16
+Symbol   1
+Vnum	6918
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	276 18
+There	-1 -1
+From     276 19
+Symbol   9
+Vnum	6811
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	287 39
+There	-1 -1
+From     286 39
+Symbol   3
+Vnum	6827
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	267 36
+There	-1 -1
+From     267 35
+Symbol   4
+Vnum	6826
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	258 42
+There	-1 -1
+From     258 43
+Symbol   6
+Vnum	6919
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	248 40
+There	-1 -1
+From     248 39
+Symbol   2
+Vnum	6821
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	268 53
+There	-1 -1
+From     269 53
+Symbol   8
+Vnum	6830
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	253 24
+There	-1 -1
+From     254 24
+Symbol   8
+Vnum	6803
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	275 26
+There	-1 -1
+From     275 27
+Symbol   7
+Vnum	7403
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	263 26
+There	-1 -1
+From     263 27
+Symbol   7
+Vnum	7405
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	271 26
+There	-1 -1
+From     271 27
+Symbol   7
+Vnum	7406
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	267 26
+There	-1 -1
+From     267 27
+Symbol   7
+Vnum	7407
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	270 32
+There	-1 -1
+From     269 32
+Symbol   7
+Vnum	7409
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	274 32
+There	-1 -1
+From     274 31
+Symbol   7
+Vnum	7410
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	278 32
+There	-1 -1
+From     278 31
+Symbol   7
+Vnum	7412
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	278 36
+There	-1 -1
+From     278 37
+Symbol   7
+Vnum	7413
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	274 36
+There	-1 -1
+From     274 37
+Symbol   7
+Vnum	7416
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	405 350
+There	-1 -1
+From     404 350
+Symbol   7
+Vnum	6912
+Prevsector 8
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	208 257
+There	-1 -1
+From     208 258
+Symbol   8
+Vnum	6807
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	274 401
+There	-1 -1
+From     274 402
+Symbol   1
+Vnum	6867
+Prevsector 0
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	269 411
+There	-1 -1
+From     269 410
+Symbol   1
+Vnum	6868
+Prevsector 1
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	286 407
+There	-1 -1
+From     286 406
+Symbol   1
+Vnum	6869
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	260 404
+There	-1 -1
+From     260 403
+Symbol   1
+Vnum	6872
+Prevsector 1
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	263 396
+There	-1 -1
+From     263 397
+Symbol   8
+Vnum	6875
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	249 393
+There	-1 -1
+From     249 394
+Symbol   8
+Vnum	6878
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	288 34
+There	-1 -1
+From     287 34
+Symbol   5
+Vnum	6806
+Prevsector 1
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	263 45
+There	-1 -1
+From     263 46
+Symbol   7
+Vnum	7431
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	268 45
+There	-1 -1
+From     268 46
+Symbol   7
+Vnum	7432
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	276 46
+There	-1 -1
+From     276 47
+Symbol   7
+Vnum	7428
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	279 51
+There	-1 -1
+From     279 50
+Symbol   7
+Vnum	7429
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	260 51
+There	-1 -1
+From     260 50
+Symbol   7
+Vnum	7425
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	250 47
+There	-1 -1
+From     251 47
+Symbol   7
+Vnum	7418
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	256 37
+There	-1 -1
+From     255 37
+Symbol   7
+Vnum	7419
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	252 31
+There	-1 -1
+From     253 31
+Symbol   7
+Vnum	7426
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	412 150
+There	-1 -1
+From     413 150
+Symbol   9
+Vnum	6829
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	420 143
+There	-1 -1
+From     420 144
+Symbol   7
+Vnum	7420
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	428 137
+There	-1 -1
+From     428 138
+Symbol   7
+Vnum	7451
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	434 133
+There	-1 -1
+From     434 134
+Symbol   7
+Vnum	7450
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	443 145
+There	-1 -1
+From     442 145
+Symbol   7
+Vnum	7448
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	433 149
+There	-1 -1
+From     433 150
+Symbol   7
+Vnum	7449
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	438 167
+There	-1 -1
+From     438 166
+Symbol   7
+Vnum	7445
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	427 170
+There	-1 -1
+From     -1 -1
+Symbol   7
+Vnum	7444
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	421 167
+There	-1 -1
+From     421 166
+Symbol   7
+Vnum	7442
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	411 161
+There	-1 -1
+From     412 161
+Symbol   7
+Vnum	7443
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	385 262
+There	-1 -1
+From     385 263
+Symbol   0
+Vnum	9102
+Prevsector 3
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	260 33
+There	-1 -1
+From     260 32
+Symbol   10
+Vnum	6947
+Prevsector 1
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	284 25
+There	-1 -1
+From     284 26
+Symbol   11
+Vnum	6946
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	437 137
+There	-1 -1
+From     437 138
+Symbol   10
+Vnum	6945
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	414 168
+There	-1 -1
+From     414 167
+Symbol   11
+Vnum	6942
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	235 242
+There	-1 -1
+From     235 243
+Symbol   4
+Vnum	6940
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	224 241
+There	-1 -1
+From     224 242
+Symbol   3
+Vnum	6840
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	217 251
+There	-1 -1
+From     216 251
+Symbol   5
+Vnum	6841
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	222 257
+There	-1 -1
+From     222 258
+Symbol   10
+Vnum	6842
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	230 257
+There	-1 -1
+From     229 257
+Symbol   11
+Vnum	6843
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	230 251
+There	-1 -1
+From     229 251
+Symbol   9
+Vnum	6844
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	226 250
+There	-1 -1
+From     227 250
+Symbol   7
+Vnum	7402
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	211 243
+There	-1 -1
+From     -1 -1
+Symbol   7
+Vnum	7404
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	243 248
+There	-1 -1
+From     242 248
+Symbol   7
+Vnum	7408
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	245 253
+There	-1 -1
+From     244 253
+Symbol   7
+Vnum	7411
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	235 258
+There	-1 -1
+From     236 258
+Symbol   7
+Vnum	7414
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	248 266
+There	-1 -1
+From     247 266
+Symbol   7
+Vnum	7415
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	242 269
+There	-1 -1
+From     243 269
+Symbol   7
+Vnum	7417
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	238 271
+There	-1 -1
+From     238 272
+Symbol   7
+Vnum	7421
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	241 277
+There	-1 -1
+From     240 277
+Symbol   7
+Vnum	7422
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	232 277
+There	-1 -1
+From     232 276
+Symbol   7
+Vnum	7424
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	231 271
+There	-1 -1
+From     231 272
+Symbol   7
+Vnum	7427
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	224 271
+There	-1 -1
+From     225 271
+Symbol   7
+Vnum	7430
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	224 266
+There	-1 -1
+From     225 266
+Symbol   7
+Vnum	7433
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	218 267
+There	-1 -1
+From     218 266
+Symbol   7
+Vnum	7434
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	211 262
+There	-1 -1
+From     212 262
+Symbol   1
+Vnum	6852
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	287 395
+There	-1 -1
+From     286 395
+Symbol   3
+Vnum	6853
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	270 393
+There	-1 -1
+From     270 392
+Symbol   5
+Vnum	6854
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	281 383
+There	-1 -1
+From     281 384
+Symbol   10
+Vnum	6855
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	267 375
+There	-1 -1
+From     267 376
+Symbol   4
+Vnum	6856
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	253 381
+There	-1 -1
+From     253 382
+Symbol   11
+Vnum	6857
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	87 231
+There	-1 -1
+From     87 232
+Symbol   0
+Vnum	6858
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	1
+Here	85 244
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	6866
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	1
+Here	85 231
+There	-1 -1
+From     85 232
+Symbol   0
+Vnum	6873
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	1
+Here	84 231
+There	-1 -1
+From     84 232
+Symbol   0
+Vnum	6873
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	65 44
+There	-1 -1
+From     65 45
+Symbol   0
+Vnum	8001
+Prevsector 5
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	66 44
+There	-1 -1
+From     66 45
+Symbol   0
+Vnum	8001
+Prevsector 5
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	449 41
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	920
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	127 412
+There	-1 -1
+From     128 412
+Symbol   0
+Vnum	951
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	413 257
+There	-1 -1
+From     413 258
+Symbol   7
+Vnum	6935
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	222 153
+There	-1 -1
+From     223 153
+Symbol   6
+Vnum	8060
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	233 145
+There	-1 -1
+From     233 144
+Symbol   3
+Vnum	8065
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	241 148
+There	-1 -1
+From     242 148
+Symbol   9
+Vnum	8066
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	241 159
+There	-1 -1
+From     242 159
+Symbol   4
+Vnum	8070
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	234 162
+There	-1 -1
+From     234 163
+Symbol   1
+Vnum	8104
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	227 159
+There	-1 -1
+From     226 159
+Symbol   5
+Vnum	8132
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	208 154
+There	-1 -1
+From     207 154
+Symbol   7
+Vnum	8133
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	3
+OnMap	3
+Here	262 151
+There	262 151
+From     -1 -1
+Symbol   7
+Vnum	-1
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	234 153
+There	-1 -1
+From     -1 -1
+Symbol   2
+Vnum	8139
+Prevsector 19
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	237 140
+There	-1 -1
+From     237 141
+Symbol   10
+Vnum	8140
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	223 140
+There	-1 -1
+From     223 141
+Symbol   7
+Vnum	7452
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	216 144
+There	-1 -1
+From     216 143
+Symbol   7
+Vnum	7453
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	213 140
+There	-1 -1
+From     213 141
+Symbol   7
+Vnum	7454
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	203 147
+There	-1 -1
+From     204 147
+Symbol   7
+Vnum	7455
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	6
+Here	249 250
+There	-1 -1
+From     249 251
+Symbol   2
+Vnum	6548
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	203 160
+There	-1 -1
+From     204 160
+Symbol   7
+Vnum	7456
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	211 167
+There	-1 -1
+From     211 166
+Symbol   7
+Vnum	7457
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	215 163
+There	-1 -1
+From     215 164
+Symbol   7
+Vnum	7458
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	231 167
+There	-1 -1
+From     231 166
+Symbol   7
+Vnum	7459
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	243 169
+There	-1 -1
+From     242 169
+Symbol   7
+Vnum	7460
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	239 175
+There	-1 -1
+From     240 175
+Symbol   7
+Vnum	7461
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	247 181
+There	-1 -1
+From     247 180
+Symbol   7
+Vnum	7462
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	255 177
+There	-1 -1
+From     255 178
+Symbol   7
+Vnum	7463
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	261 181
+There	-1 -1
+From     261 180
+Symbol   7
+Vnum	7464
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	268 175
+There	-1 -1
+From     267 175
+Symbol   7
+Vnum	7465
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	264 166
+There	-1 -1
+From     265 166
+Symbol   7
+Vnum	7466
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	268 162
+There	-1 -1
+From     267 162
+Symbol   7
+Vnum	7467
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	256 156
+There	-1 -1
+From     256 155
+Symbol   7
+Vnum	7468
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	251 152
+There	-1 -1
+From     251 153
+Symbol   7
+Vnum	7469
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	246 157
+There	-1 -1
+From     245 157
+Symbol   7
+Vnum	7470
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	272 49
+There	-1 -1
+From     272 48
+Symbol   6
+Vnum	8061
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	275 45
+There	-1 -1
+From     275 46
+Symbol   7
+Vnum	7471
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	283 49
+There	-1 -1
+From     283 48
+Symbol   7
+Vnum	7472
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	286 45
+There	-1 -1
+From     286 46
+Symbol   7
+Vnum	7473
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	290 39
+There	-1 -1
+From     291 39
+Symbol   7
+Vnum	7474
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	294 32
+There	-1 -1
+From     293 32
+Symbol   7
+Vnum	7475
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	284 31
+There	-1 -1
+From     284 30
+Symbol   7
+Vnum	7476
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	275 31
+There	-1 -1
+From     275 30
+Symbol   7
+Vnum	7477
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	269 38
+There	-1 -1
+From     268 38
+Symbol   7
+Vnum	7478
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	265 42
+There	-1 -1
+From     266 42
+Symbol   7
+Vnum	7479
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	258 23
+There	-1 -1
+From     257 23
+Symbol   7
+Vnum	7480
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	263 16
+There	-1 -1
+From     263 17
+Symbol   7
+Vnum	7481
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	269 20
+There	-1 -1
+From     269 19
+Symbol   7
+Vnum	7482
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	273 16
+There	-1 -1
+From     273 17
+Symbol   7
+Vnum	7483
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	281 22
+There	-1 -1
+From     280 22
+Symbol   7
+Vnum	7484
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	277 25
+There	-1 -1
+From     278 25
+Symbol   7
+Vnum	7485
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	287 27
+There	-1 -1
+From     287 28
+Symbol   3
+Vnum	8062
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	294 42
+There	-1 -1
+From     293 42
+Symbol   4
+Vnum	8063
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	262 31
+There	-1 -1
+From     262 32
+Symbol   5
+Vnum	8064
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	260 35
+There	-1 -1
+From     260 34
+Symbol   11
+Vnum	8067
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	3
+OnMap	3
+Here	254 25
+There	254 25
+From     -1 -1
+Symbol   8
+Vnum	-1
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	5
+Here	248 25
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	8141
+Prevsector 10
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	80 46
+There	-1 -1
+From     79 46
+Symbol   7
+Vnum	7486
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	72 37
+There	-1 -1
+From     72 38
+Symbol   7
+Vnum	7487
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	64 44
+There	-1 -1
+From     65 44
+Symbol   7
+Vnum	7488
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	71 46
+There	-1 -1
+From     71 47
+Symbol   7
+Vnum	7489
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	70 55
+There	-1 -1
+From     71 55
+Symbol   7
+Vnum	7490
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	69 63
+There	-1 -1
+From     69 62
+Symbol   6
+Vnum	8068
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	65 59
+There	-1 -1
+From     65 60
+Symbol   7
+Vnum	7491
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	74 59
+There	-1 -1
+From     73 59
+Symbol   7
+Vnum	7492
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	53 54
+There	-1 -1
+From     52 54
+Symbol   5
+Vnum	8071
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	49 53
+There	-1 -1
+From     50 53
+Symbol   4
+Vnum	8072
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	56 46
+There	-1 -1
+From     56 47
+Symbol   11
+Vnum	8073
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	62 50
+There	-1 -1
+From     62 49
+Symbol   3
+Vnum	8074
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	57 63
+There	-1 -1
+From     57 62
+Symbol   7
+Vnum	8075
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	427 302
+There	-1 -1
+From     427 303
+Symbol   7
+Vnum	7493
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	428 306
+There	-1 -1
+From     428 305
+Symbol   7
+Vnum	7494
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	434 300
+There	-1 -1
+From     433 300
+Symbol   7
+Vnum	7495
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	430 294
+There	-1 -1
+From     431 294
+Symbol   7
+Vnum	7496
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	434 293
+There	-1 -1
+From     433 293
+Symbol   7
+Vnum	7497
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	428 287
+There	-1 -1
+From     428 288
+Symbol   7
+Vnum	7498
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	421 291
+There	-1 -1
+From     421 290
+Symbol   7
+Vnum	7499
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	419 287
+There	-1 -1
+From     419 288
+Symbol   7
+Vnum	7500
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	409 287
+There	-1 -1
+From     409 288
+Symbol   7
+Vnum	7501
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	407 291
+There	-1 -1
+From     407 290
+Symbol   7
+Vnum	7502
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	400 293
+There	-1 -1
+From     401 293
+Symbol   6
+Vnum	8076
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	409 299
+There	-1 -1
+From     409 298
+Symbol   3
+Vnum	8088
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	412 295
+There	-1 -1
+From     412 296
+Symbol   4
+Vnum	8089
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	418 300
+There	-1 -1
+From     417 300
+Symbol   11
+Vnum	8090
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	414 301
+There	-1 -1
+From     415 301
+Symbol   5
+Vnum	8091
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	421 306
+There	-1 -1
+From     421 305
+Symbol   10
+Vnum	8092
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	5
+Here	423 298
+There	-1 -1
+From     423 299
+Symbol   8
+Vnum	8093
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	289 473
+There	-1 -1
+From     288 473
+Symbol   7
+Vnum	7503
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	290 482
+There	-1 -1
+From     290 481
+Symbol   7
+Vnum	7504
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	293 478
+There	-1 -1
+From     293 479
+Symbol   7
+Vnum	7505
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	297 482
+There	-1 -1
+From     297 481
+Symbol   7
+Vnum	7506
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	298 475
+There	-1 -1
+From     299 475
+Symbol   7
+Vnum	7507
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	302 472
+There	-1 -1
+From     301 472
+Symbol   7
+Vnum	7508
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	294 469
+There	-1 -1
+From     294 468
+Symbol   7
+Vnum	7509
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	285 472
+There	-1 -1
+From     286 472
+Symbol   7
+Vnum	7510
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	293 462
+There	-1 -1
+From     292 462
+Symbol   7
+Vnum	7511
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	289 461
+There	-1 -1
+From     290 461
+Symbol   7
+Vnum	7512
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	297 455
+There	-1 -1
+From     297 456
+Symbol   7
+Vnum	7513
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	303 465
+There	-1 -1
+From     303 466
+Symbol   6
+Vnum	8077
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	311 469
+There	-1 -1
+From     311 468
+Symbol   7
+Vnum	8078
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	315 462
+There	-1 -1
+From     316 462
+Symbol   3
+Vnum	8079
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	319 462
+There	-1 -1
+From     318 462
+Symbol   4
+Vnum	8080
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	308 455
+There	-1 -1
+From     308 456
+Symbol   11
+Vnum	8081
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	301 459
+There	-1 -1
+From     301 458
+Symbol   7
+Vnum	7514
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	186 374
+There	-1 -1
+From     186 373
+Symbol   9
+Vnum	8107
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	177 374
+There	-1 -1
+From     177 373
+Symbol   6
+Vnum	8082
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	190 370
+There	-1 -1
+From     190 371
+Symbol   5
+Vnum	8094
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	181 370
+There	-1 -1
+From     181 371
+Symbol   4
+Vnum	8095
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	187 338
+There	-1 -1
+From     187 337
+Symbol   3
+Vnum	8096
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	182 334
+There	-1 -1
+From     182 335
+Symbol   11
+Vnum	8097
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	191 334
+There	-1 -1
+From     191 335
+Symbol   1
+Vnum	8098
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	204 343
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	8099
+Prevsector 11
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	194 341
+There	-1 -1
+From     195 341
+Symbol   10
+Vnum	8101
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	195 349
+There	-1 -1
+From     196 349
+Symbol   7
+Vnum	7515
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	199 351
+There	-1 -1
+From     198 351
+Symbol   7
+Vnum	7516
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	200 358
+There	-1 -1
+From     199 358
+Symbol   7
+Vnum	7517
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	196 361
+There	-1 -1
+From     197 361
+Symbol   7
+Vnum	7518
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	205 362
+There	-1 -1
+From     205 363
+Symbol   7
+Vnum	7519
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	210 360
+There	-1 -1
+From     211 360
+Symbol   7
+Vnum	7520
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	214 359
+There	-1 -1
+From     213 359
+Symbol   7
+Vnum	7521
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	210 353
+There	-1 -1
+From     211 353
+Symbol   7
+Vnum	7522
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	214 351
+There	-1 -1
+From     213 351
+Symbol   7
+Vnum	7523
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	200 367
+There	-1 -1
+From     199 367
+Symbol   7
+Vnum	7524
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	196 374
+There	-1 -1
+From     196 373
+Symbol   7
+Vnum	7525
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	172 369
+There	-1 -1
+From     173 369
+Symbol   7
+Vnum	7526
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	176 361
+There	-1 -1
+From     175 361
+Symbol   7
+Vnum	7527
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	181 358
+There	-1 -1
+From     181 357
+Symbol   7
+Vnum	7528
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	185 354
+There	-1 -1
+From     185 355
+Symbol   7
+Vnum	7529
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	190 358
+There	-1 -1
+From     190 357
+Symbol   7
+Vnum	7530
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	192 354
+There	-1 -1
+From     192 355
+Symbol   7
+Vnum	7531
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	180 344
+There	-1 -1
+From     179 344
+Symbol   7
+Vnum	7532
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	176 348
+There	-1 -1
+From     177 348
+Symbol   7
+Vnum	7533
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	180 352
+There	-1 -1
+From     179 352
+Symbol   7
+Vnum	7534
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	170 358
+There	-1 -1
+From     170 359
+Symbol   7
+Vnum	7535
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	168 362
+There	-1 -1
+From     168 361
+Symbol   7
+Vnum	7536
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	168 353
+There	-1 -1
+From     167 353
+Symbol   7
+Vnum	7537
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	161 354
+There	-1 -1
+From     161 353
+Symbol   7
+Vnum	7538
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	159 347
+There	-1 -1
+From     158 347
+Symbol   7
+Vnum	7539
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	155 345
+There	-1 -1
+From     156 345
+Symbol   7
+Vnum	7540
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	161 337
+There	-1 -1
+From     161 338
+Symbol   7
+Vnum	7541
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	164 341
+There	-1 -1
+From     164 340
+Symbol   7
+Vnum	7542
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	170 342
+There	-1 -1
+From     170 341
+Symbol   7
+Vnum	7543
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	172 338
+There	-1 -1
+From     172 339
+Symbol   7
+Vnum	7544
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	422 46
+There	-1 -1
+From     422 45
+Symbol   6
+Vnum	8102
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	429 50
+There	-1 -1
+From     428 50
+Symbol   7
+Vnum	7545
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	425 53
+There	-1 -1
+From     426 53
+Symbol   7
+Vnum	7546
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	432 58
+There	-1 -1
+From     432 57
+Symbol   7
+Vnum	7547
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	436 54
+There	-1 -1
+From     436 55
+Symbol   7
+Vnum	7548
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	439 58
+There	-1 -1
+From     439 57
+Symbol   7
+Vnum	7549
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	442 52
+There	-1 -1
+From     443 52
+Symbol   7
+Vnum	7550
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	446 50
+There	-1 -1
+From     445 50
+Symbol   7
+Vnum	7551
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	442 46
+There	-1 -1
+From     443 46
+Symbol   7
+Vnum	7552
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	446 42
+There	-1 -1
+From     445 42
+Symbol   7
+Vnum	7553
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	440 40
+There	-1 -1
+From     440 39
+Symbol   7
+Vnum	7554
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	437 36
+There	-1 -1
+From     437 37
+Symbol   7
+Vnum	7555
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	434 40
+There	-1 -1
+From     434 39
+Symbol   7
+Vnum	7556
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	423 63
+There	-1 -1
+From     423 62
+Symbol   7
+Vnum	7557
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	421 59
+There	-1 -1
+From     421 60
+Symbol   7
+Vnum	7558
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	413 59
+There	-1 -1
+From     413 60
+Symbol   7
+Vnum	7559
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	408 63
+There	-1 -1
+From     408 62
+Symbol   7
+Vnum	7560
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	401 60
+There	-1 -1
+From     402 60
+Symbol   7
+Vnum	7561
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	405 57
+There	-1 -1
+From     404 57
+Symbol   7
+Vnum	7562
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	400 51
+There	-1 -1
+From     401 51
+Symbol   7
+Vnum	7563
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	405 46
+There	-1 -1
+From     404 46
+Symbol   7
+Vnum	7564
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	401 44
+There	-1 -1
+From     402 44
+Symbol   7
+Vnum	7565
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	417 42
+There	-1 -1
+From     -1 -1
+Symbol   1
+Vnum	8103
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	419 35
+There	-1 -1
+From     419 34
+Symbol   4
+Vnum	8105
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	426 39
+There	-1 -1
+From     427 39
+Symbol   3
+Vnum	8106
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	419 30
+There	-1 -1
+From     419 31
+Symbol   10
+Vnum	8112
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	424 31
+There	-1 -1
+From     424 32
+Symbol   5
+Vnum	8113
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	414 31
+There	-1 -1
+From     414 32
+Symbol   11
+Vnum	8114
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	407 37
+There	-1 -1
+From     408 37
+Symbol   7
+Vnum	7566
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	4
+Here	478 54
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	8115
+Prevsector 19
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	5
+Here	422 298
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	8093
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	227 148
+There	-1 -1
+From     226 148
+Symbol   11
+Vnum	8124
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	444 449
+There	-1 -1
+From     -1 -1
+Symbol   2
+Vnum	11702
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	35 157
+There	-1 -1
+From     36 157
+Symbol   7
+Vnum	11744
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	3
+Here	411 46
+There	-1 -1
+From     411 45
+Symbol   7
+Vnum	7567
+Prevsector 24
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	25 475
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	2602
+Prevsector 17
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	0
+Here	316 16
+There	-1 -1
+From     316 15
+Symbol   0
+Vnum	772
+Prevsector 2
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	7
+Here	479 488
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	32101
+Prevsector 22
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	7
+Here	480 488
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	32101
+Prevsector 27
+Area	~
+End
+
+#ENTRANCE
+ToMap	-1
+OnMap	7
+Here	480 489
+There	-1 -1
+From     -1 -1
+Symbol   0
+Vnum	32101
+Prevsector 2
+Area	~
+End
+
+#END

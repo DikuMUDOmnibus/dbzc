@@ -1,0 +1,589 @@
+#DOCK
+Name         Spaceport Gate1~
+Coordname    spaceport_gate1~
+X            7
+Y            12
+Z            5
+D            1
+Room         319
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate2~
+Coordname    spaceport_gate2~
+X            7
+Y            12
+Z            5
+D            2
+Room         322
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate3~
+Coordname    spaceport_gate3~
+X            7
+Y            12
+Z            5
+D            3
+Room         321
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate4~
+Coordname    spaceport_gate4~
+X            7
+Y            12
+Z            5
+D            4
+Room         323
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate5~
+Coordname    spaceport_gate5~
+X            7
+Y            12
+Z            5
+D            5
+Room         324
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate6~
+Coordname    spaceport_gate6~
+X            7
+Y            12
+Z            5
+D            6
+Room         326
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate7~
+Coordname    spaceport_gate7~
+X            7
+Y            12
+Z            5
+D            7
+Room         327
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate8~
+Coordname    spaceport_gate8~
+X            7
+Y            12
+Z            5
+D            8
+Room         329
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate9~
+Coordname    spaceport_gate9~
+X            7
+Y            12
+Z            5
+D            9
+Room         330
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate10~
+Coordname    spaceport_gate10~
+X            7
+Y            12
+Z            5
+D            10
+Room         331
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate11~
+Coordname    spaceport_gate11~
+X            7
+Y            12
+Z            5
+D            11
+Room         340
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Personal Docks~
+Coordname    personal_docks~
+X            7
+Y            12
+Z            5
+D            12
+Room         332
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Evil Chikara~
+Coordname    evil_chikara~
+X            22
+Y            20
+Z            10
+D            0
+Room         1101
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Good Chikara~
+Coordname    good_chikara~
+X            32
+Y            19
+Z            15
+D            0
+Room         1076
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Planet Vegeta~
+Coordname    planet_vegeta~
+X            50
+Y            19
+Z            25
+D            0
+Room         501
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Planet Mutant~
+Coordname    planet_mutant~
+X            5
+Y            30
+Z            20
+D            0
+Room         801
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Planet Earth~
+Coordname    planet_earth~
+X            15
+Y            25
+Z            40
+D            0
+Room         6823
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Planet Freezar~
+Coordname    planet_freezar~
+X            40
+Y            15
+Z            5
+D            0
+Room         7302
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Ghetti Planet~
+Coordname    planet_ghetti~
+X            10
+Y            40
+Z            5
+D            0
+Room         6552
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Asteroid~
+Coordname    asteroid~
+X            5
+Y            25
+Z            10
+D            0
+Room         6501
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Cobra Sect HQ~
+Coordname    cs_hq~
+X            33
+Y            29
+Z            18
+D            0
+Room         6201
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Majin HQ~
+Coordname    mhq~
+X            6
+Y            6
+Z            6
+D            6
+Room         401
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Turk HQ~
+Coordname    turk_hq~
+X            6
+Y            15
+Z            3
+D            0
+Room         6602
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Chaos Knights HQ~
+Coordname    ck_hq~
+X            13
+Y            8
+Z            33
+D            0
+Room         8302
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         The Council HQ~
+Coordname    tc_hq~
+X            8
+Y            13
+Z            33
+D            0
+Room         8452
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Faded Dragons HQ~
+Coordname    fd_hq~
+X            4
+Y            9
+Z            14
+D            0
+Room         7101
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Z Fighters HQ~
+Coordname    zf_hq~
+X            18
+Y            9
+Z            9
+D            5
+Room         6411
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Majin Dynasty HQ~
+Coordname    md_hq~
+X            0
+Y            4
+Z            2
+D            0
+Room         9252
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Planet Gerok~
+Coordname    planet_gerok~
+X            80
+Y            19
+Z            40
+D            1
+Room         8153
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Spaceport~
+Coordname    planetary~
+X            7
+Y            12
+Z            5
+D            0
+Room         342
+Onlyshuttle  1
+Type	   1
+End
+
+#DOCK
+Name         Planet Yardrat~
+Coordname    planet_yardrat~
+X            -12
+Y            50
+Z            60
+D            -40
+Room         6702
+Onlyshuttle  1
+Type	   3
+End
+
+#DOCK
+Name         Nibelheim~
+Coordname    nibelheim~
+X            80
+Y            14
+Z            -40
+D            0
+Room         2001
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Battle Star~
+Coordname    battlestar_platform~
+X            53
+Y            -13
+Z            -10
+D            0
+Room         6548
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Planet Namek~
+Coordname    planet_namek~
+X            30
+Y            50
+Z            -40
+D            0
+Room         8139
+Onlyshuttle  0
+Type	   3
+End
+
+#DOCK
+Name         Spaceport Gate13~
+Coordname    spaceport_gate13~
+X            7
+Y            12
+Z            5
+D            13
+Room         343
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate14~
+Coordname    spaceport_gate14~
+X            7
+Y            12
+Z            5
+D            14
+Room         344
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Dueling Center~
+Coordname    duel_center~
+X            -23
+Y            14
+Z            90
+D            0
+Room         2202
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Spaceport Gate15~
+Coordname    spaceport_gate15~
+X            7
+Y            12
+Z            5
+D            15
+Room         349
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate16~
+Coordname    spaceport_gate16~
+X            7
+Y            12
+Z            5
+D            16
+Room         359
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate17~
+Coordname    spaceport_gate17~
+X            7
+Y            12
+Z            5
+D            17
+Room         360
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Lusitania Spacestation~
+Coordname    lusitania_station~
+X            73
+Y            52
+Z            40
+D            0
+Room         2291
+Onlyshuttle  0
+Type	   4
+End
+
+#DOCK
+Name         Lusitania Port~
+Coordname    lusitania_port~
+X            73
+Y            52
+Z            40
+D            1
+Room         2299
+Onlyshuttle  1
+Type	   4
+End
+
+#DOCK
+Name         Planet Lusitania~
+Coordname    planet_lusitania~
+X            85
+Y            56
+Z            50
+D            0
+Room         2253
+Onlyshuttle  1
+Type	   4
+End
+
+#DOCK
+Name         Spaceport Gate 18~
+Coordname    spaceport_gate18~
+X            7
+Y            12
+Z            5
+D            18
+Room         361
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Spaceport Gate19~
+Coordname    spaceport_gate19~
+X            7
+Y            12
+Z            5
+D            19
+Room         373
+Onlyshuttle  0
+Type	   1
+End
+
+#DOCK
+Name         Jeebus Squad HQ~
+Coordname    js_hq~
+X            15
+Y            5
+Z            10
+D            0
+Room         12001
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         The RRA HQ~
+Coordname    tr_hq~
+X            34
+Y            12
+Z            21
+D            0
+Room         12003
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Z Fighters2 HQ~
+Coordname    z_hq~
+X            12
+Y            27
+Z            5
+D            0
+Room         12023
+Onlyshuttle  0
+Type	   2
+End
+
+#DOCK
+Name         Dark Lotus HQ~
+Coordname    dl_hq~
+X            498
+Y            123
+Z            468
+D            0
+Room         -1
+Onlyshuttle  0
+Type	   2
+End
+
+#END

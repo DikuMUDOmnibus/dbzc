@@ -1,0 +1,531 @@
+106
+Added a Changes code. Easier to post stuff up.~
+Seventeen~
+10/24/05~
+1130208783
+
+Fixed Buutopia's houses~
+Seventeen~
+10/24/05~
+1130208789
+
+Added Final Kamehameha and its ability to be directed at buildings.~
+Seventeen~
+10/24/05~
+1130208801
+
+Added Big Bang Kamehameha and Mouth Blast~
+Seventeen~
+10/24/05~
+1130208814
+
+Restricted BBKame and FinalKame to fused saiyans.~
+Seventeen~
+10/24/05~
+1130208827
+
+Restricted Galactic Donut to Fused Halfbreeds~
+Seventeen~
+10/24/05~
+1130208838
+
+Restricted SGK to fused Halfbreeds~
+Seventeen~
+10/24/05~
+1130208849
+
+Restricted Mouthblast to Mutants and Oozaru's~
+Seventeen~
+10/24/05~
+1130208862
+
+Gave a new look to: Gboards, Changes table, Alist, Slist and Plist~
+Seventeen~
+10/24/05~
+1130208876
+
+Added PinkBarrier, Accuracy, Zanzoken, VStance, BBChip, Overdrive, Enrage and Berserk.~
+Seventeen~
+10/28/05~
+1130546549
+
+More skills to come in a few days...~
+Seventeen~
+10/28/05~
+1130546558
+
+percent in the new skills will go up while being used.~
+Seventeen~
+10/29/05~
+1130548963
+
+New skills wont go above 100~
+Seventeen~
+10/29/05~
+1130555788
+
+New Skills wont go above the adept percent. And will reset once you use them.~
+Seventeen~
+10/29/05~
+1130598983
+
+Reworked the energy drain formula of the skills.~
+Seventeen~
+10/29/05~
+1130600643
+
+Removed the initial energy cost of the skills. This will enable newbies to use these skills.~
+Seventeen~
+10/29/05~
+1130600776
+
+Revamped Regeneration into ki-consumed skill.~
+Seventeen~
+10/29/05~
+1130608813
+
+Added Kyodaika for Nameks and Soul Cry for Buus.~
+Seventeen~
+10/29/05~
+1130608856
+
+Lowered all new skills's PL requirement.~
+Seventeen~
+10/29/05~
+1130608887
+
+Added the Command Cskills [Current Skills].~
+Seventeen~
+10/29/05~
+1130611180
+
+Added Timefreeze.~
+Seventeen~
+10/29/05~
+1130611190
+
+Changes now only shows a few days back. Changes all will let you see all of em.~
+Seventeen~
+10/31/05~
+1130790625
+
+All attacks have been lowered due to the fact of lowering Health.~
+Seventeen~
+10/31/05~
+1130790651
+
+Please inform us if there is anything out of balance in the new ecuations.~
+Seventeen~
+10/31/05~
+1130790689
+
+Lowered how much effect EQ has upon a character.~
+Seventeen~
+10/31/05~
+1130791065
+
+All Ki attacks were re-balanced.~
+Seventeen~
+10/31/05~
+1130794774
+
+Fixed Soulcry once again.~
+Seventeen~
+10/31/05~
+1130794911
+
+Fixed how much lifeforce you gained per tick.~
+Seventeen~
+10/31/05~
+1130794926
+
+Lowered how much lifeforce you gained with regeneration.~
+Seventeen~
+10/31/05~
+1130794937
+
+Fixed how much LF healed gave.~
+Seventeen~
+10/31/05~
+1130795007
+
+Timefreeze has been fixed. Its percent will now go up.~
+Seventeen~
+11/03/05~
+1130986446
+
+Read the new announce gnote.~
+Seventeen~
+11/03/05~
+1131048867
+
+Docks of planets have been placed much more closer.~
+Seventeen~
+11/05/05~
+1131204753
+
+Gboards have been cleared once again.~
+Seventeen~
+11/05/05~
+1131204786
+
+Only Sensu Beans will now restore Lifeforce.~
+Seventeen~
+11/05/05~
+1131205076
+
+Forgot to make melee lck lowered after changes.~
+Seventeen~
+11/05/05~
+1131205711
+
+No longer need to pay to use your own spaceship.~
+Seventeen~
+11/05/05~
+1131207270
+
+LS will only be able to carry a max of 18 beans.~
+Seventeen~
+11/05/05~
+1131207284
+
+Blue Barrier Chip has been added into the game. Should be around with the other chips.~
+Seventeen~
+11/05/05~
+1131207457
+
+Added 's' to show current skills for prompt.~
+Seventeen~
+11/05/05~
+1131209101
+
+Changes will now also be displayed on the website. [dbzc.amber.org.uk]~
+Seventeen~
+11/05/05~
+1131222032
+
+'s' will now be showned in fprompt~
+Seventeen~
+11/05/05~
+1131222703
+
+Galic has now been toned down.~
+Seventeen~
+11/05/05~
+1131222948
+
+Only Icers can now use Tail.~
+Seventeen~
+11/06/05~
+1131241217
+
+Coders show up at changes again.~
+Seventeen~
+11/06/05~
+1131241454
+
+BB now can be gotten at the Lab~
+Seventeen~
+11/07/05~
+1131375850
+
+Fixed, can only buy the same ammount of beans that you can hold.~
+Seventeen~
+11/08/05~
+1131414225
+
+Nerfed DDD a bit. Its fucking godly.~
+Seventeen~
+12/16/05~
+1134707857
+
+Kicharge now actually does something.~
+Seventeen~
+12/16/05~
+1134751251
+
+Hellmasker's progs were fixed.~
+Seventeen~
+12/16/05~
+1134751276
+
+You will now get regenerate energy when using cskills.~
+Seventeen~
+12/17/05~
+1134786599
+
+Cskills's energy consume has been lowered.~
+Seventeen~
+12/17/05~
+1134786618
+
+Adding '~
+' to homename/desc will no longer mess up the MUD.~
+Seventeen~
+12
+
+For real. Cskill's helpfiles have been lowered to your level.~
+Seventeen~
+12/25/05~
+1135491033
+
+ÿ~
+~
+~
+0
+
+~
+~
+~
+0
+
+~
+~
+~
+0
+
+You probably wont visit again Piccolo and Dende at the same time.~
+Seventeen~
+01/03/06~
+1136316032
+
+Started to code automatic KOTHs~
+Seventeen~
+01/03/06~
+1136316044
+
+Max Powerlevel is now 130 Million instead of 150Mil~
+Seventeen~
+01/05/06~
+1136486260
+
+Max PL has changed to 135mil once again.~
+Seventeen~
+01/06/06~
+1136513556
+
+Battle Experience is in. Still have to add the part where it lets you gain more PL~
+Seventeen~
+01/06/06~
+1136514067
+
+Battle Experience gaining code has been made.~
+Seventeen~
+01/06/06~
+1136515537
+
+You will now lose/gain BE from PK.~
+Seventeen~
+01/06/06~
+1136516117
+
+BE cant be gained by killing a person from your own clan~
+Seventeen~
+01/06/06~
+1136523412
+
+BE cant be gained by killing unclanned.~
+Seventeen~
+01/06/06~
+1136523479
+
+BE cannot be gained by killing someone with a PL difference of more than 15 million.~
+Seventeen~
+01/06/06~
+1136523786
+
+Slist will now show longer names.~
+Seventeen~
+01/06/06~
+1136524175
+
+Alist will now show longer names.~
+Seventeen~
+01/06/06~
+1136524237
+
+Added a chance to not gain/lose BE by PK.~
+Seventeen~
+01/06/06~
+1136524272
+
+Mouthblast for halfies and saiyans has been fixed~
+Seventeen~
+01/06/06~
+1136527094
+
+Lowered the Fusion mod so it doesn't go into negative numbers.~
+Seventeen~
+01/06/06~
+1136527262
+
+Outlaws wont be safe from being killed by sparring.~
+Seventeen~
+01/06/06~
+1136575588
+
+Added a FreePK flag.~
+Seventeen~
+01/06/06~
+1136575603
+
+Won't gain PK/Pdeath from pking in FreePK rooms.~
+Seventeen~
+01/06/06~
+1136579215
+
+Fixed clanset forfeit/claimleadership.~
+Seventeen~
+01/08/06~
+1136687856
+
+Fixed bug in clanset.~
+Seventeen~
+01/08/06~
+1136687866
+
+You can now reply while sleeping.~
+Seventeen~
+01/09/06~
+1136776543
+
+ÿ~
+~
+~
+0
+
+Added Statistics to Mudstatus.~
+Seventeen~
+01/09/06~
+1136781059
+
+Fixed bug in a system file.~
+Seventeen~
+01/09/06~
+1136781184
+
+Fixed Kick/Punch, small typo ^_^.~
+Seventeen~
+01/11/06~
+1137013374
+
+Fixed typo in powerup code.~
+Seventeen~
+01/11/06~
+1137014104
+
+Regular pfile purge has now been set to 90 days.~
+Seventeen~
+01/12/06~
+1137107268
+
+Newbie purge has now been set to 30 days.~
+Seventeen~
+01/12/06~
+1137107291
+
+Changes will now display 18 changes always. Unless Changes 'all' is used.~
+Seventeen~
+01/12/06~
+1137108407
+
+You can't heal yourself in battle.~
+Seventeen~
+01/13/06~
+1137117471
+
+Fixed bug where you could use GG at any energy that you had.~
+Seventeen~
+01/13/06~
+1137167094
+
+GG now takes a higher % of energy to use.~
+Seventeen~
+01/13/06~
+1137167111
+
+Following attacks have been fixed: Mouthblast, FinalFlash, Mental. [They were doing damage above of what they should]~
+Seventeen~
+01/13/06~
+1137167413
+
+Ki attacks's code has been rechecked for other possible bugs.~
+Seventeen~
+01/13/06~
+1137183742
+
+Fixed Fusion bug. Now you aren't able to stop fusion once started.~
+Seventeen~
+01/13/06~
+1137189396
+
+All HQs: FD, MD and CS are now open to be raided.~
+Seventeen~
+01/13/06~
+1137193226
+
+Automatic KOTHs and CTF's have been installed.~
+Seventeen~
+01/14/06~
+1137223822
+
+Hunter's Village has now been installed on Earth.~
+Seventeen~
+01/15/06~
+1137304561
+
+For those who didnt know, HV is a FreePK arena...~
+Seventeen~
+01/15/06~
+1137305059
+
+Fixed bug where you couldn't see DBs on maps.~
+Seventeen~
+01/17/06~
+1137482515
+
+Fixed yet another bug in the "Invisible DBs and Obj"'s bugs.~
+Seventeen~
+01/17/06~
+1137537619
+
+Fixed another bug in "Invis DBs" series of bugs.~
+Seventeen~
+01/20/06~
+1137734414
+
+You don't lose PL on freepk rooms.~
+Seventeen~
+01/21/06~
+1137810324
+
+You dont gain or lose BE on freepk rooms.~
+Seventeen~
+01/21/06~
+1137810348
+
+DB's wish for gold has been lowered.~
+Seventeen~
+01/29/06~
+1138503655
+
+Changed the of the people you sacrifice stuff to.~
+Seventeen~
+02/02/06~
+1138854424
+
+CSHQ has been modded.~
+Seventeen~
+02/03/06~
+1138925947
+
+Namek Dragonballs now pop-up randomly throughout Namek~
+Seventeen~
+02/13/06~
+1139794921
+
+BSDB now pop up where they should. And so do Namek's.~
+Seventeen~
+02/17/06~
+1140154945
+

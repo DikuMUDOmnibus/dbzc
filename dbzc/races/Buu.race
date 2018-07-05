@@ -1,0 +1,38 @@
+Name        Buu~
+Race        8
+Min_Align  -1000
+Max_Align       0
+Exp_Mult   0
+Height     68
+Weight     200
+WhereName  <used as light    > ~
+WhereName  <worn on finger   > ~
+WhereName  <worn on finger   > ~
+WhereName  <worn around neck > ~
+WhereName  <worn around neck > ~
+WhereName  <worn on body     > ~
+WhereName  <worn on head     > ~
+WhereName  <worn on legs     > ~
+WhereName  <worn on feet     > ~
+WhereName  <worn on hands    > ~
+WhereName  <worn on arms     > ~
+WhereName  <worn as shield   > ~
+WhereName  <worn about body  > ~
+WhereName  <worn about waist > ~
+WhereName  <worn around wrist> ~
+WhereName  <worn around wrist> ~
+WhereName  <wielded          > ~
+WhereName  <held             > ~
+WhereName  <dual wielded     > ~
+WhereName  <worn on ears     > ~
+WhereName  <worn on eyes     > ~
+WhereName  <missile wielded  > ~
+WhereName  <worn on back     > ~
+WhereName  <worn over face   > ~
+WhereName  <worn around ankle> ~
+WhereName  <worn around ankle> ~
+WhereName  <fitted into slot1> ~
+WhereName  <BUG Inform Nivek>  ~
+WhereName  <BUG Inform Nivek>  ~
+WhereName  <BUG Inform Nivek>  ~
+End

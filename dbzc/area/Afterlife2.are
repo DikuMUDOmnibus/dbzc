@@ -1,0 +1,3654 @@
+#AREA   Afterlife v2~
+
+
+
+#VERSION 2
+#AUTHOR Choutzu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG &YYou can feel the souls of dead beckoning...~
+
+#FLAGS
+17
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#3000
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#3001
+invis afterlife worker~
+An Invisible Afterlife worker mob..... bitch!~
+An Invisible Afterlife worker mob..... bitch!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+#3002
+West Quadrant Trainer~
+A West Quadrant Trainer~
+A West Quadrant trainer stands here, teaching his knowledge.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#3003
+West Quadrant Fighter~
+A West Quadrant Fighter~
+A West Quadrant fighter is here, looking for a good spar.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1000 1000000
+108 108 0
+Z
+none~
+> greet_prog 100~
+say Sup... If you are looking for a spar partner, my PL is at about 1mil.
+~
+> death_prog 100~
+say Hey Fool... I said spar not kill!
+mpecho &YThe fighter is restored by some magical force
+mpmload 3003
+~
+|
+#3004
+West Quadrant Fighter~
+A West Quadrant Fighter~
+A West Quadrant fighter is here, looking for a good spar.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1000 50000000
+108 108 0
+Z
+none~
+> greet_prog 100~
+say Sup... If you are looking for a spar partner, my PL is at about 50mil.
+~
+> death_prog 100~
+say Hey Fool... I said spar not kill!
+mpecho &YThe fighter is restored by some magical force
+mpmload 3004
+~
+|
+#3005
+West Quadrant Fighter~
+A West Quadrant Fighter~
+A West Quadrant fighter is here, looking for a good spar.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+1000 500000000
+108 108 0
+Z
+none~
+> death_prog 100~
+say Hey Fool... I said spar not kill!
+mpecho &YThe fighter is restored by some magical force
+mpmload 3005
+~
+> greet_prog 100~
+say Sup... If you are looking for a spar partner, my PL is about 500mil
+~
+|
+#3006
+Pikkon~
+Pikkon~
+Pikkon is here training his deadly Thunder Flash Attack!
+~
+He almost resembles Piccolo in some way. Actually, because he's green just
+like Piccolo. Cloaked in a cape, not much is known about this powerful
+fighter. It is rumored that he and Goku had a great fight once, and he
+even went to hell and fought alongside him!  
+ 
+ 
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+20 13 13 20 13 13 20
+0 0 0 0 0
+0 3 0 0 0 0 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+say ......Do you wish to train, $n?
+say I must warn you though, I am quite powerful, and have no reguard for your life.
+~
+> fight_prog 10~
+mppeace $n
+say You think you are so strong!? Take this!!
+mpecho &GPikkon steps back and channels his energy into his arms.
+mpecho &GPikkon's body is engulfed with electrical pulses!
+mpecho &WPikkon yells 'Thunder Flash Attack!!!'
+mea $n &YYou have been stunned!
+mer $n &Y$n has been stunned by Pikkon's attack!
+mpstun $n
+~
+> death_prog 100~
+say Luckily I am protected by this quadrants magic and can't die like you!
+mpecho &YA magical force restores Pikkon.
+mpmload 3006
+mpoload 3003
+~
+|
+#3007
+West Quadrant Kai~
+The West Quadrant Kai.~
+A short Kai, with a monocle stands here training Pikkon.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+mpsleep 5
+laugh
+say You are too puny to fight my Pikkon!
+~
+|
+#3008
+South Quadrant Kai~
+The South Quadrant Kai~
+A tall, well built kai stands here watering his plants.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+if carryingvnum($n) == 3005
+mpdonothing
+else
+if carryingvnum($n) == 3002
+if carryingvnum($n) == 3004
+say Ah! You found both the fruit and the water of life!
+mpforce $n give water kai
+mpforce $n give fruit kai
+mpjunk water
+mpjunk fruit
+mea $n
+mea $n
+mea $n The South Quadrant Kai places the fruit into some soil and pours the water over it.
+mea $n
+mea $n
+mea $n A small planet quickly grows out of the dirt and sprouts a humming bean pod!
+mea $n
+mea $n
+say Here take this, it will work as a normal Sensu Bean, but it also restores some of your Ki. Use it wisely!
+mpoload 3005
+mposet sensu flags nodrop
+drop sensu
+mposet sensu flags nodrop
+mpforce $n get sensu
+endif
+else
+mpecho &GThe South Quadrant Kai looks up from his plants and notices you.
+say Hello there, $n. I'm sorry, but if you are here to train, I only raise plants now days...
+say After my fighters last defeat in the Dai-Kaio-Shin's tournament, I gave up training fighters.
+say But I can help you out in two ways... First, if you can answer my riddle, I will give you a prize. Second, if you bring me an Electrically Charged Fruit and The Water of Life from two of the other Quadrants, I'll grow you a super fruit!
+say Just type 'look riddle' for the riddle.
+endif
+endif
+~
+> speech_prog p Sensu~
+mpsleep 3
+if carryingvnum($n) == 6
+say That is correct, but it appears you already have enough sensu's.
+else
+say That is correct, here you go!
+mpoload 6
+give sensu $n
+endif
+~
+|
+#3009
+East Quadrant Kai~
+The East Quadrant Kai~
+A female kai is here feeding some fish.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+> greet_prog 100~
+if carryingvnum($n) == 3004
+mpdonothing
+else
+if carryingvnum($n) == 3006
+say Ohhh, you found the exact pebble that I wanted!
+mpforce $n give pebble kai
+mpjunk pebble
+mea $n
+mea $n
+mea $n &BThe East Quadrant Kai places the pebble into one of her fish tanks.
+mea $n
+mea $n
+say Here, take this for finding it for me.
+mpoload 3004
+give water $n
+else
+mea $n
+mea $n
+mea $n &BThe East Quadrant Kai looks up from her fish tank and smiles at you.
+mea $n
+mea $n
+say Hi there, $n... I've been expecting you!
+mea $n
+mea $n
+say I need someone to go down to the bottom of the deepest waters on this planet and find me the bluest stone there. If you can do that for me, I will award you duly.
+endif
+endif
+~
+|
+#3010
+invis after life worker~
+An Invisible Afterlife worker mob..... bitch!~
+An Invisible Afterlife worker mob..... bitch!
+~
+~
+77594627 0 S
+51 0 0 0d0+0 0d0+0
+0 1000000000
+108 108 0
+Z
+none~
+> greet_prog 100~
+if carryingvnum($n) == 3006
+mpdonothing
+else
+mea $n &BYou feel around on the watery floor and find a smooth pebble.
+mpoload 3006
+give pebble $n
+endif
+~
+|
+#3300
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#3000
+first obj~
+a newly created first obj~
+Some god dropped a newly created first obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#3001
+Large Electric Tree~
+A Large Electrically Charged Tree~
+&wA large tree grows here, emiting an electric charge.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+tree~
+&YThis tree is unaffected by the lightning storms in the sky,
+yet it has an electrical charge pulsing around it. You can see
+large fruit growing in the tree's top.
+~
+#3002
+Electric Fruit~
+&w{OA Piece of Electrically Charged Fruit&W&w~
+&w{OA piece of electrically charged fruit rolls around here.&W&w~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#3003
+Long Cape~
+A Long Flowing White Cape~
+A Long Flowing White Cape gently rests here.~
+~
+9 8192 1025
+0 40 0 0
+1 0 0
+#3004
+Water Life~
+&BThe Water of Life~
+&BThe water of life is seeping into the ground.~
+~
+17 0 1
+1 1 0 0
+1 0 0
+#3005
+Super Sensu~
+A Super Sensu Bean~
+A Super Sensu Bean lies here.~
+~
+64 8322 1
+0 0 0 0
+1 0 0
+> use_prog 100~
+if isimmort($n)
+mea $n You eat A Super Sensu Bean.
+mer $n $n eats A Super Sensu Bean.
+mpkirestore $n 15000
+else
+if isfight($n)
+mea $n You eat A Super Sensu Bean.
+mer $n $n eats A Super Sensu Bean.
+mpkirestore $n 15000
+mpdelay $n 2
+else
+mea $n You eat A Super Sensu Bean.
+mer $n $n eats A Super Sensu Bean.
+mpkirestore $n 15000
+endif
+endif
+~
+|
+#3006
+small pebble~
+&BA Small Blue Pebble~
+&BA small blue pebble lies here.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+#3300
+last obj~
+a newly created last obj~
+Some god dropped a newly created last obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3000
+First Room~
+~
+0 4 1 0
+R M 0 3000 1 3000
+R M 0 3300 1 3000
+R O 0 3000 1 3000
+R O 0 3300 1 3000
+S
+#3001
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3002 0 0 0
+D1
+~
+~
+0 -1 3021 0 0 0
+D3
+~
+~
+0 -1 3041 0 0 0
+D5
+~
+~
+0 -1 741 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3002
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3003 0 0 0
+D1
+~
+~
+0 -1 3022 0 0 0
+D2
+~
+~
+0 -1 3001 0 0 0
+D3
+~
+~
+0 -1 3042 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3003
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3004 0 0 0
+D1
+~
+~
+0 -1 3023 0 0 0
+D2
+~
+~
+0 -1 3002 0 0 0
+D3
+~
+~
+0 -1 3043 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3004
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3005 0 0 0
+D1
+~
+~
+0 -1 3024 0 0 0
+D2
+~
+~
+0 -1 3003 0 0 0
+D3
+~
+~
+0 -1 3044 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3005
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3006 0 0 0
+D1
+~
+~
+0 -1 3025 0 0 0
+D2
+~
+~
+0 -1 3004 0 0 0
+D3
+~
+~
+0 -1 3045 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3006
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3007 0 0 0
+D1
+~
+~
+0 -1 3026 0 0 0
+D2
+~
+~
+0 -1 3005 0 0 0
+D3
+~
+~
+0 -1 3046 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3007
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3008 0 0 0
+D1
+~
+~
+0 -1 3027 0 0 0
+D2
+~
+~
+0 -1 3006 0 0 0
+D3
+~
+~
+0 -1 3047 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3008
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3009 0 0 0
+D1
+~
+~
+0 -1 3028 0 0 0
+D2
+~
+~
+0 -1 3007 0 0 0
+D3
+~
+~
+0 -1 3048 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3009
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3010 0 0 0
+D1
+~
+~
+0 -1 3029 0 0 0
+D2
+~
+~
+0 -1 3008 0 0 0
+D3
+~
+~
+0 -1 3049 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3010
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+You can see a small green house to the west.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3011 0 0 0
+D1
+~
+~
+0 -1 3030 0 0 0
+D2
+~
+~
+0 -1 3009 0 0 0
+D3
+~
+~
+0 -1 3050 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3011
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3012 0 0 0
+D1
+~
+~
+0 -1 3031 0 0 0
+D2
+~
+~
+0 -1 3010 0 0 0
+D3
+~
+~
+0 -1 3051 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3012
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3013 0 0 0
+D1
+~
+~
+0 -1 3032 0 0 0
+D2
+~
+~
+0 -1 3011 0 0 0
+D3
+~
+~
+0 -1 3052 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3013
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3014 0 0 0
+D1
+~
+~
+0 -1 3033 0 0 0
+D2
+~
+~
+0 -1 3012 0 0 0
+D3
+~
+~
+0 -1 3053 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3014
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3015 0 0 0
+D1
+~
+~
+0 -1 3034 0 0 0
+D2
+~
+~
+0 -1 3013 0 0 0
+D3
+~
+~
+0 -1 3054 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 3
+endif
+~
+|
+S
+#3015
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3016 0 0 0
+D1
+~
+~
+0 -1 3035 0 0 0
+D2
+~
+~
+0 -1 3014 0 0 0
+D3
+~
+~
+0 -1 3055 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 5
+endif
+~
+|
+S
+#3016
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3017 0 0 0
+D1
+~
+~
+0 -1 3036 0 0 0
+D2
+~
+~
+0 -1 3015 0 0 0
+D3
+~
+~
+0 -1 3056 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 5
+endif
+~
+|
+S
+#3017
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3018 0 0 0
+D1
+~
+~
+0 -1 3037 0 0 0
+D2
+~
+~
+0 -1 3016 0 0 0
+D3
+~
+~
+0 -1 3057 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 5
+endif
+~
+|
+S
+#3018
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3019 0 0 0
+D1
+~
+~
+0 -1 3038 0 0 0
+D2
+~
+~
+0 -1 3017 0 0 0
+D3
+~
+~
+0 -1 3058 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 5
+endif
+~
+|
+S
+#3019
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3020 0 0 0
+D1
+~
+~
+0 -1 3039 0 0 0
+D2
+~
+~
+0 -1 3018 0 0 0
+D3
+~
+~
+0 -1 3059 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 5
+endif
+~
+|
+S
+#3020
+&gOn Snakeway~
+&GYou are now before Snakeway. The walkway extends as far as
+the eye can see and falling off will take you back to the beginning
+of the path. Watch your step and notice the directions you are
+walking in. Stopping to take a rest could cause you to fall.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3040 0 0 0
+D2
+~
+~
+0 -1 3019 0 0 0
+D3
+~
+~
+0 -1 3060 0 0 0
+D4
+~
+~
+0 -1 3061 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &gThe gravity of Snakeway lags you down!
+mpdelay $n 5
+endif
+~
+|
+S
+#3021
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3022 0 0 0
+D3
+~
+~
+0 -1 3001 0 0 0
+S
+#3022
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3023 0 0 0
+D2
+~
+~
+0 -1 3021 0 0 0
+D3
+~
+~
+0 -1 3002 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3023
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3024 0 0 0
+D2
+~
+~
+0 -1 3022 0 0 0
+D3
+~
+~
+0 -1 3003 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3024
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3025 0 0 0
+D2
+~
+~
+0 -1 3023 0 0 0
+D3
+~
+~
+0 -1 3004 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3025
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3026 0 0 0
+D2
+~
+~
+0 -1 3024 0 0 0
+D3
+~
+~
+0 -1 3005 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3026
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3027 0 0 0
+D2
+~
+~
+0 -1 3025 0 0 0
+D3
+~
+~
+0 -1 3006 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3027
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3028 0 0 0
+D2
+~
+~
+0 -1 3026 0 0 0
+D3
+~
+~
+0 -1 3007 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3028
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3029 0 0 0
+D2
+~
+~
+0 -1 3027 0 0 0
+D3
+~
+~
+0 -1 3008 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3029
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3030 0 0 0
+D2
+~
+~
+0 -1 3028 0 0 0
+D3
+~
+~
+0 -1 3009 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3030
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3031 0 0 0
+D2
+~
+~
+0 -1 3029 0 0 0
+D3
+~
+~
+0 -1 3010 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3031
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3032 0 0 0
+D2
+~
+~
+0 -1 3030 0 0 0
+D3
+~
+~
+0 -1 3011 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3032
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3033 0 0 0
+D2
+~
+~
+0 -1 3031 0 0 0
+D3
+~
+~
+0 -1 3012 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3033
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3034 0 0 0
+D2
+~
+~
+0 -1 3032 0 0 0
+D3
+~
+~
+0 -1 3013 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3034
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3035 0 0 0
+D2
+~
+~
+0 -1 3033 0 0 0
+D3
+~
+~
+0 -1 3014 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3035
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3036 0 0 0
+D2
+~
+~
+0 -1 3034 0 0 0
+D3
+~
+~
+0 -1 3015 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3036
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3037 0 0 0
+D2
+~
+~
+0 -1 3035 0 0 0
+D3
+~
+~
+0 -1 3016 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3037
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3038 0 0 0
+D2
+~
+~
+0 -1 3036 0 0 0
+D3
+~
+~
+0 -1 3017 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3038
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3039 0 0 0
+D2
+~
+~
+0 -1 3037 0 0 0
+D3
+~
+~
+0 -1 3018 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3039
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3040 0 0 0
+D2
+~
+~
+0 -1 3038 0 0 0
+D3
+~
+~
+0 -1 3019 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3040
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3039 0 0 0
+D3
+~
+~
+0 -1 3020 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3041
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3042 0 0 0
+D1
+~
+~
+0 -1 3001 0 0 0
+S
+#3042
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3043 0 0 0
+D1
+~
+~
+0 -1 3002 0 0 0
+D2
+~
+~
+0 -1 3041 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3043
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3044 0 0 0
+D1
+~
+~
+0 -1 3003 0 0 0
+D2
+~
+~
+0 -1 3042 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3044
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3045 0 0 0
+D1
+~
+~
+0 -1 3004 0 0 0
+D2
+~
+~
+0 -1 3043 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3045
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3046 0 0 0
+D1
+~
+~
+0 -1 3005 0 0 0
+D2
+~
+~
+0 -1 3044 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3046
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3047 0 0 0
+D1
+~
+~
+0 -1 3006 0 0 0
+D2
+~
+~
+0 -1 3045 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3047
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3048 0 0 0
+D1
+~
+~
+0 -1 3007 0 0 0
+D2
+~
+~
+0 -1 3046 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3048
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3049 0 0 0
+D1
+~
+~
+0 -1 3008 0 0 0
+D2
+~
+~
+0 -1 3047 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3049
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3050 0 0 0
+D1
+~
+~
+0 -1 3009 0 0 0
+D2
+~
+~
+0 -1 3048 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3050
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3051 0 0 0
+D1
+~
+~
+0 -1 3010 0 0 0
+D2
+~
+~
+0 -1 3049 0 0 0
+D3
+~
+~
+0 -1 3062 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3051
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3052 0 0 0
+D1
+~
+~
+0 -1 3011 0 0 0
+D2
+~
+~
+0 -1 3050 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3052
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3053 0 0 0
+D1
+~
+~
+0 -1 3012 0 0 0
+D2
+~
+~
+0 -1 3051 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3053
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3054 0 0 0
+D1
+~
+~
+0 -1 3013 0 0 0
+D2
+~
+~
+0 -1 3052 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3054
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3055 0 0 0
+D1
+~
+~
+0 -1 3014 0 0 0
+D2
+~
+~
+0 -1 3053 0 0 0
+> entry_prog 25~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3055
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3056 0 0 0
+D1
+~
+~
+0 -1 3015 0 0 0
+D2
+~
+~
+0 -1 3054 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3056
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3057 0 0 0
+D1
+~
+~
+0 -1 3016 0 0 0
+D2
+~
+~
+0 -1 3055 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3057
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3058 0 0 0
+D1
+~
+~
+0 -1 3017 0 0 0
+D2
+~
+~
+0 -1 3056 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3058
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3059 0 0 0
+D1
+~
+~
+0 -1 3018 0 0 0
+D2
+~
+~
+0 -1 3057 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3059
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3060 0 0 0
+D1
+~
+~
+0 -1 3019 0 0 0
+D2
+~
+~
+0 -1 3058 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3060
+&gOn The Edge of Snakeway~
+&GYou have stepped onto the edge of Snakeway. There is very little
+room to walk on and the slightest missed step could send you
+falling back to the beginning of this long thing.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3020 0 0 0
+D2
+~
+~
+0 -1 3059 0 0 0
+> entry_prog 30~
+mea $n &YYou slip off of the edge of the Snakeway!
+mptransfer $n 3001
+mpat $n mpforce $n look
+~
+|
+S
+#3061
+&gThe Tail of Snakeway~
+&GYou have finally reached the end of Snakeway. There are five
+choices of directions that you can go to now. The famous teacher
+of the Kaioken technique, King Kai, is to the north. East, West,
+and South Kai's are in their respective directions, and the
+Supreme Kai's planet is above here, but is unreachable at the
+moment.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 686 0 0 0
+D1
+~
+~
+0 -1 3109 0 0 0
+D2
+~
+~
+0 -1 3092 0 0 0
+D3
+~
+~
+0 -1 3067 0 0 0
+D5
+~
+~
+0 -1 3020 0 0 0
+S
+#3062
+&cEntrance To Princess Snake's~
+&CA small path that leads from snakeway ends on the front steps
+of this small, yet glorious house. All of the trim on the sides
+of the house are in the shape of snakes, and the siding on the
+house looks like snake scale. Whoever owns this house must love
+snakes.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3064 0 0 0
+D1
+~
+~
+0 -1 3050 0 0 0
+D3
+~
+~
+0 -1 3063 0 0 0
+S
+#3063
+&cPrincess Snake's Place~
+&CThis house is much larger on the inside than it appears from
+the outside. All of the furniture and fixtures resemble snakes
+or are covered in snake scales. Who could ever love snakes this
+much.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3065 0 0 0
+D1
+~
+~
+0 -1 3062 0 0 0
+S
+#3064
+&cPrincess Snake's Place~
+&CThis house is much larger on the inside than it appears from
+the outside. All of the furniture and fixtures resemble snakes
+or are covered in snake scales. Who could ever love snakes this
+much.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3062 0 0 0
+D3
+~
+~
+0 -1 3065 0 0 0
+S
+#3065
+&cPrincess Snake's Place~
+&CThis house is much larger on the inside than it appears from
+the outside. All of the furniture and fixtures resemble snakes
+or are covered in snake scales. Who could ever love snakes this
+much. There is a silver snake scale curtain covering an exit
+to the west 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3064 0 0 0
+D2
+~
+~
+0 -1 3063 0 0 0
+D3
+~
+curtain~
+3 -1 3066 0 0 0
+R D 0 3065 3 1
+> leave_prog 100~
+close west
+mpat $n mea $n &cThe curtain closes behind you.
+~
+|
+S
+#3066
+&cPrincess Snake's Spa Room~
+&CThis room is suprisingly different from the rest of the house.
+There is normal tile and normal fixtures instead of snake scales
+covering everything. There are several spa beds and a large
+hot tub full of some bubbling liquid.
+~
+0 0 1 0
+D1
+~
+curtain~
+3 -1 3065 0 0 0
+R D 0 3066 1 1
+> leave_prog 100~
+close east
+mpat $n mea $n &cThe curtain closes behind you.
+~
+|
+S
+#3067
+West Quadrant Planet~
+&wYou have arrived on the West Quadrant Planet. The land on this
+planet seems fairly barren with little vegetation, and most
+of it seems to be scorched. There is an almost solid grey storm
+cloud in the sky around this planet, alive with thunder and
+lightning. To return to Snakeway, simply proclaim "&YReturn me&w".
+
+~
+0 0 1 0
+D3
+~
+~
+0 -1 3068 0 0 0
+> speech_prog p Return me~
+mer $n &Y$n has returned to snakeway!
+mptransfer $n 3020
+mpat $n mpforce $n look
+mpat $n mer $n &Y$n has arrived from the West Quadrant!
+~
+|
+S
+#3068
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.
+This is indeed a rare planet.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3067 0 0 0
+D7
+~
+~
+0 -1 3070 0 0 0
+D9
+~
+~
+0 -1 3069 0 0 0
+S
+#3069
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 3077 0 0 0
+D6
+~
+~
+0 -1 3068 0 0 0
+S
+#3070
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3071 0 0 0
+D8
+~
+~
+0 -1 3068 0 0 0
+S
+#3071
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3070 0 0 0
+D3
+~
+~
+0 -1 3072 0 0 0
+S
+#3072
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3073 0 0 0
+D1
+~
+~
+0 -1 3071 0 0 0
+D2
+~
+~
+0 -1 3074 0 0 0
+D3
+~
+~
+0 -1 3075 0 0 0
+S
+#3073
+A West Quadrant Inn~
+&wThe West Quadrant Inn feels very homey and comfortable. There
+are several couches in the lobby and a small bar adjacent to
+the lobby, so you can get your drink on. Relax and have a good
+time while you're here!
+~
+0 0 1 1
+D2
+~
+~
+0 -1 3072 0 0 0
+S
+#3074
+West Quadrant Training Facility~
+&wThere are several weight pressing machines around this place,
+and training mats line the floor. A small gravity converter
+sits in the far corner of the building, for gravity training.
+A man of unknown race stands in the center of the room instructing
+others on their skills.
+~
+0 0 1 68
+D0
+~
+~
+0 -1 3072 0 0 0
+S
+#3075
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 3072 0 0 0
+D3
+~
+~
+0 -1 3076 0 0 0
+S
+#3076
+West Quadrant Library~
+&wThe inside of this building's walls are lined with shelf upon
+shelf of books. There is probably a book in here for any subject
+someone could imagine. This seems like a good place to study up.
+
+~
+0 4 1 524288
+D1
+~
+~
+0 -1 3075 0 0 0
+S
+#3077
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 3069 0 0 0
+D3
+~
+~
+0 -1 3078 0 0 0
+D9
+~
+~
+0 -1 3083 0 0 0
+S
+#3078
+West Quadrant Planet~
+&wUpon further viewing of the planet, it is obvious this place
+has to be constantly ridden with lightning storms. Most of the
+terrain is destroyed from lightning strikes, and all of the
+buildings have lightning spires to gather energy for living.This
+is indeed a rare planet.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 3077 0 0 0
+D3
+~
+~
+0 -1 3079 0 0 0
+S
+#3079
+West Quadrant Dojo~
+&wThe dojo is equiped with several punching and speed bags. There
+are a few fighting rings in every room, as well as a sparring
+chamber on the top floor. Several unknown alien races ignore
+your presense and continue their powerlevel training.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 3078 0 0 0
+D4
+~
+~
+0 -1 3080 0 0 0
+R M 0 3003 1 3079
+S
+#3080
+West Quadrant Dojo~
+&wThe dojo is equiped with several punching and speed bags. There
+are a few fighting rings in every room, as well as a sparring
+chamber on the top floor. Several unknown alien races ignore
+your presense and continue their powerlevel training.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 3081 0 0 0
+D5
+~
+~
+0 -1 3079 0 0 0
+R M 0 3004 1 3080
+S
+#3081
+West Quadrant Dojo~
+&wThe dojo is equiped with several punching and speed bags. There
+are a few fighting rings in every room, as well as a sparring
+chamber on the top floor. Several unknown alien races ignore
+your presense and continue their powerlevel training.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 3082 0 0 0
+D5
+~
+~
+0 -1 3080 0 0 0
+R M 0 3005 1 3081
+S
+#3082
+West Quadrant Dojo~
+&wThe dojo is equiped with several punching and speed bags. There
+are a few fighting rings in every room, as well as a sparring
+chamber on the top floor. Several unknown alien races ignore
+your presense and continue their powerlevel training.
+~
+0 4 1 2
+D1
+~
+~
+0 -1 3081 0 0 0
+R M 0 3006 1 3082
+  R E 0 3003 1 12
+R M 0 3007 1 3082
+S
+#3083
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.
+You are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 3084 0 0 0
+D2
+~
+~
+0 -1 3086 0 0 0
+D6
+~
+~
+0 -1 3077 0 0 0
+> entry_prog 25~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3084
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 3085 0 0 0
+D2
+~
+~
+0 -1 3087 0 0 0
+D3
+~
+~
+0 -1 3083 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3085
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 3088 0 0 0
+D3
+~
+~
+0 -1 3084 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3086
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3083 0 0 0
+D1
+~
+~
+0 -1 3087 0 0 0
+D2
+~
+~
+0 -1 3089 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3087
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.
+There is a large tree standing in the center of the field, that
+is untouched by the lightning. Actually the tree seems to be
+emiting an electrical charge itself.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3084 0 0 0
+D1
+~
+~
+0 -1 3088 0 0 0
+D2
+~
+~
+0 -1 3090 0 0 0
+D3
+~
+~
+0 -1 3086 0 0 0
+R M 0 3001 1 3087
+R O 0 3001 1 3087
+> entry_prog 50~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+> emote_prog p picks~
+if isflying($n)
+mea $n &WYou reach into the tree and pluck a piece of fruit.
+mea $n &WYou notice that your hair begins standing up from the intense electrical charge!
+mer $n &W$n reaches into the tree and takes a piece of fruit.
+mer $n &W$s hair begins standing straight up from the intense electrical charge!
+mpforce 'invis afterlife worker' mpoload 3002
+mpforce 'invis afterlife worker' give fruit $n
+else
+mea $n &wYou just can't reach it!
+endif
+~
+|
+S
+#3088
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3085 0 0 0
+D2
+~
+~
+0 -1 3091 0 0 0
+D3
+~
+~
+0 -1 3087 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3089
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3086 0 0 0
+D1
+~
+~
+0 -1 3090 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3090
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3087 0 0 0
+D1
+~
+~
+0 -1 3091 0 0 0
+D3
+~
+~
+0 -1 3089 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3091
+A Small Lightning Field~
+&wYou have stumbled into a lighting strike field. The ground
+is almost constantly being struck by large bolts of electricity.You
+are the tallest thing around, so you should get out of here
+before you are the next thing struck.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3088 0 0 0
+D3
+~
+~
+0 -1 3090 0 0 0
+> entry_prog 100~
+if isimmort($n)
+mpdonothing
+else
+mea $n &YThe flash of the lightning blinds and confuses your senses momentarily!
+mpscatter $n 3084 3091
+endif
+~
+|
+S
+#3092
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet. To return to Snakeway, simply proclaim
+"&YReturn me&O" 
+~
+0 4 1 0
+D8
+~
+~
+0 -1 3094 0 0 0
+D9
+~
+~
+0 -1 3093 0 0 0
+> speech_prog p Return me~
+mer $n &Y$n has returned to snakeway!
+mptransfer $n 3020
+mpat $n mpforce $n look
+mpat $n mer $n &Y$n has arrived from the South Quadrant!
+~
+|
+S
+#3093
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 3092 0 0 0
+D9
+~
+~
+0 -1 3095 0 0 0
+S
+#3094
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 3092 0 0 0
+D8
+~
+~
+0 -1 3096 0 0 0
+S
+#3095
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 3097 0 0 0
+D6
+~
+~
+0 -1 3093 0 0 0
+S
+#3096
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 3098 0 0 0
+D7
+~
+~
+0 -1 3094 0 0 0
+S
+#3097
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3095 0 0 0
+D8
+~
+~
+0 -1 3099 0 0 0
+S
+#3098
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 3096 0 0 0
+D9
+~
+~
+0 -1 3100 0 0 0
+S
+#3099
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 3097 0 0 0
+D8
+~
+~
+0 -1 3101 0 0 0
+S
+#3100
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 3098 0 0 0
+D9
+~
+~
+0 -1 3101 0 0 0
+S
+#3101
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3102 0 0 0
+D6
+~
+~
+0 -1 3100 0 0 0
+D7
+~
+~
+0 -1 3099 0 0 0
+S
+#3102
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3101 0 0 0
+D6
+~
+~
+0 -1 3104 0 0 0
+D7
+~
+~
+0 -1 3103 0 0 0
+S
+#3103
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3105 0 0 0
+D8
+~
+~
+0 -1 3102 0 0 0
+S
+#3104
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3106 0 0 0
+D9
+~
+~
+0 -1 3102 0 0 0
+S
+#3105
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3103 0 0 0
+D6
+~
+~
+0 -1 3107 0 0 0
+S
+#3106
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3104 0 0 0
+D7
+~
+~
+0 -1 3107 0 0 0
+S
+#3107
+&CSouth Quadrant Planet~
+&OThis southern quadrant planet is covered in all types of vegetation.
+The sizes of some of these plants is almost unreal. There is
+almost nothing visible on this planet other than the various
+plants, but you can barely make out the top of a dwelling on
+the center of the planet.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3108 0 0 0
+D8
+~
+~
+0 -1 3106 0 0 0
+D9
+~
+~
+0 -1 3105 0 0 0
+S
+#3108
+&CSouth Quadrant Dwelling~
+&OThe dwelling is filled with potted plants and the walls are
+made from greenhouse glass. It is very humid and damp, perfect
+for germination. A tall, built kai tends over some of the plants.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3107 0 0 0
+R M 0 3008 1 3108
+E
+riddle~
+&z.
+&RA small package full of power,
+used in this realm more than every hour!
+
+Utilized too slowly, and I will fall,
+Utilized too hastily, and you will lose the brawl!
+
+What am I?
+~
+S
+#3109
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on. To return to Snakeway, simply proclaim
+"&YReturn me&B".
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3110 0 0 0
+> speech_prog p Return me~
+mer $n &Y$n has returned to snakeway!
+mptransfer $n 3020
+mpat $n mpforce $n look
+mpat $n mer $n &Y$n has arrived from the East Quadrant!
+~
+|
+S
+#3110
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3111 0 0 0
+D3
+~
+~
+0 -1 3109 0 0 0
+S
+#3111
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3112 0 0 0
+D2
+~
+~
+0 -1 3114 0 0 0
+D3
+~
+~
+0 -1 3110 0 0 0
+S
+#3112
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3113 0 0 0
+D2
+~
+~
+0 -1 3111 0 0 0
+S
+#3113
+&BEast Quadrant Kai's Home~
+&BThis dwelling is very well decorated, unlike the places the
+other quadrant kai's stay in. There are several fish aquarium's
+full of fish of every color, size, and shape all over the place.
+This kai must love the life aquatic.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 3112 0 0 0
+R M 0 3009 1 3113
+S
+#3114
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3111 0 0 0
+D1
+~
+~
+0 -1 3118 0 0 0
+D3
+~
+~
+0 -1 3115 0 0 0
+S
+#3115
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3114 0 0 0
+D2
+~
+~
+0 -1 3117 0 0 0
+D3
+~
+~
+0 -1 3116 0 0 0
+S
+#3116
+&BEast Quadrant Inn~
+&BThe East Quadrant Inn feels very homey and comfortable. There
+are several couches in the lobby and a small bar adjacent to
+the lobby, so you can get your drink on. Relax and have a good
+time while you're here!
+~
+0 0 1 1
+D1
+~
+~
+0 -1 3115 0 0 0
+S
+#3117
+&BEast Quadrant Gravity Trainer~
+&BThis small building has a gravity manipulation machine in the
+center of the room. It has a few nobs and dials that allow you
+to adjust the gravity to your personal favorite gravity to train
+in! Don't set it to high, or you will go squish!
+~
+0 0 1 4
+D0
+~
+~
+0 -1 3115 0 0 0
+S
+#3118
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3120 0 0 0
+D2
+~
+~
+0 -1 3119 0 0 0
+D3
+~
+~
+0 -1 3114 0 0 0
+S
+#3119
+&BEast Quadrant Library~
+&BThe inside of this building's walls are lined with shelf upon
+shelf of books. There is probably a book in here for any subject
+someone could imagine. This seems like a good place to study
+up.
+~
+0 0 1 524288
+D0
+~
+~
+0 -1 3118 0 0 0
+S
+#3120
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3121 0 0 0
+D3
+~
+~
+0 -1 3118 0 0 0
+S
+#3121
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 3122 0 0 0
+D2
+~
+~
+0 -1 3120 0 0 0
+S
+#3122
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 3123 0 0 0
+D2
+~
+~
+0 -1 3121 0 0 0
+S
+#3123
+&BEast Quadrant Planet~
+&BThis planet is virtually a water world. Everything is submersed
+in water. Even the dwellings are halfway under water. There
+are small paths that have risen out of the water for non-aquatic
+beings to travel on.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 3122 0 0 0
+D5
+~
+~
+0 -1 3124 0 0 0
+S
+#3124
+&BUnderwater~
+&BYou're Underwater...
+~
+0 0 1 0
+D4
+~
+~
+0 -1 3123 0 0 0
+D5
+~
+~
+0 -1 3125 0 0 0
+S
+#3125
+&BUnderwater~
+&BYou're Underwater...
+~
+0 0 1 0
+D4
+~
+~
+0 -1 3124 0 0 0
+D5
+~
+~
+0 -1 3126 0 0 0
+S
+#3126
+&BUnderwater~
+&BYou're Underwater, and it's getting too dark to see!
+~
+0 0 1 0
+D4
+~
+~
+0 -1 3125 0 0 0
+D5
+~
+~
+0 -1 3127 0 0 0
+S
+#3127
+&BUnderwater~
+&BYou're Underwater...
+~
+0 1 1 0
+D1
+~
+~
+2048 -1 3128 0 0 0
+D4
+~
+~
+0 -1 3126 0 0 0
+S
+#3128
+&BUnderwater~
+&BYou're Underwater...
+~
+0 1 1 0
+D3
+~
+~
+2048 -1 3127 0 0 0
+D5
+~
+~
+2048 -1 3129 0 0 0
+S
+#3129
+&BUnderwater~
+&BYou're Underwater...
+~
+0 1 1 0
+D4
+~
+~
+2048 -1 3128 0 0 0
+D5
+~
+~
+2048 -1 3130 0 0 0
+S
+#3130
+&BUnderwater~
+&BYou're Underwater...
+~
+0 1 1 0
+D3
+~
+~
+2048 -1 3132 0 0 0
+D4
+~
+~
+2048 -1 3129 0 0 0
+S
+#3131
+&BUnderwater~
+~
+0 4 1 0
+S
+#3132
+&BUnderwater~
+&BYou're Underwater...
+~
+0 1 1 0
+D1
+~
+~
+2048 -1 3130 0 0 0
+D5
+~
+~
+2048 -1 3133 0 0 0
+S
+#3133
+&BThe Bottom of the Water~
+&BYou're Underwater...
+~
+0 1 1 0
+D4
+~
+~
+2048 -1 3132 0 0 0
+R M 0 3010 1 3133
+S
+#3134
+Floating in a void~
+~
+0 4 1 0
+S
+#3135
+Floating in a void~
+~
+0 4 1 0
+S
+#3136
+Floating in a void~
+~
+0 4 1 0
+S
+#3137
+Floating in a void~
+~
+0 4 1 0
+S
+#3138
+Floating in a void~
+~
+0 4 1 0
+S
+#3139
+Floating in a void~
+~
+0 4 1 0
+S
+#3140
+Floating in a void~
+~
+0 4 1 0
+S
+#3141
+Floating in a void~
+~
+0 4 1 0
+S
+#3142
+Floating in a void~
+~
+0 4 1 0
+S
+#3143
+Floating in a void~
+~
+0 4 1 0
+S
+#3144
+Floating in a void~
+~
+0 4 1 0
+S
+#3145
+Floating in a void~
+~
+0 4 1 0
+S
+#3146
+Floating in a void~
+~
+0 4 1 0
+S
+#3147
+Floating in a void~
+~
+0 4 1 0
+S
+#3148
+Floating in a void~
+~
+0 4 1 0
+S
+#3149
+Floating in a void~
+~
+0 4 1 0
+S
+#3150
+Floating in a void~
+~
+0 4 1 0
+S
+#3300
+Last Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

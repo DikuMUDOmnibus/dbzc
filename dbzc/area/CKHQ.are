@@ -1,0 +1,1848 @@
+#AREA   CKHQ~
+
+
+
+#VERSION 2
+#AUTHOR Arano~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+128
+
+#CONTINENT continent1~
+
+#ECONOMY 0 215262122
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8301
+first_obj~
+a newly created first_obj~
+Some god abandoned a newly created first_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8306
+knight~
+A Knight~
+&WA Knight stands here protecting the headquarters.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1200000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in the Dock Area!!!
+say You will suffer the pain of my sword!!!
+mpkill $n
+~
+|
+#8317
+Shopkeeper~
+A Old Shopkeeper~
+&WA Old Shopkeeper seems to be selling stuff here.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+yell $n is on the shops!!! Knights!! Draw your swords!!
+say Enjoy your visit while u can!
+~
+|
+#8321
+boots~
+a newly created boots~
+Some god abandoned a newly created boots here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8332
+dummy~
+A dummy~
+&WA training dummy stands here waiting to be used.
+~
+~
+1073741825 0 C
+1 0 0 0d0+0 0d0+0
+0 75000000
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8333
+Dummy~
+A dummy~
+&WA training dummy stands here waiting to be used.
+~
+~
+1073741825 0 C
+1 0 0 0d0+0 0d0+0
+0 5000000
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8333
+~
+|
+#8334
+Dummy~
+A dummy~
+&WA training dummy stands here waiting to be used.
+~
+~
+1073741825 0 C
+1 0 0 0d0+0 0d0+0
+0 10000000
+112 112 0
+8 8 8 8 8 8 8
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8334
+~
+|
+#8342
+Knight~
+A Knight~
+&WA Black Knight stands here protecting the headquarters.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1200000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in Level 1!!!
+say Now suffer my anger!!!
+mpkill $n
+~
+|
+#8346
+Berserk Knight~
+A Berserk Knight~
+&WA Berserk Knight stands here protecting the headquarters.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in the Second Level!!!
+say Its time to finish you!!!
+mpkill $n
+~
+|
+#8351
+Hooded Knight~
+A Hooded Knight~
+&WA Hooded Knight stands here protecting the headquarters.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in the Third Level!!!
+say Prepare to lose!!!
+mpkill $n
+~
+|
+#8358
+Paladin~
+A Paladin~
+&WA Mystic paladin stands here blazing his sword.
+~
+~
+3&8 0 C
+1 0 0 0d0+0 0d0+0
+0 1000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n Is on the Main Entrance!! Grab your swords!!!
+say Now suffer the pain of my broadsword!!!
+mpkill $n
+~
+|
+#8359
+Silver Knight~
+A Knight~
+&WA Silver Knight stands here protecting the headquarters.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1000000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n Is on the Main Entrance!! Grab your swords!!!
+say You will suffer the pain of my sword!!!
+mpkill $n
+~
+|
+#8374
+Knight~
+A Knight~
+&WA Black Knight stands here protecting the headquarters.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1200000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in Level 1!!!
+say Now suffer my anger!!!
+mpkill $n
+~
+|
+#8450
+last_obj~
+a newly created last_obj~
+Some god abandoned a newly created last_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#8301
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#8317
+A Dark BroadSword of Chaos~
+&WA &R(&zDark&R) &CBroadsword &Wof &rChaos&w~
+Someone has left a chaotic broadsword here.~
+~
+5 0 8193
+0 177 145 4 0 1
+1 54855 5485
+#8318
+Reinforced Pants Chaos~
+&g(&zReinforced&g) &CPants&w~
+A pair of pants have been dropped here.~
+~
+9 0 33
+1 110 0 4
+3320 73248 7324
+#8319
+A Helmet of Doom~
+&WA &zHelmet &Wof &rDoom&w~
+A doom helmet seems to lie here.~
+~
+9 0 17
+2 72 0 4
+560 39452 3945
+#8320
+A Metallic Wristband~
+&c(&YGlowing&c) &WMetallic Wristband&w~
+Someone has dropped some metallic wristbands around here.~
+~
+9 0 4097
+2 0 0 4
+120 57452 5745
+#8321
+A Pair of Ignited Flaming Boots~
+&c(&YFlaming&c) &rIgnited &OBoots&w~
+A pair of leather boots are lying here.~
+~
+9 0 65
+2 49 0 4
+1 24187 2418
+#8360
+key~
+A Rusted Ancient Key~
+A key that looks like a sword lies here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#8450
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#8301
+First Room~
+~
+0 4 1 0
+R M 0 8301 1 8301
+R O 0 8301 1 8301
+S
+#8302
+A Docking Base~
+You stand in the docking base of the Chaos Knights headquarters.
+The docking port seems to be very dark and mystical at the same
+time. Spaceships seem to come now and then bringing new members
+of the clan. To the west a it seems to be a dark corridor driving
+towards the hq.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8303 0 0 0
+S
+#8303
+Dark Corridor~
+You enter a long, narrow and dark corridor which seems to drive
+deeper into the headquarters. The dark corridor seems to be
+made out of stone walls and wood tables, the floor seems to
+be missing some parts. The corridor seems to continue to the
+west.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8302 0 0 0
+D3
+~
+~
+0 -1 8304 0 0 0
+S
+#8304
+Dark Corridor~
+You enter a long, narrow and dark corridor which seems to drive
+deeper into the headquarters. The dark corridor seems to be
+made out of stone walls and wood tables, the floor seems to
+be missing some parts. The corridor seems to continue to the
+west.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8303 0 0 0
+D3
+~
+~
+0 -1 8305 0 0 0
+S
+#8305
+An Intersection~
+The surrondings seem to be a bit different now. You notice a
+intersection dividing the paths of the headquarters. The path
+seems to split into two new directions. To the west the corridor
+seems to end and to the south the beginning of a new path can
+be seen from here.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8304 0 0 0
+D2
+~
+~
+0 -1 8307 0 0 0
+D3
+~
+~
+0 -1 8306 0 0 0
+S
+#8306
+Dark Corridor~
+You enter a long, narrow and dark corridor which seems to drive
+deeper into the headquarters. The dark corridor seems to be
+made out of stone walls and wood tables,the floor seems to be
+missing some parts. To the east you can go back to the intersection.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8305 0 0 0
+R M 0 8306 2 8306
+R M 0 8306 2 8306
+S
+#8307
+Before a Path~
+As you enter the room the beginning of a new path can be seen.
+The path seems to be crowded of the protectors of the clan that
+might not let you go any further. To the south the path seems
+to start.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8305 0 0 0
+D2
+~
+~
+0 -1 8308 0 0 0
+S
+#8308
+Path to the Gate~
+From now on the path seems to guide towards a gate. The path
+seems to be constructed by the old knights who created the headquarters,
+golden simbols can be seen imprinted in the walls. The path
+seems to continue to the west.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8307 0 0 0
+D3
+~
+~
+0 -1 8309 0 0 0
+S
+#8309
+Path to the Gate~
+From now on the path seems to guide towards a gate. The path
+seems to be constructed by the old knights who created the headquarters,
+golden simbols can be seen imprinted in the walls. The path
+seems to continue to the west.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8308 0 0 0
+D3
+~
+~
+0 -1 8310 0 0 0
+R M 0 8306 4 8309
+R M 0 8306 4 8309
+S
+#8310
+Path to the Gate~
+From now on the path seems to guide towards a gate. The path
+seems to be constructed by the old knights who created the headquarters,
+golden simbols can be seen imprinted in the walls. The path
+seems to continue to the west.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8311 0 0 0
+D1
+~
+~
+0 -1 8309 0 0 0
+S
+#8311
+Before a Gate~
+Your standing before the main gate of the headquarter. The gate
+is very talls and its made out of golden bars which its very
+well protected by the knights around here. Some inscriptions can be
+seen on the walls reading &W''go to the chaos''&c.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8310 0 0 0
+> speech_prog p go to the chaos~
+if isfight ($n)
+mpdonothing
+else
+mea $n _yel You step through the gate.
+mer $n _yel $n steps through the gate.
+mptransfer $n 8341
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8312
+Clan Area - Main Room~
+Your standing in the main room of the clan area. Your surroundings
+seems to be full with encripted simbols around the walls. To
+the west some yells of fighters can be heard from the sparring
+chambers, below lies the transporter room and climbing up lies
+the clan shop.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8315 0 0 0
+D2
+~
+~
+7 8360 8360 0 0 0
+D3
+~
+~
+0 -1 8313 0 0 0
+D4
+~
+~
+0 -1 8317 0 0 0
+D5
+~
+~
+0 -1 8318 0 0 0
+R D 0 8312 2 2
+S
+#8313
+Clan Area - Towards the Sparring Chambers~
+As you enter the room you notice a way towards the sparring chambers
+of the headquarters, where people use to spar each other in
+order to test their strenght, skills and abilities with other
+fighters. The way seems to continue to the west.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8312 0 0 0
+D3
+~
+~
+0 -1 8339 0 0 0
+S
+#8314
+Clan Area - Training Section~
+Your standing at the training section of the headquarter. This
+area seems to be made so the knights of the clan train their
+skills and abilities, improve their power and strenght and so
+they gain on powerlevel. The training section seems to have
+everything that you need to train.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8319 0 0 0
+E
+sign~
+&z=============================================================================
+&YTo go back to the main room simply type:
+
+&CTake me back
+
+&z=============================================================================
+~
+> speech_prog p take me back~
+if isfight ($n)
+mpdonothing
+else
+mea $n _yel You step through the transporter.
+mer $n _yel $n steps through the transporter.
+mptransfer $n 8312
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8315
+Clan Area - Briefting Room~
+Your standing before the briefting room of the headquarter of
+the chaos knights, this is the place where they plan their strategy
+and their ideas for battle to achieve success. To the south
+lies the main room.
+~
+0 0 1 0
+D1
+~
+~
+3 -1 8361 0 0 0
+D2
+~
+~
+0 -1 8312 0 0 0
+R D 0 8315 1 1
+S
+#8316
+Floating in a void~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8312 0 0 0
+S
+#8317
+Clan Area - Shop~
+As you enter the room you notice a old shopkeeper standing here.
+This seems to be the place where the knights from the clan Chaos
+Knights buy their equipment. Theres a great diversity in equipment
+you should take a look.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8312 0 0 0
+R M 0 8317 1 8317
+  R G 1 8317 1
+  R G 1 8319 1
+  R G 1 8321 1
+  R G 1 8320 1
+  R G 1 8318 1
+  R G 1 6 1
+S
+#8318
+Transporter Room~
+This is the Transporter Room of the HQ, where you can transport to
+certain parts of the HQ.  This is the only way out of the clan area if you
+wish to leave it. In the corner of this room, you see a sign that tells you what
+to say at the transporter. Maybe you should take a look.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 8312 0 0 0
+E
+sign~
+&z =============================================================================
+&YThe folling commands can be used on the transporter:
+&CDock
+Level 1
+Training
+Offices
+Meeting Room
+&z=============================================================================
+~
+> speech_prog p dock~
+if isfight ($n)
+mpdonothing
+else
+mea $n _yel &YYou step through the transporter.
+mer $n _yel &Y$n steps through the transporter.
+mptransfer $n 8302
+mpat $n mer $n &Y$n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8319
+Clan Area - Training Section~
+Your standing at the training section of the headquarter. This
+area seems to be made so the knights of the clan train their
+skills and abilities, improve their power and strenght and so
+they gain on powerlevel. The training section seems to have
+everything that you need to train. To the west lies the mob
+section and to the east the utility section where u can find
+the gravity, healing and training room.
+~
+0 0 7 0
+D1
+~
+~
+0 -1 8322 0 0 0
+D2
+~
+~
+0 -1 8314 0 0 0
+D3
+~
+~
+0 -1 8320 0 0 0
+S
+#8320
+Clan Area - Towards the Mob Section~
+As you enter the room you notice that your heading towards the
+mob section. The mob section seems to be the place where fighters
+train with the mobs to gain on power and on strenght. To the
+west lies the mob training section.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8319 0 0 0
+D3
+~
+~
+0 -1 8321 0 0 0
+S
+#8321
+Clan Area - Mob Training Section~
+Your standing on the mob training section, here you can train
+with the dummys in order to achieve new strenght and power.
+To the south lies the dummys that you can train with. You seem
+to shiver as a cold chill hits your body.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8320 0 0 0
+D2
+~
+~
+0 -1 8329 0 0 0
+S
+#8322
+Clan Area - Towards the Utility Section~
+As you enter the room you notice a small path towards the utility
+section of the headquarters. On this section you will be able
+to train on the gravity room, train your stats on the training
+room and heal your wounds on the healing room.
+~
+0 0 7 0
+D1
+~
+~
+0 -1 8323 0 0 0
+D3
+~
+~
+0 -1 8319 0 0 0
+S
+#8323
+Clan Area - Utility Section~
+Your standing on the utility section, where you can achieve more
+strenght and power by training on the gravity room. This section
+seems to have everything that you need to train on a daily basis,
+from healing to a training room.
+~
+0 0 7 0
+D2
+~
+~
+0 -1 8324 0 0 0
+D3
+~
+~
+0 -1 8322 0 0 0
+S
+#8324
+Clan Area - Utility Section~
+Your standing on the utility section, where you can achieve more
+strenght and power by training on the gravity room. This section
+seems to have everything that you need to train on a daily basis,
+from healing to a training room.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8323 0 0 0
+D2
+~
+~
+0 -1 8325 0 0 0
+S
+#8325
+Clan Area - Utility Section~
+Your standing on the utility section, where you can achieve more
+strenght and power by training on here. To the south lies the
+healing room where you can heal your wounds of battle. To the
+west lies the training room where you can train your stats and
+practice your skills and to the east lies the gravity room.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8324 0 0 0
+D1
+~
+~
+0 -1 8327 0 0 0
+D2
+~
+~
+0 -1 8328 0 0 0
+D3
+~
+~
+0 -1 8326 0 0 0
+S
+#8326
+Clan Area - Training Room~
+As you enter the room you notice some warriors training their
+skills and abilities here. The room seems to be made to reach
+a high level of meditation and patience. A trainer seems to
+be here ready to teach the new comers.
+~
+0 0 7 64
+D1
+~
+~
+0 -1 8325 0 0 0
+R M 0 502 3 8326
+S
+#8327
+Clan Area - Gravity Room~
+As you walk into this training room, you can clearly see a machine
+with a very loud humming sound. Above the machine it seems to
+have some numbers on it. As you enter the room you start to
+feel your entire body heavier and heavier.
+
+&C***YOU COULD DIE IF YOU SET THE GRAVITY TOO HIGH ***
+~
+0 0 7 4
+D3
+~
+~
+0 -1 8325 0 0 0
+S
+#8328
+Clan Area - Healing Room~
+As you enter the room you notice some healing tanks along the
+way. As you look closer some of the fighters inside the tanks
+seem to recover little by little. Thousands of healing tanks
+are added here maybe you should use one of them.
+~
+0 0 7 1
+D0
+~
+~
+0 -1 8325 0 0 0
+S
+#8329
+Clan Area - Mob Training Section~
+Your standing on the mob training section, here you can train
+with the dummys in order to achieve new strenght and power.To
+the south lies the dummys that you can train with. To the east
+lies a training dummy.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8321 0 0 0
+D1
+~
+~
+0 -1 8333 0 0 0
+D2
+~
+~
+0 -1 8330 0 0 0
+S
+#8330
+Clan Area - Mob Training Section~
+Your standing on the mob training section, here you can train
+with the dummys in order to achieve new strenght and power.To
+the south lies the dummys that you can train with. To the west
+lies a training dummy.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8329 0 0 0
+D2
+~
+~
+0 -1 8331 0 0 0
+D3
+~
+~
+0 -1 8334 0 0 0
+S
+#8331
+Clan Area - Mob Training Section~
+Your standing on the mob training section, here you can train
+with the dummys in order to achieve new strenght and power.To
+the south lies the dummys that you can train with. To the west
+and east lie some training dummys.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8330 0 0 0
+D1
+~
+~
+0 -1 8336 0 0 0
+D2
+~
+~
+0 -1 8332 0 0 0
+D3
+~
+~
+0 -1 8335 0 0 0
+S
+#8332
+Clan Area - Mob Training Room~
+As you enter the room you notice some lifting bars and accesories
+attached to the walls. The floor seems to be made out of foam
+so it helps the training. A training dummy seems to be here
+waiting to train with you.
+~
+0 0 7 0
+D0
+~
+~
+0 -1 8331 0 0 0
+R M 0 8332 1 8332
+S
+#8333
+Clan Area - Mob Training Room~
+As you enter the room you notice some lifting bars and accesories
+attached to the walls. The floor seems to be made out of foam
+so it helps the training. A training dummy seems to be here
+waiting to train with you.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8329 0 0 0
+R M 0 8333 1 8333
+S
+#8334
+Clan Area - Mob Training Room~
+As you enter the room you notice some lifting bars and accesories
+attached to the walls. The floor seems to be made out of foam
+so it helps the training. A training dummy seems to be here
+waiting to train with you.
+~
+0 0 7 0
+D1
+~
+~
+0 -1 8330 0 0 0
+R M 0 8334 1 8334
+S
+#8335
+Clan Area - Mob Training Room~
+As you enter the room you notice some lifting bars and accesories
+attached to the walls. The floor seems to be made out of foam
+so it helps the training. A training dummy seems to be here
+waiting to train with you.
+~
+0 0 7 0
+D1
+~
+~
+0 -1 8331 0 0 0
+R M 0 8334 3 8335
+S
+#8336
+Clan Area - Mob Training Room~
+As you enter the room you notice some lifting bars and accesories
+attached to the walls. The floor seems to be made out of foam
+so it helps the training. A training dummy seems to be here
+waiting to train with you.
+~
+0 0 7 0
+D3
+~
+~
+0 -1 8331 0 0 0
+R M 0 8334 3 8336
+S
+#8337
+Clan Area - Towards the Sparring Chambers~
+As you enter the room you notice a way towards the sparring chambers
+of the headquarters, where people use to spar each other in
+order to test their strenght, skills and abilities with other
+fighters. The way seems to continue to the west.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8338 0 0 0
+D7
+~
+~
+0 -1 8339 0 0 0
+S
+#8338
+Clan Area - Sparring Chamber #1~
+The room seems to be filled with everything a warrior needs to
+test their strenght. The floor seems to be made out of foam
+so it cushons the fighters weight when they fell. Other additaments
+since to be around the room.
+~
+0 0 1 2
+D0
+~
+~
+0 -1 8340 0 0 0
+D1
+~
+~
+0 -1 8337 0 0 0
+S
+#8339
+Clan Area - Towards the Sparring Chambers~
+As you enter the room you notice a way towards the sparring chambers
+of the headquarters, where people use to spar each other in
+order to test their strenght, skills and abilities with other
+fighters. The way seems to continue to the southeast.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8313 0 0 0
+D8
+~
+~
+0 -1 8337 0 0 0
+S
+#8340
+Clan Area - Sparring Chamber #2~
+The room seems to be filled with everything a warrior needs to
+test their strenght. The floor seems to be made out of foam
+so it cushons the fighters weight when they fell. Other additaments
+since to be around the room.
+~
+0 0 1 2
+D2
+~
+~
+0 -1 8338 0 0 0
+S
+#8341
+Castle Catacomb - Level 1~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the first level of the castle
+catacombs.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8342 0 0 0
+S
+#8342
+Castle Catacomb - Level 1~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the first level of the castle
+catacombs.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 8341 0 0 0
+D3
+~
+~
+0 -1 8343 0 0 0
+D4
+~
+~
+0 -1 8371 0 0 0
+R M 0 8342 2 8342
+S
+#8343
+Castle Catacomb - Level 1~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the first level of the castle
+catacombs.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8342 0 0 0
+D2
+~
+~
+0 -1 8375 0 0 0
+D3
+~
+~
+0 -1 8374 0 0 0
+D4
+~
+~
+0 -1 8344 0 0 0
+S
+#8344
+Castle Catacomb - Level Clear~
+You have entered to a new surroundings, everything seems to be
+clearly now, you notice that from this room you can gain access
+to the second level of the castle catacombs, to do so, you can
+level clear into the level.
+~
+0 4 1 0
+D5
+~
+~
+0 -1 8343 0 0 0
+R M 0 8342 2 8344
+> speech_prog p level clear~
+if isfight($n)
+mpdonothing
+mpechoat $n !!Finish Your Fighting First!
+else
+mea $n _yel You step through the portal.
+mer $n _yel $n steps through the portal.
+mptransfer $n 8345
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8345
+Castle Catacomb - Level 2~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the second level of the castle
+catacombs.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8347 0 0 0
+D3
+~
+~
+0 -1 8346 0 0 0
+D5
+~
+~
+0 -1 8342 0 0 0
+S
+#8346
+Castle Catacomb - Level 2~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the second level of the castle
+catacombs.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8348 0 0 0
+D1
+~
+~
+0 -1 8345 0 0 0
+R M 0 8346 2 8346
+S
+#8347
+Castle Catacomb - Level 2~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the second level of the castle
+catacombs.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8345 0 0 0
+S
+#8348
+Castle Catacomb - Level 2~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the second level of the castle
+catacombs.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 8346 0 0 0
+D3
+~
+~
+0 -1 8349 0 0 0
+S
+#8349
+Castle Catacomb - Level Clear~
+You have entered to a new surroundings, everything seems to be
+clearly now, you notice that from this room you can gain access
+to the third level of the castle catacombs, to do so, you can
+level clear into the level.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8348 0 0 0
+R M 0 8346 2 8349
+> speech_prog p level clear~
+if isfight($n)
+mpdonothing
+mpechoat $n !!Finish Your Fighting First!
+else
+mea $n _yel You step through the portal.
+mer $n _yel $n steps through the portal.
+mptransfer $n 8350
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8350
+Castle Catacomb - Level 3~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the third level of the castle
+catacombs.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8351 0 0 0
+S
+#8351
+Castle Catacomb - Level 3~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the third level of the castle
+catacombs.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8352 0 0 0
+D3
+~
+~
+0 -1 8353 0 0 0
+D4
+~
+~
+0 -1 8350 0 0 0
+R M 0 8351 2 8351
+S
+#8352
+Castle Catacomb - Level 3~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the third level of the castle
+catacombs.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8351 0 0 0
+D5
+~
+~
+0 -1 8371 0 0 0
+S
+#8353
+Castle Catacomb - Level 3~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the third level of the castle
+catacombs.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8354 0 0 0
+D1
+~
+~
+0 -1 8351 0 0 0
+D4
+~
+~
+0 -1 8373 0 0 0
+D6
+~
+~
+0 -1 8343 0 0 0
+D7
+~
+~
+0 -1 8347 0 0 0
+S
+#8354
+Castle Catacomb - Level Clear~
+You have entered to a new surroundings, everything seems to be
+clearly now, you notice that from this room you can gain access
+to the inner part of the headquarter, to do so, you can level
+clear into the level.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 8353 0 0 0
+R M 0 8351 2 8354
+> speech_prog p level clear~
+if isfight($n)
+mpdonothing
+mpechoat $n !!Finish Your Fighting First!
+else
+mea $n _yel You step through the portal.
+mer $n _yel $n steps through the portal.
+mptransfer $n 8355
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8355
+Clan Area - Before a Path~
+This is the path towards the entrance that seems to be very well
+protected. The path seems to be made out of rough materials
+like stones, bricks and wood. To the north the path seems to
+continue to the main entrance.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8356 0 0 0
+S
+#8356
+Clan Area - Path towards the Entrance~
+This is the path towards the entrance that seems to be very well
+protected. The path seems to be made out of rough materials
+like stones, bricks and wood. To the north the path seems to
+continue to the main entrance.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8357 0 0 0
+D2
+~
+~
+0 -1 8355 0 0 0
+S
+#8357
+Clan Area - Path towards the Entrance~
+This is the path towards the entrance that seems to be very well
+protected. The path seems to be made out of rough materials
+like stones, bricks and wood. To the north the path seems to
+continue to the main entrance. To the east and west lie the
+waiting rooms.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8360 0 0 0
+D1
+~
+~
+0 -1 8359 0 0 0
+D2
+~
+~
+0 -1 8356 0 0 0
+D3
+~
+~
+0 -1 8358 0 0 0
+S
+#8358
+Clan Area - Waiting Room~
+As you enter the room it seems to be filled with some tables
+and chairs. The room since to be for those who want to have
+a good time resting and healing. To the east lies the path to
+the entrance.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8357 0 0 0
+R M 0 8358 1 8358
+  R G 1 8360 1
+S
+#8359
+Clan Area - Waiting Room~
+As you enter the room it seems to be filled with some tables
+and chairs. The room since to be for those who want to have
+a good time resting and healing. To the west lies the path to
+the entrance.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8357 0 0 0
+R M 0 8359 1 8359
+S
+#8360
+Clan Area - Before the Entrance~
+Your standing before the main entrance of the Chaos Knights headquarters.
+The entrance seems to be made out of the best and rare materials.
+It seems to be a door around here, maybe you should try to unlock
+it first.
+~
+0 0 1 0
+D0
+~
+~
+7 8360 8312 0 0 0
+D2
+~
+~
+0 -1 8357 0 0 0
+D3
+~
+~
+0 -1 8372 0 0 0
+R D 0 8360 0 2
+S
+#8361
+Clan Area - Vault~
+~
+0 524288 1 0
+D3
+~
+~
+1 -1 8315 0 0 0
+R D 0 8361 3 0
+> entry_prog 100~
+mpforce $n close w
+~
+|
+S
+#8362
+Between Some Offices~
+As you enter the room you notice some offices around. To the
+north lies the leader office, to the south lies the #1 office
+and climbing up lies the #2 office.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8363 0 0 0
+D2
+~
+~
+0 -1 8364 0 0 0
+D4
+~
+~
+0 -1 8365 0 0 0
+> speech_prog p take me back~
+if isfight ($n)
+mpdonothing
+else
+mea $n _yel You step through the transporter.
+mer $n _yel $n steps through the transporter.
+mptransfer $n 8312
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8363
+X Leader Office~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8362 0 0 0
+S
+#8364
+X #1 Office~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8362 0 0 0
+S
+#8365
+X #2 Office~
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8362 0 0 0
+S
+#8366
+Clan Area - Towards the Meeting Room~
+Your heading towards the clan meeting room of the Chaos Knights,
+the place where all the plans are made and developed. The room
+seems to be very bright and creepy at the same time. You seem
+to shiver as you go farther into the meeting room.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8367 0 0 0
+E
+sign~
+&z=====================================================================
+&YHere you can say any of the following commands:
+&CTake me back
+Look dock
+Look first level
+Take me to the Jail
+Release them
+Last level
+
+&z=====================================================================
+~
+> speech_prog p take me back~
+if isfight ($n)
+mpdonothing
+else
+mea $n _yel You step through the transporter.
+mer $n _yel $n steps through the transporter.
+mptransfer $n 8312
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8367
+Clan Area - Towards the Meeting Room~
+Your heading towards the clan meeting room of the Chaos Knights,
+the place where all the plans are made and developed. The room
+seems to be very bright and creepy at the same time. You seem
+to shiver as you go farther into the meeting room.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8368 0 0 0
+D2
+~
+~
+0 -1 8366 0 0 0
+S
+#8368
+Clan Area - Towards the Meeting Room~
+Your heading towards the clan meeting room of the Chaos Knights,
+the place where all the plans are made and developed. The room
+seems to be very bright and creepy at the same time. You seem
+to shiver as you go farther into the meeting room.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8370 0 0 0
+D2
+~
+~
+0 -1 8367 0 0 0
+D3
+~
+~
+0 -1 8369 0 0 0
+S
+#8369
+Clan Area - Clan Board~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8368 0 0 0
+S
+#8370
+Clan Area - Clan Meeting Room~
+You are now standing inside Chaos Knight's Meeting Room. There is a very
+large table in the middle of the room. And there are some leather chairs
+aside of it. There is also some plans ontop of the large table, and a few
+chalkboards on the north wall. Though, the walls and the floor dont change
+from the hallways and the rest of the rooms.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8368 0 0 0
+S
+#8371
+Inside the Jail~
+Your now inside the jail of the Chaos Knights. If you do not
+belong to the clan you will spend some time here. Your surroundings
+are made out of heavy metal and stone walls, making it almost
+imposible to escape.
+~
+0 4 1 0
+> speech_prog p let me out~
+l
+~
+> speech_prog p let me out~
+mptransfer $n 8302
+~
+|
+S
+#8372
+Dark Transporter~
+As you enter the room you notice a old and dark transporter,
+it seems this transporter is used in case of any emergency to
+escape the headquarter. If you get stuck on this place you can
+go back to the dock by saying it.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8360 0 0 0
+> speech_prog p dock~
+if isfight ($n)
+mpdonothing
+else
+mea $n _yel &gYou step through the transporter.
+mer $n _yel &g$n steps through the transporter.
+mptransfer $n 8302
+mpat $n mer $n &g$n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8373
+Castle Catacomb - Level 3~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the third level of the castle
+catacombs.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8341 0 0 0
+D5
+~
+~
+0 -1 8353 0 0 0
+S
+#8374
+Castle Catacomb - Level 1~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the first level of the castle
+catacombs.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8343 0 0 0
+D2
+~
+~
+0 -1 8376 0 0 0
+S
+#8375
+Castle Catacomb - Level 1~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the first level of the castle
+catacombs.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8343 0 0 0
+D3
+~
+~
+0 -1 8376 0 0 0
+S
+#8376
+Castle Catacomb - Level 1~
+You have entered the ancient castle catacombs, or you could call
+it, the derelect maze towards the headquarters. The room seems
+to be made out of stone mostly but if you look closer it seems
+to glow. It seems that this is the first level of the castle
+catacombs.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8374 0 0 0
+D1
+~
+~
+0 -1 8375 0 0 0
+S
+#8377
+&YSHOOBIE'S Vault~
+~
+0 524292 1 0
+> entry_prog 100~
+mpforce $n w
+mpat $n mea &C$n Get out of there!!
+endif
+~
+|
+S
+#8378
+&YHealing Room~
+Walking into the healing room. You hear the beeping sounds of
+all the machines here to aid you in healing your wounds.The
+machines are filled with special liquids, warm and a faint color,
+they heal you very quicky mending large gashes and cuts, restoring
+you back to full health.
+~
+0 4 1 1
+S
+#8400
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#8419
+Floating in a void~
+~
+0 4 1 0
+S
+#8420
+Floating in a void~
+~
+0 4 1 0
+S
+#8450
+Last Room~
+~
+0 4 1 0
+R M 0 8450 1 8450
+R O 0 8450 1 8450
+S
+#0
+
+
+#SHOPS
+ 8317    0  0  0  0  0   120  90         0 23    ; A Old Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

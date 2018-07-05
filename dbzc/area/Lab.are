@@ -1,0 +1,676 @@
+#AREA   Dr. Gero's Laboratory~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+17
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31276076
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8001
+First_Mob~
+a newly created First_Mob~
+Some god abandoned a newly created First_Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8011
+Android~
+Android Fourteen~
+&WAndroid #14 stands here in search of some victims.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 50000000
+112 112 0
+20 20 25 20 20 20 20
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8011
+if rand(50)
+mpoload 148
+endif
+~
+|
+#8025
+Cell~
+Imperfect Cell~
+&WImperfect Cell stands here with his tail pointing at you.
+~
+~
+3 0 C
+5 0 0 0d0+0 0d0+0
+0 500000000
+112 112 0
+25 25 25 25 25 20 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8025
+if rand(25)
+mpoload 144
+else
+if rand(50)
+mpoload 149
+else
+if rand(75)
+mpoload 150
+endif
+endif
+endif
+~
+> greet_prog 100~
+mpsleep 3
+say Prepare to become part of my body!
+mpsleep 3
+emote waves his tail in a strange position
+~
+|
+#8026
+Android Sixteen~
+Android Sixteen~
+Android Sixteen is here with his arms crossed and laying against a wall.
+~
+~
+67108867&1 0 C
+1 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8027
+Android Nineteen~
+Android Nineteen~
+Android Nineteen has been found here looking for trouble.
+~
+~
+67108867&1 0 C
+1 0 0 0d0+0 0d0+0
+0 2000000000
+108 108 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#8059
+Last_Mob~
+a newly created Last_Mob~
+Some god abandoned a newly created Last_Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#8001
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#8059
+Last_obj~
+a newly created Last_obj~
+Some god dropped a newly created Last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#8001
+A deserted dock~
+The dock seems to be pretty small, fairly enough for one ship
+to say dock The dock, seems to be a platform, that is hanging
+in mid-air. And the path leads to inside a cave.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8002 0 0 0
+D2
+~
+~
+536870912 -1 8059 65 45 0
+S
+#8002
+Before Two Iron Doors~
+Now, standing inside a cave, you notice the two huge iron doors
+that seems to protect something important. There is a voice
+recognition device on the side of one of the doors, and it seems
+you also need a keycard to open it. But it seems someone forgot
+to close and lock the doors.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8003 0 0 0
+D2
+~
+~
+0 -1 8001 0 0 0
+S
+#8003
+Inside the Lab~
+You find yourself inside of a strange but high-tec lab. Everything
+seems to be 10 years from the present, with all the new things
+that have been added to the lab. The hallway continues to the
+north from here, and to the south, youll find the dock.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8004 0 0 0
+D2
+~
+~
+0 -1 8002 0 0 0
+S
+#8004
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8005 0 0 0
+D1
+~
+~
+0 -1 8013 0 0 0
+D2
+~
+~
+0 -1 8003 0 0 0
+S
+#8005
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8006 0 0 0
+D2
+~
+~
+0 -1 8004 0 0 0
+S
+#8006
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8014 0 0 0
+D2
+~
+~
+0 -1 8005 0 0 0
+D3
+~
+~
+0 -1 8007 0 0 0
+S
+#8007
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8011 0 0 0
+D1
+~
+~
+0 -1 8006 0 0 0
+D2
+~
+~
+0 -1 8012 0 0 0
+D3
+~
+~
+0 -1 8008 0 0 0
+S
+#8008
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8009 0 0 0
+D1
+~
+~
+0 -1 8007 0 0 0
+D2
+~
+~
+0 -1 8010 0 0 0
+S
+#8009
+Power Testing Room~
+Upon entering of the room, you notice all the huge weights inside
+the room. This room reminds you more of a gym. There are many
+machines inside of here, that test one's strength and power.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8008 0 0 0
+S
+#8010
+Sparring Room~
+The room seems to be blank. The walls and ceiling as well as
+the floor are painted with a white milk color. The source of
+the lightning in this room seems to be unknown. The only way
+out of this room, is the same way you came in.
+~
+0 0 1 2
+D0
+~
+~
+0 -1 8008 0 0 0
+S
+#8011
+Prototype Testing Room~
+As you enter, you notice all the metal tables that are found
+here, and there is also a large light on top of each of them.
+There are some computers ontop of tables scattered across the
+room, with different android models.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8007 0 0 0
+R M 0 8011 1 8011
+S
+#8012
+Accuracy Testing Room~
+You notice all the practice targets that are found on this room.
+There is a large counter that goes from side to side, and about
+100 feet behind it, its the target range, with different ranges
+on all targets.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8007 0 0 0
+S
+#8013
+Before a spiral staircase~
+You now stand before a staircase that leads down from where you
+are standing, the other exit, leads back to the hallway.As you
+look down, it seems that the staircase is broken.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8004 0 0 0
+D5
+~
+~
+0 -1 8020 0 0 0
+S
+#8014
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8018 0 0 0
+D1
+~
+~
+0 -1 8015 0 0 0
+D2
+~
+~
+0 -1 8019 0 0 0
+D3
+~
+~
+0 -1 8006 0 0 0
+S
+#8015
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8016 0 0 0
+D2
+~
+~
+0 -1 8017 0 0 0
+D3
+~
+~
+0 -1 8014 0 0 0
+S
+#8016
+Armory~
+As you enter the room, you notice all the armors and clothe that
+you find here. Its like a clothing shop, but with kevlar armor
+in each piece of the items. There are shirts, pants, shoes,
+scarfs, hats, belts and even jewelry. And they all seem to be
+re-inforced.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8015 0 0 0
+R M 0 8027 1 8016
+S
+#8017
+Weaponry~
+As you enter the room, you notice all of the weapons, guns, swords,
+daggers that are found inside. But most of all, it seems to
+be concentrated on the close combat weapons, swords, axes and
+daggers. There are some benches in the middle, probably for
+the android to sit down, and take a good look at the weapon.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8015 0 0 0
+S
+#8018
+Dr. Gero's Office~
+Upon entering of the room, you notice the nice desk, with a leather
+chair behind it. There is a computer ontop of that desk, and
+it seems to be turned on. There is also a small safe on the
+right side of the desk. And some posters hanging on the walls.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8014 0 0 0
+S
+#8019
+Locker Room~
+As you enter the room, you notice all the lockers stacked up
+against the walls. There are some benches scattered across the
+room also.The locker room seems to be empty, but the personal
+items on each of the lockers seem to be extensive.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8014 0 0 0
+R M 0 8026 1 8019
+S
+#8020
+A spiral staircase~
+You find yourself in between a staircase. The staircase seems
+to be broken, and it seems that there is no way back. Also,
+it is made from hard metal, so you wonder what couldve made
+it broken.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8021 0 0 0
+S
+#8021
+Bottom of a spiral staircase~
+As you find the bottom of the staircase, you begin to wonder
+whats left to see of the laboratory. But what you don't know,
+is that this is the most high-tec part of it.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8022 0 0 0
+D4
+~
+~
+0 -1 8020 0 0 0
+S
+#8022
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8023 0 0 0
+D1
+~
+~
+0 -1 8021 0 0 0
+D3
+~
+~
+0 -1 8026 0 0 0
+S
+#8023
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8025 0 0 0
+D2
+~
+~
+0 -1 8022 0 0 0
+D3
+~
+~
+0 -1 8024 0 0 0
+S
+#8024
+Regeneration Room~
+There are many pods of healing scattered across the room. Also,
+there are some medkits attached to the walls. The light in this
+room seems to be less than before.
+~
+0 0 1 1
+D1
+~
+~
+0 -1 8023 0 0 0
+S
+#8025
+Prototype Creation Room~
+Upon entering, you notice all the large tubs of testing, with
+a strange green liquid inside. And it seems to be a small creature
+inside the tubs with the green liquid. There are some computers
+scattered across the room. There is also a grown creature standing
+here.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8023 0 0 0
+R M 0 8025 1 8025
+S
+#8026
+A Hallway~
+You find yourself inside a hallway. The walls are painted with
+a white milk color, and it has a banner bout two inches wide,
+that goes through all of the wall. The hallway is iluminated
+by a line of lights that are attached to the ceiling.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8022 0 0 0
+D2
+~
+~
+0 -1 8027 0 0 0
+S
+#8027
+A spiral staircase~
+You find yet again, another spiral staircase. This time, it leads
+back up. As you look above you, you notice that it seems to
+be in a pretty well state, and that its not broken.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8026 0 0 0
+D4
+~
+~
+0 -1 8028 0 0 0
+S
+#8028
+A spiral staircase~
+You now stand on a spiral staircase. It continues up and down
+from where you are standing. The staircase is made out of re-inforced
+steel that seems unbreakable.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 8029 0 0 0
+D5
+~
+~
+0 -1 8027 0 0 0
+S
+#8029
+A spiral staircase~
+You now stand on a spiral staircase. It continues up and down
+from where you are standing. The staircase is made out of re-inforced
+steel that seems unbreakable.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 8002 0 0 0
+D5
+~
+~
+0 -1 8028 0 0 0
+S
+#8059
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

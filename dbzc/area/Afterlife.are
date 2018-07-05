@@ -1,0 +1,2919 @@
+#AREA   Afterlife~
+
+
+
+#VERSION 2
+#AUTHOR Buu~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#RESETMSG &YYou could hear the unknown beckoning...~
+
+#FLAGS
+17 15
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31261043
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#651
+Princess Snake~
+Princess Snake~
+&WPrincess Snake is laying on her bed calling you over.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Oooh. Hello, $n. Please tell me you've come here to see me.
+say I've been lonely for quite some time now...everyone that comes here
+say Seems to RUN OFF for some reason...
+Mea $n If you came to see her say 'Yes' otherwise say 'No'.
+~
+> speech_prog p Yes~
+say Really!? Finally someone to be with...
+say Im really gonna take care of you. Lets first start with...
+mea $n &cPrincess Snake rubs her fingers all through your body.
+~
+> speech_prog p No~
+say Your just like the others. You know what.. I was really starting to
+say like you. But forget it.
+mea $n &YPrincess Snake hits you so hard, you return at the begining of
+mea $n &YSnakeway.
+mptransfer $n 661
+~
+|
+#652
+Servant~
+A Gorgeous Servant~
+&WA gorgeous servant stands here before you.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#653
+Pikkon~
+Pikkon~
+&WPikkon is training here.
+~
+He almost resembles Piccolo in some way. Actually, because he's green just
+like Piccolo. Cloaked in a cape, not much is known about this powerful
+fighter. It is rumored that he and Goku had a great fight once, and he
+even went to hell and fought alongside him!  
+ 
+ 
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 1000000000
+112 112 0
+Z
+none~
+> all_greet_prog 100~
+say ......Do you wish to train, $n?
+say I must warn you though, I am quite powerful.
+~
+|
+#654
+Dai-Kaio-Shin~
+Dai-Kaio-Shin~
+&WThe awesome Dai-Kaio-Shin is standing here, reading a manga?
+~
+So this is the legendary Dai Kaio Shin....He resembles Master Roshi in a
+way. Instead of training you, he would much rather read his comic! 
+ 
+ 
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> all_greet_prog 100~
+mea $n Dai-Kaio-Shin looks up from his manga and glances at you.
+say If you want to go home just say so. But if you want me to teach you
+say mystic show me that you can go ssj2! I always love the sight of ssj2.
+mea $n Dai-Kaio-Shin closes his manga.
+~
+> speech_prog p home~
+mea $n &YDai-Kaio-Shin waves at you, as he nods.
+mptrans $n 660
+~
+> rand_prog 30~
+say If you are ready to go home, say home
+~
+> act_prog p Super Saiya-Jin level 2 again!~
+if race($n) == halfbreed
+say Wow! Great! Ok... I'll teach you my secret technique.
+mppractice $n mystic 40
+endif
+~
+|
+#655
+Fighter~
+A Dead Fighter~
+&WA fighter who has died in battle is standing here.
+~
+This fighter recently died from battling a foe. Although they are deceased,
+they seem to enjoy the competition they are facing in the afterlife. 
+ 
+ 
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 500000000
+112 112 0
+Z
+none~
+#656
+Papoi~
+Papoi~
+&WThe South Galaxy's strongest fighter, Papoi, is standing here.
+~
+He is extremely tall! As you look at him, you notice he resembles a cross
+of some wrestler, and a rock star. Strange indeed.... 
+ 
+ 
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 800000000
+112 112 0
+Z
+none~
+#657
+The South Kaioshin~
+The South Kaioshin~
+&WThe Kaioshin of the South Galaxy is here, training his warrior.
+~
+This is the Kai of the Southern Galaxy. He resembles King Kai, except a little
+thinner.
+ 
+ 
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> all_greet_prog 100~
+evilgrin $n
+ 
+tell $n So you want to train? Fine....
+ 
+mea $n The Southern Kaioshin fixes some weights to you.
+ 
+tell $n You can gravity train here with those weights.
+~
+|
+#658
+The Old Fortune Telling Granny~
+The Old Fortune Telling Granny~
+&WThe old fortune telling granny is here, floating on her crystal ball.
+~
+She is the famous old granny that helped out Goku and his friends. It seems
+she isn't granting the one day on earth wish anymore though. 
+ 
+ 
+~
+67108865 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#659
+King Yama~
+King Yama~
+&WKing Yama is here standing behind his desk.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> act_prog $n leaves west.~
+close west
+~
+> all_greet_prog 100~
+if wasinroom($n) == 771
+say Hello $n.
+say How was snakeway? Or where you too scared to try and go through it.
+else
+say Hello, $n.
+say Died once again? Well you should be more careful...
+say If you want to be revived just say 'Judge Me'.
+To the West you can reach the Dai Kaioshin's planet. Though I must warn
+say you. The gravity is very high and you shouldn't go there
+say unless your powerlevel is 65 million.
+endif
+~
+> speech_prog p Judge Me~
+if isgood($n)
+hmm
+mea $n King Yama looks in a cabinet and grabs your file.
+nod
+say Good, all nice reports on your file. I'll send you straight to Snakeway.
+mea $n &YKing Yama smiles at you. As he shoves you onto snakeway.
+mpforce $n follow self
+mpoload 652
+give halo $n
+mpforce $n wear Halo
+mptrans $n 661
+get halo
+junk halo
+endif
+if isevil($n)
+hmm
+mea $n King Yama looks in a cabinet and grabs your file.
+laugh
+say You want to go to Snake Way? Find your way out of Hell first!
+mea $n &rKing Yama grins at you and the floor beneath you opens.
+mpforce $n follow self
+mpoload 653
+give halo $n
+mpforce $n wear halo
+mptrans $n 740
+endif
+if isneutral($n)
+if pl($n) >= 500000
+hmm
+mea $n King Yama looks in a cabinet and grabs your file.
+nod
+say Good, all nice reports on your file. I'll send you straight to Snakeway.
+mea $n &YKing Yama smiles at you. As he shoves you onto snakeway.
+mpforce $n follow self
+mpoload 652
+give halo $n
+mpforce $n wear Halo
+mptrans $n 661
+else
+say Your too weak for snakeway, your lucky today. Next time you won't be
+say so lucky. But anyhoo, you stay away from the dangers.
+wave $n
+say Bye $n.
+mpforce $n follow self
+mea $n &YKing Yama yawns at you as he presses a button.
+mptrans $n 251
+endif
+endif
+~
+|
+#660
+Raditz~
+Raditz~
+Raditz is standing here laughing at you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 50000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 660
+~
+|
+#661
+Nappa~
+Nappa~
+Nappa is standing here with his arms crossed.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 60000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 661
+~
+|
+#662
+Freiza~
+Freiza~
+Freiza stands here grinning at you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 70000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 662
+~
+|
+#663
+King Cold~
+King Cold~
+King Cold stands here before you looking at the floor.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 80000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 663
+~
+|
+#664
+Hell~
+Hell's Shopkeeper~
+Hell's Shopkeeper stands here showing off his merchandise.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#665
+Cooler~
+Cooler~
+Cooler the evil icer stands here before you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 100000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 665
+~
+|
+#666
+Janemba~
+Janemba~
+Janemba the tall demon stands here before you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 100000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 666
+~
+|
+#667
+Android Fourteen~
+Android Fourteen~
+Android Fourteen stands here before you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 400000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mea $n &YThe pieces of Android Fourteen float up and zoom to the next room.
+Mptrans $n 768
+mpmload 667
+~
+|
+#668
+Android Fifteen~
+Android Fifteen~
+Android Fifteen the large android stands here before you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 400000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mea $n &YThe pieces of Android Fifteen float up and zoom to the next room.
+mptrans $n 769
+mpmload 668
+~
+|
+#669
+Android Thirteen~
+Super Android Thirteen~
+Super Android Thirteen stands here grinning evilly at you.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 1000000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 669
+~
+|
+#670
+King Kai~
+A Hologram of King Kai~
+&WA hologram of King Kai is standing floating here before you.
+~
+~
+67108867 0 C
+55 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 25 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> all_greet_prog 100~
+chuckle
+say Oh boy, do I have a riddle that no body in a million years could guess
+say of. If you would like to like to hear this riddle say 'riddle' If you
+say already know it, say the answer. But im sure you don't. Oh boy.
+chuck
+say Oh yea, I even got a harder one. But this is only for saiyans. All
+say you gotta do is say 'Kaioken'.
+chuck
+~
+> speech_prog p Riddle~
+say Ok Here it goes! Pay attention.
+mea $n &YTear one off and scratch my head what once was red is black instead
+chuck
+~
+> speech_prog p Match~
+say HUH? WHAT!!? Wait no...thats not it. Is it? Oh no How did you find
+say out my joke. I don't belive this. I know you cheated somehow! I know
+say it. Anyway, since you answered my joke. I will repay you. And grant you
+say your life back! Get ready! Try not to die next time.
+mpforce $n follow self
+mpforce $n remove halo
+mpforce $n drop all.halo
+mea $n &YKing Kai nods at you, as he waves.
+mptrans $n 251
+mppurge
+~
+> speech_prog p Dark~
+if pl($n) < 4000000
+say Your not strong enough.
+else
+if race($n) == Saiyan
+or race($n) == Halfbreed
+say Wow! Your good!
+chuck
+say Ok... Here is your prize, Kaioken!
+mppractice $n kaioken 20
+chuck
+say Hope you like it.
+else
+say Hey, even if that is right.. You can't learn kaioken! Your no saiyan.
+chuck
+endif
+endif
+~
+> speech_prog p Kaioken~
+chuck
+say Ok, Get ready, this is a hard riddle! Prepare yourself!
+mea $n &YIt cannot be seen, cannot be felt,
+mea $n &YCannot be heard, cannot be smelt.
+mea $n &YIt lies behind stars and under hills,
+mea $n &YAnd empty holes it fills.
+mea $n &YIt comes first and follows after,
+mea $n &YEnds life, kills laughter.
+say Hehe:) Try and figure that out.
+chuck
+~
+|
+#671
+Soul~
+Soul~
+A wondering soul wonders here.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#771
+last_mob~
+a newly created last_mob~
+Some god abandoned a newly created last_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#651
+Flowing White Cape~
+A Long Flowing White Cape~
+A Long Flowing White Cape gently rests here.~
+~
+9 0 1025
+0 40 0 0
+1 0 0
+#652
+Yellow Halo~
+A Yellow Halo~
+A Yellow Halo~
+~
+9 0 17
+0 40 0 0 5 0
+1 0 0
+> wear_prog 100~
+mea $n &YA Yellow Halo appears on your head.
+~
+|
+#653
+A Black Halo~
+A Black Halo~
+A Black Halo~
+~
+9 0 17
+0 40 0 0 5 0
+1 0 0
+> wear_prog 100~
+mea $n &BA Black Halo appears on your head.
+~
+|
+#654
+Janemba shirt~
+A Janemba Shirt~
+A janemba shirt lays on the floor.~
+~
+9 0 9
+0 10 0 0
+1 50 5
+#655
+Fountain~
+Fountain Of Youth~
+&RThe Fountain Of Youth Lays Here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#771
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#650
+&GA Swirling Vortex~
+&gAs you open your eyes you see nothing but void all around you. A swirling
+mist surrounds your body and the whole area looks like space.  You notice
+your body isnt as powerful as it used to be. To the North you notice a
+large building.  
+~
+0 4 1 0
+D0
+~
+~
+0 -1 651 0 0 0
+S
+#651
+&GBefore a Large Building~
+&gUpon entering the room you notice a very tall building. On the wall the
+sign reads, "Welcome to King Yama's!" You notice the pagoda like building
+isnt very tall but it is large. The only exits you notice are North,
+leading to the building, and South where you came from. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 652 0 0 0
+D2
+~
+~
+0 -1 650 0 0 0
+S
+#652
+&GInside the Building~
+&gNow inside the building you notice there are many doors though you have
+no access to any of them, though to the West you notice an open door.
+There is a large crowd of people walking around and cleaning up the area
+constantly. To the North you notice a large office with a huge desk at the
+center. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 659 0 0 0
+D2
+~
+~
+0 -1 651 0 0 0
+D3
+~
+~
+0 -1 653 0 0 0
+S
+#653
+&GBefore a Small Door~
+&gNow nearing the open door you notice it is very small. You doubt you can
+even enter the door, seeing how small it really is.  Peering inside the
+door a small tunnel is visible. Where the tunnel leads is not visible at
+the time, but perhaps its a good idea to check it out. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 652 0 0 0
+D3
+~
+~
+0 -1 654 0 0 0
+S
+#654
+&GInside a Small Tunnel~
+&gAs you enter the tunnel you notice the walls are metallic and they look
+rusted. There is barely any light in the tunnel and it the tunnel is very
+silent. to the North you notice a flight of stairs, going on as far as you
+can see.  The flight of stairs seems very old.  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 655 0 0 0
+D1
+~
+~
+0 -1 653 0 0 0
+S
+#655
+&GBefore a Flight of Stairs~
+&gNow before the flight of stairs you notice they are even higher than you
+had seen in the room prior this one.  The flight of stairs seems old and
+falling apart. The light in this area is very dim.  The only directions
+you can go are back from where you started and up the stairs.  
+~
+0 0 1 0
+D2
+~
+~
+0 -1 654 0 0 0
+D4
+~
+~
+0 -1 656 0 0 0
+S
+#656
+&GStill Climbing~
+&gClimbing the flight of stairs you find it hard to walk. The stairs, held up
+up by chains, moves side to side with every step you take and the chains
+dont seem to be holding on very well.  You hear some loud banging noises
+and some distant talking.  
+~
+0 0 1 0
+D4
+~
+~
+0 -1 657 0 0 0
+D5
+~
+~
+0 -1 655 0 0 0
+S
+#657
+&GInside King Yama's Drawer!~
+&gAtop the flight of stairs you notice some large metallic objects and some
+large log looking things. Taking a closer look you can see a small stream
+of light coming from the top of the room like a horizon. The distant
+talking is now louder and you begin to hear the voice of King Yama
+himself. You then realize that you are inside his drawer!  
+~
+0 0 1 0
+D5
+~
+~
+0 -1 656 0 0 0
+S
+#658
+&RThe Botter Hating Room!&W&w~
+You got caught botting so now you are stuck in here.. SUCKER
+~
+0 65540 1 0
+D0
+~
+~
+0 -1 658 0 0 0
+D1
+~
+~
+0 -1 658 0 0 0
+D2
+~
+~
+0 -1 658 0 0 0
+D3
+~
+~
+0 -1 658 0 0 0
+S
+#659
+&GEntrance to King Yama's Office~
+&gStanding before a large door you notice this is the entrance to King
+Yama's office. Looking around you can see the bright lights above you and
+a large hallway leading somewhere else. You try to see where the hallway
+leads but are stopped by a large white mist covering the area. When the
+mist disperses the hallway is gone.  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 660 0 0 0
+D2
+~
+~
+0 -1 652 0 0 0
+S
+#660
+&GKing Yama's Office~
+&gYou walk up to a HUGE desk, looking almost straight up, waiting for King
+Yama to assist you, there are papers and large books stacked everywhere,
+you notice souls coming in from everywhere, moving to the proper place,
+some to hell and some to Heaven, all for King Yama to decide.
+ 
+There is a door to the west that leads to Dai kaioshin's Planet. Be warned:
+people with a powerlevel lower than 65,000,000 may not survive the gravity.
+ 
+There is a large sign saying:&O 'say judge me'&g hanging on the wall.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 659 0 0 0
+D3
+~
+door ~
+3 -1 701 0 0 0
+R M 0 659 1 660
+R D 0 660 3 1
+S
+#661
+&GOn Snakeway~
+&gYou are now before Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 662 0 0 0
+S
+#662
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 663 0 0 0
+D2
+~
+~
+0 -1 661 0 0 0
+S
+#663
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 664 0 0 0
+D2
+~
+~
+0 -1 662 0 0 0
+S
+#664
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 665 0 0 0
+D2
+~
+~
+0 -1 663 0 0 0
+S
+#665
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 666 0 0 0
+D2
+~
+~
+0 -1 664 0 0 0
+S
+#666
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 667 0 0 0
+D2
+~
+~
+0 -1 665 0 0 0
+S
+#667
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 668 0 0 0
+D2
+~
+~
+0 -1 666 0 0 0
+S
+#668
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 669 0 0 0
+D2
+~
+~
+0 -1 667 0 0 0
+S
+#669
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 670 0 0 0
+D2
+~
+~
+0 -1 668 0 0 0
+S
+#670
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall.   
+~
+0 0 1 0
+D1
+~
+~
+0 -1 662 0 0 0
+D2
+~
+~
+0 -1 669 0 0 0
+D3
+~
+~
+0 -1 671 0 0 0
+S
+#671
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D1
+~
+~
+0 -1 670 0 0 0
+D3
+~
+~
+0 -1 672 0 0 0
+S
+#672
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D1
+~
+~
+0 -1 671 0 0 0
+D3
+~
+~
+0 -1 673 0 0 0
+S
+#673
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D1
+~
+~
+0 -1 672 0 0 0
+D3
+~
+~
+0 -1 674 0 0 0
+S
+#674
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D0
+~
+~
+0 -1 675 0 0 0
+D1
+~
+~
+0 -1 673 0 0 0
+D3
+~
+~
+0 -1 662 0 0 0
+S
+#675
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can see
+and falling off will take you back to the beginning of the path.  Watch
+your step and notice the directions you are walking in. Stopping to take a
+rest can cause you to fall. To the east you notice a house. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 676 0 0 0
+D1
+~
+~
+0 -1 692 0 0 0
+D2
+~
+~
+0 -1 674 0 0 0
+S
+#676
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D0
+~
+~
+0 -1 677 0 0 0
+D2
+~
+~
+0 -1 675 0 0 0
+S
+#677
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D0
+~
+~
+0 -1 678 0 0 0
+D2
+~
+~
+0 -1 676 0 0 0
+S
+#678
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D0
+~
+~
+0 -1 679 0 0 0
+D2
+~
+~
+0 -1 677 0 0 0
+S
+#679
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.    
+~
+0 0 1 0
+D1
+~
+~
+0 -1 680 0 0 0
+D2
+~
+~
+0 -1 678 0 0 0
+S
+#680
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.     
+~
+0 0 1 0
+D1
+~
+~
+0 -1 681 0 0 0
+D3
+~
+~
+0 -1 679 0 0 0
+S
+#681
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.     
+~
+0 0 1 0
+D1
+~
+~
+0 -1 682 0 0 0
+D3
+~
+~
+0 -1 680 0 0 0
+S
+#682
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.     
+~
+0 0 1 0
+D0
+~
+~
+0 -1 683 0 0 0
+D3
+~
+~
+0 -1 681 0 0 0
+S
+#683
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see see and falling off will take you back to the beginning of the
+path.  Watch your step and notice the directions you are walking in.
+Stopping to take a rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 684 0 0 0
+D2
+~
+~
+0 -1 682 0 0 0
+D3
+~
+~
+0 -1 662 0 0 0
+S
+#684
+&GNearing the End of Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see see and falling off will take you back to the beginning of the
+path.  Watch your step and notice the directions you are walking in.
+Stopping to take a rest can cause you to fall.   
+~
+0 0 1 0
+D0
+~
+~
+0 -1 685 0 0 0
+D2
+~
+~
+0 -1 683 0 0 0
+S
+#685
+&GThe End of Snakeway~
+&gYou have reached the end of snakeway. It seems you have reached a dead
+end though. The only thing you can see is a small dot up in the sky, but
+it seems too small to be a real planet. Could the legendary King Kai live
+there? 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 684 0 0 0
+D4
+~
+~
+0 -1 686 0 0 0
+D5
+~
+~
+0 -1 662 0 0 0
+S
+#686
+&GOn King Kai's Planet~
+&gYou've made it off of Snakeway! You should be proud of yourself. To the
+North you can wander King Kai's planet. King Kai has locked himself in his
+house, maybe you can find a way to get him out.  Say "&YReturn Me&g" to go
+back to snakeway.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 687 0 0 0
+> speech_prog p return me~
+if ispc($n)
+mea $n &YYou are engulfed by a yellow aura.
+mer $n &Y$n is engulfed by a yellow aura.
+mptransfer $n 661
+endif
+~
+|
+S
+#687
+&GBy a Large Tree~
+&gStanding firmly on King Kai's planet you notice the gravity is much
+greater here than on Snakeway. This is the only tree left on King Kai's
+planets after all his students' training. To the West you can see a path
+to a small house.  
+~
+0 0 1 0
+D2
+~
+~
+0 -1 686 0 0 0
+D3
+~
+~
+0 -1 688 0 0 0
+S
+#688
+&GTowards a Small House~
+&gYou are now on a paved walkway to King Kai's house. Up ahead you notice
+the small dome shaped house and a car next to it. The grass is green and
+the sky is greenish. Planets are visible in the sky.  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 689 0 0 0
+D1
+~
+~
+0 -1 687 0 0 0
+S
+#689
+&GNearing the Small House~
+&gYou are now nearing the house, and the trail seems to have some wheel
+marks, most probably left behind by King Kai's car. You begin to ponder
+and ask yourself why King Kai is peeling out in such an old car as the one
+he had.  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 690 0 0 0
+D2
+~
+~
+0 -1 688 0 0 0
+S
+#690
+&GBefore the Small House~
+&gNow before the house you notice King Kai is standing infront of the door,
+but what you thought was King Kai just flickered. You look closer and
+notice it is a hologram of King Kai. It seems he wants you to get some
+items for him before you can see him.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 689 0 0 0
+D3
+~
+~
+0 -1 691 0 0 0
+R M 0 670 1 690
+S
+#691
+&GNext to King Kai's Car~
+&gWalking in the room you notice King Kai's garage is closed but the car
+has been left out. You look at the car again and gasp. King Kai now has a
+Suzuki Escudo, Pikes Peak Version! No wonder he was peeling out, this car
+has over a thousand horsepower!  
+~
+0 0 1 0
+D1
+~
+~
+0 -1 690 0 0 0
+S
+#692
+&GTowards a Large House~
+&gYou are now off of Snakeway. Though this is not the end of the line, you
+feel much better being off the road. To the East you notice a large house.
+The house seems comfortable enough and it seems to be a good place to
+rest. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 693 0 0 0
+D3
+~
+~
+0 -1 675 0 0 0
+S
+#693
+&GBefore a Large House~
+&gNow standing before the large house you notice a small sign hovering
+above the door reading, 'Welcome to Princess Snake's house! I hope you
+came to see me.' Disregarding the sign you look around and notice a small
+garden next to the house. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 694 0 0 0
+D3
+~
+~
+0 -1 692 0 0 0
+S
+#694
+&GInside of Princess Snake's House~
+&gYou are now inside the house. The interior of the house is comfortable.
+Your eyes begin to feel heavy and your body begins to weaken. You quickly
+shake it off and continue to look around the house, trying to find who
+this Princess really is.  
+~
+0 0 1 0
+D0
+~
+~
+0 -1 695 0 0 0
+D1
+~
+~
+0 -1 697 0 0 0
+D2
+~
+~
+0 -1 696 0 0 0
+D3
+~
+~
+0 -1 693 0 0 0
+D4
+~
+~
+0 -1 698 0 0 0
+S
+#695
+&GA Large Kitchen~
+&gSmoke fills the room and the smell of burning chicken enters your nose.
+You notice a cook cooking a lot of food, most of it burnt.  The kitchen is
+large and food is being placed on a large table at the center of it.
+Hunger begins to enter your mind.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 694 0 0 0
+S
+#696
+&GA Dining Room~
+&gEntering the room you notice a very large dining table. The room is lit by
+candles all around you and there are about 17 chairs all around the table.
+A large sculpture of a snake has been placed at the center of the table.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 694 0 0 0
+S
+#697
+&GA Large Living Room~
+&gUpon entering the room you notice the many sofas and love seats all around.
+A huge television set stands tall at one corner of the room and a large
+coffee table is placed at the center of the room.  Both the sofas and love
+seats are made of snakeskin. 
+~
+0 4 1 0
+D3
+~
+~
+0 -1 694 0 0 0
+S
+#698
+&GClimbing a Flight of Stairs~
+&gClimbing the stairs you begin to wonder and notice it leads to a bedroom of
+some sort. You hear some rustling noises and whispers up at the top of the
+stairs. The flight of stairs is winds around a large pole in a swirling
+snake-like coil. 
+~
+0 4 1 0
+D4
+~
+~
+0 -1 699 0 0 0
+D5
+~
+~
+0 -1 694 0 0 0
+S
+#699
+&GTop of the Stairs~
+&gNow atop the flight of stairs you begin to hear giggles and whispers. You
+notice to the North there is a bedroom and a pretty girl laying on a bed.
+Could this be the Princess you were looking for? You notice she is alone
+but is talking to someone. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 700 0 0 0
+D5
+~
+~
+0 -1 698 0 0 0
+S
+#700
+&GPrincess Snake's Bedroom~
+&gNow inside the bedroom you notice the girl laying on her bed is calling
+you over. The room is fairly small compared to the other rooms and the
+lights are dim. The walls of the room are painted in black but are moist
+with some sort of liquid.  
+~
+0 4 1 0
+D2
+~
+~
+0 -1 699 0 0 0
+R M 0 651 1 700
+S
+#701
+&GDai-Kaio-Shin's Planet~
+&gYou have made it to the home planet of the world (and after world) famous
+Dai-Kaio-Shin. All around you are beautiful trees and lush greenery. Off
+in the distance you can see a beautiful house, complete with a driveway
+and fence. The exits branch off into every direction.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 702 0 0 0
+D1
+~
+door ~
+3 -1 660 0 0 0
+R D 0 701 1 1
+> act_prog p $n arrives from the east.~
+Close west
+~
+> entry_prog 100~
+mea $n &YAs you walk trough the door closes behind you. You find your self in
+mea $n &Ya totaly diffrent world. The gravity on this world is much bigger than
+mea $n &Yon the other planets.
+~
+|
+S
+#702
+&GA Dirt Road~
+&gYou are at the beginning of a long, winding dirt path. The path itself
+cuts through the tall green grass and huge trees, providing a means of
+easy transportation. You can folow the path north, or return to the
+beginning of the planet, southward. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 703 0 0 0
+D2
+~
+~
+0 -1 701 0 0 0
+R M 0 671 1 702
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#703
+&GA Dirt Road~
+&gYou are still on the dirt road, taking in all the surrounding
+beauty. You can even hear a bird singing its beautiful song high
+up in a tree. The big house also becomes a little more visible
+now that you are closing in on it. The path continues to the
+northwest, or back to the south.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 702 0 0 0
+D7
+~
+~
+0 -1 704 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#704
+&GFollowing the Dirt Road~
+&gYou are still following the extremely long dirt pathway. The grass grows
+taller, and the trees seem to reach high into the sky. You seem to focus
+on that extraordinary house, gleaming in the sun. The path continues to
+the northwest. 
+~
+0 0 1 0
+D7
+~
+~
+0 -1 705 0 0 0
+D8
+~
+~
+0 -1 703 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#705
+&GFollowing the Dirt Road~
+&gThe wind blows calmly by as you continue your little trek on this
+ever-winding dirt road. The sun beats down on you from up high, and you
+begin to wonder just when this road will stop. The road continues north.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 706 0 0 0
+D8
+~
+~
+0 -1 704 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#706
+&GStill on the Road~
+&gThis road seems to have no end! You begin to question just exactly what
+the prize could be for finally coming to the end, but your thoughts are
+dispersed as a huge blast of energy streaks across the sky! Your sense of
+adventure awakens once again as you are determined to fight out what the
+cause of that was.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 707 0 0 0
+D2
+~
+~
+0 -1 705 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#707
+&GA Fork in the Road~
+&gYou are almost at the end of the road! However, now you are faced with a
+decision. The road has now split off into two seperate directions, each
+leading to an unknown destination. To the northeast, you can see the house
+still, and to the southwest you can see more greenery and wildlife. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 706 0 0 0
+D6
+~
+~
+0 -1 713 0 0 0
+D7
+~
+~
+0 -1 708 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#708
+&GIn the Tall Grass~
+&gYou are in some abnormally tall grass. So tall in fact that it almost
+blocks out the light! You attempt to move the blades out of the way, but
+it is so dense that you conclude it is pointless. Suddenly you can hear
+the sound of fighting coming from deeper into the field, to the north. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 709 0 0 0
+D1
+~
+~
+0 -1 708 0 0 0
+D2
+~
+~
+0 -1 708 0 0 0
+D3
+~
+~
+0 -1 708 0 0 0
+D8
+~
+~
+0 -1 707 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#709
+&GIn the Tall Grass~
+&gYou are in some abnormally tall grass. So tall in fact that it almost
+blocks out the light! You attempt to move the blades out of the way, but
+it is so dense that you conclude it is pointless. Suddenly you can hear
+the sound of fighting coming from deeper into the field, to the east.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 709 0 0 0
+D1
+~
+~
+0 -1 710 0 0 0
+D2
+~
+~
+0 -1 708 0 0 0
+D3
+~
+~
+0 -1 708 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#710
+&GIn the Tall Grass~
+&gYou are in some abnormally tall grass. So tall in fact that it almost
+blocks out the light! You attempt to move the blades out of the way, but
+it is so dense that you conclude it is pointless. Suddenly you can hear
+the sound of fighting coming from deeper into the field, to the west.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 708 0 0 0
+D1
+~
+~
+0 -1 708 0 0 0
+D2
+~
+~
+0 -1 708 0 0 0
+D3
+~
+~
+0 -1 711 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#711
+&GA Small Clearing~
+&gYou have come to a clearing in the grass. The sun shines bright, and
+birds can be heard in the distance singing a song. This planet truly is
+beautiful. Looking around, you notice a large tree, with golden fruit
+hanging from it. You wonder if it tastes any good. The sound of fighting
+grows louder, and you can make out a clear sound to the north. 
+~
+0 4 1 1
+D0
+~
+~
+0 -1 712 0 0 0
+D1
+~
+~
+0 -1 708 0 0 0
+D2
+~
+~
+0 -1 708 0 0 0
+D3
+~
+~
+0 -1 708 0 0 0
+R O 0 655 1 711
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#712
+&GThe Open Field~
+&gYou are now at the source of the fighting sound. You can see a rather large
+figure, throwing flurries of kicks and punches into the air. He seems very
+powerful, and you wonder just how strong he could be. Suddenly he notices
+you and grins for some reason. It seems he wants a fight.... 
+~
+0 4 1 0
+D2
+~
+~
+0 -1 711 0 0 0
+R M 0 653 1 712
+S
+#713
+&GStill on the Dirt Road~
+&gYou have taken the fork to the northeast and are still following the dirt
+road. As you continue walking, you notice the house become larger and
+larger. It seems you are almost there! The road continues northeast,
+towards that house.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 714 0 0 0
+D9
+~
+~
+0 -1 707 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#714
+&GEnd of the Path~
+&gYou have finally reached the end of that painfully long road! The house
+you once saw as a speck has grown ten times in size, now resembling a
+large mansion! It seems that the actual area itself is surrounded by a
+white picket fence.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 715 0 0 0
+D9
+~
+~
+0 -1 713 0 0 0
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#715
+&GA White Picket Fence~
+&gThe fence seems to gleam in the sun as you get closer to it. As you look
+over it, you see an extremely large back yard, complete with a driveway
+and garage! You can also make out various Ki's, meaning a lot of people
+must be in the yard.
+~
+0 4 1 0
+D0
+~
+gate~
+3 -1 716 0 0 0
+D2
+~
+~
+0 -1 714 0 0 0
+R D 0 715 0 1
+> entry_prog 100~
+if pl($n) <= 65000000
+mpdamage $n 15
+mea $n The gravity is too strong. [15]
+endif
+~
+|
+S
+#716
+&GBefore the House~
+&gYou are in front of the huge mansion. The whole building is white,
+with numerous windows on every floor. A large porch connects to
+the front, complete with an equally big hammock. You begin
+to wonder what just may be inside of there. You can go north
+into the house, or west, into the yard.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 717 0 0 0
+D1
+~
+~
+0 -1 739 0 0 0
+D2
+~
+gate~
+3 -1 715 0 0 0
+D3
+~
+~
+0 -1 735 0 0 0
+R D 0 716 2 1
+S
+#717
+&GInside the House~
+&gYou are inside the house of Dai-Kaio-Shin's house. Looking
+around you can see that the inside is even bigger than the outside!
+You can continue north, into the living room, or south, outside
+of his house.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 718 0 0 0
+D2
+~
+~
+0 -1 716 0 0 0
+S
+#718
+&GThe Living Room~
+&gThis is the living room of Dai-Kaio-Shin. Looking around, you
+see some chairs in one corner, and a large fireplace in the other.
+In the middle of the room is a huge couch, along with a small
+table next to it. It seems many people come here to relax and talk
+about their adventures while alive.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 731 0 0 0
+D1
+~
+~
+0 -1 719 0 0 0
+D2
+~
+~
+0 -1 717 0 0 0
+D3
+~
+~
+0 -1 730 0 0 0
+S
+#719
+&GThe Stairs~
+&gYou have come to a large, metal, spiraling staircase leading
+upwards. You can't see much else, as your view is blocked by
+the balcony itself. You can either follow the stairs up,
+or go west, into the living room.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 718 0 0 0
+D4
+~
+~
+0 -1 720 0 0 0
+S
+#720
+&GA Long Hallway~
+&gYou are now on the second floor of this mansion. This part of the
+house seems to be a lot more peaceful and quiet than the rest.
+As you look around, you can almost make out what appears to be
+some snoring noises. The hallway continues east.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 721 0 0 0
+D5
+~
+~
+0 -1 719 0 0 0
+S
+#721
+&GFollowing the Hallway~
+&gThe quietness now overcomes you as you continue walking through
+the hallway. It's almost as if the quiet is covering you like
+a dense fog. To the north and south you can see bedrooms, and
+to the east the hallway continues.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 722 0 0 0
+D1
+~
+~
+0 -1 724 0 0 0
+D2
+~
+~
+0 -1 723 0 0 0
+D3
+~
+~
+0 -1 720 0 0 0
+S
+#722
+&GA Bedroom~
+&gThis is a very luxurious bedroom. Two king sized beds are on
+opposite ends of the room, complete with silken sheets and
+a feather pillow. It seems that if you sleep here, you will
+feel relaxed in no time.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 721 0 0 0
+S
+#723
+&GA Bedroom~
+&gThis is a very luxurious bedroom. Two king sized beds are on
+opposite ends of the room, complete with silken sheets and
+a feather pillow. It seems that if you sleep here, you will
+feel relaxed in no time.
+~
+0 0 1 1
+D0
+~
+~
+0 -1 721 0 0 0
+S
+#724
+&GStill in the Hallway~
+&gYou are still following the second floor hallway. You realize
+now that this part of the house is for regaining your health and
+energy. It seems that even though you are dead, you do still
+get tired. The hallway continues west and east.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 725 0 0 0
+D1
+~
+~
+0 -1 727 0 0 0
+D2
+~
+~
+0 -1 726 0 0 0
+D3
+~
+~
+0 -1 721 0 0 0
+S
+#725
+&GA Bedroom~
+&gThis is a very luxurious bedroom. Two king sized beds are on
+opposite ends of the room, complete with silken sheets and
+a feather pillow. It seems that if you sleep here, you will
+feel relaxed in no time.
+~
+0 0 1 1
+D2
+~
+~
+0 -1 724 0 0 0
+S
+#726
+&GA Bedroom~
+&gThis is a very luxurious bedroom. Two king sized beds are on
+opposite ends of the room, complete with silken sheets and
+a feather pillow. It seems that if you sleep here, you will
+feel relaxed in no time.
+~
+0 0 1 1
+D0
+~
+~
+0 -1 724 0 0 0
+S
+#727
+&GEnd of the Hallway~
+&gYou have come to the end of the hallway. There are more bedrooms
+to the north and south. The silence of this hallway is almost
+eerie, as you cannot make out the slightest noise. The hallway
+goes back west.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 728 0 0 0
+D2
+~
+~
+0 -1 729 0 0 0
+D3
+~
+~
+0 -1 724 0 0 0
+R M 0 658 1 727
+S
+#728
+&GA Bedroom~
+&gThis is a very luxurious bedroom. Two king sized beds are on
+opposite ends of the room, complete with silken sheets and
+a feather pillow. It seems that if you sleep here, you will
+feel relaxed in no time.
+~
+0 0 1 1
+D2
+~
+~
+0 -1 727 0 0 0
+S
+#729
+&GA Bedroom~
+&gThis is a very luxurious bedroom. Two king sized beds are on
+opposite ends of the room, complete with silken sheets and
+a feather pillow. It seems that if you sleep here, you will
+feel relaxed in no time.
+~
+0 0 1 1
+D0
+~
+~
+0 -1 727 0 0 0
+S
+#730
+&GThe Kitchen~
+&gAs you step into this room you are overcome by the scents of
+various foods swirling about the air. Just staying in here makes
+your stomach growl! A large stove is against the wall, with numerous
+pots bubbling and gurgling. In the center of the room is a 
+wooden table, complete with many chairs. This room also strikes 
+you as odd, considering you don't get hungry in the afterlife.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 718 0 0 0
+S
+#731
+&GThe Patio~
+&gYou are standing on the Patio in the back of the house. There
+isn't much out here, just a few lounge chairs and some laundry
+left out to dry in the sun. However, you do see some stairs leading
+downward into the yard, where there seems to be some action.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 732 0 0 0
+D2
+~
+~
+0 -1 718 0 0 0
+S
+#732
+&GThe Backyard~
+&gYou are still in the backyard of Dai-Kaio-Shin. The grass
+seems taller and more colorful here, and the trees appear to be
+larger than the rest of the yard. You also hear the sound of
+fighting coming from the east, disrupting this peaceful scene.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 736 0 0 0
+D2
+~
+~
+0 -1 731 0 0 0
+D3
+~
+~
+0 -1 733 0 0 0
+S
+#733
+&GThe Backyard~
+&gThis part of the yard is more barren and desolate than the rest.
+It seems that many people train in this portion of the backyard
+than any other for some reason. In any case, you can see two figures
+doing various excersises to get stronger. The yard goes east and
+west.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 732 0 0 0
+D2
+~
+~
+0 -1 734 0 0 0
+R M 0 654 1 733
+S
+#734
+&GThe Backyard~
+&gYou are in the yard of Dai-Kaio-Shin. The grass seems to be
+well kept, as every blade of grass is crisp and green. It seems
+that even though the grass takes a beating with all the training,
+it manages to grow back better than before. The yard continues north,
+and to the east is the garage.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 733 0 0 0
+D1
+~
+~
+0 -1 735 0 0 0
+R M 0 655 3 734
+S
+#735
+&GThe Garage~
+&gYou have come to Dai-Kaio-Shin's personal garage! Oddly enough,
+his car is parked OUTSIDE of it. What's even more strange is the
+fact that he has a car in the afterlife! You decide not to dwell
+on it much, and realize that you can continue west, into the yard.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 716 0 0 0
+D3
+~
+~
+0 -1 734 0 0 0
+R M 0 655 3 735
+S
+#736
+&GThe Backyard~
+&gThis part of the yard is more barren and desolate than the rest.
+It seems that many people train in this portion of the backyard
+than any other for some reason. In any case, you can see two figures
+doing various excersises to get stronger. The yard goes east and
+west. the yard.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 737 0 0 0
+D3
+~
+~
+0 -1 732 0 0 0
+S
+#737
+&GThe Backyard~
+&gYou are in the backyard of Dai-Kaio-Shin. The yard appears to be
+huge, spanning out for miles and miles. Many trees have been planted
+here, and the grass sways with the wind. This truly is a beautiful
+place.
+~
+0 4 1 4
+D2
+~
+~
+0 -1 738 0 0 0
+D3
+~
+~
+0 -1 736 0 0 0
+R M 0 657 1 737
+R M 0 656 1 737
+S
+#738
+&GThe Backyard~
+&gYou are in the backyard of Dai-Kaio-Shin. The yard appears to be
+huge, spanning out for miles and miles. Many trees have been planted
+here, and the grass sways with the wind. This truly is a beautiful
+place.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 737 0 0 0
+D2
+~
+~
+0 -1 739 0 0 0
+S
+#739
+&GThe Backyard~
+&gYou are in the backyard of Dai-Kaio-Shin. The yard appears to be
+huge, spanning out for miles and miles. Many trees have been planted
+here, and the grass sways with the wind. This truly is a beautiful
+place.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 738 0 0 0
+D3
+~
+~
+0 -1 716 0 0 0
+R M 0 655 3 739
+S
+#740
+&GIn a Fountain of Blood~
+&gThe floor beneath King Yama's office opened up and sent you hurling down
+towards this fountain of blood. Opening your eyes you get up and notice
+realize you are standing in a pool of blood.  To the North you notice what
+seems to be the entrance to Hell. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 741 0 0 0
+S
+#741
+&GWalking on a Black Plain~
+&gAs you enter, you notice you are now standing on a black plain. You can
+barely see your own hand infront of your face. Trying to make out where
+you are you notice an exit to the North and the exit from which you came.
+You try to see where going North will take you but fail. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 742 0 0 0
+S
+#742
+&GTowards a Large Tree~
+&gEntering this room you notice you are no longer on the black plains but you
+are now on an open field. The area around you seems pleasant and the air
+is thick.  To the North you notice a Large Tree and to the West you notice
+there is a dead end. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 744 0 0 0
+D2
+~
+~
+0 -1 741 0 0 0
+D3
+~
+~
+0 -1 743 0 0 0
+S
+#743
+&GA Dead End~
+&gUpon entering you notice this is a dead end. Looking closer you notice a
+large warrior with long hair and a scouter sitting back in a shadow. You
+hear the warrior laugh and proceeds to talk to you. The ground in this
+area seems to be covered in mud. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 742 0 0 0
+R M 0 660 1 743
+S
+#744
+&GNearing the Large Tree~
+&gWalking through the large field you begin to near a Large Tree. The
+surrounding area seems to be getting worse and worse. The air is getting
+thin and the temperature is now rising. Looking around you notice the once
+large open field is now narrow and only two exits are visible. One being
+the way you came from and the second being towards the large tree where
+the environment seems worse. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 745 0 0 0
+D2
+~
+~
+0 -1 742 0 0 0
+S
+#745
+&GBefore a Large Tree~
+&gThe area around you seems to be much darker, probably from the shade casted
+by the tree. A large tree grows tall at the center of the room and the
+shade it is casting is not cool, but rather causing you to sweat. The tree
+itself seems to be breathing all of the oxygen around you instead of
+giving it off.  On the floor you notice a small transporter, next to it is
+a small panel reading, "&OShop&g". 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 752 0 0 0
+D1
+~
+~
+0 -1 746 0 0 0
+D2
+~
+~
+0 -1 744 0 0 0
+D3
+~
+~
+0 -1 748 0 0 0
+> speech_prog p Shop~
+Mea $n &YYou are now being teleported to the Shop.
+mptrans $n 756
+~
+|
+S
+#746
+&GNearing a Crater~
+&gMaking it into this room your surroundings suddenly change. You are now
+walking towards what appears to be a very large crater. At the bottom of
+the crater you notice a large being with its arms crossed. Looking around
+you notice the sky is dark blue and the ground is much like that of planet
+Vegeta.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 747 0 0 0
+D3
+~
+~
+0 -1 745 0 0 0
+S
+#747
+&GInside a Crater~
+&gNow at the bottom of the crater you come face to face with the being. The
+being that stands before you is the Saiyan warror Nappa. The air in this
+area is thin and the temperature seems to be much like on planet Vegeta.
+The warrior before you laughs and begins to stare at you.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 746 0 0 0
+R M 0 661 1 747
+S
+#748
+&GTowards a Flaming Wall~
+&gA large flame bursts from the ground as you enter the room. The sky is
+black and the clouds are grey. Red lightning screams through the sky as
+you walk around the area.  To the West you notice a large wall of flames,
+and directly under it stands a small being.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 745 0 0 0
+D3
+~
+~
+0 -1 749 0 0 0
+S
+#749
+&GBefore a Flaming Wall~
+&gEntering the room you notice the flaming wall is emitting an evil aura. The
+being standing before you laughs and crosses its arms. The flaming wall
+seems to be giving power to this strange being, and it grows as the beings
+power grows. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 748 0 0 0
+D2
+~
+~
+0 -1 750 0 0 0
+R M 0 662 1 749
+S
+#750
+&GNearing an Icerian Spaceship~
+&gNow beyond the flaming wall you find yourself on a trail leading to an
+Icerian Spaceship. The ship is much like Freiza's old ship. The narrow
+metallic trail leads directly into the spaceship. Looking closely you can
+see someone standing inside the ship. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 749 0 0 0
+D2
+~
+~
+0 -1 751 0 0 0
+S
+#751
+&GAn Icerian Spaceship~
+&gUpon entering the Icerian Spaceship you come across a tall icer. The icer
+seems to be looking at a small hole in the floor. The ship is brightly lit
+and the large control panel at the end of the room has the coordinates to
+all the known planets. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 750 0 0 0
+R M 0 663 1 751
+S
+#752
+&GTowards a Bright Light~
+&gWalking into this room you notice a bright light coming from the Northern
+direction. The bright white light is so bright looking directly into it
+hurts your eyes. You notice that you are now standing on a platform, no
+longer are you on an open field. Looking down the platform all that is
+visible is a swirling mist of colors. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 753 0 0 0
+D2
+~
+~
+0 -1 745 0 0 0
+S
+#753
+&GIn a Crossroad~
+&gYour surroundings change and the bright white light isn't as bright
+anymore. You are now in a crossroad. The bright light is being emitted
+from the North, to the East you feel a cold chill, and to the West you can
+see nothing but darkness. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 754 0 0 0
+D1
+~
+~
+0 -1 761 0 0 0
+D2
+~
+~
+0 -1 752 0 0 0
+D3
+~
+~
+0 -1 764 0 0 0
+S
+#754
+&GBefore a Bright White Ball~
+&gThe bright light glows even brighter and then dims. Your surroundings
+have changed once again, you are now in a large junkyard looking area. To
+the East you notice a large pile of scrap metal and parts. A large bright
+ball, emitting a white light, hovers before you. You notice a small rock
+slate on the floor with the words "Revive Me" carved into it. There also
+seems to be some other scrambled up word here. There is a rock infront
+of you with something engraved of it.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 755 0 0 0
+D2
+~
+~
+0 -1 753 0 0 0
+E
+rock~
+&zThe rock has something engraved on it...
+ 
+&RYA WE KA NS
+ 
+ 
+&zYou begin to wonder what that means... Probably something to
+scramble with.
+~
+> speech_prog p revive me~
+mea $n &YA large portal opens and draws you in. When you awaken on the
+mea $n &Yother side, you notice you're at King Kai!
+mptransfer $n 689
+~
+> speech_prog p Snakeway~
+mea $n &YA large portal opens and draws you in. When you awaken on the
+mea $n &Yother side, you notice you're on SnakeWay!
+mptrans $n 661
+~
+|
+S
+#755
+&GA Large Junkyard~
+&gA large pile of scrap metal begins to move and an android jumps out of it,
+landing before you. Piles of scrap metal surround you as far as the eye
+can see. You notice the android is staring at you with an evil grin. 
+~
+0 0 1 0
+D3
+~
+~
+0 -1 754 0 0 0
+R M 0 667 1 755
+S
+#756
+&GAbove a Flaming Lava Pit~
+&gAs you're teleported to this area your surroundings slowly come together.
+You are now surrounded by a large lava pit. The only thing keeping you
+from falling in is a small walkway a couple feet above the lava. You
+notice a flaming sign that reads, "This way to the Shop".  To return to
+Hell just say, "&OReturn Me&g". 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 757 0 0 0
+> speech_prog p Return me~
+mea $n &YYou are now being teleported back to Hell.
+mptrans $n 745
+~
+|
+S
+#757
+&GOn a Fixed Platform~
+&gWalking through the small walkway you come across another platform, but
+this platform is fixed, it doesn't swing from side to side like the other.
+The lava pit beneath you is causing the temperature rise higher and higher
+by the second.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 758 0 0 0
+D3
+~
+~
+0 -1 756 0 0 0
+S
+#758
+&GTowards the Shop~
+&gLeaving the last platform you come across a small hallway. It seems to lead
+to the Shop, but looking to th North you notice the shop seems very old
+and not many things are for sale.  The hallway is narrow and the lava
+seems to be a bit closer in this area.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 759 0 0 0
+D3
+~
+~
+0 -1 757 0 0 0
+S
+#759
+&GNearing the Shop~
+&gWalking into the hallway you feel as though you can't go on, the heat is
+too much to bare. The walls are steaming hot and your body is rubbing up
+against them every step you take. The floor, a metal grill, is burning
+your feet like a barbeque. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 760 0 0 0
+D2
+~
+~
+0 -1 758 0 0 0
+S
+#760
+&GHell's Shop~
+&gNow passed the hallway you enter the small shop. An evil looking being
+stands in a seat behind a flaming counter. Looking around you notice a
+small Soft Drink dispenser and a bundle of shirts next to the shopkeeper.
+Not much is sold in this shop. 
+~
+0 0 1 0
+D2
+~
+~
+0 -1 759 0 0 0
+R M 0 664 1 760
+  R G 1 654 1
+S
+#761
+&GTowards a Large Glacier~
+&gThis end of the crossroad is very cold. The floor begins to shift and turns
+to ice. A gust of wind begins to blow and snow begins to fall. To the East
+you notice a huge glacier with a being standing on it.  Blue flames rise
+all around the glacier. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 762 0 0 0
+D3
+~
+~
+0 -1 753 0 0 0
+S
+#762
+&GNearing the Glacier~
+&gNearing the glacier you notice the being atop the glacier is an icer The
+snow storm gets worse as you get closer to the glacier. The blue flames
+around the glacier begin to lower allowing you to enter the area.  A path
+opens and the being jumps off the glacier, waiting for you to come face to
+face with it. 
+~
+0 0 1 0
+D1
+~
+~
+0 -1 763 0 0 0
+D3
+~
+~
+0 -1 761 0 0 0
+S
+#763
+&GBefore a Huge Glacier~
+&gNow before the large glacier, the icer stands before you grinning at you.
+The glacier seems to be emitting a bluish aura. The aura seems to be
+giving power to the icer warrior before you. The blue flames rise in a
+circular form around you, the icer, and the glacier.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 762 0 0 0
+R M 0 665 1 763
+S
+#764
+&GWalking Through Another Plain~
+&gEntering the area you notice these plains are very familiar. These plains
+remind you of the black plains from before. Red lightning splits the sky
+and a booming thunder surrounds you. Footsteps can be heard not too far
+away.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 767 0 0 0
+D1
+~
+~
+0 -1 753 0 0 0
+D3
+~
+~
+0 -1 765 0 0 0
+S
+#765
+&GWalking Through Another Plain~
+&gEntering the area you notice these plains are very familiar. These plains
+remind you of the black plains from before. Red lightning splits the sky
+and a booming thunder surrounds you. Footsteps can be heard not too far
+away.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 766 0 0 0
+D1
+~
+~
+0 -1 764 0 0 0
+R M 0 666 1 765
+S
+#766
+&GWalking Through Another Plain~
+&gEntering the area you notice these plains are very familiar. These plains
+remind you of the black plains from before. Red lightning splits the sky
+and a booming thunder surrounds you. Footsteps can be heard not too far
+away.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 767 0 0 0
+D2
+~
+~
+0 -1 765 0 0 0
+S
+#767
+&GWalking Through Another Plain~
+&gEntering the area you notice these plains are very familiar. These plains
+remind you of the black plains from before. Red lightning splits the sky
+and a booming thunder surrounds you. Footsteps can be heard not too far
+away.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 764 0 0 0
+D3
+~
+~
+0 -1 766 0 0 0
+S
+#768
+&GAndroid Quarters~
+&gChasing the pieces from the last android you come across yet another
+android. The pieces you were chasing zoom by into another room. Disabled
+androids and "android pods" surround you. Only one android is active here
+and it is staring right at you.  Destroying this android is the only way
+to the next room.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 755 0 0 0
+R M 0 668 1 768
+S
+#769
+&GA Large Metallic Room~
+&gAs you chase the pieces left behind by the other android you enter this
+room. The whole room is made of metal and an average looking android
+stands before you. Looking closer you notice the pieces of the other
+androids hovering above the android, they then lower and sink into the
+androids chest.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 768 0 0 0
+R M 0 669 1 769
+S
+#770
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 771 0 0 0
+S
+#771
+&GOn Snakeway~
+&gYou are now on Snakeway. The walkway extends as far as the eye can
+see see and falling off will take you back to the beginning of the path. 
+Watch your step and notice the directions you are walking in. Stopping to
+take a rest can cause you to fall.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 770 0 0 0
+D2
+~
+~
+0 -1 660 0 0 0
+S
+#0
+
+
+#SHOPS
+ 664    0  0  0  0  0   120  90         0 23    ; Hell's Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

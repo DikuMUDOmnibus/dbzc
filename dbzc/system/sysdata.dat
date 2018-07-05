@@ -1,0 +1,62 @@
+#SYSTEM
+MudName	     Dragon Ball Z: Chronicles~
+ECopyover      0
+PLLoss	     1
+Highplayers    28
+Highplayertime Fri Apr  2 17:53:44 2004~
+CheckImmHost   1
+Nameresolving  1
+Waitforauth    1
+Readallmail    58
+Readmailfree   51
+Writemailfree  51
+Takeothersmail 58
+Muse           56
+Think          60
+Build          53
+Log            53
+Protoflag      53
+Overridepriv   61
+Msetplayer     62
+Stunplrvsplr   80
+Stunregular    15
+Gougepvp       40
+Gougenontank   80
+Bashpvp        40
+Bashnontank    80
+Dodgemod       2
+Parrymod       2
+Tumblemod      4
+Damplrvsplr    80
+Damplrvsmob    80
+Dammobvsplr    50
+Dammobvsmob    50
+Forcepc        62
+Saveflags      1445
+Savefreq       20
+Bestowdif      10
+BanSiteLevel   61
+BanRaceLevel   61
+BanClassLevel  61
+PetSave	     1
+Newbie_purge   30
+Regular_purge  90
+Autopurge      1
+IdentTries     20
+Pkloot         1
+Race            0 34
+Race            1 40
+Race            2 119
+Race            3 36
+Race            4 30
+Race            5 19
+Race            6 43
+Race            7 69
+Race            8 44
+Sex             0 116
+Sex             1 303
+Sex             2 15
+Pfile_count     434
+End
+
+#END

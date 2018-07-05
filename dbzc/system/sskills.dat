@@ -1,0 +1,325 @@
+#SSKILL
+Name         Battle Experience~
+Keyword      battleexperience~
+Type         SSkill
+Info         0
+Flags        0
+Slot         1
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   5
+End
+
+#SSKILL
+Name         chikara 1~
+Keyword      chikara1~
+Type         SSkill
+Info         0
+Flags        0
+Slot         1
+Range        1
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   5000000
+End
+
+#SSKILL
+Name         chikara 2~
+Keyword      chikara2~
+Type         SSkill
+Info         0
+Flags        0
+Slot         2
+Range        1
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   25000000
+End
+
+#SSKILL
+Name         chikara 3~
+Keyword      chikara3~
+Type         SSkill
+Info         0
+Flags        0
+Slot         3
+Range        1
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   55000000
+End
+
+#SSKILL
+Name         chikara 4~
+Keyword      chikara4~
+Type         SSkill
+Info         0
+Flags        0
+Slot         4
+Range        1
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   75000000
+End
+
+#SSKILL
+Name         chikara 5~
+Keyword      chikara5~
+Type         SSkill
+Info         0
+Flags        0
+Slot         4
+Range        1
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   100000000
+End
+
+#SSKILL
+Name         accuracy~
+Keyword      accuracy~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillaccuracy
+Dammsg       ~
+Minlevel     0
+Powerlevel   150000
+End
+
+#SSKILL
+Name         aid~
+Keyword      aid~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         300
+Rounds       10
+Code         do_aid
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   1000
+End
+
+#SSKILL
+Name         blast~
+Keyword      blast~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         6
+Mana         3000
+Rounds       16
+Code         do_blast
+Dammsg       ~
+Minlevel     0
+Powerlevel   5000000
+End
+
+#SSKILL
+Name         kicharge~
+Type         SSkill
+Info         0
+Flags        0
+Target       3
+Minpos       107
+Slot         7
+Mana         500
+Rounds       5
+Code         do_charge
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   25000
+End
+
+#SSKILL
+Name         kick~
+Keyword      kick~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         11
+Rounds       11
+Code         do_nkick
+Dammsg       ~
+Minlevel     0
+Powerlevel   10000
+End
+
+#SSKILL
+Name         direct~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         8
+Rounds       8
+Code         do_direct
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   25000
+End
+
+#SSKILL
+Name         energy ball~
+Keyword      ball~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         9
+Mana         150
+Rounds       8
+Code         do_energyball
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   25000
+End
+
+#SSKILL
+Name         fly~
+Keyword      fly~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         10
+Mana         75
+Rounds       6
+Code         do_fly
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   150000
+End
+
+#SSKILL
+Name         second attack~
+Keyword      secondattack~
+Type         SSkill
+Info         0
+Flags        0
+Slot         13
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   2000000
+End
+
+#SSKILL
+Name         suppress~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       106
+Slot         14
+Mana         500
+Code         do_suppress
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   1000000
+End
+
+#SSKILL
+Name         truesense~
+Type         SSkill
+Info         0
+Flags        0
+Slot         15
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   1000000
+End
+
+#SSKILL
+Name         fusion~
+Keyword      fuse~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       108
+Slot         16
+Mana         -2
+Code         do_fuse
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   100000000
+End
+
+#SSKILL
+Name         punch~
+Keyword      punch~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         11
+Rounds       11
+Code         do_npunch
+Dammsg       ~
+Minlevel     0
+Powerlevel   10000
+End
+
+#SSKILL
+Name         vicious stance~
+Keyword      vstance~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillvstance
+Dammsg       ~
+Minlevel     0
+Powerlevel   1000000
+End
+
+#SSKILL
+Name         zanzoken~
+Keyword      zanzoken~
+Type         SSkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillzanzoken
+Dammsg       ~
+Minlevel     0
+Powerlevel   4500000
+End
+
+#END

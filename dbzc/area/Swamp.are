@@ -1,0 +1,1664 @@
+#AREA   Swap Weighted eq area~
+
+
+
+#VERSION 2
+#AUTHOR Goten~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+1 30
+
+#CONTINENT continent1~
+
+#ECONOMY 0 134177278
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#9101
+First_Mob~
+a newly created First_Mob~
+Some god abandoned a newly created First_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9102
+Keeper~
+Swamp Keeper~
+The &RSwamp Keeper&w is here
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Watch out $n, there is something happening ahead
+mpsleep 2
+smirk
+mpsleep 5
+say Watch out! Watch out I say!
+mpsleep 2
+emote laughs at you evilly
+~
+|
+#9103
+Red Sensor~
+&RA Red Sensor~
+&RA Red Sensor is here on the wall.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> speech_prog p storage~
+say Scanning..
+mpsleep 22
+say You may enter the room now...
+open ne
+~
+> greet_prog 100~
+emote beeps for a second.
+mpsleep 5
+say Hello....
+mpsleep 5
+say I will verify if you able to go into the next room...
+mpsleep 6
+emote beeps again, then dies out.
+~
+|
+#9105
+peddler~
+A Peddler~
+A Peddler stands here selling his goods.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say hello, how are you today?
+mpsleep 5
+say I recently aquired some goods..want to see them, type list.
+mpsleep 5
+smile
+~
+|
+#9106
+Mess Keeper~
+The Mess Keeper~
+The Mess Keeper is here serving food and drinks.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> greet_prog 100~
+say Welcome!. I'm sorry to say...I can't sell any food or drinks
+mpsleep 5
+say because the ship lost it all in the crash...sorry..
+frown
+~
+|
+#9107
+Builder~
+A Builder~
+A Builder is looking at plans here
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9108
+Builder~
+A Builder~
+A Builder is looking at plans here
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9109
+Builder~
+A Builder~
+A Builder is looking at plans here
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9112
+Builder~
+A Builder~
+A Builder is looking at plans here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9113
+Builder~
+A Builder~
+A Builder is looking at plans here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9114
+Builder~
+A Builder~
+A Builder is looking at plans here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9115
+Builder~
+A Builder~
+A Builder is looking at plans here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#9116
+Small Child~
+A Small Child~
+A Small Child is standing here excited.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+Z
+none~
+> greet_prog 100~
+smile
+mpsleep 6
+say hehe I hear thats there is a place here that is selling equipment...
+mpsleep 3
+say based off og Piccolo's and Goku's armor.
+giggle
+~
+|
+#9117
+Cabbie~
+Cabbie~
+Cabbie is here twitching its nose
+~
+~
+1073741825 0 C
+1 0 0 0d0+0 0d0+0
+2147483647 0
+112 112 0
+25 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> rand_prog 5~
+say snippet snipp snippet
+~
+> emote_prog pats cabbie~
+follow $n
+~
+> speech_prog p get all~
+get all
+~
+> speech_prog p drop all~
+drop all
+~
+> speech_prog p startup transporter~
+startup transporter
+~
+> speech_prog p give me gold~
+give 10000000 coins $n
+~
+> speech_prog p take me too gc~
+mptransfer $n 1077
+mptransfer cabbie 1077
+~
+|
+#9250
+Last_Mob~
+a newly created Last_Mob~
+Some god abandoned a newly created Last_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#9101
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#9102
+Deadbody~
+&cThe body of the electronics manager~
+&cThe dead body of the electronics manager rests here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#9250
+Last_obj~
+a newly created Last_obj~
+Some god dropped a newly created Last_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#9101
+First Room~
+~
+0 4 1 0
+S
+#9102
+&gTo A Dark Swamp~
+&CThe smells are different here. The air is full of mist, and
+forest smells.The ground is covered in moss and old branches
+from the forest surrounding the area. The swamp can be seen
+from just up the road. Walking there, should be no problem.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9103 0 0 0
+D2
+~
+~
+536870912 -1 6950 385 263 0
+S
+#9103
+&gWalking Along A Path~
+&CAlong the path are small branches and twigs and moss. The ground
+is moist, and the air full of dense water dropplets, something
+about the air seems odd, but putting your finger on it seems
+to be hard. Although the path is short, the swamp is very large,
+and smells of old swamp gas makes it for an uneasy walk.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9104 0 0 0
+D2
+~
+~
+0 -1 9102 0 0 0
+S
+#9104
+&gWalking Along A Path~
+&CAlong the path are small branches and twigs and moss. The ground
+is moist, and the air full of dense water dropplets, something
+about the air seems odd, but putting your finger on it seems
+to be hard. Although the path is short, the swamp is very large,
+and smells of old swamp gas makes it for an uneasy walk.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9105 0 0 0
+D2
+~
+~
+0 -1 9103 0 0 0
+S
+#9105
+&gWalking Along A Path~
+&CJust before the top of a hill that will let u see the whole
+swamp. A large branch falls on you hurting you a little. That
+smarts.Recovering, then walking to the top of the hill, the
+swamp is in sight.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9106 0 0 0
+D3
+~
+~
+0 -1 9104 0 0 0
+> entry_prog 45~
+mpechoat $n &RA large branch falls from above and lands on you. 
+mpdamage $n 15
+mpechoat $n &RYou have been hurt a little.
+mpechoaround $n &R$n has been hurt by a falling branch.&w
+~
+|
+S
+#9106
+&gAt The Top Of The Hill~
+&CStanding at the top of the hill, the swamp is fully in sight.The
+smells are much worse now, than they were before. The mist become
+much denser from here on out, and it makes it harder to see
+through the swamp. You can hardly see your hands infront of
+your face.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9105 0 0 0
+D5
+~
+~
+0 -1 9107 0 0 0
+> leave_prog 50~
+Mpechoat $n &YYou trip and fall down the hill.
+mpdamage $n 5
+mpechoaround $n &Y$n trips and falls down the hill.&w
+~
+|
+S
+#9107
+&gBottom Of The Hill Infront Of The Swamp~
+&CAt The bottom of the hill. Now the swamp is in site. Although
+the mist is thicker here, it won't be much harder as before.
+The Mist and the stench of "Old Man" on the wind makes this
+a bit worse.
+~
+0 0 1 0
+D4
+~
+~
+0 -1 9106 0 0 0
+D6
+~
+~
+0 -1 9109 0 0 0
+S
+#9108
+&gThe Swamp Keepers House~
+&CUgh, the old Swamp Keepers house. The house is old, and like
+any other shack, it's about to fall over. The house is brown
+and moldy, it's covered in moss and twigs and ungrowth. The
+is a small light coming from the window, it's probably a candle
+since there is no power out here, the old man probably can't
+afford it anyhow.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 9109 0 0 0
+S
+#9109
+&gDark Swamp Entrance~
+&CThe opening of the swamp is here. The Swamp Keeper is here, laughing
+at everybody who passes through, telling them they better watch
+out because something might happen. The swamp gives off a weird
+sensation of not knowing whats going to happen. The ground here
+is very moist and the branches are thicker on the ground here.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9110 0 0 0
+D1
+~
+~
+0 -1 9108 0 0 0
+D9
+~
+~
+0 -1 9107 0 0 0
+R M 0 9102 1 9109
+S
+#9110
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9111 0 0 0
+D2
+~
+~
+0 -1 9109 0 0 0
+D6
+~
+~
+0 -1 9118 0 0 0
+> leave_prog 25~
+mpechoat $n &RYou fall over a large branch and land on the ground.
+mpecharound $n $n has fallin over a large branch.
+mpdamage $n 10
+~
+|
+S
+#9111
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9113 0 0 0
+D2
+~
+~
+0 -1 9110 0 0 0
+D3
+~
+~
+0 -1 9112 0 0 0
+> leave_prog 25~
+mpechoat $n &RYou fall over a large branch and land on the ground.
+mpecharound $n &R$n has fallin over a large branch.
+mpdamage $n 10
+~
+|
+S
+#9112
+&gDead End~
+&wThe Swamp ends here at a large tree. The tree has a very large
+base.making it very beautifull to look at. The tree has very
+broad branches and the leaves are ver bright and green. The
+tree is full of apples.The ground, is covered in small twigs
+and the remains of old apples that have fallen long ago.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9111 0 0 0
+S
+#9113
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9114 0 0 0
+D3
+~
+~
+0 -1 9111 0 0 0
+> leave_prog 25~
+mpechoat $n &RYou fall over a moss log and land on the ground.
+mpecharound $n &R$n has fallin over a large moss log.
+mpdamage $n 10
+~
+|
+S
+#9114
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick.The ground is soaked
+and many little creatures can be heard.Since the mist is thick,
+watching your step should be a must.There is large branches
+and moss covered logs all around in here. The is a small light
+coming from the north 
+~
+0 0 1 0
+D0
+~
+~
+2048 -1 9119 0 0 0
+D1
+~
+~
+0 -1 9115 0 0 0
+D2
+~
+~
+0 -1 9113 0 0 0
+> entry_prog 5~
+Mpechoaround $n &WA small breeze flows in from the north.
+~
+|
+S
+#9115
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 9116 0 0 0
+D3
+~
+~
+0 -1 9114 0 0 0
+> leave_prog 25~
+mpechoat $n &RYou fall over a moss log and land on the ground.
+mpecharound $n &R$n has fallin over a large moss log.
+mpdamage $n 10
+~
+|
+S
+#9116
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9115 0 0 0
+D7
+~
+~
+0 -1 9117 0 0 0
+S
+#9117
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 9118 0 0 0
+D8
+~
+~
+0 -1 9116 0 0 0
+> leave_prog 25~
+mpechoat $n &RYou fall over a large branch and land on the ground.
+mpecharound $n &R$n has fallin over a large branch.
+mpdamage $n 10
+~
+|
+S
+#9118
+&gInside The Dark Swamp~
+In the swamp, this mist is really thick. The ground is soaked
+and many little creatures can be heard. Since the mist is thick,
+watching your step should be a must. There is large branches
+and moss covered logs all around in here.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 9117 0 0 0
+D9
+~
+~
+0 -1 9110 0 0 0
+> leave_prog 25~
+mpechoat $n &RYou fall over a large branch and land on the ground.
+mpecharound $n &R$n has fallin over a large branch.
+mpdamage $n 10
+~
+|
+S
+#9119
+&RTowards A Crater~
+&CThe wind stirs here. There is rocks and rubble all around.
+The smell of smoke lingers in the air, the crater must be near
+by. A short walk away, it seems but, getting closer to the crater
+the more the feeling of being insecure comes into mind.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9120 0 0 0
+D2
+~
+~
+0 -1 9114 0 0 0
+S
+#9120
+&RWalking Along A Rocky Path~
+&CWalking along this path, only brings you closer to the crater.
+Smoke and the heat from the ground flow past your face, making
+your eyes water, and body sweat. The ground rumbles, and your
+body shakes. The aftershock from the crash is still around.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 9119 0 0 0
+D6
+~
+~
+0 -1 9121 0 0 0
+S
+#9121
+&RWalking Along A Rocky Path~
+&CWalking along this path, only brings you closer to the crater.Smoke
+and the heat from the ground flow past your face, making your
+eyes water, and body sweat. The ground rumbles, and your body
+shakes. The aftershock from the crash is still around.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 9122 0 0 0
+D9
+~
+~
+0 -1 9120 0 0 0
+S
+#9122
+&RWalking Along A Rocky Path~
+&CWalking along this path, only brings you closer to the crater.Smoke
+and the heat from the ground flow past your face, making your
+eyes water, and body sweat. The ground rumbles, and your body
+shakes. The aftershock from the crash is still around. You are
+just short of the bottom of the crater.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9123 0 0 0
+D8
+~
+~
+0 -1 9121 0 0 0
+S
+#9123
+&RIn The Crater~
+&CWow the crater is HUGE!. A thought that runs through mind when
+your just standing on the edge. The crage has lots of large
+rocks and dirt clumps surround it. The area is very unsuitable
+for anyone. Rocks can fall at anytime.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9130 0 0 0
+D2
+~
+~
+0 -1 9122 0 0 0
+S
+#9124
+&YAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9132 0 0 0
+D1
+~
+~
+0 -1 9130 0 0 0
+S
+#9125
+&YAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9137 0 0 0
+D3
+~
+~
+0 -1 9130 0 0 0
+S
+#9126
+&BInside A Vent~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9131 0 0 0
+S
+#9127
+&BStorage Room~
+In the Storage Room, many things are in here, including a small
+Droid. He may be able to help you with something. The shelves
+are full of different one of the items may be one of the ones
+needed for Dr. Briefs.
+~
+0 4 1 0
+D9
+~
+~
+1 -1 9131 0 0 0
+R D 0 9127 9 0
+S
+#9128
+&BA Junk Room~
+This room is full of broken odds nad ends. In the room, currenly
+is large piles of wasted materials such as metal scraps, spaceship
+parts and wires for wiring the spaceship. The room isn't very
+well lighted, its dusty, and is filled with an odd smell.
+~
+0 4 1 0
+D8
+~
+~
+0 -1 9131 0 0 0
+S
+#9129
+&BControl Center~
+~
+0 4 1 0
+D5
+~
+~
+33 -1 9131 0 0 0
+R D 0 9129 5 0
+S
+#9130
+&BPart Of The Crashed Ship~
+Behind a rock just near by, is wreckage from a ship that fell
+from space and made this large crater in the Earth. The ship
+is quite large, peices of it are everywhere. There may even
+be survivors from the crash, help them if needed.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9131 0 0 0
+D1
+~
+~
+0 -1 9125 0 0 0
+D2
+~
+~
+0 -1 9123 0 0 0
+D3
+~
+~
+0 -1 9124 0 0 0
+S
+#9131
+&BInside Of The Crashed Ship~
+In the ship, there is many wires and cables running along the
+floor they give off sparks because they are cut and ripped from
+the crash. The ship itself, is very unique. The ship, has a
+metal inside with sliding metal doors. It has sensor eyes to
+find out if you are capable of entering the rooms around the
+ship. You can hear low beeping sounds from above, check it out.
+There is a &Rsign&z here look at it.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 9130 0 0 0
+D3
+~
+~
+2048 -1 9126 0 0 0
+D4
+~
+~
+3 -1 9129 0 0 0
+D6
+~
+~
+1 -1 9127 0 0 0
+D7
+~
+~
+0 -1 9128 0 0 0
+R M 0 9103 1 9131
+R D 0 9131 4 1
+R D 0 9131 6 0
+E
+sign~
+To enter the rooms say the following:
+
+- Storage -
+~
+> speech_prog p storage~
+mea $n &RA Red Sensor Eye reads your retinas and identifies You.&w
+mer $n &RA Red Senser Eye reads $n's retinas and identifies them.
+mpsleep 10
+mea $n &Y[&w--&CSCAN COMPLETE&w--&Y]&w
+mer $n &Y[&w--&CSCAN COMPLETE&w--&Y]&w
+mpsleep 5
+mea $n &Y[&w--&CIDENTIFCATION&w--&Y]&w
+mer $n &Y[&w--&CIDENTIFCATION&w--&Y]&w
+mea $n &wName &W: &c$n&w
+mer $n &wName &W: &c$n&w
+if sex($n) == 1
+mea $n &wSex  &W: &RMale&w
+mer $n &wsex  &W: &RMale&w
+endif
+if sex($n) == 2
+mea $n &wSex  &W: &BFemale&w
+mer $n &wSex  &W: &BFemale&w
+endif
+if race($n) == saiyan
+mea $n &wRace &W: &YSaiyan&w
+mer $n &wRace &W: &YSaiyan&w
+endif
+if race($n) == icer
+mea $n &wRace &W: &YIcer&w
+mer $n &wRace &W: &YIcer&w
+endif
+if race($n) == halfbreed
+mea $n &wRace &W: &YHalfbreed&w
+mer $n &wRace &W: &YHalfbreed&w
+endif
+if race($n) == mutant
+mea $n &wRace &W: &YMutant&w
+mer $n &wRace &W: &YMutant&w
+endif
+if race($n) == human
+mea $n &wRace &W: &YHuman&w
+mer $n &wRace &W: &YHuman&w
+endif
+if race($n) == namek
+mea $n &wRace &W: &YNamek&w
+mer $n &wRace &W: &YNamek&w
+endif
+if race($n) == android
+mea $n &wRace &W: &YAndroid&w
+mer $n &wRace &W: &YAndroid&w
+endif
+if race($n) == biodroid
+mea $n &wRace &W: &YBiodroid&w
+mer $n &wRace &W: &YBiodroid&w
+endif
+mea $n &wPower&W: &cUnknown&w
+mer $n &wPower&W: &cUnknown&w 
+~
+|
+S
+#9132
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 9124 0 0 0
+D3
+~
+~
+0 -1 9133 0 0 0
+S
+#9133
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9134 0 0 0
+D1
+~
+~
+0 -1 9132 0 0 0
+S
+#9134
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9135 0 0 0
+D2
+~
+~
+0 -1 9133 0 0 0
+S
+#9135
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9136 0 0 0
+D2
+~
+~
+0 -1 9134 0 0 0
+S
+#9136
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused. To the "North"
+is the bottom of the crater. From there go on to find the other
+peices of the crashed ship.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9140 0 0 0
+D1
+~
+~
+0 -1 9158 0 0 0
+D2
+~
+~
+0 -1 9135 0 0 0
+R M 0 9116 1 9136
+S
+#9137
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9138 0 0 0
+D2
+~
+~
+0 -1 9125 0 0 0
+S
+#9138
+&GAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9158 0 0 0
+D3
+~
+~
+0 -1 9137 0 0 0
+S
+#9139
+&GAround The Peice Of The Crashed Ship~
+~
+0 4 1 0
+D3
+~
+~
+0 -1 9136 0 0 0
+S
+#9140
+&RTo The Bottom Of The Crater~
+The bottom of the crater, almost there. The crater smolders and
+rumbles the further into it. The crater is really really big,
+bigger than actually thought. from the bottom, the other parts
+of the ship are clearly seen.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9141 0 0 0
+D2
+~
+~
+0 -1 9136 0 0 0
+S
+#9141
+&RAlmost To The Bottom Of The Crater~
+The bottom of the crater, almost there. The crater smolders and
+rumbles the further into it. The crater is really really big,
+bigger than actually thought. from the bottom, the other parts
+of the ship are clearly seen. Nearing the bottom, there is a
+small pool of water there. The pool hardly has any water in
+it, so it is hardly noiced.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9142 0 0 0
+D2
+~
+~
+0 -1 9140 0 0 0
+S
+#9142
+&RThe Bottom Of The Crater~
+The bottom of the crater. The ships can be found not far from
+here.Although, the other parts are much large than the first.
+The ships peices were scattered really far apart makeing salvage
+alot harder for the owners of the spacecraft. The pool of water
+here is of muddy, it's dark in color and very opaque.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 9141 0 0 0
+D6
+~
+~
+0 -1 9144 0 0 0
+D7
+~
+~
+0 -1 9143 0 0 0
+E
+water~
+&zThe water is dark, and very muddy...But there seems to be something
+in the water.
+~
+S
+#9143
+&RTo The Second Part Of The Ship~
+The second peice of the ship comes near. The spacecraft's second
+peice is much larger than the first. The road here is very rocky
+and narrow.The ground is dusty and dry from lack of rain, and
+the the plants here do not flurish as they do in the swamp.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 9145 0 0 0
+D8
+~
+~
+0 -1 9142 0 0 0
+S
+#9144
+&RTo The Third Part Of The Ship~
+The third peice is in sight. This one isn't very big at all.
+The hunk is just a room or two big. But for some reason there
+seems to be alot of people near it. Check it out.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 9159 0 0 0
+D9
+~
+~
+0 -1 9142 0 0 0
+S
+#9145
+&RWalking Along The Rocks~
+The rocks are jagged and pointy. They hurt as they brush against
+your skin. The road is very narrow and the ground is very hard.the
+lack of rain makes the air very dry and dusty. Soon, the ship
+will be in sight, and thus travelling far and hard the journey
+ends.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 9146 0 0 0
+D8
+~
+~
+0 -1 9143 0 0 0
+> entry_prog 15~
+mea $n &YYour skin brushes against the rocks&w.
+mpdamage $n 8
+mer $n &Y$n's skin brushes against the rocks they get cut&w.
+~
+|
+S
+#9146
+&RWalking Along The Rocks~
+The rocks are jagged and pointy. They hurt as they brush against
+your skin. The road is very narrow and the ground is very hard.the
+lack of rain makes the air very dry and dusty. Soon, the ship
+will be in sight, and thus travelling far and hard the journey
+ends.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 9147 0 0 0
+D8
+~
+~
+0 -1 9145 0 0 0
+> entry_prog 15~
+mea $n &YYour skin brushes against the rocks&w.
+mpdamage $n 8
+mer $n &Y$n's skin brushes against the rocks they get cut&w.
+~
+|
+S
+#9147
+&BThe Second Part Of The Crashed Ship~
+&CInside the spacecraft, the wreckage isn't as bad here. The
+rooms are more intact, and there seems to more people in this
+general area. The ship is larger and seems to be looking better
+because of repairs.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9150 0 0 0
+D1
+~
+~
+0 -1 9148 0 0 0
+D8
+~
+~
+0 -1 9146 0 0 0
+S
+#9148
+&BA Junk Pile~
+&CThe junk room...There is alot of stuff in here, spare items,
+metal scraps, and different types of meterials. The junk room
+is filled up to almost the ceiling with junk. The piles consist
+of neatly stacked rows. The people sure do like to look after
+their ship.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9149 0 0 0
+D3
+~
+~
+0 -1 9147 0 0 0
+S
+#9149
+&BIn The Junk Pile~
+&CThe Junk pile is very large and full of many different items
+this room isn't as neat as the last, it looks like they just
+throw old items they are unwanted in here.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 9148 0 0 0
+S
+#9150
+&BDown A Metal Hall~
+&CDown through the metal hallway. The room has exits every which
+way. To the west is the Mess Room where everyone tends to meet
+for a meal or a good time. Up is Landing Pad #2 where spaceships
+can take off and land within the spacecraft.Back to the south
+is the entrance of the ship.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9153 0 0 0
+D2
+~
+~
+0 -1 9147 0 0 0
+D3
+~
+~
+0 -1 9151 0 0 0
+D4
+~
+~
+0 -1 9152 0 0 0
+S
+#9151
+&BThe Mess Room~
+&CWelcome!, the room is always open for a food drinks and any
+form of fun. Come here here any time for anything. The mess
+rooms owner is always glad to get new customers from different
+places. The Food is great and so are the drinks so sit down
+and have a good time 
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9150 0 0 0
+R M 0 9106 1 9151
+S
+#9152
+&BLanding Pad #2~
+&CThe landing pad ahs a few shuttles landed on it. Some crew
+members from them are standing here. Maybe they can help you
+out, with something in the spaceship.
+~
+0 4 1 0
+D5
+~
+~
+0 -1 9150 0 0 0
+S
+#9153
+&BDown A Metal Hall~
+&CFurther down the hall, the hall almost comes to an end, but
+there are a few more rooms around that you can check out. To
+the west is an electronics room, and to the east is another
+landing pad . Just ot the morth is the end of the metal hall.
+There may be something there to assist you.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9156 0 0 0
+D1
+~
+~
+0 -1 9155 0 0 0
+D2
+~
+~
+0 -1 9150 0 0 0
+D3
+~
+~
+0 -1 9154 0 0 0
+S
+#9154
+&BAn Advanced Shop~
+&CThis room is similar to the Junk room, but it only has things
+that have to do with "Electronics". The Manager of the electronics
+room only gives out his electronical items for a certain price
+unless persuaded otherwise. 
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9153 0 0 0
+R M 0 9105 1 9154
+  R G 1 120 1
+  R G 1 123 1
+  R G 1 122 1
+  R G 1 121 1
+  R G 1 124 1
+S
+#9155
+&BA Landing Pad~
+&CThis is the other landing pad in the crash spaceship, the ship
+consists of lots of different rooms but, these landing pads
+are much different then the rest. they are full of space shuttles
+and people from all acrossed the galaxy.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 9153 0 0 0
+S
+#9156
+&BEnd Of The Metal Hall~
+&CThe end of the metal hallway turning around, the way back is
+just a little ways walk. The space is larher than expected.
+The people are very excellent at building spaceships, and this
+is just one of many.There is a sign here that has some of the
+writing scratched off..Maybe if looked at closer you can maybe
+guess at what it says.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 9153 0 0 0
+E
+sign~
+Looking closly at the sign it reads...
+
+Tr N s orT  e
+~
+> speech_prog p transport me~
+mea $n The Transporter Lights Up And You Materialize In A Different Place
+mer $n The Transporter Lights Up And $n Dissappears.
+mptransfer $n 9162
+mpat 9162 mpforce $n look
+~
+|
+S
+#9157
+&YFloating in a void~
+~
+0 4 1 0
+S
+#9158
+&YAround The Peice Of The Crashed Ship~
+&COutside the spaceship. Debree is all around, sparks shoot off
+the wreckage here and there. The Ground is pretty roughed up,
+rocks and earth are all around, big clumps of dirt are easy
+to see, trees and and roots show.Trees are black and smoldering,
+from the fires that the crashed ship caused.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 9138 0 0 0
+D3
+~
+~
+0 -1 9136 0 0 0
+S
+#9159
+&RAlong A Rocky Path~
+The rocks are jagged and pointy. They hurt as they brush against
+your skin. The road is very narrow and the ground is very hard.the
+lack of rain makes the air very dry and dusty. Soon, the ship
+will be in sight, and thus travelling far and hard the journey
+ends.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 9160 0 0 0
+D9
+~
+~
+0 -1 9144 0 0 0
+> entry_prog 30~
+mea $n &YYour skin brushes against the rocks&w.
+mpdamage $n 8
+mer $n &Y$n's skin brushes against the rocks they get cut&w.
+~
+|
+S
+#9160
+&RAlong A Rocky Path~
+The rocks are jagged and pointy. They hurt as they brush against
+your skin. The road is very narrow and the ground is very hard.the
+lack of rain makes the air very dry and dusty. Soon, the ship
+will be in sight, and thus travelling far and hard the journey
+ends.
+~
+0 4 1 0
+D6
+~
+~
+0 -1 9161 0 0 0
+D9
+~
+~
+0 -1 9159 0 0 0
+> entry_prog 30~
+mea $n &YYour skin brushes against the rocks&w.
+mpdamage $n 8
+mer $n &Y$n's skin brushes against the rocks they get cut&w.
+~
+|
+S
+#9161
+&RAlong A Rocky Path~
+The rocks are jagged and pointy. They hurt as they brush against
+your skin. The road is very narrow and the ground is very hard.the
+lack of rain makes the air very dry and dusty. Soon, the ship
+will be in sight, and thus travelling far and hard the journey
+ends. The ship is just a short walk away. The sounds of building
+can be heard 
+~
+0 4 1 0
+D6
+~
+~
+0 -1 9162 0 0 0
+D9
+~
+~
+0 -1 9160 0 0 0
+> entry_prog 15~
+mea $n &YYour skin brushes against the rocks&w.
+mpdamage $n 8
+mer $n &Y$n's skin brushes against the rocks they get cut&w.
+~
+|
+S
+#9162
+&BThe Third Peice Of The Spaceship~
+&CThe ships core is glowing bright here to the north it must
+be the power source of the whole ship. There is workers here
+doing their best to recover the ships core. They have started
+building metal barriers around the core.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 9163 0 0 0
+D9
+~
+~
+0 -1 9161 0 0 0
+R M 0 9107 1 9162
+S
+#9163
+&BThe Spaceships Inner core~
+&CThe spaceships Core. The core glows very brightly in your pressence.You
+could probably gain back lost strength from your journey here,
+it's like a healing chamber. It soothes your pains. The core
+makes you feel great.
+~
+0 4 1 1
+D1
+~
+~
+0 -1 9165 0 0 0
+D2
+~
+~
+0 -1 9162 0 0 0
+D3
+~
+~
+0 -1 9164 0 0 0
+R M 0 9108 1 9163
+R M 0 9109 1 9163
+S
+#9164
+&BA Metal Barrier~
+&CThe Metal barrier is being held up by a few metal poles. The
+barrier is very strong and can withstand the mightiest of blasts.it
+could probably withstand a nuclear bomb. The people from the
+spaceship are very intelligent.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 9163 0 0 0
+R M 0 9112 1 9164
+R M 0 9113 1 9164
+S
+#9165
+&BA Metal Barrier~
+&CThe Metal barrier is being held up by a few metal poles. The
+barrier is very strong and can withstand the mightiest of blasts.it
+could probably withstand a nuclear bomb. The people from the
+spaceship are very intelligent.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 9163 0 0 0
+R M 0 9114 1 9165
+R M 0 9115 1 9165
+S
+#9166
+Floating in a void~
+~
+0 4 1 0
+S
+#9167
+&YThe Landing Pad~
+~
+0 4 1 0
+S
+#9168
+Floating in a void~
+~
+0 4 1 0
+S
+#9169
+Floating in a void~
+~
+0 4 1 0
+S
+#9170
+Floating in a void~
+~
+0 4 1 0
+S
+#9200
+Floating in a void~
+~
+0 4 1 0
+S
+#9250
+Last Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 9105    9  0  0  0  0   120  90         0 23    ; A Peddler
+ 9106    0  0  0  0  0   120  90         0 23    ; The Mess Keeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,1824 @@
+#AREA   Spaceships~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+1
+
+#CONTINENT continent1~
+
+#ECONOMY 0 44652762
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#5000
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#5001
+Someone~
+Someone~
+Someone
+~
+~
+8396801 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5002
+calculate evil_chikara
+start
+launch
+mpjunk keycard
+say Hold on tight!
+~
+> time_prog 18~
+mpoload 5002
+calculate spaceport_gate3
+start
+launch
+mpjunk keycard
+say Going back to tha Spaceport!
+~
+|
+#5002
+Someone~
+Someone~
+Someone
+~
+~
+8396803 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5008
+calculate good_chikara
+start
+launch
+mpjunk keycard
+say Hold on tight!
+~
+> time_prog 18~
+mpoload 5008
+calculate spaceport_gate2
+start
+launch
+mpjunk keycard
+say Going back to tha Spaceport!
+~
+|
+#5003
+Someone~
+Someone~
+Someone
+~
+~
+8396801 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5012
+calculate yardrat
+start
+launch
+mpjunk keycard
+say Hold on tight!
+~
+> time_prog 18~
+mpoload 5012
+calculate spaceport_gate11
+start
+launch
+mpjunk keycard
+say Going back to tha Spaceport!
+~
+|
+#5004
+Someone~
+Someone~
+Someone
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#5005
+Someone~
+Someone~
+Someone
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#5006
+Someone Ghetti~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5016
+calculate planet_ghetti
+start
+launch
+mpjunk key
+say Hold on tight!
+~
+> time_prog 18~
+mpoload 5016
+calculate spaceport_gate1
+start
+launch
+mpjunk key
+say Going back to tha Spaceport!
+~
+|
+#5007
+Someone LAB~
+Someone~
+Someone
+~
+~
+8396801 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5018
+calculate lab_dock
+start
+launch
+junk keycard
+~
+> time_prog 18~
+mpoload 5018
+calculate spaceport_gate10
+start
+launch
+mpjunk keycard
+~
+|
+#5008
+Someone Saiyan Planet~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5020
+calculate planet_vegeta
+start
+launch
+mpjunk keycard
+~
+> time_prog 18~
+mpoload 5020
+calculate planetary
+start
+launch
+mpjunk keycard
+~
+|
+#5009
+Someone Earth~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 5~
+mpoload 5022
+calculate planet_earth
+start
+launch
+mpjunk keycard
+~
+> time_prog 18~
+mpoload 5022
+calculate planetary
+start
+launch
+mpjunk keycard
+~
+|
+#5010
+Someone Android~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 6~
+mpoload 5024
+calculate android_station
+start
+launch
+mpjunk keycard
+~
+> time_prog 19~
+mpoload 5024
+calculate planetary
+start
+launch
+mpjunk keycard
+~
+|
+#5011
+Someone Mutant~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 6~
+mpoload 5026
+calculate planet_mutant
+start
+launch
+mpjunk keycard
+~
+> time_prog 20~
+mpoload 5026
+calculate planetary
+start
+launch
+mpjunk keycard
+~
+|
+#5012
+Someone Freezar~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 7~
+mpoload 5028
+calculate planet_freezar
+start
+launch
+mpjunk keycard
+~
+> time_prog 20~
+mpoload 5028
+calculate planetary
+start
+launch
+mpjunk keycard
+~
+|
+#5013
+Someone Gerok~
+Someone~
+Someone
+~
+~
+75505667 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> time_prog 7~
+mpoload 5030
+calculate planet_gerok
+start
+launch
+mpjunk keycard
+~
+> time_prog 19~
+mpoload 5030
+calculate planetary
+start
+launch
+mpjunk keycard
+~
+|
+#5014
+someone~
+a newly created someone~
+Someone
+~
+~
+8388609 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6000
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#5000
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#5001
+EFS Ship~
+EFS Ship~
+(Spaceship) The EFS Spaceship is waiting new members.~
+~
+67 0 0
+5001 0 0 0
+1 0 0
+#5002
+EFS Keycard~
+EFS Keycard~
+EFS Keycard has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5005
+SHADOW~
+SHADOW~
+(Spaceship) The spaceship SHADOW is here with its engines offline.~
+~
+67 0 0
+5005 5006 0 0
+1 0 0
+#5006
+SHADOW Keycard~
+SHADOW Keycard~
+SHADOW Keycard is here.~
+~
+18 2105344 1
+0 0 0 0
+1 0 0
+#5007
+GFS Ship~
+GFS Ship~
+(Spaceship) The GFS Spaceship is waiting new members.~
+~
+67 0 0
+5007 0 0 0
+1 0 0
+#5008
+GFS Keycard~
+GFS Keycard~
+GFS Keycard is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5011
+YARDRAT~
+YARDRAT~
+(Spaceship) The spaceship Yardrat is here waiting for travelers.~
+~
+67 0 0
+5011 0 0 0
+1 0 0
+#5012
+YARDRAT Keycard~
+YARDRAT Keycard~
+YARDRAT Keycard is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5013
+CRUISER~
+CRUISER Spaceship~
+(Spaceship) The spaceship CRUISER is here with its engines offline.~
+~
+67 0 0
+5013 0 0 0
+1 0 0
+#5014
+DIPLOMACY Keycard~
+DIPLOMACY Keycard~
+A spaceship key has been carelessly misplaced here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5015
+GHETTI~
+GHETTI~
+(Spaceship) The shuttle GHETTI is here with its engines offline.~
+~
+67 0 0
+5015 0 0 0
+1 0 0
+#5016
+GHETTI Key~
+GHETTI Key~
+GHETTI Spaceship Key is here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5017
+MDHQ~
+MDHQ~
+(Spaceship) The shuttle MDHQ is here with its engines offline.~
+~
+67 0 0
+5017 0 0 0
+1 0 0
+#5018
+LAB Keycard~
+LAB Keycard~
+LAB Keycard~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5019
+Vegeta~
+A Vegeta Shuttle Capsule~
+(Spaceship) The shuttle VEGETA is here with its engines offline.~
+~
+67 0 0
+5019 0 0 0
+1 0 0
+#5020
+Vegeta Keycard~
+Vegeta Keycard~
+The Vegeta Keycard here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5021
+Earth Shuttle~
+A Earth Shuttle Capsule~
+(Spaceship) The shuttle EARTH is here with its engines offline.~
+~
+67 0 0
+5021 0 0 0
+1 0 0
+#5022
+Earth Keycard~
+Earth Keycard~
+Earth Keycard~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5023
+NAMEK~
+NAMEK~
+(Spaceship) The shuttle NAMEK is here with its engines offline.~
+~
+67 0 0
+5023 0 0 0
+1 0 0
+#5024
+Android Keycard~
+Android Keycard~
+Android Keycard~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5025
+Mutant~
+A Myuutanto Shuttle Capsule~
+(Spaceship) The shuttle MUTANT is here with its engines offline.~
+~
+67 0 0
+5025 0 0 0
+1 0 0
+#5026
+Mutant Keycard~
+Mutant Keycard~
+Mutant Keycard~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5027
+Freezar~
+A Freezar Shuttle Capsule~
+(Spaceship) The shuttle FREEZAR is here with its engines offline.~
+~
+67 0 0
+5027 0 0 0
+1 0 0
+#5028
+Freezar Keycard~
+Freezar Keycard~
+Freezar Keycard~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5029
+Gerok~
+A Gerok Shuttle Capsule ~
+(Spaceship) The shuttle GEROK is here with its engines offline.~
+~
+67 0 0
+5029 0 0 0
+1 0 0
+#5030
+Gerok Keycard~
+Gerok Keycard~
+Gerok Keycard~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#5035
+APOCALYPSE~
+APOCALYPSE~
+(Spaceship) The spaceship APOCALYPSE is here with its engines offline.~
+~
+67 0 0
+5035 5036 0 0
+1 0 0
+#5036
+APOCALYPSE Keycard~
+APOCALYPSE Keycard~
+APOCALYPSE Keycard is here.~
+~
+18 2105344 1
+0 0 0 0
+1 0 0
+#5037
+AEGIS~
+AEGIS~
+(Spaceship) The spaceship AEGIS is here with its engines offline.~
+~
+67 0 0
+5037 5038 0 0
+1 0 0
+#5038
+AEGIS Keycard~
+AEGIS Keycard~
+AEGIS Keycard is here.~
+~
+18 2105344 1
+0 0 0 0
+1 0 0
+#5045
+ZFHQ~
+ZFHQ~
+(Spaceship) The shuttle ZFHQ is here with its engines offline.~
+~
+67 0 0
+5045 5046 0 0
+1 0 0
+#5046
+MHQ~
+MHQ~
+(Spaceship) The shuttle MHQ is here with its engines offline.~
+~
+67 0 0
+5046 0 0 0
+1 0 0
+#5047
+CSHQ~
+CSHQ~
+(Spaceship) The shuttle CSHQ is here with its engines offline.~
+~
+67 0 0
+5047 0 0 0
+1 0 0
+#5048
+FDHQ~
+FDHQ~
+(Spaceship) The shuttle FDHQ is here with its engines offline.~
+~
+67 0 0
+5048 0 0 0
+1 0 0
+#5049
+ASTEROID~
+ASTEROID~
+(Spaceship) The shuttle ASTEROID is here with its engines offline.~
+~
+67 0 0
+5049 0 0 0
+1 0 0
+#5050
+TurkHQ~
+TurkHQ~
+(Spaceship) The shuttle TurkHQ is here with its engines offline.~
+~
+67 0 0
+5050 0 0 0
+1 0 0
+#5051
+TCHQ~
+TCHQ~
+(Spaceship) The shuttle TCHQ is here with its engines offline.~
+~
+67 0 0
+5051 0 0 0
+1 0 0
+#5052
+DUEL~
+DUEL~
+(Spaceship) The shuttle DUEL is here with its engines offline.~
+~
+67 0 0
+5052 0 0 0
+1 0 0
+#5053
+CKHQ~
+CKHQ~
+(Spaceship) The shuttle CKHQ is here with its engines offline.~
+~
+67 0 0
+5053 0 0 0
+1 0 0
+#5054
+BATTLESTAR~
+BATTLESTAR~
+(Spaceship) The shuttle BATTLESTAR is here with its engines offline.~
+~
+67 0 0
+5054 0 0 0
+1 0 0
+#5055
+NIBELHEIM~
+NIBELHEIM~
+(Spaceship) The shuttle NIBELHEIM is here with its engines offline.~
+~
+67 0 0
+5055 0 0 0
+1 0 0
+#5056
+LUSITANIA~
+LUSITANIA~
+(Spaceship) The shuttle LUSITANIA is here with its engines offline.~
+~
+67 0 0
+5056 0 0 0
+1 0 0
+#5057
+SPACESTATION~
+SPACESTATION~
+(Spaceship) The shuttle SPACESTATION is here with its engines offline.~
+~
+67 0 0
+5057 0 0 0
+1 0 0
+#5058
+ZX1~
+ZX1~
+(Spaceship) The spacepod ZX1 awaits here with its engines offline.~
+~
+67 0 0
+5058 0 0 0
+1 0 0
+#5059
+ZX2~
+ZX2~
+(Spaceship) The spacepod ZX2 awaits here with its engines offline.~
+~
+67 0 0
+5059 0 0 0
+1 0 0
+#5060
+ZX3~
+ZX3~
+(Spaceship) The spacepod ZX3 awaits here with its engines offline.~
+~
+67 0 0
+5060 0 0 0
+1 0 0
+#5061
+ZX4~
+ZX4~
+(Spaceship) The spacepod ZX4 awaits here with its engines offline.~
+~
+67 0 0
+5061 0 0 0
+1 0 0
+#5062
+ZX5~
+ZX5~
+(Spaceship) The spacepod ZX5 awaits here with its engines offline.~
+~
+67 0 0
+5062 0 0 0
+1 0 0
+#5063
+ZX6~
+ZX6~
+(Spaceship) The spacepod ZX6 awaits here with its engines offline.~
+~
+67 0 0
+5063 0 0 0
+1 0 0
+#5064
+ZX7~
+ZX7~
+(Spaceship) The spacepod ZX7 awaits here with its engines offline.~
+~
+67 0 0
+5064 0 0 0
+1 0 0
+#5065
+ZX8~
+ZX8~
+(Spaceship) The spacepod ZX8 awaits here with its engines offline.~
+~
+67 0 0
+5065 0 0 0
+1 0 0
+#5066
+ZX9~
+ZX9~
+(Spaceship) The spacepod ZX9 awaits here with its engines offline.~
+~
+67 0 0
+5066 0 0 0
+1 0 0
+#5067
+ZX10~
+ZX10~
+(Spaceship) The spacepod ZX10 awaits here with its engines offline.~
+~
+67 0 0
+5067 0 0 0
+1 0 0
+#5068
+ZX11~
+ZX11~
+(Spaceship) The spacepod ZX11 awaits here with its engines offline.~
+~
+67 0 0
+5068 0 0 0
+1 0 0
+#5069
+ZX12~
+ZX12~
+(Spaceship) The spacepod ZX12 awaits here with its engines offline.~
+~
+67 0 0
+5069 0 0 0
+1 0 0
+#6000
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#5000
+First Room~
+~
+0 4 1 0
+S
+#5001
+&GControl Room EFS~
+&gYou are in a cramped transport.  There are only a few seats, and the
+rest of the passangers are forced to stand.  There is a blinking control
+panel sitting at the front of the room. You dont want to touch it, as
+the pilots tend to get very angry when someone modifies where the ship
+is heading. Now to sit back and wait for your arrival.
+~
+0 1028 1 8
+S
+#5002
+Floating in a void~
+~
+0 4 1 0
+S
+#5004
+Floating in a void~
+~
+0 4 1 0
+S
+#5005
+&zSHADOW Control Room~
+&gNow inside the control area of the SHADOW, everything seems
+cold, and very dark with grey and black metals making up most
+of the souroundings poorly illuminated by red lights strewn
+about the room. You feel the like someone's watching you, an
+evil presence. Chaotic laughter can be heard in the back of
+your head as you look around.
+~
+0 4 0 8
+D1
+~
+~
+0 -1 6262 0 0 0
+> speech_prog p i need my keycard~
+if clan($n) == Cobra Sect
+mpmload 5004
+mpforce someone mpoload 5006
+mpforce someone give keycard $n
+mppurge someone
+endif
+~
+> act_prog p glares at~
+if clan($n) == Cobra Sect
+mpforce $t stand
+mpforce $t leave spaceship
+endif
+~
+> act_prog p has lost her link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p has lost his link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p has lost its link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p enters the ship.~
+if clan($n) == Majin Dynasty
+if carryingvnum($n) == 5006
+mpforce $n drop shadow
+mpforce $n sac shadow
+else
+if clan($n) == Faded Dragons
+if carryingvnum($n) == 5006
+mpforce $n drop shadow
+mpforce $n sac shadow
+else
+if clan($n) == Cobra Sect
+mpdonothing
+else
+if carryingvnum($n) == 5006
+mpforce $n drop shadow
+mpforce $n sac shadow
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#5006
+Floating in a void~
+~
+0 4 1 0
+S
+#5007
+&GControl Room GFS~
+&gYou are in a cramped transport.  There are only a few seats, and the rest
+of the passangers are forced to stand.  There is a blinking control panel
+sitting at the front of the room.  You dont want to touch it, as the
+pilots tend to get very angry when someone modifies where the ship is
+heading. Now to sit back and wait for your arrival.
+~
+0 4 1 8
+S
+#5008
+Floating in a void~
+~
+0 4 1 0
+S
+#5011
+&GYardrat Shuttle~
+~
+0 4 1 8
+S
+#5013
+CRUISER Control Room~
+The Diplomacy is a new ship, designed for speed as well as war.  Its
+compact design allows it to maneuver around asteroids, meteors as
+well as giving it an edge in combat.  It looks like it can seat up
+to twenty persons comfortably. The cockpit has three comfortable
+seats. one for a gunner, navigator and pilot. The command console
+is also highly technical and very state-of-the art. Weapon and
+defense systems include a complete phase shield and special ki
+energy cannons which allow the crew to channel their own ki into
+the cannon to allow a higher damage potential. An impressive design.
+~
+0 4 1 8
+D9
+~
+hatch~
+2049 -1 7290 0 0 0
+> speech_prog p i need my keycard~
+if clan($n) == Faded Dragons
+mpmload 5005
+mpforce someone mpoload 5014
+mpforce someone give key $n
+mppurge someone
+endif
+~
+> act_prog p glares at~
+if clan($n) == Faded Dragons
+mpforce $t stand
+mpforce $t leave spaceship
+endif
+~
+> act_prog p has lost his link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p has lost her link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p has lost its link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p enters the ship.~
+if clan($n) == Majin Dynasty
+if carryingvnum($n) == 5014
+mpforce $n drop diplomacy
+mpforce $n sac diplomacy
+else
+if clan($n) == Cobra Sect
+if carryingvnum($n) == 5014
+mpforce $n drop diplomacy
+mpforce $n sac diplomacy
+else
+if clan($n) == Faded Dragons
+mpdonothing
+else
+if carringvnum($n) == 5014
+mpforce($n) drop diplomacy
+mpforce($n) sac diplomacy
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#5015
+Ghetti Shuttle~
+This is a shuttle that takes you to planet Ghetti. There are
+many seats scattered across on the control room, for the passengers
+as it seems that this is a very small shuttle.
+~
+0 4 1 8
+S
+#5017
+MDHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Majin Dynasty Headquarters.
+~
+0 4 1 8
+S
+#5019
+Inside The Vegeta Shuttle~
+This is a fully automated shuttle. There are no signs of any
+pilot, it seems that the board computer takes care of all the
+calculation and the space travel. There are some leather seats
+scattered across the control room.
+~
+0 4 1 8
+S
+#5021
+Inside The Earth Shuttle~
+This is a fully automated shuttle. There are no signs of any
+pilot, it seems that the board computer takes care of all the
+calculation and the space travel. There are some leather seats
+scattered across the control room.
+~
+0 4 1 8
+S
+#5023
+Inside The Namek Shuttle~
+This is a fully automated shuttle. There are no signs of any
+pilot, it seems that the board computer takes care of all the
+calculation and the space travel. There are some leather seats
+scattered across the control room.
+~
+0 4 1 8
+S
+#5024
+Floating in a void~
+~
+0 4 1 0
+S
+#5025
+Inside the Mutant Shuttle~
+This is a fully automated shuttle. There are no signs of any
+pilot, it seems that the board computer takes care of all the
+calculation and the space travel. There are some leather seats
+scattered across the control room.
+~
+0 4 1 8
+S
+#5027
+Inside The Freezar Shuttle~
+This is a fully automated shuttle. There are no signs of any
+pilot, it seems that the board computer takes care of all the
+calculation and the space travel. There are some leather seats
+scattered across the control room.
+~
+0 4 1 8
+S
+#5029
+Inside The Gerok Shuttle~
+This is a fully automated shuttle. There are no signs of any
+pilot, it seems that the board computer takes care of all the
+calculation and the space travel. There are some leather seats
+scattered across the control room.
+~
+0 4 1 8
+S
+#5035
+&zApocalypse Control Room~
+&rYou find yourself surrounded by advanced space travel technology.The
+interior of the ship seems to be constructed out of a unique
+titanium alloy. The light of the stars shine down on you through
+the re-enforced tinted ceiling. Many comfortable chairs line
+the room for those long journeys through space. Video cameras
+with the marks of the Majin Dynasty, monitor the area and maintain
+security throughout the ship. You hear the massive engines roar
+as they power up for take off.
+~
+0 4 1 8
+D5
+~
+hatch~
+2051 -1 9346 0 0 0
+> speech_prog p i need my keycard~
+if clan($n) == Majin Dynasty
+mpmload 5004
+mpforce someone mpoload 5036
+mpforce someone give keycard $n
+mppurge someone
+endif
+~
+> act_prog p glares at~
+if clan($n) == Majin Dynasty
+mpforce $t stand
+mpforce $t leave spaceship
+endif
+~
+> act_prog p has lost his link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p has lost her link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p has lost its link.~
+if ovnumroom(270) == 1
+mppurge 'One Star Black-Dragonball'
+endif
+if ovnumroom(271) == 1
+mppurge 'Two Star Black-Dragonball'
+endif
+if ovnumroom(272) == 1
+mppurge 'Three Star Black-Dragonball'
+endif
+if ovnumroom(273) == 1
+mppurge 'Four Star Black-Dragonball'
+endif
+if ovnumroom(274) == 1
+mppurge 'Five Star Black-Dragonball'
+endif
+if ovnumroom(275) == 1
+mppurge 'Six Star Black-Dragonball'
+endif
+if ovnumroom(276) == 1
+mppurge 'Seven Star Black-Dragonball'
+endif
+~
+> act_prog p enters the ship.~
+if clan($n) == Cobra Sect
+if carryingvnum($n) == 5036
+mpforce $n drop apocalypse
+mpforce $n sac apocalypse
+else
+if clan($n) == Faded Dragons
+if carryingvnum($n) == 5036
+mpforce $n drop apocalypse
+mpforce $n sac apocalypse
+else
+if clan($n) == Majin Dynasty
+mpdonothing
+else
+if carryingvnum($n) == 5036
+mpforce $n drop apocalypse
+mpforce $n sac apocalypse
+endif
+endif
+endif
+endif
+endif
+endif
+~
+|
+S
+#5036
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#5037
+&RAegis Control Room~
+&rYou find yourself surrounded by advanced space travel technology.The
+interior of the ship seems to be constructed out of a unique
+titanium alloy. The light of the stars shine down on you through
+the re-enforced tinted ceiling. Many comfortable chairs linethe
+room for those long journeys through space. Video cameras with
+the marks of the Majin Dynasty, monitor the area and maintain security
+throughout the ship. You hear the massive engines roar as they
+power up for take off.
+~
+0 4 1 8
+> speech_prog p i need my keycard~
+if clan($n) == Majin Dynasty
+mpmload 5004
+mpforce someone mpoload 5038
+mppurge someone
+endif
+~
+|
+S
+#5045
+ZFHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Z Fighters Headquarters.
+~
+0 1073741828 1 8
+S
+#5046
+MHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Majin Headquarters.
+~
+0 1073741828 1 8
+S
+#5047
+CSHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Cobra Sect Headquarters.
+~
+0 1073741828 1 8
+S
+#5048
+FDHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Faded Dragons Headquarters.
+~
+0 1073741828 1 8
+S
+#5049
+Asteroid Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: The Pk Asteroid.
+~
+0 1073741828 1 8
+S
+#5050
+TurkHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Turks Headquarters.
+~
+0 1073741828 1 8
+S
+#5051
+TCHQ Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: The Council Headquarters.
+~
+0 1073741828 1 8
+S
+#5052
+DUEL Control Room~
+~
+0 4 1 8
+S
+#5053
+CKHQ Control Room~
+~
+0 1073741828 1 8
+S
+#5054
+BATTLESTAR Control Room~
+~
+0 1073741828 1 8
+S
+#5055
+NIBELHEIM Control Room~
+~
+0 1073741828 1 8
+S
+#5056
+LUSITANIA Control Room~
+You're standing inside one of Seventeen's personal fleet of shuttles.
+These state-of-the-art automated ships are fully functional with all
+the commodities one could imagine. The large pilot computer beeps
+frantically as it prepares to launch. The display monitor blinks, as it
+shows it's current target: Planet Lusitania.
+~
+0 260 1 8 0 0 1
+S
+#5057
+SPACESTATION Control Room~
+~
+0 1073741828 1 8
+S
+#5058
+ZX1 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5059
+ZX2 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5060
+ZX3 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5061
+ZX4 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5062
+ZX5 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5063
+ZX6 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5064
+ZX7 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5065
+ZX8 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5066
+ZX9 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5067
+ZX10 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5068
+ZX11 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5069
+ZX12 Spacepod Control Room~
+As you enter the spacepod, you notice that its so only one person
+can occupy it at a time. As you sit down you feel the comfortable
+seat upholding your weight. At your hands on the seat hand rest
+you have all the controls you need to drive this spacepod.
+~
+0 1073741828 1 136 0 0 1
+S
+#5160
+Floating in a void~
+~
+0 4 1 0
+S
+#5334
+Floating in a void~
+~
+0 4 1 0
+S
+#5505
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#6000
+Last Room~
+~
+0 4 1 0
+R M 0 6000 1 6000
+R M 0 5000 1 6000
+R O 0 5000 1 6000
+R O 0 6000 1 6000
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+ 5001 0 321 30 1101 5002 5001 1101 2
+ 22 20 10 0 22 20 10 0 0
+EFS~
+evil_chikara~
+spaceport_gate3~
+  5 18
+ 5005 0 332 30 332 5006 5005 0 0
+ 7 12 5 12 7 12 5 12 0
+SHADOW~
+ 5007 0 322 30 1076 5008 5007 1076 2
+ 32 19 15 0 32 19 15 0 0
+GFS~
+good_chikara~
+spaceport_gate2~
+  5 18
+ 5011 0 340 30 0 5012 5011 6702 2
+ -12 50 45 -29 -12 50 60 -40 2
+YARDRAT~
+planet_yardrat~
+spaceport_gate11~
+  5 18
+ 5013 0 332 30 332 5014 5013 0 0
+ 10 40 5 0 10 40 5 0 0
+CRUISER~
+ 5015 0 319 30 6552 5016 5015 6552 2
+ 10 40 5 0 10 40 5 0 0
+GHETTI~
+planet_ghetti~
+spaceport_gate1~
+  5 18
+ 5017 0 331 20 9252 5018 5017 9252 2
+ 0 4 2 0 0 4 2 0 0
+MDHQ~
+md_hq~
+spaceport_gate10~
+  5 18
+ 5019 0 342 30 0 5020 5019 501 2
+ 47 19 25 0 50 19 25 0 2
+VEGETA~
+planet_vegeta~
+planetary~
+  5 18
+ 5021 0 342 30 6823 5022 5021 6823 2
+ 15 25 40 0 15 25 40 0 0
+EARTH~
+planet_earth~
+planetary~
+  5 18
+ 5023 0 342 30 0 5024 5023 8139 2
+ 30 50 -35 0 30 50 -40 0 2
+NAMEK~
+planet_namek~
+planetary~
+  5 18
+ 5025 0 342 30 801 5026 5025 801 2
+ 5 30 20 0 5 30 20 0 0
+MUTANT~
+planet_mutant~
+planetary~
+  5 18
+ 5027 0 342 30 7302 5028 5027 7302 2
+ 40 15 5 0 40 15 5 0 0
+FREEZAR~
+planet_freezar~
+planetary~
+  5 18
+ 5029 0 342 30 0 5030 5029 8153 2
+ 47 19 40 1 80 19 40 1 2
+GEROK~
+planet_gerok~
+planetary~
+  5 18
+ 5035 0 332 30 332 5036 5035 0 0
+ 7 12 5 12 7 12 5 12 0
+APOCALYPSE~
+ 5037 0 332 30 332 5038 5037 0 0
+ 7 12 5 12 7 12 5 12 0
+AEGIS~
+ 5045 0 324 30 6411 0 5045 6411 2
+ 18 9 9 5 18 9 9 5 0
+ZFHQ~
+zf_hq~
+spaceport_gate5~
+  5 18
+ 5046 0 323 35 401 5047 5046 401 2
+ 6 6 6 6 6 6 6 6 0
+MHQ~
+mhq~
+spaceport_gate4~
+  5 18
+ 5047 0 326 35 6201 0 5047 6201 2
+ 33 29 18 0 33 29 18 0 0
+CSHQ~
+cs_hq~
+spaceport_gate6~
+  5 18
+ 5048 0 327 30 7101 0 5048 7101 2
+ 4 9 14 0 4 9 14 0 0
+FDHQ~
+fd_hq~
+spaceport_gate7~
+  5 18
+ 5049 0 329 35 329 0 5049 0 0
+ 7 12 5 8 7 12 5 8 0
+ASTEROID~
+ 5050 0 330 35 6602 5051 5050 6602 2
+ 6 15 3 0 6 15 3 0 0
+TURKHQ~
+turk_hq~
+spaceport_gate9~
+  5 18
+ 5051 0 343 35 343 5052 5051 343 2
+ 7 12 5 13 7 12 5 13 0
+TCHQ~
+tc_hq~
+spaceport_gate13~
+  0 0
+ 5052 0 349 20 349 5053 5052 349 2
+ 7 12 5 15 7 12 5 15 0
+DUEL~
+duel_center~
+spaceport_gate15~
+  5 18
+ 5053 0 344 20 0 5054 5053 8302 2
+ 13 8 29 0 13 8 33 0 2
+CKHQ~
+ck_hq~
+spaceport_gate14~
+  5 18
+ 5054 0 359 40 6548 5055 5054 6548 2
+ 53 -13 -10 0 53 -13 -10 0 0
+BATTLESTAR~
+battlestar_platform~
+spaceport_gate16~
+  5 18
+ 5055 0 360 30 0 5056 5055 2001 2
+ 47 14 -35 0 80 14 -40 0 2
+NIBELHEIM~
+nibelheim~
+spaceport_gate17~
+  5 18
+ 5056 0 2299 25 2299 0 5056 2299 2
+ 73 52 40 1 73 52 40 1 0
+LUSITANIA~
+lusitania_port~
+planet_lusitania~
+  5 18
+ 5057 0 361 60 2291 5058 5057 2291 2
+ 73 52 40 0 73 52 40 0 0
+SPACESTATION~
+lusitania_station~
+spaceport_gate18~
+  5 18
+ 5058 0 373 40 373 0 5058 0 3
+ 73 52 40 0 73 52 40 0 1
+ZX1~
+ 5059 0 373 40 373 0 5059 0 3
+ 30 50 -40 0 30 50 -40 0 0
+ZX2~
+ 5060 0 373 40 373 0 5060 0 3
+ 30 50 -40 0 30 50 -40 0 0
+ZX3~
+ 5061 0 373 40 373 0 5061 0 3
+ 7 12 5 19 7 12 5 19 0
+ZX4~
+ 5062 0 373 40 373 0 5062 0 3
+ 7 12 5 19 7 12 5 19 0
+ZX5~
+ 5063 0 373 40 373 0 5063 0 3
+ 7 12 5 19 7 12 5 19 0
+ZX6~
+ 5064 0 373 40 373 0 5064 0 3
+ 7 12 5 19 7 12 5 19 0
+ZX7~
+ 5065 0 373 40 373 0 5065 0 3
+ 7 12 5 19 7 12 5 19 0
+ZX8~
+ 5066 0 373 40 373 0 5066 0 3
+ 7 12 5 19 7 12 5 19 0
+ZX9~
+ 5067 0 373 40 373 0 5067 0 3
+ 80 19 40 1 80 19 40 1 0
+ZX10~
+ 5068 0 373 40 373 0 5068 0 3
+ 80 19 40 1 80 19 40 1 0
+ZX11~
+ 5069 0 373 40 373 0 5069 0 3
+ 30 50 -40 0 30 50 -40 0 0
+ZX12~
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

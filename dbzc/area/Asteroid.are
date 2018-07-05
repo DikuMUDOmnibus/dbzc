@@ -1,0 +1,590 @@
+#AREA   Asteroid~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+144
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31704400
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6501
+First mob~
+a newly created First mob~
+Some god abandoned a newly created First mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6550
+Last Mob~
+a newly created Last Mob~
+Some god abandoned a newly created Last Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#6501
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#6502
+Holy Hand Grenade~
+&W(&YHoly&W) &G&WHand Grenade!&W&w~
+&G&WThe Holy Hand Grenade is asploded here!&W&w~
+~
+13 0 16385
+0 0 0 0
+1 0 0
+> drop_prog 100~
+mpmudecho &WOh No! $n has dropped a Holy Hand Grenade on someone's ass!
+mpforce $n sac grenade
+mpstun all
+if isimmort($n)
+mprestore $n 1000
+endif
+~
+|
+#6503
+Sensu Capsule~
+&OA small Sensu Capsule!&W&w~
+&OA small Sensu Capsule is here biatch!&W&w~
+~
+9 0 16385
+0 0 0 1
+1 100 10
+> drop_prog 100~
+mpecho &YAs the capsule hits the ground it explodes into a cloud of dust!
+mpsleep 2
+mpecho &OOnce the dust clears, 5 Sensu Beans have been dropped on the ground!
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpgoto $n
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpoload 6
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpoload 6
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpoload 6
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpoload 6
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpoload 6
+mpat 'the spaceport guard' mpforce 'the spaceport guard' drop all
+mpat 'the spaceport guard' mpforce 'the spaceport guard' mpgoto 316
+mpforce $n sac capsule
+~
+|
+#6504
+Smoke Bomb~
+&zA tiny Smoke Bomb!&W&w~
+&zYou won't ever see this biatch....&W&w~
+~
+9 0 16385
+0 0 0 1
+1 100 10
+> drop_prog 100~
+mpforce $n sac smoke
+mpmudecho &z$n has used his smoke bomb to evade someone!
+mptransfer $n 251
+~
+|
+#6550
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#6501
+&GLanding Bay~
+&gAs you step out of the spacecraft and set foot on this great asteroid, you
+wonder what you got yourself into. As you gaze around, you can see red
+earth for miles around.  There are many rocks, most coming from debris
+hitting this asteroid. You turn to your left and right to look around, but
+only see despair and emptiness.  A shiver runs down your spine as the
+shuttle launches. Maybe you shouldn't have come here, you tell yourself. 
+But you realize it is too late and will have to wait for the next shuttle.
+In the meantime, you take your courage in hand and decide what you will
+do.
+~
+0 4 0 0
+D0
+~
+~
+0 -1 6503 0 0 0
+D1
+~
+~
+0 -1 6507 0 0 0
+D2
+~
+~
+0 -1 6506 0 0 0
+D3
+~
+~
+0 -1 6505 0 0 0
+> rand_prog 25~
+~
+|
+S
+#6502
+Floating in a void~
+~
+0 4 1 0
+R O 0 6501 1 6502
+S
+#6503
+&GA rocky field~
+&gThis area, like most of the asteroid is worn out. There are many craters,
+some being deeper than you had ever imagined possible. As you venture
+forth, you see many rocks, some of different colors, coming from asteroids
+hitting this planet. You wonder if there are any creatures around, but as
+you look more carefully over the area, you hope there isn't. You walk
+forward towards a huge rock, blue rock. As you lean on it, you suddenly
+jump up, startled at the cold feeling in such a warm atmosphere. As you
+look for what caused to coolness, you notice that the rock has a lot of
+blood, and most of it is still fresh. You shiver as you picture how it got
+there.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6501 0 0 0
+D9
+~
+~
+0 -1 6504 0 0 0
+S
+#6504
+&GA rocky desert~
+&gThis area, although it seems to be deserted, is filled with numerous rocks,.
+all bigger than the other. Everywhere you look, there are menhirs and.
+huge boulders. Some of the views look somewhat like Earth`s myseterious.
+Stonehenge. However, judging by all those blood stains, you suspect this.
+wasn't used for an astronomical calendar.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6505 0 0 0
+D6
+~
+~
+0 -1 6503 0 0 0
+S
+#6505
+&GA rocky desert~
+&gThis area is like the rest of the asteroid field. Dull and chalky red, the.
+ground is of no interest. There is a weird skeleton shining in the sun to.
+your right. The skeleton appears to be deformed and mutilated, which is.
+not very reassuring. Glancing around, you see cliffs to the south,.
+blocking that exit. You continue your journey on, and notice many.
+footprints on the floor. You wonder if they were already there when you.
+came in, but shrug the idea off.
+Exits: east west.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6501 0 0 0
+D3
+~
+~
+0 -1 6504 0 0 0
+S
+#6506
+&GNear the Crash Site~
+&gA meteor has recently crashed into the asteroid, leaving a huge gaping hole
+in the surface. However, and way more interesting, the partially
+evaporated meteor now exposes a Crystal Vein in its core. Due to the great
+power of the Crystals only Triton is allowed near the collision site.
+Triton has put a large energyshield around the crashsite, that is
+impossible to penetrate without the proper security clearance. You can see
+the large vein through the shield, the crystals appear to be glowing red
+and yellow.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6501 0 0 0
+S
+#6507
+&GA Deserted Plateau~
+&gYou climb uphill a little and end up on this plateau. Deserted, the place
+seems melancholic. As you glance around, you see some structures far to
+the east. Maybe there is some civilization. This specific area is rather
+dull. Small rocks and boulders are lying around, and nothing seems to be
+moving. As you stand here, you wonder what you will do, now that you are
+here. You feel the heat pounding on you, but you ignore it, and keep
+gazing, looking for some sign of intelligence.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6508 0 0 0
+D3
+~
+~
+0 -1 6501 0 0 0
+S
+#6508
+&GEntrance to Town~
+&gYou climb steadily uphill. As you get on top, you see a disatrous sight.
+Crumbled buildings are everywhere to your east, and in the middle of this
+chaos, there is a huge crater. As you recover from your climb and sit on a
+boulder to catch your breath, you can't help but wonder if anyone survived
+such an impact. You stand up, after recovering your breath. As you think,
+you don't realize that your next choice might actually save your life. But
+which choice is the right one? You intend to find out, as you venture
+forth. Maybe there is someone who will help you, or someone who will harm
+you. The only way to find out is to proceed.
+~
+0 0 1 0
+D0
+~
+~
+3 -1 6520 0 0 0
+D3
+~
+~
+0 -1 6507 0 0 0
+D6
+~
+~
+0 -1 6509 0 0 0
+R D 0 6508 0 1
+S
+#6509
+&GTown Square~
+&gThis is the centre of what used to be a small town. This town was probably
+inhabited by a couple dozen of people, most of which were probably
+escaping wars breaking out on different planets. The many shattered walls
+and worn down paths suggest that this town has been extinct for quite some
+time now. This area, like the rest of the small asteroid, was covered with
+many craters, big and small, within which there were more boulders and
+rocks. The many dry blood stains makes this immage unbearable, as you look
+away, in hopes of finding survivors.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6513 0 0 0
+D2
+~
+~
+0 -1 6512 0 0 0
+D6
+~
+~
+0 -1 6510 0 0 0
+D8
+~
+~
+0 -1 6511 0 0 0
+D9
+~
+~
+0 -1 6508 0 0 0
+S
+#6510
+&GRuined House~
+&gThis house is empty. No furniture, nothing. It seems to have been there.
+for a long time, as it is more rotted than anything else you've seen so.
+far. As you step into the room, you can't help but see all the blood on.
+the floor. Why is there so much blood on this planet? Somehow, you don't.
+intend to look more into it.
+~
+0 0 1 0
+D9
+~
+~
+0 -1 6509 0 0 0
+S
+#6511
+&GTown Hall~
+&gThis is the small town`s hall, where the most dominant residents would come
+and talk over their decisions. As you step in, you notice many picture
+frames and shattered glass on the floor. You can also see a small, round
+table in the center of the room, with 4 chairs going around, obviously
+where the council met. This room smells musty and damp, as many files, all
+which have been ruined, were stored here. You inspect the area, in hopes
+of finding some piece of this town`s history in vain.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 6509 0 0 0
+S
+#6512
+&GPathway to Farming Grounds~
+&gThis pathway leads from the farm to the Town Square.  This small farm was
+what nourished the small garrison of inhabitants. You can see a while
+south a farm house, a field and a barn.  Scary to think this alone made
+people live on this asteroid.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6509 0 0 0
+D2
+~
+~
+0 -1 6519 0 0 0
+D8
+~
+~
+0 -1 6517 0 0 0
+D9
+~
+~
+0 -1 6518 0 0 0
+S
+#6513
+&GPath to the Residential Sector~
+&gThis small path is bumpy, and makes this short path seem to take forever. 
+It leads you in the more commercial and residential part of town. Maybe
+you will find somewhere to rest. You can only hope for the best as you
+move on.  On the other end of the path, the Town Square is to the south.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6512 0 0 0
+D2
+~
+~
+0 -1 6509 0 0 0
+D6
+~
+~
+0 -1 6514 0 0 0
+D7
+~
+~
+0 -1 6515 0 0 0
+S
+#6514
+&GA Crumbling House~
+&gThis is the home of one of the few residents. The house is still full of
+furniture, though it is all broken and rotting. You try and salvage some
+chair to sit, but it is too weak and breaks as you put some weight on it. 
+As you glance more closely, you see that the roof has been blown off and
+that the walls are falling apart under the strong wind. The house is nice
+and breezy, and gives the whole thing an appearence of serenity. As you
+try and salvage another chair, you notice the bloodstains on the floor.
+Just then, you wonder if all those holes on the planet were indeed caused
+by debris, or if it was something else.
+~
+0 0 1 0
+D9
+~
+~
+0 -1 6513 0 0 0
+S
+#6515
+&GA Dismantled House~
+&gThis house is one of the older structures of the city. Its rotting point
+is far beyond anything else around town, and the wood and structure seems
+to be more aged. As you glance around the room for something exciting, you
+can't help but notice the gruesome blood stains on the floor. You shake
+yourself together, and wonder how it got there. But in your heart, you
+know you don't want to find out.
+~
+0 0 1 0
+D8
+~
+~
+0 -1 6513 0 0 0
+S
+#6516
+&GRuined Shop~
+&gThis small structure used to be a shop, as you can tell by all the boxes.
+around here and crushed scouters. The merchandise found here is about 20.
+years old and unusable. You decide that it better you leave, because this.
+place is of no interest. If only there were a shop somewhere...
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6513 0 0 0
+S
+#6517
+&GA Small, Destroyed Farm House~
+&gThis is the small farmhouse. This seems to be more cheaply made than the.
+other houses found up north in the town. The structure made of wood,.
+seems to be rocking with the wind, and threatens to fall at any moment..
+You hope that the moment isn't now, and you try and squint around the.
+room. All you can make out are pieces of broken wood and some broken rocks.
+on the floor. How they got there and why is beyond your knowledge.
+~
+0 0 1 0
+D7
+~
+~
+0 -1 6512 0 0 0
+S
+#6518
+&GA Crushed Barn~
+&gThis is where the cattle used to be raised, and as you can tell by
+observing the ruins, there were only very few beasts. There are piles of
+hay to the left and right, and some of it has been smothered by the fallen
+ceiling. On the floor, there are a few skulls of different creatures,
+probably victims of an accident. Other than the fact that it is falling
+apart, this barn is like any other and has all the farming equipment,
+although it seems to be outdated.
+~
+0 0 1 0
+D6
+~
+~
+0 -1 6512 0 0 0
+S
+#6519
+&GA Small Field~
+&gThis is the town's attempt at making a field of crop.  They had problem
+with the earth and the nutrition of their crop. The ground seemed bare,
+with the exception of the numerous rocks and boulders, all chalky red. 
+There are a few sprouts here and there, but nothing which could help a
+town survive.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6512 0 0 0
+S
+#6520
+&GA Small Hut~
+~
+0 0 1 0
+D2
+~
+~
+3 -1 6508 0 0 0
+R D 0 6520 2 1
+S
+#6525
+Floating in a void~
+~
+0 4 1 0
+S
+#6540
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#6548
+BattleStar's Ship Platform~
+As you land on the BattleStar, the first thing you notice is the endless
+expanse to either way.  The place seems completely desolate, as only
+dust can be seen here and there. Only the wind's gentle blowing can be heard
+and now your presence.  You think you see something move out of the
+corner of your eye but perhaps it's just the vastness and emptyness
+playing tricks on your mind, or is it.
+~
+0 1073741824 1 0
+D2
+~
+~
+536870912 -1 6550 249 251 6
+S
+#6549
+Asteroid~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 6549 0 0 0
+D1
+~
+~
+0 -1 6549 0 0 0
+D2
+~
+~
+0 -1 6549 0 0 0
+D3
+~
+~
+0 -1 6549 0 0 0
+D6
+~
+~
+0 -1 6549 0 0 0
+D7
+~
+~
+0 -1 6549 0 0 0
+D8
+~
+~
+0 -1 6549 0 0 0
+D9
+~
+~
+0 -1 6549 0 0 0
+S
+#6550
+Outside~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

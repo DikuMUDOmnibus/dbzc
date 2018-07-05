@@ -1,0 +1,1791 @@
+#AREA   Junction Point Alpha Hotel~
+
+
+
+#VERSION 2
+#AUTHOR Rheanos~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6951
+First_mob~
+a newly created First_mob~
+Some god abandoned a newly created First_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6953
+worker~
+An old time Worker~
+An old Worker sits on a nearby log sipping on some coffee.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 1
+Z
+none~
+> greet_prog 100~
+say Best watch you don't hurt yourself here.
+smile
+say Construction workers are the only ones allowed in here.
+~
+|
+#6961
+female receptionist~
+The Female Receptionsist~
+A Female Receptionist sits behind her desk, tapping her pen.
+~
+~
+67110913 0 C
+40 0 0 0d0+0 0d0+0
+0 500
+112 112 2
+13 13 13 25 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if ispc($n)
+say Welcome to the Hotel. I hope you enjoy your stay.
+say If you need any information, just say so.
+smile
+endif
+~
+> speech_prog p I need information~
+nod
+say To the east is the Elevator.
+say To the north is the Casino.
+say To the west you'll find the Dining Room.
+say And to the south are the Restrooms and the Entrance.
+smile
+say If you'd like to see what rooms are available and
+say their prices, just look at the sign.
+~
+> speech_prog white~
+if goldamt($n) < 100
+say You need more money.
+else
+if ovnuminv(6952) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 100 coins $n
+give white $n
+endif
+endif
+~
+> speech_prog grey~
+if goldamt($n) < 100
+say You need more money.
+else
+if ovnuminv(6953) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 100 coins $n
+give grey $n
+endif
+endif
+~
+> speech_prog green~
+if goldamt($n) < 100
+say You need more money.
+else
+if ovnuminv(6954) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 100 coins $n
+give green $n
+endif
+endif
+~
+> speech_prog yellow~
+if goldamt($n) < 100
+say You need more money.
+else
+if ovnuminv(6955) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 100 coins $n
+give yellow $n
+endif
+endif
+~
+> speech_prog orange~
+if goldamt($n) < 500
+say You need more money.
+else
+if ovnuminv(6956) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 500 coins $n
+give orange $n
+endif
+endif
+~
+> speech_prog brown~
+if goldamt($n) < 500
+say You need more money.
+else
+if ovnuminv(6957) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 500 coins $n
+give brown $n
+endif
+endif
+~
+> speech_prog black~
+if goldamt($n) < 500
+say You need more money.
+else
+if ovnuminv(6958) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 500 coins $n
+give black $n
+endif
+endif
+~
+> speech_prog purple~
+if goldamt($n) < 500
+say You need more money.
+else
+if ovnuminv(6959) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 500 coins $n
+give purple $n
+endif
+endif
+~
+> speech_prog cyan~
+if goldamt($n) < 500
+say You need more money.
+else
+if ovnuminv(6960) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 500 coins $n
+give cyan $n
+endif
+endif
+~
+> speech_prog pink~
+if goldamt($n) < 500
+say You need more money.
+else
+if ovnuminv(6961) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 500 coins $n
+give pink $n
+endif
+endif
+~
+> speech_prog gold~
+if goldamt($n) < 1000
+say You need more money.
+else
+if ovnuminv(6962) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 1000 coins $n
+give gold $n
+endif
+endif
+~
+> speech_prog silver~
+if goldamt($n) < 1000
+say You need more money.
+else
+if ovnuminv(6963) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 1000 coins $n
+give silver $n
+endif
+endif
+~
+> speech_prog bronze~
+if goldamt($n) < 1000
+say You need more money.
+else
+if ovnuminv(6964) == 0
+say I already rented that room.
+else
+say Sure, $n
+mpforce $n give 1000 coins $n
+give bronze $n
+endif
+endif
+~
+|
+#6965
+hostess~
+The Hostess~
+An older looking Hostess awaits customers for the Dining Room.
+~
+~
+1140850689 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 2
+Z
+none~
+> greet_prog 100~
+smile
+say Welcome to the Dining Room.
+say Sorry, but we're full. Please try again later.
+~
+|
+#6967
+Bellhop~
+A bellhop~
+A young Bellhop stands here leaned against some kind of luggage cart.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 1
+Z
+none~
+> greet_prog 100 s~
+say Hello
+smile
+say Hope things are going well for you.
+bow $n
+~
+|
+#6977
+bubba~
+Bubba~
+Bubba sits behind the counter glancing around at the customers and listening to music.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 0
+Z
+none~
+#6990
+bob~
+Bob~
+Bob sits behind the counter reading a newspaper and listening to music.
+~
+~
+1140850691 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 0
+Z
+none~
+#6993
+bellhop~
+A Bellhop~
+A young Bellhop stands here leaned against some kind of luggage cart.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 1
+Z
+none~
+> greet_prog 100~
+say If there is anything I can help you with, just let me know.
+smile
+~
+|
+#6997
+young man~
+A Young Man~
+A Young Man relaxes on his sofa while talking angrily into his cell phone.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 1
+Z
+none~
+#7000
+older lady~
+An Older Lady~
+An Older Lady lies on the bed watching the television while eating chocolate.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 500
+112 112 2
+Z
+none~
+#7050
+Last_Mob~
+a newly created Last_Mob~
+Some god abandoned a newly created Last_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#6951
+First_Obj~
+a newly created First_Obj~
+Some god dropped a newly created First_Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#6952
+White Room Key~
+&wWhite Room Key~
+&wThe White Room Key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6953
+Grey Room Key~
+&WGrey Room Key&w~
+&WThe Grey Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6954
+Green Room Key~
+&GGreen Room Key&w~
+&GThe Green Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6955
+Yellow Room Key~
+&YYellow Room Key&w~
+&YThe Yellow Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6956
+Orange Room Key~
+&OOrange Room Key&w~
+&OThe Orange Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6957
+Brown Room Key~
+&OBrown Room Key&w~
+&OThe Brown Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6958
+Black Room Key~
+&zBlack Room Key&w~
+&zThe Black Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6959
+Purple Room Key~
+&pPurple Room Key&w~
+&pThe Purple Room Key has been left here.&w~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6960
+Cyan Room Key~
+&cCyan Room Key&w~
+&cThe Cyan Room Key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6961
+Pink Room Key~
+&PPink Room Key&w~
+&PThe Pink Room Key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6962
+Gold Suite Key~
+&YGold Suite Key&w~
+&YThe Gold Suite Key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6963
+Silver Suite Key~
+&WSilver Suite Key&w~
+&WThe Silver Suite Key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#6964
+Bronze Suite Key~
+&OBronze Suite Key&w~
+&OThe Bronze Suite Key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#7050
+Last_Obj~
+a newly created Last_Obj~
+Some god dropped a newly created Last_Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#6951
+Path to Hotel~
+A path this size and extraoridinary is normally uncommon when aproaching a
+hotel. Trees and other foliage line the path on either side that demand
+anyone's attention. Everything seems almost picture perfect and very
+serene. A few people can be seen walking to or from the hotel. A light
+grumble of some kind of machinery is heard somewhere north. 
+~
+0 4 2 0
+D3
+~
+~
+0 -1 6952 0 0 0
+D9
+~
+~
+0 -1 251 0 0 0
+S
+#6952
+Large Path~
+A path this size and extraoridinary is normally uncommon when aproaching a
+hotel. Trees and other foliage line the path on either side that demand
+anyone's attention. Everything here seems almost picture perfect aside
+from the noise from what sounds like large machinery. A young lady gardner
+tends to the flowers and trees, keeping everything in tip top shape. 
+~
+0 4 2 0
+D0
+~
+~
+0 -1 6955 0 0 0
+D1
+~
+~
+0 -1 6951 0 0 0
+S
+#6953
+Construction Zone~
+A lot of noise fills the air from the large engines in the machinery
+working on some sort of building. The building itself is massive and seems
+very modern even in its current stage. The area here is very dusty as
+builders work hard and diligently to complete the task on time. A large
+yellow tape surrounds the actual construction zone warning any onlookers
+not to come any closer. 
+~
+0 4 3 0
+D3
+~
+~
+0 -1 6952 0 0 0
+E
+sign~
+&RNo Trespassing!
+&Y
+&OCurrently Under Construction
+
+&Y===&z==&Y===&z==&Y===&z==&Y===&z==&Y===&z==&Y===&z==&Y===&z==&Y===&z==&Y===
+ 
+Sorry for any inconveniance, but please be
+patient as we construct out Hotel Spacedock.
+ 
+      Thanks!
+           - Hotel Management
+~
+S
+#6954
+Floating in a void~
+~
+0 4 1 0
+S
+#6955
+Large Path~
+Trees and other beautifully well kept foliage continues to follow the path
+on either side. The hotel to the north is unbalievable. From what can be
+seen of it, beautiful would be an understatement. Its massive and detailed
+size is simply incredible. Towards the south an almost inaudible sound of
+some machinery can be heard, but at a nice distance. 
+~
+0 4 2 0
+D0
+~
+~
+0 -1 6956 0 0 0
+D2
+~
+~
+0 -1 6952 0 0 0
+> entry_prog 100~
+if carryingvnum($n) == 6952
+or carryingvnum($n) == 6953
+or carryingvnum($n) == 6954
+or carryingvnum($n) == 6955
+or carryingvnum($n) == 6956
+or carryingvnum($n) == 6957
+or carryingvnum($n) == 6958
+or carryingvnum($n) == 6959
+or carryingvnum($n) == 6960
+or carryingvnum($n) == 6961
+or carryingvnum($n) == 6962
+or carryingvnum($n) == 6963
+or carryingvnum($n) == 6964
+mpat $n mpechoat $n You forgot to return your key!
+mpforce $n n
+endif
+~
+|
+S
+#6956
+Main Lobby~
+An enormous chandalier hangs from the cieling of the lobby. It shines with
+a brilliance second to none. The beautifully designed carpet covers from
+the entrance to the front desk and is easily recognizeable as nothing
+cheap. To the north is the front desk where a young lady sits awaiting
+arrivals. To the west are the restrooms and to the south is the Hotel's
+outside path. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6961 0 0 0
+D2
+~
+~
+0 -1 6955 0 0 0
+D3
+~
+~
+0 -1 6957 0 0 0
+S
+#6957
+Hallway~
+This hallway leads to the first floor restrooms. On either side, the
+walls are painted a spicey red color adding an almost jazz feeling on
+top of the soft jazz music coming from the almost invisible speakers on
+the cieling. Small yet bright lights shine down lighting the hallway and
+the shiny, spotless, black and white tiled floor.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 6956 0 0 0
+D3
+~
+~
+0 -1 6958 0 0 0
+> entry_prog 100~
+if carryingvnum($n) == 6952
+or carryingvnum($n) == 6953
+or carryingvnum($n) == 6954
+or carryingvnum($n) == 6955
+or carryingvnum($n) == 6956
+or carryingvnum($n) == 6957
+or carryingvnum($n) == 6958
+or carryingvnum($n) == 6959
+or carryingvnum($n) == 6960
+or carryingvnum($n) == 6961
+or carryingvnum($n) == 6962
+or carryingvnum($n) == 6963
+or carryingvnum($n) == 6964
+mpat $n mpechoat $n You forgot to return your key!
+mpforce $n e
+endif
+~
+|
+S
+#6958
+Hallway~
+On the west wall, a beautiful painting is hung adding flavor to the area.
+Soft music is heard coming from either of the restrooms located to the
+north and south of here. The floor here is tiled black and white and is
+absolutely spotless. A small yet beautiful chandalier hangs from the
+cieling lighting the room. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6959 0 0 0
+D1
+~
+~
+0 -1 6957 0 0 0
+D2
+~
+~
+0 -1 6960 0 0 0
+S
+#6959
+Ladies Restroom~
+Light music plays in the background and echoes throughout the room. The
+light blue and white tile flooring is incredibly shiny and clean as if its
+brand new. Beautiful paintings hang on all walls in this room, leaving
+very little actual wall space. A baby changing station is located on the
+west wall under a few pictures. 
+~
+0 4 1 0
+D2
+~
+~
+0 -1 6958 0 0 0
+> entry_prog 100~
+if sex($n) == 2
+mea $n &YWelcome into the Ladies Bathroom, $n!
+else
+mea $n &YYour no lady! Get out $n!
+mpforce $n south
+endif
+~
+|
+S
+#6960
+Mens Restroom~
+Light music plays in the background and the first thing noticeable sends a
+smile to any man walking in. Two fairly large flat screen TV's hang on the
+wall on either side of the bathroom, one above the sinks and the other on
+a wall across from the door. The entire room is spotless and the color of
+a light blue and white tile. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6958 0 0 0
+> entry_prog 100~
+if sex($n) == 1
+mea $n &YWelcome to the Mens Restroom, $n!
+else
+mea &Y$n Your no male! Get out $n!
+mpforce $n north
+endif
+~
+|
+S
+#6961
+Front Desk~
+A circular desk sits in this room with a receptionist behind it. Pamphlets
+and other travel info sit on top of the counter. In the center of the desk
+is a large key-rack where the keys to each room hang. Telephone rings and
+people heading out or perhaps to the casino fill the room with noise. A
+large sign hangs above the desk with information about the hotel.
+~
+0 4 1 0
+D0
+~
+~
+3 -1 6963 0 0 0
+D1
+~
+~
+0 -1 6962 0 0 0
+D2
+~
+~
+0 -1 6956 0 0 0
+D3
+~
+~
+0 -1 6964 0 0 0
+R M 0 6961 1 6961
+  R G 1 6952 1
+  R G 1 6953 1
+  R G 1 6955 1
+  R G 1 6956 1
+  R G 1 6957 1
+  R G 1 6958 1
+  R G 1 6960 1
+  R G 1 6964 1
+  R G 1 6963 1
+  R G 1 6962 1
+  R G 1 6961 1
+  R G 1 6959 1
+R D 0 6961 0 1
+E
+sign~
+&z=====================================================
+
+&YPricing&O:
+
+&CSecond Floor&c:
+&RWhite  Room Key   &W100 
+&RGrey   Room Key   &W100
+&RGreen  Room Key   &W100
+&RYellow Room Key   &W100
+
+&CThird&c:
+&ROrange Room Key   &W500 
+&RBrown  Room Key   &W500
+&RBlack  Room Key   &W500
+&RPurple Room Key   &W500
+&RCyan   Room Key   &W500
+&RPink   Room Key   &W500
+
+&CSuite&c:
+&RGold   Room Key   &W1000
+&RSilver Room Key   &W1000
+&RBronze Room Key   &W1000
+
+&z=====================================================&w
+~
+> rand_prog 100~
+close north
+~
+|
+S
+#6962
+Elevator &d- &BFloor 1~
+This elevator is one of the fanciest elevators ever made. Mirrors cover
+the walls from floor to cieling, each engraved with an intricate design.
+Soft music plays in the background, not the normal elevator music but
+soft soothing music. A &Wpanel&c is built into the wall with a list of
+floor choices 
+~
+0 4 1 0
+D3
+~
+~
+0 -1 6961 0 0 0
+E
+panel~
+&dBy looking at the panel, an automated screen flips on.
+It reads:
+&r==========================================
+&GYou are currently on: &r&UFloor One&d
+
+&CSay: &g'Floor 2' &CTo go to: &gFloor 2
+     'Floor 3'           Floor 3
+     'Floor 4'           Floor 4
+ 
+&YPlease enjoy your stay here at the Hotel.
+&r==========================================
+~
+> speech_prog p floor 2~
+mea $n &YYou take the elevator to the second floor.
+mer $n &Y$n takes the elevator to the second floor.
+mptrans $n 6966
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 3~
+mea $n &YYou take the elevator to the third floor.
+mer $n &Y$n takes the elevator to the third floor.
+mptrans $n 6979
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 4~
+mea $n &YYou take the elevator to the fourth floor.
+mer $n &Y$n takes the elevator to the fourth floor.
+mptrans $n 6992
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+|
+S
+#6963
+Casino Entrance~
+This is the entrance to one of the largest casinos ever to be
+constructed. Even before entering the casino the bustle of the crowd is
+apparent as hundreds upon hundreds are entering and leaving the building.
+As the doors swing open, sounds of slot machines going off and people
+shouting at their recent win or loss. A familiar jazz tune can be heard in
+the background of the crowd.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7052 0 0 0
+D2
+~
+~
+3 -1 6961 0 0 0
+R D 0 6963 2 1
+S
+#6964
+Hallway~
+This hallway is like most other hallways with music in the background and
+the uncommon figure walking briskly past. Towards the north, laughter and
+chatter can be heard along with the clatter of dishes and the wonderful
+aroma of freshly made food. An large couch in the corner of the hallway
+seems very inviting to most anyone who must wait in line. 
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6965 0 0 0
+D1
+~
+~
+0 -1 6961 0 0 0
+S
+#6965
+Dining Room~
+Large parties seem to fill the room with noise, laughter, and a constant
+chatter. The floor is carpeted and a few chandaliers hang from an all
+white cieling. Each table is made out of an expensive looking wood along
+with its chairs. Waiters and waitresses walk briskly around waiting their
+tables and refilling drinks. The aroma of food is very strong here, and
+everything smells wonderful. 
+~
+0 4 1 0
+D2
+~
+~
+0 -1 6964 0 0 0
+S
+#6966
+Elevator &d- &BFloor 2~
+This elevator is one of the fanciest elevators ever made. Mirrors cover
+the walls from floor to cieling, each engraved with an intricate design.Soft
+music plays in the background, not the normal elevator music but soft
+soothing music. A &Wpanel &cis built into the wall with a list of floor
+choices.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6967 0 0 0
+E
+panel~
+&dBy looking at the panel, an automated screen flips on.
+It reads:
+&r==========================================
+&GYou are currently on: &r&UFloor Two&d
+
+&CSay: &g'Floor 1' &CTo go to: &gFloor 1
+     'Floor 3'           Floor 3
+     'Floor 4'           Floor 4
+ 
+&YPlease enjoy your stay here at the Hotel.
+&r==========================================&d
+~
+> speech_prog p floor 1~
+mea $n &YYou take the elevator to the first floor.
+mer $n &Y$n takes the elevator to the first floor.
+mptrans $n 6962
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 3~
+mea $n &YYou take the elevator to the third floor.
+mer $n &Y$n takes the elevator to the third floor.
+mptrans $n 6979
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 4~
+mea $n &YYou take the elevator to the fourth floor.
+mer $n &Y$n takes the elevator to the fourth floor.
+mptrans $n 6992
+mpat $n mer $n _yel $n has arrived.
+mpat $n mpforce $n look
+~
+|
+S
+#6967
+Hallway~
+The floor here is made entirely of wood with an old, yet very
+fancy rug on top of it. The hallway itself looks very clean
+yet worn due to its constant use. Small yet powerful lights
+with a glass case around them light each section of the hallway
+well enough. An occasional 'bang' from younger kids in one of
+the rooms is heard.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6970 0 0 0
+D1
+~
+~
+3 -1 6968 0 0 0
+D2
+~
+~
+0 -1 6966 0 0 0
+D3
+~
+~
+3 -1 6969 0 0 0
+R M 0 6967 1 6967
+R D 0 6967 1 1
+R D 0 6967 3 1
+S
+#6968
+Cheap Room~
+This is a fairly small room with a small window on the east wall.
+Two double beds take up one side of the room while the bathroom,
+desk, and television take up the rest. Aside from its cheap-ness,
+the room still looks very cozy and inviting. With a closer look,
+the room looks very clean and tidy.
+~
+0 4 1 0
+D3
+~
+~
+1 -1 6967 0 0 0
+S
+#6969
+Cheap Room~
+~
+0 4 1 0
+D1
+~
+~
+1 -1 6967 0 0 0
+S
+#6970
+Hallway~
+The floor here is made entirely of wood with an old, yet very
+fancy rug on top of it. The hallway itself looks very clean
+yet worn due to its constant use. Small yet powerful lights
+with a glass case around them light each section of the hallway
+well enough. An occasional 'bang' from younger kids in one of
+the rooms is heard.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6973 0 0 0
+D1
+~
+~
+1 6953 6971 0 0 0
+D2
+~
+~
+0 -1 6967 0 0 0
+D3
+~
+~
+1 6952 6972 0 0 0
+S
+#6971
+&WGrey Room~
+This is a fairly small room with a small window on the east wall.Two
+double beds take up one side of the room while the bathroom,
+desk, and television take up the rest. Aside from its cheap-ness,
+the room still looks very cozy and inviting. With a closer look,
+the room looks very clean and tidy.
+~
+0 4 1 0
+D3
+~
+~
+1 6953 6970 0 0 0
+S
+#6972
+&wWhite Room~
+This is a fairly small room with a small window on the east wall.Two
+double beds take up one side of the room while the bathroom,
+desk, and television take up the rest. Aside from its cheap-ness,
+the room still looks very cozy and inviting. With a closer look,
+the room looks very clean and tidy.
+~
+0 4 1 0
+D1
+~
+~
+1 6952 6970 0 0 0
+S
+#6973
+Hallway~
+The floor here is made entirely of wood with an old, yet very
+fancy rug on top of it. The hallway itself looks very clean
+yet worn due to its constant use. Small yet powerful lights
+with a glass case around them light each section of the hallway
+well enough. An occasional 'bang' from younger kids in one of
+the rooms is heard.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6976 0 0 0
+D1
+~
+~
+1 6955 6974 0 0 0
+D2
+~
+~
+0 -1 6970 0 0 0
+D3
+~
+~
+7 6954 6975 0 0 0
+S
+#6974
+Yellow Room~
+This is a fairly small room with a small window on the east wall.Two
+double beds take up one side of the room while the bathroom,
+desk, and television take up the rest. Aside from its cheap-ness,
+the room still looks very cozy and inviting. With a closer look,
+the room looks very clean and tidy.
+~
+0 4 1 0
+D3
+~
+~
+1 6955 6973 0 0 0
+S
+#6975
+&GGreen Room~
+This is a fairly small room with a small window on the east wall.Two
+double beds take up one side of the room while the bathroom,
+desk, and television take up the rest. Aside from its cheap-ness,
+the room still looks very cozy and inviting. With a closer look,
+the room looks very clean and tidy.
+~
+0 4 1 0
+D1
+~
+~
+7 6954 6973 0 0 0
+S
+#6976
+Hallway~
+The floor here is made entirely of wood with an old, yet very
+fancy rug on top of it. The hallway itself looks very clean
+yet worn due to its constant use. Small yet powerful lights
+with a glass case around them light each section of the hallway
+well enough. An occasional 'bang' from younger kids in one of
+the rooms is heard.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 6977 0 0 0
+D2
+~
+~
+0 -1 6973 0 0 0
+D3
+~
+~
+0 -1 6978 0 0 0
+S
+#6977
+Snack Bar &w- &B2nd Floor~
+A few people are sitting at the numerous tables in this room.
+Its nothing fancy but the food looks good. The counter is in
+a circular shape in one corner of the room with the grill behind
+it. Faint music plays in the background but its hard to hear
+over the customers. Everyone here seems to be enjoying themselves.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 6976 0 0 0
+R M 0 6977 1 6977
+S
+#6978
+Main Lounge &w- &B2nd Floor~
+Though this room is small, it seems very cozy. A few older yet
+comfortable couches and chairs sit facing towards an older television
+set. A single book shelf full of books sits in the corner with
+a few magazines on top of it. The carpet here looks clean yet
+worn as if its been used frequently. A few floor lamps light
+the room.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 6976 0 0 0
+S
+#6979
+Elevator &d- &BFloor 3~
+This elevator is one of the fanciest elevators ever made. Mirrors cover
+the walls from floor to cieling, each engraved with an intricate design.Soft
+music plays in the background, not the normal elevator music but soft
+soothing music. A &Wpanel &cis built into the wall with a list of floor
+choices.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6980 0 0 0
+E
+panel~
+&dBy looking at the panel, an automated screen flips on.
+It reads:
+&r==========================================
+&GYou are currently on: &r&UFloor Three&d
+
+&CSay: &g'Floor 1' &CTo go to: &gFloor 1
+     'Floor 2'           Floor 2
+     'Floor 4'           Floor 4
+ 
+&YPlease enjoy your stay here at the Hotel.
+&r==========================================&d
+~
+> speech_prog p floor 1~
+mea $n &YYou take the elevator to the first floor.
+mer $n &Y$n takes the elevator to the first floor.
+mptrans $n 6962
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 2~
+mea $n &YYou take the elevator to the second floor.
+mer $n &Y$n takes the elevator to the second floor.
+mptrans $n 6966
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 4~
+mea $n &YYou take the elevator to the fourth floor.
+mer $n &Y$n takes the elevator to the fourth floor.
+mptrans $n 6992
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+|
+S
+#6980
+Hallway~
+The hallway is carpeted with a pretty plain design but is very
+well kept none the less. Small yet powerful lights with a glass
+covering light each section of the hallway, each almost chandalier
+like. The sound of TVs can be heard further down the hall along
+with an occasional 'boom' from children on the floor below.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 6983 0 0 0
+D1
+~
+~
+7 6957 6981 0 0 0
+D2
+~
+~
+0 -1 6979 0 0 0
+D3
+~
+~
+7 6956 6982 0 0 0
+R D 0 6980 1 2
+R D 0 6980 3 2
+> entry_prog 6980~
+~
+|
+S
+#6981
+&OBrown Room~
+This room is a little above average and ocntains everything one
+would need. A mini-fridge sits under a small sink and counter
+with a small microwave and coffee maker sitting on top. A comfortable
+couch and two smaller chairs with a TV in the center makes the
+living room. In the next room is the entrance to the bathroom
+and two twin beds. A fairly large window opens up to a nice
+view of the forest.
+~
+0 4 1 0
+D3
+~
+~
+1 6957 6980 0 0 0
+S
+#6982
+&OOrange Room~
+This room is a little above average and ocntains everything one
+would need. A mini-fridge sits under a small sink and counter
+with a small microwave and coffee maker sitting on top. A comfortable
+couch and two smaller chairs with a TV in the center makes the
+living room. In the next room is the entrance to the bathroom
+and two twin beds. A fairly large window opens up to a nice
+view of the forest.
+~
+0 0 1 0
+D1
+~
+~
+1 6956 6980 0 0 0
+S
+#6983
+Hallway~
+The hallway is carpeted with a pretty plain design but is very
+well kept none the less. Small yet powerful lights with a glass
+covering light each section of the hallway, each almost chandalier
+like. The sound of TVs can be heard further down the hall along
+with an occasional 'boom' from children on the floor below.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6986 0 0 0
+D1
+~
+~
+7 6959 6984 0 0 0
+D2
+~
+~
+0 -1 6980 0 0 0
+D3
+~
+~
+7 6958 6985 0 0 0
+R D 0 6983 1 2
+R D 0 6983 3 2
+S
+#6984
+&pPurple Room~
+This room is a little above average and ocntains everything one
+would need. A mini-fridge sits under a small sink and counter
+with a small microwave and coffee maker sitting on top. A comfortable
+couch and two smaller chairs with a TV in the center makes the
+living room. In the next room is the entrance to the bathroom
+and two twin beds. A fairly large window opens up to a nice
+view of the forest.
+~
+0 0 1 0
+D3
+~
+~
+1 6959 6983 0 0 0
+S
+#6985
+&zBlack Room~
+This room is a little above average and ocntains everything one
+would need. A mini-fridge sits under a small sink and counter
+with a small microwave and coffee maker sitting on top. A comfortable
+couch and two smaller chairs with a TV in the center makes the
+living room. In the next room is the entrance to the bathroom
+and two twin beds. A fairly large window opens up to a nice
+view of the forest.
+~
+0 0 1 0
+D1
+~
+~
+1 6958 6983 0 0 0
+S
+#6986
+Hallway~
+The hallway is carpeted with a pretty plain design but is very
+well kept none the less. Small yet powerful lights with a glass
+covering light each section of the hallway, each almost chandalier
+like. The sound of TVs can be heard further down the hall along
+with an occasional 'boom' from children on the floor below.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6989 0 0 0
+D1
+~
+~
+1 6961 6987 0 0 0
+D2
+~
+~
+0 -1 6983 0 0 0
+D3
+~
+~
+1 6960 6988 0 0 0
+S
+#6987
+&PPink Room~
+This room is a little above average and ocntains everything one
+would need. A mini-fridge sits under a small sink and counter
+with a small microwave and coffee maker sitting on top. A comfortable
+couch and two smaller chairs with a TV in the center makes the
+living room. In the next room is the entrance to the bathroom
+and two twin beds. A fairly large window opens up to a nice
+view of the forest.
+~
+0 0 1 0
+D3
+~
+~
+1 6961 6986 0 0 0
+S
+#6988
+&cCyan Room~
+This room is a little above average and ocntains everything one
+would need. A mini-fridge sits under a small sink and counter
+with a small microwave and coffee maker sitting on top. A comfortable
+couch and two smaller chairs with a TV in the center makes the
+living room. In the next room is the entrance to the bathroom
+and two twin beds. A fairly large window opens up to a nice
+view of the forest.
+~
+0 0 1 0
+D1
+~
+~
+1 6960 6986 0 0 0
+S
+#6989
+Hallway~
+The hallway is carpeted with a pretty plain design but its very
+well kept none the less. Small yet powerful lights with a glass
+covering light each section of the hallway, each almost chandalier
+like. The sound of TVs can be heard further down the hall along
+with an occasional 'boom' from children on the floor below.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6990 0 0 0
+D2
+~
+~
+0 -1 6986 0 0 0
+D3
+~
+~
+0 -1 6991 0 0 0
+S
+#6990
+Snack Bar &w- &B3rd Floor~
+There are no tables in this small snack bar except for the counter.
+Five brand-new bar stools line the counter with a comfortable
+padded seat on each. Everything in the small bar seems well
+kept and tidy. A small radio sitting on the counter softly plays
+a familiar old tune that most anyone would recognize. Though
+the bar isn't used very often, its great for a late-night snack.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 6989 0 0 0
+S
+#6991
+Main Lounge &w- &B3rd Floor~
+Though this lounge is small, it seems very inviting. Plush couches
+and chairs lay spread about the room. The walls are lined with
+small book shelves and magazine stands for anyone to read. Soft
+music plays in the background keeping everyone in a mellow mood.
+Two TVs hang from the wall on either side of the room. Both
+TVs are on political channels and are muted but with subtext
+to show what is being said.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 6989 0 0 0
+S
+#6992
+Elevator &d- &BFloor 4~
+This elevator is one of the fanciest elevators ever made. Mirrors cover
+the walls from floor to cieling, each engraved with an intricate design.Soft
+music plays in the background, not the normal elevator music but soft
+soothing music. A &Wpanel &cis built into the wall with a list of floor
+choices.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6993 0 0 0
+E
+panel~
+&dBy looking at the panel, an automated screen flips on.
+It reads:
+&r==========================================
+&GYou are currently on: &r&UFloor Four&d
+
+&CSay: &g'Floor 1' &CTo go to: &gFloor 1
+     'Floor 2'           Floor 2
+     'Floor 3'           Floor 3
+ 
+&YPlease enjoy your stay here at the Hotel.
+&r==========================================&d
+~
+> speech_prog p floor 1~
+mea $n &YYou take the elevator to the first floor.
+mer $n &Y$n takes the elevator to the first floor.
+mptrans $n 6962
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 2~
+mea $n &YYou take the elevator to the second floor.
+mer $n &Y$n takes the elevator to the second floor.
+mptrans $n 6966
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+> speech_prog p floor 3~
+mea $n &YYou take the elevator to the third floor.
+mer $n &Y$n takes the elevator to the third floor.
+mptrans $n 6979
+mpat $n mer $n _yel &Y$n has arrived.
+mpat $n mpforce $n look
+~
+|
+S
+#6993
+Hallway &d- &YVIP Floor~
+This is the top floor to the hotel and the most extravagant. Each door has
+its own name plate engraved with the name of the current occupant. The
+cieling is made of glass allowing the sun to warm and light the hall. The
+floor is covered in a beatifully designed carpet looking very expensive
+and well kept. A few maids and bellhops walk past keeping this VIP floor
+spotless.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6996 0 0 0
+D1
+~
+~
+7 6963 6994 0 0 0
+D2
+~
+~
+0 -1 6992 0 0 0
+D3
+~
+~
+7 6962 6995 0 0 0
+R D 0 6993 1 2
+R D 0 6993 3 2
+S
+#6994
+VIP Suite - &WSilver Suite~
+This has got to be one the most fabulous suites ever created for anyone. A
+built in big screen TV is the most noticeable feature. The furnishings are
+absolutely gorgeous, maticulous detail has been done to every piece. The
+bathroom is almost as big as the hotel's main bathroom and much fancier. A
+paging service is listed on a panel towards the west wall with a list the
+VIP's Butler, Maid, and Bellhop. 
+~
+0 0 1 0
+D3
+~
+~
+1 6963 6993 0 0 0
+S
+#6995
+VIP Suite - Gold Suite~
+This has got to be one the most fabulous suites ever created for anyone. A
+built in big screen TV is the most noticeable feature. The furnishings are
+absolutely gorgeous, maticulous detail has been done to every piece. The
+bathroom is almost as big as the hotel's main bathroom and much fancier. A
+paging service is listed on a panel towards the west wall with a list the
+VIP's Butler, Maid, and Bellhop.  
+~
+0 0 1 0
+D1
+~
+~
+1 6962 6993 0 0 0
+S
+#6996
+Hallway &d- &YVIP Floor~
+This is the top floor to the hotel and the most extravagant. Each door has
+its own name plate engraved with the name of the current occupant. The
+cieling is made of glass allowing the sun to warm and light the hall. The
+floor is covered in a beatifully designed carpet looking very expensive
+and well kept. A few maids and bellhops walk past keeping this VIP floor
+spotless.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 6999 0 0 0
+D1
+~
+~
+1 -1 6997 0 0 0
+D2
+~
+~
+0 -1 6993 0 0 0
+D3
+~
+~
+1 -1 6998 0 0 0
+S
+#6997
+VIP Suite~
+This has got to be one the most fabulous suites ever created for anyone. A
+built in big screen TV is the most noticeable feature. The furnishings are
+absolutely gorgeous, maticulous detail has been done to every piece. The
+bathroom is almost as big as the hotel's main bathroom and much fancier. A
+paging service is listed on a panel towards the west wall with a list the
+VIP's Butler, Maid, and Bellhop. 
+~
+0 0 1 0
+D3
+~
+~
+1 -1 6996 0 0 0
+R M 0 6997 1 6997
+R D 0 6997 3 0
+> entry_prog 100~
+mea $n &CA Young Man says '&WWhat are you doing in my room!? Get Out!&C'
+mpforce $n west
+~
+|
+S
+#6998
+VIP Suite~
+This has got to be one the most fabulous suites ever created for anyone. A
+built in big screen TV is the most noticeable feature. The furnishings are
+absolutely gorgeous, maticulous detail has been done to every piece. The
+bathroom is almost as big as the hotel's main bathroom and much fancier. A
+paging service is listed on a panel towards the west wall with a list the
+VIP's Butler, Maid, and Bellhop.  
+~
+0 0 1 0
+D1
+~
+~
+1 -1 6996 0 0 0
+> entry_prog 100~
+mea $n &YSomeone must have forgot to lock their room!&d
+~
+|
+S
+#6999
+Hallway &d- &YVIP Floor~
+This is the top floor to the hotel and the most extravagant. Each door has
+its own name plate engraved with the name of the current occupant. The
+cieling is made of glass allowing the sun to warm and light the hall. The
+floor is covered in a beatifully designed carpet looking very expensive
+and well kept. A few maids and bellhops walk past keeping this VIP floor
+spotless.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7002 0 0 0
+D1
+~
+~
+3 -1 7000 0 0 0
+D2
+~
+~
+0 -1 6996 0 0 0
+D3
+~
+~
+7 6964 7001 0 0 0
+R D 0 6999 1 1
+R D 0 6999 3 2
+S
+#7000
+VIP Suite~
+This has got to be one the most fabulous suites ever created for anyone. A
+built in big screen TV is the most noticeable feature. The furnishings are
+absolutely gorgeous, maticulous detail has been done to every piece. The
+bathroom is almost as big as the hotel's main bathroom and much fancier. A
+paging service is listed on a panel towards the west wall with a list the
+VIP's Butler, Maid, and Bellhop. 
+~
+0 0 1 0
+D3
+~
+~
+1 -1 6999 0 0 0
+R M 0 7000 1 7000
+R D 0 7000 3 0
+> entry_prog 100~
+mea $n &CA Fat Lady says '&WWho gave you permission to come in here? HELP!&C'&d
+mpforce $n west
+~
+|
+S
+#7001
+VIP Suite - &OBronze Suite~
+This has got to be one the most fabulous suites ever created for anyone. A
+built in big screen TV is the most noticeable feature. The furnishings are
+absolutely gorgeous, maticulous detail has been done to every piece. The
+bathroom is almost as big as the hotel's main bathroom and much fancier. A
+paging service is listed on a panel towards the west wall with a list the
+VIP's Butler, Maid, and Bellhop.  
+~
+0 0 1 0
+D1
+~
+~
+1 6964 6999 0 0 0
+S
+#7002
+Hallway &d- &YVIP Floor~
+This is the top floor to the hotel and the most extravagant. Each door has
+its own name plate engraved with the name of the current occupant. The
+cieling is made of glass allowing the sun to warm and light the hall. The
+floor is covered in a beatifully designed carpet looking very expensive
+and well kept. A few maids and bellhops walk past keeping this VIP floor
+spotless.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7003 0 0 0
+D2
+~
+~
+0 -1 6999 0 0 0
+D3
+~
+~
+0 -1 7004 0 0 0
+S
+#7003
+VIP Lounge~
+The room is split into two different sections seperated by a wall and is
+much bigger then one would expect. The first section is very quiet with
+inviting furniture placed all around the room. The walls are lined with
+books of many different kinds and sizes, waiting to be read. The second
+section has no less then 20 TV's each tuned to a different channel.
+Headsets lie on a center table labeled for each TV. Large windows in both
+section show a spectacular view of the grounds.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 7002 0 0 0
+S
+#7004
+Maid's Lounge~
+Mops, sweepers, and any other type of cleaning machine or item fill this
+room. Three large wash/dry machines stand surrounded by linen in one
+corner of the room while a few loads finish running. A table with a few
+stacks of playing cards sit in the center of the room alongside a fairly
+large TV.  
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7002 0 0 0
+S
+#7005
+Floating in a void~
+~
+0 4 1 0
+S
+#7006
+Floating in a void~
+~
+0 4 1 0
+S
+#7050
+&GLast Room~
+~
+0 4 1 0
+R M 0 6951 1 7050
+R M 0 7050 1 7050
+R O 0 6951 1 7050
+R O 0 7050 1 7050
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

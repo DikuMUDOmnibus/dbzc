@@ -1,0 +1,2972 @@
+#AREA   TCHQ~
+
+
+
+#VERSION 2
+#AUTHOR Cortez~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+128
+
+#CONTINENT continent1~
+
+#ECONOMY 1 361135708
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#8451
+first_obj~
+a newly created first_obj~
+Some god abandoned a newly created first_obj here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8454
+The Council Guard~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is on the dock!! Prepare to defend the HQ!
+mpkill $n
+~
+|
+#8456
+The Council Guard2~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in the Ancient Forest! Defend!!
+mpkill $n
+~
+|
+#8459
+Council Guard3~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpkill $n
+~
+|
+#8465
+Council Guard4~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpkill $n
+~
+|
+#8475
+Council Guard5~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+mpkill $n
+~
+|
+#8481
+Council Guard6~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is in the Ancient Forest!!
+mpkill $n
+~
+|
+#8486
+Council Guard7~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is at the Transporter!!! Defend the Council!
+mpkill $n
+~
+|
+#8495
+The Council Trainer~
+The Council Trainer~
+&WThe Council Trainer stands here, ready to teach.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8499
+Council Guard8~
+The Council Guard~
+&WThe Council Guard is here, guarding the area.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is inside the HQ! Defend it with your lives!
+mpkill $n
+~
+|
+#8507
+The Council Shopkeeper~
+The Council Shopkeeper~
+&WThe Council Shopkeeper is here, ready to sell items.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8509
+The Council Shopkeeper~
+The Council Shopkeeper~
+&WThe Council Shopkeeper is here, ready to sell items.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8510
+Council Ghost~
+The Council Ghost~
+Council Ghost
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8517
+The Council Shopkeeper3~
+The Council Shopkeeper~
+&WThe Council Shopkeeper is here, smiling in your direction.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8520
+The Council Fighter~
+The Council Fighter~
+&WThe Council Fighter stands here, ready for battle.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 5000000
+112 112 0
+5 13 13 5 13 13 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8520
+~
+|
+#8521
+A Council Fighter~
+The Council Fighter~
+&WThe Council Fighter stands here, ready for battle.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 5000000
+112 112 0
+5 13 13 5 13 13 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8521
+~
+|
+#8522
+The Council Fighter~
+The Council Fighter~
+&WThe Council Fighter stands here, ready for battle.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+1000 5000000
+112 112 0
+5 13 13 5 13 13 25
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 8522
+~
+|
+#8526
+Council Trainer2~
+The Council Trainer~
+&WThe Council Trainer stands here, ready to teach.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#8533
+Council Guard9~
+The Council Guard~
+&WThe Council Guard stands here, watching the area closely.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+yell $n is inside the HQ!!
+mpkill $n
+~
+|
+#8550
+last_mob~
+a newly created last_mob~
+Some god abandoned a newly created last_mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#8451
+first_mob~
+a newly created first_mob~
+Some god dropped a newly created first_mob here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#8510
+The Council Key~
+&wThe &gCouncil &wKey~
+The key to the council is lying on the floor here.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#8517
+Ring of Hate~
+&RR&ring &wof &RH&rate&w~
+A ring of hate lies on the ground here.~
+~
+74 0 3
+2 0 40 4
+150 20000 2000
+> wear_prog 100~
+if isgood($n)
+mea $n &rYou try to put on the Ring of Hate, but it burns your finger!!
+mpforce $n remove 'ring of hate'
+else
+endif
+~
+|
+#8518
+Ring of Hate2~
+&RR&ring &wof &RH&rate&w~
+A ring of hate lies on the ground here.~
+~
+9 0 3
+2 0 40 4
+150 7000000 700000
+> wear_prog 100~
+if isgood($n)
+mea $n &rYou try to put on the Ring of Hate, but it burns your finger!!
+mpforce $n remove 'ring of hate'
+else
+endif
+~
+|
+#8519
+Ring of Justice~
+&GR&ging &wof &GJ&gustice&w~
+A ring of justice lies on the ground here.~
+~
+74 0 3
+2 0 40 4
+150 20000 2000
+> wear_prog 100~
+if isevil($n)
+mea $n &gYou try to put on the Ring of Justice, but the essence of good burns you!!
+mpforce $n remove 'ring of justice'
+else
+endif
+~
+|
+#8520
+Ring of Justice2~
+&GR&ging &wof &GJ&gustice&w~
+A ring of justice lies on the ground here.~
+~
+74 0 3
+2 0 40 4
+150 20000 2000
+> wear_prog 100~
+if isevil($n)
+mea $n &gYou try to put on the Ring of Justice, but the essence of good burns you!!
+mpforce $n remove 'ring of justice'
+else
+endif
+~
+|
+#8521
+Sash of Courage~
+&g|&WFlowing&g| &GS&gash &Wof &GC&gourage&w~
+A sash lies on the ground here, giving off an aura of courage.~
+~
+9 0 2049
+2 0 0 4
+200 20000 2000
+#8522
+Sash of Courage2~
+&g|&WFlowing&g| &GS&gash &Wof &GC&gourage&w~
+A sash lies on the ground here, giving off an aura of courage.~
+~
+9 0 2049
+2 0 0 4
+200 7000000 700000
+#8523
+Ancient Battle Axe~
+&g|&WShimmering&g| &GA&gncient &GB&gattle &GA&gxe&w~
+An ancient battle axe is on the ground here, shimmering.~
+~
+5 0 8193
+0 177 145 4 0 1
+1320 20000 2000
+#8524
+Ancient Battle Axe2~
+&g|&WShimmering&g| &GA&gncient &GB&gattle &GA&gxe&w~
+An ancient battle axe is on the ground here, shimmering.~
+~
+5 0 8193
+0 177 145 4 0 1
+1 7000000 700000
+#8525
+Boots of Vigilance~
+&GB&goots &wof &GV&gigilance&w~
+A pair of boots lie on the ground here, giving off an essence of vigilance~
+~
+9 0 65
+2 49 0 4
+1120 20000 2000
+#8526
+Boots of Vigilance2~
+&GB&goots &wof &GV&gigilance&w~
+A pair of boots lie on the ground here, giving off an essence of vigilance~
+~
+9 0 65
+2 49 0 4
+1120 7000000 700000
+#8527
+Engraved Helm of The Council~
+&GE&gngraved &WHelm &wof &GT&ghe &GC&gouncil&w~
+An Engraved Helm lies on the ground before you with the markings of 'TC' on it.~
+~
+9 0 17
+2 69 0 4
+570 20000 2000
+#8528
+Engraved Helm of The Council2~
+&GE&gngraved &WHelm &wof &GT&ghe &GC&gouncil&w~
+An Engraved Helm lies on the ground before you with the markings of 'TC' on it.~
+~
+9 1073741824 17
+2 40 0 4
+450 7000000 700000
+#8550
+last_obj~
+a newly created last_obj~
+Some god dropped a newly created last_obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#8451
+First Room~
+~
+0 4 1 0
+R M 0 8451 1 8451
+R O 0 8451 1 8451
+S
+#8452
+&gLanding Pad~
+&W&wYou are on the Landing Pad of The Council Headquarters. Looking
+around you, you notice that you are surrounded by a vast and
+Ancient Forest. A large tower can be seen in the distance, towering
+over the trees. You hear voices coming from the north, it seems
+that a path leads towards them. Looking closer at the tower,
+you see a large symbol engraved into it, the markings read 'TC.'
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8453 0 0 0
+S
+#8453
+&gBefore A Staircase~
+&W&wYou stand before a very large staircase. Looking at the staircase,
+you see that the stone is old and weathered. They seem to climb
+up forever, but they must lead somewhere important. Listening
+closely, you notice that the voices you heard earlier have become
+much louder, you must be getting closer. If you wish to leave,
+turn back now, and head south.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8452 0 0 0
+D4
+~
+~
+0 -1 8454 0 0 0
+S
+#8454
+&gAn Old Transporter~
+&W&wBefore you is an ancient transporter, built by the founders
+of The Council, sadly, their time was up many ages ago. A tough
+looking guard is here, looking closer at him, you notice a scar
+across his left eye. It looks like he has defended this HQ countless
+times as a proud member of The Council. There is also a large
+&GRelic &W&where, there seems to be some ancient engravings
+embedded in the stone. Maybe you should take a closer look at
+it. Back down the stairs seems to be the only obvious exit out
+of here.
+~
+0 0 1 0
+D5
+~
+~
+0 -1 8453 0 0 0
+R M 0 8454 1 8454
+E
+relic~
+&OIt appears to be a picture that represents a great battle of &Ycourage&O.
+&OA message is etched in the stone, "&YOnly those that possess this may enter.&O"
+~
+> speech_prog p courage~
+if isfight($n)
+mpdonothing
+mea $n &RYou are fighting!
+else
+mea $n &RIntruder! Security System Activated!
+mer $n &Rdisappears suddenly!
+mptrans $n 8455
+mpat $n mer $n &G$n falls through the trees!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8455
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 0 0
+D0
+~
+~
+0 -1 8456 0 0 0
+S
+#8456
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8455 0 0 0
+D3
+~
+~
+0 -1 8457 0 0 0
+D6
+~
+~
+0 -1 8460 0 0 0
+R M 0 8456 1 8456
+S
+#8457
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8456 0 0 0
+D3
+~
+~
+0 -1 8458 0 0 0
+S
+#8458
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8457 0 0 0
+D7
+~
+~
+0 -1 8459 0 0 0
+S
+#8459
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now. You have
+come to a dead end, the only obvious way out, is where you came
+from. One of the trees here has branches that look low enough
+to &Gclimb&g.
+~
+0 0 1 0
+D8
+~
+~
+0 -1 8458 0 0 0
+R M 0 8459 1 8459
+> emote_prog p climbs the tree~
+if isfight($n)
+mpdonothing
+else
+mea $n &GYou climb the tree to the top and suddenly, a branch breaks beneath you!
+mer $n &G$n climbs up the tree.
+mptrans $n 8453
+mpat $n mer $n &G$n falls from the tree with a thud!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8460
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8461 0 0 0
+D9
+~
+~
+0 -1 8456 0 0 0
+S
+#8461
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8460 0 0 0
+D6
+~
+~
+0 -1 8462 0 0 0
+D7
+~
+~
+0 -1 8466 0 0 0
+S
+#8462
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D8
+~
+~
+0 -1 8463 0 0 0
+D9
+~
+~
+0 -1 8461 0 0 0
+S
+#8463
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 8464 0 0 0
+D7
+~
+~
+0 -1 8462 0 0 0
+S
+#8464
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8463 0 0 0
+D1
+~
+~
+0 -1 8465 0 0 0
+D3
+~
+~
+0 -1 8460 0 0 0
+S
+#8465
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8464 0 0 0
+R M 0 8465 1 8465
+S
+#8466
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8467 0 0 0
+D8
+~
+~
+0 -1 8461 0 0 0
+S
+#8467
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8468 0 0 0
+D2
+~
+~
+0 -1 8466 0 0 0
+S
+#8468
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8469 0 0 0
+D2
+~
+~
+0 -1 8467 0 0 0
+S
+#8469
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8470 0 0 0
+D3
+~
+~
+0 -1 8468 0 0 0
+S
+#8470
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8469 0 0 0
+D1
+~
+~
+0 -1 8471 0 0 0
+D8
+~
+~
+0 -1 8462 0 0 0
+S
+#8471
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8472 0 0 0
+D3
+~
+~
+0 -1 8470 0 0 0
+S
+#8472
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8473 0 0 0
+D3
+~
+~
+0 -1 8471 0 0 0
+S
+#8473
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8472 0 0 0
+D3
+~
+~
+0 -1 8474 0 0 0
+S
+#8474
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8475 0 0 0
+D1
+~
+~
+0 -1 8473 0 0 0
+S
+#8475
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8476 0 0 0
+D2
+~
+~
+0 -1 8474 0 0 0
+D3
+~
+~
+0 -1 8479 0 0 0
+R M 0 8475 1 8475
+S
+#8476
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 8477 0 0 0
+D3
+~
+~
+0 -1 8475 0 0 0
+S
+#8477
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 8476 0 0 0
+D6
+~
+~
+0 -1 8478 0 0 0
+S
+#8478
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D9
+~
+~
+0 -1 8477 0 0 0
+S
+#8479
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8480 0 0 0
+D1
+~
+~
+0 -1 8475 0 0 0
+S
+#8480
+&zWithin An Ancient Forest~
+&gYou are in the legendary Ancient Forest that surrounds The
+Council's Headquarters. Not many live to tell the tale of what
+they encountered here. The Forest is thick with massive trees
+that are probably thousands of years old. The sound of the Forest
+seems to grow louder, as if you have woken something from deep
+within its depths. A thick mist surrounds you and lingers between
+the trees giving off an eerie essence. Paranoia begins to set
+in, as you realize that there is no turning back now. A bright
+&Yglow &gshines down from above.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8479 0 0 0
+D4
+~
+~
+2048 -1 8481 0 0 0
+S
+#8481
+&gBroken Transporter~
+&W&wA broken transporter lies here before you. It appears to
+be worn down from use over the ages. A large guard stands here,
+monitoring the area. You must be close to the HQ by now. You
+can see the tower rising above the trees ahead of you. An old
+&Oladder &W&wleans up against the wall here, this must be the
+replacement for the broken transporter.
+~
+0 0 1 0
+D5
+~
+~
+2048 -1 8480 0 0 0
+R M 0 8481 1 8481
+E
+ladder~
+&YThere's an old ladder covered with moss here, but it looks like you could climb it.
+~
+> emote_prog p climbs the ladder~
+if isfight($n)
+mpdonothing
+mea $n &RYou can't climb it now.
+else
+mea $n &YYou grab a hold of the ladder and climb to the top.
+mer $n &Y$n climbs up the ladder and disappears from view.
+mptrans $n 8482
+mpat $n mer $n &Y$n climbs up from the ladder.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8482
+&gBefore The Council Headquarters~
+&W&wBefore you lies the headquarters of The Council. The huge
+tower rises up into the sky. The Ancient Forest surrounds the
+headquarters, and seems to act as a good protection to the secrecy
+of the Clan. Looking behind you, you see the &Oladder&W&w, which
+leads back to the forest if you decide to climb down it. The
+entrance to the HQ lies to the north.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8483 0 0 0
+> emote_prog p climbs down the ladder~
+if isfight($n)
+mpdonothing
+mea $n &RYou can't climb it now.
+else
+mea $n &YYou grab the sides of the ladder and slide your way down into the Forest.
+mer $n &Y$n slides down the ladder.
+mptrans $n 8481
+mpat $n mer $n &Y$n climbs down the ladder.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8483
+&gTowards The HQ~
+&W&wThis is the walkway leading to the entrance of the tower.A
+great garden surrounds you with many exotic plants and flowers.The
+area is quite serene and calm. Outsiders have seldom visited
+this sacred place because its so well hidden and guarded. Statues
+of Ancient Leaders of The Council line the walkway in honor
+of the great deeds they had performed in their time. Down will
+lead you towards the entrance of the HQ. South will take you
+back towards the Forest.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8482 0 0 0
+D5
+~
+~
+0 -1 8484 0 0 0
+S
+#8484
+&gInside The HQ~
+&W&wThis is the walkway leading to the entrance of the tower.A
+great garden surrounds you with many exotic plants and flowers.The
+area is quite serene and calm. Outsiders have seldom visited
+this sacred place because its so well hidden and guarded. Statues
+of Ancient Leaders of The Council line the walkway in honor
+of the great deeds they had performed in their time. North will
+take you towards the entrance of the HQ. Up will lead you back
+towards the Forest.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8485 0 0 0
+D4
+~
+~
+0 -1 8483 0 0 0
+S
+#8485
+&gInside The HQ~
+&W&wThis is the walkway leading to the entrance of the tower.A
+great garden surrounds you with many exotic plants and flowers.The
+area is quite serene and calm. Outsiders have seldom visited
+this sacred place because its so well hidden and guarded. Statues
+of Ancient Leaders of The Council line the walkway in honor
+of the great deeds they had performed in their time. North will
+take you towards the Entrance of the HQ. South will lead you
+towards the Forest.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 8486 0 0 0
+D2
+~
+~
+0 -1 8484 0 0 0
+S
+#8486
+&gHQ Transporter~
+&W&wThis is the entrance to the HQ, many clan members come and
+go from here by using the transporter. A guard stands here making
+sure no unwanted strangers pass through these parts. The transporter
+glows up as the transportation process begins. A large &Wsign
+&W&wsits in the ground here, with the commands to activate the
+transporter. The only other exit seems to be south, which leads
+back towards the forest.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 8485 0 0 0
+R M 0 8486 1 8486
+E
+sign~
+&b---------------------------------------------
+&b|                                            |
+&b|              &C- First Floor -               &b|
+&b|                                            |
+&b|              &C- Second Floor -              &b|
+&b|                                            |
+&b|              &C- Third Floor -               &b|
+&b|                                            |
+&b|              &C- Watchtower -                &b|
+&b|                                            |
+&b|              &C- Landing Pad -               &b|
+&b|                                            |
+&b---------------------------------------------
+~
+> speech_prog p first floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the First Floor!
+mer $n &C$n has been transported!
+mptrans $n 8487
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p second floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Second Floor!
+mer $n &C$n has been transported!
+mptrans $n 8496
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p third floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Third Floor!
+mer $n &C$n has been transported!
+mptrans $n 8502
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p watchtower~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Watchtower!
+mer $n &C$n has been transported!
+mptrans $n 8530
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p Landing Pad~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Landing Pad!
+mer $n &Y$n has been transported!
+mptrans $n 8454
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8487
+&gTower - First Floor~
+&W&wYou have entered the First Floor of the Tower. Looking around
+you, you notice the walls are made out of reinforced metal.You
+hear some sounds in the backround. Listening a little closer,
+it sounds like battle cries, this must be the training area
+of The Council. You see security camera's on the ceiling, monitoring
+the area for any intruders or spies. Noth will take you towards
+the Sparring room and the Gravity Chambers. South will lead
+you towards the Trainer and the Healing Chamber. Looking around,
+you see a &gSign &W&where which indicates which levels you can
+go to.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8488 0 0 0
+D2
+~
+~
+0 -1 8492 0 0 0
+E
+sign~
+&b---------------------------------------------
+&b|                                            |
+|              &C- Second Floor -              &b|
+&b|                                            |
+|              &C- Bottom Floor -             &b |
+&b|                                            |
+&b---------------------------------------------
+~
+> speech_prog p second floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Second Floor!
+mer $n &C$n has been transported!
+mptrans $n 8496
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p bottom floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Bottom Floor!
+mer $n &C$n has been transported!
+mptrans $n 8486
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8488
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8489 0 0 0
+D2
+~
+~
+0 -1 8487 0 0 0
+S
+#8489
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8491 0 0 0
+D2
+~
+~
+0 -1 8488 0 0 0
+D3
+~
+~
+0 -1 8490 0 0 0
+S
+#8490
+&gSparring Room~
+&W&wThis room is completely blank, its white tiles are made out
+of strong resistant tiles. The only exit available is the one
+to your north, which is the way you came in here. This room,
+is specialized since you can spar other players and just stun
+them, not kill them. Looking in the middle of the ring, you
+see two members of The Council fighting it out.  
+
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 4 1 2
+D1
+~
+~
+0 -1 8489 0 0 0
+S
+#8491
+&gGravity Training Room~
+&W&wEntering the room, you first notice the large machine in
+the middle of the room with markings on it that say, 'The Council'.
+This machine controls the room's gravity. The floor is made
+out of strong resistant red tiles which can support a large
+amount of weight. The only exit to the outside, is the same
+way that you came inside. Heading west will take you towards
+the sparring chambers.
+
+*** Training Higher than you should, will result in death. ***
+~
+0 4 1 4
+D3
+~
+~
+0 -1 8489 0 0 0
+S
+#8492
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8487 0 0 0
+D2
+~
+~
+0 -1 8493 0 0 0
+S
+#8493
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8492 0 0 0
+D1
+~
+~
+0 -1 8494 0 0 0
+D3
+~
+~
+0 -1 8495 0 0 0
+S
+#8494
+&gHealing Room~
+&W&wEntering the room, you first notice that is complete dark,
+this helps the wounded who are inside the healing chamber, sleeping,
+able to recover faster than normal, so they can get back in
+action. There are some first-aid kits attached to the walls,
+and there are many chambers in lines scattered across the room.
+Looking closer at the Healing Pod, you see a symbol with the
+letters 'TC' across the side of it.
+~
+0 4 1 1
+D3
+~
+~
+0 -1 8493 0 0 0
+S
+#8495
+&gTraining Room~
+&W&wThe room is somewhat well maintained and has adequate lighting
+for what goes on here. Oddly, there are no windows nor doors
+in this room. The room is designed as a large square with a
+tall, muscular man standing calmly in the middle of The Council's
+training center. In each of the four corners of the room is
+a small ring where one can train and practice their newly aquired
+skills.
+~
+0 4 1 64
+D1
+~
+~
+0 -1 8493 0 0 0
+R M 0 8495 1 8495
+S
+#8496
+&gTower - Second Floor~
+&W&wYou have entered the Second Floor of the Tower. Looking around
+you, you notice the walls are made out of reinforced metal.You
+hear some sounds in the backround. Listening a little closer,
+you hear a loud hum coming from the east. This must be the briefing
+area of The Council. You see security camera's on the ceiling,
+monitoring the area for any intruders or spies. East will take
+you towards the Jail Security Room and the Briefing Room. Looking
+around, you see a &gSign &W&where which indicates which levels
+you can go to.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8497 0 0 0
+E
+sign~
+&b---------------------------------------------
+&b|                                            |
+|              &C- First Floor -               &b|
+&b|                                            |
+|              &C- Third Floor -              &b |
+&b|                                            |
+&b---------------------------------------------
+~
+> speech_prog p third floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Third Floor!
+mer $n &C$n has been transported!
+mptrans $n 8502
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p first floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the First Floor!
+mer $n &C$n has been transported!
+mptrans $n 8487
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8497
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8499 0 0 0
+D3
+~
+~
+0 -1 8496 0 0 0
+S
+#8498
+&gBriefing Room~
+&W&wThis is the Briefing Room of The Council, where the members
+of the clan gather to exchange information and plot their strategies.Maps
+are pinned to a wall adjacent to the doorway, and various files
+can be loaded onto a computer screen, showing known information
+on the known enemies. This room is very organized and seems
+to be a key place in the headquarters.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 8499 0 0 0
+S
+#8499
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D1
+~
+vault~
+15 8510 8501 0 0 0
+D3
+~
+~
+0 -1 8497 0 0 0
+D5
+~
+~
+0 -1 8500 0 0 0
+D8
+~
+~
+0 -1 8498 0 0 0
+R M 0 8499 1 8499
+R D 0 8499 1 2
+S
+#8500
+&gJail Security Room~
+&W&wYou are in the Jail Security Room. Looking at this machine,
+you notice that this was making the loud hum sound that you
+heard earlier. This is machine is very high-tech and only controllable
+by those who are in The Council. There seems to be a locked
+door that leads east, that will probably take you into the Jail.You
+see a microphone on top of the Jail Security Machine, it must
+be voice activiated. Beside the microphone there is a sign,
+looking closer at the sign, it reads: 
+
+&G"&gRelease them&G"
+&G"&gEnter&G"
+~
+0 4 1 0
+D3
+~
+jail~
+7 8510 8542 0 0 0
+D4
+~
+~
+0 -1 8499 0 0 0
+R D 0 8500 3 2
+> speech_prog p enter~
+mpechoat $n &rEntering Jail!
+mptransfer $n 8542
+mpat $n mer $n &r$n has entered the Jail!
+mpat $n mpforce $n look
+~
+|
+S
+#8501
+&gThe Vault~
+&W&wThis is the vault, where you can store any types of EQ. Do
+not take anything out of the vault without asking the Deity,
+Leader, Nr1 or Nr2, unless the item is already yours. Dont abuse
+the vault, or it will be changed so only the Leaders and Deity
+can get in.
+~
+0 524292 1 0
+D3
+~
+vault~
+15 8510 8499 0 0 0
+S
+#8502
+&gTower - Third Floor~
+&W&wYou have entered the Third Floor of the Tower. Looking around
+you, you notice the walls are made out of reinforced metal.
+You hear some sounds in the backround. Listening a bit closer,
+you here the sound of a chasier to the east. Maybe a shop is
+near by. You see security camera's on the ceiling, monitoring
+the area for any intruders or spies. West will take you to the
+hallway, from there you can explore. Looking around, you see
+a &gSign &W&where which indicates which levels you can go to.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8503 0 0 0
+E
+sign~
+&b---------------------------------------------
+&b|                                            &b|
+&b|              &C- First Floor -               &b|
+&b|                                            &b|
+&b|              &C- Second Floor -              &b|
+&b|                                            &b|
+&b|              &C- Watchtower -                &b|
+&b|                                            &b|
+&b|              &C- Landing Pad -               &b|
+&b|                                            &b|
+&b|              &C- Bottom Floor -              &b|
+&b|                                            &b|
+&b---------------------------------------------
+~
+> speech_prog p first floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the First Floor!
+mer $n &C$n has been transported!
+mptrans $n 8487
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p second floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Second Floor!
+mer $n &C$n has been transported!
+mptrans $n 8496
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p bottom floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Bottom Floor!
+mer $n &C$n has been transported!
+mptrans $n 8486
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p landing pad~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Landing Pad!
+mer $n &Y$n has been transported!
+mptrans $n 8454
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p watchtower~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Watchtower!
+mer $n &C$n has been transported!
+mptrans $n 8530
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8503
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8504 0 0 0
+D1
+~
+~
+0 -1 8502 0 0 0
+S
+#8504
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8505 0 0 0
+D2
+~
+~
+0 -1 8503 0 0 0
+S
+#8505
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8508 0 0 0
+D2
+~
+~
+0 -1 8504 0 0 0
+D3
+~
+~
+0 -1 8506 0 0 0
+D6
+~
+~
+2051 -1 8507 0 0 0
+R D 0 8505 6 1
+S
+#8506
+&gClan Elevator~
+&W&wThis is the clan Elevator, which clannies can take up into
+the official clan area. The large machine here has markings
+on it, with the letters 'TC.' The machine glows brightly, and
+it looks a lot more high-tech that the other machinery around
+the area. Heading east will take you back to the Hallway of
+The Council. If you wish to head up to the Clan area, just say
+the following words: 'To the Clan Area' 
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8505 0 0 0
+> speech_prog p to the clan area~
+mea $n &rYou have been transported into the Jail...
+mer $n &r$n has been jailed!
+mptrans $n 8542
+mpat $n mer $n &r$n appears.
+mpat $n mpforce $n look
+~
+|
+S
+#8507
+&gThe Council's Shop~
+&W&wThis is the real Headquarter's clan shop. You can buy Council
+equipment at the Shopkeeper here. There are some items on display,
+if you want to see what kind of armor and weapons you can buy,
+check the list. The shopkeeper watches you closely, waiting
+for you to purchase an item. Looking at the items, you notice
+that this must be the place where you can get better deals.
+Southwest will take you back out of the Shop and to the Hallway.
+~
+0 4 1 0
+D9
+~
+~
+1 -1 8505 0 0 0
+R M 0 8507 1 8507
+  R G 1 6 1
+  R G 1 8525 1
+  R G 1 8527 1
+  R G 1 8519 1
+  R G 1 8517 1
+  R G 1 8521 1
+  R G 1 8523 1
+R D 0 8507 9 0
+S
+#8508
+&gHallway Of The Council~
+&W&wYou are in the grand hallway of The Council. Many battles
+have been fought here, and looking around you, you notice it
+is very old an ancient. There is some sort of ancient writing
+engraved into the tiles on the floor. As you walk across these
+Ancient titles, they start to glow, and become warm. Some parts
+of the wall are covered with blood, from many of the battles
+that the members of The Council have gone through to defend
+their keep. This tower has been here for many ages, and the
+entity of it still lives on, you should feel honored.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8509 0 0 0
+D2
+~
+~
+0 -1 8505 0 0 0
+S
+#8509
+&gThe Shop~
+&W&wThis is the Headquarter's clan shop. You can buy Council
+equipment at the Shopkeeper here. There are some items on display,
+if you want to see what kind of armor and weapons you can buy,
+check the list. The shopkeeper watches you closely, waiting
+for you to purchase an item. Looking at the items, you notice
+that they are extremely expensive, maybe there is a place where
+you can get some better deals. South will take you back to the
+hallway of The Council.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 8508 0 0 0
+R M 0 8509 1 8509
+  R G 1 6 1
+  R G 1 8526 1
+  R G 1 8528 1
+  R G 1 8520 1
+  R G 1 8518 1
+  R G 1 8522 1
+  R G 1 8524 1
+S
+#8510
+&zEntrance To The Clan Area~
+&cYou are in the clan area of the The Council. This area is filled
+with a bright glow and an essence of good. You can sense the
+aura of ancient fighters that have been in this area as of late,
+and even the legendary members of The Council who have been
+gone forever, but there entity still lingers here.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8529 0 0 0
+D1
+~
+~
+0 -1 8528 0 0 0
+D2
+~
+~
+0 -1 8518 0 0 0
+D3
+~
+~
+0 -1 8527 0 0 0
+D4
+~
+~
+0 -1 8511 0 0 0
+D5
+~
+~
+0 -1 8517 0 0 0
+S
+#8511
+&zTowards The Offices~
+You are now walking through the hallway toward the offices. At
+the moment, only the Deity, Leader, Number 1 and Number 2 will
+get an office. Offices might also go to extremely important
+members to the clan. Only time will tell.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8512 0 0 0
+D5
+~
+~
+0 -1 8510 0 0 0
+S
+#8512
+&zBetween The Offices~
+You are standing in between the offices of the leaders of The
+Council. West will take you to the Number 2's Office. East will
+take you to the Number 1's Office. North will take you to the
+Leader's Office, and Up will take you to the Deity's Office.
+South will take you back out towards the Clan area.
+~
+0 4 1 0
+D0
+~
+~
+3 -1 8515 0 0 0
+D1
+~
+~
+3 -1 8513 0 0 0
+D2
+~
+~
+0 -1 8511 0 0 0
+D3
+~
+~
+3 -1 8514 0 0 0
+D4
+~
+~
+3 -1 8516 0 0 0
+R D 0 8512 0 1
+R D 0 8512 1 1
+R D 0 8512 3 1
+R D 0 8512 4 1
+S
+#8513
+Number 1's Office~
+~
+0 4 1 0
+D3
+~
+~
+1 -1 8512 0 0 0
+S
+#8514
+Number 2's Office~
+~
+0 4 1 0
+D1
+~
+~
+1 -1 8512 0 0 0
+S
+#8515
+&RTeedus's Office~
+&bAs you enter this room, you notice that it is dimly lit and
+very hard to see. Sitting in the center of room is a small,
+circular table by two sets of couches for people to sit in and
+discuss things, or just for Teedus to lounge around his office
+when he's not busy working on major clan events. Sitting near
+the back of the office is a large window that overlooks a very
+elegant city. Sitting infront of the window is a wooden desk
+with two chairs resting infront of the desk and a large leather
+chair standing behind the desk with the name "Teedus" written
+in gold lettering across the top. The desk is covered with papers
+and other things that Teedus has to work on to make The Council
+the clan that it is.
+~
+0 4 1 0
+D2
+~
+~
+1 -1 8512 0 0 0
+S
+#8516
+Deity's Office~
+~
+0 4 1 0
+D5
+~
+~
+1 -1 8512 0 0 0
+S
+#8517
+&zClan Shop~
+This is the Headquarter's clan shop. You can buy Council equipment
+at the Shopkeeper here. There are some items on display, if
+you want to see what kind of armor and weapons you can buy,
+check the list. The shopkeeper watches you closely, waiting
+for you to purchase an item. You notice the Council Shopkeeper
+smiling in your direction, he's probably glad to see a familiar
+face.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 8510 0 0 0
+R M 0 8517 1 8517
+  R G 1 6 1
+  R G 1 8525 1
+  R G 1 8527 1
+  R G 1 8519 1
+  R G 1 8517 1
+  R G 1 8521 1
+  R G 1 8523 1
+S
+#8518
+&zA Corridor~
+You are in a very dark Corridor. You can't see very much, but
+the walls and floor are cold. Almost as if it was some sort
+of Ancient Metallic material. You are in between the training
+area's. Down, will take you to the simulation fighters where
+you can fight against the Council Fighters and become more powerful.
+Up will take you to the other part of the training area, where
+you can train abilities, heal and regen life, spar some of your
+clan, or use the gravity training system.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8510 0 0 0
+D4
+~
+~
+0 -1 8523 0 0 0
+D5
+~
+~
+0 -1 8519 0 0 0
+S
+#8519
+&zTraining Area~
+You are between the Training Simulator's. You can hear screams
+coming from the South, West, and East. Up will take you towards
+the other side of the training area. Up there you can train
+stats, sleep and regen life, and even gravity train.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8521 0 0 0
+D2
+~
+~
+0 -1 8522 0 0 0
+D3
+~
+~
+0 -1 8520 0 0 0
+D4
+~
+~
+0 -1 8518 0 0 0
+S
+#8520
+&zTraining Simulator #3~
+Here you can train with the Council Fighters, they will help
+you gain powerlevel the more often you fight them. The floors
+covered with pads, making you feel safe, until...you see a large
+pool of blood lying beside you.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8519 0 0 0
+R M 0 8520 1 8520
+S
+#8521
+&zTraining Simulator #1~
+Here you can train with the Council Fighters, they will help
+you gain powerlevel the more often you fight them. The floors
+covered with pads, making you feel safe, until...you see a large
+pool of blood lying beside you.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8519 0 0 0
+R M 0 8521 1 8521
+S
+#8522
+&zTraining Simulator #2~
+Here you can train with the Council Fighters, they will help
+you gain powerlevel the more often you fight them. The floors
+covered with pads, making you feel safe, until...you see a large
+pool of blood lying beside you.
+~
+0 4 1 0
+D0
+~
+~
+0 -1 8519 0 0 0
+R M 0 8522 1 8522
+S
+#8523
+&zTraining Room~
+The room is somewhat well maintained and has adequate lighting
+for what goes on here. Oddly, there are no windows nor doors
+in this room. The room is designed as a large square with a
+tall, muscular man standing calmly in the middle of The Council's
+training center. In each of the four corners of the room is
+a small ring where one can train and practice their newly aquired
+skills. Going downwards will take you towards the Simulated
+Fighters, where you can fight The Council Fighters to become
+more powerful.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8525 0 0 0
+D2
+~
+~
+0 -1 8524 0 0 0
+D3
+~
+~
+0 -1 8526 0 0 0
+D5
+~
+~
+0 -1 8518 0 0 0
+R M 0 8526 1 8523
+S
+#8524
+&zGravity Chamber~
+Entering the room, you first notice the large machine in
+the middle of the room with markings on it that say, 'The Council'.
+This machine controls the room's gravity. The floor is made
+out of strong resistant red tiles which can support a large
+amount of weight. The only exit to the outside, is the same
+way that you came inside. Heading west will take you towards
+the sparring chambers.
+
+*** Training Higher than you should, will result in death. ***
+~
+0 4 1 4
+D0
+~
+~
+0 -1 8523 0 0 0
+S
+#8525
+&zSparring Chamber~
+This room is completely blank, its white tiles are made out
+of strong resistant tiles. The only exit available is the one
+to your north, which is the way you came in here. This room,
+is specialized since you can spar other players and just stun
+them, not kill them. Looking in the middle of the ring, you
+see two members of The Council fighting it out.  
+
+*** Do not use Energy Attacks while sparring in this room. ***
+~
+0 4 1 2
+D3
+~
+~
+0 -1 8523 0 0 0
+S
+#8526
+&zHealing Chamber~
+Entering the room, you first notice that is complete dark,
+this helps the wounded who are inside the healing chamber, sleeping,
+able to recover faster than normal, so they can get back in
+action. There are some first-aid kits attached to the walls,
+and there are many chambers in lines scattered across the room.
+Looking closer at the Healing Pod, you see a symbol with the
+letters 'TC' across the side of it.
+~
+0 4 1 1
+D1
+~
+~
+0 -1 8523 0 0 0
+S
+#8527
+&zTransporter Room~
+This is the the The Council's transporter room. Looking at the
+machine, you notice it is very high-tech. As the transporter
+notices you in the room, a voice activated and says 'Welcome,
+where may I tranport you?'  There seems to be a very large sign
+here, telling you where you can be transported too.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 8510 0 0 0
+E
+sign~
+&r------------------------------------------
+&r|                                        |
+|            &R- First Floor -    &r         |
+&r|                                        |
+|            &R- Second Floor -   &r         |
+&r|                                        |
+|            &R- Third Floor -    &r         |
+&r|                                        |
+|            &R- Watchtower -      &r        |
+&r|                                        |
+|            &R- Landing Pad -&r             |
+&r|                                        &r|
+&r|            &R- Bottom Floor -            &r|
+&r|                                        |
+&r|            &R- Ancient Forest - &r         |
+&r|                                        |
+&r------------------------------------------
+~
+> speech_prog p first floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the First Floor!
+mer $n &Y$n has been transported!
+mptrans $n 8487
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p second floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Second Floor!
+mer $n &Y$n has been transported!
+mptrans $n 8496
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p third floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Third Floor!
+mer $n &Y$n has been transported!
+mptrans $n 8502
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p watchtower~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Watchtower!
+mer $n &Y$n has been transported!
+mptrans $n 8530
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p landing pad~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Landing Pad!
+mer $n &Y$n has been transported!
+mptrans $n 8454
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p bottom floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &YYou have been transported to the Bottom Floor!
+mer $n &Y$n has been transported!
+mptrans $n 8486
+mpat $n mer $n &Y$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p ancient forest~
+if isfight($n)
+mpdonothing
+else
+mea $n &GYou have been transported to the Ancient Forest!
+mer $n &G$n has been transported!
+mptrans $n 8455
+mpat $n mer $n &G$n has entered the Ancient Forest!
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p jail~
+if isfight($n)
+mpdonothing
+else
+mea $n &RYou have been transported to the Ancient Forest!
+mer $n &R$n has been transported!
+mptrans $n 8542
+mpat $n mer $n &R$n has entered the Jail!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8528
+&zCouncil's Briefing Room~
+This is the Briefing Room of The Council, where the members of
+the clan gather to exchange information and plot their strategies.Maps
+are pinned to a wall adjacent to the doorway, and various files
+can be loaded onto a computer screen, showing known information
+on the known enemies. This room is very organized and seems
+to be a key place in the headquarters. There is also a clan
+board in this room, where you can post notes for the clan to
+read.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 8510 0 0 0
+D8
+~
+~
+0 -1 8541 0 0 0
+S
+#8529
+&zThe Council's Lounge~
+This is the clan lounge where the members come to relax and socialize
+when they're not out fighting. There is a large table in the
+center of the room surrounded by chairs. In the corner of the
+room, there is a large video screen where some of The Council
+come to watch. A dart board hangs on the wall infront of you,
+darts still stuck in the board. South will take you back to
+the Entrance of the Clan Area.
+~
+0 4 1 0
+D2
+~
+~
+0 -1 8510 0 0 0
+S
+#8530
+&gBase Of The Tower~
+&W&wCautiously observing your surroundings, you see a huge tower,
+made of what seems to be a large marble slate. The ancient stone
+tower looks to be very aged, as if its been around for many
+millenia. It stands many stories tall, and blocks any light
+that could be coming from behind it. From the corner of your
+eye, you see a red light, and duck into the shadows. It seems
+that this place is covered with security cameras, and it would
+be best to be cautious around here...
+~
+0 4 1 0
+D6
+~
+~
+0 -1 8531 0 0 0
+E
+sign~
+&b---------------------------------------------
+&b|                                            |
+|              &C- Third Floor -               &b|
+&b|                                            |
+&b---------------------------------------------
+~
+> speech_prog p third floor~
+if isfight($n)
+mpdonothing
+else
+mea $n &CYou have been transported to the Third Floor!
+mer $n &C$n has been transported!
+mptrans $n 8502
+mpat $n mer $n &C$n has arrived.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#8531
+&gA Spiralling Staircase~
+&W&wYou find yourself walking up a large spiral staircase. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. It stands many stories tall, and blocks any
+light that could be coming from behind it. From the corner of
+your eye, you see a red light, and duck into the shadows. It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. It seems as though
+the staircase leads up, further than the eye can see.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 8532 0 0 0
+D9
+~
+~
+0 -1 8530 0 0 0
+S
+#8532
+&gA Spiralling Staircase~
+&W&wYou find yourself walking up a large spiral staircase. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. It stands many stories tall, and blocks any
+light that could be coming from behind it. From the corner of
+your eye, you see a red light, and duck into the shadows. It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. It seems as though
+the staircase leads up, further than the eye can see.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 8533 0 0 0
+D8
+~
+~
+0 -1 8531 0 0 0
+S
+#8533
+&gA Spiralling Staircase~
+&W&wYou find yourself walking up a large spiral staircase. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. It stands many stories tall, and blocks any
+light that could be coming from behind it. From the corner of
+your eye, you see a red light, and duck into the shadows. It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. It seems as though
+the staircase leads up, further than the eye can see.
+~
+0 4 1 0
+D5
+~
+~
+0 -1 8532 0 0 0
+D9
+~
+~
+0 -1 8534 0 0 0
+R M 0 8533 1 8533
+S
+#8534
+&gA Spiralling Staircase~
+&W&wYou find yourself walking up a large spiral staircase. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. It stands many stories tall, and blocks any
+light that could be coming from behind it. From the corner of
+your eye, you see a red light, and duck into the shadows. It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. It seems as though
+the staircase leads up, further than the eye can see.
+~
+0 4 1 0
+D5
+~
+~
+2048 -1 8509 0 0 0
+D6
+~
+~
+0 -1 8533 0 0 0
+D8
+~
+~
+0 -1 8535 0 0 0
+S
+#8535
+&gA Spiralling Staircase~
+&W&wYou find yourself walking up a large spiral staircase. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. It stands many stories tall, and blocks any
+light that could be coming from behind it. From the corner of
+your eye, you see a red light, and duck into the shadows. It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. It seems as though
+the staircase leads up, further than the eye can see.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 8536 0 0 0
+D7
+~
+~
+0 -1 8534 0 0 0
+S
+#8536
+&gA Spiralling Staircase~
+&W&wYou find yourself walking up a large spiral staircase. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. It stands many stories tall, and blocks any
+light that could be coming from behind it. From the corner of
+your eye, you see a red light, and duck into the shadows. It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. It seems as though
+the staircase leads up, further than the eye can see.
+~
+0 4 1 0
+D4
+~
+~
+0 -1 8537 0 0 0
+D5
+~
+~
+0 -1 8535 0 0 0
+S
+#8537
+&gTop Of The Watchtower~
+&W&wFinally you have made it to the top of the tower, looking
+out the window, you can barely see anything you are so high
+up. So high up you are almost at the height of the clouds. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. This tower stands many stories high, and
+blocks any light that could be coming from behind it. From the
+corner of your eye, you see a red light, and duck into the shadows.
+It seems that this place is covered with security cameras, and
+it would be best to be cautious around here. There seems to
+be some doors that lead to the east, north, and west, you also
+hear a hum coming from those directions.
+~
+0 4 1 0
+D0
+~
+~
+3 -1 8539 0 0 0
+D1
+~
+~
+3 -1 8538 0 0 0
+D3
+~
+~
+3 -1 8540 0 0 0
+D5
+~
+~
+0 -1 8536 0 0 0
+R D 0 8537 0 1
+R D 0 8537 1 1
+R D 0 8537 3 1
+S
+#8538
+&gTop Of The Watchtower~
+&W&wFinally you have made it to the top of the tower, looking
+out the window, you can barely see anything you are so high
+up. So high up you are almost at the height of the clouds. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. This tower stands many stories high, and
+blocks any light that could be coming from behind it. From the
+corner of your eye, you see a red light, and duck into the shadows.It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. In the middle of
+the room, you see a large &gmonitor&W&w, where you can watch
+over some area's of the HQ from. By the monitor, you see the
+writing, '&gLook Dock&W&w'.
+~
+0 4 1 0
+D3
+~
+~
+1 -1 8537 0 0 0
+> speech_prog p look dock~
+mptrans $n 8452
+mpat $n mpforce $n look
+mptrans $n 8454
+mpat $n mpforce $n look
+mptrans $n 8538
+~
+|
+S
+#8539
+&gTop Of The Watchtower~
+&W&wFinally you have made it to the top of the tower, looking
+out the window, you can barely see anything you are so high
+up. So high up you are almost at the height of the clouds. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. This tower stands many stories high, and
+blocks any light that could be coming from behind it. From the
+corner of your eye, you see a red light, and duck into the shadows.It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. In the middle of
+the room, you see a large &gmonitor&W&w, where you can watch
+over some area's of the HQ from. By the monitor, you see the
+writing, '&gLook entrance&W&w'.
+~
+0 4 1 0
+D2
+~
+~
+1 -1 8537 0 0 0
+> speech_prog p look entrance~
+mptrans $n 8482
+mpat $n mpforce $n look
+mptrans $n 8486
+mpat $n mpforce $n look
+mptrans $n 8539
+~
+|
+S
+#8540
+&gTop Of The Watchtower~
+&W&wFinally you have made it to the top of the tower, looking
+out the window, you can barely see anything you are so high
+up. So high up you are almost at the height of the clouds. The
+ancient stone tower looks to be very aged, as if its been around
+for many millenia. This tower stands many stories high, and
+blocks any light that could be coming from behind it. From the
+corner of your eye, you see a red light, and duck into the shadows.It
+seems that this place is covered with security cameras, and
+it would be best to be cautious around here. In the middle of
+the room, you see a large &gmonitor&W&w, where you can watch
+over some area's of the HQ from. By the monitor, you see the
+writing, '&gLook forest&W&w'.
+~
+0 4 1 0
+D1
+~
+~
+1 -1 8537 0 0 0
+> speech_prog p look forest~
+mptrans $n 8455
+mpat $n mpforce $n look
+mptrans $n 8480
+mpat $n mpforce $n look
+mptrans $n 8481
+mpat $n mpforce $n look
+mptrans $n 8540
+~
+|
+S
+#8541
+&zSecurity Room~
+Coming from the briefing room. You notice all the monitors that
+are placed in this room. All of the walls are covered with small-sized
+monitors of cameras hidden throught all of the headquarters.There
+is a small sign, which indicates where each camera is located.There
+is also a small holographic monitor that is turned on with voice
+recognition. If you wish to leave, head back northwest.
+~
+0 4 1 0
+D7
+~
+~
+0 -1 8528 0 0 0
+E
+sign~
+&b-&c'&CLook First Floor&c'&b-
+
+&b-&c'&CLook Second Floor&c'&b-
+
+&b-&c'&CLook Third Floor&c'&b-
+
+&b-&c'&CLook Jail&c'&b-
+
+&b-&c'&CLook Watchtower&c'&b-
+
+&b-&c'&CLook Bottom Floor&c'&b-
+~
+> speech_prog p look first floor~
+mptrans $n 8487
+mpat $n Mpforce $n look
+mptrans $n 8541
+~
+> speech_prog p look bottom floor~
+mptrans $n 8482
+mpat $n mpforce $n look
+mptrans $n 8486
+mpat $n mpforce $n look
+mptrans $n 8541
+~
+> speech_prog p look second floor~
+mptrans $n 8496
+mpat $n mpforce $n look
+mptrans $n 8501
+mpat $n mpforce $n look
+mptrans $n 8500
+mpat $n mpforce $n look
+mptrans $n 8541
+~
+> speech_prog p look third floor~
+mptrans $n 8502
+mpat $n mpforce $n look
+mptrans $n 8506
+mpat $n mpforce $n look
+mptrans $n 8507
+mpat $n mpforce $n look
+mptrans $n 8509
+mpat $n mpforce $n look
+mptrans $n 8541
+~
+> speech_prog p look watchtower~
+mptrans $n 8530
+mpat $n mpforce $n look
+mptrans $n 8537
+mpat $n mpforce $n look
+mptrans $n 8541
+~
+> speech_prog p look jail~
+mptrans $n 8542
+mpat $n mpforce $n look
+mptrans $n 8541
+~
+|
+S
+#8542
+&gThe Jail~
+&W&wYou are in the jail of The Council, you must have done something
+bad to get in here. The smell of rotten flesh makes you feel
+sick. Whoever gets in here, must be very lucky to even survive
+the wait. The walls and floors are covered with blood and skeleton
+bones lie in the corner. You get nervous as you think about
+how this could be your fate. You hear foot steps near by....
+~
+0 4 1 0
+D1
+~
+jail~
+7 8510 8500 0 0 0
+> speech_prog p let me out~
+mptransfer $n 8452
+~
+|
+S
+#8543
+Floating in a void~
+~
+0 4 1 0
+S
+#8544
+Floating in a void~
+~
+0 4 1 0
+S
+#8545
+Floating in a void~
+~
+0 4 1 0
+S
+#8546
+Floating in a void~
+~
+0 4 1 0
+S
+#8547
+Floating in a void~
+~
+0 4 1 0
+S
+#8548
+Floating in a void~
+~
+0 4 1 0
+S
+#8549
+Floating in a void~
+~
+0 4 1 0
+S
+#8550
+Last Room~
+~
+0 4 1 0
+R M 0 8550 1 8550
+R O 0 8550 1 8550
+S
+#0
+
+
+#SHOPS
+ 8507    0  0  0  0  0   120  90         0 23    ; The Council Shopkeeper
+ 8509    0  0  0  0  0   120  90         0 23    ; The Council Shopkeeper
+ 8517    0  0  0  0  0   120  90         0 23    ; The Council Shopkeeper
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

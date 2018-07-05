@@ -1,0 +1,1473 @@
+#AREA   Planet Ghetti~
+
+
+
+#VERSION 2
+#AUTHOR Luin~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+65 30
+
+#CONTINENT continent1~
+
+#INCOME 80000
+#POPSUPPORT 100
+#GOVERNMENT None~
+#GUARDS 0 0 0 0
+
+#ECONOMY 0 284780023
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#6551
+First_mob~
+a newly created First_mob~
+Some god abandoned a newly created First_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6552
+The third warrior~
+The third warrior~
+A strong warrior stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 500000000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6553
+mpforce second mpkill $n
+~
+|
+#6553
+The second warrior~
+The second warrior~
+A buff warrior stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 600000000
+112 112 0
+14 14 14 14 14 14 14
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6554
+mpforce newbie mpkill $n
+~
+|
+#6554
+The newbie champion warrior~
+The newbie champion~
+The newbie champion stands here flexing his body.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 800000000
+112 112 0
+18 18 18 18 18 18 18
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpwithdraw 3000
+give 3000 coins $n
+mptransfer $n 6592
+mpat $n mpforce $n look
+mpat $n mpechoat $n &YCongratulations on winning the Newbie Tournament...
+~
+|
+#6555
+The third warrior~
+The third warrior~
+A strong warrior stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 800000000
+112 112 0
+19 19 19 19 19 19 19
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6556
+mpforce second mpkill $n
+~
+|
+#6556
+The second warrior~
+The second warrior~
+A buff warrior stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 850000000
+112 112 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6557
+mpforce advanced mpkill $n
+~
+|
+#6557
+The advanced champion warrior~
+The advanced champion~
+The advanced champion stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 900000000
+112 112 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpwithdraw 30000
+give 30000 coins $n
+mptransfer $n 6592
+mpat $n mpforce $n look
+mpat $n mpechoat $n &YCongratulations on winning the Advanced Tournament...
+~
+|
+#6558
+The third warrior~
+The third warrior~
+A strong warrior stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1000000000
+112 112 0
+23 23 23 23 23 23 23
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6559
+mpforce second mpkill $n
+~
+|
+#6559
+The second warrior~
+The second warrior~
+A buff warrior stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1050000000
+112 112 0
+24 24 24 24 24 24 24
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpmload 6560
+mpforce expert mpkill $n
+~
+|
+#6560
+the expert champion warrior~
+The expert champion~
+The expert champion stands here with his arms crossed.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 900000000
+112 112 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> death_prog 100~
+mpwithdraw 300000
+give 300000 coins $n
+mptransfer $n 6592
+mpat $n mpforce $n look
+mpat $n mea $n &YCongratulations on winning the Expert Tournament...
+~
+|
+#6561
+Trainer~
+Ghetti Trainer~
+Ghetti trainer here, watching you carefully.
+~
+~
+67110403 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+108 108 0
+Z
+none~
+#6570
+A Target~
+A Target~
+A target is here.
+~
+~
+3 0 S
+1 0 0 0d0+0 0d0+0
+0 1250000000
+112 112 0
+Z
+none~
+> death_prog 100~
+mpmload 6570
+~
+|
+#6571
+An attendant~
+An attendant~
+A tournament attendant is sitting here before a table.
+~
+~
+71303171 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6573
+A shopkeeper~
+A shopkeeper~
+A shopkeeper stands here selling a few items.
+~
+~
+71303171 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#6574
+An attendant~
+An attendant~
+An attendant sits here behind the counter.
+~
+~
+71303171 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+say Hello, $n. You wanna try your accuracy?
+~
+> speech_prog p sure~
+if goldamt($n) < 100
+say Its 100 coins per round.
+else
+say Great!
+mpforce $n give 100 coins attendant
+mptransfer $n 6589
+mpat $n mpforce $n look
+endif
+~
+|
+#6575
+A bartender~
+A bartender~
+A bartender stands here behind the bar selling a few drinks.
+~
+~
+71303171 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#6576
+A ghetti citizen~
+A ghetti citizen~
+A ghetti citizen stands here wandering around.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 10000
+112 112 1
+Z
+none~
+#6577
+A ghetti citizen~
+A ghetti citizen~
+A ghetti citizen stands here wandering around.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 10000
+112 112 1
+Z
+none~
+#6578
+A ghetti citizen~
+A ghetti citizen~
+A ghetti citizen stands here wandering around.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 10000
+112 112 1
+Z
+none~
+#6579
+A ghetti citizen~
+A ghetti citizen~
+A ghetti citizen stands here wandering around.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 10000
+112 112 1
+Z
+none~
+#6580
+A ghetti citizen~
+A ghetti citizen~
+A ghetti citizen stands here wandering around.
+~
+~
+71303169 0 S
+1 0 0 0d0+0 0d0+0
+0 10000
+112 112 1
+Z
+none~
+#6600
+Last_mob~
+a newly created Last_mob~
+Some god abandoned a newly created Last_mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#6551
+first_obj~
+a newly created first_obj~
+Some god dropped a newly created first_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#6552
+Luin's tail~
+&RLuin's tail&w~
+Luin's bloody, severed tail rests here~
+~
+9 1073741824 18433
+0 -95 0 0 1 0
+1 0 0
+#6553
+&zA flowing black trenchcoat&w~
+&zA flowing black trenchcoat&w~
+&zA flowing black trenchcoat&w lays here, abandoned.~
+~
+9 1073741824 17409
+0 30 0 0 1 0
+1 0 0
+#6554
+&zA Baggy, Faded Black Pair of Jeans&w~
+&zA Baggy, Faded Black Pair of Jeans&w~
+&zA Pair of Faded Baggy Black Jeans&w lays wrinkled and discarded here.~
+~
+9 1073741824 16417
+0 5 0 0 1 0
+1 0 0
+#6555
+&zA Loose Black Longsleeve&w~
+&zA Loose Black Longsleeve&w~
+&zA black longsleeve shirt&w lays crumpled here.~
+~
+9 1073741824 16393
+0 -95 0 0 1 0
+1 0 0
+#6556
+&zA Pair of Simple Black Boots&w~
+&zA Pair of Simple Black Boots&w~
+&zA discarded pair of black boots&w are abandoned here.~
+~
+9 1073741824 16449
+0 20 0 0
+1 0 0
+#6557
+Ghetti Structure~
+A Ghetti Research Facility~
+&WA Ghetti Research Facility is here.~
+~
+69 0 0
+5000 0 0 0
+1 0 0
+#6558
+&WA 1/2" Spike from a Spiked Bracelet&w~
+&WA 1/2" Spike from a Spiked Bracelet&w~
+&WA spike&w seems to have fallen from someone's bracelet.~
+~
+9 1073741824 65537
+0 5 0 0
+1 0 0
+#6559
+&WA Polished Katana&w~
+&W(&zS&Wh&zi&Wm&zm&We&zr&Wi&zn&Wg&z)&w&WA Polished Katana&w~
+&WA polished katana is stuck in the ground here.&w~
+~
+5 1073741824 8193
+70 0 4 0
+1 0 0
+#6560
+Building Structure~
+A Large Building~
+&wA Large Building stands tall here.~
+~
+69 0 0
+3500 0 0 0
+1 0 0
+#6561
+&B(&bT&Bi&bn&Bt&be&Bd&b)&w&zDark Shades&w~
+&B(&BT&bi&Bn&bt&Be&bd&B) &zDark Shades&w~
+Someone has misplaced their &zshades&w here.~
+~
+65 1073741824 131073
+0 -95 0 0
+1 0 0
+> wear_prog 100~
+mea $n &BAs you place your shades on your eyes, a tactical readout
+mea $n &Bof your surroundings appears on a built-in display.
+mea $n &BYou glance around, and smile knowingly.
+mer $n &BAs $n slips on $s shades, the lenses blink for a second with
+mer $n &Ba small, unoticeable blue electric glare.
+mer $n &B$n looks around and smiles, making you uneasy.
+~
+> remove_prog 100~
+mea $n &BYou lightly tap a button on your shades, causing the readout
+mea $n &Bto flicker out of existance. You smoothly slide the shades off of your
+mea $n &Bface, blinking at the light and wincing slightly.
+mer $n &B$n reaches up to tap the rim of his shades lightly. Instantly, the
+mer $n &Bblue light blinks out. $n then reaches off to sweep off $s shades
+mer $n &Bwith a suave flourish... before blinking and shying away from the
+mer $n &Bsudden increase in light.
+~
+|
+#6562
+&zA blackened sheath&w~
+&zA blackened sheath&w~
+&zA nonreflective sword sheath &wrests here.~
+~
+9 1073741824 524289
+0 0 0 0
+1 0 0
+#6564
+Ghetti Hospital Structure~
+The Ghetti Hospital~
+&YThe Ghetti Hospital is here.&w~
+~
+69 0 0
+5000 0 0 0
+1 0 0
+#6578
+Industrial Structure~
+An Industrial Building~
+&zA Large Industrial Building is here.~
+~
+69 0 0
+5000 0 0 0
+1 0 0
+#6580
+CK_obj_ marker~
+a newly created CK_obj_ marker~
+Some god dropped a newly created CK_obj_ marker here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#6581
+&R(&zS&Rw&zi&Rr&zl&Ri&zn&Rg&z)&rA Broadsword of Chaos ~
+&R[S&zw&Ri&zr&Rl&zi&Rn&zg&R] &rA Broadsword of Chaos~
+&RA dangerous-looking broadsword&w is stuck in the ground here.~
+~
+5 1073741824 8193
+70 0 0 0
+1 15000 1500
+> wear_prog 100~
+mea $n &BThe surface of your blade grows &zcloudy &Bas you grip it in your
+mea $n &Bhand, as if a great storm were moving across the reflective surface.
+mea $n &zLightning &Bflashes across the reflection, casting eerie shadows
+mea $n &Baround the room.
+mer $n &BDark &zstormclouds &Bbegin to flow in the reflection of $n's blade as
+mer $n &B$s grips it in $s hand. &YLightning &Bflashes darkly across the image
+mer $n &Bin the blade, casting $n's face into eerie shadow...
+~
+|
+#6600
+Last_obj~
+a newly created Last_obj~
+Some god dropped a newly created Last_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#6551
+First_Room~
+~
+0 4 1 0
+R M 0 6551 1 6551
+R M 0 6600 1 6551
+R O 0 6600 1 6551
+R O 0 6551 1 6551
+S
+#6552
+Ghetti Planet Spaceport~
+Upon entering of the spaceport, you notice all the spaceships that
+surround you. You can see below you, a decent street which probably is
+this Planet's Main street. And hopefully, it will provide access to
+everything this planet has. 
+~
+0 0 1 32768
+D5
+~
+~
+0 -1 6553 0 0 0
+S
+#6553
+On a street~
+The streets are made out of black pavement which seems to be recently
+done, or maybe its just an illusion. The street continues north from here.
+You can see some large buildings and other small ones aside of those. 
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6554 0 0 0
+D4
+~
+~
+0 -1 6552 0 0 0
+R O 0 6557 1 6553
+S
+#6554
+On a street~
+To the west, you can find the Information Desk, which contains all the
+information about this planet. The street continues north and south from
+here. The spaceport is south, and the rest of the city is north. 
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6555 0 0 0
+D2
+~
+~
+0 -1 6553 0 0 0
+D3
+~
+~
+0 -1 6558 0 0 0
+S
+#6555
+On a street~
+You continue to travel along the street, and you begin to see the
+citizens of this planet, and they make you feel like a tourist. There is a
+large building northwest from where your standing. It seems to be a large
+facility center. To the northeast, you see a large stadium, well that
+seems to be where they held all the tournaments. 
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6556 0 0 0
+D2
+~
+~
+0 -1 6554 0 0 0
+S
+#6556
+On a street~
+Continuing on the street, there seems to be a small shop to the west and
+a small house to the east. The road continues its path north and south.
+There are some trees and chairs on each side of the street. 
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6557 0 0 0
+D2
+~
+~
+0 -1 6555 0 0 0
+D3
+~
+~
+0 -1 6559 0 0 0
+S
+#6557
+On a street~
+Continuing on the street, there isn't much to look at here. To the
+northeast, you see a large stadium, and word around the street says that
+its where all the tournaments are held with huge prizes. To the northwest,
+you can find the Training Facility Center, where you can also find many
+fighters battling each other to keep their abilities sharp.
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6560 0 0 0
+D2
+~
+~
+0 -1 6556 0 0 0
+R O 0 6560 1 6557
+S
+#6558
+Information Desk~
+Upon entering of this very small building, you notice the desk that goes
+from side to side and there seems to be someone behind it, its probably
+the attendant of this small building. There are many magazines and stuff
+about Ghetti around here. 
+~
+0 8 1 0
+D1
+~
+~
+0 -1 6554 0 0 0
+S
+#6559
+Inside a Small Shop~
+Upon entering of this small shop, you notice all the items that this
+shopkeeper is selling stacked on the opposite wall of the entrance. There
+is a small counter that goes from side to side, and the shopkeeper behind
+it selling his merchandise. 
+~
+0 8 1 0
+D1
+~
+~
+0 -1 6556 0 0 0
+R M 0 6573 1 6559
+  R G 1 6 1
+  R G 1 146 1
+  R G 1 147 1
+S
+#6560
+Intersection~
+Continuing on the street, you notice the different directions you can
+take. You can go east, towards the huge stadium where they held continous
+tournaments. To the west, where you will find a Facility, to the north,
+where you'll find the rest of the planet, or south, towards the spaceport.
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6577 0 0 0
+D1
+~
+~
+0 -1 6561 0 0 0
+D2
+~
+~
+0 -1 6557 0 0 0
+D3
+~
+~
+0 -1 6564 0 0 0
+S
+#6561
+Towards the Tournaments~
+You find yourself inside a wide hallway which is inside the stadium where
+all the tournaments are held. In each side of the wall, there are windows
+towards the outside, and also posters with Past Champions that this
+stadium has seen. 
+~
+0 8 1 0
+D1
+~
+~
+0 -1 6562 0 0 0
+D3
+~
+~
+0 -1 6560 0 0 0
+S
+#6562
+Before the Tournaments~
+Your now before the inscription office. You should always remember that
+this fights are to the death. So, you are risking your life when you enter
+these tournaments. But, maybe the prize money should be enough to
+recompensate that thought. 
+~
+0 8 1 0
+D0
+~
+~
+0 -1 6563 0 0 0
+D3
+~
+~
+0 -1 6561 0 0 0
+S
+#6563
+Inside the Inscription Office~
+Upon entering, you notice the large sign infront of you, with the
+information about the tournament. There are some people here, behind
+a table, taking new entry forms, you should walk up over there and,
+say which tournament you want.
+
+&RTournament Info&r:&w
+             &REntry       Prize       Reward         
+&YNewbie&O:&C      50          3000        2950
+&YAdvanced&O:&C    500         30000       29500
+&YExpert&O:&C      5000        300000      295000
+
+~
+0 12 1 32768
+D2
+~
+~
+0 -1 6562 0 0 0
+D5
+~
+~
+0 -1 6591 0 0 0
+R M 0 6571 1 6563
+> speech_prog p advanced~
+if goldamt($n) < 500
+mpechoat $n You ain't got that much money!
+else
+mpforce $n give 500 coins attendant
+mpechoat $n &cThe attendant nods as he lets you through.&w
+mpechoaround $n &cThe attendant nods as he lets $n through.&w
+mptransfer $n 6584
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p newbie~
+if goldamt($n) < 50
+mpechoat $n You ain't got that much money!
+else
+mpforce $n give 50 coins attendant
+mpechoat $n &cThe attendant nods as he lets you through.&w
+mpechoaround $n &cThe attendant nods as he lets $n through.&w
+mptransfer $n 6582
+mpat $n mpforce $n look
+endif
+~
+> speech_prog p expert~
+if goldamt($n) < 5000
+mpechoat $n You ain't got that much money!
+else
+mpforce $n give 5000 coins attendant
+mpechoat $n &cThe attendant nods as he lets you through.&w
+mpechoaround $n &cThe attendant nods as he lets $n through.&w
+mptransfer $n 6586
+mpat $n mpforce $n look
+endif
+~
+> entry_prog 100~
+if haspropagandized($n)
+mpforce $n south
+endif
+~
+|
+S
+#6564
+Towards the Facility~
+You are now on a wide road before the Facility here on Ghetti. The
+facility seems to be two stories big, but it looks bigger than that. To
+your south, you see in the distance alot of spaceships landing and taking
+off. 
+~
+0 0 2 0
+D1
+~
+~
+0 -1 6560 0 0 0
+D3
+~
+~
+0 -1 6565 0 0 0
+R O 0 6564 1 6564
+S
+#6565
+Inside the Facility~
+Upon entering of the facility, you notice the different directions you
+can go to. Seeing as this is the main intersection of the facility. There
+is a spiral staircase in the middle of this room that leads towards the
+training room. 
+~
+0 8 1 0
+D0
+~
+~
+0 -1 6567 0 0 0
+D1
+~
+~
+0 -1 6564 0 0 0
+D2
+~
+~
+0 -1 6566 0 0 0
+D3
+~
+~
+0 -1 6570 0 0 0
+D4
+~
+~
+0 -1 6568 0 0 0
+S
+#6566
+Healing Chamber~
+Entering this room, you notice all the healing pods scattered across the
+room. There are many health kits attached to the walls of this room. There
+are some nurses going around, and assisting everyone on this room. It
+seems that the only way out of this room, is the same you came in. 
+~
+0 8 1 1
+D0
+~
+~
+0 -1 6565 0 0 0
+R M 0 6580 2 6566
+S
+#6567
+Gravity Chamber~
+Upon entering of this compacted room. You notice the small console in the
+middle of the room, which probably controls the gravity of this room.
+Making it better efficiently in your training. The higher the gravity is,
+the more power you obtain from training. 
+~
+0 8 1 4
+D2
+~
+~
+0 -1 6565 0 0 0
+R M 0 6580 2 6567
+S
+#6568
+Towards the Trainer~
+There is a spiral staircases located in the middle of the room, that
+leads back to the facility. This seems to be a small hallway that leads
+to the trainer of Ghetti and this facility.
+~
+0 8 1 0
+D0
+~
+~
+0 -1 6569 0 0 0
+D5
+~
+~
+0 -1 6565 0 0 0
+S
+#6569
+Training Room~
+You now stand before the trainer. He seems to be a very small mutants
+that is controlling a small energy ball and playing with it.This small
+room seems to have nothing really, now thinking, you don't actually need
+anything to learn and train your abilities and skills.
+~
+0 8 1 0
+D2
+~
+~
+0 -1 6568 0 0 0
+R M 0 6561 1 6569
+S
+#6570
+Towards the Fighting Chambers~
+You now stand before a spiral staircase that leads downwards from where
+you are standing. It looks that below the ground, is where all the
+training fighters are located. Probably to make the rooms sound proof.
+~
+0 12 1 0
+D1
+~
+~
+0 -1 6565 0 0 0
+D5
+~
+~
+0 -1 6571 0 0 0
+S
+#6571
+Fighting Chamber #1~
+Upon entering of the room, you notice that the floor is covered with red
+tiles, which seem to be very resistant to different kind of pressure. The
+walls are painted with a milk white color, and they seem to be pretty
+reinforced. The lighting of the room is provided by the large lamps
+attached to the ceiling. 
+~
+0 8 1 0
+D4
+~
+~
+0 -1 6570 0 0 0
+D5
+~
+~
+0 -1 6572 0 0 0
+S
+#6572
+Fighting Chamber #2~
+Upon entering of the room, you notice that the floor is covered with red
+tiles, which seem to be very resistant to different kind of pressure. The
+walls are painted with a milk white color, and they seem to be pretty
+reinforced. The lighting of the room is provided by the large lamps
+attached to the ceiling.
+~
+0 8 1 0
+D3
+~
+~
+0 -1 6573 0 0 0
+D4
+~
+~
+0 -1 6571 0 0 0
+S
+#6573
+Fighting Chamber #3~
+Upon entering of the room, you notice that the floor is covered with red
+tiles, which seem to be very resistant to different kind of pressure. The
+walls are painted with a milk white color, and they seem to be pretty
+reinforced. The lighting of the room is provided by the large lamps
+attached to the ceiling.
+~
+0 8 1 0
+D1
+~
+~
+0 -1 6572 0 0 0
+D5
+~
+~
+0 -1 6574 0 0 0
+S
+#6574
+Fighting Chamber #4~
+Upon entering of the room, you notice that the floor is covered with red
+tiles, which seem to be very resistant to different kind of pressure. The
+walls are painted with a milk white color, and they seem to be pretty
+reinforced. The lighting of the room is provided by the large lamps
+attached to the ceiling.
+~
+0 8 1 0
+D4
+~
+~
+0 -1 6573 0 0 0
+D5
+~
+~
+0 -1 6575 0 0 0
+S
+#6575
+Fighting Chamber #5~
+Upon entering of the room, you notice that the floor is covered with red
+tiles, which seem to be very resistant to different kind of pressure. The
+walls are painted with a milk white color, and they seem to be pretty
+reinforced. The lighting of the room is provided by the large lamps
+attached to the ceiling.
+~
+0 8 1 0
+D4
+~
+~
+0 -1 6574 0 0 0
+D5
+~
+~
+0 -1 6576 0 0 0
+S
+#6576
+Fighting Chamber #6~
+Upon entering of the room, you notice that the floor is covered with red
+tiles, which seem to be very resistant to different kind of pressure. The
+walls are painted with a milk white color, and they seem to be pretty
+reinforced. The lighting of the room is provided by the large lamps
+attached to the ceiling.
+~
+0 8 1 0
+D4
+~
+~
+0 -1 6575 0 0 0
+S
+#6577
+On a street~
+You continue to walk on the black pavement. There are many trees around
+you, and large building, and small ones at each side of the street. To
+the southeast, you can see a large stadium and to the far south, you see
+spaceships landing in the spaceport.
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6578 0 0 0
+D2
+~
+~
+0 -1 6560 0 0 0
+R M 0 6577 2 6577
+S
+#6578
+On a street~
+Walking on the street, you find yourself infront of the target practice
+shop. Many fighters come here to practice their accuracy and precision.
+To the north, the road seems to end before some night bar. Only way out
+of this dead end is the way you came in.
+~
+0 0 2 0
+D0
+~
+~
+0 -1 6580 0 0 0
+D1
+~
+~
+0 -1 6579 0 0 0
+D2
+~
+~
+0 -1 6577 0 0 0
+R M 0 6578 2 6578
+R O 0 6578 1 6578
+S
+#6579
+Target Practice~
+Upon entering of this small shop, you notice an attendant that
+sits there behind the counter. He glares at you, then goes about
+his business. There seems to be a spiral staircase that leads
+up from here.
+~
+0 8 1 0
+D3
+~
+~
+0 -1 6578 0 0 0
+D4
+~
+~
+7 -1 6589 0 0 0
+R M 0 6574 1 6579
+R M 0 6579 2 6579
+R D 0 6579 4 2
+S
+#6580
+Dead End~
+You now find yourself at a dead end of the main street. There
+seems to be a party and it seems to be happyhour. The other
+way out is the same way you came in.
+~
+0 0 2 0
+D2
+~
+~
+0 -1 6578 0 0 0
+D3
+~
+~
+0 -1 6581 0 0 0
+R M 0 6579 2 6580
+S
+#6581
+Inside a Bar~
+Upon entering of the bar, you notice all the people in here drinking
+themselves till unconciousness. There is a large bar that goes
+from side to side, with some bar stools, and a few bartenders
+behind it. All the bottles that are available to use for drinks
+are stacked up on display against the wall.
+~
+0 8 1 0
+D1
+~
+~
+0 -1 6580 0 0 0
+R M 0 6575 1 6581
+R M 0 6578 2 6581
+S
+#6582
+Newbie Tournament Waiting Room~
+This seems to be the waiting room, before the tournament. There
+are some healing pods scattered in this room for the wounded,
+so they can heal up before fighting once again. To the west,
+there is the chamber, where youll face up to three challenges
+from other competitors, the winner of all will get the tournament
+prize.
+
+~
+0 0 1 1
+D2
+~
+~
+0 -1 6563 0 0 0
+D3
+~
+~
+0 -1 6583 0 0 0
+> speech_prog fix~
+if mobcount(6583) > 1
+mpechoat $n It has been cleaned.
+mpat 6583 mppurge
+endif
+~
+|
+S
+#6583
+Inside the Newbie Tournament Chamber~
+This seems to be a pretty big chamber. There are many contestants
+waiting on the sidelines for their time to shine. You now stand
+inside a big dome, which is inside the huge stadium of Ghetti.
+To the west, there seems to be a special room.
+~
+0 256 1 256 0 0 2
+D3
+~
+~
+0 -1 6588 0 0 0
+> leave_prog 100~
+if mobinroom(6552) > 0
+mppurge warrior
+else
+if mobinroom(6553) > 0
+mppurge warrior
+else
+if mobinroom(6554) > 0
+mppurge warrior
+endif
+endif
+endif
+~
+> entry_prog 100~
+mppurge
+mpmload 6552
+mpforce third mpkill $n
+~
+> act_prog p is DEAD!!~
+if ispc($n)
+mppurge warrior
+endif
+~
+> rand_prog 100~
+if mobcount(6583) > 1
+mppurge
+endif
+~
+|
+S
+#6584
+Advanced Tournament Waiting Room~
+This seems to be the waiting room, before the tournament. There
+are some healing pods scattered in this room for the wounded,
+so they can heal up before fighting once again. To the west,
+there is the chamber, where youll face up to three challenges
+from other competitors, the winner of all will get the tournament
+prize.
+~
+0 0 1 1
+D2
+~
+~
+0 -1 6563 0 0 0
+D3
+~
+~
+0 -1 6585 0 0 0
+S
+#6585
+Inside the Advanced Tournament Chamber~
+This seems to be a pretty big chamber. There are many contestants
+waiting on the sidelines for their time to shine. You now stand
+inside a big dome, which is inside the huge stadium of Ghetti.
+To the west, there seems to be a special room.
+~
+0 256 1 0 0 0 2
+D3
+~
+~
+0 -1 6588 0 0 0
+> leave_prog 100~
+if mobinroom(6555) > 0
+mppurge warrior
+else
+if mobinroom(6556) > 0
+mppurge warrior
+else
+if mobinroom(6557) > 0
+mppurge warrior
+endif
+endif
+endif
+~
+> entry_prog 100~
+mpmload 6555
+mpforce third mpkill $n
+~
+> act_prog p is DEAD!!~
+if ispc($n)
+mppurge warrior
+endif
+~
+> rand_prog 100~
+if mobcount(6585) > 1
+mppurge
+endif
+~
+|
+S
+#6586
+Expert Tournament Waiting Room~
+This seems to be the waiting room, before the tournament. There
+are some healing pods scattered in this room for the wounded,
+so they can heal up before fighting once again. To the west,
+there is the chamber, where youll face up to three challenges
+from other competitors, the winner of all will get the tournament
+prize.
+~
+0 0 1 1
+D2
+~
+~
+0 -1 6563 0 0 0
+D3
+~
+~
+0 -1 6587 0 0 0
+S
+#6587
+Inside the Expert Tournament Chamber~
+This seems to be a pretty big chamber. There are many contestants
+waiting on the sidelines for their time to shine. You now stand
+inside a big dome, which is inside the huge stadium of Ghetti.
+To the west, there seems to be a special room.
+~
+0 256 1 384 0 0 2
+D3
+~
+~
+0 -1 6588 0 0 0
+> leave_prog 100~
+if mobinroom(6558) > 0
+mpppurge warrior
+else
+if mobinroom(6559) > 0
+mpppurge warrior
+else
+if mobinroom(6560) > 0
+mpppurge warrior
+endif
+endif
+endif
+~
+> entry_prog 100~
+mpmload 6558
+mpforce third mpkill $n
+~
+> act_prog p is DEAD!!~
+if ispc($n)
+mppurge warrior
+endif
+~
+> act_prog p flees head~
+if mobinroom(6558) > 0
+mpppurge warrior
+else
+if mobinroom(6559) > 0
+mpppurge warrior
+else
+if mobinroom(6560) > 0
+mpppurge expert
+endif
+endif
+endif
+~
+> rand_prog 100~
+if mobcount(6587) > 1
+mppurge
+endif
+~
+|
+S
+#6588
+Chicken Room~
+Your a freaking chicken! You fled from the tournament, now you
+lose the entry fee money, and there ain't no reimbursement!
+So, continue south, and cry your tears.
+~
+0 0 1 256
+D2
+~
+~
+0 -1 6563 0 0 0
+S
+#6589
+Target Practice~
+You find yourself before a large counter that goes from side to side.
+At the end north from here, there are some targets that you can
+practice your sniping with your energy attacks. If you want to try
+one of your energy attacks, just type "(Attack) Target".
+
+&YIf you want to go back just type leave
+~
+0 12 1 0
+D0
+~
+~
+33554432 -1 6590 0 0 0
+D5
+~
+~
+39 -1 6579 0 0 0
+D10
+~
+~
+264200 -1 6579 0 0 0
+R D 0 6589 5 2
+S
+#6590
+Target Range~
+~
+0 4 1 0
+D2
+~
+~
+0 -1 6589 0 0 0
+R M 0 6570 1 6590
+S
+#6591
+Sparring Chamber~
+Upon entering, you notice all the fighters preparing themselves
+to fight in the tournament. It seems that they are sparring
+in this special room that seems to be designed to absorb all
+kind of sounds. The only way out is through the staircase where
+you came in.
+~
+0 4 1 2
+D4
+~
+~
+0 -1 6563 0 0 0
+S
+#6592
+Hall of Champions~
+In this room, all you can see are posters and pictures of past
+champions.To the south, you can see the inscription office.
+There isnt any other exit, since the door to the east was closed
+after the match.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 6563 0 0 0
+S
+#6600
+Last_Room~
+~
+0 4 1 0
+S
+#0
+
+
+#SHOPS
+ 6573    0  0  0  0  0   120  90         0 23    ; A shopkeeper
+ 6575    0  0  0  0  0   120  90         0 23    ; A bartender
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

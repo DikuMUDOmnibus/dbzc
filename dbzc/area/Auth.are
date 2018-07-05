@@ -1,0 +1,336 @@
+#AREA   Old Auth Area~
+
+
+
+#VERSION 2
+#AUTHOR Seventeen~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#300
+First Mob~
+a newly created First Mob~
+Some god abandoned a newly created First Mob here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#315
+Last MOb~
+a newly created Last MOb~
+Some god abandoned a newly created Last MOb here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#300
+First Obj~
+a newly created First Obj~
+Some god dropped a newly created First Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#301
+Ginyu Force Battle Shield~
+&w&W&w(&BGinyu Force&w) &zSpecial Issue Shield&w~
+A tattered looking shield is discarded here~
+~
+9 0 513
+2 225 225 5 10 0
+1 0 0
+#302
+Ginyu Force Fight Cape~
+&w&W&w(&BGinyu Force&w)&z Imperial Design Fighting Cape&w~
+A ginyu force cape is lying here on the ground~
+~
+9 0 1025
+2 230 210 5 10 0
+1 0 0
+#315
+Last Obj~
+a newly created Last Obj~
+Some god dropped a newly created Last Obj here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#300
+&YEntrance to a Swirling Vortex~
+Everything seems to be lightheaded... You don't know where you are nor who
+you are. You find yourself inside a swirling vortex, and there seems to be
+a circular portal infront of you which has a strange silver liquid flowing
+constantly.
+ 
+Type '&RNorth&g' to continue.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 302 0 0 0
+S
+#301
+&YAfter a Portal~
+The portal has transported you here. Before the Pre-Auth Station, the
+Pre-Auth Station is a very small building which has only one entrance to
+it. There, you can learn how to play on this Universe and the street
+smarts that you need to know if you want to succeed here.
+ 
+Type: '&RNorth&D' to continue.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 302 0 0 0
+> entry_prog 100~
+if wasinroom($n) == 300
+mea $n &WAs you leave the vortex, you find yourself before a small
+mea $n &Wbuilding. It seems like some sort of station.
+endif
+~
+|
+S
+#302
+Before the Newbie Help Station~
+Walkin down the stone path, you find a large building infront of you. There
+is a sign engraved in gold which reads: "Pre-Auth Station", this must be
+where you will learn the basics of a MUD. And where you will learn how to
+interact with the rest of the players and how to enjoy it completely.
+ 
+Type: '&RNorth&D' to continue.
+&Y
+It is suggested that you use font: lucida console and size: 8 to play
+the mud.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 303 0 0 0
+S
+#303
+Inside the Newbie Help Station~
+&PNEW TO DBZ:CHRONICLES      &O-&W EAST
+
+&PNEW TO SMAUG OR MUDS       &O-&W WEST
+
+&PNEITHER                    &O-&W NORTH
+
+&PMOVEMENT
+&gTo move from room to room, use the basic directions &Cnorth &G(n)&g,&C
+south &G(s)&g, &Ceast &G(e)&g, &Cwest &G(w)&g. Other directions
+will occur, including &Cnorthwest &G(nw)&g, &Cup&g,&C down&g,
+&Center&g, and many others.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 306 0 0 0
+D1
+~
+~
+0 -1 2404 0 0 0
+D2
+~
+~
+0 -1 302 0 0 0
+D3
+~
+~
+0 -1 2416 0 0 0
+S
+#304
+&YMiddle of the Hallway~
+Standing in the middle of the hallway you notice that at the end, there is
+a large circle that has some strange substance within it which has a
+somewhat color of silver. To the east and to the west, you can find
+different &Yclassrooms&D that will teach you things that are needed to
+know.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 305 0 0 0
+D1
+~
+~
+0 -1 310 0 0 0
+D3
+~
+~
+0 -1 309 0 0 0
+S
+#305
+&YEnd of the Hallway~
+Standing in the end of the hallway, you notice from upclose the large
+circle you once say when you were in the middle of this hallway. The
+substance seems to be a dense liquid which has a silver color indeed. To
+the east and to the west, you can find yet more &Yclassrooms&D like the
+rest of the hallway. You begin to wonder where will that portal take you
+to. 
+~
+0 0 1 0
+D0
+~
+~
+0 -1 306 0 0 0
+D1
+~
+~
+0 -1 311 0 0 0
+D2
+~
+~
+0 -1 304 0 0 0
+D3
+~
+~
+0 -1 312 0 0 0
+S
+#306
+&RBefore being part of the Chronicles!~
+At the end of the hallway, you find a large circular portal that has
+silver liquid flowing constantly. It seems that its about the same
+portal that you saw before inside the swirling vortex. Only that now
+you ain't floating in a void, you are standing inside a hallawy before
+it. There is a &Rsign&D above it.
+
+&YBe sure that you have read the following:
+ &O-&CHelp Rules
+ &O-&CHelp Laws
+ &O-&CHelp Name
+ &O-&CHelp PK
+ &O-&CHelp ClanPK
+
+&RHint: Type &Ylook sign
+~
+0 0 1 0
+D2
+~
+~
+0 -1 303 0 0 0
+R O 0 32 1 306
+E
+sign~
+&z==============================================================================
+&C
+If your ready, say: I agree to follow the rules, and I'm ready
+
+&z==============================================================================
+~
+> speech_prog p I agree to follow the rules, and I'm ready~
+Mea $n 
+mea $n &YWelcome to DBZ:C, Please Enjoy Your Stay.
+Mpat $n echo $n has arrived.
+mptransfer $n 251
+~
+|
+S
+#307
+&YClassroom #1~
+~
+0 4 1 0
+S
+#308
+&YClassroom #2~
+~
+0 4 1 0
+S
+#309
+&YClassroom #4~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 304 0 0 0
+S
+#310
+&YClassroom #3~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 304 0 0 0
+S
+#311
+&YClassroom #5~
+~
+0 0 1 0
+D3
+~
+~
+0 -1 305 0 0 0
+S
+#312
+&YClassroom #6~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 305 0 0 0
+S
+#315
+Last Room~
+~
+0 4 0 0
+R M 0 300 1 315
+R M 0 315 1 315
+R O 0 300 1 315
+R O 0 315 1 315
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

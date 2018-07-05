@@ -1,0 +1,551 @@
+#AREA   Junction Point Alpha Casino~
+
+
+
+#VERSION 2
+#AUTHOR Goten~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+0
+
+#CONTINENT continent1~
+
+#ECONOMY 0 28620000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7051
+First_Mob~
+a newly created First_Mob~
+Some god abandoned a newly created First_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7052
+A casino croupier~
+A casino croupier~
+A casino croupier stands here behind a table gambling.
+~
+~
+88080387 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7053
+A casino croupier~
+A casino croupier~
+A casino croupier stands here behind a table gambling.
+~
+~
+88080387 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7055
+A casino croupier~
+A casino croupier~
+A casino croupier stands here behind the roulette table.
+~
+~
+83886083 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7056
+A slot machine~
+A slot machine~
+A slot machine is here waiting for new gamblers.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7057
+A slot machine~
+A slot machine~
+A slot machine is here waiting for new gamblers.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7058
+A slot machine~
+A slot machine~
+A slot machine is here waiting for new gamblers.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7059
+A slot machine~
+A slot machine~
+A slot machine is here waiting for new gamblers.
+~
+~
+67108867 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7100
+Last_Mob~
+a newly created Last_Mob~
+Some god abandoned a newly created Last_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#7051
+First_obj~
+a newly created First_obj~
+Some god dropped a newly created First_obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#7100
+Last_Obj~
+a newly created Last_Obj~
+Some god dropped a newly created Last_Obj here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7051
+Entrance to the Casino~
+&gBright neon signs light up the sky, as people walk in and out
+of the 'Kame Casino'. some looking like they won the jackpot,
+others looking as if they lost it all! There is a man at the
+front door greeting people as they come and go.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7052 0 0 0
+S
+#7052
+Inside the Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7053 0 0 0
+D2
+~
+~
+0 -1 6963 0 0 0
+S
+#7053
+Inside the Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7056 0 0 0
+D2
+~
+~
+0 -1 7052 0 0 0
+D3
+~
+~
+0 -1 7054 0 0 0
+S
+#7054
+Inside the Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7066 0 0 0
+D1
+~
+~
+0 -1 7053 0 0 0
+D2
+~
+~
+0 -1 7055 0 0 0
+> emote_prog p kicks you in the nutz.~
+mpsleep 5
+mpecho HE KICKS THE SHIT OUT OF YOU.
+~
+> custom_prog cortezowns~
+mpechoat $n &YCORTEZ OWNS!
+mpechoaround $n &RCORTEZ OWNS!
+~
+|
+S
+#7055
+&YGame of Chance~
+&gA small table sits in the middle of this room, a sneaky looking man
+stands behind it. On the table are three cups and a ball made of
+amber. He smiles at you, before saying "Find the ball, win a prize!
+I have three cups, you get one try!"
+~
+0 1028 1 0
+D0
+~
+~
+0 -1 7054 0 0 0
+R M 0 7052 1 7055
+S
+#7056
+Inside the Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7065 0 0 0
+D1
+~
+~
+0 -1 7057 0 0 0
+D2
+~
+~
+0 -1 7053 0 0 0
+S
+#7057
+Around the Slot Machines~
+&gLights flash and bells ring as people play the slot machines. Many
+seem to be oblivious to the noise, as they continue to pump coins into
+the games. You look over your shoulder as a man leaps in joy, his slot
+machine ringing like crazy as it pays out the JackPot.
+~
+0 0 1 0
+D0
+~
+~
+3 -1 7064 0 0 0
+D1
+~
+~
+0 -1 7058 0 0 0
+D3
+~
+~
+0 -1 7056 0 0 0
+R D 0 7057 0 1
+S
+#7058
+Around the Slot Machines~
+&gLights flash and bells ring as people play the slot machines. Many
+seem to be oblivious to the noise, as they continue to pump coins into
+the games. You look over your shoulder as a man leaps in joy, his slot
+machine ringing like crazy as it pays out the JackPot.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7059 0 0 0
+D2
+~
+~
+3 -1 7063 0 0 0
+D3
+~
+~
+0 -1 7057 0 0 0
+R D 0 7058 2 1
+S
+#7059
+Around the Slot Machines~
+&gLights flash and bells ring as people play the slot machines. Many
+seem to be oblivious to the noise, as they continue to pump coins into
+the games. You look over your shoulder as a man leaps in joy, his slot
+machine ringing like crazy as it pays out the JackPot.
+~
+0 0 1 0
+D0
+~
+~
+3 -1 7062 0 0 0
+D1
+~
+~
+0 -1 7060 0 0 0
+D3
+~
+~
+0 -1 7058 0 0 0
+R D 0 7059 0 1
+S
+#7060
+Around the Slot Machines~
+&gLights flash and bells ring as people play the slot machines. Many
+seem to be oblivious to the noise, as they continue to pump coins into
+the games. You look over your shoulder as a man leaps in joy, his slot
+machine rings like crazy as it pays out the JackPot.
+~
+0 0 1 0
+D2
+~
+~
+3 -1 7061 0 0 0
+D3
+~
+~
+0 -1 7059 0 0 0
+R D 0 7060 2 1
+S
+#7061
+Infront of a Slot~
+&gAll the machines seem to be taken, mostly by older females with
+buckets of change to spend on them. Like robots programmed, they
+each reach up to put a coin in, and pull the lever, with no luck.
+Finally one person stands up, complaining about the machine being
+cold. With only one chair open, you take it, ready to gamble away!
+~
+0 4 1 1048576
+D0
+~
+~
+1 -1 7060 0 0 0
+R M 0 7056 1 7061
+R D 0 7061 0 0
+S
+#7062
+Infront of a Slot~
+&gAll the machines seem to be taken, mostly by older females with
+buckets of change to spend on them. Like robots programmed, they
+each reach up to put a coin in, and pull the lever, with no luck.
+Finally one person stands up, complaining about the machine being
+cold. With only one chair open, you take it, ready to gamble away!
+~
+0 0 1 1048576
+D2
+~
+~
+1 -1 7059 0 0 0
+R M 0 7057 1 7062
+R D 0 7062 2 0
+S
+#7063
+Infront of a Slot~
+&gAll the machines seem to be taken, mostly by older females with
+buckets of change to spend on them. Like robots programmed, they
+each reach up to put a coin in, and pull the lever, with no luck.
+Finally one person stands up, complaining about the machine being
+cold. With only one chair open, you take it, ready to gamble away!
+~
+0 0 1 1048576
+D0
+~
+~
+1 -1 7058 0 0 0
+R M 0 7058 1 7063
+R D 0 7063 0 0
+S
+#7064
+Infront of a Slot~
+&gAll the machines seem to be taken, mostly by older females with
+buckets of change to spend on them. Like robots programmed, they
+each reach up to put a coin in, and pull the lever, with no luck.
+Finally one person stands up, complaining about the machine being
+cold. With only one chair open, you take it, ready to gamble away!
+~
+0 0 1 1048576
+D2
+~
+~
+1 -1 7057 0 0 0
+R M 0 7059 1 7064
+R D 0 7064 2 0
+S
+#7065
+Inside the Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7067 0 0 0
+D2
+~
+~
+0 -1 7056 0 0 0
+S
+#7066
+&YGame of Chance~
+&gA small table sits in the middle of this room, a sneaky looking man
+stands behind it. On the table are three cups and a ball made of
+amber. He smiles at you, before saying "Find the ball, win a prize!
+I have three cups, you get one try!"
+~
+0 1028 1 0
+D2
+~
+~
+0 -1 7054 0 0 0
+R M 0 7053 1 7066
+S
+#7067
+Inside the Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D2
+~
+~
+0 -1 7065 0 0 0
+S
+#7068
+Roulette Table~
+&gA long roulette table sits here in the corner of the room. You
+hear the people at the table groan as another round ends, and the
+Croupier wins, taking the chips away. A fresh new group of people
+now sit, and the bets begin once again.
+~
+0 4 1 0
+R O 0 97 1 7068
+R M 0 7055 1 7068
+S
+#7069
+Roulette Table~
+~
+0 4 1 0
+R O 0 97 1 7069
+S
+#7070
+Inside a Casino~
+&gInside of the casino all around you see many different types of games. A
+waitress walks by, taking orders of drinks and snacks as people continue
+to gamble their money away. The smell of smoke comes from all over the
+building, and people keep walking around, paying you no attention.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7071 0 0 0
+D3
+~
+~
+0 -1 7072 0 0 0
+S
+#7071
+Black Jack Table~
+&gA half circle table stands here in the middle of the room, a black
+jack dealer behind it. She flashes you a smile as she begins to
+shuffle the deck skillfully. A few people take thier seats at 
+table, and begin to place thier bets.
+~
+0 0 1 32
+D3
+~
+~
+0 -1 7070 0 0 0
+S
+#7072
+Black Jack Table~
+&gA half circle table stands here in the middle of the room, a black
+jack dealer behind it. She flashes you a smile as she begins to
+shuffle the deck skillfully. A few people take thier seats at 
+table, and begin to place thier bets.
+~
+0 0 1 32
+D1
+~
+~
+0 -1 7070 0 0 0
+S
+#7100
+Last Room~
+~
+0 4 1 0
+R M 0 7051 1 7100
+R M 0 7100 1 7100
+R O 0 7051 1 7100
+R O 0 7100 1 7100
+S
+#0
+
+
+#SHOPS
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

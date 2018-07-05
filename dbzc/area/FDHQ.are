@@ -1,0 +1,3366 @@
+#AREA   Faded Dragons Headquarters~
+
+
+
+#VERSION 2
+#AUTHOR Tapion~
+
+#RANGES
+0 0 0 0
+$
+
+#SPELLLIMIT 0
+#FLAGS
+128
+
+#CONTINENT continent1~
+
+#ECONOMY 0 79261443
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#7102
+Garric~
+a newly created Garric~
+Some god abandoned a newly created Garric here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7103
+Dark Assassin Kagu~
+Kagu~
+A Dark Assassin lurks in the shadows.
+~
+~
+1 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Faded Dragons
+bow $n
+else
+mpkill $n
+endif
+~
+> entry_prog 100~
+if clan($r) != Faded Dragons
+if name($r) != Kenzin
+if name($r) != Cain
+if name($r) != Vargus
+if name($r) != Andariel
+mpkill $r
+endif
+endif
+endif
+endif
+else
+greet $r
+endif
+~
+> rand_prog 100~
+if clan($r) != Faded Dragons
+if name($r) != Kenzin
+if name($r) != Cain
+if name($r) != Vargus
+if name($r) != Andariel
+mpkill $r
+endif
+endif
+endif
+endif
+endif
+~
+|
+#7104
+Mercenary Kenzin~
+Kenzin~
+A Large Mercenary stands here, feeling the edge of his laser axe.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) != Faded Dragons
+if name($n) != Kagu
+mpkill $n
+endif
+else
+greet $n
+endif
+~
+|
+#7105
+Vargus Weapons Smith~
+Vargus~
+A Weapons Smith stands here before a forge hammering away.
+~
+~
+20971523 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+Z
+none~
+#7106
+Armorer Andariel~
+Andariel~
+A woman sits here at the table working on a new piece of armor.
+~
+~
+16777219 0 S
+1 0 0 0d0+0 0d0+0
+0 100000000
+112 112 2
+Z
+none~
+#7107
+Bartender Cain~
+Cain~
+A man stands here behind the counter doing something.
+~
+~
+67109891 0 S
+55 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7108
+Figure Ninja~
+Ninja~
+A dark figure looms in the shadows.
+~
+~
+3 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+#7109
+Vargus2~
+Vargus~
+A Weapons Smith stands here before a forge hammering away.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+> act_prog p buys~
+if ovnuminv(7107) == 0
+mpoload 7107
+endif
+if ovnuminv(7106) == 0
+mpoload 7106
+endif
+~
+|
+#7110
+Andariel2~
+Andariel~
+A woman sits here at the table working on a new piece of armor.
+~
+~
+67108865 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+Z
+none~
+#7111
+Gren~
+a newly created Gren~
+Some god abandoned a newly created Gren here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7112
+Dragon Statue~
+The Dragon Statue~
+The stone dragon statue remains motionless.
+~
+~
+1 0 C
+1 0 0 0d0+0 0d0+0
+0 1500000000
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 2
+0 0 0 0 0 0 0 0
+Z
+none~
+> greet_prog 100~
+if clan($n) == Faded dragons
+emote remains motionless.
+else
+emote suddenly springs into motion as he spots someone.
+say Prepare to die, interloper!
+mpkill $n
+endif
+~
+> fight_prog 45~
+mpecho _gre The dragon statue opens it's mouth and glares at you.
+mer $n _gre Huge green flames burst from the dragon's mouth, crashing
+mer $n _gre into $n's chest.
+mea $n _gre The dragon statue breathes green flames on you!
+mpdamage $n 20
+mea $n _red The flames hit you! [20]
+mer $n _red The flames hit $n! [20]
+~
+|
+#7113
+Muah'Dib~
+Muah'Dib~
+A mysterious hooded man sits here.
+~
+~
+1073743361 0 C
+1 0 0 0d0+0 0d0+0
+0 1600000000
+112 112 1
+25 25 25 25 25 25 25
+0 0 0 0 0
+1 3 0 0 1 1 3
+0 0 0 0 0 0 112 0
+Z
+none~
+> speech_prog teach me everything~
+if isimmort($n)
+if race($n) == saiyan
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n 'galic gun' 100
+mppractice $n kaioken 100
+mppractice $n regenerate 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'true sense' 100
+else
+if race($n) == halfbreed
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n mystic 100
+mppractice $n kaioken 100
+mppractice $n regenerate 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n masenko 100
+mppractice $n 'energy barrier' 100
+mppractice $n 'true sense' 100
+else
+if race($n) == namek
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n kamehameha 100
+mppractice $n 'special beam cannon' 100
+mppractice $n scattershot 100
+mppractice $n heal 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'true sense' 100
+mppractice $n 'energy barrier' 100
+else
+if race($n) == icer
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n 'mental throw' 100
+mppractice $n 'dual destructo disk' 100
+mppractice $n fingerbeam 100
+mppractice $n tail 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'true sense' 100
+mppractice $n 'red destructo disk' 100
+else
+if race($n) == mutant
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n scattershot 100
+mppractice $n 'energy barrier' 100
+mppractice $n claw 100
+mppractice $n 'primary skill' 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'true sense' 100
+else
+if race($n) == android
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n eyebeam 100
+mppractice $n 'fingerbeam' 100
+mppractice $n grip 100
+mppractice $n absorb 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'true sense' 100
+else
+if race($n) == biodroid
+mppractice $n blast 100
+mppractice $n kick 100
+mppractice $n punch 100
+mppractice $n grip 100
+mppractice $n 'primary attack' 100
+mppractice $n kamehameha 100
+mppractice $n fingerbeam 100
+mppractice $n 'energy sphere' 100
+mppractice $n 'second attack' 100
+mppractice $n 'fly' 100
+mppractice $n regenerate 100
+mppractice $n absorb 100
+mppractice $n heal 100
+mppractice $n suppress 100
+mppractice $n 'energy ball' 100
+mppractice $n charge 100
+mppractice $n direct 100
+mppractice $n aid 100
+mppractice $n 'true sense' 100
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> fight_prog 40~
+mpoload 6 0
+eat sensu
+~
+|
+#7114
+Ancient One~
+The Ancient One~
+A monk stands here holding a golden staff.
+~
+~
+1142947841 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7115
+Tirn~
+a newly created Tirn~
+Some god abandoned a newly created Tirn here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7196
+Anubiss~
+Anubis~
+Some god abandoned a newly created Anubiss here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7197
+Dais~
+Dais~
+Some god abandoned a newly created Dais here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7198
+Kale~
+Kale~
+Some god abandoned a newly created Kale here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7199
+Sekhmet~
+Sekhmet~
+Some god abandoned a newly created Sekhmet here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7290
+Hariel~
+Hariel~
+Some god abandoned a newly created Hariel here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7291
+Rowen~
+Rowen~
+Some god abandoned a newly created Rowen here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7292
+Sage~
+Sage~
+Some god abandoned a newly created Sage here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7293
+Ryo~
+Ryo~
+Some god abandoned a newly created Ryo here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7294
+FD Vault Guard~
+FD Vault Guard~
+Some god abandoned a newly created Cye here.
+~
+~
+1 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7295
+Cye~
+Cye~
+Some god abandoned a newly created Cye here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#7300
+Last_Mob~
+a newly created Last_Mob~
+Some god abandoned a newly created Last_Mob here.
+~
+~
+1073741825 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+Z
+none~
+#0
+
+
+#OBJECTS
+#7101
+A Long Black Trench Coat~
+&zA Long Black Trench Coat&d~
+&zA ball of black leather is thrown in the corner.&d~
+~
+9 0 1025
+2 49 0 4
+340 23000 2300
+E
+trench coat~
+&zThis coat seems to be mainly made out of leather.The top part covering the
+chest and sholders seems to made of some odd black cloth. Metal clasps run
+down the two open sides of the coat. The leather seems to flow around as if
+it were nothing but leaves in the wind yet you get the strange feeling that
+this material is much stronger then it appears. On the back a stylized body
+of a fearsome looking dragon is embroidered.&d
+~
+> wear_prog 100~
+mea $n &zSliding into the trenchcoat gives you an odd feeling of power. A gust of wind rises out
+mea $n &zof nowhere as an eerie black aura engulfs your body.&d
+mer $n &zAs $n fits the trenchcoat around $s body, you see an eerie black aura engulf $m as massive wind rises.&d
+~
+|
+#7102
+Ring of Barahir Dragon~
+&WA &CS&Wi&Cl&Wv&Ce&Wr Ring Encrested with &GT&gwin &GD&gragons&d~
+&GA gleam of green from a strange ring catches your eye.&d~
+~
+74 0 3
+2 40 0 4
+150 0 0
+E
+Ring Dragon Barahir~
+&WThis ring has been cast of silver. Twin Dragons coil around a fiery green 
+crystal. One upheld the other devoured. Their eyes are shining emeralds. Their
+heads are addorned in crowns of gold.&d
+~
+> wear_prog 100~
+mea $n &WAs you place the ring on your finger the two dragons suddenly come
+mer $n &WAs $n places a ring upon their finger the two dragons on the ring
+if clan($n) == Faded Dragons
+mea $n &Wto life. They slither around your hand and then return to their
+mer $n suddenly come to life. They move around $n's finger then stop,
+mea $n &Woriginal place with glowing green eyes.
+mer $n &Wthier eyes glowing bright green.
+else
+mea $n &Wto life. Their eyes glow green as they sink their teeth into you.
+mer $n &Wsuddenly come to life. Their eyes glowing green as they sink their
+mer $n &Wteeth into $n's flesh.
+mpforce $n remove ring dragon
+endif
+~
+|
+#7103
+Pulse Pistol Wynonna~
+&zA Pulse Pistol&d~
+&zAn odd looking pistol is laying here.&d~
+~
+5 0 8193
+0 173 150 4 0 1
+1130 0 0
+E
+pulse pistol wynonna~
+&zAs you look closer at this gun you see that its made of sleek black titanium
+as black as midnight. The handle fits perfect in your hand as if destined for
+it. Mysteriously it feels as if its practically weightless. Looking in the
+barrel there are odd singe marks and you catch a hint of an odd oil. A light
+on the hilt shows it has a full charge.&d
+~
+> wear_prog 100~
+if name($n) == Crichton
+mea $n _cya You pull back your coat and remove Wynonna from her holster.
+mer $n _cya $n pulls back $s coat revealing a massive fire arm in a holster on
+mer $n _cya $s right thigh. $e pulls it out and points it right at you.
+else
+mea $n _cya You pull back your coat and remove your Pistol from its holster.
+mer $n _cya $n pulls back $s coat revealing a massive fire arm in a holster on
+mer $n _cya $s right thigh. $e pulls it out and points it right at you.
+endif
+~
+> remove_prog 100~
+if name($n) == Crichton
+mea $n _cya You pull back your coat while lowering Wynnona and place her back
+mea $n _cya in her holster.
+mer $n _cya $n lowers $s pistol and grins. $e pulls back $s coat and puts the
+mer $n _cya pistol back in its holster.
+else
+mea $n _cya You pull back your coat while lowering Pistol and place it back
+mea $n _cya in its holster.
+mer $n _cya $n lowers $s pistol and grins. $e pulls back $s coat and puts the
+mer $n _cya pistol back in its holster.
+endif
+~
+|
+#7104
+A Hooded Cloak~
+&bA Hooded Cloak&d~
+&bA dark cloak lies here, shimmering strangely&d~
+~
+9 0 1025
+0 49 0 4
+1 20000 2000
+#7105
+Leather Boots~
+&rBlood Stained &zLeather Boots&d~
+&zA set of leather boots has been discarded here.&d~
+~
+9 0 65
+2 49 0 4
+1120 24000 2400
+#7106
+Kusari and Chain~
+&zA Kusari with Black &rBlood Stained Chain&d~
+&rAn odd looking sickle with a long chain attacked to it is imbedded in the ground.&d~
+~
+5 0 8193
+0 174 143 4 0 1
+1320 23000 2300
+> fight_prog 100~
+if clan($n) == Faded Dragons
+mea $n You throw your kusari at $t and it securely wraps around their body.
+mer $n $n throws $s sickle at $t and it wraps around $M.
+mpsleep 4
+mea $n You pull on the chain causing the kusari to come loose slicing into $t.
+mea $n Your kusari comes flying back towards you and you catch it in your hand.
+mer $n $n suddenly pulls on a chain causing the sickle to cut into $t before
+mer $n returning to $n's hand.
+else
+mea $n You try to throw your kusari but your unskilled hands fumble and you
+mea $n get tangled up in its chain.
+mer $n $n tries to throw $s sickle but fumbles around and gets tangled in it.
+endif
+~
+> get_prog 100~
+mea $n You pull on the chain causing the kusari to rise off of the ground.
+mea $n Your kusari comes flying back towards you and you catch it in your hand.
+mer $n $n suddenly pulls on a chain causing the sickle rise off the ground and
+mer $n catches it in $s's hand.
+~
+> use_prog 100~
+mea $n You pull your kusari from your belt, as a result the long chain uncoils 
+mea $n from around your waist.
+mer $n $n pulls small sickle from $s belt and a massive chain uncoils from
+mer $n around $s waist.
+~
+> remove_prog 100~
+mea $n After placing your kusari securely in belt, you wrap the long chain
+mea $n around your waist.
+mer $n $n places small sickle in $s belt and wraps a massive chain
+mer $n around $s waist.
+~
+> custom_prog throwkusari~
+if clan($n) == Faded Dragons
+mea $n You throw your kusari at him and it securely wraps around their body.
+mer $n $n throws $s sickle at you and it wraps around you.
+mpsleep 4
+mea $n You pull on the chain causing the kusari to come loose slicing into them.
+mea $n Your kusari comes flying back towards you and you catch it in your hand.
+mer $n $n suddenly pulls on a chain causing the sickle to cut into you before
+mer $n returning to $n's hand.
+else
+mea $n You try to throw your kusari but your unskilled hands fumble and you
+mea $n get tangled up in its chain.
+mer $n $n tries to throw $s sickle but fumbles around and gets tangled in it.
+endif
+~
+|
+#7107
+Silver Katana~
+&WA S&wi&Wl&wv&We&wr&W Katana&d~
+&WA katana sits here imbedded in the ground.&d~
+~
+5 0 24577
+0 176 140 4 0 1
+1325 22500 2250
+#7108
+Katchin Shirt~
+&zA Black Shirt&d~
+&zA black shirt lies tossed to the side.&d~
+~
+9 0 9
+70 70 0 0
+1 25000 2500
+E
+black katchin shirt~
+&zThere is something odd about this shirt its weight is more than
+you would expect. Looking closer at the fabric you notice an
+almost metalic gleam coming from each of the fibers.&d
+~
+> exa_prog 100~
+mpsleep 2
+mea $n &WYou pull out a knife and try to cut through the shirt but to no avail.&d
+mer $n &W$n pulls out a knife and appears to be trying to cut up their own shirt.&d
+~
+|
+#7109
+White Contacts Eyes~
+&wWhite Eyes&d~
+&wTwo small lens seem to have been set down here.&d~
+~
+65 0 131073
+0 0 0 1
+1 100 10
+#7110
+Black Contacts Eyes~
+&zBlack Eyes&d~
+&zTwo small lens seem to have been set down here.&d~
+~
+65 8192 131073
+0 0 0 0
+1 100 10
+#7111
+Red Contacts Eyes~
+&rRed Eyes&d~
+&rTwo small lens seem to have been set down here.&d~
+~
+65 0 131073
+0 0 0 2
+1 100 10
+#7112
+Green Contacts Eyes~
+&GGreen Eyes&d~
+&GTwo small lens seem to have been set down here.&d~
+~
+65 0 131073
+0 0 0 3
+1 100 10
+#7113
+Leather Scabbard~
+&OA Leather Scabbard v&Ye&Oi&Yn&Oe&Yd &Oin &Ygold&d~
+&OAn empty leather sheath is laying here.&d~
+~
+9 8192 526337
+2 0 0 4
+1 24500 2600
+#7117
+Orb Virtue~
+&wThe Orb of Virtue&d~
+&wA crystal orb is lying here.&d~
+~
+13 1073741824 1
+0 0 0 0
+1 0 0
+E
+orb virtue~
+Examing the orb a bit closer you notice that the interior of the orb
+has a kanji in it. It reads as follows:
+~
+> drop_prog 100~
+if inroom($n) == 7293
+mptransfer 'Ancient One'
+mpforce Ancient get virtue
+mea $n &RHolding the orb out infront of you, you start to concentrate summoning the Armor of Wildfire.&d
+mer $n &R$n holds a crystal orb out infront of $mself. Suddenly the Armor of Wildfire appears before him.&d
+mpforce Ancient drop Wildfire
+mptransfer 'Ancient One' 7300
+endif
+~
+> exa_prog 100~
+mea $n &RVirtue&d
+~
+|
+#7120
+Orb Piety Corruption~
+&wThe Orb of Piety&d~
+&wA white orb is lying here.&d~
+~
+13 1073741824 1
+0 0 0 0
+1 0 0
+E
+orb piety~
+Examing the orb a bit closer you notice that the interior of the orb
+has a kanji in it. It reads as follows:
+~
+> exa_prog 100~
+mea $n &rPiety&d
+~
+|
+#7121
+Iron Key~
+An Iron Key~
+An ordinary key has been discarded here.~
+~
+18 0 0
+0 0 0 0
+1 0 0
+#7125
+Iron Key~
+An Iron Key~
+An ordinary key has been discarded here.~
+~
+18 1073741824 1
+0 0 0 0
+1 0 0
+#7131
+Armor of Wildfire~
+&RArmor of Wildfire&d~
+&RThe Armor of Wildfire sits here.&d~
+~
+15 1073741824 1
+0 0 0 0
+1 0 0
+> get_prog 100~
+if inroom($n) == 7293
+mptransfer 'Ancient One'
+mpforce $n give wildfire Ancient
+mea $n &RHolding your arms infront of you, you start to concentrate summoning the Orb of Virtue.&d
+mer $n &R$n holds $m arms out infront of $mself. Suddenly the Armor of Wildfire vanishes.&d
+mpforce Ancient give virtue $n
+mptransfer 'Ancient One' 7300
+endif
+
+~
+|
+#7300
+Frozen Raider~
+&CFrozen FH&d~
+&BThe Frozen Body of a member of FH.&d~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7101
+&zAn Ice Covered Dock&d~
+&bBlack clouds swirl over head as a great darkness envelopes sky. All around
+this dock you seem to be surrounded by mountains. A series of torches
+circle the area and form a path leading off into the north. All around the 
+ground is covered in a thin layer of ice. An odd symbol seems to be imprinted
+under the ice.&d
+~
+0 4 15 0
+D0
+~
+~
+0 -1 7102 0 0 0
+S
+#7102
+&zBefore A Cave of Ice&d~
+&bLight from the torches leads ever onword towards the mountain. At the root
+of the mountain there seems to be two glowing eyes. Through the darkness
+the head of a massive dragon comes into view. Its head juts staight out of
+the rock almost as if the mountain had grown up around the dragon over the
+eons. Two giant rubies form its eyes. Massive teeth surround its mouth
+which lays open as if its about to eat you. An enscription rests at the
+opening of the mouth.&d
+~
+0 0 15 0
+D2
+~
+~
+0 -1 7101 0 0 0
+D10
+~
+Cave~
+133120 -1 7103 0 0 0
+E
+enscription sign writing~
+&rThe way is shut, It was made by the damned and the damned keep it.
+              Enter and face the consequences.&d
+~
+E
+pedestal~
+&YTo enter the hq, those with true honor speak "Honor of the Dragon"
+~
+> speech_prog p honor of the dragon~
+if clan($n) == Faded Dragons
+mea $n &YA flash of hits you as you are transported inside.
+mer $n &YA Flash of light hits $n as they are transported within their HQ.
+mptrans $n 7140
+mpat $n mpforce $n look
+else
+mpdonothing
+endif
+~
+> entry_prog ~
+if clan($n) == Faded Dragons
+mea $n &YThose of the Faded Dragons seeking entry look at the pedestal
+endif
+~
+|
+S
+#7103
+&WA Cave of Ice~
+&CYou're standing in a long cave, barely tall enough to stand in. It's made
+of ice, quite hard and cold in some places, and shimmers in the faint light.
+Under the layer of ice there seems to be a network of tunnels. Large cracks 
+cover the floor, it looks quite weak.&d
+~
+0 0 11 0
+D0
+~
+~
+2048 -1 7138 0 0 0
+D1
+~
+~
+2048 -1 7114 0 0 0
+D2
+~
+~
+0 -1 7102 0 0 0
+D3
+~
+~
+2048 -1 7119 0 0 0
+D5
+~
+~
+2048 -1 7127 0 0 0
+> entry_prog 100~
+if isfollow($n)
+mpnothing
+else
+if wasinroom($n) == 7102
+if clan($n) != Faded Dragons
+mea $n As you step foot on the ice it suddnely gives way and you fall down into the icey depths.
+if rand(33)
+mpforce $n east
+else
+if rand(66)
+mpforce $n west
+else
+mpforce $n north
+endif
+endif
+endif
+endif
+endif
+~
+> speech_prog p Fortune~
+if clan($n) == Faded Dragons
+mea $n &BOut of the ground a series of rings springs out of the ground around you.&d
+mer $n &BA series of rings fly up out of the ground surrounding $n. There is a flash and both are gone.&d
+mea $n &BA bright flash of light is emitted and they vanish from sight.&d
+mptransfer $n 7140
+mpat $n mpforce $n l
+mpat $n mer $n &BA series of rings fly up out of the ground. They emite a flash of light and $n suddenly appears.&d
+endif
+~
+|
+S
+#7104
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7105 0 0 0
+D8
+~
+~
+0 -1 7139 0 0 0
+S
+#7105
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D2
+~
+~
+0 -1 7104 0 0 0
+D3
+~
+~
+0 -1 7106 0 0 0
+S
+#7106
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D1
+~
+~
+0 -1 7105 0 0 0
+D6
+~
+~
+0 -1 7107 0 0 0
+S
+#7107
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D6
+~
+~
+0 -1 7118 0 0 0
+D7
+~
+~
+0 -1 7116 0 0 0
+D9
+~
+~
+2056 -1 7106 0 0 0
+R M 0 7112 1 7107
+> rand_prog 80~
+mea $n &cYou notice a crevice in the wall.&d
+~
+|
+S
+#7108
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D1
+~
+~
+0 -1 7109 0 0 0
+D8
+~
+~
+0 -1 7113 0 0 0
+S
+#7109
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7110 0 0 0
+D3
+~
+~
+0 -1 7108 0 0 0
+S
+#7110
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7111 0 0 0
+D2
+~
+~
+0 -1 7109 0 0 0
+S
+#7111
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D2
+~
+~
+0 -1 7110 0 0 0
+D6
+~
+~
+0 -1 7115 0 0 0
+D8
+~
+~
+0 -1 7112 0 0 0
+R M 0 7112 2 7111
+S
+#7112
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D6
+~
+~
+0 -1 7120 0 0 0
+D7
+~
+~
+0 -1 7111 0 0 0
+D9
+~
+~
+2056 -1 7123 0 0 0
+> rand_prog 80~
+mea $n &cYou notice a crevice in the wall.&d
+~
+|
+S
+#7113
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D3
+~
+~
+0 -1 7139 0 0 0
+D7
+~
+~
+0 -1 7108 0 0 0
+S
+#7114
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7115 0 0 0
+S
+#7115
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D2
+~
+~
+0 -1 7114 0 0 0
+D8
+~
+~
+0 -1 7120 0 0 0
+D9
+~
+~
+0 -1 7111 0 0 0
+S
+#7116
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D2
+~
+~
+0 -1 7125 0 0 0
+D6
+~
+~
+0 -1 7117 0 0 0
+D8
+~
+~
+0 -1 7107 0 0 0
+S
+#7117
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D2
+~
+~
+0 -1 7119 0 0 0
+D8
+~
+~
+0 -1 7118 0 0 0
+D9
+~
+~
+0 -1 7116 0 0 0
+S
+#7118
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D7
+~
+~
+0 -1 7117 0 0 0
+D9
+~
+~
+0 -1 7107 0 0 0
+S
+#7119
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7117 0 0 0
+S
+#7120
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D7
+~
+~
+0 -1 7115 0 0 0
+D9
+~
+~
+0 -1 7112 0 0 0
+S
+#7121
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D1
+~
+~
+0 -1 7122 0 0 0
+D6
+~
+~
+0 -1 7139 0 0 0
+S
+#7122
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D2
+~
+~
+0 -1 7128 0 0 0
+D3
+~
+~
+0 -1 7121 0 0 0
+S
+#7123
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D1
+~
+~
+0 -1 7124 0 0 0
+D6
+~
+~
+0 -1 7112 0 0 0
+S
+#7124
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D3
+~
+~
+0 -1 7123 0 0 0
+R O 0 7300 1 7124
+S
+#7125
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7116 0 0 0
+D2
+~
+~
+0 -1 7126 0 0 0
+S
+#7126
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D0
+~
+~
+0 -1 7125 0 0 0
+D3
+~
+~
+0 -1 7127 0 0 0
+S
+#7127
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 4 11 0
+D1
+~
+~
+0 -1 7126 0 0 0
+D4
+~
+~
+0 -1 7103 0 0 0
+S
+#7128
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7122 0 0 0
+D8
+~
+~
+0 -1 7129 0 0 0
+S
+#7129
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D1
+~
+~
+0 -1 7130 0 0 0
+D3
+~
+~
+0 -1 7134 0 0 0
+D7
+~
+~
+2056 -1 7128 0 0 0
+> rand_prog 80~
+mea $n &cYou notice a crack in the wall.&d
+~
+|
+S
+#7130
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D2
+~
+~
+0 -1 7131 0 0 0
+D3
+~
+~
+0 -1 7129 0 0 0
+S
+#7131
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7130 0 0 0
+D9
+~
+~
+0 -1 7132 0 0 0
+S
+#7132
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D3
+~
+~
+0 -1 7133 0 0 0
+D6
+~
+~
+0 -1 7131 0 0 0
+S
+#7133
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D1
+~
+~
+0 -1 7132 0 0 0
+D7
+~
+~
+0 -1 7134 0 0 0
+S
+#7134
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D1
+~
+~
+0 -1 7129 0 0 0
+D7
+~
+~
+2056 -1 7135 0 0 0
+D8
+~
+~
+0 -1 7133 0 0 0
+R M 0 7112 3 7134
+> rand_prog 80~
+mea $n &cYou notice a crack in the wall.&d
+~
+|
+S
+#7135
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7136 0 0 0
+D8
+~
+~
+0 -1 7134 0 0 0
+S
+#7136
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D2
+~
+~
+0 -1 7135 0 0 0
+D8
+~
+~
+0 -1 7137 0 0 0
+S
+#7137
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D1
+~
+~
+0 -1 7138 0 0 0
+D7
+~
+~
+0 -1 7136 0 0 0
+S
+#7138
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems 
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D3
+~
+~
+0 -1 7137 0 0 0
+S
+#7139
+&WA Cave of Ice~
+&CAll around this tunnel is covered in a thick sheet of ice. Its long
+dark and you can't seem to make out where it ends. Massive razor sharp
+stalactites hang threateningly above your head. A faint red glow seems
+to fill the room. As strange as it sounds he tunnel seems to be
+illuminated by the ice itself.&d
+~
+0 0 11 0
+D1
+~
+~
+0 -1 7113 0 0 0
+D2
+~
+wall~
+2059 -1 7140 0 0 0
+D7
+~
+~
+0 -1 7104 0 0 0
+D9
+~
+~
+0 -1 7121 0 0 0
+R D 0 7139 2 1
+> rand_prog 80~
+mea $n &cThe wall seems to shimmer slightly.&d
+~
+|
+S
+#7140
+&zA Small Alcove&d~
+Inside this small alcove a new warmth hits you. The ice that has covered all
+the walls seems to be non existant here. There must be some source of heat
+ahead. Examining the room there seems to be a stairwell hewn from the rock
+itself leading farther into the depths of this cave network.
+~
+0 0 11 0
+D0
+~
+wall~
+16779275 -1 7139 0 0 0
+D5
+~
+~
+0 -1 7141 0 0 0
+R D 0 7140 0 1
+> speech_prog p Dock~
+if clan($n) == Faded Dragons
+mea $n &BOut of the ground a series of rings springs out of the ground around you.&d
+mer $n &BA series of rings fly up out of the ground surrounding $n. There is a flash and both are gone.&d
+mea $n &BA bright flash of light is emitted and they vanish from sight.&d
+mptransfer $n 7101
+mpat $n mpforce $n l
+mpat $n mer $n &BA series of rings fly up out of the ground. They emite a flash of light and $n suddenly appears.&d
+endif
+~
+> speech_prog jpa~
+mptransfer $n 251
+~
+> custom_prog dragon~
+if clan($n) == Faded Dragons
+mptransfer $n 5033
+endif
+~
+|
+S
+#7141
+&zCentral Cavern&d~
+This large cavern is the center of what appears to be a rather large
+complex of caves and tunnels. The ceiling stretches far above, only
+visible because of the large artificial globes of light placed in
+strategic places on the walls. A thick, dark grey carpet covers the
+floor, while tapestries made of crushed velvet and dyed rich crimson
+and sapphire cover most of the walls.
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7142 0 0 0
+D1
+~
+~
+0 -1 7148 0 0 0
+D2
+~
+~
+0 -1 7150 0 0 0
+D3
+~
+~
+0 -1 7144 0 0 0
+D4
+~
+~
+0 -1 7140 0 0 0
+R M 0 7103 1 7141
+R M 0 7104 1 7141
+S
+#7142
+&zA Corridor&d~
+The dark rock of the cavern gives way to white and black marble
+covering both the ground and the walls. Progressing along the
+corridor a series of marble statues are set between columns
+of black obsidian.
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7143 0 0 0
+D2
+~
+~
+0 -1 7141 0 0 0
+S
+#7143
+&zA Grand Hall&d~
+Upon a the wall lies the coat of arms of the Faded Dragon. Before it sit
+three grand thrones around a massive round table that fills the room.
+The surrounding walls are covered in murals depicting battles from ancient
+times.
+~
+0 0 11 0
+D2
+~
+~
+0 -1 7142 0 0 0
+E
+coat of arms symbol~
+&gThis symbol depicts an ancient green dragon curling around itself. In its
+claws are two weapons, one holds a katana and the other a kusari.&d
+~
+> speech_prog p honor and justice above all~
+if isfight($n)
+mpdonothing
+else
+mea $n The coat of arms' dragon springs to life and proceeds to swallow you up!
+mer $n $n is swallowed by the coat of arms' dragon
+mptransfer $n 7285
+mpat $n mer $n $n has arrived!
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#7144
+&zA Corridor&d~
+The Corridor seems to have been hewn from the rock itself. The
+corridor itself seems to link the main chamber with the Smithies.
+Odd black columns line the walls supporting this structure.
+A tapestry covers the southern wall, it depicts the destruction
+of an ancient land.
+~
+0 0 11 0
+D0
+~
+~
+16777216 -1 7145 0 0 0
+D1
+~
+~
+0 -1 7141 0 0 0
+D2
+~
+vault~
+524299 -1 7146 0 0 0
+D3
+~
+~
+16777216 -1 7147 0 0 0
+R D 0 7144 2 1
+E
+tapestry~
+Looking closer at this tapestry you see small writting along telling
+the tale of the destruction of the ancient isle of Numenor. While
+examining the tapestry you notice that there seems to be a vault
+hidden behind it.
+~
+S
+#7145
+&zAn Armory&d~
+Entering this chamber you find yourself surrounded by the smell of
+molten metal and wet leather. The walls are lined with racks full
+of a wide variety of clothing. In the center of chamber lies a massive
+table. Stacks of leather and an odd black ringmail fill every corner
+of the table.
+~
+0 512 11 0
+D2
+~
+~
+0 -1 7144 0 0 0
+R M 0 7106 1 7145
+  R G 1 7104 1
+  R G 1 7105 1
+> entry_prog 100~
+if clan($n) == Faded Dragons
+if wearingvnum($n) == 7102
+mptransfer andariel 7300
+mptransfer andariel2
+endif
+endif
+~
+> leave_prog 100~
+if clan($n) == Faded Dragons
+if wearingvnum($n) == 7102
+mptransfer andariel2 7300
+mptransfer andariel
+endif
+endif
+~
+|
+S
+#7146
+&zAn Enourmous Vault&d~
+You find yourself standing in a massive vault. Hanging from racks 
+and on the walls are various weapons and armor, some older than 
+you dare to imagine. Armor and other articles of clothing have been
+draped on, or worn by large wooden dummies. Chests and other containers
+have been piled in the corners. Upon closer examination, the walls,
+floor and ceiling are all made of large gold bricks.
+~
+0 524288 11 0
+D0
+~
+vault~
+11 -1 7144 0 0 0
+R M 0 7108 1 7146
+R D 0 7146 0 1
+S
+#7147
+&zA Smoldering Forge&d~
+&rThe smell of ash and molten metal fill every corner of this room.
+Racks filled with odd looking weapons sit all around the room. On
+the far side there is massive forge emitting aradiance of heat.
+On each side of the forge a tub of water an anvil sit ready to be
+worked on.
+~
+0 512 11 0
+D1
+~
+~
+0 -1 7144 0 0 0
+R M 0 7105 1 7147
+  R G 1 7106 1
+> rand_prog 20~
+mpsound &rThe sound of hammers striking metal can be heard in the distance.&d
+mpsleep 14
+mpsound &RA burst of heat hits you from the other room.&d
+~
+> entry_prog 100~
+if clan($n) == Faded Dragons
+if wearingvnum($n) == 7102
+mptransfer vargus 7300
+mptransfer vargus2
+endif
+endif
+~
+> leave_prog 100~
+if clan($n) == Faded Dragons
+if wearingvnum($n) == 7102
+mptransfer vargus2 7300
+mptransfer vargus
+endif
+endif
+~
+|
+S
+#7148
+&zA Corridor&d~
+The Corridor seems to have been hewn from the rock itself. The
+corridor itself seems to link the main chamber with the Dragon's
+Lounge. Odd black columns line the walls supporting this structure.
+The walls themselves have elaborate tapestries lineing them 
+depicting the eternal dragon and the power of the dragonballs.
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7149 0 0 0
+D3
+~
+~
+0 -1 7141 0 0 0
+D8
+~
+door~
+16777223 7121 7153 0 0 0
+R D 0 7148 8 2
+E
+tapestry~
+Looking closer at this tapestry you see the story of the creation
+of the dragonballs themselves. While examining the tapestry you 
+notice that there seems to be an iron door hidden behind it.
+~
+S
+#7149
+&zThe Dragon's Lounge&d~
+On the farside of the room a long bar fills it. Along that wall are
+a series of shelves filled with a variety of liquor bottles. A
+series of leather couches fill one side of the room facing a massive
+plasma T.V. along one of the walls. On the other side of the room
+lies both a pool and a baruit table.
+~
+0 0 11 64
+D2
+~
+~
+0 -1 7148 0 0 0
+R M 0 7107 1 7149
+  R G 1 6 1
+S
+#7150
+&zA Corridor&d~
+The Corridor seems to have been hewn from the rock itself. The
+corridor itself seems to link the main chamber with the training
+chamber and the barracks. Odd black columns line the walls supporting
+this structure. Red globes sit between the columns illuminating the
+corridor.
+~
+0 0 11 0
+D0
+~
+~
+0 -1 7141 0 0 0
+D1
+~
+~
+0 -1 7151 0 0 0
+D3
+~
+~
+0 -1 7152 0 0 0
+S
+#7151
+&zThe Barracks&d~
+Several bunks are lined up across the room. One of the walls has an
+entertainment system setup. On another sits two massive racks holding
+armor and weaponry. There also seem to be a cabinet filled with
+medical supplies. Looking at the ground the floor seems to have the
+emblem of the dragon engraved in it.
+~
+0 1024 11 1
+D3
+~
+~
+0 -1 7150 0 0 0
+S
+#7152
+&zA Training Chamber&d~
+The walls are lined with racks holding a variety of training weapons.
+One side of the room is setup with a sparring mat. The other has a
+variety of training dummies as well as an odd set of rings sectioning
+off a section of the room. An odd looking control pannel sits next
+to the rings.
+~
+0 0 11 6
+D1
+~
+~
+0 -1 7150 0 0 0
+S
+#7153
+&zA Grimy Prison Cell&d~
+Waking up you find yourself in some kind of cell. This cell is rather
+plain looking. The only things in it are a stone bed, sanitary
+devices and an iron door. A small hole in the ceiling provides fresh
+air and light to the room.
+~
+0 0 1 0
+D7
+~
+door~
+7 7121 7148 0 0 0
+R D 0 7153 7 2
+S
+#7154
+Floating in a void~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7156 0 0 0
+D6
+~
+~
+0 -1 7157 0 0 0
+D7
+~
+~
+0 -1 7155 0 0 0
+S
+#7155
+Floating in a void~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7158 0 0 0
+D1
+~
+~
+0 -1 7156 0 0 0
+D6
+~
+~
+0 -1 7159 0 0 0
+D8
+~
+~
+0 -1 7154 0 0 0
+S
+#7156
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7159 0 0 0
+D1
+~
+~
+0 -1 7157 0 0 0
+D2
+~
+~
+0 -1 7154 0 0 0
+D3
+~
+~
+0 -1 7155 0 0 0
+D6
+~
+~
+0 -1 7160 0 0 0
+D7
+~
+~
+0 -1 7158 0 0 0
+S
+#7157
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7160 0 0 0
+D3
+~
+~
+0 -1 7156 0 0 0
+D5
+~
+~
+0 -1 7177 0 0 0
+D7
+~
+~
+0 -1 7159 0 0 0
+D9
+~
+~
+0 -1 7154 0 0 0
+S
+#7158
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7161 0 0 0
+D1
+~
+~
+0 -1 7159 0 0 0
+D2
+~
+~
+0 -1 7155 0 0 0
+D8
+~
+~
+0 -1 7156 0 0 0
+S
+#7159
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+1 -1 7169 0 0 0
+D1
+~
+~
+0 -1 7160 0 0 0
+D2
+~
+~
+0 -1 7156 0 0 0
+D3
+~
+~
+0 -1 7158 0 0 0
+D8
+~
+~
+0 -1 7157 0 0 0
+D9
+~
+~
+0 -1 7155 0 0 0
+S
+#7160
+Floating in a void~
+~
+0 4 1 0
+D2
+~
+~
+0 -1 7157 0 0 0
+D3
+~
+~
+0 -1 7159 0 0 0
+D6
+~
+~
+0 -1 7170 0 0 0
+D9
+~
+~
+0 -1 7156 0 0 0
+S
+#7161
+Floating in a void~
+~
+0 4 1 0
+D2
+~
+~
+0 -1 7158 0 0 0
+R M 0 7113 1 7161
+S
+#7162
+&WA Mist Ingulfed Slope&d~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7162 0 0 0
+D1
+~
+~
+0 -1 7163 0 0 0
+D2
+~
+~
+0 -1 7161 0 0 0
+D3
+~
+~
+0 -1 7162 0 0 0
+D6
+~
+~
+0 -1 7162 0 0 0
+D7
+~
+~
+0 -1 7162 0 0 0
+D8
+~
+~
+0 -1 7162 0 0 0
+D9
+~
+~
+0 -1 7162 0 0 0
+S
+#7163
+&WA Mist Ingulfed Slope&d~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7163 0 0 0
+D1
+~
+~
+0 -1 7162 0 0 0
+D2
+~
+~
+0 -1 7163 0 0 0
+D3
+~
+~
+0 -1 7162 0 0 0
+D6
+~
+~
+0 -1 7164 0 0 0
+D7
+~
+~
+0 -1 7163 0 0 0
+D8
+~
+~
+0 -1 7162 0 0 0
+D9
+~
+~
+0 -1 7163 0 0 0
+S
+#7164
+&WA Mist Ingulfed Slope&d~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7164 0 0 0
+D1
+~
+~
+0 -1 7163 0 0 0
+D2
+~
+~
+0 -1 7164 0 0 0
+D3
+~
+~
+0 -1 7162 0 0 0
+D6
+~
+~
+0 -1 7164 0 0 0
+D7
+~
+~
+0 -1 7165 0 0 0
+D8
+~
+~
+0 -1 7164 0 0 0
+D9
+~
+~
+0 -1 7163 0 0 0
+S
+#7165
+&WA Mist Ingulfed Slope&d~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7165 0 0 0
+D1
+~
+~
+0 -1 7162 0 0 0
+D2
+~
+~
+0 -1 7166 0 0 0
+D3
+~
+~
+0 -1 7164 0 0 0
+D6
+~
+~
+0 -1 7165 0 0 0
+D7
+~
+~
+0 -1 7165 0 0 0
+D8
+~
+~
+0 -1 7164 0 0 0
+D9
+~
+~
+0 -1 7163 0 0 0
+S
+#7166
+&WA Mist Ingulfed Slope&d~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7165 0 0 0
+D1
+~
+~
+0 -1 7167 0 0 0
+D2
+~
+~
+0 -1 7162 0 0 0
+D3
+~
+~
+0 -1 7163 0 0 0
+D6
+~
+~
+0 -1 7164 0 0 0
+D7
+~
+~
+0 -1 7166 0 0 0
+D8
+~
+~
+0 -1 7166 0 0 0
+D9
+~
+~
+0 -1 7166 0 0 0
+S
+#7167
+&WA Mist Ingulfed Slope&d~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7168 0 0 0
+D1
+~
+~
+0 -1 7167 0 0 0
+D2
+~
+~
+0 -1 7162 0 0 0
+D3
+~
+~
+0 -1 7166 0 0 0
+D6
+~
+~
+0 -1 7165 0 0 0
+D7
+~
+~
+0 -1 7167 0 0 0
+D8
+~
+~
+0 -1 7167 0 0 0
+D9
+~
+~
+0 -1 7164 0 0 0
+S
+#7168
+&OAtop A Mysterious Platue&d~
+~
+0 4 1 0
+D2
+~
+~
+0 -1 7167 0 0 0
+S
+#7169
+Floating in a void~
+~
+0 4 1 0
+D2
+~
+~
+1 -1 7159 0 0 0
+S
+#7170
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+1 -1 7171 0 0 0
+D4
+~
+~
+0 -1 7172 0 0 0
+D9
+~
+~
+0 -1 7160 0 0 0
+S
+#7171
+#2's Chamber~
+~
+0 4 1 0
+D2
+~
+~
+1 -1 7170 0 0 0
+S
+#7172
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+1 -1 7173 0 0 0
+D4
+~
+~
+0 -1 7174 0 0 0
+D5
+~
+~
+0 -1 7170 0 0 0
+S
+#7173
+#1's Chamber~
+~
+0 4 1 0
+D2
+~
+~
+1 -1 7172 0 0 0
+S
+#7174
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+1 -1 7175 0 0 0
+D1
+~
+~
+0 -1 7176 0 0 0
+D5
+~
+~
+0 -1 7172 0 0 0
+S
+#7175
+Kenzaki's Chamber~
+~
+0 4 1 0
+D2
+~
+~
+1 -1 7174 0 0 0
+S
+#7176
+Floating in a void~
+~
+0 4 1 0
+D3
+~
+~
+0 -1 7174 0 0 0
+S
+#7177
+Floating in a void~
+~
+0 4 1 0
+D3
+~
+gate~
+1 -1 7178 0 0 0
+D4
+~
+~
+0 -1 7157 0 0 0
+S
+#7178
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+gate~
+1 -1 7177 0 0 0
+D3
+~
+~
+0 -1 7179 0 0 0
+S
+#7179
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7178 0 0 0
+D2
+~
+~
+0 -1 7180 0 0 0
+S
+#7180
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7179 0 0 0
+D1
+~
+~
+0 -1 7181 0 0 0
+S
+#7181
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+gate~
+1 -1 7182 0 0 0
+D3
+~
+~
+0 -1 7180 0 0 0
+S
+#7182
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7183 0 0 0
+D3
+~
+gate~
+1 -1 7181 0 0 0
+S
+#7183
+Floating in a void~
+~
+0 4 1 0
+D2
+~
+~
+0 -1 7185 0 0 0
+D3
+~
+~
+0 -1 7182 0 0 0
+S
+#7184
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7183 0 0 0
+S
+#7185
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7183 0 0 0
+D3
+~
+~
+0 -1 7186 0 0 0
+S
+#7186
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7187 0 0 0
+D3
+~
+gate~
+1 -1 7187 0 0 0
+S
+#7187
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+gate~
+1 -1 7186 0 0 0
+D3
+~
+~
+0 -1 7188 0 0 0
+S
+#7188
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7187 0 0 0
+D2
+~
+~
+0 -1 7189 0 0 0
+S
+#7189
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7188 0 0 0
+D1
+~
+~
+0 -1 7190 0 0 0
+S
+#7190
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+gate~
+1 -1 7191 0 0 0
+D3
+~
+~
+0 -1 7189 0 0 0
+S
+#7191
+Floating in a void~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7192 0 0 0
+D3
+~
+gate~
+1 -1 7190 0 0 0
+S
+#7192
+Floating in a void~
+~
+0 0 1 0
+D2
+~
+~
+0 -1 7193 0 0 0
+D3
+~
+~
+0 -1 7194 0 0 0
+S
+#7193
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7192 0 0 0
+D3
+~
+~
+0 -1 7194 0 0 0
+S
+#7194
+Floating in a void~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7193 0 0 0
+D3
+~
+~
+0 -1 7195 0 0 0
+S
+#7195
+Floating in a void~
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7194 0 0 0
+S
+#7196
+Floating in a void~
+~
+0 4 1 0
+S
+#7197
+Floating in a void~
+~
+0 4 1 0
+S
+#7198
+Floating in a void~
+~
+0 4 1 0
+S
+#7199
+Floating in a void~
+~
+0 4 1 0
+S
+#7200
+Floating in a void~
+~
+0 4 1 0
+S
+#7217
+Floating in a void~
+~
+0 4 1 0
+S
+#7233
+Floating in a void~
+~
+0 4 1 0
+S
+#7239
+Floating in a void~
+~
+0 4 1 0
+S
+#7243
+Floating in a void~
+~
+0 4 1 0
+S
+#7280
+&zCommand Tier Corridor&d~
+&rThe only light in this room comes from a faint red lighting underneath the
+terraces of the wall. A dark ruby dull metal makes up the wall on both sides,
+forming almost organic archways. The small notches in the wall form some
+resting alcoves.&d
+~
+0 0 1 0
+D2
+~
+~
+0 -1 7281 0 0 0
+D8
+~
+~
+0 -1 7286 0 0 0
+D9
+~
+~
+0 -1 7283 0 0 0
+S
+#7281
+Floating in a void~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7280 0 0 0
+D2
+~
+~
+0 -1 7282 0 0 0
+S
+#7282
+Valgus' Smithy~
+You have stepped into a veritable furnace. The air is heavy and hot, making
+it difficult to breathe. Various small furnaces can be seen, as well as a few
+cauldrons filled with water. Weapons of great beauty and apparent strength
+line the walls, covering them entirely. At the very center you see a figure
+pounding away on an anvil, covered in soot.
+~
+0 0 1 0
+D1
+~
+~
+0 -1 7285 0 0 0
+R M 0 7109 1 7282
+  R G 1 7107 1
+  R G 1 7106 1
+S
+#7283
+&zHammond Side Corridor&d~
+&rThe only light in this room comes from a faint red lighting underneath the
+terraces of the wall. A dark ruby dull metal makes up the wall on both sides,
+forming almost organic archways. The small notches in the wall form some
+resting alcoves.&d
+~
+0 4 1 0
+D2
+~
+~
+0 -1 7285 0 0 0
+D3
+~
+~
+1 -1 7284 0 0 0
+D6
+~
+~
+0 -1 7280 0 0 0
+S
+#7284
+Floating in a void~
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7283 0 0 0
+S
+#7285
+Hall of the Dragons~
+Congratulations explorer, you have found the ancient hall of the true
+Faded Dragons. The hall's walls are lined with varies golden representations
+of the Dragon's coat of arms, as well as several jade dragons. Roaring
+torches light the way. Should you wish to return to the main area, just
+speak it to the hall and it shall do so.
+~
+0 4 1 0
+D1
+~
+~
+0 -1 7287 0 0 0
+D2
+~
+~
+0 -1 7143 0 0 0
+D3
+~
+~
+0 -1 7282 0 0 0
+> speech_prog p i wish to return to the main area~
+if isfight($n)
+mpdonothing
+else
+mea $n You have returned to the main area.
+mer $n $n has returned to the main area.
+mptransfer $n 7143
+mpat $n mer $n $n is suddenly spit out by the dragon on the coat of arms.
+mpat $n mpforce $n look
+endif
+~
+|
+S
+#7286
+&zTreblin Side Corridor&d~
+&rThe only light in this room comes from a faint red lighting underneath the
+terraces of the wall. A dark ruby dull metal makes up the wall on both sides,
+forming almost organic archways. The small notches in the wall form some
+resting alcoves.&d
+~
+0 4 1 0
+D1
+~
+~
+1 -1 7287 0 0 0
+D2
+~
+~
+0 -1 7288 0 0 0
+D7
+~
+~
+0 -1 7280 0 0 0
+S
+#7287
+Armory of the Dragons~
+As you step inside, a great brightness blinds you. As your eyes adjust
+to the excessive light you notice that it is just one torch's light
+reflecting off the hundreds of gleaming armors that lay around the room.
+These pieces seem almost perfect, with their decorative jewels and strong
+alloy. But who could've made these masterpieces? The answer lies at one
+of the rooms corners, where a woman can be seen hard at work.
+~
+0 4 1 0
+D3
+~
+~
+0 -1 7285 0 0 0
+R M 0 7110 1 7287
+  R G 1 7113 1
+  R G 1 7104 1
+  R G 1 7105 1
+  R G 1 7108 1
+  R G 1 7101 1
+  R G 1 7112 1
+  R G 1 7111 1
+  R G 1 7109 1
+  R G 1 7110 1
+S
+#7288
+Floating in a void~
+~
+0 4 1 0
+D0
+~
+~
+0 -1 7286 0 0 0
+S
+#7289
+&OHall of the Dragon~
+~
+0 0 1 0
+D0
+~
+~
+0 -1 7290 0 0 0
+D1
+~
+~
+0 -1 7296 0 0 0
+D3
+~
+~
+0 -1 7299 0 0 0
+> rand_prog 100~
+if ovnumroom(6) > 0
+mppurge all.bean
+endif
+~
+|
+S
+#7290
+&OHall of the Dragon~
+~
+0 4 1 0
+D0
+~
+~
+2051 -1 7293 0 0 0
+D2
+~
+~
+0 -1 7289 0 0 0
+D6
+~
+hatch~
+2049 -1 5013 0 0 0
+> emote_prog recites the oath of honor~
+if clan($n) == Faded Dragons
+mptrans $n 7291
+mptat $n mpforce $n look
+else
+mpdonothing
+endif
+~
+> entry_prog 100~
+if clan($n) == Faded Dragons
+mea $n &CTo enter the vault you must "recite the oath of honor".
+else
+mpdonothing
+endif
+~
+> entry_prog 100~
+if carryingvnum($n) == 270
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+else
+if carryingvnum($n) == 271
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+else
+if carryingvnum($n) == 272
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+else
+if carryingvnum($n) == 273
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+else
+if carryingvnum($n) == 274
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+else
+if carryingvnum($n) == 275
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+else
+if carryingvnum($n) == 276
+mea $n _ora YOU CANNOT ENTER THE SHIP WITH BSDBs!
+mpforce $n ne
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> entry_prog 100~
+if clan($n) == Majin Dynasty
+MPECHOZONE The Majin Dynasty has entered the Clan level of the ship keep your eye on them.
+else
+if clan($n) == Cobra Sect
+MPECHOZONE The Cobra Sect has entered the Clan level of the ship keep your eye on them.
+else
+if name($n) == Seventeen
+mpdonothing
+else
+if name($n) == Brolli
+mpdonothing
+else
+if name($n) == Burter
+mpdonothing
+else
+if clan($n) == Faded Dragons
+mpdonothing
+else
+MPECHOZONE Someone has entered the clan level of the ship keep your eye on them.
+endif
+endif
+endif
+endif
+endif
+endif
+~
+> rand_prog 100~
+if ovnumroom(6) > 0
+mppurge all.bean
+endif
+~
+|
+S
+#7291
+&OVault of the Faded Dragons~
+&YYou are now standing in the Faded Dragons' vault. This place
+is pretty much self explanatory.
+~
+0 573440 1 0
+D8
+~
+~
+0 -1 7290 0 0 0
+S
+#7292
+&GExtreme Tournament Waiting Room~
+&rThis seems to be the waiting room, before the tournament. There
+are some healing pods scattered in this room for the wounded,
+so they can heal up before fighting once again. To the east,
+there is the chamber, where youll face up to three challenges
+from other competitors, the winner of all will get the tournament
+prize.
+~
+0 0 1 1
+D1
+~
+~
+0 -1 7294 0 0 0
+D9
+~
+~
+0 -1 6563 0 0 0
+S
+#7293
+&OFaded Dragons Meeting Room~
+&YThis room is by far the largest room in the entire ship. There
+is one huge desk in the middle of the room. Surrounding this
+desk are a numerous amount of chairs, one for each member of
+the Faded Dragons. The three biggest chairs at the far end of
+the room are for the Leader, Number One and Number Two respectively.On
+one wall there is a giant computer screen which seems to be
+showing the entire Faded Dragon Head Quarters. On the opposite
+wall there is a smaller screen which is monitoring the Cruiser's
+control room making sure no intruders try to infiltrate the
+ship.
+~
+0 0 1 0
+D2
+~
+~
+2051 -1 7290 0 0 0
+> rand_prog 100~
+if ovnumroom(6) > 0
+mppurge all.bean
+endif
+~
+|
+S
+#7294
+&GInside the Extreme Tournament Chamber ~
+&rThis seems to be a pretty big chamber. There are many contestants
+waiting on the sidelines for their time to shine. You now stand
+inside a big dome, which is inside the huge stadium of Ghetti.
+To the north, there seems to be a special room.
+~
+0 256 1 384 0 0 2
+D0
+~
+~
+0 -1 7295 0 0 0
+> leave_prog 100~
+if mobinroom(6558) > 0
+mpppurge warrior
+else
+if mobinroom(6559) > 0
+mpppurge warrior
+else
+if mobinroom(6560) > 0
+mpppurge warrior
+endif
+endif
+endif
+~
+> entry_prog 100~
+mpmload 6558
+mpforce third mpkill $n
+~
+> act_prog p is DEAD!!~
+if ispc($n)
+mppurge warrior
+endif
+~
+> act_prog p flees head~
+if mobinroom(6558) > 0
+mpppurge warrior
+else
+if mobinroom(6559) > 0
+mpppurge warrior
+else
+if mobinroom(6560) > 0
+mpppurge expert
+endif
+endif
+endif
+~
+> rand_prog 100~
+if mobcount(7294) > 1
+mppurge
+endif
+save
+~
+> act_prog p flies north.~
+if mobinroom(6558) > 0
+mpppurge warrior
+else
+if mobinroom(6559) > 0
+mpppurge warrior
+else
+if mobinroom(6560) > 0
+mpppurge expert
+endif
+endif
+endif
+~
+|
+S
+#7295
+&GChicken Room~
+&rYour a freaking chicken! You fled from the tournament, now
+you lose the entry fee money, and there ain't no reimbursement!So,
+continue west, and cry your tears.
+~
+0 0 1 0
+D3
+~
+~
+0 -1 6563 0 0 0
+S
+#7296
+&OHealing Chamber~
+&YThis is where the warriors can heal their wounds from gravity
+training or battles which were fought over the years. Sleeping
+is the most preferred way of healing.
+~
+0 0 1 1
+D3
+~
+~
+0 -1 7289 0 0 0
+> rand_prog 100~
+if ovnumroom(6) > 0
+mppurge all.bean
+endif
+~
+|
+S
+#7297
+&pA Crystal Cavern&d~
+~
+0 0 1 0
+D7
+~
+~
+0 -1 7289 0 0 0
+S
+#7298
+&rA Crystal Cavern&d~
+~
+0 0 1 0
+D6
+~
+~
+0 -1 7289 0 0 0
+S
+#7299
+&OGravity Room~
+&YThis the gravity chamber where the legendary Faded Dragons
+can dramatically increase their powerlevel inorder to combat
+their enemies.Try and becareful how high you set the gravity
+is this room, the consequences could be dire.
+~
+0 4 1 4
+D1
+~
+~
+0 -1 7289 0 0 0
+> rand_prog 100~
+if ovnumroom(6) > 0
+mppurge all.bean
+endif
+~
+|
+S
+#7300
+Last Room~
+~
+0 4 1 0
+R M 0 7102 1 7300
+R M 0 7111 1 7300
+R M 0 7115 1 7300
+S
+#0
+
+
+#SHOPS
+ 7105    5  0  0  0  0   200  30         0 23    ; Vargus
+ 7106    9  0  0  0  0   200  90         0 23    ; Andariel
+ 7107   17  0 19  0  0   100   0         0 23    ; Cain
+ 7109    5  0  0  0  0    60  50         0 23    ; Vargus
+ 7110    9  0  0  0  0    50  30         0 23    ; Andariel
+ 7294    0  0  0  0  0   120  90         0 23    ; FD Vault Guard
+0
+
+
+#SHIPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

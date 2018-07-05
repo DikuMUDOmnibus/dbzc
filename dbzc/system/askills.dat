@@ -1,0 +1,857 @@
+#ASKILL
+Name         absorb~
+Keyword      absorb~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         1
+Mana         1000
+Rounds       13
+Code         do_absorb
+Dammsg       ~
+Value        -1
+Teachers     8027~
+Minlevel     0
+Powerlevel   125000
+RaceSkill     3
+End
+
+#ASKILL
+Name         absorption~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         2
+Mana         100
+Code         do_absorption
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   250000
+RaceSkill     256
+End
+
+#ASKILL
+Name         berserk~
+Keyword      berserk~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillberserk
+Dammsg       ~
+Minlevel     0
+Powerlevel   8000000
+RaceSkill     16
+End
+
+#ASKILL
+Name         big bang kamehameha~
+Keyword      bbkame~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         8000
+Rounds       18
+Code         do_bbk
+Dammsg       ~
+Minlevel     0
+Powerlevel   80000000
+RaceSkill     4
+End
+
+#ASKILL
+Name         blue barrier~
+Keyword      bbarrier~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillbbarrier
+Dammsg       ~
+Minlevel     0
+Powerlevel   65000000
+RaceSkill     1
+End
+
+#ASKILL
+Name         burning attack~
+Keyword      burnattack~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         3
+Mana         4500
+Rounds       15
+Code         do_burnattack
+Dammsg       ~
+Teachers     6937~
+Minlevel     0
+Powerlevel   85000000
+RaceSkill     8
+End
+
+#ASKILL
+Name         claw~
+Keyword      claw~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         4
+Rounds       11
+Code         do_claw
+Dammsg       ~
+Minlevel     0
+Powerlevel   250000
+RaceSkill     128
+End
+
+#ASKILL
+Name         enrage~
+Keyword      enrage~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillenrage
+Dammsg       ~
+Minlevel     0
+Powerlevel   7500000
+RaceSkill     8
+End
+
+#ASKILL
+Name         final flash~
+Keyword      fflash~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5000
+Rounds       15
+Code         do_finalflash
+Dammsg       ~
+Minlevel     0
+Powerlevel   65000000
+RaceSkill     4
+End
+
+#ASKILL
+Name         final kamehameha~
+Keyword      fkame~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         8000
+Rounds       18
+Code         do_fkame
+Dammsg       ~
+Minlevel     0
+Powerlevel   75000000
+RaceSkill     4
+End
+
+#ASKILL
+Name         deathball~
+Keyword      deathball~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         6
+Mana         6500
+Rounds       16
+Code         do_deathball
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     64
+End
+
+#ASKILL
+Name         deathbeam~
+Keyword      deathbeam~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         7
+Rounds       13
+Code         do_deathbeam
+Dammsg       ~
+Minlevel     0
+Powerlevel   2000000
+RaceSkill     96
+End
+
+#ASKILL
+Name         destructo disk~
+Keyword      disk~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         8
+Mana         750
+Rounds       8
+Code         do_disk
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     80
+End
+
+#ASKILL
+Name         dodompa~
+Keyword      dodompa~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         9
+Mana         4250
+Rounds       15
+Radius	      14
+Code         do_dodompa
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     16
+End
+
+#ASKILL
+Name         doublekick~
+Keyword      dk~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         10
+Rounds       14
+Code         do_dk
+Dammsg       ~
+Minlevel     0
+Powerlevel   10000
+RaceSkill     272
+End
+
+#ASKILL
+Name         doublepunch~
+Keyword      dp~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         11
+Rounds       14
+Code         do_dp
+Dammsg       ~
+Minlevel     0
+Powerlevel   10000
+RaceSkill     272
+End
+
+#ASKILL
+Name         dragonfist~
+Keyword      dfist~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         12
+Mana         6000
+Rounds       16
+Code         do_dragonfist
+Dammsg       ~
+Minlevel     0
+Powerlevel   85000000
+RaceSkill     4
+End
+
+#ASKILL
+Name         dual destructo disk~
+Keyword      ddd~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         13
+Mana         1500
+Rounds       8
+Code         do_ddd
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     64
+End
+
+#ASKILL
+Name         energy barrier~
+Keyword      barrier~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         14
+Mana         750
+Rounds       8
+Code         do_barrier
+Dammsg       ~
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     184
+End
+
+#ASKILL
+Name         energy sphere~
+Keyword      sphere~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         15
+Mana         2250
+Rounds       8
+Code         do_sphere
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   25000
+RaceSkill     303
+End
+
+#ASKILL
+Name         eyebeam~
+Keyword      eyebeam~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         16
+Rounds       16
+Code         do_eyebeam
+Dammsg       ~
+Minlevel     0
+Powerlevel   2500000
+RaceSkill     1
+End
+
+#ASKILL
+Name         fingerbeam~
+Keyword      fbeam~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         17
+Rounds       13
+Code         do_fingerbeam
+Dammsg       ~
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     99
+End
+
+#ASKILL
+Name         galactic donut~
+Keyword      donut~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         18
+Mana         2500
+Rounds       8
+Code         do_donut
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     8
+End
+
+#ASKILL
+Name         galic gun~
+Keyword      galicgun~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         19
+Rounds       7
+Code         do_galic
+Dammsg       ~
+Minlevel     0
+Powerlevel   80000000
+RaceSkill     4
+End
+
+#ASKILL
+Name         grip~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         20
+Code         do_null
+Dammsg       ~
+Value        -1
+Teachers     8027~
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     3
+End
+
+#ASKILL
+Name         heal~
+Keyword      heal~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         21
+Mana         -10
+Rounds       9
+Code         do_heal
+Dammsg       ~
+Teachers     6938~
+Minlevel     0
+Powerlevel   100000
+RaceSkill     34
+End
+
+#ASKILL
+Name         hells flash~
+Keyword      hellsflash~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         22
+Mana         6000
+Rounds       16
+Code         do_hellsflash
+Dammsg       ~
+Teachers     8026~
+Minlevel     0
+Powerlevel   85000000
+RaceSkill     1
+End
+
+#ASKILL
+Name         kamehameha~
+Keyword      kamehameha~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         23
+Mana         3500
+Rounds       14
+Radius	      20
+Range        1
+Code         do_kame
+Dammsg       ~
+Teachers     6913~
+Minlevel     0
+Powerlevel   5000000
+RaceSkill     286
+End
+
+#ASKILL
+Name         kaioken~
+Keyword      kaioken~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         24
+Mana         1250
+Rounds       10
+Range        1
+Code         do_kaioken
+Dammsg       ~
+Teachers     670~
+Minlevel     0
+Powerlevel   4000000
+RaceSkill     12
+End
+
+#ASKILL
+Name         kyodaika~
+Keyword      kyodaika~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         25
+Mana         5
+Rounds       5
+Radius	      10
+Code         do_skillkyodaika
+Dammsg       ~
+Minlevel     0
+Powerlevel   25000000
+RaceSkill     32
+End
+
+#ASKILL
+Name         makosen~
+Keyword      makosen~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         25
+Mana         4250
+Rounds       14
+Radius	      10
+Code         do_makosen
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     32
+End
+
+#ASKILL
+Name         masenko~
+Keyword      masenko~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         26
+Mana         2500
+Rounds       13
+Radius	      10
+Code         do_masenko
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     264
+End
+
+#ASKILL
+Name         mentalthrow~
+Keyword      mentalthrow~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         27
+Mana         4500
+Rounds       15
+Code         do_mental
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     64
+End
+
+#ASKILL
+Name         mouthblast~
+Keyword      mouthblast~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         4
+Mana         3500
+Rounds       11
+Code         do_mouthblast
+Dammsg       ~
+Minlevel     0
+Powerlevel   250000
+RaceSkill     140
+End
+
+#ASKILL
+Name         mystic~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         28
+Mana         500
+Range        1
+Code         do_mystic
+Dammsg       ~
+Value        -1
+Teachers     654~
+Minlevel     0
+Powerlevel   20000000
+RaceSkill     8
+End
+
+#ASKILL
+Name         overdrive~
+Keyword      overdrive~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skilloverdrive
+Dammsg       ~
+Minlevel     0
+Powerlevel   15000000
+RaceSkill     1
+End
+
+#ASKILL
+Name         pink barrier~
+Keyword      pbarrier~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillpbarrier
+Dammsg       ~
+Minlevel     0
+Powerlevel   6500000
+RaceSkill     256
+End
+
+#ASKILL
+Name         primary attack~
+Keyword      primaryattack~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         29
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     2
+End
+
+#ASKILL
+Name         primary skill~
+Keyword      primaryskill~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         30
+Code         do_null
+Dammsg       (null)~
+Value        -1
+Minlevel     0
+Powerlevel   1500000
+RaceSkill     128
+End
+
+#ASKILL
+Name         regenerate~
+Keyword      regenerate~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         31
+Code         do_skillregeneration
+Dammsg       ~
+Minlevel     0
+Powerlevel   250000
+RaceSkill     262
+End
+
+#ASKILL
+Name         renzoku energy dan~
+Keyword      renzoku~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         32
+Mana         4000
+Rounds       14
+Code         do_renzoku
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     424
+End
+
+#ASKILL
+Name         rocketpunch~
+Keyword      rocketpunch~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         50
+Mana         5000
+Rounds       15
+Code         do_rocketpunch
+Dammsg       ~
+Minlevel     0
+Powerlevel   65000000
+RaceSkill     1
+End
+
+#ASKILL
+Name         scattershot~
+Keyword      scattershot~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         33
+Mana         3750
+Rounds       14
+Code         do_scattershot
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     160
+End
+
+#ASKILL
+Name         secondary skill~
+Keyword      secondaryskill~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         34
+Code         do_null
+Dammsg       ~
+Value        -1
+Minlevel     0
+Powerlevel   85000000
+RaceSkill     128
+End
+
+#ASKILL
+Name         soulcry~
+Keyword      scry~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skillsoulcry
+Dammsg       ~
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     256
+End
+
+#ASKILL
+Name         special beam cannon~
+Keyword      beamcannon~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         35
+Mana         3500
+Rounds       14
+Radius	      20
+Code         do_sbc
+Dammsg       ~
+Teachers     6939~
+Minlevel     0
+Powerlevel   5000000
+RaceSkill     290
+End
+
+#ASKILL
+Name         tail~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         36
+Rounds       11
+Code         do_tail
+Dammsg       ~
+Minlevel     0
+Powerlevel   1000000
+RaceSkill     64
+End
+
+#ASKILL
+Name         timefreeze~
+Keyword      tfreeze~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         5
+Mana         5
+Rounds       5
+Code         do_skilltimefreeze
+Dammsg       ~
+Minlevel     0
+Powerlevel   65000000
+RaceSkill     128
+End
+
+#ASKILL
+Name         tribeam~
+Keyword      tribeam~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         37
+Mana         3000
+Rounds       13
+Radius	      15
+Code         do_tribeam
+Dammsg       ~
+Minlevel     0
+Powerlevel   55000000
+RaceSkill     16
+End
+
+#ASKILL
+Name         super ghost kamikaze attack~
+Keyword      ghostattack~
+Type         ASkill
+Info         0
+Flags        0
+Minpos       107
+Slot         38
+Mana         5250
+Rounds       15
+Code         do_ghostattack
+Dammsg       ~
+Minlevel     0
+Powerlevel   80000000
+RaceSkill     264
+End
+
+#END
